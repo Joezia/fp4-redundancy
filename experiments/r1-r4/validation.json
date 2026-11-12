@@ -1,0 +1,409 @@
+{
+ "all_pass": true,
+ "tests": {
+  "T1": {
+   "shape": [
+    1024,
+    2048
+   ],
+   "B": 32,
+   "seed": [
+    20261112,
+    1
+   ],
+   "theory": {},
+   "checks": [
+    {
+     "check": "A1 K",
+     "value": 15.0,
+     "criterion": "== 15",
+     "pass": true
+    },
+    {
+     "check": "A1 unused-codeword term",
+     "value": 0.0931094043914813,
+     "criterion": "== 0.0931 (4-log2 15, to 4 d.p.)",
+     "pass": true
+    },
+    {
+     "check": "A1 skew term",
+     "value": 5.8205218302909145e-06,
+     "criterion": "< 1e-4",
+     "pass": true
+    },
+    {
+     "check": "C1 all: mean_d 2 n ln2 MI (d=1..96)",
+     "value": 196.25712089251374,
+     "criterion": "196 +/- 5%",
+     "pass": true
+    },
+    {
+     "check": "B2 m_max:achievable=I-H(G)/B",
+     "value": -0.00043940965144521416,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "B2 energy2:achievable=I-H(G)/B",
+     "value": -0.0166097515575083,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "B2 energy4:achievable=I-H(G)/B",
+     "value": -0.04259044931661892,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "B2 energy8:achievable=I-H(G)/B",
+     "value": -0.07187594267315427,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "B3 net",
+     "value": 0.0006410380568268037,
+     "criterion": "|net| < 0.005",
+     "pass": true
+    },
+    {
+     "check": "C4 left1 raw",
+     "value": -0.00017224970630547176,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "C4 left1 raw - S0",
+     "value": -3.383049845447536e-05,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "C4 left1-2 raw",
+     "value": -0.002319847578084122,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "C4 left1-2 raw - S0",
+     "value": 1.0800457319751992e-05,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "C4 left1-3 raw",
+     "value": -0.034367594506020005,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "C4 left1-3 raw - S0",
+     "value": 0.0006973815371707701,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "C4 up1 raw",
+     "value": -0.00015664798065317953,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "C4 up1 raw - S0",
+     "value": -2.490939090860067e-05,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "C4 up1-2 raw",
+     "value": -0.002359539717005976,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "C4 up1-2 raw - S0",
+     "value": -3.537881268093424e-05,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "C4 left1+up1 raw",
+     "value": -0.0023937116538115255,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "C4 left1+up1 raw - S0",
+     "value": -0.00012137215708696303,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "C4 left1+up1+upleft raw",
+     "value": -0.0347061860676634,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "C4 left1+up1+upleft raw - S0",
+     "value": -0.00014791446981909928,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "D1 significant count (|r| > 5/sqrt n, all rows)",
+     "value": 0,
+     "criterion": "== 0 of 1148",
+     "pass": true
+    },
+    {
+     "check": "D3 R2 (v)",
+     "value": -1.225952001027153e-05,
+     "criterion": "< 1e-4",
+     "pass": true
+    },
+    {
+     "check": "D3 R2 (|v|)",
+     "value": -3.994020283282218e-06,
+     "criterion": "< 1e-4",
+     "pass": true
+    }
+   ],
+   "pass": true
+  },
+  "T2": {
+   "shape": [
+    1024,
+    2048
+   ],
+   "B": 32,
+   "seed": [
+    20261112,
+    2
+   ],
+   "theory": {
+    "mi_d1": 0.09644841023552608
+   },
+   "checks": [
+    {
+     "check": "theory I(d=1)",
+     "value": 0.09644841023552608,
+     "criterion": "from transition matrix",
+     "pass": true
+    },
+    {
+     "check": "C1 d=1 relative error",
+     "value": 0.0011749492944432653,
+     "criterion": "< 2%",
+     "pass": true
+    },
+    {
+     "check": "C4 left1 relative error",
+     "value": 0.003133133281526702,
+     "criterion": "< 2%",
+     "pass": true
+    }
+   ],
+   "pass": true
+  },
+  "T3": {
+   "shape": [
+    1024,
+    2048
+   ],
+   "B": 32,
+   "seed": [
+    20261112,
+    3
+   ],
+   "theory": {
+    "mi_same": 0.010921143522612699
+   },
+   "checks": [
+    {
+     "check": "theory same-block pair MI",
+     "value": 0.010921143522612699,
+     "criterion": "mixture of two quantized Gaussians",
+     "pass": true
+    },
+    {
+     "check": "C1 same d=1 relative error",
+     "value": 0.012984425469289117,
+     "criterion": "< 5%",
+     "pass": true
+    },
+    {
+     "check": "C1 same |d16-d1|/d1",
+     "value": 0.003958896927637752,
+     "criterion": "< 10%",
+     "pass": true
+    },
+    {
+     "check": "C1 cross-block significant count (vs S0, d=1..96)",
+     "value": 0,
+     "criterion": "== 0 of 96",
+     "pass": true
+    },
+    {
+     "check": "C1 same d=1 change under S2",
+     "value": 0.015015752962624123,
+     "criterion": "< 5%",
+     "pass": true
+    },
+    {
+     "check": "C1 same d=1 under S1: S1 mean - S0 mean",
+     "value": -7.265811660811538e-07,
+     "criterion": "<= 5 analytic sd (3.77e-05) (not significant)",
+     "pass": true
+    },
+    {
+     "check": "B2 energy2 achievable (real)",
+     "value": 0.07261637672460203,
+     "criterion": "> 0.05",
+     "pass": true
+    },
+    {
+     "check": "B2 energy2 achievable (S0 mean)",
+     "value": -0.016587134159443347,
+     "criterion": "<= 0",
+     "pass": true
+    },
+    {
+     "check": "B3 net",
+     "value": 0.07403612050093267,
+     "criterion": "> 0.05",
+     "pass": true
+    }
+   ],
+   "pass": true
+  },
+  "T4": {
+   "shape": [
+    1024,
+    2048
+   ],
+   "B": 32,
+   "seed": [
+    20261112,
+    4
+   ],
+   "theory": {
+    "left12": 0.5077409742370422
+   },
+   "checks": [
+    {
+     "check": "C1 d=1 significant (vs S0)",
+     "value": -9.027111802412197e-06,
+     "criterion": "not significant",
+     "pass": true
+    },
+    {
+     "check": "C1 d=2 significant (vs S0)",
+     "value": 1.1809197045630661e-05,
+     "criterion": "not significant",
+     "pass": true
+    },
+    {
+     "check": "C4 left1 raw",
+     "value": -0.0002205074497991788,
+     "criterion": "|.| < 0.002",
+     "pass": true
+    },
+    {
+     "check": "C4 left1-2 relative error vs 0.5077",
+     "value": 0.0037969421376482246,
+     "criterion": "< 2%",
+     "pass": true
+    }
+   ],
+   "pass": true
+  },
+  "T5": {
+   "shape": [
+    1024,
+    2048
+   ],
+   "B": 32,
+   "seed": [
+    20261112,
+    5
+   ],
+   "theory": {},
+   "checks": [
+    {
+     "check": "D1 v d=1",
+     "value": 0.19810669554957105,
+     "criterion": "in [0.18, 0.21]",
+     "pass": true
+    },
+    {
+     "check": "D1 v d=1 under S0: max |r| over reps",
+     "value": 0.001391819649843065,
+     "criterion": "< 5/sqrt(n) = 0.00345",
+     "pass": true
+    },
+    {
+     "check": "D3 R2 vs D1(d=1)^2 relative error",
+     "value": 0.0004897100356562925,
+     "criterion": "< 10%",
+     "pass": true
+    },
+    {
+     "check": "D2 row vs -0.5 log2(1-D1^2) relative error",
+     "value": 0.010256260011839761,
+     "criterion": "< 10%",
+     "pass": true
+    },
+    {
+     "check": "C4 left1 vs D3 bits relative error",
+     "value": 0.0017620160279953878,
+     "criterion": "< 15%",
+     "pass": true
+    }
+   ],
+   "pass": true
+  },
+  "T6": {
+   "shape": [
+    1024,
+    2048
+   ],
+   "B": 32,
+   "seed": [
+    20261112,
+    6
+   ],
+   "theory": {
+    "mi_mm_d1_semi_analytic": 0.13905935347842713
+   },
+   "checks": [
+    {
+     "check": "D1 v d=1",
+     "value": -0.0005724366527856621,
+     "criterion": "not significant (|r| <= 0.00345)",
+     "pass": true
+    },
+    {
+     "check": "D1 |v| d=1",
+     "value": 0.4698258633005025,
+     "criterion": "> 0.2",
+     "pass": true
+    },
+    {
+     "check": "C3 I(s;s') row d=1..8 significant count",
+     "value": 0,
+     "criterion": "== 0 of 8",
+     "pass": true
+    },
+    {
+     "check": "C3 I(m;m') row d=1",
+     "value": 0.13975004919781847,
+     "criterion": "> 0.05",
+     "pass": true
+    }
+   ],
+   "pass": true
+  }
+ }
+}

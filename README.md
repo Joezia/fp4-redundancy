@@ -78,6 +78,12 @@
 70项测试及1,280次整数路径ASan/UBSan检查通过。例：FPC膨胀由4-bit的173.17%降至64-bit的6.38%；算术编码8-bit节省2.66%，16-bit则因频率表开销膨胀43.16%。
 逐方法支持、等价项和限制见[支持清单](experiments/grouped-units/audit.md)，逐宽度的Payload节省率、元数据与总收益见[分组实验结果](experiments/grouped-units/report.md)。
 
+## FP4 码字规律检测（R1–R4）
+
+按[规格 001](docs/001-R1-R4规律检测.md)从零实现的统计测量（`diagnostics/`，不产生码流），样本为层 0/13/26/39 各 3 个路由专家的完整 w1/w2/w3，共 36 张矩阵；合成数据检查 T1–T6 全部通过后才读取模型。
+36 张矩阵中位数（bit/权重）：R1 边缘偏斜 4 − H0 = 0.106；R2 块级离散度 0.161，scale 值作免费分组 0.127；R3 去掉块级差异后的顺序依赖约为 0；R4 只有 |v| 沿行相关（R² = 0.042，即 0.031 bit），且来自块级幅值聚集。
+结果与读法见[检测摘要](experiments/r1-r4/summary.md)，格式依据见[格式事实](experiments/r1-r4/format.md)。
+
 ## 使用
 
 首次使用复制`.env.example`为`.env`并设置本地路径，然后在仓库根目录加载 `source .env`。查看已实现方法：`PYTHONPATH=src python3 -m fp4_redundancy methods`。
