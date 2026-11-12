@@ -1,0 +1,92 @@
+{
+  "references": [
+    {
+      "repository": "uclouvain/openjpeg",
+      "sha": "8314119b067c0fc77834731168daaebd379fdb12",
+      "path": "src/lib/openjp2/dwt.c",
+      "sha256": "f992069f6e8956a8dc45912f43bc0f7c434b070081e88c43a0a09dc7abd479ce",
+      "usage": "Source review only; own codeword/numerical adapter, not linked upstream library"
+    },
+    {
+      "repository": "xiph/vorbis",
+      "sha": "c2aa86b05e981c96bf381fc6aa11cdd03eccc2fb",
+      "path": "lib/mdct.c",
+      "sha256": "e32b379d7a3d9253524abae3c41c5ac2486bf166cf65996efc4e68db1b164993",
+      "usage": "Source review only; own codeword/numerical adapter, not linked upstream library"
+    }
+  ],
+  "methods": [
+    {
+      "techniques": "BWT + MTF",
+      "source": "https://sourceware.org/bzip2/manual/manual.html",
+      "implementation": "Own cyclic prefix-doubling BWT over complete uint16 alphabets, primary position per 65536 symbols; Fenwick move-to-front, full inverse; existing A1 arithmetic ranks. Not a bzip2 stream."
+    },
+    {
+      "techniques": "DCT / DST",
+      "sources": [
+        "https://www.fftw.org/fftw3_doc/1d-Real_002deven-DFTs-_0028DCTs_0029.html",
+        "https://www.fftw.org/fftw3_doc/1d-Real_002dodd-DFTs-_0028DSTs_0029.html",
+        "https://github.com/4creators/jxrlib/blob/master/image/sys/strTransform.c"
+      ],
+      "implementation": "Reviewed integer/lapped lifting options; do not substitute JPEG-XR PCT or a rounded approximate integer DCT for the declared transforms. Own N=8 orthonormal DCT-II and DST-I definitions, serialized Q20 basis and coefficients, exact whole-codeword corrections from actual integer inverse. Not FFTW-linked codecs or native reversible integer DCT/DST."
+    },
+    {
+      "techniques": "MDCT",
+      "sources": [
+        "https://xiph.org/vorbis/doc/Vorbis_I_spec.html",
+        "https://doi.org/10.1109/TASSP.1986.1164954"
+      ],
+      "implementation": "Own definition-based MDCT, 2N=16 hop8, sine window satisfying Princen-Bradley, zero-prefix priming and suffix within each independent component. Serialize Q20 cosine/window and coefficients; IMDCT 2/N and overlap-add before exact codeword correction. No Vorbis framing; window differs from Vorbis nested-sine window."
+    },
+    {
+      "techniques": "CDF 5/3 / integer lifting",
+      "source": "https://cm-bell-labs.github.io/who/wim/papers/integer.pdf",
+      "implementation": "Two distinct exact transforms: whole-sample symmetric reversible CDF 5/3 prediction/update with floor division; Haar S transform d=b-a,s=a+floor(d/2). Multilevel 256-word blocks, odd tails explicitly handled, signed int64 intermediate and checked int32 coefficients, no lossy clipping or correction stream."
+    },
+    {
+      "techniques": "Bit-plane coding",
+      "implementation": "Only this D plugin performs MSB-first full-codeword bit-plane mapping; every plane arithmetic-coded with its own static binary model, all model/state bytes billed; restore native codewords and packed byte order."
+    },
+    {
+      "techniques": "KLT/PCA",
+      "source": "https://eigen.tuxfamily.org/dox/classEigen_1_1SelfAdjointEigenSolver.html",
+      "implementation": "Prefix <=512 eight-dimensional vectors, centered covariance, full ordered eigenbasis. Save mean/basis Q20 and all coefficients, exact codeword XOR corrections. Decode does not recompute eigenvectors."
+    },
+    {
+      "techniques": "Sparse Coding / K-SVD",
+      "source": "https://elad.cs.technion.ac.il/wp-content/uploads/2018/02/32_KSVD_IEEE_TSP.pdf",
+      "implementation": "Actual OMP with orthogonal least-squares support refit, sparsity3, eight-dimensional 16-atom identity+DCT dictionary. K-SVD initializes from normalized samples and alternates OMP and supported residual rank-1 SVD updates four rounds (<=512 training vectors), reinitializes unused atoms with current residuals; final serialized dictionary used for all coding. Sparse supports, Q20 coefficients, dictionary and exact corrections billed. Not k-means."
+    },
+    {
+      "techniques": "SVD / Low-rank Approximation",
+      "implementation": "One shared explicit rank-2 truncated-SVD configuration over C-order contiguous64-value 8x8 tiles. Save two Q20 square-root-scaled factors and codeword correction; no singular spectrum statistics-only proxy."
+    },
+    {
+      "techniques": "CP / Tucker",
+      "source": "https://www.mathsci.ai/publication/TensorReview.pdf",
+      "implementation": "C-order contiguous64-value 4x4x4 tensors, T[i,j,k]=stream[base+16i+4j+k]. CP rank2, twenty ALS sweeps with Khatri-Rao designs, minimum-norm SVD solves and scale normalization. Tucker HOSVD separate mode unfoldings, ranks(2,2,2), three4x2 factors plus2x2x2 core. Each has its own reconstruction, all factors/cores Q20 and exact correction."
+    },
+    {
+      "techniques": "TT",
+      "sources": [
+        "https://doi.org/10.1137/090752286",
+        "https://tensorly.org/stable/_modules/tensorly/decomposition/_tt.html"
+      ],
+      "implementation": "TT-SVD successive reshape/SVD on 4x4x4 C-order tiles, ranks(1,2,2,1). Cores1x4x2,2x4x2,2x4x1; final serialized integer contraction and exact correction; not a CP/Tucker or matrix-SVD alias."
+    },
+    {
+      "techniques": "Kronecker",
+      "source": "https://persson.berkeley.edu/pub/pazner17precond.pdf",
+      "implementation": "Nearest2x2 tensor4x4 Kronecker product per8x8 tile: explicit4x16 rearrangement, leading SVD and square-root-scaled factors. Own integer inverse rearrangement/contraction and codeword correction."
+    },
+    {
+      "techniques": "Circulant",
+      "source": "https://raymondhonfu.github.io/paper/elliptic.pdf",
+      "implementation": "Least-squares circulant fit via means along cyclic diagonals, C[i,j]=c[(j-i) mod8]. Eight Q20 generator parameters and exact correction for arbitrary input, not pre-filtering exact circulants."
+    },
+    {
+      "dependencies": "Existing A1/YAECL arithmetic and C3 numerical interpretation/fixed-value projection, Eigen 3.3.7 cf794d3b741a6278df169e58461f8529f43bce5d. No duplicate library copy; all dependency hashes verified by D build metadata.",
+      "implementation": "Parameters explicitly serialized, coefficient/factor values zigzag int32 then interleaved low/high uint16 words through same A1 arithmetic. Codeword XOR correction separate. Decoder uses bounded __int128 fixed-point contractions; no floating decomposition/learning on decode."
+    }
+  ]
+}

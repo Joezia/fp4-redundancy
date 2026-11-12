@@ -1,0 +1,1630 @@
+{
+  "repair/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 70.52,
+    "finished_utc": "2026-11-10T02:45:30.433499+00:00",
+    "resources": "runs/repair/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 519344,
+    "status": "verified"
+  },
+  "ctw/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 15.63,
+    "finished_utc": "2026-11-10T02:44:35.543816+00:00",
+    "resources": "runs/ctw/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242136,
+    "status": "verified"
+  },
+  "ctw/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 27.28,
+    "finished_utc": "2026-11-10T02:44:47.193994+00:00",
+    "resources": "runs/ctw/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242284,
+    "status": "verified"
+  },
+  "ctw/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 16.22,
+    "finished_utc": "2026-11-10T02:44:36.132281+00:00",
+    "resources": "runs/ctw/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242304,
+    "status": "verified"
+  },
+  "repair/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 29.15,
+    "finished_utc": "2026-11-10T02:45:04.701573+00:00",
+    "resources": "runs/repair/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 393620,
+    "status": "verified"
+  },
+  "repair/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 7.73,
+    "finished_utc": "2026-11-10T02:44:43.870959+00:00",
+    "resources": "runs/repair/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 295648,
+    "status": "verified"
+  },
+  "vq_codeword/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.2,
+    "finished_utc": "2026-11-10T02:44:50.078632+00:00",
+    "resources": "runs/vq_codeword/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242220,
+    "status": "verified"
+  },
+  "vq_codeword/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.67,
+    "finished_utc": "2026-11-10T02:44:52.870894+00:00",
+    "resources": "runs/vq_codeword/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242224,
+    "status": "verified"
+  },
+  "vq_codeword/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 24.2,
+    "finished_utc": "2026-11-10T02:45:14.284435+00:00",
+    "resources": "runs/vq_codeword/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242216,
+    "status": "verified"
+  },
+  "aq_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 29.54,
+    "finished_utc": "2026-11-10T02:45:34.248709+00:00",
+    "resources": "runs/aq_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242264,
+    "status": "verified"
+  },
+  "aq_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 53.03,
+    "finished_utc": "2026-11-10T02:45:45.904076+00:00",
+    "resources": "runs/aq_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242000,
+    "status": "verified"
+  },
+  "aq_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 18.56,
+    "finished_utc": "2026-11-10T02:45:32.854046+00:00",
+    "resources": "runs/aq_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242276,
+    "status": "verified"
+  },
+  "cp_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 34.48,
+    "finished_utc": "2026-11-10T02:46:04.924501+00:00",
+    "resources": "runs/cp_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242252,
+    "status": "verified"
+  },
+  "cp_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 19.93,
+    "finished_utc": "2026-11-10T02:45:52.792233+00:00",
+    "resources": "runs/cp_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242060,
+    "status": "verified"
+  },
+  "cp_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 13.37,
+    "finished_utc": "2026-11-10T02:45:47.625554+00:00",
+    "resources": "runs/cp_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242236,
+    "status": "verified"
+  },
+  "adpcm_like_fp4/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.51,
+    "finished_utc": "2026-11-10T02:45:52.421668+00:00",
+    "resources": "runs/adpcm_like_fp4/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242212,
+    "status": "verified"
+  },
+  "arithmetic/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 3.5,
+    "finished_utc": "2026-11-10T02:45:51.132086+00:00",
+    "resources": "runs/arithmetic/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242384,
+    "status": "verified"
+  },
+  "bitplane/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 7.34,
+    "finished_utc": "2026-11-10T02:45:58.483140+00:00",
+    "resources": "runs/bitplane/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242268,
+    "status": "verified"
+  },
+  "block_dedup/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 3.94,
+    "finished_utc": "2026-11-10T02:45:56.364001+00:00",
+    "resources": "runs/block_dedup/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242084,
+    "status": "verified"
+  },
+  "bwt_mtf/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 9.42,
+    "finished_utc": "2026-11-10T02:46:02.215455+00:00",
+    "resources": "runs/bwt_mtf/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242140,
+    "status": "verified"
+  },
+  "cabac/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.6,
+    "finished_utc": "2026-11-10T02:46:02.966025+00:00",
+    "resources": "runs/cabac/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242128,
+    "status": "verified"
+  },
+  "cavlc/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 4.83,
+    "finished_utc": "2026-11-10T02:46:03.324003+00:00",
+    "resources": "runs/cavlc/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242092,
+    "status": "verified"
+  },
+  "cdf53/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.91,
+    "finished_utc": "2026-11-10T02:46:09.879138+00:00",
+    "resources": "runs/cdf53/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242320,
+    "status": "verified"
+  },
+  "cdc_dedup/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 4.03,
+    "finished_utc": "2026-11-10T02:46:06.252357+00:00",
+    "resources": "runs/cdc_dedup/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242220,
+    "status": "verified"
+  },
+  "circulant_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.84,
+    "finished_utc": "2026-11-10T02:46:10.165940+00:00",
+    "resources": "runs/circulant_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242068,
+    "status": "verified"
+  },
+  "dct_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 17.21,
+    "finished_utc": "2026-11-10T02:46:22.137759+00:00",
+    "resources": "runs/dct_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242080,
+    "status": "verified"
+  },
+  "delta/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.26,
+    "finished_utc": "2026-11-10T02:46:11.523348+00:00",
+    "resources": "runs/delta/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242016,
+    "status": "verified"
+  },
+  "dpcm_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.29,
+    "finished_utc": "2026-11-10T02:46:15.173700+00:00",
+    "resources": "runs/dpcm_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242308,
+    "status": "verified"
+  },
+  "dst_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 16.41,
+    "finished_utc": "2026-11-10T02:46:26.585864+00:00",
+    "resources": "runs/dst_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242360,
+    "status": "verified"
+  },
+  "fpc_like_fp4/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 4.0,
+    "finished_utc": "2026-11-10T02:46:15.531314+00:00",
+    "resources": "runs/fpc_like_fp4/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242144,
+    "status": "verified"
+  },
+  "golomb_rice/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 2.45,
+    "finished_utc": "2026-11-10T02:46:17.627203+00:00",
+    "resources": "runs/golomb_rice/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242120,
+    "status": "verified"
+  },
+  "haar_lifting/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.9,
+    "finished_utc": "2026-11-10T02:46:22.434770+00:00",
+    "resources": "runs/haar_lifting/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242140,
+    "status": "verified"
+  },
+  "huffman/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 2.26,
+    "finished_utc": "2026-11-10T02:46:19.891448+00:00",
+    "resources": "runs/huffman/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242024,
+    "status": "verified"
+  },
+  "intra_directional/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.53,
+    "finished_utc": "2026-11-10T02:46:25.431978+00:00",
+    "resources": "runs/intra_directional/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242380,
+    "status": "verified"
+  },
+  "kronecker_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 11.68,
+    "finished_utc": "2026-11-10T02:46:34.124817+00:00",
+    "resources": "runs/kronecker_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242052,
+    "status": "verified"
+  },
+  "jpeg_ls_like_fp4/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 4.81,
+    "finished_utc": "2026-11-10T02:46:26.957928+00:00",
+    "resources": "runs/jpeg_ls_like_fp4/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 241948,
+    "status": "verified"
+  },
+  "ksvd_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 25.53,
+    "finished_utc": "2026-11-10T02:46:50.964874+00:00",
+    "resources": "runs/ksvd_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242152,
+    "status": "verified"
+  },
+  "lpc_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.5,
+    "finished_utc": "2026-11-10T02:46:32.095643+00:00",
+    "resources": "runs/lpc_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242272,
+    "status": "verified"
+  },
+  "lz77/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.28,
+    "finished_utc": "2026-11-10T02:46:38.377523+00:00",
+    "resources": "runs/lz77/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242188,
+    "status": "verified"
+  },
+  "ltp_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.36,
+    "finished_utc": "2026-11-10T02:46:33.323266+00:00",
+    "resources": "runs/ltp_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242308,
+    "status": "verified"
+  },
+  "lz78/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.23,
+    "finished_utc": "2026-11-10T02:46:38.560693+00:00",
+    "resources": "runs/lz78/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242172,
+    "status": "verified"
+  },
+  "lzss/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 4.59,
+    "finished_utc": "2026-11-10T02:46:38.717314+00:00",
+    "resources": "runs/lzss/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242248,
+    "status": "verified"
+  },
+  "mdct_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 20.75,
+    "finished_utc": "2026-11-10T02:46:59.316962+00:00",
+    "resources": "runs/mdct_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242184,
+    "status": "verified"
+  },
+  "lzw/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.06,
+    "finished_utc": "2026-11-10T02:46:44.446274+00:00",
+    "resources": "runs/lzw/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242172,
+    "status": "verified"
+  },
+  "motion_compensation/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.43,
+    "finished_utc": "2026-11-10T02:46:44.153642+00:00",
+    "resources": "runs/motion_compensation/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242340,
+    "status": "verified"
+  },
+  "neural_entropy/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 8.17,
+    "finished_utc": "2026-11-10T02:46:52.331302+00:00",
+    "resources": "runs/neural_entropy/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242012,
+    "status": "verified"
+  },
+  "opq_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.76,
+    "finished_utc": "2026-11-10T02:46:51.208172+00:00",
+    "resources": "runs/opq_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242212,
+    "status": "verified"
+  },
+  "paq/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 7.27,
+    "finished_utc": "2026-11-10T02:46:58.246026+00:00",
+    "resources": "runs/paq/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242044,
+    "status": "verified"
+  },
+  "pca_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 19.23,
+    "finished_utc": "2026-11-10T02:47:10.443931+00:00",
+    "resources": "runs/pca_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242076,
+    "status": "verified"
+  },
+  "png_filtering/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.53,
+    "finished_utc": "2026-11-10T02:46:57.872283+00:00",
+    "resources": "runs/png_filtering/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242212,
+    "status": "verified"
+  },
+  "pq_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.5,
+    "finished_utc": "2026-11-10T02:47:04.753103+00:00",
+    "resources": "runs/pq_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242236,
+    "status": "verified"
+  },
+  "ppm/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 11.5,
+    "finished_utc": "2026-11-10T02:47:09.382311+00:00",
+    "resources": "runs/ppm/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242064,
+    "status": "verified"
+  },
+  "rans/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 2.33,
+    "finished_utc": "2026-11-10T02:47:01.658742+00:00",
+    "resources": "runs/rans/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242112,
+    "status": "verified"
+  },
+  "rle/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 4.0,
+    "finished_utc": "2026-11-10T02:47:05.663175+00:00",
+    "resources": "runs/rle/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242092,
+    "status": "verified"
+  },
+  "rlz/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.38,
+    "finished_utc": "2026-11-10T02:47:11.140962+00:00",
+    "resources": "runs/rlz/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242264,
+    "status": "verified"
+  },
+  "rvq_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.71,
+    "finished_utc": "2026-11-10T02:47:12.380186+00:00",
+    "resources": "runs/rvq_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242096,
+    "status": "verified"
+  },
+  "sequitur/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 31.67,
+    "finished_utc": "2026-11-10T02:47:41.056909+00:00",
+    "resources": "runs/sequitur/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 384436,
+    "status": "verified"
+  },
+  "sparse_coding/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 23.54,
+    "finished_utc": "2026-11-10T02:47:33.989973+00:00",
+    "resources": "runs/sparse_coding/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242124,
+    "status": "verified"
+  },
+  "svd_lowrank/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 16.66,
+    "finished_utc": "2026-11-10T02:47:27.805946+00:00",
+    "resources": "runs/svd_lowrank/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242020,
+    "status": "verified"
+  },
+  "sz_like_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 4.09,
+    "finished_utc": "2026-11-10T02:47:16.477884+00:00",
+    "resources": "runs/sz_like_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242172,
+    "status": "verified"
+  },
+  "tt_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 15.23,
+    "finished_utc": "2026-11-10T02:47:31.711731+00:00",
+    "resources": "runs/tt_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242164,
+    "status": "verified"
+  },
+  "tucker_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 16.9,
+    "finished_utc": "2026-11-10T02:47:44.708651+00:00",
+    "resources": "runs/tucker_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242132,
+    "status": "verified"
+  },
+  "vcdiff/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 12.3,
+    "finished_utc": "2026-11-10T02:47:44.017178+00:00",
+    "resources": "runs/vcdiff/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 278176,
+    "status": "verified"
+  },
+  "vq_lossless/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 6.35,
+    "finished_utc": "2026-11-10T02:47:40.349737+00:00",
+    "resources": "runs/vq_lossless/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242100,
+    "status": "verified"
+  },
+  "xor/unit4": {
+    "exit_code": 0,
+    "wall_seconds": 5.28,
+    "finished_utc": "2026-11-10T02:47:45.641375+00:00",
+    "resources": "runs/xor/grouped_units/unit4-resources.txt",
+    "peak_process_rss_kib": 242096,
+    "status": "verified"
+  },
+  "adpcm_like_fp4/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.36,
+    "finished_utc": "2026-11-10T02:47:46.424370+00:00",
+    "resources": "runs/adpcm_like_fp4/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242316,
+    "status": "verified"
+  },
+  "arithmetic/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 3.35,
+    "finished_utc": "2026-11-10T02:47:47.370674+00:00",
+    "resources": "runs/arithmetic/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242044,
+    "status": "verified"
+  },
+  "bitplane/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 7.12,
+    "finished_utc": "2026-11-10T02:47:51.839112+00:00",
+    "resources": "runs/bitplane/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242112,
+    "status": "verified"
+  },
+  "bwt_mtf/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 6.94,
+    "finished_utc": "2026-11-10T02:47:52.592164+00:00",
+    "resources": "runs/bwt_mtf/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242016,
+    "status": "verified"
+  },
+  "cabac/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 7.21,
+    "finished_utc": "2026-11-10T02:47:53.637870+00:00",
+    "resources": "runs/cabac/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 241980,
+    "status": "verified"
+  },
+  "cavlc/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.2,
+    "finished_utc": "2026-11-10T02:47:51.572900+00:00",
+    "resources": "runs/cavlc/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242300,
+    "status": "verified"
+  },
+  "cdc_dedup/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 3.6,
+    "finished_utc": "2026-11-10T02:47:55.179332+00:00",
+    "resources": "runs/cdc_dedup/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242256,
+    "status": "verified"
+  },
+  "cdf53/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.81,
+    "finished_utc": "2026-11-10T02:47:57.655807+00:00",
+    "resources": "runs/cdf53/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242012,
+    "status": "verified"
+  },
+  "circulant_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.84,
+    "finished_utc": "2026-11-10T02:47:58.443240+00:00",
+    "resources": "runs/circulant_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242140,
+    "status": "verified"
+  },
+  "dct_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 11.29,
+    "finished_utc": "2026-11-10T02:48:04.938511+00:00",
+    "resources": "runs/dct_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 241976,
+    "status": "verified"
+  },
+  "delta/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.77,
+    "finished_utc": "2026-11-10T02:47:59.955911+00:00",
+    "resources": "runs/delta/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242008,
+    "status": "verified"
+  },
+  "dpcm_lossless/unit8": {
+    "status": "verified",
+    "exit_code": 0,
+    "wall_seconds": 4.85,
+    "peak_process_rss_kib": 242236,
+    "resources": "runs/dpcm_lossless/grouped_units/unit8-resources.txt"
+  },
+  "dst_lossless/unit8": {
+    "status": "verified",
+    "exit_code": 0,
+    "wall_seconds": 11.36,
+    "peak_process_rss_kib": 242180,
+    "resources": "runs/dst_lossless/grouped_units/unit8-resources.txt"
+  },
+  "fpc_like_fp4/unit8": {
+    "status": "verified",
+    "exit_code": 0,
+    "wall_seconds": 3.67,
+    "peak_process_rss_kib": 242160,
+    "resources": "runs/fpc_like_fp4/grouped_units/unit8-resources.txt"
+  },
+  "golomb_rice/unit8": {
+    "status": "verified",
+    "exit_code": 0,
+    "wall_seconds": 2.42,
+    "peak_process_rss_kib": 242328,
+    "resources": "runs/golomb_rice/grouped_units/unit8-resources.txt"
+  },
+  "huffman/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 2.21,
+    "finished_utc": "2026-11-10T02:48:00.657013+00:00",
+    "resources": "runs/huffman/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242228,
+    "status": "verified"
+  },
+  "jpeg_ls_like_fp4/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.27,
+    "resources": "runs/jpeg_ls_like_fp4/grouped_units/unit8-buffer-v2-resources.txt",
+    "output": "runs/jpeg_ls_like_fp4/grouped_units/unit8-buffer-v2",
+    "adaptation": "bounded destination growth, same CharLS codec and layout",
+    "peak_process_rss_kib": 241988,
+    "status": "verified"
+  },
+  "haar_lifting/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.77,
+    "finished_utc": "2026-11-10T02:48:03.434965+00:00",
+    "resources": "runs/haar_lifting/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242276,
+    "status": "verified"
+  },
+  "intra_directional/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.88,
+    "finished_utc": "2026-11-10T02:48:04.843515+00:00",
+    "resources": "runs/intra_directional/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242096,
+    "status": "verified"
+  },
+  "lpc_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.86,
+    "finished_utc": "2026-11-10T02:48:09.706487+00:00",
+    "resources": "runs/lpc_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242048,
+    "status": "verified"
+  },
+  "ltp_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.27,
+    "finished_utc": "2026-11-10T02:48:10.212260+00:00",
+    "resources": "runs/ltp_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242224,
+    "status": "verified"
+  },
+  "kronecker_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 7.87,
+    "finished_utc": "2026-11-10T02:48:10.854217+00:00",
+    "resources": "runs/kronecker_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242040,
+    "status": "verified"
+  },
+  "lz78/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.48,
+    "finished_utc": "2026-11-10T02:48:14.702796+00:00",
+    "resources": "runs/lz78/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242328,
+    "status": "verified"
+  },
+  "lz77/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 7.48,
+    "finished_utc": "2026-11-10T02:48:17.193747+00:00",
+    "resources": "runs/lz77/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 280668,
+    "status": "verified"
+  },
+  "lzss/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 6.48,
+    "finished_utc": "2026-11-10T02:48:17.341607+00:00",
+    "resources": "runs/lzss/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 278460,
+    "status": "verified"
+  },
+  "ksvd_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 15.04,
+    "finished_utc": "2026-11-10T02:48:18.484057+00:00",
+    "resources": "runs/ksvd_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242004,
+    "status": "verified"
+  },
+  "lzw/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.07,
+    "finished_utc": "2026-11-10T02:48:19.780904+00:00",
+    "resources": "runs/lzw/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242116,
+    "status": "verified"
+  },
+  "motion_compensation/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.84,
+    "finished_utc": "2026-11-10T02:48:22.183554+00:00",
+    "resources": "runs/motion_compensation/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242120,
+    "status": "verified"
+  },
+  "opq_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.7,
+    "finished_utc": "2026-11-10T02:48:25.489049+00:00",
+    "resources": "runs/opq_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242228,
+    "status": "verified"
+  },
+  "neural_entropy/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 7.45,
+    "finished_utc": "2026-11-10T02:48:25.936417+00:00",
+    "resources": "runs/neural_entropy/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242180,
+    "status": "verified"
+  },
+  "mdct_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 12.24,
+    "finished_utc": "2026-11-10T02:48:29.438057+00:00",
+    "resources": "runs/mdct_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242184,
+    "status": "verified"
+  },
+  "paq/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 7.78,
+    "finished_utc": "2026-11-10T02:48:29.967833+00:00",
+    "resources": "runs/paq/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242248,
+    "status": "verified"
+  },
+  "png_filtering/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.93,
+    "finished_utc": "2026-11-10T02:48:30.876722+00:00",
+    "resources": "runs/png_filtering/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242080,
+    "status": "verified"
+  },
+  "rans/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 2.28,
+    "finished_utc": "2026-11-10T02:48:33.168569+00:00",
+    "resources": "runs/rans/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242164,
+    "status": "verified"
+  },
+  "pq_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.75,
+    "finished_utc": "2026-11-10T02:48:35.728106+00:00",
+    "resources": "runs/pq_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242084,
+    "status": "verified"
+  },
+  "pca_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 11.42,
+    "finished_utc": "2026-11-10T02:48:36.919906+00:00",
+    "resources": "runs/pca_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242236,
+    "status": "verified"
+  },
+  "rle/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 3.78,
+    "finished_utc": "2026-11-10T02:48:36.957024+00:00",
+    "resources": "runs/rle/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242388,
+    "status": "verified"
+  },
+  "rlz/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.78,
+    "finished_utc": "2026-11-10T02:48:41.514437+00:00",
+    "resources": "runs/rlz/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242120,
+    "status": "verified"
+  },
+  "rvq_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.83,
+    "finished_utc": "2026-11-10T02:48:42.757512+00:00",
+    "resources": "runs/rvq_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242016,
+    "status": "verified"
+  },
+  "ppm/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 19.34,
+    "finished_utc": "2026-11-10T02:48:48.785716+00:00",
+    "resources": "runs/ppm/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242264,
+    "status": "verified"
+  },
+  "sz_like_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 3.7,
+    "finished_utc": "2026-11-10T02:48:52.492218+00:00",
+    "resources": "runs/sz_like_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242072,
+    "status": "verified"
+  },
+  "svd_lowrank/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 10.54,
+    "finished_utc": "2026-11-10T02:48:53.302386+00:00",
+    "resources": "runs/svd_lowrank/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242200,
+    "status": "verified"
+  },
+  "sparse_coding/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 14.42,
+    "finished_utc": "2026-11-10T02:48:55.943427+00:00",
+    "resources": "runs/sparse_coding/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242132,
+    "status": "verified"
+  },
+  "sequitur/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 22.57,
+    "finished_utc": "2026-11-10T02:48:59.533112+00:00",
+    "resources": "runs/sequitur/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 361876,
+    "status": "verified"
+  },
+  "tt_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 9.91,
+    "finished_utc": "2026-11-10T02:49:02.412284+00:00",
+    "resources": "runs/tt_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242012,
+    "status": "verified"
+  },
+  "vcdiff/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 6.65,
+    "finished_utc": "2026-11-10T02:49:02.599994+00:00",
+    "resources": "runs/vcdiff/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242120,
+    "status": "verified"
+  },
+  "tucker_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 10.59,
+    "finished_utc": "2026-11-10T02:49:03.898895+00:00",
+    "resources": "runs/tucker_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242200,
+    "status": "verified"
+  },
+  "vq_lossless/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 5.68,
+    "finished_utc": "2026-11-10T02:49:05.222907+00:00",
+    "resources": "runs/vq_lossless/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242052,
+    "status": "verified"
+  },
+  "xor/unit8": {
+    "exit_code": 0,
+    "wall_seconds": 4.82,
+    "finished_utc": "2026-11-10T02:49:07.239903+00:00",
+    "resources": "runs/xor/grouped_units/unit8-resources.txt",
+    "peak_process_rss_kib": 242116,
+    "status": "verified"
+  },
+  "arithmetic/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 3.58,
+    "finished_utc": "2026-11-10T02:49:07.482431+00:00",
+    "resources": "runs/arithmetic/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242140,
+    "status": "verified"
+  },
+  "adpcm_like_fp4/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.19,
+    "finished_utc": "2026-11-10T02:49:07.800217+00:00",
+    "resources": "runs/adpcm_like_fp4/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242076,
+    "status": "verified"
+  },
+  "cavlc/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 4.32,
+    "finished_utc": "2026-11-10T02:49:12.123597+00:00",
+    "resources": "runs/cavlc/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242108,
+    "status": "verified"
+  },
+  "bitplane/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 7.27,
+    "finished_utc": "2026-11-10T02:49:12.502629+00:00",
+    "resources": "runs/bitplane/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242256,
+    "status": "verified"
+  },
+  "cabac/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.86,
+    "finished_utc": "2026-11-10T02:49:13.344971+00:00",
+    "resources": "runs/cabac/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242260,
+    "status": "verified"
+  },
+  "bwt_mtf/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 6.65,
+    "finished_utc": "2026-11-10T02:49:13.897261+00:00",
+    "resources": "runs/bwt_mtf/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242172,
+    "status": "verified"
+  },
+  "cdf53/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.87,
+    "finished_utc": "2026-11-10T02:49:18.000047+00:00",
+    "resources": "runs/cdf53/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242320,
+    "status": "verified"
+  },
+  "circulant_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.92,
+    "finished_utc": "2026-11-10T02:49:18.429146+00:00",
+    "resources": "runs/circulant_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242292,
+    "status": "verified"
+  },
+  "delta/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.26,
+    "finished_utc": "2026-11-10T02:49:19.164449+00:00",
+    "resources": "runs/delta/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242252,
+    "status": "verified"
+  },
+  "dct_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 7.92,
+    "finished_utc": "2026-11-10T02:49:21.268519+00:00",
+    "resources": "runs/dct_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242120,
+    "status": "verified"
+  },
+  "fpc_like_fp4/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 3.8,
+    "finished_utc": "2026-11-10T02:49:22.966865+00:00",
+    "resources": "runs/fpc_like_fp4/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242244,
+    "status": "verified"
+  },
+  "dpcm_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.35,
+    "finished_utc": "2026-11-10T02:49:23.361181+00:00",
+    "resources": "runs/dpcm_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 241960,
+    "status": "verified"
+  },
+  "golomb_rice/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 2.36,
+    "finished_utc": "2026-11-10T02:49:23.636791+00:00",
+    "resources": "runs/golomb_rice/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242068,
+    "status": "verified"
+  },
+  "huffman/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 2.33,
+    "finished_utc": "2026-11-10T02:49:25.699766+00:00",
+    "resources": "runs/huffman/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242060,
+    "status": "verified"
+  },
+  "dst_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 7.88,
+    "finished_utc": "2026-11-10T02:49:26.311935+00:00",
+    "resources": "runs/dst_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242140,
+    "status": "verified"
+  },
+  "jpeg_ls_like_fp4/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 4.12,
+    "resources": "runs/jpeg_ls_like_fp4/grouped_units/unit16-buffer-v2-resources.txt",
+    "output": "runs/jpeg_ls_like_fp4/grouped_units/unit16-buffer-v2",
+    "adaptation": "bounded destination growth, same CharLS codec and layout",
+    "peak_process_rss_kib": 242020,
+    "status": "verified"
+  },
+  "haar_lifting/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.85,
+    "finished_utc": "2026-11-10T02:49:28.826847+00:00",
+    "resources": "runs/haar_lifting/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242092,
+    "status": "verified"
+  },
+  "intra_directional/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.35,
+    "finished_utc": "2026-11-10T02:49:28.998653+00:00",
+    "resources": "runs/intra_directional/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242124,
+    "status": "verified"
+  },
+  "kronecker_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 6.89,
+    "finished_utc": "2026-11-10T02:49:33.205077+00:00",
+    "resources": "runs/kronecker_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242100,
+    "status": "verified"
+  },
+  "lpc_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.25,
+    "finished_utc": "2026-11-10T02:49:34.081739+00:00",
+    "resources": "runs/lpc_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242052,
+    "status": "verified"
+  },
+  "ltp_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.58,
+    "finished_utc": "2026-11-10T02:49:34.583005+00:00",
+    "resources": "runs/ltp_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242032,
+    "status": "verified"
+  },
+  "lz78/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 4.24,
+    "finished_utc": "2026-11-10T02:49:38.325770+00:00",
+    "resources": "runs/lz78/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242036,
+    "status": "verified"
+  },
+  "ksvd_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 10.8,
+    "finished_utc": "2026-11-10T02:49:38.819151+00:00",
+    "resources": "runs/ksvd_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242096,
+    "status": "verified"
+  },
+  "lz77/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.97,
+    "finished_utc": "2026-11-10T02:49:39.177944+00:00",
+    "resources": "runs/lz77/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 243304,
+    "status": "verified"
+  },
+  "lzss/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 4.79,
+    "finished_utc": "2026-11-10T02:49:39.378881+00:00",
+    "resources": "runs/lzss/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 243900,
+    "status": "verified"
+  },
+  "lzw/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 4.94,
+    "finished_utc": "2026-11-10T02:49:43.274605+00:00",
+    "resources": "runs/lzw/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242064,
+    "status": "verified"
+  },
+  "motion_compensation/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.28,
+    "finished_utc": "2026-11-10T02:49:44.461085+00:00",
+    "resources": "runs/motion_compensation/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242040,
+    "status": "verified"
+  },
+  "neural_entropy/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 7.33,
+    "finished_utc": "2026-11-10T02:49:46.714150+00:00",
+    "resources": "runs/neural_entropy/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242336,
+    "status": "verified"
+  },
+  "mdct_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 8.42,
+    "finished_utc": "2026-11-10T02:49:47.243337+00:00",
+    "resources": "runs/mdct_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 241988,
+    "status": "verified"
+  },
+  "opq_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.7,
+    "finished_utc": "2026-11-10T02:49:48.984620+00:00",
+    "resources": "runs/opq_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242064,
+    "status": "verified"
+  },
+  "paq/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 8.13,
+    "finished_utc": "2026-11-10T02:49:52.596930+00:00",
+    "resources": "runs/paq/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242060,
+    "status": "verified"
+  },
+  "png_filtering/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.35,
+    "finished_utc": "2026-11-10T02:49:52.604981+00:00",
+    "resources": "runs/png_filtering/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242072,
+    "status": "verified"
+  },
+  "pca_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 7.97,
+    "finished_utc": "2026-11-10T02:49:54.693074+00:00",
+    "resources": "runs/pca_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242216,
+    "status": "verified"
+  },
+  "rans/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 2.53,
+    "finished_utc": "2026-11-10T02:49:55.137683+00:00",
+    "resources": "runs/rans/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242048,
+    "status": "verified"
+  },
+  "pq_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.64,
+    "finished_utc": "2026-11-10T02:49:58.247506+00:00",
+    "resources": "runs/pq_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242088,
+    "status": "verified"
+  },
+  "rle/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 3.82,
+    "finished_utc": "2026-11-10T02:49:58.523351+00:00",
+    "resources": "runs/rle/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242192,
+    "status": "verified"
+  },
+  "rlz/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.0,
+    "finished_utc": "2026-11-10T02:50:00.140843+00:00",
+    "resources": "runs/rlz/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242040,
+    "status": "verified"
+  },
+  "ppm/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 13.73,
+    "finished_utc": "2026-11-10T02:50:02.720992+00:00",
+    "resources": "runs/ppm/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242328,
+    "status": "verified"
+  },
+  "rvq_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.75,
+    "finished_utc": "2026-11-10T02:50:04.005378+00:00",
+    "resources": "runs/rvq_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242208,
+    "status": "verified"
+  },
+  "sequitur/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 8.1,
+    "finished_utc": "2026-11-10T02:50:06.632211+00:00",
+    "resources": "runs/sequitur/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 287396,
+    "status": "verified"
+  },
+  "sz_like_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 3.88,
+    "finished_utc": "2026-11-10T02:50:07.889309+00:00",
+    "resources": "runs/sz_like_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242016,
+    "status": "verified"
+  },
+  "sparse_coding/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 10.31,
+    "finished_utc": "2026-11-10T02:50:10.453248+00:00",
+    "resources": "runs/sparse_coding/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242232,
+    "status": "verified"
+  },
+  "svd_lowrank/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 8.36,
+    "finished_utc": "2026-11-10T02:50:11.087863+00:00",
+    "resources": "runs/svd_lowrank/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242240,
+    "status": "verified"
+  },
+  "tt_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 8.01,
+    "finished_utc": "2026-11-10T02:50:14.649689+00:00",
+    "resources": "runs/tt_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242296,
+    "status": "verified"
+  },
+  "vq_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.6,
+    "finished_utc": "2026-11-10T02:50:16.062134+00:00",
+    "resources": "runs/vq_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242212,
+    "status": "verified"
+  },
+  "tucker_lossless/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 8.41,
+    "finished_utc": "2026-11-10T02:50:16.304599+00:00",
+    "resources": "runs/tucker_lossless/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242072,
+    "status": "verified"
+  },
+  "xor/unit16": {
+    "exit_code": 0,
+    "wall_seconds": 5.27,
+    "finished_utc": "2026-11-10T02:50:16.368757+00:00",
+    "resources": "runs/xor/grouped_units/unit16-resources.txt",
+    "peak_process_rss_kib": 242196,
+    "status": "verified"
+  },
+  "arithmetic/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 6.08,
+    "finished_utc": "2026-11-10T02:50:29.976678+00:00",
+    "resources": "runs/arithmetic/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 250632,
+    "status": "verified"
+  },
+  "cp_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 11.83,
+    "finished_utc": "2026-11-10T02:50:35.723895+00:00",
+    "resources": "runs/cp_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242308,
+    "status": "verified"
+  },
+  "aq_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 14.87,
+    "finished_utc": "2026-11-10T02:50:38.765563+00:00",
+    "resources": "runs/aq_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242196,
+    "status": "verified"
+  },
+  "bitplane/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.74,
+    "finished_utc": "2026-11-10T02:50:39.728594+00:00",
+    "resources": "runs/bitplane/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242036,
+    "status": "verified"
+  },
+  "cdf53/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 8.52,
+    "finished_utc": "2026-11-10T02:50:44.253129+00:00",
+    "resources": "runs/cdf53/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242308,
+    "status": "verified"
+  },
+  "circulant_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 7.71,
+    "finished_utc": "2026-11-10T02:50:46.486158+00:00",
+    "resources": "runs/circulant_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242364,
+    "status": "verified"
+  },
+  "dct_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.21,
+    "finished_utc": "2026-11-10T02:50:48.947603+00:00",
+    "resources": "runs/dct_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242184,
+    "status": "verified"
+  },
+  "vq_codeword/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 28.04,
+    "finished_utc": "2026-11-10T02:50:51.937502+00:00",
+    "resources": "runs/vq_codeword/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242196,
+    "status": "verified"
+  },
+  "delta/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.49,
+    "finished_utc": "2026-11-10T02:50:53.752859+00:00",
+    "resources": "runs/delta/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 259256,
+    "status": "verified"
+  },
+  "dpcm_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.64,
+    "finished_utc": "2026-11-10T02:50:56.130973+00:00",
+    "resources": "runs/dpcm_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 259268,
+    "status": "verified"
+  },
+  "golomb_rice/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 2.46,
+    "finished_utc": "2026-11-10T02:50:56.222115+00:00",
+    "resources": "runs/golomb_rice/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242176,
+    "status": "verified"
+  },
+  "fpc_like_fp4/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 5.9,
+    "finished_utc": "2026-11-10T02:50:57.842173+00:00",
+    "resources": "runs/fpc_like_fp4/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 253432,
+    "status": "verified"
+  },
+  "dst_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 8.98,
+    "finished_utc": "2026-11-10T02:50:57.939446+00:00",
+    "resources": "runs/dst_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 241992,
+    "status": "verified"
+  },
+  "huffman/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 5.37,
+    "finished_utc": "2026-11-10T02:51:01.596784+00:00",
+    "resources": "runs/huffman/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 254968,
+    "status": "verified"
+  },
+  "haar_lifting/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 8.53,
+    "finished_utc": "2026-11-10T02:51:04.663073+00:00",
+    "resources": "runs/haar_lifting/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 241976,
+    "status": "verified"
+  },
+  "kronecker_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 8.15,
+    "finished_utc": "2026-11-10T02:51:06.099242+00:00",
+    "resources": "runs/kronecker_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242212,
+    "status": "verified"
+  },
+  "intra_directional/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.56,
+    "finished_utc": "2026-11-10T02:51:07.408463+00:00",
+    "resources": "runs/intra_directional/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 259468,
+    "status": "verified"
+  },
+  "ksvd_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 10.59,
+    "finished_utc": "2026-11-10T02:51:12.193829+00:00",
+    "resources": "runs/ksvd_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 241924,
+    "status": "verified"
+  },
+  "lpc_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.66,
+    "finished_utc": "2026-11-10T02:51:14.329207+00:00",
+    "resources": "runs/lpc_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 259528,
+    "status": "verified"
+  },
+  "ltp_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.57,
+    "finished_utc": "2026-11-10T02:51:15.680715+00:00",
+    "resources": "runs/ltp_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 259564,
+    "status": "verified"
+  },
+  "mdct_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.62,
+    "finished_utc": "2026-11-10T02:51:17.036076+00:00",
+    "resources": "runs/mdct_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242088,
+    "status": "verified"
+  },
+  "motion_compensation/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.5,
+    "finished_utc": "2026-11-10T02:51:21.698670+00:00",
+    "resources": "runs/motion_compensation/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 257660,
+    "status": "verified"
+  },
+  "opq_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 7.5,
+    "finished_utc": "2026-11-10T02:51:21.840791+00:00",
+    "resources": "runs/opq_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242072,
+    "status": "verified"
+  },
+  "rans/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 2.96,
+    "finished_utc": "2026-11-10T02:51:24.806331+00:00",
+    "resources": "runs/rans/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242236,
+    "status": "resource_limited"
+  },
+  "pca_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.23,
+    "finished_utc": "2026-11-10T02:51:24.920365+00:00",
+    "resources": "runs/pca_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242196,
+    "status": "verified"
+  },
+  "png_filtering/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 10.18,
+    "finished_utc": "2026-11-10T02:51:27.219497+00:00",
+    "resources": "runs/png_filtering/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 259208,
+    "status": "verified"
+  },
+  "pq_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 7.51,
+    "finished_utc": "2026-11-10T02:51:29.217230+00:00",
+    "resources": "runs/pq_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242088,
+    "status": "verified"
+  },
+  "rle/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 5.91,
+    "finished_utc": "2026-11-10T02:51:30.719679+00:00",
+    "resources": "runs/rle/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 252944,
+    "status": "verified"
+  },
+  "rvq_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 7.89,
+    "finished_utc": "2026-11-10T02:51:32.817631+00:00",
+    "resources": "runs/rvq_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242064,
+    "status": "verified"
+  },
+  "sparse_coding/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 10.34,
+    "finished_utc": "2026-11-10T02:51:37.570580+00:00",
+    "resources": "runs/sparse_coding/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 241980,
+    "status": "verified"
+  },
+  "svd_lowrank/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.33,
+    "finished_utc": "2026-11-10T02:51:38.557348+00:00",
+    "resources": "runs/svd_lowrank/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242256,
+    "status": "verified"
+  },
+  "sz_like_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.33,
+    "finished_utc": "2026-11-10T02:51:40.054270+00:00",
+    "resources": "runs/sz_like_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 261840,
+    "status": "verified"
+  },
+  "tt_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.33,
+    "finished_utc": "2026-11-10T02:51:42.155350+00:00",
+    "resources": "runs/tt_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242156,
+    "status": "verified"
+  },
+  "vq_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 7.56,
+    "finished_utc": "2026-11-10T02:51:46.124574+00:00",
+    "resources": "runs/vq_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242132,
+    "status": "verified"
+  },
+  "arithmetic/unit64": {
+    "exit_code": 0,
+    "wall_seconds": 4.14,
+    "finished_utc": "2026-11-10T02:51:46.306493+00:00",
+    "resources": "runs/arithmetic/grouped_units/unit64-resources.txt",
+    "peak_process_rss_kib": 241968,
+    "status": "verified"
+  },
+  "tucker_lossless/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.11,
+    "finished_utc": "2026-11-10T02:51:46.691910+00:00",
+    "resources": "runs/tucker_lossless/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 242164,
+    "status": "verified"
+  },
+  "xor/unit32": {
+    "exit_code": 0,
+    "wall_seconds": 9.54,
+    "finished_utc": "2026-11-10T02:51:49.599471+00:00",
+    "resources": "runs/xor/grouped_units/unit32-resources.txt",
+    "peak_process_rss_kib": 257932,
+    "status": "verified"
+  },
+  "fpc_like_fp4/unit64": {
+    "exit_code": 0,
+    "wall_seconds": 4.17,
+    "finished_utc": "2026-11-10T02:51:50.482390+00:00",
+    "resources": "runs/fpc_like_fp4/grouped_units/unit64-resources.txt",
+    "peak_process_rss_kib": 242368,
+    "status": "verified"
+  },
+  "rle/unit64": {
+    "exit_code": 0,
+    "wall_seconds": 4.19,
+    "finished_utc": "2026-11-10T02:51:50.892562+00:00",
+    "resources": "runs/rle/grouped_units/unit64-resources.txt",
+    "peak_process_rss_kib": 242004,
+    "status": "verified"
+  },
+  "delta/unit64": {
+    "exit_code": 0,
+    "wall_seconds": 6.26,
+    "finished_utc": "2026-11-10T02:51:52.389901+00:00",
+    "resources": "runs/delta/grouped_units/unit64-resources.txt",
+    "peak_process_rss_kib": 242804,
+    "status": "verified"
+  },
+  "xor/unit64": {
+    "exit_code": 0,
+    "wall_seconds": 5.99,
+    "finished_utc": "2026-11-10T02:51:55.598472+00:00",
+    "resources": "runs/xor/grouped_units/unit64-resources.txt",
+    "peak_process_rss_kib": 245288,
+    "status": "verified"
+  },
+  "jpeg_ls_like_fp4/unit8-initial": {
+    "exit_code": 0,
+    "wall_seconds": 2.3224739860161208,
+    "finished_utc": "2026-11-10T02:48:02.980222+00:00",
+    "resources": "/home/zhouziang/Workspace/compression/fp4-redundancy/runs/jpeg_ls_like_fp4/grouped_units/unit8-resources.txt",
+    "superseded": true
+  },
+  "jpeg_ls_like_fp4/unit16-initial": {
+    "exit_code": 0,
+    "wall_seconds": 2.3148135759984143,
+    "finished_utc": "2026-11-10T02:49:28.015302+00:00",
+    "resources": "/home/zhouziang/Workspace/compression/fp4-redundancy/runs/jpeg_ls_like_fp4/grouped_units/unit16-resources.txt",
+    "superseded": true
+  }
+}

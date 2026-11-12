@@ -1,0 +1,20 @@
+{
+  "method": "vq_codeword",
+  "identity": "Own complete lossless categorical medoid-VQ adaptation, not original numeric VQ or original lossy ECVQ",
+  "references": [
+    {
+      "source": "https://web.stanford.edu/class/ee398a/handouts/papers/Chou%20-%20EC%20VQ.pdf",
+      "title": "Chou, Lookabaugh, Gray, Entropy-Constrained Vector Quantization, IEEE TASSP 37(1), 1989",
+      "checked_summary": "https://web.stanford.edu/class/ee368b/Handouts/06-Quantization.pdf (Stanford author lecture, pp.4-5); original-paper PDF retrieval timed out",
+      "use": "Rate-aware assignment principle only. Replace numeric squared-error distortion with estimated lossless whole-codeword XOR codelength; representatives are observed medoids. Not a reproduction of original ECVQ."
+    },
+    {
+      "source": "native/third_party/YAECL-Yet-Another-Entropy-Coding-Library/yaecl.hpp",
+      "version": "1011b07d33e67cab01855e6df40afe10372d10a3 plus existing buffer/interval interfaces",
+      "use": "Direct reuse of the same A1 32-bit arithmetic interval/flush equations and 24-bit integer CDF. Index stream uses existing A1 buffer ABI. Conditional corrections switch serialized CDFs, retaining original symbol order. No A1 library changes."
+    }
+  ],
+  "training": "At most 2048 original-order vectors, one deterministic SplitMix64-jittered position per consecutive stratum (fixed seed), to avoid periodic fixed-stride aliasing; farthest Hamming initialization, five assign/medoid-update rounds. All representatives occur in that training set. Rate assignment minimizes smoothed index plus shared-XOR log probability estimates, not a claim of global minimum compressed size. Empty final centers are pruned.",
+  "serialization": "Version, dimensions, requested/used centers, objective, chosen correction mode and training count; codebook packed at native 4/8-bit width; A1 index CDF and payload; whole-codeword XOR correction with shared CDF or center-position conditional CDFs. Conditional tables only retained when estimated savings cover serialized and base64-expanded table costs. Auto compares actual payload plus exact variable JSON metadata size. All references/parameters/models are serialized, no decoder training or original checkpoint access.",
+  "scope": "Complete 4/8-bit symbols only, <=1MiB per component. No numeric interpretation or codeword-field splitting. Existing numeric VQ remains an independent plugin. No raw or arithmetic-only fallback; shared fallback remains the complete VQ pipeline."
+}

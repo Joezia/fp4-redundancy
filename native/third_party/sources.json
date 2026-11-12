@@ -1,0 +1,151 @@
+[
+  {
+    "repository": "szcompressor/SZ3",
+    "sha": "db2eca3ea8ae526ee1328649a1caf1a691b45873",
+    "date": "2026-10-27T22:50:23Z",
+    "files": {
+      "include/SZ3/def.hpp": "8d9753b02b40aebc43fdd47d0aeec54f7abf7c4e6689c85504099610f2305487",
+      "include/SZ3/encoder/Encoder.hpp": "f8399e37141e8bc71015f2a21810e136c7fa762ab2df645942a3732badde3af8",
+      "include/SZ3/utils/ByteUtil.hpp": "113ebccd75d41f3ea0baa8f1e212ff59b73400e773850b96cf78fe1d7562ea95",
+      "include/SZ3/utils/MemoryUtil.hpp": "97031b89971bb5c722c6cd3c73c937ea5187765b9a20431eb7afe01918126b35",
+      "include/SZ3/encoder/HuffmanEncoder.hpp": "d5e716e5a60d7dc4f875916c5d3b092d5885087a5abfe4e7779dd056422f0189",
+      "copyright-and-BSD-license.txt": "b8abbc07b00b6ff43adeddd3f57c6441287461812cdebdc1e69414a5fc26aa91"
+    },
+    "modifications": []
+  },
+  {
+    "repository": "tongdaxu/YAECL-Yet-Another-Entropy-Coding-Library",
+    "sha": "1011b07d33e67cab01855e6df40afe10372d10a3",
+    "date": "2023-07-23T13:33:12Z",
+    "files": {
+      "yaecl.hpp": "11c9955db3720c848a906508c7d0f4d42338b66959cf71a58143aa98359332c2",
+      "LICENSE": "15e4851bf1cc8bd45089b87004da9f5affd1d983d3246a03fd258d90eb1648fe"
+    },
+    "modifications": [
+      "Replace pybind11 getData/setData with direct C++ byte buffer access; entropy coding equations unchanged.",
+      "Expose existing encoder interval update and decoder cumulative/interval update for sparse PPM CDFs; dense A1 calls use the same operations, arithmetic equations unchanged."
+    ],
+    "local_sha256": "8783fe2b1aede46eb1305f7f3e63cd5cf84b228da7306b081fd3bb113c4f4eb1"
+  },
+  {
+    "repository": "rygorous/ryg_rans",
+    "sha": "c9d162d996fd600315af9ae8eb89d832576cb32d",
+    "date": "2018-11-25T10:26:46Z",
+    "files": {
+      "rans_byte.h": "66e9521b4485c1b36ee7527f1a6cd7c9fe7f8495f81420602fbdc26b7273bea6",
+      "README": "c41ce2145889510ce17f29e6a96eb6ac3d6f77b753cc35d5b093ca9ceda2b26d"
+    },
+    "modifications": []
+  },
+  {
+    "repository": "xiph/flac",
+    "sha": "59fa3402cb19b6b7c85b916f138cfb03c7b27504",
+    "upstream_files_sha256": {
+      "src/libFLAC/bitwriter.c": "bff2a606649c34d35b467a66764f4eeedea4ad2970f42eceee2cba31298bbe10",
+      "src/libFLAC/deduplication/bitreader_read_rice_signed_block.c": "abaf9793452f60bfa91e6a7e94b2d3f0efbbb81ff683eb76f6649814bf8c8cf8",
+      "COPYING.Xiph": "7866ee98760fc1f0156b4fe6bf530257e02be487ab3fd94e2b63799dd32d6b2c"
+    },
+    "modifications": [
+      "Extract Rice block writer word-accumulator loop and leading-zero unary decoder into rice.hpp. Omit audio signed folding/unfolding; accept uint16 raw codewords. Replace FLAC buffers, callbacks and CRC with portable byte vectors, bounds checks and exact bit counts. Keep Rice quotient/stop/remainder representation; no audio prediction, FLAC framing, or escape-to-raw mode."
+    ],
+    "local_files_sha256": {
+      "rice.hpp": "cfdba0f6ea09051f1cc49394efceec869b4a577242b5b692f04b3388ceed7401",
+      "COPYING.Xiph": "7866ee98760fc1f0156b4fe6bf530257e02be487ab3fd94e2b63799dd32d6b2c"
+    }
+  },
+  {
+    "repository": "nayuki/Reference-arithmetic-coding",
+    "sha": "ab6ee50afec04d235a4b82d17f407f0fd2b42e9a",
+    "upstream_files_sha256": {
+      "cpp/PpmModel.hpp": "0f58f9967a7332ca25d777177099ae9c7187b6ee8b0a4e4814a24c7b663e3e47",
+      "cpp/PpmModel.cpp": "f753d3cb1303b31a2ce33211bbd09805ad177521a9c5b8cf22a2f2c8027683f8",
+      "cpp/PpmCompress.cpp": "d90e5a69bd4d501387f53c83cef97a0e60a8d4c01fe6d0486765b3488d39a336",
+      "cpp/PpmDecompress.cpp": "e72d3d910ab720918f14d23c9e0453dedce4fd662e5118c63fd5795dd8544b9a",
+      "Readme.markdown": "bcd642f04aaf393888ccaec5894779fd46b61a0ff42a0cb904bceca695e50c6f"
+    },
+    "modifications": [
+      "Adapt reference order-3 PPM model to sparse contexts and a Fenwick root over complete 4/8/16-bit alphabets; retain constant escape frequency 1, no exclusion and uniform order -1. Add deterministic 65536-context reset and count rescaling at 2^20; known stream symbol count replaces EOF. Replace original coder with existing YAECL 32-bit arithmetic coder using 24-bit integer CDF intervals.",
+      "Expose raw frequency counts to the m-ary KT/CTW adapter; PPM behavior and codeword ordering unchanged."
+    ],
+    "local_files_sha256": {
+      "PpmModel.hpp": "7606ec96163bf4c3e806de5730cd8ff21b22fd5c3dc6bb15549361c383485216",
+      "Readme.markdown": "bcd642f04aaf393888ccaec5894779fd46b61a0ff42a0cb904bceca695e50c6f"
+    }
+  },
+  {
+    "repository": "cisco/openh264",
+    "sha": "1bca62311e447fd9c39fc93de2c4b96cd5ce971c",
+    "date": "2026-10-12T08:14:12Z",
+    "local_files_sha256": {
+      "LICENSE": "dd5c1c9668512530fa5a96e4c29ac4033d70a7eeb0eed7a42fddb6dd794ebdbb",
+      "tables.hpp": "5dd3c847317aa6519830d21a0f14ef9b719bb32c90fd8a649a0412b5be9138c3"
+    },
+    "modifications": [
+      "Extract CABAC probability/transition and CAVLC VLC tables. Adapt CABAC probability modeling to codeword-prefix contexts with A1 arithmetic; CAVLC keeps token/trailing-one/level/zero/run VLC mechanisms, extends levels for complete uint16 codewords, and uses previous-block one-dimensional nC.",
+      "Original unsigned codewords are used directly as nonnegative CAVLC levels; no signed-index remapping, field splitting or data reordering."
+    ]
+  },
+  {
+    "repository": "libfann/fann",
+    "sha": "1ac003a62a5186a662ddab430fa479ab81e55cbd",
+    "date": "2026-07-06T15:29:11Z",
+    "local_files_sha256": {
+      "LICENSE.md": "885a03f54b157961236f46843e79972abfcd6890b6cbb368bc7eca328ff95a12",
+      "src/doublefann.c": "6173b85f72ba7817610abcdf4ebbbd0e12ae677e96de1d60f8b52c444293352b",
+      "src/fann.c": "c759b7ed5e6c533974908ed23557b36e587f6beb61713deab417b60aa048dbd1",
+      "src/fann_cascade.c": "02ff44c337d10d2946f74fe6521d43f65c5c9268e6aa1b6542f67a634802d69e",
+      "src/fann_error.c": "0e3d78407cc2440251340b130b35d8e85a575196981cf195d746fd9ba76be7b0",
+      "src/fann_io.c": "8857e8792b1136db5b0adbc58e8d5135f06420c0b9e643b90a05595ef79ed1fa",
+      "src/fann_train.c": "4f705291788ff86da7b6a9010342dd358ba11bd6b7baa0ee5b7a1c2a0785edd9",
+      "src/fann_train_data.c": "75c5d62195dcd19580d302b195427e3dd3fc76676de9698127ef0d15ff69f119",
+      "src/fixedfann.c": "717020d1083356bd8e76419f203e62d2f63085da0130efdf77ab27d02fb22843",
+      "src/floatfann.c": "67f0a0ad23303a0e62fcc60c7e32498225f2ca3d8ba1d73802a07b45524408ea",
+      "src/include/config.h": "bc56700c0810b6a527a95a5e77c576a403c90e630cc38e94fd89b9184f7f566d",
+      "src/include/doublefann.h": "e75edd65add346cf9f59fcd8e08f278f461baccb020f60a94f6ead9de60b3af9",
+      "src/include/fann.h": "409f6456ce59f1e58a9aa79ed9d0c32a72fdf764b07c522c01d400e9968de160",
+      "src/include/fann_activation.h": "e5953087eff2f264001b0618e57af7280e26b3e741f53f99c03f18b8033be0a8",
+      "src/include/fann_cascade.h": "3cf4b6c1aaec6fc162a82230f71506e333998bad126ae4d31f5a03b2a1bf812e",
+      "src/include/fann_cpp.h": "b32d970c5858da03d8b902628269f84042a790e2823b8f7891b3e8ea17cad124",
+      "src/include/fann_data.h": "f6f1a892b80e3fef7a2a4a97a069d2c1c33d4092060ee8a0b56a910d3e07bc5c",
+      "src/include/fann_data_cpp.h": "5033c9f8fff268e0d72a0b14b8c538a81d3563cdd3262f1a152efe67510140c8",
+      "src/include/fann_error.h": "6f710586b9685ee2e3e392d7aae960fadf23cc8eb8a1e6680e178c697353c764",
+      "src/include/fann_internal.h": "2603b235c59eb51a7ca175e25437f746e3985dcdf5c6e6d57b762914d6b98f72",
+      "src/include/fann_io.h": "2333db02bf284b0f375f1dda56922007658e4f24c5597428d9be8fdeab2a16d6",
+      "src/include/fann_train.h": "9c0c7e93ca861ab53a10f98eace8af89583f0aa9c75e04eb947ae95315553d7a",
+      "src/include/fann_training_data_cpp.h": "f1118edf3933d1a6e926c2dca9e1b2ff7cae5b17a9d123483043116b6c26e6b2",
+      "src/include/fixedfann.h": "71c38d74b8323f50901a272d498f2665eedd01a32ec8d317b3cc7f1622986352",
+      "src/include/floatfann.h": "a95e3011c89e3a491d8af7506684e9debe63fb0b8fc5a18159f2ad79b1568c66",
+      "src/include/parallel_fann.h": "440bc9896b3128e3fce7625e754ef7d9cd58eedd35477c4335db636252aff695",
+      "src/parallel_fann.c": "c8923c839d529d899aed0cdd565806604679fb198f238371f37ea163785b3e4a"
+    },
+    "modifications": [
+      "Unmodified FANN C core used to train a bounded 8-8-1 autoregressive entropy MLP per component. Serialize quantized network weights; codec uses deterministic integer inference. No pretrained models or external assets."
+    ]
+  },
+  {
+    "repository": "zpaq/zpaq",
+    "sha": "9ab539f644e364f0d92e2918b90ce2534c75653f",
+    "date": "2016-08-17T21:49:18Z",
+    "local_files_sha256": {
+      "LICENSE": "d907e4c063f933dbaaf4547aca3ee9ce8dc54cab8e5299d3130cad2042b2d4a4",
+      "mix.hpp": "5a902fdeba29c06595cfedb97e8efede9835da20f2659cfdb4d79abff168f613"
+    },
+    "modifications": [
+      "Extract public-domain integer squash/stretch tables and MIX2 prediction/gradient update. Use order-0 and order-1 full-codeword prefix experts; A1 arithmetic over whole codewords. Not a ZPAQ archive or complete PAQ implementation."
+    ]
+  },
+  {
+    "repository": "cran/BCT",
+    "sha": "7256534c1617af656e8f3255676a34733225dcb3",
+    "date": "2026-08-03T23:20:22Z",
+    "local_files_sha256": {
+      "COPYING": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "DESCRIPTION": "4791d39e4a1b48b1b69496e4436cff505a48cdeb9e029777583b076baad54947",
+      "node.h": "b2b54409a6a03796eee7b83d931760ad4bb825e5faeddc4bc1716f7d2d0b9025",
+      "utils.h": "4374500376d0ba58ff47791947cfab29bc44556f33819cfe332dd47389ad60c2"
+    },
+    "modifications": [
+      "Reference checked for m-ary KT/context-tree mixture. Native adaptation uses sparse counts, 15-bit posterior mixing weights and 24-bit integer CDFs, fixed depth 3, deterministic context reset/count rescale. Does not use Rcpp or claim original BCT floating-point probabilities."
+    ]
+  }
+]

@@ -1,0 +1,2148 @@
+{
+  "kind": "fp4_grouped_word_width",
+  "created_utc": "2026-11-10T02:43:41.807236+00:00",
+  "model_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "revision": "2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
+  "snapshot": "/disk0/zhouziang/eflab/hf_cache/hub/models--deepseek-ai--DeepSeek-V4.1-Flash/snapshots/2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
+  "chunk_bytes": 1048576,
+  "chunks": [
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 5
+    }
+  ],
+  "complete_matrix_targets": [
+    "layers.0.ffn.experts.0.w1.weight",
+    "layers.0.ffn.experts.0.w2.weight",
+    "layers.0.ffn.experts.0.w3.weight",
+    "layers.0.ffn.experts.1.w1.weight",
+    "layers.0.ffn.experts.1.w2.weight",
+    "layers.0.ffn.experts.1.w3.weight"
+  ],
+  "methods": [
+    "adpcm_like_fp4",
+    "aq_lossless",
+    "bitplane",
+    "block_dedup",
+    "bwt_mtf",
+    "cdc_dedup",
+    "cdf53",
+    "circulant_lossless",
+    "cp_lossless",
+    "ctw",
+    "dct_lossless",
+    "delta",
+    "dpcm_lossless",
+    "dst_lossless",
+    "fpc_like_fp4",
+    "haar_lifting",
+    "inter_frame_reference",
+    "intra_directional",
+    "jpeg_ls_like_fp4",
+    "kronecker_lossless",
+    "ksvd_lossless",
+    "lpc_lossless",
+    "ltp_lossless",
+    "lz77",
+    "lz78",
+    "lzss",
+    "lzw",
+    "mdct_lossless",
+    "motion_compensation",
+    "opq_lossless",
+    "pca_lossless",
+    "png_filtering",
+    "ppm",
+    "pq_lossless",
+    "repair",
+    "rle",
+    "rlz",
+    "rvq_lossless",
+    "sequitur",
+    "sparse_coding",
+    "svd_lowrank",
+    "sz_like_lossless",
+    "tt_lossless",
+    "tucker_lossless",
+    "vcdiff",
+    "vq_codeword",
+    "vq_lossless",
+    "xor"
+  ],
+  "control_methods": [
+    "arithmetic"
+  ],
+  "full_model_completed_methods": [
+    "arithmetic",
+    "arithmetic_fp8_bf16_exp",
+    "cabac",
+    "cavlc",
+    "golomb_rice",
+    "huffman",
+    "huffman_fp8_bf16_exp",
+    "neural_entropy",
+    "paq",
+    "rans",
+    "rans_fp8_bf16_exp"
+  ],
+  "not_implemented": [
+    "tans"
+  ],
+  "coverage": "subset",
+  "sampling": "all rows of six complete FP4 matrices: layer0 adjacent experts0/1, w1/w2/w3; independent coding",
+  "runtime": {
+    "parallel_configurations": 4,
+    "workers_per_configuration": 4,
+    "inner_threads": 1
+  },
+  "parameter_policy": "existing fixed method variants; no size/rank search in this screening run",
+  "output_subdirectory": "fp4_module",
+  "payload_persisted": false,
+  "method_parameters": {
+    "vq_codeword": {
+      "vector_length": 4,
+      "centers": 4,
+      "objective": "rate",
+      "correction_model": "auto"
+    }
+  },
+  "sample_chunks": 36,
+  "sample_original_bytes": 37601280,
+  "sample_weight_bytes": 35389440,
+  "sample_scale_bytes": 2211840,
+  "inventory_original_bytes": 510286023000,
+  "jobs": [
+    {
+      "method": "adpcm_like_fp4",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/adpcm_like_fp4/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "adpcm_like_fp4",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/adpcm_like_fp4/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "adpcm_like_fp4",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/adpcm_like_fp4/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "aq_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/aq_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "aq_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/aq_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "aq_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/aq_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "aq_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/aq_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "arithmetic",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/arithmetic/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "arithmetic",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/arithmetic/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "arithmetic",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/arithmetic/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "arithmetic",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/arithmetic/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "bitplane",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/bitplane/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "bitplane",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/bitplane/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "bitplane",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/bitplane/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "bitplane",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/bitplane/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "block_dedup",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/block_dedup/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "bwt_mtf",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/bwt_mtf/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "bwt_mtf",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/bwt_mtf/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "bwt_mtf",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/bwt_mtf/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "cabac",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/cabac/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "cabac",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/cabac/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "cabac",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/cabac/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "cavlc",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/cavlc/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "cavlc",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/cavlc/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "cavlc",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/cavlc/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "cdc_dedup",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/cdc_dedup/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "cdc_dedup",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/cdc_dedup/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "cdf53",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/cdf53/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "cdf53",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/cdf53/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "cdf53",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/cdf53/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "cdf53",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/cdf53/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "circulant_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/circulant_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "circulant_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/circulant_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "circulant_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/circulant_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "circulant_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/circulant_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "cp_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/cp_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "cp_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/cp_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "cp_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/cp_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "cp_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/cp_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "ctw",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/ctw/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "ctw",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/ctw/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "ctw",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/ctw/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "dct_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/dct_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "dct_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/dct_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "dct_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/dct_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "dct_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/dct_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "delta",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/delta/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "delta",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/delta/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "delta",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/delta/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "delta",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/delta/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "delta",
+      "unit_bits": 64,
+      "parameters": {
+        "unit_bits": 64
+      },
+      "output": "runs/delta/grouped_units/unit64",
+      "phase": 2
+    },
+    {
+      "method": "dpcm_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/dpcm_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "dpcm_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/dpcm_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "dpcm_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/dpcm_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "dpcm_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/dpcm_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "dst_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/dst_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "dst_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/dst_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "dst_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/dst_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "dst_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/dst_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "fpc_like_fp4",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/fpc_like_fp4/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "fpc_like_fp4",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/fpc_like_fp4/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "fpc_like_fp4",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/fpc_like_fp4/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "fpc_like_fp4",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/fpc_like_fp4/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "fpc_like_fp4",
+      "unit_bits": 64,
+      "parameters": {
+        "unit_bits": 64
+      },
+      "output": "runs/fpc_like_fp4/grouped_units/unit64",
+      "phase": 2
+    },
+    {
+      "method": "golomb_rice",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/golomb_rice/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "golomb_rice",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/golomb_rice/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "golomb_rice",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/golomb_rice/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "golomb_rice",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/golomb_rice/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "haar_lifting",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/haar_lifting/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "haar_lifting",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/haar_lifting/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "haar_lifting",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/haar_lifting/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "haar_lifting",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/haar_lifting/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "huffman",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/huffman/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "huffman",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/huffman/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "huffman",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/huffman/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "huffman",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/huffman/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "intra_directional",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/intra_directional/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "intra_directional",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/intra_directional/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "intra_directional",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/intra_directional/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "intra_directional",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/intra_directional/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "jpeg_ls_like_fp4",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/jpeg_ls_like_fp4/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "jpeg_ls_like_fp4",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/jpeg_ls_like_fp4/grouped_units/unit8-buffer-v2",
+      "phase": 1,
+      "adaptation": "Same CharLS NEAR=0, row layout and native B syntax; bounded destination growth; all costs billed"
+    },
+    {
+      "method": "jpeg_ls_like_fp4",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/jpeg_ls_like_fp4/grouped_units/unit16-buffer-v2",
+      "phase": 1,
+      "adaptation": "Same CharLS NEAR=0, row layout and native B syntax; bounded destination growth; all costs billed"
+    },
+    {
+      "method": "kronecker_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/kronecker_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "kronecker_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/kronecker_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "kronecker_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/kronecker_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "kronecker_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/kronecker_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "ksvd_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/ksvd_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "ksvd_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/ksvd_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "ksvd_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/ksvd_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "ksvd_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/ksvd_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "lpc_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/lpc_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "lpc_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/lpc_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "lpc_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/lpc_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "lpc_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/lpc_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "ltp_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/ltp_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "ltp_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/ltp_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "ltp_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/ltp_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "ltp_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/ltp_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "lz77",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/lz77/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "lz77",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/lz77/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "lz77",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/lz77/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "lz78",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/lz78/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "lz78",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/lz78/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "lz78",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/lz78/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "lzss",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/lzss/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "lzss",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/lzss/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "lzss",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/lzss/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "lzw",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/lzw/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "lzw",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/lzw/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "lzw",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/lzw/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "mdct_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/mdct_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "mdct_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/mdct_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "mdct_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/mdct_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "mdct_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/mdct_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "motion_compensation",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/motion_compensation/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "motion_compensation",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/motion_compensation/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "motion_compensation",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/motion_compensation/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "motion_compensation",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/motion_compensation/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "neural_entropy",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/neural_entropy/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "neural_entropy",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/neural_entropy/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "neural_entropy",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/neural_entropy/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "opq_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/opq_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "opq_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/opq_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "opq_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/opq_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "opq_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/opq_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "paq",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/paq/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "paq",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/paq/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "paq",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/paq/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "pca_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/pca_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "pca_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/pca_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "pca_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/pca_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "pca_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/pca_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "png_filtering",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/png_filtering/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "png_filtering",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/png_filtering/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "png_filtering",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/png_filtering/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "png_filtering",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/png_filtering/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "ppm",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/ppm/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "ppm",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/ppm/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "ppm",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/ppm/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "pq_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/pq_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "pq_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/pq_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "pq_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/pq_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "pq_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/pq_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "rans",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/rans/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "rans",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/rans/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "rans",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/rans/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "rans",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/rans/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "repair",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/repair/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "repair",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/repair/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "repair",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/repair/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "rle",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/rle/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "rle",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/rle/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "rle",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/rle/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "rle",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/rle/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "rle",
+      "unit_bits": 64,
+      "parameters": {
+        "unit_bits": 64
+      },
+      "output": "runs/rle/grouped_units/unit64",
+      "phase": 2
+    },
+    {
+      "method": "rlz",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/rlz/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "rlz",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/rlz/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "rlz",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/rlz/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "rvq_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/rvq_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "rvq_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/rvq_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "rvq_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/rvq_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "rvq_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/rvq_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "sequitur",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/sequitur/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "sequitur",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/sequitur/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "sequitur",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/sequitur/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "sparse_coding",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/sparse_coding/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "sparse_coding",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/sparse_coding/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "sparse_coding",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/sparse_coding/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "sparse_coding",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/sparse_coding/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "svd_lowrank",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/svd_lowrank/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "svd_lowrank",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/svd_lowrank/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "svd_lowrank",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/svd_lowrank/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "svd_lowrank",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/svd_lowrank/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "sz_like_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/sz_like_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "sz_like_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/sz_like_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "sz_like_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/sz_like_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "sz_like_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/sz_like_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "tt_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/tt_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "tt_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/tt_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "tt_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/tt_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "tt_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/tt_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "tucker_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/tucker_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "tucker_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/tucker_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "tucker_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/tucker_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "tucker_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/tucker_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "vcdiff",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/vcdiff/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "vcdiff",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/vcdiff/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "vq_codeword",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4,
+        "vector_length": 4,
+        "centers": 4,
+        "objective": "rate",
+        "correction_model": "auto"
+      },
+      "output": "runs/vq_codeword/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "vq_codeword",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8,
+        "vector_length": 4,
+        "centers": 4,
+        "objective": "rate",
+        "correction_model": "auto"
+      },
+      "output": "runs/vq_codeword/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "vq_codeword",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16,
+        "vector_length": 4,
+        "centers": 4,
+        "objective": "rate",
+        "correction_model": "auto"
+      },
+      "output": "runs/vq_codeword/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "vq_codeword",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32,
+        "vector_length": 4,
+        "centers": 4,
+        "objective": "rate",
+        "correction_model": "auto"
+      },
+      "output": "runs/vq_codeword/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "vq_lossless",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/vq_lossless/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "vq_lossless",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/vq_lossless/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "vq_lossless",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/vq_lossless/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "vq_lossless",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/vq_lossless/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "xor",
+      "unit_bits": 4,
+      "parameters": {
+        "unit_bits": 4
+      },
+      "output": "runs/xor/grouped_units/unit4",
+      "phase": 1
+    },
+    {
+      "method": "xor",
+      "unit_bits": 8,
+      "parameters": {
+        "unit_bits": 8
+      },
+      "output": "runs/xor/grouped_units/unit8",
+      "phase": 1
+    },
+    {
+      "method": "xor",
+      "unit_bits": 16,
+      "parameters": {
+        "unit_bits": 16
+      },
+      "output": "runs/xor/grouped_units/unit16",
+      "phase": 1
+    },
+    {
+      "method": "xor",
+      "unit_bits": 32,
+      "parameters": {
+        "unit_bits": 32
+      },
+      "output": "runs/xor/grouped_units/unit32",
+      "phase": 2
+    },
+    {
+      "method": "xor",
+      "unit_bits": 64,
+      "parameters": {
+        "unit_bits": 64
+      },
+      "output": "runs/xor/grouped_units/unit64",
+      "phase": 2
+    },
+    {
+      "method": "arithmetic",
+      "unit_bits": 64,
+      "parameters": {
+        "unit_bits": 64
+      },
+      "output": "runs/arithmetic/grouped_units/unit64",
+      "phase": 2,
+      "purpose": "matched zero-order control only"
+    }
+  ],
+  "equivalent": [
+    {
+      "method": "block_dedup",
+      "unit_bits": [
+        8,
+        16,
+        32
+      ],
+      "equivalent_to": "block_dedup/unit4",
+      "reason": "原literal已packed；固定128原始bytes边界时，4/8/16-bit表示的相等关系、引用和大小不变，不另跑。"
+    },
+    {
+      "method": "cdc_dedup",
+      "unit_bits": [
+        16,
+        32
+      ],
+      "equivalent_to": "cdc_dedup/unit8",
+      "reason": "原Gear按nibble更新。新增真正packed字节Gear，保持32/128/512原始bytes边界尺度，记录必要mask适配；16/32仅再序列化等价。"
+    },
+    {
+      "method": "inter_frame_reference",
+      "equivalent_to": "motion_compensation",
+      "reason": "关联motion_compensation的同unit_bits配置，不重复编码或统计。"
+    },
+    {
+      "method": "vcdiff",
+      "unit_bits": [
+        16,
+        32
+      ],
+      "equivalent_to": "vcdiff/unit8",
+      "reason": "现版wire每nibble扩一byte；8-bit版真正packed字节；16/32序列化同字节时等价，不另跑。"
+    }
+  ],
+  "order": "all 4/8/16 configurations first; supported 32/64 second",
+  "grouping": "consecutive original nibbles, first codeword low bits, little endian words, within original rows; exact row-tail zero padding with retained original byte length",
+  "numeric_domain": "unit4 retains old plugin input semantics; unit8/16/32 numerical adapters use exact unsigned integer float64, same normalization/shapes/ranks/Q20 serialization; correction in original nibbles",
+  "selection_policy": "report each fixed configuration; no best-of selector or unbilled configuration choice",
+  "retained_attempts": [
+    {
+      "method": "jpeg_ls_like_fp4",
+      "unit_bits": 8,
+      "output": "runs/jpeg_ls_like_fp4/grouped_units/unit8",
+      "status": "failed",
+      "reason": "CharLS estimated destination is not an upper bound; wrapper used an insufficient buffer"
+    },
+    {
+      "method": "jpeg_ls_like_fp4",
+      "unit_bits": 16,
+      "output": "runs/jpeg_ls_like_fp4/grouped_units/unit16",
+      "status": "failed",
+      "reason": "CharLS estimated destination is not an upper bound; wrapper used an insufficient buffer"
+    }
+  ]
+}

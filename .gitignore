@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+data/
+runs/
+
+# Server-local settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.config/
+*.pem
+*.key
+
+# Checkpoints and caches are never published
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+.cache/
+
+# Large/local diagnostics; keep the compact experiment summaries
+experiments/**/chunk-details.json
+experiments/**/launch-errors.json
+experiments/**/execution-initial.json
+experiments/**/plan-initial.json

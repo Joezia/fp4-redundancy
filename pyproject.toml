@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fp4-redundancy"
+version = "0.1.0"
+description = "Lossless model-weight redundancy analysis: technique-level framework"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+fp4-redundancy = "fp4_redundancy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

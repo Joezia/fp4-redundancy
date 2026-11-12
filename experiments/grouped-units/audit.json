@@ -1,0 +1,650 @@
+[
+  {
+    "method_id": "adpcm_like_fp4",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "8/16-bit word减去中心映射至IMA有符号16-bit范围，输入不截断；保留原饱和重建反馈及精确模补偿。32-bit不执行，需另定义自适应范围。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "aq_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "arithmetic",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。 32-bit稀疏观察字母表，24-bit CDF；64仅作所选精确整数方法的匹配对照。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "bitplane",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "block_dedup",
+    "audit": "等价无变化",
+    "candidate_unit_bits": [
+      4
+    ],
+    "notes": "原literal已packed；固定128原始bytes边界时，4/8/16-bit表示的相等关系、引用和大小不变，不另跑。",
+    "implementation": "equivalent_reference"
+  },
+  {
+    "method_id": "bwt_mtf",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。 unsigned字典序，初始MTF为0..2^b−1；内部65536word块，覆盖65536*b/4个原码字。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "cabac",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "内部逐bit概率构造整word CDF；宽度改变previous-word/前缀/深度特征或状态更新边界，是真实新配置，不是只加标签。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "cavlc",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "cdc_dedup",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8
+    ],
+    "notes": "原Gear按nibble更新。新增真正packed字节Gear，保持32/128/512原始bytes边界尺度，记录必要mask适配；16/32仅再序列化等价。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "cdf53",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "circulant_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "cp_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "ctw",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "三阶word上下文，覆盖3*unit_bits/4个历史FP4权重；完整终端域、escape/KT先验同步扩至65536。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "dct_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "delta",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "dpcm_lossless",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "dst_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "fpc_like_fp4",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "notes": "8/16保留原前缀；32/64新格式v2，保留FCM/DFCM/XOR，64-bit字节数类7代表8（7字节残差补足8），每word前缀4bit。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "golomb_rice",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "重新选k<=unit_bits；128-bit成本计数，先算完整位数再有界分配，按实际word宽度检查商。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "haar_lifting",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "huffman",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "inter_frame_reference",
+    "audit": "等价无变化",
+    "candidate_unit_bits": [],
+    "notes": "关联motion_compensation的同unit_bits配置，不重复编码或统计。",
+    "implementation": "equivalent_reference"
+  },
+  {
+    "method_id": "intra_directional",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "jpeg_ls_like_fp4",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。 模型抽样发现CharLS estimated容量并非上限；新缓冲区库有界扩容，保留原NEAR=0/行布局/码流，8/16已重跑通过，旧失败保留。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "kronecker_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "ksvd_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "lpc_lossless",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "ltp_lossless",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "lz77",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "窗口原始字节跨度保持：LZ77约32767.5bytes，LZSS2048bytes；最短匹配仍3word，记录原权重跨度。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "lz78",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "lzss",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "窗口原始字节跨度保持：LZ77约32767.5bytes，LZSS2048bytes；最短匹配仍3word，记录原权重跨度。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "lzw",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "mdct_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "motion_compensation",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "neural_entropy",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "内部逐bit概率构造整word CDF；宽度改变previous-word/前缀/深度特征或状态更新边界，是真实新配置，不是只加标签。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "opq_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "paq",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "内部逐bit概率构造整word CDF；宽度改变previous-word/前缀/深度特征或状态更新边界，是真实新配置，不是只加标签。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "pca_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "png_filtering",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "ppm",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "三阶word上下文，覆盖3*unit_bits/4个历史FP4权重；完整终端域、escape/KT先验同步扩至65536。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "pq_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "rans",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4/8/16完整word；32稀疏观察字母表，原rANS16-bit归一化频率上限65536，超过时明确resource_limited，不能零收益或截断。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "repair",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "rle",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。 8bit起符号按实际宽度小端存储、run用LEB128，版本2；4bit保留原格式。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "rlz",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "rvq_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "sequitur",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "sparse_coding",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "svd_lowrank",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "sz_like_lossless",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。 32-bit用已出现word的稀疏映射＋原SZ3 Huffman/Zstd level3，保留Lorenzo及精确反馈。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "tt_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "tucker_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "vcdiff",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8
+    ],
+    "notes": "现版wire每nibble扩一byte；8-bit版真正packed字节；16/32序列化同字节时等价，不另跑。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "vq_codeword",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "保持medoid与码长目标；宽字母表需稀疏频率/候选成本，不能分配2^32表。 16/32使用稀疏Laplace码长成本、同medoid训练；纠错改用原nibble序列，auto比较共享/中心×word位置×nibble位置的完整计费。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "vq_lossless",
+    "audit": "需要格式适配",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "notes": "8/16/32-bit无符号word精确转float64数值；保留原算法/形状/秩/Q20参数，用实际整数逆向路径和原nibble单位精确XOR纠错。",
+    "implementation": "implemented_and_synthetic_verified"
+  },
+  {
+    "method_id": "xor",
+    "audit": "可直接扩展",
+    "candidate_unit_bits": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "notes": "4-bit原版保留；8/16-bit使用真正联合word。",
+    "implementation": "implemented_and_synthetic_verified"
+  }
+]

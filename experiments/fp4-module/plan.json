@@ -1,0 +1,254 @@
+{
+  "kind": "fp4_complete_adjacent_matrices",
+  "created_utc": "2026-11-09T23:27:55.232461+00:00",
+  "model_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "revision": "2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
+  "snapshot": "/disk0/zhouziang/eflab/hf_cache/hub/models--deepseek-ai--DeepSeek-V4.1-Flash/snapshots/2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
+  "chunk_bytes": 1048576,
+  "chunks": [
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w1.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w2.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.0.w3.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w1.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w2.weight",
+      "index": 5
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 0
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 1
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 2
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 3
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 4
+    },
+    {
+      "target_id": "layers.0.ffn.experts.1.w3.weight",
+      "index": 5
+    }
+  ],
+  "complete_matrix_targets": [
+    "layers.0.ffn.experts.0.w1.weight",
+    "layers.0.ffn.experts.0.w2.weight",
+    "layers.0.ffn.experts.0.w3.weight",
+    "layers.0.ffn.experts.1.w1.weight",
+    "layers.0.ffn.experts.1.w2.weight",
+    "layers.0.ffn.experts.1.w3.weight"
+  ],
+  "methods": [
+    "adpcm_like_fp4",
+    "aq_lossless",
+    "bitplane",
+    "block_dedup",
+    "bwt_mtf",
+    "cdc_dedup",
+    "cdf53",
+    "circulant_lossless",
+    "cp_lossless",
+    "ctw",
+    "dct_lossless",
+    "delta",
+    "dpcm_lossless",
+    "dst_lossless",
+    "fpc_like_fp4",
+    "haar_lifting",
+    "inter_frame_reference",
+    "intra_directional",
+    "jpeg_ls_like_fp4",
+    "kronecker_lossless",
+    "ksvd_lossless",
+    "lpc_lossless",
+    "ltp_lossless",
+    "lz77",
+    "lz78",
+    "lzss",
+    "lzw",
+    "mdct_lossless",
+    "motion_compensation",
+    "opq_lossless",
+    "pca_lossless",
+    "png_filtering",
+    "ppm",
+    "pq_lossless",
+    "repair",
+    "rle",
+    "rlz",
+    "rvq_lossless",
+    "sequitur",
+    "sparse_coding",
+    "svd_lowrank",
+    "sz_like_lossless",
+    "tt_lossless",
+    "tucker_lossless",
+    "vcdiff",
+    "vq_codeword",
+    "vq_lossless",
+    "xor"
+  ],
+  "control_methods": [
+    "arithmetic"
+  ],
+  "full_model_completed_methods": [
+    "arithmetic",
+    "arithmetic_fp8_bf16_exp",
+    "cabac",
+    "cavlc",
+    "golomb_rice",
+    "huffman",
+    "huffman_fp8_bf16_exp",
+    "neural_entropy",
+    "paq",
+    "rans",
+    "rans_fp8_bf16_exp"
+  ],
+  "not_implemented": [
+    "tans"
+  ],
+  "coverage": "subset",
+  "sampling": "all rows of six complete FP4 matrices: layer0 adjacent experts0/1, w1/w2/w3; independent coding",
+  "runtime": {
+    "parallel_methods": 4,
+    "workers_per_method": 4,
+    "inner_threads": 1
+  },
+  "parameter_policy": "existing fixed method variants; no size/rank search in this screening run",
+  "output_subdirectory": "fp4_module",
+  "payload_persisted": false,
+  "method_parameters": {
+    "vq_codeword": {
+      "vector_length": 4,
+      "centers": 4,
+      "objective": "rate",
+      "correction_model": "auto"
+    }
+  },
+  "sample_chunks": 36,
+  "sample_original_bytes": 37601280,
+  "sample_weight_bytes": 35389440,
+  "sample_scale_bytes": 2211840,
+  "inventory_original_bytes": 510286023000
+}

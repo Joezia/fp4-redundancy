@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "model": {
+    "id": "illustrative-placeholder-not-a-real-model",
+    "revision": "replace-with-checkpoint-commit-or-content-hash",
+    "coverage": "subset"
+  },
+  "targets": [
+    {
+      "id": "layer0.expert0.down.weight",
+      "logical_shape": [32, 32],
+      "structure": {
+        "module": "moe",
+        "parameter_role": "down",
+        "layer": 0,
+        "expert": 0
+      },
+      "inference": {
+        "consumer": "expert_down_gemm",
+        "access_unit": "unknown",
+        "transfer_boundary": "unknown",
+        "layout": "unknown",
+        "evidence": "illustrative; must be confirmed for a real runtime"
+      },
+      "components": [
+        {
+          "id": "weight",
+          "role": "packed_fp4",
+          "path": "../data/replace-with-original-packed-weight.bin",
+          "offset": 0,
+          "length": 512,
+          "storage_format": "unknown:adapter-required"
+        },
+        {
+          "id": "scale",
+          "role": "scale",
+          "path": "../data/replace-with-original-scale.bin",
+          "offset": 0,
+          "length": 32,
+          "storage_format": "unknown:adapter-required"
+        }
+      ]
+    }
+  ]
+}

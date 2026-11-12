@@ -1,0 +1,98 @@
+[
+  {
+    "method_id": "arithmetic",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 271029481233,
+    "fp4_metadata_bytes": 289519043,
+    "fp4_total_bytes": 271319000276,
+    "fp4_saving_fraction": 0.026084153431792156,
+    "source": "runs/arithmetic/results.sqlite3"
+  },
+  {
+    "method_id": "cabac",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 274166219108,
+    "fp4_metadata_bytes": 263163587,
+    "fp4_total_bytes": 274429382695,
+    "fp4_saving_fraction": 0.014919248933140228,
+    "source": "runs/cabac/results.sqlite3"
+  },
+  {
+    "method_id": "cavlc",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 420990406907,
+    "fp4_metadata_bytes": 257495746,
+    "fp4_total_bytes": 421247902653,
+    "fp4_saving_fraction": -0.5120946461915323,
+    "source": "runs/cavlc/results.sqlite3"
+  },
+  {
+    "method_id": "golomb_rice",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 308699134217,
+    "fp4_metadata_bytes": 253528185,
+    "fp4_total_bytes": 308952662402,
+    "fp4_saving_fraction": -0.1090041369998429,
+    "source": "runs/golomb_rice/results.sqlite3"
+  },
+  {
+    "method_id": "huffman",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 273375505971,
+    "fp4_metadata_bytes": 251261143,
+    "fp4_total_bytes": 273626767114,
+    "fp4_saving_fraction": 0.017800285765220858,
+    "source": "runs/huffman/results.sqlite3"
+  },
+  {
+    "method_id": "neural_entropy",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 284372771899,
+    "fp4_metadata_bytes": 325326179,
+    "fp4_total_bytes": 284698098078,
+    "fp4_saving_fraction": -0.02194092166025352,
+    "source": "runs/neural_entropy/results.sqlite3"
+  },
+  {
+    "method_id": "paq",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 269247821585,
+    "fp4_metadata_bytes": 256928963,
+    "fp4_total_bytes": 269504750548,
+    "fp4_saving_fraction": 0.03259651179200229,
+    "source": "runs/paq/results.sqlite3"
+  },
+  {
+    "method_id": "rans",
+    "scope": "全模型",
+    "matrices": 47232,
+    "chunks": 283392,
+    "fp4_original_bytes": 278585671680,
+    "fp4_payload_bytes": 271030575039,
+    "fp4_metadata_bytes": 277899971,
+    "fp4_total_bytes": 271308475010,
+    "fp4_saving_fraction": 0.026121934506233346,
+    "source": "runs/rans/results.sqlite3"
+  }
+]
