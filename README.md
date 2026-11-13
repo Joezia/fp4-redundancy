@@ -84,6 +84,10 @@
 36 张矩阵中位数（bit/权重）：R1 边缘偏斜 4 − H0 = 0.106；R2 块级离散度 0.161，scale 值作免费分组 0.127；R3 去掉块级差异后的顺序依赖约为 0；R4 只有 |v| 沿行相关（R² = 0.042，即 0.031 bit），且来自块级幅值聚集。
 结果与读法见[检测摘要](experiments/r1-r4/summary.md)，格式依据见[格式事实](experiments/r1-r4/format.md)。
 
+[规格 002](docs/002-账本核对.md)把 R1、零合并、scale 条件和 scale 流放在一起直接测量（检查 U1–U4 全部通过）。36 张矩阵中位数：节省 0.569 bit/权重（13.38%，含每矩阵码表），与 001 分项相加之差 < 1.3e-4。
+再加块最大码 m_max 并扣除标签成本，净增 0.0047。按规格的相对 scale（减众数）共用码表会多花 0.020 bit/权重，原因是众数在两个主要 scale 取值间换边；补充测量按绝对 scale 共用只多 0.0015。
+结果见[账本摘要](experiments/002-ledger/summary.md)。
+
 ## 使用
 
 首次使用复制`.env.example`为`.env`并设置本地路径，然后在仓库根目录加载 `source .env`。查看已实现方法：`PYTHONPATH=src python3 -m fp4_redundancy methods`。
