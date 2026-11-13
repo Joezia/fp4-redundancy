@@ -1,0 +1,1785 @@
+matrix,layer,expert,role,matrix_b,pair_group,item,variable,domain,group_or_context,k,subset,n,value,analytic_bias,baseline,baseline_mean,baseline_std,net,significant,note
+L0.E164.w1,0,164,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E164.w1,0,164,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E164.w1,0,164,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L0.E164.w1,0,164,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L0.E164.w2,0,164,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E164.w2,0,164,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E164.w2,0,164,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L0.E164.w2,0,164,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L0.E164.w3,0,164,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E164.w3,0,164,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E164.w3,0,164,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L0.E164.w3,0,164,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L0.E334.w1,0,334,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E334.w1,0,334,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E334.w1,0,334,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L0.E334.w1,0,334,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L0.E334.w2,0,334,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E334.w2,0,334,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E334.w2,0,334,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L0.E334.w2,0,334,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L0.E334.w3,0,334,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E334.w3,0,334,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E334.w3,0,334,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L0.E334.w3,0,334,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L0.E375.w1,0,375,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E375.w1,0,375,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E375.w1,0,375,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L0.E375.w1,0,375,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L0.E375.w2,0,375,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E375.w2,0,375,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E375.w2,0,375,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L0.E375.w2,0,375,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L0.E375.w3,0,375,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L0.E375.w3,0,375,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L0.E375.w3,0,375,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L0.E375.w3,0,375,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L13.E49.w1,13,49,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E49.w1,13,49,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E49.w1,13,49,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L13.E49.w1,13,49,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L13.E49.w2,13,49,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E49.w2,13,49,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E49.w2,13,49,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L13.E49.w2,13,49,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L13.E49.w3,13,49,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E49.w3,13,49,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E49.w3,13,49,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L13.E49.w3,13,49,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L13.E135.w1,13,135,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E135.w1,13,135,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E135.w1,13,135,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L13.E135.w1,13,135,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L13.E135.w2,13,135,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E135.w2,13,135,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E135.w2,13,135,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L13.E135.w2,13,135,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L13.E135.w3,13,135,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E135.w3,13,135,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E135.w3,13,135,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L13.E135.w3,13,135,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L13.E163.w1,13,163,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E163.w1,13,163,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E163.w1,13,163,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L13.E163.w1,13,163,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L13.E163.w2,13,163,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E163.w2,13,163,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E163.w2,13,163,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L13.E163.w2,13,163,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L13.E163.w3,13,163,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L13.E163.w3,13,163,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L13.E163.w3,13,163,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L13.E163.w3,13,163,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L26.E12.w1,26,12,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E12.w1,26,12,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E12.w1,26,12,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L26.E12.w1,26,12,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L26.E12.w2,26,12,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E12.w2,26,12,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E12.w2,26,12,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L26.E12.w2,26,12,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L26.E12.w3,26,12,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E12.w3,26,12,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E12.w3,26,12,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L26.E12.w3,26,12,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L26.E347.w1,26,347,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E347.w1,26,347,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E347.w1,26,347,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L26.E347.w1,26,347,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L26.E347.w2,26,347,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E347.w2,26,347,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E347.w2,26,347,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L26.E347.w2,26,347,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L26.E347.w3,26,347,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E347.w3,26,347,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E347.w3,26,347,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L26.E347.w3,26,347,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L26.E350.w1,26,350,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E350.w1,26,350,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E350.w1,26,350,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L26.E350.w1,26,350,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L26.E350.w2,26,350,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E350.w2,26,350,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E350.w2,26,350,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L26.E350.w2,26,350,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L26.E350.w3,26,350,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L26.E350.w3,26,350,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L26.E350.w3,26,350,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L26.E350.w3,26,350,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L39.E61.w1,39,61,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E61.w1,39,61,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E61.w1,39,61,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L39.E61.w1,39,61,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L39.E61.w2,39,61,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E61.w2,39,61,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E61.w2,39,61,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L39.E61.w2,39,61,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L39.E61.w3,39,61,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E61.w3,39,61,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E61.w3,39,61,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L39.E61.w3,39,61,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L39.E140.w1,39,140,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E140.w1,39,140,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E140.w1,39,140,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L39.E140.w1,39,140,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L39.E140.w2,39,140,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E140.w2,39,140,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E140.w2,39,140,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L39.E140.w2,39,140,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L39.E140.w3,39,140,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E140.w3,39,140,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E140.w3,39,140,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L39.E140.w3,39,140,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L39.E183.w1,39,183,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E183.w1,39,183,w1,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E183.w1,39,183,w1,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L39.E183.w1,39,183,w1,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+L39.E183.w2,39,183,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E183.w2,39,183,w2,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E183.w2,39,183,w2,,,R6.1,row_repeats,,row,,matrix,5120,0,,,,,,,
+L39.E183.w2,39,183,w2,,,R6.1,scale_row_repeats,,scale_row,,matrix,5120,0,,,,,,,
+L39.E183.w3,39,183,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.1,block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S0,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.1,nontrivial_block_repeats,,block,,matrix,368640,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.1,all_zero_blocks,,block,,matrix,368640,0,,,,,,,
+L39.E183.w3,39,183,w3,,,R6.1,le2_distinct_code_blocks,,block,,matrix,368640,0,,,,,,,includes all-zero blocks
+L39.E183.w3,39,183,w3,,,R6.1,row_repeats,,row,,matrix,2304,0,,,,,,,
+L39.E183.w3,39,183,w3,,,R6.1,scale_row_repeats,,scale_row,,matrix,2304,0,,,,,,,
+pooled,,,,,,R6.1,block_repeats,,block,,pooled 36 matrices,13271040,0,,,,,,,
+pooled,,,,,,R6.1,nontrivial_block_repeats,,block,,pooled 36 matrices,13271040,0,,,,,,,
+pooled,,,,,,R6.1,nontrivial_block_repeats_minus_within_matrix,,block,,pooled 36 matrices,13271040,0,,,,,,,
+pooled,,,,,,R6.1,nontrivial_block_repeat_windows_owned_by_other_matrix,,block,,pooled 36 matrices,13271040,0,,,,,,,
+pooled,,,,,,R6.1,row_repeats,,row,,pooled 36 matrices,116736,0,,,,,,,
+pooled,,,,,,R6.1,scale_row_repeats,,scale_row,,pooled 36 matrices,116736,0,,,,,,,
+pooled,,,,,,R6.1,matrix_repeats,,matrix,,pooled 36 matrices,36,0,,,,,,,
+pooled,,,,,,R6.1,scale_matrix_repeats,,scale_matrix,,pooled 36 matrices,36,0,,,,,,,
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014592858,,S2,0.014542265,,5.0592716e-05,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014592858,,S0,0.0080790455,,0.0065138122,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,8,matrix,11780352,171909,,S2,171313,,596,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012347415,,S2,0.00011837893,,5.0952195e-06,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012347415,,S0,4.984823e-05,,7.3625921e-05,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,10,matrix,11775744,1454,,S2,1394,,60,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S2,6.7962854e-07,,4.2476784e-07,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S0,5.9467497e-07,,5.0972141e-07,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,12,matrix,11771136,13,,S2,8,,5,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L0.E164.w1,0,164,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E164.w1,0,164,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L0.E164.w1,0,164,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E164.w1,0,164,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014400237,,S2,0.014428892,,-2.8654903e-05,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014400237,,S0,0.0077875014,,0.0066127354,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,8,matrix,11760640,169356,,S2,169693,,-337,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013012323,,S2,0.00012331495,,6.8082789e-06,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013012323,,S0,5.0381264e-05,,7.9741966e-05,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,10,matrix,11750400,1529,,S2,1449,,80,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.3628434e-06,,S2,1.0221326e-06,,3.4071086e-07,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.3628434e-06,,S0,3.4071086e-07,,1.0221326e-06,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,12,matrix,11740160,16,,S2,12,,4,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,8.5252073e-08,,S2,0,,8.5252073e-08,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,8.5252073e-08,,S0,0,,8.5252073e-08,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,14,matrix,11729920,1,,S2,0,,1,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L0.E164.w2,0,164,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L0.E164.w2,0,164,w2,,,R6.2,K_star,,,,matrix,,14,,,,,,,
+L0.E164.w2,0,164,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E164.w2,0,164,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014600073,,S2,0.014622229,,-2.2155535e-05,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014600073,,S0,0.0080409312,,0.0065591419,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,8,matrix,11780352,171994,,S2,172255,,-261,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012653128,,S2,0.00012704081,,-5.0952195e-07,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012653128,,S0,4.5007772e-05,,8.1523511e-05,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,10,matrix,11775744,1490,,S2,1496,,-6,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.0194428e-06,,S2,1.6990714e-06,,-6.7962854e-07,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.0194428e-06,,S0,8.4953568e-08,,9.3448925e-07,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,12,matrix,11771136,12,,S2,20,,-8,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L0.E164.w3,0,164,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E164.w3,0,164,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L0.E164.w3,0,164,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E164.w3,0,164,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014903884,,S2,0.014908128,,-4.2443553e-06,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014903884,,S0,0.0080105416,,0.0068933424,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,8,matrix,11780352,175573,,S2,175623,,-50,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012984318,,S2,0.00013349475,,-3.6515739e-06,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012984318,,S0,5.0612513e-05,,7.9230663e-05,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,10,matrix,11775744,1529,,S2,1572,,-43,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.8689785e-06,,S2,3.3981427e-07,,1.5291642e-06,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.8689785e-06,,S0,1.6990714e-07,,1.6990714e-06,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,12,matrix,11771136,22,,S2,4,,18,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L0.E334.w1,0,334,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E334.w1,0,334,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L0.E334.w1,0,334,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E334.w1,0,334,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014630581,,S2,0.014653879,,-2.3298052e-05,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014630581,,S0,0.0078030617,,0.0068275196,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,8,matrix,11760640,172065,,S2,172339,,-274,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00012254902,,S2,0.00013003813,,-7.4891068e-06,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00012254902,,S0,4.6551607e-05,,7.5997413e-05,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,10,matrix,11750400,1440,,S2,1528,,-88,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.3628434e-06,,S2,1.3628434e-06,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.3628434e-06,,S0,2.5553314e-07,,1.1073103e-06,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,12,matrix,11740160,16,,S2,16,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L0.E334.w2,0,334,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L0.E334.w2,0,334,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L0.E334.w2,0,334,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E334.w2,0,334,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014953458,,S2,0.014928416,,2.5041697e-05,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014953458,,S0,0.0079653817,,0.0069880764,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,8,matrix,11780352,176157,,S2,175862,,295,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00013145666,,S2,0.00013196618,,-5.0952195e-07,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00013145666,,S0,4.8829187e-05,,8.2627476e-05,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,10,matrix,11775744,1548,,S2,1554,,-6,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S2,1.1043964e-06,,-1.6990714e-07,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S0,1.6990714e-07,,7.6458211e-07,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,12,matrix,11771136,11,,S2,13,,-2,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,8.4986837e-08,,S2,0,,8.4986837e-08,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,8.4986837e-08,,S0,0,,8.4986837e-08,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,14,matrix,11766528,1,,S2,0,,1,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L0.E334.w3,0,334,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E334.w3,0,334,w3,,,R6.2,K_star,,,,matrix,,14,,,,,,,
+L0.E334.w3,0,334,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E334.w3,0,334,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01480185,,S2,0.014847179,,-4.5329715e-05,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01480185,,S0,0.0080178419,,0.0067840078,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,8,matrix,11780352,174371,,S2,174905,,-534,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00013502332,,S2,0.00012890905,,6.1142634e-06,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00013502332,,S0,5.1206956e-05,,8.381636e-05,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,10,matrix,11775744,1590,,S2,1518,,72,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.3592571e-06,,S2,6.7962854e-07,,6.7962854e-07,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.3592571e-06,,S0,1.6990714e-07,,1.1893499e-06,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,12,matrix,11771136,16,,S2,8,,8,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,8.4986837e-08,,S2,0,,8.4986837e-08,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,8.4986837e-08,,S0,0,,8.4986837e-08,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,14,matrix,11766528,1,,S2,0,,1,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L0.E375.w1,0,375,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E375.w1,0,375,w1,,,R6.2,K_star,,,,matrix,,14,,,,,,,
+L0.E375.w1,0,375,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E375.w1,0,375,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014781934,,S2,0.014881928,,-9.9994558e-05,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014781934,,S0,0.0078438758,,0.0069380578,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,8,matrix,11760640,173845,,S2,175021,,-1176,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013029344,,S2,0.00013386778,,-3.5743464e-06,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013029344,,S0,4.7743056e-05,,8.2550381e-05,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,10,matrix,11750400,1531,,S2,1573,,-42,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1073103e-06,,S2,1.1073103e-06,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1073103e-06,,S0,1.7035543e-07,,9.3695486e-07,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,12,matrix,11740160,13,,S2,13,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,8.5252073e-08,,-8.5252073e-08,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,1,,-1,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L0.E375.w2,0,375,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L0.E375.w2,0,375,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L0.E375.w2,0,375,w2,,,R6.2,K_star,,S2,,matrix,,14,,,,,,,S2 replicate
+L0.E375.w2,0,375,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01499361,,S2,0.014873325,,0.00012028503,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01499361,,S0,0.0080354135,,0.0069581962,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,8,matrix,11780352,176630,,S2,175213,,1417,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001316265,,S2,0.00013273047,,-1.1039642e-06,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001316265,,S0,4.6706178e-05,,8.4920324e-05,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,10,matrix,11775744,1550,,S2,1563,,-13,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.7840249e-06,,S2,9.3448925e-07,,8.4953568e-07,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.7840249e-06,,S0,2.548607e-07,,1.5291642e-06,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,12,matrix,11771136,21,,S2,11,,10,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L0.E375.w3,0,375,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L0.E375.w3,0,375,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L0.E375.w3,0,375,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L0.E375.w3,0,375,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014254243,,S2,0.014238369,,1.5873889e-05,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014254243,,S0,0.0076578357,,0.0065964073,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,8,matrix,11780352,167920,,S2,167733,,187,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001203321,,S2,0.00011863369,,1.6984065e-06,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001203321,,S0,4.4753011e-05,,7.5579089e-05,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,10,matrix,11775744,1417,,S2,1397,,20,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,4.2476784e-07,,S2,8.4953568e-07,,-4.2476784e-07,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,4.2476784e-07,,S0,8.4953568e-08,,3.3981427e-07,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,12,matrix,11771136,5,,S2,10,,-5,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L13.E49.w1,13,49,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E49.w1,13,49,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E49.w1,13,49,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E49.w1,13,49,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014659321,,S2,0.014726665,,-6.7343274e-05,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014659321,,S0,0.0076805344,,0.0069787869,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,8,matrix,11760640,172403,,S2,173195,,-792,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013097426,,S2,0.00013088916,,8.5103486e-08,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013097426,,S0,4.2126225e-05,,8.8848039e-05,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,10,matrix,11750400,1539,,S2,1538,,1,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.192488e-06,,S2,8.5177715e-07,,3.4071086e-07,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.192488e-06,,S0,1.7035543e-07,,1.0221326e-06,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,12,matrix,11740160,14,,S2,10,,4,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L13.E49.w2,13,49,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L13.E49.w2,13,49,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E49.w2,13,49,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E49.w2,13,49,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01435458,,S2,0.014302374,,5.2205571e-05,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01435458,,S0,0.0076691257,,0.0066854539,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,8,matrix,11780352,169102,,S2,168487,,615,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00013001302,,S2,0.00012924873,,7.6428292e-07,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00013001302,,S0,4.6026816e-05,,8.3986201e-05,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,10,matrix,11775744,1531,,S2,1522,,9,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.0194428e-06,,S2,1.0194428e-06,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.0194428e-06,,S0,1.6990714e-07,,8.4953568e-07,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,12,matrix,11771136,12,,S2,12,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L13.E49.w3,13,49,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E49.w3,13,49,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E49.w3,13,49,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E49.w3,13,49,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013400448,,S2,0.01347846,,-7.8011251e-05,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013400448,,S0,0.0076969686,,0.0057034798,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,8,matrix,11780352,157862,,S2,158781,,-919,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001148972,,S2,0.00011710513,,-2.2079284e-06,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001148972,,S0,4.6706178e-05,,6.819102e-05,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,10,matrix,11775744,1353,,S2,1379,,-26,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,5.0972141e-07,,S2,8.4953568e-07,,-3.3981427e-07,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,5.0972141e-07,,S0,2.548607e-07,,2.548607e-07,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,12,matrix,11771136,6,,S2,10,,-4,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L13.E135.w1,13,135,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E135.w1,13,135,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E135.w1,13,135,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E135.w1,13,135,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014819857,,S2,0.01480132,,1.8536406e-05,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014819857,,S0,0.007772111,,0.0070477457,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,8,matrix,11760640,174291,,S2,174073,,218,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013293164,,S2,0.00012603826,,6.8933824e-06,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00013293164,,S0,4.7232435e-05,,8.569921e-05,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,10,matrix,11750400,1562,,S2,1481,,81,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,7.6659943e-07,,S2,8.5177715e-07,,-8.5177715e-08,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,7.6659943e-07,,S0,1.7035543e-07,,5.96244e-07,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,12,matrix,11740160,9,,S2,10,,-1,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L13.E135.w2,13,135,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L13.E135.w2,13,135,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E135.w2,13,135,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E135.w2,13,135,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013936256,,S2,0.013912572,,2.3683503e-05,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013936256,,S0,0.0077337248,,0.0062025311,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,8,matrix,11780352,164174,,S2,163895,,279,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012024718,,S2,0.00011464244,,5.6047414e-06,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012024718,,S0,4.5856975e-05,,7.4390204e-05,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,10,matrix,11775744,1416,,S2,1350,,66,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S2,7.6458211e-07,,3.3981427e-07,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S0,2.548607e-07,,8.4953568e-07,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,12,matrix,11771136,13,,S2,9,,4,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L13.E135.w3,13,135,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E135.w3,13,135,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E135.w3,13,135,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E135.w3,13,135,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013607658,,S2,0.013619542,,-1.1884195e-05,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013607658,,S0,0.0077630957,,0.0058445622,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,8,matrix,11780352,160303,,S2,160443,,-140,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011676545,,S2,0.00011302895,,3.7364943e-06,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011676545,,S0,4.8999027e-05,,6.7766419e-05,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,10,matrix,11775744,1375,,S2,1331,,44,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S2,8.4953568e-07,,8.4953568e-08,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S0,5.0972141e-07,,4.2476784e-07,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,12,matrix,11771136,11,,S2,10,,1,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L13.E163.w1,13,163,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E163.w1,13,163,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E163.w1,13,163,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E163.w1,13,163,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014372347,,S2,0.014476508,,-0.000104161,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014372347,,S0,0.0078073982,,0.0065649488,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,8,matrix,11760640,169028,,S2,170253,,-1225,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00012527233,,S2,0.00012544254,,-1.7020697e-07,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00012527233,,S0,4.8168573e-05,,7.7103758e-05,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,10,matrix,11750400,1472,,S2,1474,,-2,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.5331989e-06,,S2,1.4480212e-06,,8.5177715e-08,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.5331989e-06,,S0,3.4071086e-07,,1.192488e-06,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,12,matrix,11740160,18,,S2,17,,1,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,1.7050415e-07,,S2,0,,1.7050415e-07,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,1.7050415e-07,,S0,0,,1.7050415e-07,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,14,matrix,11729920,2,,S2,0,,2,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L13.E163.w2,13,163,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L13.E163.w2,13,163,w2,,,R6.2,K_star,,,,matrix,,14,,,,,,,
+L13.E163.w2,13,163,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E163.w2,13,163,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013792372,,S2,0.013871572,,-7.9199671e-05,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013792372,,S0,0.0077644539,,0.0060279184,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,8,matrix,11780352,162479,,S2,163412,,-933,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001199075,,S2,0.00011421784,,5.6896617e-06,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001199075,,S0,4.4158569e-05,,7.5748929e-05,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,10,matrix,11775744,1412,,S2,1345,,67,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S2,8.4953568e-07,,2.548607e-07,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S0,1.6990714e-07,,9.3448925e-07,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,12,matrix,11771136,13,,S2,10,,3,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L13.E163.w3,13,163,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L13.E163.w3,13,163,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L13.E163.w3,13,163,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L13.E163.w3,13,163,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014084129,,S2,0.014027849,,5.6280152e-05,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.014084129,,S0,0.0077911084,,0.0062930208,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,8,matrix,11780352,165916,,S2,165253,,663,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011685037,,S2,0.00011820909,,-1.3587252e-06,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011685037,,S0,4.8404585e-05,,6.8445781e-05,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,10,matrix,11775744,1376,,S2,1392,,-16,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.3592571e-06,,S2,9.3448925e-07,,4.2476784e-07,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.3592571e-06,,S0,8.4953568e-08,,1.2743035e-06,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,12,matrix,11771136,16,,S2,11,,5,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L26.E12.w1,26,12,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E12.w1,26,12,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E12.w1,26,12,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E12.w1,26,12,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014137156,,S2,0.014136731,,4.2514693e-07,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014137156,,S0,0.0077954941,,0.0063416617,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,8,matrix,11760640,166262,,S2,166257,,5,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.0001197406,,S2,0.00011744281,,2.2977941e-06,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.0001197406,,S0,4.1785812e-05,,7.7954793e-05,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,10,matrix,11750400,1407,,S2,1380,,27,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1073103e-06,,S2,5.96244e-07,,5.1106629e-07,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1073103e-06,,S0,4.2588857e-07,,6.8142172e-07,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,12,matrix,11740160,13,,S2,7,,6,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L26.E12.w2,26,12,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L26.E12.w2,26,12,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E12.w2,26,12,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E12.w2,26,12,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013809604,,S2,0.013728792,,8.0812526e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013809604,,S0,0.0079357561,,0.0058738483,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,8,matrix,11780352,162682,,S2,161730,,952,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010929246,,S2,0.00011914322,,-9.8507576e-06,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010929246,,S0,5.0952195e-05,,5.8340263e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,10,matrix,11775744,1287,,S2,1403,,-116,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.2743035e-06,,S2,1.6141178e-06,,-3.3981427e-07,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.2743035e-06,,S0,2.548607e-07,,1.0194428e-06,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,12,matrix,11771136,15,,S2,19,,-4,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L26.E12.w3,26,12,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E12.w3,26,12,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E12.w3,26,12,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E12.w3,26,12,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01412148,,S2,0.014130562,,-9.0829204e-06,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01412148,,S0,0.0077291409,,0.0063923387,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,8,matrix,11780352,166356,,S2,166463,,-107,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001144726,,S2,0.00012220035,,-7.7277495e-06,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001144726,,S0,4.4668091e-05,,6.9804507e-05,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,10,matrix,11775744,1348,,S2,1439,,-91,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.0194428e-06,,S2,1.6990714e-06,,-6.7962854e-07,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.0194428e-06,,S0,0,,1.0194428e-06,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,12,matrix,11771136,12,,S2,20,,-8,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L26.E347.w1,26,347,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E347.w1,26,347,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E347.w1,26,347,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E347.w1,26,347,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014341481,,S2,0.014247184,,9.4297589e-05,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014341481,,S0,0.0077244946,,0.0066169868,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,8,matrix,11760640,168665,,S2,167556,,1109,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.0001219533,,S2,0.00012152778,,4.2551743e-07,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.0001219533,,S0,4.6977124e-05,,7.4976171e-05,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,10,matrix,11750400,1433,,S2,1428,,5,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,2.0442652e-06,,S2,1.3628434e-06,,6.8142172e-07,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,2.0442652e-06,,S0,2.5553314e-07,,1.788732e-06,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,12,matrix,11740160,24,,S2,16,,8,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,1.7050415e-07,,S2,0,,1.7050415e-07,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,1.7050415e-07,,S0,0,,1.7050415e-07,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,14,matrix,11729920,2,,S2,0,,2,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L26.E347.w2,26,347,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L26.E347.w2,26,347,w2,,,R6.2,K_star,,,,matrix,,14,,,,,,,
+L26.E347.w2,26,347,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E347.w2,26,347,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013907988,,S2,0.013857481,,5.0507829e-05,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013907988,,S0,0.0078939916,,0.0060139969,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,8,matrix,11780352,163841,,S2,163246,,595,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010963214,,S2,0.00011353847,,-3.9063349e-06,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010963214,,S0,5.1122035e-05,,5.8510103e-05,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,10,matrix,11775744,1291,,S2,1337,,-46,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,6.7962854e-07,,S2,1.0194428e-06,,-3.3981427e-07,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,6.7962854e-07,,S0,1.6990714e-07,,5.0972141e-07,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,12,matrix,11771136,8,,S2,12,,-4,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L26.E347.w3,26,347,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E347.w3,26,347,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E347.w3,26,347,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E347.w3,26,347,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013915543,,S2,0.013938887,,-2.3343954e-05,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013915543,,S0,0.007727528,,0.0061880154,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,8,matrix,11780352,163930,,S2,164205,,-275,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011600116,,S2,0.00011540672,,5.9444227e-07,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011600116,,S0,4.6706178e-05,,6.9294985e-05,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,10,matrix,11775744,1366,,S2,1359,,7,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,5.9467497e-07,,S2,9.3448925e-07,,-3.3981427e-07,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,5.9467497e-07,,S0,4.2476784e-07,,1.6990714e-07,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,12,matrix,11771136,7,,S2,11,,-4,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L26.E350.w1,26,350,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E350.w1,26,350,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E350.w1,26,350,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E350.w1,26,350,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014575567,,S2,0.014578033,,-2.4658522e-06,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.014575567,,S0,0.0078809487,,0.0066946187,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,8,matrix,11760640,171418,,S2,171447,,-29,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00012680419,,S2,0.00012169798,,5.1062092e-06,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00012680419,,S0,4.8679194e-05,,7.8125e-05,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,10,matrix,11750400,1490,,S2,1430,,60,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1073103e-06,,S2,9.3695486e-07,,1.7035543e-07,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1073103e-06,,S0,5.1106629e-07,,5.96244e-07,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,12,matrix,11740160,13,,S2,11,,2,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L26.E350.w2,26,350,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L26.E350.w2,26,350,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E350.w2,26,350,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E350.w2,26,350,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01364747,,S2,0.013664787,,-1.731697e-05,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01364747,,S0,0.007871921,,0.005775549,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,8,matrix,11780352,160772,,S2,160976,,-204,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001249178,,S2,0.00011549164,,9.426156e-06,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.0001249178,,S0,4.7725222e-05,,7.7192575e-05,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,10,matrix,11775744,1471,,S2,1360,,111,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S2,1.0194428e-06,,-8.4953568e-08,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S0,4.2476784e-07,,5.0972141e-07,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,12,matrix,11771136,11,,S2,12,,-1,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L26.E350.w3,26,350,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L26.E350.w3,26,350,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L26.E350.w3,26,350,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L26.E350.w3,26,350,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013971229,,S2,0.013965966,,5.2630006e-06,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013971229,,S0,0.0077802429,,0.0061909865,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,8,matrix,11780352,164586,,S2,164524,,62,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012262495,,S2,0.00010827341,,1.4351535e-05,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00012262495,,S0,4.9083947e-05,,7.3541001e-05,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,10,matrix,11775744,1444,,S2,1275,,169,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.3592571e-06,,S2,5.9467497e-07,,7.6458211e-07,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.3592571e-06,,S0,5.0972141e-07,,8.4953568e-07,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,12,matrix,11771136,16,,S2,7,,9,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L39.E61.w1,39,61,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E61.w1,39,61,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E61.w1,39,61,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E61.w1,39,61,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.015759176,,S2,0.015713856,,4.5320663e-05,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.015759176,,S0,0.008506935,,0.0072522414,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,8,matrix,11760640,185338,,S2,184805,,533,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00019999319,,S2,0.00018841912,,1.1574074e-05,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00019999319,,S0,5.1657816e-05,,0.00014833538,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,10,matrix,11750400,2350,,S2,2214,,136,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1839702e-05,,S2,1.0476859e-05,,1.3628434e-06,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.1839702e-05,,S0,1.7035543e-07,,1.1669347e-05,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,12,matrix,11740160,139,,S2,123,,16,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,3.1543267e-06,,S2,2.8985705e-06,,2.5575622e-07,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,3.1543267e-06,,S0,0,,3.1543267e-06,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,14,matrix,11729920,37,,S2,34,,3,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,1.365225e-06,,S2,1.365225e-06,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,1.365225e-06,,S0,0,,1.365225e-06,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,16,matrix,11719680,16,,S2,16,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,1.7095186e-07,,S2,1.7095186e-07,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,1.7095186e-07,,S0,,,,,S0 only for k<=16
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,20,matrix,11699200,2,,S2,2,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L39.E61.w2,39,61,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L39.E61.w2,39,61,w2,,,R6.2,K_star,,,,matrix,,20,,,,,,,
+L39.E61.w2,39,61,w2,,,R6.2,K_star,,S2,,matrix,,20,,,,,,,S2 replicate
+L39.E61.w2,39,61,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013874373,,S2,0.013956374,,-8.2000945e-05,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013874373,,S0,0.007835844,,0.0060385292,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,8,matrix,11780352,163445,,S2,164411,,-966,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011506704,,S2,0.00011871861,,-3.6515739e-06,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00011506704,,S0,5.0442673e-05,,6.4624367e-05,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,10,matrix,11775744,1355,,S2,1398,,-43,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1893499e-06,,S2,5.9467497e-07,,5.9467497e-07,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1893499e-06,,S0,8.4953568e-08,,1.1043964e-06,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,12,matrix,11771136,14,,S2,7,,7,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L39.E61.w3,39,61,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E61.w3,39,61,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E61.w3,39,61,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E61.w3,39,61,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.012927288,,S2,0.012988067,,-6.0779169e-05,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.012927288,,S0,0.00786513,,0.0050621577,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,8,matrix,11780352,152288,,S2,153004,,-716,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010640517,,S2,0.00010733929,,-9.3412357e-07,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010640517,,S0,4.7810143e-05,,5.8595024e-05,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,10,matrix,11775744,1253,,S2,1264,,-11,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1893499e-06,,S2,1.5291642e-06,,-3.3981427e-07,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1893499e-06,,S0,1.6990714e-07,,1.0194428e-06,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,12,matrix,11771136,14,,S2,18,,-4,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L39.E140.w1,39,140,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E140.w1,39,140,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E140.w1,39,140,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E140.w1,39,140,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.013493908,,S2,0.0134701,,2.3808228e-05,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.013493908,,S0,0.0095741388,,0.0039197697,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,8,matrix,11760640,158697,,S2,158417,,280,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00011820874,,S2,0.00011523012,,2.978622e-06,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.00011820874,,S0,5.8636302e-05,,5.957244e-05,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,10,matrix,11750400,1389,,S2,1354,,35,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.4480212e-06,,S2,8.5177715e-07,,5.96244e-07,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,1.4480212e-06,,S0,1.7035543e-07,,1.2776657e-06,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,12,matrix,11740160,17,,S2,10,,7,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L39.E140.w2,39,140,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L39.E140.w2,39,140,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E140.w2,39,140,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E140.w2,39,140,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013406391,,S2,0.013400533,,5.8572104e-06,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013406391,,S0,0.0079834626,,0.0054229279,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,8,matrix,11780352,157932,,S2,157863,,69,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010852817,,S2,0.00010581072,,2.7174504e-06,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010852817,,S0,4.6111736e-05,,6.2416438e-05,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,10,matrix,11775744,1278,,S2,1246,,32,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,7.6458211e-07,,S2,5.9467497e-07,,1.6990714e-07,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,7.6458211e-07,,S0,2.548607e-07,,5.0972141e-07,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,12,matrix,11771136,9,,S2,7,,2,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L39.E140.w3,39,140,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E140.w3,39,140,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E140.w3,39,140,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E140.w3,39,140,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01331293,,S2,0.01335062,,-3.7689875e-05,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,8,matrix,11780352,0.01331293,,S0,0.0079554499,,0.00535748,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,8,matrix,11780352,156831,,S2,157275,,-444,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010997182,,S2,0.00011065118,,-6.7936259e-07,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010997182,,S0,5.0018071e-05,,5.9953749e-05,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,10,matrix,11775744,1295,,S2,1303,,-8,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S2,1.1893499e-06,,-8.4953568e-08,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,12,matrix,11771136,1.1043964e-06,,S0,3.3981427e-07,,7.6458211e-07,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,12,matrix,11771136,13,,S2,14,,-1,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L39.E183.w1,39,183,w1,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E183.w1,39,183,w1,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E183.w1,39,183,w1,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E183.w1,39,183,w1,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.01380129,,S2,0.013731991,,6.929895e-05,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,8,matrix,11760640,0.01380129,,S0,0.0087053936,,0.0050958961,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,8,matrix,11760640,162312,,S2,161497,,815,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.0001123366,,S2,0.00011208129,,2.5531046e-07,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,10,matrix,11750400,0.0001123366,,S0,5.5061955e-05,,5.7274646e-05,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,10,matrix,11750400,1320,,S2,1317,,3,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,3.4071086e-07,,S2,1.0221326e-06,,-6.8142172e-07,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,12,matrix,11740160,3.4071086e-07,,S0,1.7035543e-07,,1.7035543e-07,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,12,matrix,11740160,4,,S2,12,,-8,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,14,matrix,11729920,0,,S0,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,14,matrix,11729920,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,16,matrix,11719680,0,,S0,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,16,matrix,11719680,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,20,matrix,11699200,0,,S0,,,,,S0 only for k<=16
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,20,matrix,11699200,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,24,matrix,11678720,0,,S0,,,,,S0 only for k<=16
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,24,matrix,11678720,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,32,matrix,11637760,0,,S0,,,,,S0 only for k<=16
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,32,matrix,11637760,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,48,matrix,11555840,0,,S0,,,,,S0 only for k<=16
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,48,matrix,11555840,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,dup_fraction,,,64,matrix,11473920,0,,S0,,,,,S0 only for k<=16
+L39.E183.w2,39,183,w2,,,R6.2,dup_count,,,64,matrix,11473920,0,,S2,0,,0,,1 replicate
+L39.E183.w2,39,183,w2,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E183.w2,39,183,w2,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E183.w2,39,183,w2,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013501889,,S2,0.013469971,,3.1917552e-05,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,8,matrix,11780352,0.013501889,,S0,0.0079293895,,0.005572499,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,8,matrix,11780352,159057,,S2,158681,,376,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010623533,,S2,0.00011107578,,-4.8404585e-06,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,10,matrix,11775744,0.00010623533,,S0,4.9423629e-05,,5.6811697e-05,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,10,matrix,11775744,1251,,S2,1308,,-57,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S2,5.9467497e-07,,3.3981427e-07,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,12,matrix,11771136,9.3448925e-07,,S0,1.6990714e-07,,7.6458211e-07,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,12,matrix,11771136,11,,S2,7,,4,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,14,matrix,11766528,0,,S0,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,14,matrix,11766528,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,16,matrix,11761920,0,,S0,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,16,matrix,11761920,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,20,matrix,11752704,0,,S0,,,,,S0 only for k<=16
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,20,matrix,11752704,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,24,matrix,11743488,0,,S0,,,,,S0 only for k<=16
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,24,matrix,11743488,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,32,matrix,11725056,0,,S0,,,,,S0 only for k<=16
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,32,matrix,11725056,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,48,matrix,11688192,0,,S0,,,,,S0 only for k<=16
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,48,matrix,11688192,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,dup_fraction,,,64,matrix,11651328,0,,S0,,,,,S0 only for k<=16
+L39.E183.w3,39,183,w3,,,R6.2,dup_count,,,64,matrix,11651328,0,,S2,0,,0,,1 replicate
+L39.E183.w3,39,183,w3,,,R6.2,K_star,,,,matrix,,12,,,,,,,
+L39.E183.w3,39,183,w3,,,R6.2,K_star,,S2,,matrix,,12,,,,,,,S2 replicate
+L39.E183.w3,39,183,w3,,,R6.2,approx_coverage_bits,,,16,matrix,11796480,0,,,,,,,approximate upper bound: (dup16 - S2 dup16)/N * H(C'|E)
+L0.E164.w1,0,164,w1,L0.E334.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,21,,S2(B),30,,-9,,1 replicate
+L0.E164.w1,0,164,w1,L0.E334.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E334.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E334.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,26,,S2(B),28,,-2,,1 replicate
+L0.E164.w1,0,164,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,30,,S2(B),33,,-3,,1 replicate
+L0.E334.w1,0,334,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L0.E375.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L0.E334.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,26,,S2(B),27,,-1,,1 replicate
+L0.E164.w2,0,164,w2,L0.E334.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L0.E334.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L0.E334.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,31,,S2(B),27,,4,,1 replicate
+L0.E164.w2,0,164,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L0.E334.w2,0,334,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,18,,S2(B),20,,-2,,1 replicate
+L0.E334.w2,0,334,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L0.E334.w2,0,334,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L0.E334.w2,0,334,w2,L0.E375.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L0.E334.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,29,,S2(B),18,,11,,1 replicate
+L0.E164.w3,0,164,w3,L0.E334.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L0.E334.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L0.E334.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,29,,S2(B),28,,1,,1 replicate
+L0.E164.w3,0,164,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E334.w3,0,334,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,31,,S2(B),24,,7,,1 replicate
+L0.E334.w3,0,334,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E334.w3,0,334,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E334.w3,0,334,w3,L0.E375.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E135.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,23,,S2(B),17,,6,,1 replicate
+L13.E49.w1,13,49,w1,L13.E135.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E135.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E135.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,24,,S2(B),16,,8,,1 replicate
+L13.E49.w1,13,49,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,20,,S2(B),23,,-3,,1 replicate
+L13.E135.w1,13,135,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L13.E163.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L13.E135.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,32,,S2(B),23,,9,,1 replicate
+L13.E49.w2,13,49,w2,L13.E135.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L13.E135.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L13.E135.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,18,,S2(B),23,,-5,,1 replicate
+L13.E49.w2,13,49,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L13.E135.w2,13,135,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,29,,S2(B),29,,0,,1 replicate
+L13.E135.w2,13,135,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L13.E135.w2,13,135,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L13.E135.w2,13,135,w2,L13.E163.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L13.E135.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,19,,S2(B),24,,-5,,1 replicate
+L13.E49.w3,13,49,w3,L13.E135.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L13.E135.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L13.E135.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,29,,S2(B),38,,-9,,1 replicate
+L13.E49.w3,13,49,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E135.w3,13,135,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,16,,S2(B),11,,5,,1 replicate
+L13.E135.w3,13,135,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E135.w3,13,135,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E135.w3,13,135,w3,L13.E163.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E347.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,18,,S2(B),27,,-9,,1 replicate
+L26.E12.w1,26,12,w1,L26.E347.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E347.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E347.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,22,,S2(B),25,,-3,,1 replicate
+L26.E12.w1,26,12,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,22,,S2(B),36,,-14,,1 replicate
+L26.E347.w1,26,347,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L26.E350.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L26.E347.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,28,,S2(B),24,,4,,1 replicate
+L26.E12.w2,26,12,w2,L26.E347.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L26.E347.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L26.E347.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,26,,S2(B),24,,2,,1 replicate
+L26.E12.w2,26,12,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L26.E347.w2,26,347,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,27,,S2(B),23,,4,,1 replicate
+L26.E347.w2,26,347,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L26.E347.w2,26,347,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L26.E347.w2,26,347,w2,L26.E350.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L26.E347.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,24,,S2(B),25,,-1,,1 replicate
+L26.E12.w3,26,12,w3,L26.E347.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L26.E347.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L26.E347.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,28,,S2(B),24,,4,,1 replicate
+L26.E12.w3,26,12,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E347.w3,26,347,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,20,,S2(B),21,,-1,,1 replicate
+L26.E347.w3,26,347,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E347.w3,26,347,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E347.w3,26,347,w3,L26.E350.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E140.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,16,,S2(B),26,,-10,,1 replicate
+L39.E61.w1,39,61,w1,L39.E140.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E140.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E140.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,26,,S2(B),20,,6,,1 replicate
+L39.E61.w1,39,61,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E140.w1,39,140,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,12,,11771136,20,,S2(B),26,,-6,,1 replicate
+L39.E140.w1,39,140,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E140.w1,39,140,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E140.w1,39,140,w1,L39.E183.w1,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E61.w2,39,61,w2,L39.E140.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,40,,S2(B),22,,18,,1 replicate
+L39.E61.w2,39,61,w2,L39.E140.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L39.E61.w2,39,61,w2,L39.E140.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L39.E61.w2,39,61,w2,L39.E140.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L39.E61.w2,39,61,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,29,,S2(B),31,,-2,,1 replicate
+L39.E61.w2,39,61,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L39.E61.w2,39,61,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L39.E61.w2,39,61,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L39.E140.w2,39,140,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,12,,11740160,20,,S2(B),10,,10,,1 replicate
+L39.E140.w2,39,140,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L39.E140.w2,39,140,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L39.E140.w2,39,140,w2,L39.E183.w2,P1,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L39.E61.w3,39,61,w3,L39.E140.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,23,,S2(B),24,,-1,,1 replicate
+L39.E61.w3,39,61,w3,L39.E140.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E61.w3,39,61,w3,L39.E140.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E61.w3,39,61,w3,L39.E140.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E61.w3,39,61,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,18,,S2(B),21,,-3,,1 replicate
+L39.E61.w3,39,61,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E61.w3,39,61,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E61.w3,39,61,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E140.w3,39,140,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,12,,11771136,25,,S2(B),19,,6,,1 replicate
+L39.E140.w3,39,140,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E140.w3,39,140,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E140.w3,39,140,w3,L39.E183.w3,P1,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E164.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,31,,S2(B),30,,1,,1 replicate
+L0.E164.w1,0,164,w1,L0.E164.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E164.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L0.E164.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L0.E334.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,29,,S2(B),23,,6,,1 replicate
+L0.E334.w1,0,334,w1,L0.E334.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L0.E334.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L0.E334.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E375.w1,0,375,w1,L0.E375.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,38,,S2(B),22,,16,,1 replicate
+L0.E375.w1,0,375,w1,L0.E375.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E375.w1,0,375,w1,L0.E375.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E375.w1,0,375,w1,L0.E375.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E49.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,31,,S2(B),29,,2,,1 replicate
+L13.E49.w1,13,49,w1,L13.E49.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E49.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L13.E49.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L13.E135.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,25,,S2(B),22,,3,,1 replicate
+L13.E135.w1,13,135,w1,L13.E135.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L13.E135.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L13.E135.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E163.w1,13,163,w1,L13.E163.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,30,,S2(B),20,,10,,1 replicate
+L13.E163.w1,13,163,w1,L13.E163.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E163.w1,13,163,w1,L13.E163.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E163.w1,13,163,w1,L13.E163.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E12.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,17,,S2(B),25,,-8,,1 replicate
+L26.E12.w1,26,12,w1,L26.E12.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E12.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L26.E12.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L26.E347.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,18,,S2(B),27,,-9,,1 replicate
+L26.E347.w1,26,347,w1,L26.E347.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L26.E347.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L26.E347.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E350.w1,26,350,w1,L26.E350.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,27,,S2(B),25,,2,,1 replicate
+L26.E350.w1,26,350,w1,L26.E350.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E350.w1,26,350,w1,L26.E350.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E350.w1,26,350,w1,L26.E350.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E61.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,21,,S2(B),24,,-3,,1 replicate
+L39.E61.w1,39,61,w1,L39.E61.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E61.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E61.w1,39,61,w1,L39.E61.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E140.w1,39,140,w1,L39.E140.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,16,,S2(B),22,,-6,,1 replicate
+L39.E140.w1,39,140,w1,L39.E140.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E140.w1,39,140,w1,L39.E140.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E140.w1,39,140,w1,L39.E140.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L39.E183.w1,39,183,w1,L39.E183.w3,P2,R6.3,B_windows_in_A,,,12,,11771136,16,,S2(B),6,,10,,1 replicate
+L39.E183.w1,39,183,w1,L39.E183.w3,P2,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L39.E183.w1,39,183,w1,L39.E183.w3,P2,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L39.E183.w1,39,183,w1,L39.E183.w3,P2,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L13.E49.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,27,,S2(B),23,,4,,1 replicate
+L0.E164.w1,0,164,w1,L13.E49.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L13.E49.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E164.w1,0,164,w1,L13.E49.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L13.E135.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,21,,S2(B),27,,-6,,1 replicate
+L0.E334.w1,0,334,w1,L13.E135.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L13.E135.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E334.w1,0,334,w1,L13.E135.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E375.w1,0,375,w1,L13.E163.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,24,,S2(B),20,,4,,1 replicate
+L0.E375.w1,0,375,w1,L13.E163.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E375.w1,0,375,w1,L13.E163.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E375.w1,0,375,w1,L13.E163.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L26.E12.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,22,,S2(B),23,,-1,,1 replicate
+L13.E49.w1,13,49,w1,L26.E12.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L26.E12.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E49.w1,13,49,w1,L26.E12.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L26.E347.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,21,,S2(B),27,,-6,,1 replicate
+L13.E135.w1,13,135,w1,L26.E347.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L26.E347.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E135.w1,13,135,w1,L26.E347.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E163.w1,13,163,w1,L26.E350.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,28,,S2(B),20,,8,,1 replicate
+L13.E163.w1,13,163,w1,L26.E350.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E163.w1,13,163,w1,L26.E350.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E163.w1,13,163,w1,L26.E350.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L39.E61.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,26,,S2(B),22,,4,,1 replicate
+L26.E12.w1,26,12,w1,L39.E61.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L39.E61.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E12.w1,26,12,w1,L39.E61.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L39.E140.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,22,,S2(B),16,,6,,1 replicate
+L26.E347.w1,26,347,w1,L39.E140.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L39.E140.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E347.w1,26,347,w1,L39.E140.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E350.w1,26,350,w1,L39.E183.w1,P3,R6.3,B_windows_in_A,,,12,,11771136,18,,S2(B),16,,2,,1 replicate
+L26.E350.w1,26,350,w1,L39.E183.w1,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E350.w1,26,350,w1,L39.E183.w1,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E350.w1,26,350,w1,L39.E183.w1,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L13.E49.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,25,,S2(B),31,,-6,,1 replicate
+L0.E164.w2,0,164,w2,L13.E49.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L13.E49.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L0.E164.w2,0,164,w2,L13.E49.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L0.E334.w2,0,334,w2,L13.E135.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,14,,S2(B),28,,-14,,1 replicate
+L0.E334.w2,0,334,w2,L13.E135.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L0.E334.w2,0,334,w2,L13.E135.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L0.E334.w2,0,334,w2,L13.E135.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L0.E375.w2,0,375,w2,L13.E163.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,33,,S2(B),33,,0,,1 replicate
+L0.E375.w2,0,375,w2,L13.E163.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L0.E375.w2,0,375,w2,L13.E163.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L0.E375.w2,0,375,w2,L13.E163.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L26.E12.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,28,,S2(B),23,,5,,1 replicate
+L13.E49.w2,13,49,w2,L26.E12.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L26.E12.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L13.E49.w2,13,49,w2,L26.E12.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L13.E135.w2,13,135,w2,L26.E347.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,28,,S2(B),26,,2,,1 replicate
+L13.E135.w2,13,135,w2,L26.E347.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L13.E135.w2,13,135,w2,L26.E347.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L13.E135.w2,13,135,w2,L26.E347.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L13.E163.w2,13,163,w2,L26.E350.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,17,,S2(B),27,,-10,,1 replicate
+L13.E163.w2,13,163,w2,L26.E350.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L13.E163.w2,13,163,w2,L26.E350.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L13.E163.w2,13,163,w2,L26.E350.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L39.E61.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,23,,S2(B),35,,-12,,1 replicate
+L26.E12.w2,26,12,w2,L39.E61.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L39.E61.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L26.E12.w2,26,12,w2,L39.E61.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L26.E347.w2,26,347,w2,L39.E140.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,23,,S2(B),20,,3,,1 replicate
+L26.E347.w2,26,347,w2,L39.E140.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L26.E347.w2,26,347,w2,L39.E140.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L26.E347.w2,26,347,w2,L39.E140.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L26.E350.w2,26,350,w2,L39.E183.w2,P3,R6.3,B_windows_in_A,,,12,,11740160,25,,S2(B),24,,1,,1 replicate
+L26.E350.w2,26,350,w2,L39.E183.w2,P3,R6.3,B_windows_in_A,,,16,,11719680,0,,S2(B),0,,0,,1 replicate
+L26.E350.w2,26,350,w2,L39.E183.w2,P3,R6.3,B_windows_in_A,,,24,,11678720,0,,S2(B),0,,0,,1 replicate
+L26.E350.w2,26,350,w2,L39.E183.w2,P3,R6.3,B_windows_in_A,,,32,,11637760,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L13.E49.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,27,,S2(B),14,,13,,1 replicate
+L0.E164.w3,0,164,w3,L13.E49.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L13.E49.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E164.w3,0,164,w3,L13.E49.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E334.w3,0,334,w3,L13.E135.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,29,,S2(B),23,,6,,1 replicate
+L0.E334.w3,0,334,w3,L13.E135.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E334.w3,0,334,w3,L13.E135.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E334.w3,0,334,w3,L13.E135.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L0.E375.w3,0,375,w3,L13.E163.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,21,,S2(B),30,,-9,,1 replicate
+L0.E375.w3,0,375,w3,L13.E163.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L0.E375.w3,0,375,w3,L13.E163.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L0.E375.w3,0,375,w3,L13.E163.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L26.E12.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,21,,S2(B),22,,-1,,1 replicate
+L13.E49.w3,13,49,w3,L26.E12.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L26.E12.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E49.w3,13,49,w3,L26.E12.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E135.w3,13,135,w3,L26.E347.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,17,,S2(B),17,,0,,1 replicate
+L13.E135.w3,13,135,w3,L26.E347.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E135.w3,13,135,w3,L26.E347.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E135.w3,13,135,w3,L26.E347.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L13.E163.w3,13,163,w3,L26.E350.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,17,,S2(B),24,,-7,,1 replicate
+L13.E163.w3,13,163,w3,L26.E350.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L13.E163.w3,13,163,w3,L26.E350.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L13.E163.w3,13,163,w3,L26.E350.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L39.E61.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,32,,S2(B),15,,17,,1 replicate
+L26.E12.w3,26,12,w3,L39.E61.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L39.E61.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E12.w3,26,12,w3,L39.E61.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E347.w3,26,347,w3,L39.E140.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,24,,S2(B),17,,7,,1 replicate
+L26.E347.w3,26,347,w3,L39.E140.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E347.w3,26,347,w3,L39.E140.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E347.w3,26,347,w3,L39.E140.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate
+L26.E350.w3,26,350,w3,L39.E183.w3,P3,R6.3,B_windows_in_A,,,12,,11771136,30,,S2(B),24,,6,,1 replicate
+L26.E350.w3,26,350,w3,L39.E183.w3,P3,R6.3,B_windows_in_A,,,16,,11761920,0,,S2(B),0,,0,,1 replicate
+L26.E350.w3,26,350,w3,L39.E183.w3,P3,R6.3,B_windows_in_A,,,24,,11743488,0,,S2(B),0,,0,,1 replicate
+L26.E350.w3,26,350,w3,L39.E183.w3,P3,R6.3,B_windows_in_A,,,32,,11725056,0,,S2(B),0,,0,,1 replicate

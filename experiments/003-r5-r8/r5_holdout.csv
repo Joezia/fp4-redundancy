@@ -1,0 +1,1887 @@
+matrix,layer,expert,role,matrix_b,pair_group,item,variable,domain,group_or_context,k,subset,n,value,analytic_bias,baseline,baseline_mean,baseline_std,net,significant,note
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0012392381,,S4,-0.00015392371,,0.0013931618,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,1,,,0.00089447565,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0014187619,,S4,-0.00029400982,,0.0017127717,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,2,,,0.001024147,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0015047443,,S4,-0.00060140672,,0.0021061511,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,4,,,0.0010862611,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.0013256263,,S4,-0.0011787163,,0.0025043426,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,8,,,0.0009568716,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.00073385514,,S4,-0.0024075204,,0.0031413755,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,16,,,0.00052955892,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,32,,11796480,-0.00079031751,,S4,-0.0049890002,,0.0041986827,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,64,,11796480,-0.0043259703,,S4,-0.010409527,,0.0060835568,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.012927273,,S4,-0.022593766,,0.0096664926,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0014736296,,S4,-0.00019192044,,0.0016655501,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,1,,,0.0010637831,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.0018564187,,S4,-0.00033669209,,0.0021931108,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,2,,,0.0013403675,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.0023224381,,S4,-0.00064506645,,0.0029675045,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,4,,,0.0016772333,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.002356607,,S4,-0.0012378887,,0.0035944956,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,8,,,0.0017019388,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.0020327506,,S4,-0.0025201142,,0.0045528648,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,16,,,0.0014678119,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.00090302969,,S4,-0.0051617851,,0.0060648148,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,32,,,0.00065169252,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,64,,11796480,-0.0021512121,,S4,-0.010692294,,0.008541082,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.2,holdout_R2,w,,128,,11796480,-0.0098348894,,S4,-0.022938296,,0.013103406,,1 replicate
+L0.E164.w1,0,164,w1,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w1,0,164,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.00055074914,,S4,-0.00015461411,,0.00070536325,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,1,,,0.00039739097,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,2,,11796480,0.00069041952,,S4,-0.00030263197,,0.00099305149,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,2,,,0.00049820442,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,4,,11796480,0.00076852003,,S4,-0.00058682185,,0.0013553419,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,4,,,0.00055458315,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,8,,11796480,0.00065907692,,S4,-0.001185756,,0.0018448329,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,8,,,0.00047558024,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,16,,11796480,0.00015626816,,S4,-0.002358048,,0.0025143161,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,16,,,0.00011273246,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,32,,11796480,-0.0013063458,,S4,-0.0047926546,,0.0034863088,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0049829968,,S4,-0.010090776,,0.0051077791,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.014216052,,S4,-0.021996331,,0.0077802791,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.00068711408,,S4,-0.00015075735,,0.00083787143,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,1,,,0.0004958184,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.00092768801,,S4,-0.00031005533,,0.0012377433,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,2,,,0.00066949604,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.001135953,,S4,-0.00060782088,,0.0017437739,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,4,,,0.00081988263,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,8,,11796480,0.001249674,,S4,-0.0012046623,,0.0024543364,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,8,,,0.000902013,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,16,,11796480,0.00095460529,,S4,-0.0023771271,,0.0033317324,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,16,,,0.00068893104,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,32,,11796480,-0.00016049904,,S4,-0.0048433961,,0.004682897,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.0034155673,,S4,-0.010112109,,0.0066965422,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.011948968,,S4,-0.021970477,,0.010021509,,1 replicate
+L0.E164.w2,0,164,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w2,0,164,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.00024404039,,S4,-0.00014096506,,0.00038500545,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,1,,,0.00017605942,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.00027708788,,S4,-0.00027287873,,0.00054996661,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,2,,,0.00019990436,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.00022433401,,S4,-0.00054012099,,0.00076445499,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,4,,,0.00016184093,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,8,,11796480,-3.4513724e-05,,S4,-0.0011493026,,0.0011147889,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,16,,11796480,-0.00071267872,,S4,-0.0023651128,,0.0016524341,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.0022381677,,S4,-0.0048960157,,0.002657848,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.0059103434,,S4,-0.010369821,,0.0044594781,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.014598247,,S4,-0.02256,,0.0079617528,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.00040773655,,S4,-0.0001568579,,0.00056459445,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,1,,,0.00029417973,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.00054100266,,S4,-0.00030753875,,0.0008485414,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,2,,,0.00039035653,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.00061575947,,S4,-0.00059419756,,0.001209957,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,4,,,0.00044431338,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.00052803936,,S4,-0.0011976933,,0.0017257327,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,8,,,0.00038100049,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,16,,11796480,8.8726235e-05,,S4,-0.0024747499,,0.0025634761,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,16,,,6.4005289e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,32,,11796480,-0.0011037982,,S4,-0.0050558364,,0.0039520382,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0042270098,,S4,-0.010558211,,0.0063312011,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.012023267,,S4,-0.02277714,,0.010753873,,1 replicate
+L0.E164.w3,0,164,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E164.w3,0,164,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.00035846028,,S4,-0.00012621056,,0.00048467084,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,1,,,0.00025862079,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0002932604,,S4,-0.00026355615,,0.00055681655,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,2,,,0.00021157369,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.00014022381,,S4,-0.00057641373,,0.00071663753,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,4,,,0.00010115719,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,8,,11796480,-0.00018288971,,S4,-0.0011644644,,0.00098157471,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,16,,11796480,-0.00090324036,,S4,-0.0023518797,,0.0014486393,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,32,,11796480,-0.0025541776,,S4,-0.0048948112,,0.0023406336,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,64,,11796480,-0.0062225798,,S4,-0.010235393,,0.0040128132,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.015021366,,S4,-0.022221606,,0.0072002395,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.00055359241,,S4,-0.00014815167,,0.00070174408,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,1,,,0.00039944309,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.0005390016,,S4,-0.00030101295,,0.00084001455,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,2,,,0.00038891229,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.00052205853,,S4,-0.00057511898,,0.0010971775,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,4,,,0.00037668396,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.00031555912,,S4,-0.001160956,,0.0014765151,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,8,,,0.00022766371,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,16,,11796480,-0.00011715325,,S4,-0.0024187207,,0.0023015675,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,32,,11796480,-0.0014174136,,S4,-0.004998005,,0.0035805913,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,64,,11796480,-0.0045529304,,S4,-0.010496546,,0.005943616,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E334.w1,0,334,w1,,,R5.2,holdout_R2,w,,128,,11796480,-0.012320245,,S4,-0.022788834,,0.010468589,,1 replicate
+L0.E334.w1,0,334,w1,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w1,0,334,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,1,,11796480,-2.8006587e-05,,S4,-0.00015175017,,0.00012374358,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,2,,11796480,-0.00012375028,,S4,-0.00027661338,,0.0001528631,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,4,,11796480,-0.0003194369,,S4,-0.00056348067,,0.00024404377,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,8,,11796480,-0.00077668283,,S4,-0.0011360236,,0.00035934078,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,16,,11796480,-0.0017346594,,S4,-0.0023263747,,0.00059171529,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,32,,11796480,-0.00372433,,S4,-0.004877922,,0.001153592,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0081468491,,S4,-0.010319032,,0.0021721824,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.018376117,,S4,-0.022404371,,0.0040282546,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,1,,11796480,2.8050101e-05,,S4,-0.00014329399,,0.00017134409,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,1,,,2.0234155e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,2,,11796480,-6.1347589e-05,,S4,-0.00027251132,,0.00021116373,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,4,,11796480,-0.00023751137,,S4,-0.00055022512,,0.00031271374,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,8,,11796480,-0.00063928263,,S4,-0.0011103752,,0.00047109262,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,16,,11796480,-0.0014796084,,S4,-0.0023599826,,0.00088037422,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,32,,11796480,-0.0033829535,,S4,-0.0049485588,,0.0015656053,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.0076157143,,S4,-0.010294236,,0.0026785221,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E334.w2,0,334,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.017359693,,S4,-0.022317565,,0.0049578723,,1 replicate
+L0.E334.w2,0,334,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w2,0,334,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,1,,11796480,-2.5286583e-05,,S4,-0.00013585471,,0.00011056813,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,2,,11796480,-8.209367e-05,,S4,-0.00027077816,,0.00018868449,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,4,,11796480,-0.00025141868,,S4,-0.00055246566,,0.00030104698,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,8,,11796480,-0.00063854512,,S4,-0.0011535943,,0.00051504923,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,16,,11796480,-0.0013726354,,S4,-0.0023848308,,0.0010121954,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.003093064,,S4,-0.004876607,,0.001783543,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.006898566,,S4,-0.010243695,,0.0033451288,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.015773703,,S4,-0.022430233,,0.0066565306,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,1,,11796480,5.2161527e-05,,S4,-0.00013973112,,0.00019189265,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,1,,,3.762757e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,2,,11796480,2.9665038e-05,,S4,-0.00028192687,,0.0003115919,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,2,,,2.1399119e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,4,,11796480,1.6725555e-05,,S4,-0.00056458757,,0.00058131312,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,4,,,1.2065038e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,8,,11796480,-0.0001403422,,S4,-0.0011819096,,0.0010415674,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,16,,11796480,-0.00066674727,,S4,-0.0023952054,,0.0017284581,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,32,,11796480,-0.0020080831,,S4,-0.0049616763,,0.0029535932,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.005377337,,S4,-0.010373478,,0.0049961411,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E334.w3,0,334,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.01341869,,S4,-0.022428372,,0.0090096823,,1 replicate
+L0.E334.w3,0,334,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E334.w3,0,334,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,1,,11796480,3.5897733e-05,,S4,-0.0001501686,,0.00018606633,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,1,,,2.5895206e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,2,,11796480,1.9746144e-05,,S4,-0.00029035236,,0.0003100985,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,2,,,1.4243973e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,4,,11796480,-4.2055033e-05,,S4,-0.0005800236,,0.00053796857,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,8,,11796480,-0.00028049775,,S4,-0.0011769075,,0.0008964098,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,16,,11796480,-0.00085026186,,S4,-0.0024232327,,0.0015729708,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,32,,11796480,-0.002213517,,S4,-0.0049762299,,0.0027627129,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,64,,11796480,-0.0053700152,,S4,-0.010521711,,0.0051516953,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.013281592,,S4,-0.02268074,,0.0093991483,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,1,,11796480,5.1625243e-05,,S4,-0.00021333831,,0.00026496355,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,1,,,3.7240702e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.00015568152,,S4,-0.00042841119,,0.00058409271,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,2,,,0.00011230922,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.00023390716,,S4,-0.00075879689,,0.00099270405,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,4,,,0.00016874809,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.0003924991,,S4,-0.001432011,,0.0018245101,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,8,,,0.00028318383,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.00036582784,,S4,-0.0027361996,,0.0031020275,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,16,,,0.00026393729,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,32,,11796480,-0.00015598191,,S4,-0.0055759637,,0.0054199818,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,64,,11796480,-0.0021257258,,S4,-0.011428043,,0.0093023172,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E375.w1,0,375,w1,,,R5.2,holdout_R2,w,,128,,11796480,-0.0082497575,,S4,-0.024082075,,0.015832317,,1 replicate
+L0.E375.w1,0,375,w1,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w1,0,375,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.00016358958,,S4,-0.00014495582,,0.00030854539,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,1,,,0.00011801459,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,2,,11796480,9.7506589e-05,,S4,-0.00029418505,,0.00039169164,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,2,,,7.0339566e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,4,,11796480,-8.1569624e-05,,S4,-0.00058969318,,0.00050812356,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,8,,11796480,-0.00047070781,,S4,-0.0011731476,,0.0007024398,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,16,,11796480,-0.0013276484,,S4,-0.0023670628,,0.0010394144,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,32,,11796480,-0.0033047495,,S4,-0.0048732066,,0.0015684572,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0076299647,,S4,-0.01016807,,0.0025381057,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.017835629,,S4,-0.022100867,,0.0042652384,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.00031449308,,S4,-0.00015441154,,0.00046890463,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,1,,,0.00022689448,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.00027757757,,S4,-0.00029842756,,0.00057600513,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,2,,,0.00020025768,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.00017061313,,S4,-0.00061302576,,0.00078363889,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,4,,,0.00012308186,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,8,,11796480,-0.00018339746,,S4,-0.0012043546,,0.0010209572,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,16,,11796480,-0.00097193953,,S4,-0.0024031125,,0.001431173,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,32,,11796480,-0.0027669182,,S4,-0.0049710585,,0.0022041403,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.0069502573,,S4,-0.010341963,,0.0033917061,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E375.w2,0,375,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.016818268,,S4,-0.022338157,,0.0055198888,,1 replicate
+L0.E375.w2,0,375,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w2,0,375,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,1,,11796480,-3.5875337e-05,,S4,-0.000148237,,0.00011236166,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,2,,11796480,-6.4178041e-05,,S4,-0.00028477622,,0.00022059818,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,4,,11796480,-0.00019719099,,S4,-0.00056597108,,0.00036878009,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,8,,11796480,-0.00049366727,,S4,-0.0011623644,,0.0006686971,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,16,,11796480,-0.0011238703,,S4,-0.0023656792,,0.0012418089,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.0025468747,,S4,-0.0049510777,,0.002404203,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.0059546483,,S4,-0.010389025,,0.0044343762,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.014024117,,S4,-0.022518041,,0.0084939242,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,1,,11796480,4.9657699e-05,,S4,-0.00016322885,,0.00021288655,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,1,,,3.5821347e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.00010046112,,S4,-0.0003358359,,0.00043629702,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,2,,,7.247102e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.00014189715,,S4,-0.00066134863,,0.00080324578,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,4,,,0.00010236442,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,8,,11796480,6.4317559e-05,,S4,-0.0013194598,,0.0013837773,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,8,,,4.6396804e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,16,,11796480,-0.00025097484,,S4,-0.0025921891,,0.0023412143,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,32,,11796480,-0.0011911177,,S4,-0.0052429292,,0.0040518115,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0036994773,,S4,-0.010913372,,0.0072138948,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L0.E375.w3,0,375,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.010288739,,S4,-0.023313687,,0.013024948,,1 replicate
+L0.E375.w3,0,375,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L0.E375.w3,0,375,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0019300948,,S4,-0.0001516558,,0.0020817506,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,1,,,0.0013936145,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0026719013,,S4,-0.00029075654,,0.0029626579,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,2,,,0.0019299489,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0036817971,,S4,-0.00058672126,,0.0042685183,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,4,,,0.0026607564,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.0038980688,,S4,-0.0011744862,,0.005072555,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,8,,,0.0028173569,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.0033661388,,S4,-0.0023766323,,0.0057427711,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,16,,,0.0024322519,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.0017109625,,S4,-0.0048885976,,0.0065995602,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,32,,,0.0012352556,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,64,,11796480,-0.0023078372,,S4,-0.010266731,,0.0079588942,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.011857744,,S4,-0.0221491,,0.010291356,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0023204378,,S4,-0.00014819458,,0.0024686323,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,1,,,0.0016757871,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.0033407617,,S4,-0.00029691829,,0.00363768,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,2,,,0.0024138845,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.004685174,,S4,-0.00061544041,,0.0053006144,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,4,,,0.0033875805,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.005449611,,S4,-0.0011872194,,0.0066368305,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,8,,,0.0039418139,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.0054321754,,S4,-0.0024400726,,0.007872248,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,16,,,0.0039291679,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.0041097155,,S4,-0.0049813955,,0.009091111,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,32,,,0.0029706415,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,64,,11796480,0.00045737187,,S4,-0.010419778,,0.01087715,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,64,,,0.00032999954,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.2,holdout_R2,w,,128,,11796480,-0.0086926707,,S4,-0.02245751,,0.01376484,,1 replicate
+L13.E49.w1,13,49,w1,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w1,13,49,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.0010064079,,S4,-0.00014530094,,0.0011517089,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,1,,,0.00072633543,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,2,,11796480,0.0011665161,,S4,-0.00029568986,,0.0014622059,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,2,,,0.00084195466,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,4,,11796480,0.0014109427,,S4,-0.00059691481,,0.0020078575,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,4,,,0.0010184987,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,8,,11796480,0.0016160676,,S4,-0.0011802478,,0.0027963153,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,8,,,0.0011666893,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,16,,11796480,0.0014273264,,S4,-0.0023930974,,0.0038204239,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,16,,,0.0010303339,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,32,,11796480,0.00043468991,,S4,-0.0048626561,,0.005297346,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,32,,,0.00031363066,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0026333979,,S4,-0.010202594,,0.0075691961,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.010568394,,S4,-0.022092303,,0.011523909,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.0012539219,,S4,-0.00014548393,,0.0013994058,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,1,,,0.00090508101,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.0014911504,,S4,-0.00030439269,,0.0017955431,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,2,,,0.0010764404,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.001885529,,S4,-0.00059536672,,0.0024808957,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,4,,,0.0013614056,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,8,,11796480,0.0022613535,,S4,-0.0012007221,,0.0034620756,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,8,,,0.0016330689,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,16,,11796480,0.0024124038,,S4,-0.0024060974,,0.0048185012,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,16,,,0.0017422839,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,32,,11796480,0.0017356491,,S4,-0.0049149847,,0.0066506337,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,32,,,0.0012530939,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.00081011341,,S4,-0.010290387,,0.0094802738,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.0079205329,,S4,-0.022115103,,0.014194571,,1 replicate
+L13.E49.w2,13,49,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w2,13,49,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.00056950572,,S4,-0.00014487951,,0.00071438523,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,1,,,0.00041092856,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.00059405659,,S4,-0.00029226806,,0.00088632464,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,2,,,0.00042864858,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.00057669505,,S4,-0.00055790467,,0.0011345997,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,4,,,0.00041611755,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,8,,11796480,0.0003326714,,S4,-0.0011302319,,0.0014629033,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,8,,,0.00024001161,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,16,,11796480,-0.00036535269,,S4,-0.002316822,,0.0019514693,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.0021200358,,S4,-0.0047981926,,0.0026781568,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.0063133372,,S4,-0.010173162,,0.0038598245,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.016209215,,S4,-0.022008723,,0.0057995078,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.00078219835,,S4,-0.00015091652,,0.00093311487,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,1,,,0.00056445763,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.00090225734,,S4,-0.00029065103,,0.0011929084,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,2,,,0.00065113488,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.0010298712,,S4,-0.00057221497,,0.0016020861,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,4,,,0.00074327782,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.0010426961,,S4,-0.0011605703,,0.0022032664,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,8,,,0.00075253864,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,16,,11796480,0.00050282985,,S4,-0.0023731337,,0.0028759636,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,16,,,0.00036280629,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,32,,11796480,-0.00093354228,,S4,-0.0048944007,,0.0039608584,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0047485632,,S4,-0.01023017,,0.0054816063,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.014027418,,S4,-0.022278712,,0.0082512941,,1 replicate
+L13.E49.w3,13,49,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E49.w3,13,49,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0027259835,,S4,-0.00014791381,,0.0028738973,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,1,,,0.0019690665,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0044493483,,S4,-0.00028803023,,0.0047373786,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,2,,,0.0032166878,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0071491682,,S4,-0.00057563317,,0.0077248013,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,4,,,0.0051755573,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.011248667,,S4,-0.0011572741,,0.012405941,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,8,,,0.00816018,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.016477805,,S4,-0.0023509825,,0.018828788,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,16,,,0.011985243,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.021591123,,S4,-0.0048940857,,0.026485209,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,32,,,0.015745301,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,64,,11796480,0.025024048,,S4,-0.010240352,,0.035264401,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,64,,,0.01828073,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,v,,128,,11796480,0.023701706,,S4,-0.02204195,,0.045743656,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,v,,128,,,0.017303042,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0031075935,,S4,-0.00019719514,,0.0033047887,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,1,,,0.0022451452,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.0047720377,,S4,-0.00037749885,,0.0051495365,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,2,,,0.0034505372,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.008020119,,S4,-0.00074179092,,0.0087619099,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,4,,,0.0058086171,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.013000953,,S4,-0.0014445404,,0.014445493,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,8,,,0.0094397015,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.020313618,,S4,-0.0027849823,,0.0230986,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,16,,,0.014804054,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.028433063,,S4,-0.0055254087,,0.033958472,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,32,,,0.02080735,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,64,,11796480,0.035802183,,S4,-0.011257145,,0.047059328,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,64,,,0.026299465,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.2,holdout_R2,w,,128,,11796480,0.039175594,,S4,-0.024005821,,0.063181414,,1 replicate
+L13.E135.w1,13,135,w1,,,R5.2,approx_bits,w,,128,,,0.028827648,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w1,13,135,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.0049433143,,S4,-0.00012402412,,0.0050673384,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,1,,,0.0035746902,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,2,,11796480,0.0081203339,,S4,-0.00027116819,,0.0083915021,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,2,,,0.005881495,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,4,,11796480,0.011647427,,S4,-0.00054095282,,0.01218838,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,4,,,0.0084511561,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,8,,11796480,0.016617655,,S4,-0.0011348079,,0.017752463,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,8,,,0.01208782,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,16,,11796480,0.023171251,,S4,-0.0023845158,,0.025555767,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,16,,,0.016911217,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,32,,11796480,0.030496215,,S4,-0.0049554032,,0.035451618,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,32,,,0.022340782,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,64,,11796480,0.036595911,,S4,-0.010350573,,0.046946484,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,64,,,0.026893524,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,v,,128,,11796480,0.038439746,,S4,-0.02233114,,0.060770886,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,v,,128,,,0.028275416,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.0055853903,,S4,-0.00013236343,,0.0057177537,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,1,,,0.0040403013,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.0091999989,,S4,-0.000285745,,0.0094857439,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,2,,,0.0066671124,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.013278694,,S4,-0.0005706454,,0.013849339,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,4,,,0.0096427168,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,8,,11796480,0.019130515,,S4,-0.0011886248,,0.02031914,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,8,,,0.013933456,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,16,,11796480,0.027062161,,S4,-0.0024246199,,0.029486781,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,16,,,0.019790231,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,32,,11796480,0.036341028,,S4,-0.0050054152,,0.041346444,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,32,,,0.026702706,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,64,,11796480,0.044896176,,S4,-0.01040483,,0.055301006,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,64,,,0.033135263,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.2,holdout_R2,w,,128,,11796480,0.049711582,,S4,-0.022467405,,0.072178988,,1 replicate
+L13.E135.w2,13,135,w2,,,R5.2,approx_bits,w,,128,,,0.036781324,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w2,13,135,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.00069408218,,S4,-0.00014694179,,0.00084102397,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,1,,,0.00050084829,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.0011760358,,S4,-0.00027731883,,0.0014533547,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,2,,,0.00084882976,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.0019048534,,S4,-0.00056421584,,0.0024690692,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,4,,,0.0013753716,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,8,,11796480,0.0029961944,,S4,-0.0011451646,,0.004141359,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,8,,,0.0021645417,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,16,,11796480,0.0044424164,,S4,-0.002335297,,0.0067777134,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,16,,,0.0032116651,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,32,,11796480,0.0058837985,,S4,-0.0048485625,,0.010732361,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,32,,,0.0042567988,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,64,,11796480,0.0066075369,,S4,-0.010182266,,0.016789803,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,64,,,0.0047821469,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,v,,128,,11796480,0.0033642639,,S4,-0.022007574,,0.025371838,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,v,,128,,,0.0024308948,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.0008317485,,S4,-0.00015455535,,0.00098630384,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,1,,,0.00060022937,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.0013285405,,S4,-0.00030921971,,0.0016377603,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,2,,,0.00095897659,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.0023625066,,S4,-0.00060946341,,0.00297197,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,4,,,0.0017062045,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.0038453485,,S4,-0.0012274149,,0.0050727634,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,8,,,0.0027791795,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,16,,11796480,0.0059914611,,S4,-0.0024862353,,0.0084776964,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,16,,,0.0043349249,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,32,,11796480,0.008733558,,S4,-0.0050492534,,0.013782811,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,32,,,0.006327602,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,64,,11796480,0.011329059,,S4,-0.010563843,,0.021892902,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,64,,,0.0082188329,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.2,holdout_R2,w,,128,,11796480,0.010764333,,S4,-0.02279076,,0.033555092,,1 replicate
+L13.E135.w3,13,135,w3,,,R5.2,approx_bits,w,,128,,,0.0078069185,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E135.w3,13,135,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0017304372,,S4,-0.00014702111,,0.0018774583,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,1,,,0.0012493279,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0026932502,,S4,-0.00029161589,,0.002984866,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,2,,,0.0019453902,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0037072942,,S4,-0.00059335543,,0.0043006496,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,4,,,0.0026792169,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.0046432909,,S4,-0.0011620909,,0.0058053818,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,8,,,0.0033572267,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.0051465857,,S4,-0.0023317342,,0.0074783199,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,16,,,0.0037220631,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.0048002814,,S4,-0.0048507497,,0.009651031,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,32,,,0.0034710087,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,64,,11796480,0.0022318101,,S4,-0.010169759,,0.012401569,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,64,,,0.0016117098,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.0055808542,,S4,-0.022133731,,0.016552877,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0018865313,,S4,-0.00019182501,,0.0020783563,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,1,,,0.00136213,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.0030004307,,S4,-0.00038121962,,0.0033816504,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,2,,,0.0021676068,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.0048069019,,S4,-0.00073261748,,0.0055395194,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,4,,,0.0034758074,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.0062301744,,S4,-0.001411567,,0.0076417414,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,8,,,0.0045081789,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.0076688073,,S4,-0.0027328822,,0.01040169,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,16,,,0.0055531956,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.0083818159,,S4,-0.0054485065,,0.013830322,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,32,,,0.0060716837,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,64,,11796480,0.0072851662,,S4,-0.011114702,,0.018399868,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,64,,,0.0052743723,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.2,holdout_R2,w,,128,,11796480,0.0010288997,,S4,-0.023514977,,0.024543877,,1 replicate
+L13.E163.w1,13,163,w1,,,R5.2,approx_bits,w,,128,,,0.0007425763,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w1,13,163,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.00054284316,,S4,-0.0001382427,,0.00068108586,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,1,,,0.00039168489,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,2,,11796480,0.000872069,,S4,-0.00028894739,,0.0011610164,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,2,,,0.00062933927,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,4,,11796480,0.0012916185,,S4,-0.00058589685,,0.0018775153,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,4,,,0.00093230799,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,8,,11796480,0.0016754843,,S4,-0.0011997066,,0.0028751909,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,8,,,0.0012096201,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,16,,11796480,0.0018559611,,S4,-0.002451938,,0.0043078991,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,16,,,0.0013400369,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,32,,11796480,0.0013519726,,S4,-0.0049836926,,0.0063356652,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,32,,,0.0009759019,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0011911529,,S4,-0.010413858,,0.0092227047,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.0089612022,,S4,-0.022438774,,0.013477572,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.00044586823,,S4,-0.00027368261,,0.00071955084,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,1,,,0.00032169767,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.00090700902,,S4,-0.00042530102,,0.00133231,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,2,,,0.0006545656,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.0015277406,,S4,-0.00072825683,,0.0022559974,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,4,,,0.0011028745,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,8,,11796480,0.0023385431,,S4,-0.0014089162,,0.0037474594,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,8,,,0.0016888778,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,16,,11796480,0.0029733457,,S4,-0.002652808,,0.0056261537,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,16,,,0.0021480105,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,32,,11796480,0.003006529,,S4,-0.0052567523,,0.0082632814,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,32,,,0.002172019,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,64,,11796480,0.0011546492,,S4,-0.010650597,,0.011805247,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,64,,,0.00083338459,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.0055644326,,S4,-0.022704725,,0.017140293,,1 replicate
+L13.E163.w2,13,163,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w2,13,163,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.00033708304,,S4,-0.00014351457,,0.00048059761,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,1,,,0.000243195,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.00059393541,,S4,-0.00029334617,,0.00088728158,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,2,,,0.00042856112,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.00065262981,,S4,-0.00058155286,,0.0012341827,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,4,,,0.00047092658,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,8,,11796480,0.00050728439,,S4,-0.0011678195,,0.0016751039,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,8,,,0.00036602119,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,16,,11796480,-5.0766272e-05,,S4,-0.002378266,,0.0023274998,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.0015292024,,S4,-0.0049120801,,0.0033828777,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.0051409444,,S4,-0.010196259,,0.0050553145,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.014074449,,S4,-0.022102269,,0.0080278194,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.00042507969,,S4,-0.00016241703,,0.00058749672,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,1,,,0.00030669537,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.00099749517,,S4,-0.00030989473,,0.0013073899,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,2,,,0.00071989978,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.0012511593,,S4,-0.00062949263,,0.001880652,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,4,,,0.00090308575,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.0013209663,,S4,-0.0012572965,,0.0025782628,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,8,,,0.0009535057,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,16,,11796480,0.0010632656,,S4,-0.0024992061,,0.0035624717,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,16,,,0.00076739205,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,32,,11796480,9.4781647e-05,,S4,-0.0050363906,,0.0051311723,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,32,,,6.8373746e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0027804181,,S4,-0.010447664,,0.0076672462,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.010728163,,S4,-0.022461302,,0.011733139,,1 replicate
+L13.E163.w3,13,163,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L13.E163.w3,13,163,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0037463962,,S4,-0.00013901777,,0.003885414,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,1,,,0.0027075286,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0036125208,,S4,-0.00027224531,,0.0038847661,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,2,,,0.0026106012,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0033538374,,S4,-0.00056507347,,0.0039189108,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,4,,,0.0024233483,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.0028350701,,S4,-0.0011649192,,0.0039999894,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,8,,,0.0020479753,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.0017360477,,S4,-0.0023438707,,0.0040799185,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,16,,,0.001253382,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,32,,11796480,-0.00055590245,,S4,-0.0047607632,,0.0042048607,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,64,,11796480,-0.0057009822,,S4,-0.0099807846,,0.0042798024,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.016799432,,S4,-0.0218656,,0.0050661675,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0042796401,,S4,-0.00014919703,,0.0044288371,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,1,,,0.0030937325,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.0041610412,,S4,-0.00027887755,,0.0044399187,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,2,,,0.0030078189,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.0039205693,,S4,-0.00056580646,,0.0044863758,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,4,,,0.0028336513,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.0033888206,,S4,-0.0011226146,,0.0045114352,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,8,,,0.0024486687,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.0022965422,,S4,-0.0023114606,,0.0046080029,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,16,,,0.0016585102,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,32,,11796480,7.2609358e-06,,S4,-0.0047279358,,0.0047351967,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,32,,,5.2376771e-06,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,64,,11796480,-0.0048235025,,S4,-0.010008796,,0.0051852931,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.2,holdout_R2,w,,128,,11796480,-0.015736358,,S4,-0.021808052,,0.0060716942,,1 replicate
+L26.E12.w1,26,12,w1,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w1,26,12,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,1,,11796480,-3.4869852e-05,,S4,-0.00014380291,,0.00010893306,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,2,,11796480,-7.6683228e-05,,S4,-0.00028824355,,0.00021156032,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,4,,11796480,-0.00017822925,,S4,-0.00058178313,,0.00040355388,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,8,,11796480,-0.00041728865,,S4,-0.0011761456,,0.00075885698,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,16,,11796480,-0.0010353227,,S4,-0.0023871427,,0.0013518201,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,32,,11796480,-0.0025172952,,S4,-0.0048466148,,0.0023293196,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0062916419,,S4,-0.010251372,,0.0039597298,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.015344481,,S4,-0.022137116,,0.0067926341,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,1,,11796480,-4.676151e-06,,S4,-0.00013400018,,0.00012932403,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,2,,11796480,1.4562752e-05,,S4,-0.00028331904,,0.0002978818,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,2,,,1.0504881e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,4,,11796480,5.062018e-06,,S4,-0.00057248849,,0.0005775505,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,4,,,3.6514834e-06,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,8,,11796480,-9.4418406e-05,,S4,-0.0011555409,,0.0010611224,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,16,,11796480,-0.00053939531,,S4,-0.0023640963,,0.001824701,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,32,,11796480,-0.0017601464,,S4,-0.0048559212,,0.0030957748,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.0050766688,,S4,-0.010210749,,0.0051340805,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.013464154,,S4,-0.021990582,,0.0085264284,,1 replicate
+L26.E12.w2,26,12,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w2,26,12,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,1,,11796480,-0.00013991637,,S4,-0.00015480256,,1.4886194e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,2,,11796480,-0.00027148158,,S4,-0.00031434271,,4.286113e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,4,,11796480,-0.00055400288,,S4,-0.00060506386,,5.1060985e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,8,,11796480,-0.0011087793,,S4,-0.0012015842,,9.2804871e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,16,,11796480,-0.0023028452,,S4,-0.0024252573,,0.00012241208,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.0047681825,,S4,-0.0049410272,,0.00017284472,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.009891412,,S4,-0.010203818,,0.00031240582,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.021358803,,S4,-0.022024358,,0.00066555513,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,1,,11796480,-0.00013593678,,S4,-0.00015507009,,1.913331e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,2,,11796480,-0.00026001145,,S4,-0.00030537322,,4.5361766e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,4,,11796480,-0.00052862977,,S4,-0.0005883425,,5.9712724e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,8,,11796480,-0.0010901432,,S4,-0.0011850286,,9.4885353e-05,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,16,,11796480,-0.002278471,,S4,-0.0023902299,,0.00011175884,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,32,,11796480,-0.0046976625,,S4,-0.0048668965,,0.00016923406,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0097470253,,S4,-0.010202975,,0.00045594985,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E12.w3,26,12,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.021151978,,S4,-0.022013406,,0.00086142877,,1 replicate
+L26.E12.w3,26,12,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E12.w3,26,12,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0033239291,,S4,-0.00013859944,,0.0034625285,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,1,,,0.0024017017,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.004150313,,S4,-0.0002984102,,0.0044487232,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,2,,,0.0030000479,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0043812808,,S4,-0.00058354309,,0.0049648239,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,4,,,0.0031673697,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.0044343895,,S4,-0.0011810445,,0.0056154339,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,8,,,0.0032058491,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.0037238357,,S4,-0.0023869822,,0.006110818,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,16,,,0.0026911935,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.001846103,,S4,-0.0048698624,,0.0067159654,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,32,,,0.0013329125,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,64,,11796480,-0.0025159022,,S4,-0.010220515,,0.0077046125,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.012902867,,S4,-0.022126244,,0.0092233772,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0036774729,,S4,-0.00021878417,,0.003896257,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,1,,,0.0026576256,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.004403124,,S4,-0.00035635927,,0.0047594833,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,2,,,0.0031831957,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.0051948541,,S4,-0.00063855852,,0.0058334126,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,4,,,0.0037570623,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.005521986,,S4,-0.0012442069,,0.0067661928,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,8,,,0.0039943093,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.0050362814,,S4,-0.002437462,,0.0074737434,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,16,,,0.0036420881,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.0033820975,,S4,-0.0049424716,,0.0083245691,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,32,,,0.0024438026,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,64,,11796480,-0.00075697363,,S4,-0.010295451,,0.009538477,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.2,holdout_R2,w,,128,,11796480,-0.01086973,,S4,-0.022269198,,0.011399468,,1 replicate
+L26.E347.w1,26,347,w1,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w1,26,347,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.00023363754,,S4,-0.00014818955,,0.00038182709,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,1,,,0.00016855355,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,2,,11796480,0.00040846174,,S4,-0.00028930713,,0.00069776886,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,2,,,0.00029470305,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,4,,11796480,0.00059803295,,S4,-0.00057857567,,0.0011766086,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,4,,,0.00043151863,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,8,,11796480,0.00064054311,,S4,-0.0011793644,,0.0018199075,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,8,,,0.00046220223,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,16,,11796480,0.00032037455,,S4,-0.0023943497,,0.0027147243,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,16,,,0.00023113842,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,32,,11796480,-0.00084771736,,S4,-0.0049235005,,0.0040757832,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0042213204,,S4,-0.010238761,,0.006017441,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.013193152,,S4,-0.022029952,,0.0088367998,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.00032473847,,S4,-0.00013738682,,0.00046212529,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,1,,,0.00023428733,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.00061016349,,S4,-0.0002771358,,0.00088729929,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,2,,,0.00044027425,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.00089908634,,S4,-0.00055430744,,0.0014533938,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,4,,,0.00064884543,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,8,,11796480,0.001174804,,S4,-0.0011483765,,0.0023231805,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,8,,,0.00084794012,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,16,,11796480,0.0011299083,,S4,-0.0023571561,,0.0034870644,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,16,,,0.00081551737,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,32,,11796480,0.00032287418,,S4,-0.0048463636,,0.0051692377,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,32,,,0.0002329421,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.0026004664,,S4,-0.010177147,,0.0075766803,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.010921773,,S4,-0.021981595,,0.011059822,,1 replicate
+L26.E347.w2,26,347,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w2,26,347,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,1,,11796480,7.8860039e-05,,S4,-0.00014827144,,0.00022713148,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,1,,,5.6887736e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,2,,11796480,-3.0730846e-05,,S4,-0.00029720688,,0.00026647604,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,4,,11796480,-0.00024933642,,S4,-0.00059542649,,0.00034609007,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,8,,11796480,-0.00073138054,,S4,-0.001173034,,0.00044165348,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,16,,11796480,-0.0017920375,,S4,-0.0023997756,,0.00060773813,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.0041046917,,S4,-0.0048987727,,0.00079408097,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.0089139786,,S4,-0.010241882,,0.0013279032,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.020015111,,S4,-0.021956268,,0.0019411577,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.00019773877,,S4,-0.00015385619,,0.00035159497,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,1,,,0.00014265248,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.00014980183,,S4,-0.00029814968,,0.00044795151,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,2,,,0.00010806727,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,4,,11796480,-7.1458503e-05,,S4,-0.00060796672,,0.00053650822,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,8,,11796480,-0.00053200149,,S4,-0.0011635375,,0.00063153598,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,16,,11796480,-0.0015358318,,S4,-0.00240702,,0.00087118816,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,32,,11796480,-0.0037381427,,S4,-0.0049209629,,0.0011828203,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0085295611,,S4,-0.0102469,,0.0017173389,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.019420713,,S4,-0.02209667,,0.0026759564,,1 replicate
+L26.E347.w3,26,347,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E347.w3,26,347,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0041003666,,S4,-0.00013726565,,0.0042376323,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,1,,,0.0029638699,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0061363002,,S4,-0.00026518118,,0.0064014814,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,2,,,0.0044400416,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0084950372,,S4,-0.00056677268,,0.0090618099,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,4,,,0.0061540506,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.011051347,,S4,-0.0011422867,,0.012193634,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,8,,,0.008016239,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.013997257,,S4,-0.002349655,,0.016346912,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,16,,,0.010168217,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.015360551,,S4,-0.0048233528,,0.020183904,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,32,,,0.011166277,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,64,,11796480,0.013899833,,S4,-0.01008769,,0.023987523,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,64,,,0.010096946,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,v,,128,,11796480,0.0069432582,,S4,-0.02205034,,0.028993599,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,v,,128,,,0.0050259706,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0043479394,,S4,-0.00015189463,,0.0044998341,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,1,,,0.0031432135,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.0066952742,,S4,-0.00029805048,,0.0069933247,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,2,,,0.0048458598,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.0095216722,,S4,-0.00061342299,,0.010135095,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,4,,,0.0069013432,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.012760051,,S4,-0.0012310541,,0.013991105,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,8,,,0.0092636602,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.016876113,,S4,-0.0024719194,,0.019348032,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,16,,,0.012277434,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.019360993,,S4,-0.0050144827,,0.024375475,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,32,,,0.014102973,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,64,,11796480,0.018945768,,S4,-0.010433754,,0.029379522,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,64,,,0.013797602,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.2,holdout_R2,w,,128,,11796480,0.013148576,,S4,-0.022666336,,0.035814911,,1 replicate
+L26.E350.w1,26,350,w1,,,R5.2,approx_bits,w,,128,,,0.0095475997,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w1,26,350,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.003666981,,S4,-0.0001391049,,0.0038060859,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,1,,,0.0026500294,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,2,,11796480,0.0058356731,,S4,-0.00027995827,,0.0061156313,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,2,,,0.0042218791,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,4,,11796480,0.0095116255,,S4,-0.0005888971,,0.010100523,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,4,,,0.0068940264,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,8,,11796480,0.014924565,,S4,-0.0011884295,,0.016112995,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,8,,,0.010846944,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,16,,11796480,0.021609674,,S4,-0.0024104609,,0.024020135,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,16,,,0.015758978,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,32,,11796480,0.028875191,,S4,-0.0049622121,,0.033837403,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,32,,,0.021135686,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,64,,11796480,0.032783093,,S4,-0.010317952,,0.043101046,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,64,,,0.024044316,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,v,,128,,11796480,0.03108132,,S4,-0.022298045,,0.053379365,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,v,,128,,,0.022776254,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.0042948611,,S4,-0.00015767413,,0.0044525353,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,1,,,0.0031047595,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.0068082721,,S4,-0.00030609415,,0.0071143663,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,2,,,0.0049279246,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.01123276,,S4,-0.00060250716,,0.011835267,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,4,,,0.0081485752,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,8,,11796480,0.017560668,,S4,-0.0011899303,,0.018750599,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,8,,,0.012779888,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,16,,11796480,0.025849885,,S4,-0.0024045505,,0.028254435,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,16,,,0.018891994,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,32,,11796480,0.035120513,,S4,-0.0050416764,,0.040162189,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,32,,,0.025789666,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,64,,11796480,0.041450443,,S4,-0.010487164,,0.051937607,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,64,,,0.030537537,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.2,holdout_R2,w,,128,,11796480,0.041977636,,S4,-0.022437994,,0.06441563,,1 replicate
+L26.E350.w2,26,350,w2,,,R5.2,approx_bits,w,,128,,,0.03093438,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w2,26,350,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.000176898,,S4,-0.00015765425,,0.00033455225,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,1,,,0.00012761622,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.00034897003,,S4,-0.00029401094,,0.00064298097,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,2,,,0.0002517726,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.00062051999,,S4,-0.00059605568,,0.0012165757,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,4,,,0.00044774949,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,8,,11796480,0.00081867247,,S4,-0.0011701799,,0.0019888524,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,8,,,0.00059078922,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,16,,11796480,0.00067700318,,S4,-0.002397685,,0.0030746881,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,16,,,0.00048851995,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.00035052369,,S4,-0.004896256,,0.0045457324,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.0035974962,,S4,-0.010245423,,0.0066479271,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.012294213,,S4,-0.022316324,,0.01002211,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.00032643804,,S4,-0.00014280913,,0.00046924717,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,1,,,0.00023551371,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.00068653806,,S4,-0.00030738952,,0.00099392758,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,2,,,0.0004954026,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.0011400338,,S4,-0.00060873948,,0.0017487733,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,4,,,0.00082282968,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.0015946355,,S4,-0.0012218617,,0.0028164971,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,8,,,0.0011512044,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,16,,11796480,0.0017090715,,S4,-0.0024852665,,0.0041943379,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,16,,,0.0012338892,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,32,,11796480,0.0010314286,,S4,-0.0051146629,,0.0061460915,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,32,,,0.00074440244,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0017682607,,S4,-0.010618525,,0.0088502643,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.00975618,,S4,-0.022802427,,0.013046247,,1 replicate
+L26.E350.w3,26,350,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L26.E350.w3,26,350,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0050325276,,S4,-0.00014670811,,0.0051792357,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,1,,,0.0036393666,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.0063650308,,S4,-0.00028963933,,0.0066546701,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,2,,,0.0046060737,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.0080487461,,S4,-0.00056777049,,0.0086165165,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,4,,,0.0058294344,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.0095433218,,S4,-0.0011533747,,0.010696697,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,8,,,0.0069171104,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.010397505,,S4,-0.0023575512,,0.012755056,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,16,,,0.0075394783,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.0091675238,,S4,-0.0048579927,,0.014025516,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,32,,,0.0066434694,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,64,,11796480,0.0053998511,,S4,-0.010179951,,0.015579803,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,64,,,0.0039057239,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.0042566223,,S4,-0.021918089,,0.017661466,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0066241652,,S4,-0.00031353767,,0.0069377028,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,1,,,0.0047942216,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.012118975,,S4,-0.00062552277,,0.012744498,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,2,,,0.0087953968,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.013405657,,S4,-0.0012473842,,0.014653041,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,4,,,0.0097355399,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.014967577,,S4,-0.002392405,,0.017359982,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,8,,,0.010878441,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.017798527,,S4,-0.0042383313,,0.022036858,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,16,,,0.012954554,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.019333316,,S4,-0.0068715162,,0.026204832,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,32,,,0.014082614,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,64,,11796480,0.016795424,,S4,-0.012333618,,0.029129042,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,64,,,0.012218233,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.2,holdout_R2,w,,128,,11796480,0.0081196731,,S4,-0.024268278,,0.032387951,,1 replicate
+L39.E61.w1,39,61,w1,,,R5.2,approx_bits,w,,128,,,0.0058810145,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w1,39,61,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,1,,11796480,0.0041673573,,S4,-0.00020672084,,0.0043740782,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,1,,,0.0030123941,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,2,,11796480,0.0086997898,,S4,-0.00040708148,,0.0091068713,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,2,,,0.0063030293,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,4,,11796480,0.0093153315,,S4,-0.00075434271,,0.010069674,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,4,,,0.0067510846,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,8,,11796480,0.0089894451,,S4,-0.0013795777,,0.010369023,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,8,,,0.0065138359,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,16,,11796480,0.0079906122,,S4,-0.0026392991,,0.010629911,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,16,,,0.0057871607,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,32,,11796480,0.0058920865,,S4,-0.0051966558,,0.011088742,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,32,,,0.0042628128,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,64,,11796480,0.0013946396,,S4,-0.010592133,,0.011986773,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,64,,,0.001006722,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.00908834,,S4,-0.022585527,,0.013497187,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.013251193,,S4,-0.00053115714,,0.01378235,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,1,,,0.0096226125,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.02273529,,S4,-0.00090101261,,0.023636302,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,2,,,0.01658935,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,4,,11796480,0.026217804,,S4,-0.0015282157,,0.02774602,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,4,,,0.019164486,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,8,,11796480,0.026109375,,S4,-0.0025617477,,0.028671123,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,8,,,0.019084169,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,16,,11796480,0.02528556,,S4,-0.0038185828,,0.029104143,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,16,,,0.018474239,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,32,,11796480,0.023383943,,S4,-0.0063697647,,0.029753708,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,32,,,0.017068299,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,64,,11796480,0.019144567,,S4,-0.0117571,,0.030901667,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,64,,,0.01394379,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.2,holdout_R2,w,,128,,11796480,0.0092305788,,S4,-0.023729067,,0.032959646,,1 replicate
+L39.E61.w2,39,61,w2,,,R5.2,approx_bits,w,,128,,,0.0066893762,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w2,39,61,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.002090052,,S4,-0.00013888706,,0.0022289391,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,1,,,0.0015092316,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.0040155537,,S4,-0.00028749712,,0.0043030509,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,2,,,0.0029024411,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.0057127538,,S4,-0.00058445639,,0.0062972102,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,4,,,0.0041326966,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,8,,11796480,0.0068555567,,S4,-0.0011706097,,0.0080261664,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,8,,,0.0049622679,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,16,,11796480,0.0068340709,,S4,-0.0023706209,,0.0092046917,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,16,,,0.0049466623,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,32,,11796480,0.0052501984,,S4,-0.0048572305,,0.010107429,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,32,,,0.0037971944,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,64,,11796480,0.0011504534,,S4,-0.01012019,,0.011270643,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,64,,,0.00083035441,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.0089056461,,S4,-0.021969803,,0.013064156,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.015540487,,S4,-0.00037041464,,0.015910902,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,1,,,0.01129811,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.017466696,,S4,-0.00073474555,,0.018201442,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,2,,,0.012710893,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.021448914,,S4,-0.0012500409,,0.022698955,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,4,,,0.015640462,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.023956017,,S4,-0.0020498532,,0.02600587,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,8,,,0.017490967,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,16,,11796480,0.025207716,,S4,-0.0032535676,,0.028461284,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,16,,,0.018416632,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,32,,11796480,0.024116751,,S4,-0.0057165167,,0.029833268,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,32,,,0.017609768,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,64,,11796480,0.020371696,,S4,-0.011118602,,0.031490298,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,64,,,0.014846819,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.2,holdout_R2,w,,128,,11796480,0.010827529,,S4,-0.022991642,,0.033819171,,1 replicate
+L39.E61.w3,39,61,w3,,,R5.2,approx_bits,w,,128,,,0.0078530024,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E61.w3,39,61,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.010017729,,S4,-0.00015121219,,0.010168941,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,1,,,0.0072627027,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.012386956,,S4,-0.00030661704,,0.012693573,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,2,,,0.0089911022,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.016177726,,S4,-0.00059083918,,0.016768565,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,4,,,0.011765188,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.020165099,,S4,-0.0011725645,,0.021337663,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,8,,,0.014694707,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.024504984,,S4,-0.0023615641,,0.026866548,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,16,,,0.017896797,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.027278487,,S4,-0.004897179,,0.032175666,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,32,,,0.019950635,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,64,,11796480,0.027132273,,S4,-0.010206025,,0.037338298,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,64,,,0.019842214,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,v,,128,,11796480,0.021537938,,S4,-0.022245238,,0.043783175,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,v,,128,,,0.01570609,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.0095700542,,S4,-0.00016794845,,0.0097380027,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,1,,,0.0069365798,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.012374537,,S4,-0.0003328279,,0.012707365,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,2,,,0.0089820313,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.016874328,,S4,-0.00064829289,,0.01752262,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,4,,,0.012276124,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.02166311,,S4,-0.0013309014,,0.022994011,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,8,,,0.015798376,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.026776838,,S4,-0.0026375868,,0.029414425,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,16,,,0.019578719,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.031146885,,S4,-0.0053922497,,0.036539135,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,32,,,0.022825068,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,64,,11796480,0.032567783,,S4,-0.011144725,,0.043712507,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,64,,,0.023883756,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.2,holdout_R2,w,,128,,11796480,0.028755674,,S4,-0.0238037,,0.052559374,,1 replicate
+L39.E140.w1,39,140,w1,,,R5.2,approx_bits,w,,128,,,0.021046915,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w1,39,140,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,1,,11796480,3.9795336e-05,,S4,-0.00016355196,,0.0002033473,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,1,,,2.8706838e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,2,,11796480,-2.8467641e-05,,S4,-0.00032363908,,0.00029517143,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,4,,11796480,-0.00025771848,,S4,-0.00061640439,,0.00035868591,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,8,,11796480,-0.00073998534,,S4,-0.0012752942,,0.0005353089,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,16,,11796480,-0.0017657581,,S4,-0.002535771,,0.00077001287,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,32,,11796480,-0.0038141241,,S4,-0.0052438502,,0.0014297261,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0084622914,,S4,-0.01080743,,0.0023451388,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.01899756,,S4,-0.023258407,,0.0042608476,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,1,,11796480,0.00019907616,,S4,-0.00015598907,,0.00035506523,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,1,,,0.00014361739,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,2,,11796480,0.00010544394,,S4,-0.00031496794,,0.00042041188,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,2,,,7.6065738e-05,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,4,,11796480,-0.00013652697,,S4,-0.00065629181,,0.00051976484,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,8,,11796480,-0.00061772062,,S4,-0.0012950968,,0.00067737617,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,16,,11796480,-0.0016291735,,S4,-0.0026588199,,0.0010296464,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,32,,11796480,-0.0036621013,,S4,-0.0054618922,,0.001799791,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.0083436658,,S4,-0.011183681,,0.0028400155,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.01873091,,S4,-0.023890166,,0.0051592564,,1 replicate
+L39.E140.w2,39,140,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w2,39,140,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.0030529282,,S4,-0.00014233722,,0.0031952654,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,1,,,0.0022055907,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.0038354509,,S4,-0.00027849254,,0.0041139434,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,2,,,0.0027720123,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.0048323605,,S4,-0.0005729702,,0.0054053307,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,4,,,0.0034942608,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,8,,11796480,0.0057862561,,S4,-0.0011733625,,0.0069596186,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,8,,,0.0041860239,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,16,,11796480,0.0066041896,,S4,-0.0024442094,,0.0090483989,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,16,,,0.0047797163,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,32,,11796480,0.0064089849,,S4,-0.0049359643,,0.011344949,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,32,,,0.0046379837,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,64,,11796480,0.0041064648,,S4,-0.010343115,,0.01444958,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,64,,,0.002968287,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.0033685445,,S4,-0.022351778,,0.018983234,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.0037886919,,S4,-0.00016638957,,0.0039550815,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,1,,,0.0027381538,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.0048158988,,S4,-0.0003042383,,0.0051201371,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,2,,,0.0034823287,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.0059805419,,S4,-0.00063803191,,0.0066185738,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,4,,,0.0043270009,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.0072322209,,S4,-0.0012811802,,0.0085134011,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,8,,,0.0052359011,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,16,,11796480,0.008514991,,S4,-0.0025539201,,0.011068911,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,16,,,0.0061685677,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,32,,11796480,0.0088766575,,S4,-0.005240988,,0.014117645,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,32,,,0.0064317435,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,64,,11796480,0.0073286076,,S4,-0.010799958,,0.018128566,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,64,,,0.0053059393,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.2,holdout_R2,w,,128,,11796480,0.00073740052,,S4,-0.023255147,,0.023992548,,1 replicate
+L39.E140.w3,39,140,w3,,,R5.2,approx_bits,w,,128,,,0.00053211825,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E140.w3,39,140,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,1,,11796480,0.0085681238,,S4,-0.00014955887,,0.0087176827,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,1,,,0.0062072251,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,2,,11796480,0.010510486,,S4,-0.00029385169,,0.010804338,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,2,,,0.0076218381,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,4,,11796480,0.011093327,,S4,-0.00059159626,,0.011684924,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,4,,,0.0080468605,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,8,,11796480,0.011607817,,S4,-0.0011815935,,0.012789411,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,8,,,0.0084222473,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,16,,11796480,0.011458991,,S4,-0.0024618047,,0.013920796,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,16,,,0.0083136395,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,32,,11796480,0.010142247,,S4,-0.0049529834,,0.015095231,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,32,,,0.0073534384,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,64,,11796480,0.0063500348,,S4,-0.010313194,,0.016663229,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,64,,,0.0045951871,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,v,,128,,11796480,-0.002914366,,S4,-0.022164164,,0.019249798,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,1,,11796480,0.009046196,,S4,-0.00024811763,,0.0092943136,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,1,,,0.0065551455,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,2,,11796480,0.011075706,,S4,-0.00041903292,,0.011494739,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,2,,,0.0080340069,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,4,,11796480,0.011435691,,S4,-0.0007309181,,0.012166609,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,4,,,0.0082966371,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,8,,11796480,0.012019374,,S4,-0.0013657342,,0.013385108,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,8,,,0.0087226718,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,16,,11796480,0.011984224,,S4,-0.002695315,,0.014679539,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,16,,,0.0086970087,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,32,,11796480,0.01069507,,S4,-0.0054426518,,0.016137722,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,32,,,0.0077564143,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,64,,11796480,0.0069195869,,S4,-0.011030332,,0.017949919,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,64,,,0.0050087762,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.2,holdout_R2,w,,128,,11796480,-0.0023580879,,S4,-0.023363894,,0.021005806,,1 replicate
+L39.E183.w1,39,183,w1,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w1,39,183,w1,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,1,,11796480,-9.4617886e-05,,S4,-0.00015670091,,6.2083019e-05,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,2,,11796480,-0.00020953424,,S4,-0.00030149018,,9.1955947e-05,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,4,,11796480,-0.00043844034,,S4,-0.00059522661,,0.00015678628,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,8,,11796480,-0.00093923707,,S4,-0.0012262609,,0.00028702387,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,16,,11796480,-0.002063379,,S4,-0.002428639,,0.00036525999,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,32,,11796480,-0.0043256201,,S4,-0.0050047961,,0.00067917597,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,64,,11796480,-0.0091843626,,S4,-0.010405896,,0.0012215336,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,v,,128,,11796480,-0.020072513,,S4,-0.022561525,,0.0024890117,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,1,,11796480,-0.000110611,,S4,-0.0002015574,,9.09464e-05,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,1,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,2,,11796480,-0.00024603896,,S4,-0.00037566944,,0.00012963048,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,2,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,4,,11796480,-0.00049558343,,S4,-0.00070094137,,0.00020535794,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,4,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,8,,11796480,-0.00096988451,,S4,-0.0013124646,,0.00034258007,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,8,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,16,,11796480,-0.0020394152,,S4,-0.0025948701,,0.00055545487,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,16,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,32,,11796480,-0.0042877579,,S4,-0.0051714595,,0.0008837016,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,64,,11796480,-0.0089984385,,S4,-0.010640559,,0.0016421203,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.2,holdout_R2,w,,128,,11796480,-0.019514883,,S4,-0.022901994,,0.0033871111,,1 replicate
+L39.E183.w2,39,183,w2,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w2,39,183,w2,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,1,,11796480,0.0010762189,,S4,-0.00014051114,,0.0012167301,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,1,,,0.00077674591,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,1,,,0.010069444,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,2,,11796480,0.0013250025,,S4,-0.00028315507,,0.0016081576,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,2,,,0.00095642106,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,2,,,0.020138889,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,4,,11796480,0.0016351526,,S4,-0.00057775088,,0.0022129035,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,4,,,0.0011804787,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,4,,,0.040277778,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,8,,11796480,0.0016917178,,S4,-0.0011580362,,0.0028497539,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,8,,,0.0012213498,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,8,,,0.080555556,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,16,,11796480,0.001088404,,S4,-0.0023816142,,0.0034700183,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,16,,,0.00078554513,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,16,,,0.16111111,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,32,,11796480,-0.00060210417,,S4,-0.004908341,,0.0043062369,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,32,,,0.32222222,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,64,,11796480,-0.0046473487,,S4,-0.010293537,,0.0056461885,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,64,,,0.64444444,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,v,,128,,11796480,-0.014685209,,S4,-0.022185234,,0.0075000247,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,v,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,v,,128,,,1.2888889,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,1,,11796480,0.000897781,,S4,-0.00014446978,,0.0010422508,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,1,,,0.00064790298,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,1,,,0.010069444,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,2,,11796480,0.0013152246,,S4,-0.0002899437,,0.0016051682,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,2,,,0.00094935842,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,2,,,0.020138889,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,4,,11796480,0.001610893,,S4,-0.00058516149,,0.0021960545,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,4,,,0.0011629506,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,4,,,0.040277778,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,8,,11796480,0.0016587842,,S4,-0.0011991368,,0.002857921,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,8,,,0.0011975534,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,8,,,0.080555556,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,16,,11796480,0.0010917372,,S4,-0.0024544783,,0.0035462154,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,16,,,0.00078795208,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,16,,,0.16111111,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,32,,11796480,-0.00052461206,,S4,-0.0049683867,,0.0044437746,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,32,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,32,,,0.32222222,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,64,,11796480,-0.0045624022,,S4,-0.010421548,,0.0058591459,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,64,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,64,,,0.64444444,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.2,holdout_R2,w,,128,,11796480,-0.014345211,,S4,-0.022418314,,0.0080731036,,1 replicate
+L39.E183.w3,39,183,w3,,,R5.2,approx_bits,w,,128,,,,,,,,,,approximate: -1/2 log2(1-R2); blank when R2 <= 0
+L39.E183.w3,39,183,w3,,,R5.2,factor_cost_bits,w,,128,,,1.2888889,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.3,holdout_gain_bits,v,,4,,11796480,0.0012097508,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L0.E164.w1,0,164,w1,,,R5.3,net_bits,v,,4,,11796480,-0.039068027,,,,,,,strict: gain - factor cost 0.0402778
+L0.E164.w1,0,164,w1,,,R5.3,gain_over_approx,v,,4,,,1.1136833,,,,,,,
+L0.E164.w1,0,164,w1,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.0016945854,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L0.E164.w1,0,164,w1,,,R5.3,net_bits,w,,8,,11796480,-0.07886097,,,,,,,strict: gain - factor cost 0.0805556
+L0.E164.w1,0,164,w1,,,R5.3,gain_over_approx,w,,8,,,0.99567942,,,,,,,
+L0.E164.w2,0,164,w2,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000769 <= 0.001 (k=4)
+L0.E164.w2,0,164,w2,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.00086754492,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L0.E164.w2,0,164,w2,,,R5.3,net_bits,w,,8,,11796480,-0.079688011,,,,,,,strict: gain - factor cost 0.0805556
+L0.E164.w2,0,164,w2,,,R5.3,gain_over_approx,w,,8,,,0.96178759,,,,,,,
+L0.E164.w3,0,164,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000277 <= 0.001 (k=2)
+L0.E164.w3,0,164,w3,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 0.000616 <= 0.001 (k=4)
+L0.E334.w1,0,334,w1,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000358 <= 0.001 (k=1)
+L0.E334.w1,0,334,w1,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 0.000554 <= 0.001 (k=1)
+L0.E334.w2,0,334,w2,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = -2.8e-05 <= 0.001 (k=1)
+L0.E334.w2,0,334,w2,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 2.81e-05 <= 0.001 (k=1)
+L0.E334.w3,0,334,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = -2.53e-05 <= 0.001 (k=1)
+L0.E334.w3,0,334,w3,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 5.22e-05 <= 0.001 (k=1)
+L0.E375.w1,0,375,w1,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 3.59e-05 <= 0.001 (k=1)
+L0.E375.w1,0,375,w1,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 0.000392 <= 0.001 (k=8)
+L0.E375.w2,0,375,w2,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000164 <= 0.001 (k=1)
+L0.E375.w2,0,375,w2,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 0.000314 <= 0.001 (k=1)
+L0.E375.w3,0,375,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = -3.59e-05 <= 0.001 (k=1)
+L0.E375.w3,0,375,w3,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 0.000142 <= 0.001 (k=4)
+L13.E49.w1,13,49,w1,,,R5.3,holdout_gain_bits,v,,8,,11796480,0.0027055018,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E49.w1,13,49,w1,,,R5.3,net_bits,v,,8,,11796480,-0.077850054,,,,,,,strict: gain - factor cost 0.0805556
+L13.E49.w1,13,49,w1,,,R5.3,gain_over_approx,v,,8,,,0.96029784,,,,,,,
+L13.E49.w1,13,49,w1,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.0032643669,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E49.w1,13,49,w1,,,R5.3,net_bits,w,,8,,11796480,-0.077291189,,,,,,,strict: gain - factor cost 0.0805556
+L13.E49.w1,13,49,w1,,,R5.3,gain_over_approx,w,,8,,,0.82813827,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.3,holdout_gain_bits,v,,8,,11796480,0.0010729372,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E49.w2,13,49,w2,,,R5.3,net_bits,v,,8,,11796480,-0.079482618,,,,,,,strict: gain - factor cost 0.0805556
+L13.E49.w2,13,49,w2,,,R5.3,gain_over_approx,v,,8,,,0.91964262,,,,,,,
+L13.E49.w2,13,49,w2,,,R5.3,holdout_gain_bits,w,,16,,11796480,0.0017975711,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E49.w2,13,49,w2,,,R5.3,net_bits,w,,16,,11796480,-0.15931354,,,,,,,strict: gain - factor cost 0.161111
+L13.E49.w2,13,49,w2,,,R5.3,gain_over_approx,w,,16,,,1.0317326,,,,,,,
+L13.E49.w3,13,49,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000594 <= 0.001 (k=2)
+L13.E49.w3,13,49,w3,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.00077421134,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E49.w3,13,49,w3,,,R5.3,net_bits,w,,8,,11796480,-0.079781344,,,,,,,strict: gain - factor cost 0.0805556
+L13.E49.w3,13,49,w3,,,R5.3,gain_over_approx,w,,8,,,1.0287995,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.3,holdout_gain_bits,v,,64,,11796480,0.020333518,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E135.w1,13,135,w1,,,R5.3,net_bits,v,,64,,11796480,-0.62411093,,,,,,,strict: gain - factor cost 0.644444
+L13.E135.w1,13,135,w1,,,R5.3,gain_over_approx,v,,64,,,1.1122924,,,,,,,
+L13.E135.w1,13,135,w1,,,R5.3,holdout_gain_bits,w,,128,,11796480,0.0291216,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E135.w1,13,135,w1,,,R5.3,net_bits,w,,128,,11796480,-1.2597673,,,,,,,strict: gain - factor cost 1.28889
+L13.E135.w1,13,135,w1,,,R5.3,gain_over_approx,w,,128,,,1.0101969,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.3,holdout_gain_bits,v,,128,,11796480,0.032188164,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E135.w2,13,135,w2,,,R5.3,net_bits,v,,128,,11796480,-1.2567007,,,,,,,strict: gain - factor cost 1.28889
+L13.E135.w2,13,135,w2,,,R5.3,gain_over_approx,v,,128,,,1.1383798,,,,,,,
+L13.E135.w2,13,135,w2,,,R5.3,holdout_gain_bits,w,,128,,11796480,0.036250142,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E135.w2,13,135,w2,,,R5.3,net_bits,w,,128,,11796480,-1.2526387,,,,,,,strict: gain - factor cost 1.28889
+L13.E135.w2,13,135,w2,,,R5.3,gain_over_approx,w,,128,,,0.98555838,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.3,holdout_gain_bits,v,,64,,11796480,0.0076723483,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E135.w3,13,135,w3,,,R5.3,net_bits,v,,64,,11796480,-0.6367721,,,,,,,strict: gain - factor cost 0.644444
+L13.E135.w3,13,135,w3,,,R5.3,gain_over_approx,v,,64,,,1.6043732,,,,,,,
+L13.E135.w3,13,135,w3,,,R5.3,holdout_gain_bits,w,,64,,11796480,0.0094953382,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E135.w3,13,135,w3,,,R5.3,net_bits,w,,64,,11796480,-0.63494911,,,,,,,strict: gain - factor cost 0.644444
+L13.E135.w3,13,135,w3,,,R5.3,gain_over_approx,w,,64,,,1.1553147,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.3,holdout_gain_bits,v,,16,,11796480,0.0037963817,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E163.w1,13,163,w1,,,R5.3,net_bits,v,,16,,11796480,-0.15731473,,,,,,,strict: gain - factor cost 0.161111
+L13.E163.w1,13,163,w1,,,R5.3,gain_over_approx,v,,16,,,1.0199671,,,,,,,
+L13.E163.w1,13,163,w1,,,R5.3,holdout_gain_bits,w,,32,,11796480,0.005858751,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E163.w1,13,163,w1,,,R5.3,net_bits,w,,32,,11796480,-0.31636347,,,,,,,strict: gain - factor cost 0.322222
+L13.E163.w1,13,163,w1,,,R5.3,gain_over_approx,w,,32,,,0.96493021,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.3,holdout_gain_bits,v,,16,,11796480,0.00164909,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E163.w2,13,163,w2,,,R5.3,net_bits,v,,16,,11796480,-0.15946202,,,,,,,strict: gain - factor cost 0.161111
+L13.E163.w2,13,163,w2,,,R5.3,gain_over_approx,v,,16,,,1.2306303,,,,,,,
+L13.E163.w2,13,163,w2,,,R5.3,holdout_gain_bits,w,,32,,11796480,0.0029017118,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E163.w2,13,163,w2,,,R5.3,net_bits,w,,32,,11796480,-0.31932051,,,,,,,strict: gain - factor cost 0.322222
+L13.E163.w2,13,163,w2,,,R5.3,gain_over_approx,w,,32,,,1.3359514,,,,,,,
+L13.E163.w3,13,163,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000653 <= 0.001 (k=4)
+L13.E163.w3,13,163,w3,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.00075805527,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L13.E163.w3,13,163,w3,,,R5.3,net_bits,w,,8,,11796480,-0.0797975,,,,,,,strict: gain - factor cost 0.0805556
+L13.E163.w3,13,163,w3,,,R5.3,gain_over_approx,w,,8,,,0.79501913,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.3,holdout_gain_bits,v,,1,,11796480,0.0029164858,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E12.w1,26,12,w1,,,R5.3,net_bits,v,,1,,11796480,-0.0071529587,,,,,,,strict: gain - factor cost 0.0100694
+L26.E12.w1,26,12,w1,,,R5.3,gain_over_approx,v,,1,,,1.0771764,,,,,,,
+L26.E12.w1,26,12,w1,,,R5.3,holdout_gain_bits,w,,1,,11796480,0.0029820117,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E12.w1,26,12,w1,,,R5.3,net_bits,w,,1,,11796480,-0.0070874327,,,,,,,strict: gain - factor cost 0.0100694
+L26.E12.w1,26,12,w1,,,R5.3,gain_over_approx,w,,1,,,0.96388802,,,,,,,
+L26.E12.w2,26,12,w2,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = -3.49e-05 <= 0.001 (k=1)
+L26.E12.w2,26,12,w2,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 1.46e-05 <= 0.001 (k=2)
+L26.E12.w3,26,12,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = -0.00014 <= 0.001 (k=1)
+L26.E12.w3,26,12,w3,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = -0.000136 <= 0.001 (k=1)
+L26.E347.w1,26,347,w1,,,R5.3,holdout_gain_bits,v,,8,,11796480,0.003336679,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E347.w1,26,347,w1,,,R5.3,net_bits,v,,8,,11796480,-0.077218877,,,,,,,strict: gain - factor cost 0.0805556
+L26.E347.w1,26,347,w1,,,R5.3,gain_over_approx,v,,8,,,1.0408097,,,,,,,
+L26.E347.w1,26,347,w1,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.0036521056,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E347.w1,26,347,w1,,,R5.3,net_bits,w,,8,,11796480,-0.07690345,,,,,,,strict: gain - factor cost 0.0805556
+L26.E347.w1,26,347,w1,,,R5.3,gain_over_approx,w,,8,,,0.91432718,,,,,,,
+L26.E347.w2,26,347,w2,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000641 <= 0.001 (k=8)
+L26.E347.w2,26,347,w2,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.00093100988,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E347.w2,26,347,w2,,,R5.3,net_bits,w,,8,,11796480,-0.079624546,,,,,,,strict: gain - factor cost 0.0805556
+L26.E347.w2,26,347,w2,,,R5.3,gain_over_approx,w,,8,,,1.0979665,,,,,,,
+L26.E347.w3,26,347,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 7.89e-05 <= 0.001 (k=1)
+L26.E347.w3,26,347,w3,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 0.000198 <= 0.001 (k=1)
+L26.E350.w1,26,350,w1,,,R5.3,holdout_gain_bits,v,,32,,11796480,0.011510678,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E350.w1,26,350,w1,,,R5.3,net_bits,v,,32,,11796480,-0.31071154,,,,,,,strict: gain - factor cost 0.322222
+L26.E350.w1,26,350,w1,,,R5.3,gain_over_approx,v,,32,,,1.030843,,,,,,,
+L26.E350.w1,26,350,w1,,,R5.3,holdout_gain_bits,w,,32,,11796480,0.0128698,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E350.w1,26,350,w1,,,R5.3,net_bits,w,,32,,11796480,-0.30935242,,,,,,,strict: gain - factor cost 0.322222
+L26.E350.w1,26,350,w1,,,R5.3,gain_over_approx,w,,32,,,0.91255938,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.3,holdout_gain_bits,v,,64,,11796480,0.02544536,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E350.w2,26,350,w2,,,R5.3,net_bits,v,,64,,11796480,-0.61899908,,,,,,,strict: gain - factor cost 0.644444
+L26.E350.w2,26,350,w2,,,R5.3,gain_over_approx,v,,64,,,1.0582692,,,,,,,
+L26.E350.w2,26,350,w2,,,R5.3,holdout_gain_bits,w,,128,,11796480,0.031500627,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E350.w2,26,350,w2,,,R5.3,net_bits,w,,128,,11796480,-1.2573883,,,,,,,strict: gain - factor cost 1.28889
+L26.E350.w2,26,350,w2,,,R5.3,gain_over_approx,w,,128,,,1.0183048,,,,,,,
+L26.E350.w3,26,350,w3,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 0.000819 <= 0.001 (k=8)
+L26.E350.w3,26,350,w3,,,R5.3,holdout_gain_bits,w,,16,,11796480,0.0015831999,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L26.E350.w3,26,350,w3,,,R5.3,net_bits,w,,16,,11796480,-0.15952791,,,,,,,strict: gain - factor cost 0.161111
+L26.E350.w3,26,350,w3,,,R5.3,gain_over_approx,w,,16,,,1.2830974,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.3,holdout_gain_bits,v,,16,,11796480,0.0072091659,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E61.w1,39,61,w1,,,R5.3,net_bits,v,,16,,11796480,-0.15390195,,,,,,,strict: gain - factor cost 0.161111
+L39.E61.w1,39,61,w1,,,R5.3,gain_over_approx,v,,16,,,0.95618896,,,,,,,
+L39.E61.w1,39,61,w1,,,R5.3,holdout_gain_bits,w,,32,,11796480,0.0086311628,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E61.w1,39,61,w1,,,R5.3,net_bits,w,,32,,11796480,-0.31359106,,,,,,,strict: gain - factor cost 0.322222
+L39.E61.w1,39,61,w1,,,R5.3,gain_over_approx,w,,32,,,0.61289492,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.3,holdout_gain_bits,v,,4,,11796480,0.0019090929,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E61.w2,39,61,w2,,,R5.3,net_bits,v,,4,,11796480,-0.038368685,,,,,,,strict: gain - factor cost 0.0402778
+L39.E61.w2,39,61,w2,,,R5.3,gain_over_approx,v,,4,,,0.28278314,,,,,,,
+L39.E61.w2,39,61,w2,,,R5.3,holdout_gain_bits,w,,4,,11796480,0.0029029393,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E61.w2,39,61,w2,,,R5.3,net_bits,w,,4,,11796480,-0.037374839,,,,,,,strict: gain - factor cost 0.0402778
+L39.E61.w2,39,61,w2,,,R5.3,gain_over_approx,w,,4,,,0.15147494,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.3,holdout_gain_bits,v,,8,,11796480,0.0028949966,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E61.w3,39,61,w3,,,R5.3,net_bits,v,,8,,11796480,-0.077660559,,,,,,,strict: gain - factor cost 0.0805556
+L39.E61.w3,39,61,w3,,,R5.3,gain_over_approx,v,,8,,,0.58340192,,,,,,,
+L39.E61.w3,39,61,w3,,,R5.3,holdout_gain_bits,w,,16,,11796480,0.0049745465,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E61.w3,39,61,w3,,,R5.3,net_bits,w,,16,,11796480,-0.15613656,,,,,,,strict: gain - factor cost 0.161111
+L39.E61.w3,39,61,w3,,,R5.3,gain_over_approx,w,,16,,,0.27011163,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.3,holdout_gain_bits,v,,32,,11796480,0.019776487,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E140.w1,39,140,w1,,,R5.3,net_bits,v,,32,,11796480,-0.30244574,,,,,,,strict: gain - factor cost 0.322222
+L39.E140.w1,39,140,w1,,,R5.3,gain_over_approx,v,,32,,,0.99127107,,,,,,,
+L39.E140.w1,39,140,w1,,,R5.3,holdout_gain_bits,w,,64,,11796480,0.02258607,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E140.w1,39,140,w1,,,R5.3,net_bits,w,,64,,11796480,-0.62185837,,,,,,,strict: gain - factor cost 0.644444
+L39.E140.w1,39,140,w1,,,R5.3,gain_over_approx,w,,64,,,0.94566658,,,,,,,
+L39.E140.w2,39,140,w2,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = 3.98e-05 <= 0.001 (k=1)
+L39.E140.w2,39,140,w2,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = 0.000199 <= 0.001 (k=1)
+L39.E140.w3,39,140,w3,,,R5.3,holdout_gain_bits,v,,16,,11796480,0.0049027992,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E140.w3,39,140,w3,,,R5.3,net_bits,v,,16,,11796480,-0.15620831,,,,,,,strict: gain - factor cost 0.161111
+L39.E140.w3,39,140,w3,,,R5.3,gain_over_approx,v,,16,,,1.0257511,,,,,,,
+L39.E140.w3,39,140,w3,,,R5.3,holdout_gain_bits,w,,32,,11796480,0.0063179996,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E140.w3,39,140,w3,,,R5.3,net_bits,w,,32,,11796480,-0.31590422,,,,,,,strict: gain - factor cost 0.322222
+L39.E140.w3,39,140,w3,,,R5.3,gain_over_approx,w,,32,,,0.98231523,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.3,holdout_gain_bits,v,,8,,11796480,0.0078963608,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E183.w1,39,183,w1,,,R5.3,net_bits,v,,8,,11796480,-0.072659195,,,,,,,strict: gain - factor cost 0.0805556
+L39.E183.w1,39,183,w1,,,R5.3,gain_over_approx,v,,8,,,0.93755984,,,,,,,
+L39.E183.w1,39,183,w1,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.0077012608,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E183.w1,39,183,w1,,,R5.3,net_bits,w,,8,,11796480,-0.072854295,,,,,,,strict: gain - factor cost 0.0805556
+L39.E183.w1,39,183,w1,,,R5.3,gain_over_approx,w,,8,,,0.8829016,,,,,,,
+L39.E183.w2,39,183,w2,,,R5.3,net_bits,v,,,,,,,,,,,,not run: max hold-out R2 = -9.46e-05 <= 0.001 (k=1)
+L39.E183.w2,39,183,w2,,,R5.3,net_bits,w,,,,,,,,,,,,not run: max hold-out R2 = -0.000111 <= 0.001 (k=1)
+L39.E183.w3,39,183,w3,,,R5.3,holdout_gain_bits,v,,8,,11796480,0.001061474,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E183.w3,39,183,w3,,,R5.3,net_bits,v,,8,,11796480,-0.079494082,,,,,,,strict: gain - factor cost 0.0805556
+L39.E183.w3,39,183,w3,,,R5.3,gain_over_approx,v,,8,,,0.86909911,,,,,,,
+L39.E183.w3,39,183,w3,,,R5.3,holdout_gain_bits,w,,8,,11796480,0.0010554936,,,,,,,"strict: holdout H(C'|E) - H(C'|E, octile of holdout prediction)"
+L39.E183.w3,39,183,w3,,,R5.3,net_bits,w,,8,,11796480,-0.079500062,,,,,,,strict: gain - factor cost 0.0805556
+L39.E183.w3,39,183,w3,,,R5.3,gain_over_approx,w,,8,,,0.881375,,,,,,,
