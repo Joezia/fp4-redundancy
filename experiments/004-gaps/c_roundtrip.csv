@@ -1,0 +1,4 @@
+matrix,E_equal,Cp_equal,values_equal,n_neg_zero,header_bytes,stream_bytes,N,header_bits_per_weight,bits_per_weight,ledger_row4_compressed,diff_vs_row4,saving_vs_4.25
+L0.E164.w1,True,True,True,696350,142,5419969,11796480,9.6299913e-05,3.675748,3.6757097,3.8341643e-05,0.57425198
+L13.E135.w2,True,True,True,691876,175,5441260,11796480,0.00011867947,3.6902093,3.6901639,4.54028e-05,0.55979072
+L39.E183.w3,True,True,True,685067,142,5414515,11796480,9.6299913e-05,3.6720493,3.6720116,3.7695482e-05,0.57795071

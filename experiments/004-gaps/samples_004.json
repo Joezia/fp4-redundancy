@@ -1,0 +1,8921 @@
+{
+ "main_layers": 40,
+ "mtp_layers": [
+  0,
+  1,
+  2
+ ],
+ "full_layer": [
+  {
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 70,
+   "drawn": [
+    357,
+    70
+   ],
+   "seed": 20261113,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 357,
+   "drawn": [
+    357,
+    70
+   ],
+   "seed": 20261113,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 359,
+   "drawn": [
+    359,
+    364
+   ],
+   "seed": 20261114,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 364,
+   "drawn": [
+    359,
+    364
+   ],
+   "seed": 20261114,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 172,
+   "drawn": [
+    192,
+    172
+   ],
+   "seed": 20261115,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 192,
+   "drawn": [
+    192,
+    172
+   ],
+   "seed": 20261115,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 75,
+   "drawn": [
+    119,
+    75
+   ],
+   "seed": 20261116,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 119,
+   "drawn": [
+    119,
+    75
+   ],
+   "seed": 20261116,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 90,
+   "drawn": [
+    90,
+    262
+   ],
+   "seed": 20261117,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 262,
+   "drawn": [
+    90,
+    262
+   ],
+   "seed": 20261117,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 31,
+   "drawn": [
+    31,
+    138
+   ],
+   "seed": 20261118,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 138,
+   "drawn": [
+    31,
+    138
+   ],
+   "seed": 20261118,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 35,
+   "drawn": [
+    35,
+    89
+   ],
+   "seed": 20261119,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 89,
+   "drawn": [
+    35,
+    89
+   ],
+   "seed": 20261119,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 283,
+   "drawn": [
+    283,
+    285
+   ],
+   "seed": 20261120,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 285,
+   "drawn": [
+    283,
+    285
+   ],
+   "seed": 20261120,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 140,
+   "drawn": [
+    140,
+    244
+   ],
+   "seed": 20261121,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 244,
+   "drawn": [
+    140,
+    244
+   ],
+   "seed": 20261121,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 1,
+   "drawn": [
+    1,
+    81
+   ],
+   "seed": 20261122,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 81,
+   "drawn": [
+    1,
+    81
+   ],
+   "seed": 20261122,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 16,
+   "drawn": [
+    352,
+    16
+   ],
+   "seed": 20261123,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 352,
+   "drawn": [
+    352,
+    16
+   ],
+   "seed": 20261123,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 83,
+   "drawn": [
+    368,
+    83
+   ],
+   "seed": 20261124,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 368,
+   "drawn": [
+    368,
+    83
+   ],
+   "seed": 20261124,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 136,
+   "drawn": [
+    136,
+    163
+   ],
+   "seed": 20261125,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 163,
+   "drawn": [
+    136,
+    163
+   ],
+   "seed": 20261125,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 27,
+   "drawn": [
+    344,
+    27
+   ],
+   "seed": 20261126,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 344,
+   "drawn": [
+    344,
+    27
+   ],
+   "seed": 20261126,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 141,
+   "drawn": [
+    141,
+    303
+   ],
+   "seed": 20261127,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 303,
+   "drawn": [
+    141,
+    303
+   ],
+   "seed": 20261127,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 10,
+   "drawn": [
+    10,
+    348
+   ],
+   "seed": 20261128,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 348,
+   "drawn": [
+    10,
+    348
+   ],
+   "seed": 20261128,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 84,
+   "drawn": [
+    368,
+    84
+   ],
+   "seed": 20261129,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 368,
+   "drawn": [
+    368,
+    84
+   ],
+   "seed": 20261129,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 251,
+   "drawn": [
+    251,
+    307
+   ],
+   "seed": 20261130,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 307,
+   "drawn": [
+    251,
+    307
+   ],
+   "seed": 20261130,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 28,
+   "drawn": [
+    303,
+    28
+   ],
+   "seed": 20261131,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 303,
+   "drawn": [
+    303,
+    28
+   ],
+   "seed": 20261131,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 12,
+   "drawn": [
+    12,
+    348
+   ],
+   "seed": 20261132,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 348,
+   "drawn": [
+    12,
+    348
+   ],
+   "seed": 20261132,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 220,
+   "drawn": [
+    220,
+    298
+   ],
+   "seed": 20261133,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 298,
+   "drawn": [
+    220,
+    298
+   ],
+   "seed": 20261133,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 88,
+   "drawn": [
+    88,
+    146
+   ],
+   "seed": 20261134,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 146,
+   "drawn": [
+    88,
+    146
+   ],
+   "seed": 20261134,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 140,
+   "drawn": [
+    377,
+    140
+   ],
+   "seed": 20261135,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 377,
+   "drawn": [
+    377,
+    140
+   ],
+   "seed": 20261135,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 45,
+   "drawn": [
+    45,
+    355
+   ],
+   "seed": 20261136,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 355,
+   "drawn": [
+    45,
+    355
+   ],
+   "seed": 20261136,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 179,
+   "drawn": [
+    179,
+    329
+   ],
+   "seed": 20261137,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 329,
+   "drawn": [
+    179,
+    329
+   ],
+   "seed": 20261137,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 12,
+   "drawn": [
+    348,
+    12
+   ],
+   "seed": 20261138,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 348,
+   "drawn": [
+    348,
+    12
+   ],
+   "seed": 20261138,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 14,
+   "drawn": [
+    14,
+    350
+   ],
+   "seed": 20261139,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 350,
+   "drawn": [
+    14,
+    350
+   ],
+   "seed": 20261139,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 165,
+   "drawn": [
+    165,
+    306
+   ],
+   "seed": 20261140,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 306,
+   "drawn": [
+    165,
+    306
+   ],
+   "seed": 20261140,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 362,
+   "drawn": [
+    362,
+    374
+   ],
+   "seed": 20261141,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 374,
+   "drawn": [
+    362,
+    374
+   ],
+   "seed": 20261141,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 52,
+   "drawn": [
+    57,
+    52
+   ],
+   "seed": 20261142,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 57,
+   "drawn": [
+    57,
+    52
+   ],
+   "seed": 20261142,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 276,
+   "drawn": [
+    276,
+    360
+   ],
+   "seed": 20261143,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 360,
+   "drawn": [
+    276,
+    360
+   ],
+   "seed": 20261143,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 31,
+   "drawn": [
+    31,
+    361
+   ],
+   "seed": 20261144,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 361,
+   "drawn": [
+    31,
+    361
+   ],
+   "seed": 20261144,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 210,
+   "drawn": [
+    210,
+    320
+   ],
+   "seed": 20261145,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 320,
+   "drawn": [
+    210,
+    320
+   ],
+   "seed": 20261145,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 59,
+   "drawn": [
+    59,
+    108
+   ],
+   "seed": 20261146,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 108,
+   "drawn": [
+    59,
+    108
+   ],
+   "seed": 20261146,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 244,
+   "drawn": [
+    244,
+    252
+   ],
+   "seed": 20261147,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 252,
+   "drawn": [
+    244,
+    252
+   ],
+   "seed": 20261147,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 70,
+   "drawn": [
+    70,
+    211
+   ],
+   "seed": 20261148,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 211,
+   "drawn": [
+    70,
+    211
+   ],
+   "seed": 20261148,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 18,
+   "drawn": [
+    203,
+    18
+   ],
+   "seed": 20261149,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 203,
+   "drawn": [
+    203,
+    18
+   ],
+   "seed": 20261149,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 221,
+   "drawn": [
+    221,
+    271
+   ],
+   "seed": 20261150,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 271,
+   "drawn": [
+    221,
+    271
+   ],
+   "seed": 20261150,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 141,
+   "drawn": [
+    141,
+    184
+   ],
+   "seed": 20261151,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 184,
+   "drawn": [
+    141,
+    184
+   ],
+   "seed": 20261151,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 26,
+   "drawn": [
+    176,
+    26
+   ],
+   "seed": 20261152,
+   "n_pool": 384
+  },
+  {
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 176,
+   "drawn": [
+    176,
+    26
+   ],
+   "seed": 20261152,
+   "n_pool": 384
+  },
+  {
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 32,
+   "drawn": [
+    62,
+    32
+   ],
+   "seed": 20262113,
+   "n_pool": 128
+  },
+  {
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 62,
+   "drawn": [
+    62,
+    32
+   ],
+   "seed": 20262113,
+   "n_pool": 128
+  },
+  {
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 42,
+   "drawn": [
+    42,
+    96
+   ],
+   "seed": 20262114,
+   "n_pool": 128
+  },
+  {
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 96,
+   "drawn": [
+    42,
+    96
+   ],
+   "seed": 20262114,
+   "n_pool": 128
+  },
+  {
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 78,
+   "drawn": [
+    89,
+    78
+   ],
+   "seed": 20262115,
+   "n_pool": 128
+  },
+  {
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 89,
+   "drawn": [
+    89,
+    78
+   ],
+   "seed": 20262115,
+   "n_pool": 128
+  }
+ ],
+ "in_layer": {
+  "0": {
+   "original": [
+    164,
+    334,
+    375
+   ],
+   "new_drawn": [
+    284,
+    63,
+    355,
+    4,
+    361
+   ],
+   "order": [
+    164,
+    334,
+    375,
+    4,
+    63,
+    284,
+    355,
+    361
+   ],
+   "fit": [
+    164,
+    334,
+    375,
+    4,
+    63,
+    284
+   ],
+   "eval": [
+    355,
+    361
+   ]
+  },
+  "13": {
+   "original": [
+    49,
+    135,
+    163
+   ],
+   "new_drawn": [
+    306,
+    141,
+    301,
+    61,
+    122
+   ],
+   "order": [
+    49,
+    135,
+    163,
+    61,
+    122,
+    141,
+    301,
+    306
+   ],
+   "fit": [
+    49,
+    135,
+    163,
+    61,
+    122,
+    141
+   ],
+   "eval": [
+    301,
+    306
+   ]
+  },
+  "26": {
+   "original": [
+    12,
+    347,
+    350
+   ],
+   "new_drawn": [
+    242,
+    302,
+    121,
+    203,
+    163
+   ],
+   "order": [
+    12,
+    347,
+    350,
+    121,
+    163,
+    203,
+    242,
+    302
+   ],
+   "fit": [
+    12,
+    347,
+    350,
+    121,
+    163,
+    203
+   ],
+   "eval": [
+    242,
+    302
+   ]
+  },
+  "39": {
+   "original": [
+    61,
+    140,
+    183
+   ],
+   "new_drawn": [
+    50,
+    340,
+    239,
+    68,
+    122
+   ],
+   "order": [
+    61,
+    140,
+    183,
+    50,
+    68,
+    122,
+    239,
+    340
+   ],
+   "fit": [
+    61,
+    140,
+    183,
+    50,
+    68,
+    122
+   ],
+   "eval": [
+    239,
+    340
+   ]
+  }
+ },
+ "probe": [
+  {
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 164
+  },
+  {
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 49
+  },
+  {
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 12
+  },
+  {
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 61
+  }
+ ],
+ "original": [
+  {
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 164
+  },
+  {
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 334
+  },
+  {
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 375
+  },
+  {
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 49
+  },
+  {
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 135
+  },
+  {
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 163
+  },
+  {
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 12
+  },
+  {
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 347
+  },
+  {
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 350
+  },
+  {
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 61
+  },
+  {
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 140
+  },
+  {
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 183
+  }
+ ],
+ "roundtrip": [
+  "L0.E164.w1",
+  "L13.E135.w2",
+  "L39.E183.w3"
+ ],
+ "n_tensors": 351,
+ "numpy_version": "2.4.6",
+ "rng": {
+  "full_layer": "default_rng(20261113 + layer) (mtp: 20261113 + 1000 + index).choice(sorted routed experts, 2, replace=False)",
+  "in_layer": "default_rng(20261114 + layer).choice(sorted experts minus the 3 original, 5, replace=False); order = original 3 (sorted) then new 5 (sorted); fit = first 6, eval = last 2"
+ },
+ "tensors": {
+  "L0.E70.w1": {
+   "matrix": "L0.E70.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 70,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.70.w1.weight",
+   "scale": "layers.0.ffn.experts.70.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E70.w2": {
+   "matrix": "L0.E70.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 70,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.70.w2.weight",
+   "scale": "layers.0.ffn.experts.70.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E70.w3": {
+   "matrix": "L0.E70.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 70,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.70.w3.weight",
+   "scale": "layers.0.ffn.experts.70.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E357.w1": {
+   "matrix": "L0.E357.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 357,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.357.w1.weight",
+   "scale": "layers.0.ffn.experts.357.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E357.w2": {
+   "matrix": "L0.E357.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 357,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.357.w2.weight",
+   "scale": "layers.0.ffn.experts.357.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E357.w3": {
+   "matrix": "L0.E357.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 357,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.357.w3.weight",
+   "scale": "layers.0.ffn.experts.357.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L1.E359.w1": {
+   "matrix": "L1.E359.w1",
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 359,
+   "role": "w1",
+   "weight": "layers.1.ffn.experts.359.w1.weight",
+   "scale": "layers.1.ffn.experts.359.w1.scale",
+   "weight_file": "model-00004-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L1.E359.w2": {
+   "matrix": "L1.E359.w2",
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 359,
+   "role": "w2",
+   "weight": "layers.1.ffn.experts.359.w2.weight",
+   "scale": "layers.1.ffn.experts.359.w2.scale",
+   "weight_file": "model-00004-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L1.E359.w3": {
+   "matrix": "L1.E359.w3",
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 359,
+   "role": "w3",
+   "weight": "layers.1.ffn.experts.359.w3.weight",
+   "scale": "layers.1.ffn.experts.359.w3.scale",
+   "weight_file": "model-00004-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L1.E364.w1": {
+   "matrix": "L1.E364.w1",
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 364,
+   "role": "w1",
+   "weight": "layers.1.ffn.experts.364.w1.weight",
+   "scale": "layers.1.ffn.experts.364.w1.scale",
+   "weight_file": "model-00004-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L1.E364.w2": {
+   "matrix": "L1.E364.w2",
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 364,
+   "role": "w2",
+   "weight": "layers.1.ffn.experts.364.w2.weight",
+   "scale": "layers.1.ffn.experts.364.w2.scale",
+   "weight_file": "model-00004-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L1.E364.w3": {
+   "matrix": "L1.E364.w3",
+   "prefix": "layers",
+   "layer": 1,
+   "expert": 364,
+   "role": "w3",
+   "weight": "layers.1.ffn.experts.364.w3.weight",
+   "scale": "layers.1.ffn.experts.364.w3.scale",
+   "weight_file": "model-00004-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L2.E172.w1": {
+   "matrix": "L2.E172.w1",
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 172,
+   "role": "w1",
+   "weight": "layers.2.ffn.experts.172.w1.weight",
+   "scale": "layers.2.ffn.experts.172.w1.scale",
+   "weight_file": "model-00005-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L2.E172.w2": {
+   "matrix": "L2.E172.w2",
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 172,
+   "role": "w2",
+   "weight": "layers.2.ffn.experts.172.w2.weight",
+   "scale": "layers.2.ffn.experts.172.w2.scale",
+   "weight_file": "model-00005-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L2.E172.w3": {
+   "matrix": "L2.E172.w3",
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 172,
+   "role": "w3",
+   "weight": "layers.2.ffn.experts.172.w3.weight",
+   "scale": "layers.2.ffn.experts.172.w3.scale",
+   "weight_file": "model-00005-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L2.E192.w1": {
+   "matrix": "L2.E192.w1",
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 192,
+   "role": "w1",
+   "weight": "layers.2.ffn.experts.192.w1.weight",
+   "scale": "layers.2.ffn.experts.192.w1.scale",
+   "weight_file": "model-00005-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L2.E192.w2": {
+   "matrix": "L2.E192.w2",
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 192,
+   "role": "w2",
+   "weight": "layers.2.ffn.experts.192.w2.weight",
+   "scale": "layers.2.ffn.experts.192.w2.scale",
+   "weight_file": "model-00005-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L2.E192.w3": {
+   "matrix": "L2.E192.w3",
+   "prefix": "layers",
+   "layer": 2,
+   "expert": 192,
+   "role": "w3",
+   "weight": "layers.2.ffn.experts.192.w3.weight",
+   "scale": "layers.2.ffn.experts.192.w3.scale",
+   "weight_file": "model-00005-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L3.E75.w1": {
+   "matrix": "L3.E75.w1",
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 75,
+   "role": "w1",
+   "weight": "layers.3.ffn.experts.75.w1.weight",
+   "scale": "layers.3.ffn.experts.75.w1.scale",
+   "weight_file": "model-00006-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L3.E75.w2": {
+   "matrix": "L3.E75.w2",
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 75,
+   "role": "w2",
+   "weight": "layers.3.ffn.experts.75.w2.weight",
+   "scale": "layers.3.ffn.experts.75.w2.scale",
+   "weight_file": "model-00006-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L3.E75.w3": {
+   "matrix": "L3.E75.w3",
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 75,
+   "role": "w3",
+   "weight": "layers.3.ffn.experts.75.w3.weight",
+   "scale": "layers.3.ffn.experts.75.w3.scale",
+   "weight_file": "model-00006-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L3.E119.w1": {
+   "matrix": "L3.E119.w1",
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 119,
+   "role": "w1",
+   "weight": "layers.3.ffn.experts.119.w1.weight",
+   "scale": "layers.3.ffn.experts.119.w1.scale",
+   "weight_file": "model-00006-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L3.E119.w2": {
+   "matrix": "L3.E119.w2",
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 119,
+   "role": "w2",
+   "weight": "layers.3.ffn.experts.119.w2.weight",
+   "scale": "layers.3.ffn.experts.119.w2.scale",
+   "weight_file": "model-00006-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L3.E119.w3": {
+   "matrix": "L3.E119.w3",
+   "prefix": "layers",
+   "layer": 3,
+   "expert": 119,
+   "role": "w3",
+   "weight": "layers.3.ffn.experts.119.w3.weight",
+   "scale": "layers.3.ffn.experts.119.w3.scale",
+   "weight_file": "model-00006-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L4.E90.w1": {
+   "matrix": "L4.E90.w1",
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 90,
+   "role": "w1",
+   "weight": "layers.4.ffn.experts.90.w1.weight",
+   "scale": "layers.4.ffn.experts.90.w1.scale",
+   "weight_file": "model-00007-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L4.E90.w2": {
+   "matrix": "L4.E90.w2",
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 90,
+   "role": "w2",
+   "weight": "layers.4.ffn.experts.90.w2.weight",
+   "scale": "layers.4.ffn.experts.90.w2.scale",
+   "weight_file": "model-00007-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L4.E90.w3": {
+   "matrix": "L4.E90.w3",
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 90,
+   "role": "w3",
+   "weight": "layers.4.ffn.experts.90.w3.weight",
+   "scale": "layers.4.ffn.experts.90.w3.scale",
+   "weight_file": "model-00007-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L4.E262.w1": {
+   "matrix": "L4.E262.w1",
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 262,
+   "role": "w1",
+   "weight": "layers.4.ffn.experts.262.w1.weight",
+   "scale": "layers.4.ffn.experts.262.w1.scale",
+   "weight_file": "model-00007-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L4.E262.w2": {
+   "matrix": "L4.E262.w2",
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 262,
+   "role": "w2",
+   "weight": "layers.4.ffn.experts.262.w2.weight",
+   "scale": "layers.4.ffn.experts.262.w2.scale",
+   "weight_file": "model-00007-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L4.E262.w3": {
+   "matrix": "L4.E262.w3",
+   "prefix": "layers",
+   "layer": 4,
+   "expert": 262,
+   "role": "w3",
+   "weight": "layers.4.ffn.experts.262.w3.weight",
+   "scale": "layers.4.ffn.experts.262.w3.scale",
+   "weight_file": "model-00007-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L5.E31.w1": {
+   "matrix": "L5.E31.w1",
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 31,
+   "role": "w1",
+   "weight": "layers.5.ffn.experts.31.w1.weight",
+   "scale": "layers.5.ffn.experts.31.w1.scale",
+   "weight_file": "model-00008-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L5.E31.w2": {
+   "matrix": "L5.E31.w2",
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 31,
+   "role": "w2",
+   "weight": "layers.5.ffn.experts.31.w2.weight",
+   "scale": "layers.5.ffn.experts.31.w2.scale",
+   "weight_file": "model-00008-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L5.E31.w3": {
+   "matrix": "L5.E31.w3",
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 31,
+   "role": "w3",
+   "weight": "layers.5.ffn.experts.31.w3.weight",
+   "scale": "layers.5.ffn.experts.31.w3.scale",
+   "weight_file": "model-00008-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L5.E138.w1": {
+   "matrix": "L5.E138.w1",
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 138,
+   "role": "w1",
+   "weight": "layers.5.ffn.experts.138.w1.weight",
+   "scale": "layers.5.ffn.experts.138.w1.scale",
+   "weight_file": "model-00008-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L5.E138.w2": {
+   "matrix": "L5.E138.w2",
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 138,
+   "role": "w2",
+   "weight": "layers.5.ffn.experts.138.w2.weight",
+   "scale": "layers.5.ffn.experts.138.w2.scale",
+   "weight_file": "model-00008-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L5.E138.w3": {
+   "matrix": "L5.E138.w3",
+   "prefix": "layers",
+   "layer": 5,
+   "expert": 138,
+   "role": "w3",
+   "weight": "layers.5.ffn.experts.138.w3.weight",
+   "scale": "layers.5.ffn.experts.138.w3.scale",
+   "weight_file": "model-00008-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L6.E35.w1": {
+   "matrix": "L6.E35.w1",
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 35,
+   "role": "w1",
+   "weight": "layers.6.ffn.experts.35.w1.weight",
+   "scale": "layers.6.ffn.experts.35.w1.scale",
+   "weight_file": "model-00009-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L6.E35.w2": {
+   "matrix": "L6.E35.w2",
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 35,
+   "role": "w2",
+   "weight": "layers.6.ffn.experts.35.w2.weight",
+   "scale": "layers.6.ffn.experts.35.w2.scale",
+   "weight_file": "model-00009-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L6.E35.w3": {
+   "matrix": "L6.E35.w3",
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 35,
+   "role": "w3",
+   "weight": "layers.6.ffn.experts.35.w3.weight",
+   "scale": "layers.6.ffn.experts.35.w3.scale",
+   "weight_file": "model-00009-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L6.E89.w1": {
+   "matrix": "L6.E89.w1",
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 89,
+   "role": "w1",
+   "weight": "layers.6.ffn.experts.89.w1.weight",
+   "scale": "layers.6.ffn.experts.89.w1.scale",
+   "weight_file": "model-00009-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L6.E89.w2": {
+   "matrix": "L6.E89.w2",
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 89,
+   "role": "w2",
+   "weight": "layers.6.ffn.experts.89.w2.weight",
+   "scale": "layers.6.ffn.experts.89.w2.scale",
+   "weight_file": "model-00009-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L6.E89.w3": {
+   "matrix": "L6.E89.w3",
+   "prefix": "layers",
+   "layer": 6,
+   "expert": 89,
+   "role": "w3",
+   "weight": "layers.6.ffn.experts.89.w3.weight",
+   "scale": "layers.6.ffn.experts.89.w3.scale",
+   "weight_file": "model-00009-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L7.E283.w1": {
+   "matrix": "L7.E283.w1",
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 283,
+   "role": "w1",
+   "weight": "layers.7.ffn.experts.283.w1.weight",
+   "scale": "layers.7.ffn.experts.283.w1.scale",
+   "weight_file": "model-00010-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L7.E283.w2": {
+   "matrix": "L7.E283.w2",
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 283,
+   "role": "w2",
+   "weight": "layers.7.ffn.experts.283.w2.weight",
+   "scale": "layers.7.ffn.experts.283.w2.scale",
+   "weight_file": "model-00010-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L7.E283.w3": {
+   "matrix": "L7.E283.w3",
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 283,
+   "role": "w3",
+   "weight": "layers.7.ffn.experts.283.w3.weight",
+   "scale": "layers.7.ffn.experts.283.w3.scale",
+   "weight_file": "model-00010-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L7.E285.w1": {
+   "matrix": "L7.E285.w1",
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 285,
+   "role": "w1",
+   "weight": "layers.7.ffn.experts.285.w1.weight",
+   "scale": "layers.7.ffn.experts.285.w1.scale",
+   "weight_file": "model-00010-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L7.E285.w2": {
+   "matrix": "L7.E285.w2",
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 285,
+   "role": "w2",
+   "weight": "layers.7.ffn.experts.285.w2.weight",
+   "scale": "layers.7.ffn.experts.285.w2.scale",
+   "weight_file": "model-00010-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L7.E285.w3": {
+   "matrix": "L7.E285.w3",
+   "prefix": "layers",
+   "layer": 7,
+   "expert": 285,
+   "role": "w3",
+   "weight": "layers.7.ffn.experts.285.w3.weight",
+   "scale": "layers.7.ffn.experts.285.w3.scale",
+   "weight_file": "model-00010-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L8.E140.w1": {
+   "matrix": "L8.E140.w1",
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 140,
+   "role": "w1",
+   "weight": "layers.8.ffn.experts.140.w1.weight",
+   "scale": "layers.8.ffn.experts.140.w1.scale",
+   "weight_file": "model-00011-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L8.E140.w2": {
+   "matrix": "L8.E140.w2",
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 140,
+   "role": "w2",
+   "weight": "layers.8.ffn.experts.140.w2.weight",
+   "scale": "layers.8.ffn.experts.140.w2.scale",
+   "weight_file": "model-00011-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L8.E140.w3": {
+   "matrix": "L8.E140.w3",
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 140,
+   "role": "w3",
+   "weight": "layers.8.ffn.experts.140.w3.weight",
+   "scale": "layers.8.ffn.experts.140.w3.scale",
+   "weight_file": "model-00011-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L8.E244.w1": {
+   "matrix": "L8.E244.w1",
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 244,
+   "role": "w1",
+   "weight": "layers.8.ffn.experts.244.w1.weight",
+   "scale": "layers.8.ffn.experts.244.w1.scale",
+   "weight_file": "model-00011-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L8.E244.w2": {
+   "matrix": "L8.E244.w2",
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 244,
+   "role": "w2",
+   "weight": "layers.8.ffn.experts.244.w2.weight",
+   "scale": "layers.8.ffn.experts.244.w2.scale",
+   "weight_file": "model-00011-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L8.E244.w3": {
+   "matrix": "L8.E244.w3",
+   "prefix": "layers",
+   "layer": 8,
+   "expert": 244,
+   "role": "w3",
+   "weight": "layers.8.ffn.experts.244.w3.weight",
+   "scale": "layers.8.ffn.experts.244.w3.scale",
+   "weight_file": "model-00011-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L9.E1.w1": {
+   "matrix": "L9.E1.w1",
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 1,
+   "role": "w1",
+   "weight": "layers.9.ffn.experts.1.w1.weight",
+   "scale": "layers.9.ffn.experts.1.w1.scale",
+   "weight_file": "model-00012-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L9.E1.w2": {
+   "matrix": "L9.E1.w2",
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 1,
+   "role": "w2",
+   "weight": "layers.9.ffn.experts.1.w2.weight",
+   "scale": "layers.9.ffn.experts.1.w2.scale",
+   "weight_file": "model-00012-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L9.E1.w3": {
+   "matrix": "L9.E1.w3",
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 1,
+   "role": "w3",
+   "weight": "layers.9.ffn.experts.1.w3.weight",
+   "scale": "layers.9.ffn.experts.1.w3.scale",
+   "weight_file": "model-00012-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L9.E81.w1": {
+   "matrix": "L9.E81.w1",
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 81,
+   "role": "w1",
+   "weight": "layers.9.ffn.experts.81.w1.weight",
+   "scale": "layers.9.ffn.experts.81.w1.scale",
+   "weight_file": "model-00012-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L9.E81.w2": {
+   "matrix": "L9.E81.w2",
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 81,
+   "role": "w2",
+   "weight": "layers.9.ffn.experts.81.w2.weight",
+   "scale": "layers.9.ffn.experts.81.w2.scale",
+   "weight_file": "model-00012-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L9.E81.w3": {
+   "matrix": "L9.E81.w3",
+   "prefix": "layers",
+   "layer": 9,
+   "expert": 81,
+   "role": "w3",
+   "weight": "layers.9.ffn.experts.81.w3.weight",
+   "scale": "layers.9.ffn.experts.81.w3.scale",
+   "weight_file": "model-00012-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L10.E16.w1": {
+   "matrix": "L10.E16.w1",
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 16,
+   "role": "w1",
+   "weight": "layers.10.ffn.experts.16.w1.weight",
+   "scale": "layers.10.ffn.experts.16.w1.scale",
+   "weight_file": "model-00013-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L10.E16.w2": {
+   "matrix": "L10.E16.w2",
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 16,
+   "role": "w2",
+   "weight": "layers.10.ffn.experts.16.w2.weight",
+   "scale": "layers.10.ffn.experts.16.w2.scale",
+   "weight_file": "model-00013-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L10.E16.w3": {
+   "matrix": "L10.E16.w3",
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 16,
+   "role": "w3",
+   "weight": "layers.10.ffn.experts.16.w3.weight",
+   "scale": "layers.10.ffn.experts.16.w3.scale",
+   "weight_file": "model-00013-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L10.E352.w1": {
+   "matrix": "L10.E352.w1",
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 352,
+   "role": "w1",
+   "weight": "layers.10.ffn.experts.352.w1.weight",
+   "scale": "layers.10.ffn.experts.352.w1.scale",
+   "weight_file": "model-00013-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L10.E352.w2": {
+   "matrix": "L10.E352.w2",
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 352,
+   "role": "w2",
+   "weight": "layers.10.ffn.experts.352.w2.weight",
+   "scale": "layers.10.ffn.experts.352.w2.scale",
+   "weight_file": "model-00013-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L10.E352.w3": {
+   "matrix": "L10.E352.w3",
+   "prefix": "layers",
+   "layer": 10,
+   "expert": 352,
+   "role": "w3",
+   "weight": "layers.10.ffn.experts.352.w3.weight",
+   "scale": "layers.10.ffn.experts.352.w3.scale",
+   "weight_file": "model-00013-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L11.E83.w1": {
+   "matrix": "L11.E83.w1",
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 83,
+   "role": "w1",
+   "weight": "layers.11.ffn.experts.83.w1.weight",
+   "scale": "layers.11.ffn.experts.83.w1.scale",
+   "weight_file": "model-00014-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L11.E83.w2": {
+   "matrix": "L11.E83.w2",
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 83,
+   "role": "w2",
+   "weight": "layers.11.ffn.experts.83.w2.weight",
+   "scale": "layers.11.ffn.experts.83.w2.scale",
+   "weight_file": "model-00014-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L11.E83.w3": {
+   "matrix": "L11.E83.w3",
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 83,
+   "role": "w3",
+   "weight": "layers.11.ffn.experts.83.w3.weight",
+   "scale": "layers.11.ffn.experts.83.w3.scale",
+   "weight_file": "model-00014-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L11.E368.w1": {
+   "matrix": "L11.E368.w1",
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 368,
+   "role": "w1",
+   "weight": "layers.11.ffn.experts.368.w1.weight",
+   "scale": "layers.11.ffn.experts.368.w1.scale",
+   "weight_file": "model-00014-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L11.E368.w2": {
+   "matrix": "L11.E368.w2",
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 368,
+   "role": "w2",
+   "weight": "layers.11.ffn.experts.368.w2.weight",
+   "scale": "layers.11.ffn.experts.368.w2.scale",
+   "weight_file": "model-00014-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L11.E368.w3": {
+   "matrix": "L11.E368.w3",
+   "prefix": "layers",
+   "layer": 11,
+   "expert": 368,
+   "role": "w3",
+   "weight": "layers.11.ffn.experts.368.w3.weight",
+   "scale": "layers.11.ffn.experts.368.w3.scale",
+   "weight_file": "model-00014-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L12.E136.w1": {
+   "matrix": "L12.E136.w1",
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 136,
+   "role": "w1",
+   "weight": "layers.12.ffn.experts.136.w1.weight",
+   "scale": "layers.12.ffn.experts.136.w1.scale",
+   "weight_file": "model-00015-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L12.E136.w2": {
+   "matrix": "L12.E136.w2",
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 136,
+   "role": "w2",
+   "weight": "layers.12.ffn.experts.136.w2.weight",
+   "scale": "layers.12.ffn.experts.136.w2.scale",
+   "weight_file": "model-00015-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L12.E136.w3": {
+   "matrix": "L12.E136.w3",
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 136,
+   "role": "w3",
+   "weight": "layers.12.ffn.experts.136.w3.weight",
+   "scale": "layers.12.ffn.experts.136.w3.scale",
+   "weight_file": "model-00015-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L12.E163.w1": {
+   "matrix": "L12.E163.w1",
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 163,
+   "role": "w1",
+   "weight": "layers.12.ffn.experts.163.w1.weight",
+   "scale": "layers.12.ffn.experts.163.w1.scale",
+   "weight_file": "model-00015-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L12.E163.w2": {
+   "matrix": "L12.E163.w2",
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 163,
+   "role": "w2",
+   "weight": "layers.12.ffn.experts.163.w2.weight",
+   "scale": "layers.12.ffn.experts.163.w2.scale",
+   "weight_file": "model-00015-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L12.E163.w3": {
+   "matrix": "L12.E163.w3",
+   "prefix": "layers",
+   "layer": 12,
+   "expert": 163,
+   "role": "w3",
+   "weight": "layers.12.ffn.experts.163.w3.weight",
+   "scale": "layers.12.ffn.experts.163.w3.scale",
+   "weight_file": "model-00015-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E27.w1": {
+   "matrix": "L13.E27.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 27,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.27.w1.weight",
+   "scale": "layers.13.ffn.experts.27.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E27.w2": {
+   "matrix": "L13.E27.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 27,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.27.w2.weight",
+   "scale": "layers.13.ffn.experts.27.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E27.w3": {
+   "matrix": "L13.E27.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 27,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.27.w3.weight",
+   "scale": "layers.13.ffn.experts.27.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E344.w1": {
+   "matrix": "L13.E344.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 344,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.344.w1.weight",
+   "scale": "layers.13.ffn.experts.344.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E344.w2": {
+   "matrix": "L13.E344.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 344,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.344.w2.weight",
+   "scale": "layers.13.ffn.experts.344.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E344.w3": {
+   "matrix": "L13.E344.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 344,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.344.w3.weight",
+   "scale": "layers.13.ffn.experts.344.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L14.E141.w1": {
+   "matrix": "L14.E141.w1",
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 141,
+   "role": "w1",
+   "weight": "layers.14.ffn.experts.141.w1.weight",
+   "scale": "layers.14.ffn.experts.141.w1.scale",
+   "weight_file": "model-00017-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L14.E141.w2": {
+   "matrix": "L14.E141.w2",
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 141,
+   "role": "w2",
+   "weight": "layers.14.ffn.experts.141.w2.weight",
+   "scale": "layers.14.ffn.experts.141.w2.scale",
+   "weight_file": "model-00017-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L14.E141.w3": {
+   "matrix": "L14.E141.w3",
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 141,
+   "role": "w3",
+   "weight": "layers.14.ffn.experts.141.w3.weight",
+   "scale": "layers.14.ffn.experts.141.w3.scale",
+   "weight_file": "model-00017-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L14.E303.w1": {
+   "matrix": "L14.E303.w1",
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 303,
+   "role": "w1",
+   "weight": "layers.14.ffn.experts.303.w1.weight",
+   "scale": "layers.14.ffn.experts.303.w1.scale",
+   "weight_file": "model-00017-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L14.E303.w2": {
+   "matrix": "L14.E303.w2",
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 303,
+   "role": "w2",
+   "weight": "layers.14.ffn.experts.303.w2.weight",
+   "scale": "layers.14.ffn.experts.303.w2.scale",
+   "weight_file": "model-00017-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L14.E303.w3": {
+   "matrix": "L14.E303.w3",
+   "prefix": "layers",
+   "layer": 14,
+   "expert": 303,
+   "role": "w3",
+   "weight": "layers.14.ffn.experts.303.w3.weight",
+   "scale": "layers.14.ffn.experts.303.w3.scale",
+   "weight_file": "model-00017-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L15.E10.w1": {
+   "matrix": "L15.E10.w1",
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 10,
+   "role": "w1",
+   "weight": "layers.15.ffn.experts.10.w1.weight",
+   "scale": "layers.15.ffn.experts.10.w1.scale",
+   "weight_file": "model-00018-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L15.E10.w2": {
+   "matrix": "L15.E10.w2",
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 10,
+   "role": "w2",
+   "weight": "layers.15.ffn.experts.10.w2.weight",
+   "scale": "layers.15.ffn.experts.10.w2.scale",
+   "weight_file": "model-00018-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L15.E10.w3": {
+   "matrix": "L15.E10.w3",
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 10,
+   "role": "w3",
+   "weight": "layers.15.ffn.experts.10.w3.weight",
+   "scale": "layers.15.ffn.experts.10.w3.scale",
+   "weight_file": "model-00018-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L15.E348.w1": {
+   "matrix": "L15.E348.w1",
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 348,
+   "role": "w1",
+   "weight": "layers.15.ffn.experts.348.w1.weight",
+   "scale": "layers.15.ffn.experts.348.w1.scale",
+   "weight_file": "model-00018-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L15.E348.w2": {
+   "matrix": "L15.E348.w2",
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 348,
+   "role": "w2",
+   "weight": "layers.15.ffn.experts.348.w2.weight",
+   "scale": "layers.15.ffn.experts.348.w2.scale",
+   "weight_file": "model-00018-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L15.E348.w3": {
+   "matrix": "L15.E348.w3",
+   "prefix": "layers",
+   "layer": 15,
+   "expert": 348,
+   "role": "w3",
+   "weight": "layers.15.ffn.experts.348.w3.weight",
+   "scale": "layers.15.ffn.experts.348.w3.scale",
+   "weight_file": "model-00018-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L16.E84.w1": {
+   "matrix": "L16.E84.w1",
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 84,
+   "role": "w1",
+   "weight": "layers.16.ffn.experts.84.w1.weight",
+   "scale": "layers.16.ffn.experts.84.w1.scale",
+   "weight_file": "model-00019-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L16.E84.w2": {
+   "matrix": "L16.E84.w2",
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 84,
+   "role": "w2",
+   "weight": "layers.16.ffn.experts.84.w2.weight",
+   "scale": "layers.16.ffn.experts.84.w2.scale",
+   "weight_file": "model-00019-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L16.E84.w3": {
+   "matrix": "L16.E84.w3",
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 84,
+   "role": "w3",
+   "weight": "layers.16.ffn.experts.84.w3.weight",
+   "scale": "layers.16.ffn.experts.84.w3.scale",
+   "weight_file": "model-00019-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L16.E368.w1": {
+   "matrix": "L16.E368.w1",
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 368,
+   "role": "w1",
+   "weight": "layers.16.ffn.experts.368.w1.weight",
+   "scale": "layers.16.ffn.experts.368.w1.scale",
+   "weight_file": "model-00019-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L16.E368.w2": {
+   "matrix": "L16.E368.w2",
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 368,
+   "role": "w2",
+   "weight": "layers.16.ffn.experts.368.w2.weight",
+   "scale": "layers.16.ffn.experts.368.w2.scale",
+   "weight_file": "model-00019-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L16.E368.w3": {
+   "matrix": "L16.E368.w3",
+   "prefix": "layers",
+   "layer": 16,
+   "expert": 368,
+   "role": "w3",
+   "weight": "layers.16.ffn.experts.368.w3.weight",
+   "scale": "layers.16.ffn.experts.368.w3.scale",
+   "weight_file": "model-00019-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L17.E251.w1": {
+   "matrix": "L17.E251.w1",
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 251,
+   "role": "w1",
+   "weight": "layers.17.ffn.experts.251.w1.weight",
+   "scale": "layers.17.ffn.experts.251.w1.scale",
+   "weight_file": "model-00020-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L17.E251.w2": {
+   "matrix": "L17.E251.w2",
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 251,
+   "role": "w2",
+   "weight": "layers.17.ffn.experts.251.w2.weight",
+   "scale": "layers.17.ffn.experts.251.w2.scale",
+   "weight_file": "model-00020-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L17.E251.w3": {
+   "matrix": "L17.E251.w3",
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 251,
+   "role": "w3",
+   "weight": "layers.17.ffn.experts.251.w3.weight",
+   "scale": "layers.17.ffn.experts.251.w3.scale",
+   "weight_file": "model-00020-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L17.E307.w1": {
+   "matrix": "L17.E307.w1",
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 307,
+   "role": "w1",
+   "weight": "layers.17.ffn.experts.307.w1.weight",
+   "scale": "layers.17.ffn.experts.307.w1.scale",
+   "weight_file": "model-00020-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L17.E307.w2": {
+   "matrix": "L17.E307.w2",
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 307,
+   "role": "w2",
+   "weight": "layers.17.ffn.experts.307.w2.weight",
+   "scale": "layers.17.ffn.experts.307.w2.scale",
+   "weight_file": "model-00020-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L17.E307.w3": {
+   "matrix": "L17.E307.w3",
+   "prefix": "layers",
+   "layer": 17,
+   "expert": 307,
+   "role": "w3",
+   "weight": "layers.17.ffn.experts.307.w3.weight",
+   "scale": "layers.17.ffn.experts.307.w3.scale",
+   "weight_file": "model-00020-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L18.E28.w1": {
+   "matrix": "L18.E28.w1",
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 28,
+   "role": "w1",
+   "weight": "layers.18.ffn.experts.28.w1.weight",
+   "scale": "layers.18.ffn.experts.28.w1.scale",
+   "weight_file": "model-00021-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L18.E28.w2": {
+   "matrix": "L18.E28.w2",
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 28,
+   "role": "w2",
+   "weight": "layers.18.ffn.experts.28.w2.weight",
+   "scale": "layers.18.ffn.experts.28.w2.scale",
+   "weight_file": "model-00021-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L18.E28.w3": {
+   "matrix": "L18.E28.w3",
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 28,
+   "role": "w3",
+   "weight": "layers.18.ffn.experts.28.w3.weight",
+   "scale": "layers.18.ffn.experts.28.w3.scale",
+   "weight_file": "model-00021-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L18.E303.w1": {
+   "matrix": "L18.E303.w1",
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 303,
+   "role": "w1",
+   "weight": "layers.18.ffn.experts.303.w1.weight",
+   "scale": "layers.18.ffn.experts.303.w1.scale",
+   "weight_file": "model-00021-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L18.E303.w2": {
+   "matrix": "L18.E303.w2",
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 303,
+   "role": "w2",
+   "weight": "layers.18.ffn.experts.303.w2.weight",
+   "scale": "layers.18.ffn.experts.303.w2.scale",
+   "weight_file": "model-00021-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L18.E303.w3": {
+   "matrix": "L18.E303.w3",
+   "prefix": "layers",
+   "layer": 18,
+   "expert": 303,
+   "role": "w3",
+   "weight": "layers.18.ffn.experts.303.w3.weight",
+   "scale": "layers.18.ffn.experts.303.w3.scale",
+   "weight_file": "model-00021-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L19.E12.w1": {
+   "matrix": "L19.E12.w1",
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 12,
+   "role": "w1",
+   "weight": "layers.19.ffn.experts.12.w1.weight",
+   "scale": "layers.19.ffn.experts.12.w1.scale",
+   "weight_file": "model-00022-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L19.E12.w2": {
+   "matrix": "L19.E12.w2",
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 12,
+   "role": "w2",
+   "weight": "layers.19.ffn.experts.12.w2.weight",
+   "scale": "layers.19.ffn.experts.12.w2.scale",
+   "weight_file": "model-00022-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L19.E12.w3": {
+   "matrix": "L19.E12.w3",
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 12,
+   "role": "w3",
+   "weight": "layers.19.ffn.experts.12.w3.weight",
+   "scale": "layers.19.ffn.experts.12.w3.scale",
+   "weight_file": "model-00022-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L19.E348.w1": {
+   "matrix": "L19.E348.w1",
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 348,
+   "role": "w1",
+   "weight": "layers.19.ffn.experts.348.w1.weight",
+   "scale": "layers.19.ffn.experts.348.w1.scale",
+   "weight_file": "model-00022-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L19.E348.w2": {
+   "matrix": "L19.E348.w2",
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 348,
+   "role": "w2",
+   "weight": "layers.19.ffn.experts.348.w2.weight",
+   "scale": "layers.19.ffn.experts.348.w2.scale",
+   "weight_file": "model-00022-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L19.E348.w3": {
+   "matrix": "L19.E348.w3",
+   "prefix": "layers",
+   "layer": 19,
+   "expert": 348,
+   "role": "w3",
+   "weight": "layers.19.ffn.experts.348.w3.weight",
+   "scale": "layers.19.ffn.experts.348.w3.scale",
+   "weight_file": "model-00022-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L20.E220.w1": {
+   "matrix": "L20.E220.w1",
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 220,
+   "role": "w1",
+   "weight": "layers.20.ffn.experts.220.w1.weight",
+   "scale": "layers.20.ffn.experts.220.w1.scale",
+   "weight_file": "model-00023-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L20.E220.w2": {
+   "matrix": "L20.E220.w2",
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 220,
+   "role": "w2",
+   "weight": "layers.20.ffn.experts.220.w2.weight",
+   "scale": "layers.20.ffn.experts.220.w2.scale",
+   "weight_file": "model-00023-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L20.E220.w3": {
+   "matrix": "L20.E220.w3",
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 220,
+   "role": "w3",
+   "weight": "layers.20.ffn.experts.220.w3.weight",
+   "scale": "layers.20.ffn.experts.220.w3.scale",
+   "weight_file": "model-00023-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L20.E298.w1": {
+   "matrix": "L20.E298.w1",
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 298,
+   "role": "w1",
+   "weight": "layers.20.ffn.experts.298.w1.weight",
+   "scale": "layers.20.ffn.experts.298.w1.scale",
+   "weight_file": "model-00023-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L20.E298.w2": {
+   "matrix": "L20.E298.w2",
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 298,
+   "role": "w2",
+   "weight": "layers.20.ffn.experts.298.w2.weight",
+   "scale": "layers.20.ffn.experts.298.w2.scale",
+   "weight_file": "model-00023-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L20.E298.w3": {
+   "matrix": "L20.E298.w3",
+   "prefix": "layers",
+   "layer": 20,
+   "expert": 298,
+   "role": "w3",
+   "weight": "layers.20.ffn.experts.298.w3.weight",
+   "scale": "layers.20.ffn.experts.298.w3.scale",
+   "weight_file": "model-00023-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L21.E88.w1": {
+   "matrix": "L21.E88.w1",
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 88,
+   "role": "w1",
+   "weight": "layers.21.ffn.experts.88.w1.weight",
+   "scale": "layers.21.ffn.experts.88.w1.scale",
+   "weight_file": "model-00024-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L21.E88.w2": {
+   "matrix": "L21.E88.w2",
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 88,
+   "role": "w2",
+   "weight": "layers.21.ffn.experts.88.w2.weight",
+   "scale": "layers.21.ffn.experts.88.w2.scale",
+   "weight_file": "model-00024-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L21.E88.w3": {
+   "matrix": "L21.E88.w3",
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 88,
+   "role": "w3",
+   "weight": "layers.21.ffn.experts.88.w3.weight",
+   "scale": "layers.21.ffn.experts.88.w3.scale",
+   "weight_file": "model-00024-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L21.E146.w1": {
+   "matrix": "L21.E146.w1",
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 146,
+   "role": "w1",
+   "weight": "layers.21.ffn.experts.146.w1.weight",
+   "scale": "layers.21.ffn.experts.146.w1.scale",
+   "weight_file": "model-00024-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L21.E146.w2": {
+   "matrix": "L21.E146.w2",
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 146,
+   "role": "w2",
+   "weight": "layers.21.ffn.experts.146.w2.weight",
+   "scale": "layers.21.ffn.experts.146.w2.scale",
+   "weight_file": "model-00024-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L21.E146.w3": {
+   "matrix": "L21.E146.w3",
+   "prefix": "layers",
+   "layer": 21,
+   "expert": 146,
+   "role": "w3",
+   "weight": "layers.21.ffn.experts.146.w3.weight",
+   "scale": "layers.21.ffn.experts.146.w3.scale",
+   "weight_file": "model-00024-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L22.E140.w1": {
+   "matrix": "L22.E140.w1",
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 140,
+   "role": "w1",
+   "weight": "layers.22.ffn.experts.140.w1.weight",
+   "scale": "layers.22.ffn.experts.140.w1.scale",
+   "weight_file": "model-00025-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L22.E140.w2": {
+   "matrix": "L22.E140.w2",
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 140,
+   "role": "w2",
+   "weight": "layers.22.ffn.experts.140.w2.weight",
+   "scale": "layers.22.ffn.experts.140.w2.scale",
+   "weight_file": "model-00025-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L22.E140.w3": {
+   "matrix": "L22.E140.w3",
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 140,
+   "role": "w3",
+   "weight": "layers.22.ffn.experts.140.w3.weight",
+   "scale": "layers.22.ffn.experts.140.w3.scale",
+   "weight_file": "model-00025-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L22.E377.w1": {
+   "matrix": "L22.E377.w1",
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 377,
+   "role": "w1",
+   "weight": "layers.22.ffn.experts.377.w1.weight",
+   "scale": "layers.22.ffn.experts.377.w1.scale",
+   "weight_file": "model-00025-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L22.E377.w2": {
+   "matrix": "L22.E377.w2",
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 377,
+   "role": "w2",
+   "weight": "layers.22.ffn.experts.377.w2.weight",
+   "scale": "layers.22.ffn.experts.377.w2.scale",
+   "weight_file": "model-00025-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L22.E377.w3": {
+   "matrix": "L22.E377.w3",
+   "prefix": "layers",
+   "layer": 22,
+   "expert": 377,
+   "role": "w3",
+   "weight": "layers.22.ffn.experts.377.w3.weight",
+   "scale": "layers.22.ffn.experts.377.w3.scale",
+   "weight_file": "model-00025-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L23.E45.w1": {
+   "matrix": "L23.E45.w1",
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 45,
+   "role": "w1",
+   "weight": "layers.23.ffn.experts.45.w1.weight",
+   "scale": "layers.23.ffn.experts.45.w1.scale",
+   "weight_file": "model-00026-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L23.E45.w2": {
+   "matrix": "L23.E45.w2",
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 45,
+   "role": "w2",
+   "weight": "layers.23.ffn.experts.45.w2.weight",
+   "scale": "layers.23.ffn.experts.45.w2.scale",
+   "weight_file": "model-00026-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L23.E45.w3": {
+   "matrix": "L23.E45.w3",
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 45,
+   "role": "w3",
+   "weight": "layers.23.ffn.experts.45.w3.weight",
+   "scale": "layers.23.ffn.experts.45.w3.scale",
+   "weight_file": "model-00026-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L23.E355.w1": {
+   "matrix": "L23.E355.w1",
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 355,
+   "role": "w1",
+   "weight": "layers.23.ffn.experts.355.w1.weight",
+   "scale": "layers.23.ffn.experts.355.w1.scale",
+   "weight_file": "model-00026-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L23.E355.w2": {
+   "matrix": "L23.E355.w2",
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 355,
+   "role": "w2",
+   "weight": "layers.23.ffn.experts.355.w2.weight",
+   "scale": "layers.23.ffn.experts.355.w2.scale",
+   "weight_file": "model-00026-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L23.E355.w3": {
+   "matrix": "L23.E355.w3",
+   "prefix": "layers",
+   "layer": 23,
+   "expert": 355,
+   "role": "w3",
+   "weight": "layers.23.ffn.experts.355.w3.weight",
+   "scale": "layers.23.ffn.experts.355.w3.scale",
+   "weight_file": "model-00026-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L24.E179.w1": {
+   "matrix": "L24.E179.w1",
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 179,
+   "role": "w1",
+   "weight": "layers.24.ffn.experts.179.w1.weight",
+   "scale": "layers.24.ffn.experts.179.w1.scale",
+   "weight_file": "model-00027-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L24.E179.w2": {
+   "matrix": "L24.E179.w2",
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 179,
+   "role": "w2",
+   "weight": "layers.24.ffn.experts.179.w2.weight",
+   "scale": "layers.24.ffn.experts.179.w2.scale",
+   "weight_file": "model-00027-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L24.E179.w3": {
+   "matrix": "L24.E179.w3",
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 179,
+   "role": "w3",
+   "weight": "layers.24.ffn.experts.179.w3.weight",
+   "scale": "layers.24.ffn.experts.179.w3.scale",
+   "weight_file": "model-00027-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L24.E329.w1": {
+   "matrix": "L24.E329.w1",
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 329,
+   "role": "w1",
+   "weight": "layers.24.ffn.experts.329.w1.weight",
+   "scale": "layers.24.ffn.experts.329.w1.scale",
+   "weight_file": "model-00027-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L24.E329.w2": {
+   "matrix": "L24.E329.w2",
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 329,
+   "role": "w2",
+   "weight": "layers.24.ffn.experts.329.w2.weight",
+   "scale": "layers.24.ffn.experts.329.w2.scale",
+   "weight_file": "model-00027-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L24.E329.w3": {
+   "matrix": "L24.E329.w3",
+   "prefix": "layers",
+   "layer": 24,
+   "expert": 329,
+   "role": "w3",
+   "weight": "layers.24.ffn.experts.329.w3.weight",
+   "scale": "layers.24.ffn.experts.329.w3.scale",
+   "weight_file": "model-00027-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L25.E12.w1": {
+   "matrix": "L25.E12.w1",
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 12,
+   "role": "w1",
+   "weight": "layers.25.ffn.experts.12.w1.weight",
+   "scale": "layers.25.ffn.experts.12.w1.scale",
+   "weight_file": "model-00028-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L25.E12.w2": {
+   "matrix": "L25.E12.w2",
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 12,
+   "role": "w2",
+   "weight": "layers.25.ffn.experts.12.w2.weight",
+   "scale": "layers.25.ffn.experts.12.w2.scale",
+   "weight_file": "model-00028-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L25.E12.w3": {
+   "matrix": "L25.E12.w3",
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 12,
+   "role": "w3",
+   "weight": "layers.25.ffn.experts.12.w3.weight",
+   "scale": "layers.25.ffn.experts.12.w3.scale",
+   "weight_file": "model-00028-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L25.E348.w1": {
+   "matrix": "L25.E348.w1",
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 348,
+   "role": "w1",
+   "weight": "layers.25.ffn.experts.348.w1.weight",
+   "scale": "layers.25.ffn.experts.348.w1.scale",
+   "weight_file": "model-00028-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L25.E348.w2": {
+   "matrix": "L25.E348.w2",
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 348,
+   "role": "w2",
+   "weight": "layers.25.ffn.experts.348.w2.weight",
+   "scale": "layers.25.ffn.experts.348.w2.scale",
+   "weight_file": "model-00028-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L25.E348.w3": {
+   "matrix": "L25.E348.w3",
+   "prefix": "layers",
+   "layer": 25,
+   "expert": 348,
+   "role": "w3",
+   "weight": "layers.25.ffn.experts.348.w3.weight",
+   "scale": "layers.25.ffn.experts.348.w3.scale",
+   "weight_file": "model-00028-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E14.w1": {
+   "matrix": "L26.E14.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 14,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.14.w1.weight",
+   "scale": "layers.26.ffn.experts.14.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E14.w2": {
+   "matrix": "L26.E14.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 14,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.14.w2.weight",
+   "scale": "layers.26.ffn.experts.14.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E14.w3": {
+   "matrix": "L26.E14.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 14,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.14.w3.weight",
+   "scale": "layers.26.ffn.experts.14.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E350.w1": {
+   "matrix": "L26.E350.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 350,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.350.w1.weight",
+   "scale": "layers.26.ffn.experts.350.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E350.w2": {
+   "matrix": "L26.E350.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 350,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.350.w2.weight",
+   "scale": "layers.26.ffn.experts.350.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E350.w3": {
+   "matrix": "L26.E350.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 350,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.350.w3.weight",
+   "scale": "layers.26.ffn.experts.350.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L27.E165.w1": {
+   "matrix": "L27.E165.w1",
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 165,
+   "role": "w1",
+   "weight": "layers.27.ffn.experts.165.w1.weight",
+   "scale": "layers.27.ffn.experts.165.w1.scale",
+   "weight_file": "model-00030-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L27.E165.w2": {
+   "matrix": "L27.E165.w2",
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 165,
+   "role": "w2",
+   "weight": "layers.27.ffn.experts.165.w2.weight",
+   "scale": "layers.27.ffn.experts.165.w2.scale",
+   "weight_file": "model-00030-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L27.E165.w3": {
+   "matrix": "L27.E165.w3",
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 165,
+   "role": "w3",
+   "weight": "layers.27.ffn.experts.165.w3.weight",
+   "scale": "layers.27.ffn.experts.165.w3.scale",
+   "weight_file": "model-00030-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L27.E306.w1": {
+   "matrix": "L27.E306.w1",
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 306,
+   "role": "w1",
+   "weight": "layers.27.ffn.experts.306.w1.weight",
+   "scale": "layers.27.ffn.experts.306.w1.scale",
+   "weight_file": "model-00030-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L27.E306.w2": {
+   "matrix": "L27.E306.w2",
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 306,
+   "role": "w2",
+   "weight": "layers.27.ffn.experts.306.w2.weight",
+   "scale": "layers.27.ffn.experts.306.w2.scale",
+   "weight_file": "model-00030-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L27.E306.w3": {
+   "matrix": "L27.E306.w3",
+   "prefix": "layers",
+   "layer": 27,
+   "expert": 306,
+   "role": "w3",
+   "weight": "layers.27.ffn.experts.306.w3.weight",
+   "scale": "layers.27.ffn.experts.306.w3.scale",
+   "weight_file": "model-00030-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L28.E362.w1": {
+   "matrix": "L28.E362.w1",
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 362,
+   "role": "w1",
+   "weight": "layers.28.ffn.experts.362.w1.weight",
+   "scale": "layers.28.ffn.experts.362.w1.scale",
+   "weight_file": "model-00031-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L28.E362.w2": {
+   "matrix": "L28.E362.w2",
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 362,
+   "role": "w2",
+   "weight": "layers.28.ffn.experts.362.w2.weight",
+   "scale": "layers.28.ffn.experts.362.w2.scale",
+   "weight_file": "model-00031-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L28.E362.w3": {
+   "matrix": "L28.E362.w3",
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 362,
+   "role": "w3",
+   "weight": "layers.28.ffn.experts.362.w3.weight",
+   "scale": "layers.28.ffn.experts.362.w3.scale",
+   "weight_file": "model-00031-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L28.E374.w1": {
+   "matrix": "L28.E374.w1",
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 374,
+   "role": "w1",
+   "weight": "layers.28.ffn.experts.374.w1.weight",
+   "scale": "layers.28.ffn.experts.374.w1.scale",
+   "weight_file": "model-00031-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L28.E374.w2": {
+   "matrix": "L28.E374.w2",
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 374,
+   "role": "w2",
+   "weight": "layers.28.ffn.experts.374.w2.weight",
+   "scale": "layers.28.ffn.experts.374.w2.scale",
+   "weight_file": "model-00031-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L28.E374.w3": {
+   "matrix": "L28.E374.w3",
+   "prefix": "layers",
+   "layer": 28,
+   "expert": 374,
+   "role": "w3",
+   "weight": "layers.28.ffn.experts.374.w3.weight",
+   "scale": "layers.28.ffn.experts.374.w3.scale",
+   "weight_file": "model-00031-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L29.E52.w1": {
+   "matrix": "L29.E52.w1",
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 52,
+   "role": "w1",
+   "weight": "layers.29.ffn.experts.52.w1.weight",
+   "scale": "layers.29.ffn.experts.52.w1.scale",
+   "weight_file": "model-00032-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L29.E52.w2": {
+   "matrix": "L29.E52.w2",
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 52,
+   "role": "w2",
+   "weight": "layers.29.ffn.experts.52.w2.weight",
+   "scale": "layers.29.ffn.experts.52.w2.scale",
+   "weight_file": "model-00032-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L29.E52.w3": {
+   "matrix": "L29.E52.w3",
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 52,
+   "role": "w3",
+   "weight": "layers.29.ffn.experts.52.w3.weight",
+   "scale": "layers.29.ffn.experts.52.w3.scale",
+   "weight_file": "model-00032-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L29.E57.w1": {
+   "matrix": "L29.E57.w1",
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 57,
+   "role": "w1",
+   "weight": "layers.29.ffn.experts.57.w1.weight",
+   "scale": "layers.29.ffn.experts.57.w1.scale",
+   "weight_file": "model-00032-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L29.E57.w2": {
+   "matrix": "L29.E57.w2",
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 57,
+   "role": "w2",
+   "weight": "layers.29.ffn.experts.57.w2.weight",
+   "scale": "layers.29.ffn.experts.57.w2.scale",
+   "weight_file": "model-00032-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L29.E57.w3": {
+   "matrix": "L29.E57.w3",
+   "prefix": "layers",
+   "layer": 29,
+   "expert": 57,
+   "role": "w3",
+   "weight": "layers.29.ffn.experts.57.w3.weight",
+   "scale": "layers.29.ffn.experts.57.w3.scale",
+   "weight_file": "model-00032-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L30.E276.w1": {
+   "matrix": "L30.E276.w1",
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 276,
+   "role": "w1",
+   "weight": "layers.30.ffn.experts.276.w1.weight",
+   "scale": "layers.30.ffn.experts.276.w1.scale",
+   "weight_file": "model-00033-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L30.E276.w2": {
+   "matrix": "L30.E276.w2",
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 276,
+   "role": "w2",
+   "weight": "layers.30.ffn.experts.276.w2.weight",
+   "scale": "layers.30.ffn.experts.276.w2.scale",
+   "weight_file": "model-00033-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L30.E276.w3": {
+   "matrix": "L30.E276.w3",
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 276,
+   "role": "w3",
+   "weight": "layers.30.ffn.experts.276.w3.weight",
+   "scale": "layers.30.ffn.experts.276.w3.scale",
+   "weight_file": "model-00033-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L30.E360.w1": {
+   "matrix": "L30.E360.w1",
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 360,
+   "role": "w1",
+   "weight": "layers.30.ffn.experts.360.w1.weight",
+   "scale": "layers.30.ffn.experts.360.w1.scale",
+   "weight_file": "model-00033-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L30.E360.w2": {
+   "matrix": "L30.E360.w2",
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 360,
+   "role": "w2",
+   "weight": "layers.30.ffn.experts.360.w2.weight",
+   "scale": "layers.30.ffn.experts.360.w2.scale",
+   "weight_file": "model-00033-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L30.E360.w3": {
+   "matrix": "L30.E360.w3",
+   "prefix": "layers",
+   "layer": 30,
+   "expert": 360,
+   "role": "w3",
+   "weight": "layers.30.ffn.experts.360.w3.weight",
+   "scale": "layers.30.ffn.experts.360.w3.scale",
+   "weight_file": "model-00033-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L31.E31.w1": {
+   "matrix": "L31.E31.w1",
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 31,
+   "role": "w1",
+   "weight": "layers.31.ffn.experts.31.w1.weight",
+   "scale": "layers.31.ffn.experts.31.w1.scale",
+   "weight_file": "model-00034-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L31.E31.w2": {
+   "matrix": "L31.E31.w2",
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 31,
+   "role": "w2",
+   "weight": "layers.31.ffn.experts.31.w2.weight",
+   "scale": "layers.31.ffn.experts.31.w2.scale",
+   "weight_file": "model-00034-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L31.E31.w3": {
+   "matrix": "L31.E31.w3",
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 31,
+   "role": "w3",
+   "weight": "layers.31.ffn.experts.31.w3.weight",
+   "scale": "layers.31.ffn.experts.31.w3.scale",
+   "weight_file": "model-00034-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L31.E361.w1": {
+   "matrix": "L31.E361.w1",
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 361,
+   "role": "w1",
+   "weight": "layers.31.ffn.experts.361.w1.weight",
+   "scale": "layers.31.ffn.experts.361.w1.scale",
+   "weight_file": "model-00034-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L31.E361.w2": {
+   "matrix": "L31.E361.w2",
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 361,
+   "role": "w2",
+   "weight": "layers.31.ffn.experts.361.w2.weight",
+   "scale": "layers.31.ffn.experts.361.w2.scale",
+   "weight_file": "model-00034-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L31.E361.w3": {
+   "matrix": "L31.E361.w3",
+   "prefix": "layers",
+   "layer": 31,
+   "expert": 361,
+   "role": "w3",
+   "weight": "layers.31.ffn.experts.361.w3.weight",
+   "scale": "layers.31.ffn.experts.361.w3.scale",
+   "weight_file": "model-00034-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L32.E210.w1": {
+   "matrix": "L32.E210.w1",
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 210,
+   "role": "w1",
+   "weight": "layers.32.ffn.experts.210.w1.weight",
+   "scale": "layers.32.ffn.experts.210.w1.scale",
+   "weight_file": "model-00035-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L32.E210.w2": {
+   "matrix": "L32.E210.w2",
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 210,
+   "role": "w2",
+   "weight": "layers.32.ffn.experts.210.w2.weight",
+   "scale": "layers.32.ffn.experts.210.w2.scale",
+   "weight_file": "model-00035-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L32.E210.w3": {
+   "matrix": "L32.E210.w3",
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 210,
+   "role": "w3",
+   "weight": "layers.32.ffn.experts.210.w3.weight",
+   "scale": "layers.32.ffn.experts.210.w3.scale",
+   "weight_file": "model-00035-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L32.E320.w1": {
+   "matrix": "L32.E320.w1",
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 320,
+   "role": "w1",
+   "weight": "layers.32.ffn.experts.320.w1.weight",
+   "scale": "layers.32.ffn.experts.320.w1.scale",
+   "weight_file": "model-00035-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L32.E320.w2": {
+   "matrix": "L32.E320.w2",
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 320,
+   "role": "w2",
+   "weight": "layers.32.ffn.experts.320.w2.weight",
+   "scale": "layers.32.ffn.experts.320.w2.scale",
+   "weight_file": "model-00035-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L32.E320.w3": {
+   "matrix": "L32.E320.w3",
+   "prefix": "layers",
+   "layer": 32,
+   "expert": 320,
+   "role": "w3",
+   "weight": "layers.32.ffn.experts.320.w3.weight",
+   "scale": "layers.32.ffn.experts.320.w3.scale",
+   "weight_file": "model-00035-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L33.E59.w1": {
+   "matrix": "L33.E59.w1",
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 59,
+   "role": "w1",
+   "weight": "layers.33.ffn.experts.59.w1.weight",
+   "scale": "layers.33.ffn.experts.59.w1.scale",
+   "weight_file": "model-00036-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L33.E59.w2": {
+   "matrix": "L33.E59.w2",
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 59,
+   "role": "w2",
+   "weight": "layers.33.ffn.experts.59.w2.weight",
+   "scale": "layers.33.ffn.experts.59.w2.scale",
+   "weight_file": "model-00036-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L33.E59.w3": {
+   "matrix": "L33.E59.w3",
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 59,
+   "role": "w3",
+   "weight": "layers.33.ffn.experts.59.w3.weight",
+   "scale": "layers.33.ffn.experts.59.w3.scale",
+   "weight_file": "model-00036-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L33.E108.w1": {
+   "matrix": "L33.E108.w1",
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 108,
+   "role": "w1",
+   "weight": "layers.33.ffn.experts.108.w1.weight",
+   "scale": "layers.33.ffn.experts.108.w1.scale",
+   "weight_file": "model-00036-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L33.E108.w2": {
+   "matrix": "L33.E108.w2",
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 108,
+   "role": "w2",
+   "weight": "layers.33.ffn.experts.108.w2.weight",
+   "scale": "layers.33.ffn.experts.108.w2.scale",
+   "weight_file": "model-00036-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L33.E108.w3": {
+   "matrix": "L33.E108.w3",
+   "prefix": "layers",
+   "layer": 33,
+   "expert": 108,
+   "role": "w3",
+   "weight": "layers.33.ffn.experts.108.w3.weight",
+   "scale": "layers.33.ffn.experts.108.w3.scale",
+   "weight_file": "model-00036-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L34.E244.w1": {
+   "matrix": "L34.E244.w1",
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 244,
+   "role": "w1",
+   "weight": "layers.34.ffn.experts.244.w1.weight",
+   "scale": "layers.34.ffn.experts.244.w1.scale",
+   "weight_file": "model-00037-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L34.E244.w2": {
+   "matrix": "L34.E244.w2",
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 244,
+   "role": "w2",
+   "weight": "layers.34.ffn.experts.244.w2.weight",
+   "scale": "layers.34.ffn.experts.244.w2.scale",
+   "weight_file": "model-00037-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L34.E244.w3": {
+   "matrix": "L34.E244.w3",
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 244,
+   "role": "w3",
+   "weight": "layers.34.ffn.experts.244.w3.weight",
+   "scale": "layers.34.ffn.experts.244.w3.scale",
+   "weight_file": "model-00037-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L34.E252.w1": {
+   "matrix": "L34.E252.w1",
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 252,
+   "role": "w1",
+   "weight": "layers.34.ffn.experts.252.w1.weight",
+   "scale": "layers.34.ffn.experts.252.w1.scale",
+   "weight_file": "model-00037-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L34.E252.w2": {
+   "matrix": "L34.E252.w2",
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 252,
+   "role": "w2",
+   "weight": "layers.34.ffn.experts.252.w2.weight",
+   "scale": "layers.34.ffn.experts.252.w2.scale",
+   "weight_file": "model-00037-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L34.E252.w3": {
+   "matrix": "L34.E252.w3",
+   "prefix": "layers",
+   "layer": 34,
+   "expert": 252,
+   "role": "w3",
+   "weight": "layers.34.ffn.experts.252.w3.weight",
+   "scale": "layers.34.ffn.experts.252.w3.scale",
+   "weight_file": "model-00037-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L35.E70.w1": {
+   "matrix": "L35.E70.w1",
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 70,
+   "role": "w1",
+   "weight": "layers.35.ffn.experts.70.w1.weight",
+   "scale": "layers.35.ffn.experts.70.w1.scale",
+   "weight_file": "model-00038-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L35.E70.w2": {
+   "matrix": "L35.E70.w2",
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 70,
+   "role": "w2",
+   "weight": "layers.35.ffn.experts.70.w2.weight",
+   "scale": "layers.35.ffn.experts.70.w2.scale",
+   "weight_file": "model-00038-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L35.E70.w3": {
+   "matrix": "L35.E70.w3",
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 70,
+   "role": "w3",
+   "weight": "layers.35.ffn.experts.70.w3.weight",
+   "scale": "layers.35.ffn.experts.70.w3.scale",
+   "weight_file": "model-00038-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L35.E211.w1": {
+   "matrix": "L35.E211.w1",
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 211,
+   "role": "w1",
+   "weight": "layers.35.ffn.experts.211.w1.weight",
+   "scale": "layers.35.ffn.experts.211.w1.scale",
+   "weight_file": "model-00038-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L35.E211.w2": {
+   "matrix": "L35.E211.w2",
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 211,
+   "role": "w2",
+   "weight": "layers.35.ffn.experts.211.w2.weight",
+   "scale": "layers.35.ffn.experts.211.w2.scale",
+   "weight_file": "model-00038-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L35.E211.w3": {
+   "matrix": "L35.E211.w3",
+   "prefix": "layers",
+   "layer": 35,
+   "expert": 211,
+   "role": "w3",
+   "weight": "layers.35.ffn.experts.211.w3.weight",
+   "scale": "layers.35.ffn.experts.211.w3.scale",
+   "weight_file": "model-00038-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L36.E18.w1": {
+   "matrix": "L36.E18.w1",
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 18,
+   "role": "w1",
+   "weight": "layers.36.ffn.experts.18.w1.weight",
+   "scale": "layers.36.ffn.experts.18.w1.scale",
+   "weight_file": "model-00039-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L36.E18.w2": {
+   "matrix": "L36.E18.w2",
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 18,
+   "role": "w2",
+   "weight": "layers.36.ffn.experts.18.w2.weight",
+   "scale": "layers.36.ffn.experts.18.w2.scale",
+   "weight_file": "model-00039-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L36.E18.w3": {
+   "matrix": "L36.E18.w3",
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 18,
+   "role": "w3",
+   "weight": "layers.36.ffn.experts.18.w3.weight",
+   "scale": "layers.36.ffn.experts.18.w3.scale",
+   "weight_file": "model-00039-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L36.E203.w1": {
+   "matrix": "L36.E203.w1",
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 203,
+   "role": "w1",
+   "weight": "layers.36.ffn.experts.203.w1.weight",
+   "scale": "layers.36.ffn.experts.203.w1.scale",
+   "weight_file": "model-00039-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L36.E203.w2": {
+   "matrix": "L36.E203.w2",
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 203,
+   "role": "w2",
+   "weight": "layers.36.ffn.experts.203.w2.weight",
+   "scale": "layers.36.ffn.experts.203.w2.scale",
+   "weight_file": "model-00039-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L36.E203.w3": {
+   "matrix": "L36.E203.w3",
+   "prefix": "layers",
+   "layer": 36,
+   "expert": 203,
+   "role": "w3",
+   "weight": "layers.36.ffn.experts.203.w3.weight",
+   "scale": "layers.36.ffn.experts.203.w3.scale",
+   "weight_file": "model-00039-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L37.E221.w1": {
+   "matrix": "L37.E221.w1",
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 221,
+   "role": "w1",
+   "weight": "layers.37.ffn.experts.221.w1.weight",
+   "scale": "layers.37.ffn.experts.221.w1.scale",
+   "weight_file": "model-00040-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L37.E221.w2": {
+   "matrix": "L37.E221.w2",
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 221,
+   "role": "w2",
+   "weight": "layers.37.ffn.experts.221.w2.weight",
+   "scale": "layers.37.ffn.experts.221.w2.scale",
+   "weight_file": "model-00040-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L37.E221.w3": {
+   "matrix": "L37.E221.w3",
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 221,
+   "role": "w3",
+   "weight": "layers.37.ffn.experts.221.w3.weight",
+   "scale": "layers.37.ffn.experts.221.w3.scale",
+   "weight_file": "model-00040-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L37.E271.w1": {
+   "matrix": "L37.E271.w1",
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 271,
+   "role": "w1",
+   "weight": "layers.37.ffn.experts.271.w1.weight",
+   "scale": "layers.37.ffn.experts.271.w1.scale",
+   "weight_file": "model-00040-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L37.E271.w2": {
+   "matrix": "L37.E271.w2",
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 271,
+   "role": "w2",
+   "weight": "layers.37.ffn.experts.271.w2.weight",
+   "scale": "layers.37.ffn.experts.271.w2.scale",
+   "weight_file": "model-00040-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L37.E271.w3": {
+   "matrix": "L37.E271.w3",
+   "prefix": "layers",
+   "layer": 37,
+   "expert": 271,
+   "role": "w3",
+   "weight": "layers.37.ffn.experts.271.w3.weight",
+   "scale": "layers.37.ffn.experts.271.w3.scale",
+   "weight_file": "model-00040-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L38.E141.w1": {
+   "matrix": "L38.E141.w1",
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 141,
+   "role": "w1",
+   "weight": "layers.38.ffn.experts.141.w1.weight",
+   "scale": "layers.38.ffn.experts.141.w1.scale",
+   "weight_file": "model-00041-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L38.E141.w2": {
+   "matrix": "L38.E141.w2",
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 141,
+   "role": "w2",
+   "weight": "layers.38.ffn.experts.141.w2.weight",
+   "scale": "layers.38.ffn.experts.141.w2.scale",
+   "weight_file": "model-00041-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L38.E141.w3": {
+   "matrix": "L38.E141.w3",
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 141,
+   "role": "w3",
+   "weight": "layers.38.ffn.experts.141.w3.weight",
+   "scale": "layers.38.ffn.experts.141.w3.scale",
+   "weight_file": "model-00041-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L38.E184.w1": {
+   "matrix": "L38.E184.w1",
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 184,
+   "role": "w1",
+   "weight": "layers.38.ffn.experts.184.w1.weight",
+   "scale": "layers.38.ffn.experts.184.w1.scale",
+   "weight_file": "model-00041-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L38.E184.w2": {
+   "matrix": "L38.E184.w2",
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 184,
+   "role": "w2",
+   "weight": "layers.38.ffn.experts.184.w2.weight",
+   "scale": "layers.38.ffn.experts.184.w2.scale",
+   "weight_file": "model-00041-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L38.E184.w3": {
+   "matrix": "L38.E184.w3",
+   "prefix": "layers",
+   "layer": 38,
+   "expert": 184,
+   "role": "w3",
+   "weight": "layers.38.ffn.experts.184.w3.weight",
+   "scale": "layers.38.ffn.experts.184.w3.scale",
+   "weight_file": "model-00041-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E26.w1": {
+   "matrix": "L39.E26.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 26,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.26.w1.weight",
+   "scale": "layers.39.ffn.experts.26.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E26.w2": {
+   "matrix": "L39.E26.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 26,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.26.w2.weight",
+   "scale": "layers.39.ffn.experts.26.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E26.w3": {
+   "matrix": "L39.E26.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 26,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.26.w3.weight",
+   "scale": "layers.39.ffn.experts.26.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E176.w1": {
+   "matrix": "L39.E176.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 176,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.176.w1.weight",
+   "scale": "layers.39.ffn.experts.176.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E176.w2": {
+   "matrix": "L39.E176.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 176,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.176.w2.weight",
+   "scale": "layers.39.ffn.experts.176.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E176.w3": {
+   "matrix": "L39.E176.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 176,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.176.w3.weight",
+   "scale": "layers.39.ffn.experts.176.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP0.E32.w1": {
+   "matrix": "MTP0.E32.w1",
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 32,
+   "role": "w1",
+   "weight": "mtp.0.ffn.experts.32.w1.weight",
+   "scale": "mtp.0.ffn.experts.32.w1.scale",
+   "weight_file": "model-00044-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP0.E32.w2": {
+   "matrix": "MTP0.E32.w2",
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 32,
+   "role": "w2",
+   "weight": "mtp.0.ffn.experts.32.w2.weight",
+   "scale": "mtp.0.ffn.experts.32.w2.scale",
+   "weight_file": "model-00044-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "MTP0.E32.w3": {
+   "matrix": "MTP0.E32.w3",
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 32,
+   "role": "w3",
+   "weight": "mtp.0.ffn.experts.32.w3.weight",
+   "scale": "mtp.0.ffn.experts.32.w3.scale",
+   "weight_file": "model-00044-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP0.E62.w1": {
+   "matrix": "MTP0.E62.w1",
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 62,
+   "role": "w1",
+   "weight": "mtp.0.ffn.experts.62.w1.weight",
+   "scale": "mtp.0.ffn.experts.62.w1.scale",
+   "weight_file": "model-00044-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP0.E62.w2": {
+   "matrix": "MTP0.E62.w2",
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 62,
+   "role": "w2",
+   "weight": "mtp.0.ffn.experts.62.w2.weight",
+   "scale": "mtp.0.ffn.experts.62.w2.scale",
+   "weight_file": "model-00044-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "MTP0.E62.w3": {
+   "matrix": "MTP0.E62.w3",
+   "prefix": "mtp",
+   "layer": 0,
+   "expert": 62,
+   "role": "w3",
+   "weight": "mtp.0.ffn.experts.62.w3.weight",
+   "scale": "mtp.0.ffn.experts.62.w3.scale",
+   "weight_file": "model-00044-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP1.E42.w1": {
+   "matrix": "MTP1.E42.w1",
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 42,
+   "role": "w1",
+   "weight": "mtp.1.ffn.experts.42.w1.weight",
+   "scale": "mtp.1.ffn.experts.42.w1.scale",
+   "weight_file": "model-00045-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP1.E42.w2": {
+   "matrix": "MTP1.E42.w2",
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 42,
+   "role": "w2",
+   "weight": "mtp.1.ffn.experts.42.w2.weight",
+   "scale": "mtp.1.ffn.experts.42.w2.scale",
+   "weight_file": "model-00045-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "MTP1.E42.w3": {
+   "matrix": "MTP1.E42.w3",
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 42,
+   "role": "w3",
+   "weight": "mtp.1.ffn.experts.42.w3.weight",
+   "scale": "mtp.1.ffn.experts.42.w3.scale",
+   "weight_file": "model-00045-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP1.E96.w1": {
+   "matrix": "MTP1.E96.w1",
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 96,
+   "role": "w1",
+   "weight": "mtp.1.ffn.experts.96.w1.weight",
+   "scale": "mtp.1.ffn.experts.96.w1.scale",
+   "weight_file": "model-00045-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP1.E96.w2": {
+   "matrix": "MTP1.E96.w2",
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 96,
+   "role": "w2",
+   "weight": "mtp.1.ffn.experts.96.w2.weight",
+   "scale": "mtp.1.ffn.experts.96.w2.scale",
+   "weight_file": "model-00045-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "MTP1.E96.w3": {
+   "matrix": "MTP1.E96.w3",
+   "prefix": "mtp",
+   "layer": 1,
+   "expert": 96,
+   "role": "w3",
+   "weight": "mtp.1.ffn.experts.96.w3.weight",
+   "scale": "mtp.1.ffn.experts.96.w3.scale",
+   "weight_file": "model-00045-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP2.E78.w1": {
+   "matrix": "MTP2.E78.w1",
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 78,
+   "role": "w1",
+   "weight": "mtp.2.ffn.experts.78.w1.weight",
+   "scale": "mtp.2.ffn.experts.78.w1.scale",
+   "weight_file": "model-00046-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP2.E78.w2": {
+   "matrix": "MTP2.E78.w2",
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 78,
+   "role": "w2",
+   "weight": "mtp.2.ffn.experts.78.w2.weight",
+   "scale": "mtp.2.ffn.experts.78.w2.scale",
+   "weight_file": "model-00046-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "MTP2.E78.w3": {
+   "matrix": "MTP2.E78.w3",
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 78,
+   "role": "w3",
+   "weight": "mtp.2.ffn.experts.78.w3.weight",
+   "scale": "mtp.2.ffn.experts.78.w3.scale",
+   "weight_file": "model-00046-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP2.E89.w1": {
+   "matrix": "MTP2.E89.w1",
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 89,
+   "role": "w1",
+   "weight": "mtp.2.ffn.experts.89.w1.weight",
+   "scale": "mtp.2.ffn.experts.89.w1.scale",
+   "weight_file": "model-00046-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "MTP2.E89.w2": {
+   "matrix": "MTP2.E89.w2",
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 89,
+   "role": "w2",
+   "weight": "mtp.2.ffn.experts.89.w2.weight",
+   "scale": "mtp.2.ffn.experts.89.w2.scale",
+   "weight_file": "model-00046-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "MTP2.E89.w3": {
+   "matrix": "MTP2.E89.w3",
+   "prefix": "mtp",
+   "layer": 2,
+   "expert": 89,
+   "role": "w3",
+   "weight": "mtp.2.ffn.experts.89.w3.weight",
+   "scale": "mtp.2.ffn.experts.89.w3.scale",
+   "weight_file": "model-00046-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E164.w1": {
+   "matrix": "L0.E164.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 164,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.164.w1.weight",
+   "scale": "layers.0.ffn.experts.164.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E164.w2": {
+   "matrix": "L0.E164.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 164,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.164.w2.weight",
+   "scale": "layers.0.ffn.experts.164.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E164.w3": {
+   "matrix": "L0.E164.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 164,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.164.w3.weight",
+   "scale": "layers.0.ffn.experts.164.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E49.w1": {
+   "matrix": "L13.E49.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 49,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.49.w1.weight",
+   "scale": "layers.13.ffn.experts.49.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E49.w2": {
+   "matrix": "L13.E49.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 49,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.49.w2.weight",
+   "scale": "layers.13.ffn.experts.49.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E49.w3": {
+   "matrix": "L13.E49.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 49,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.49.w3.weight",
+   "scale": "layers.13.ffn.experts.49.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E12.w1": {
+   "matrix": "L26.E12.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 12,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.12.w1.weight",
+   "scale": "layers.26.ffn.experts.12.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E12.w2": {
+   "matrix": "L26.E12.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 12,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.12.w2.weight",
+   "scale": "layers.26.ffn.experts.12.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E12.w3": {
+   "matrix": "L26.E12.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 12,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.12.w3.weight",
+   "scale": "layers.26.ffn.experts.12.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E61.w1": {
+   "matrix": "L39.E61.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 61,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.61.w1.weight",
+   "scale": "layers.39.ffn.experts.61.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E61.w2": {
+   "matrix": "L39.E61.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 61,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.61.w2.weight",
+   "scale": "layers.39.ffn.experts.61.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E61.w3": {
+   "matrix": "L39.E61.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 61,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.61.w3.weight",
+   "scale": "layers.39.ffn.experts.61.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E334.w1": {
+   "matrix": "L0.E334.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 334,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.334.w1.weight",
+   "scale": "layers.0.ffn.experts.334.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E334.w2": {
+   "matrix": "L0.E334.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 334,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.334.w2.weight",
+   "scale": "layers.0.ffn.experts.334.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E334.w3": {
+   "matrix": "L0.E334.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 334,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.334.w3.weight",
+   "scale": "layers.0.ffn.experts.334.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E375.w1": {
+   "matrix": "L0.E375.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 375,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.375.w1.weight",
+   "scale": "layers.0.ffn.experts.375.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E375.w2": {
+   "matrix": "L0.E375.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 375,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.375.w2.weight",
+   "scale": "layers.0.ffn.experts.375.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E375.w3": {
+   "matrix": "L0.E375.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 375,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.375.w3.weight",
+   "scale": "layers.0.ffn.experts.375.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E135.w1": {
+   "matrix": "L13.E135.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 135,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.135.w1.weight",
+   "scale": "layers.13.ffn.experts.135.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E135.w2": {
+   "matrix": "L13.E135.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 135,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.135.w2.weight",
+   "scale": "layers.13.ffn.experts.135.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E135.w3": {
+   "matrix": "L13.E135.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 135,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.135.w3.weight",
+   "scale": "layers.13.ffn.experts.135.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E163.w1": {
+   "matrix": "L13.E163.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 163,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.163.w1.weight",
+   "scale": "layers.13.ffn.experts.163.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E163.w2": {
+   "matrix": "L13.E163.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 163,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.163.w2.weight",
+   "scale": "layers.13.ffn.experts.163.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E163.w3": {
+   "matrix": "L13.E163.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 163,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.163.w3.weight",
+   "scale": "layers.13.ffn.experts.163.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E347.w1": {
+   "matrix": "L26.E347.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 347,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.347.w1.weight",
+   "scale": "layers.26.ffn.experts.347.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E347.w2": {
+   "matrix": "L26.E347.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 347,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.347.w2.weight",
+   "scale": "layers.26.ffn.experts.347.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E347.w3": {
+   "matrix": "L26.E347.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 347,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.347.w3.weight",
+   "scale": "layers.26.ffn.experts.347.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E140.w1": {
+   "matrix": "L39.E140.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 140,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.140.w1.weight",
+   "scale": "layers.39.ffn.experts.140.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E140.w2": {
+   "matrix": "L39.E140.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 140,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.140.w2.weight",
+   "scale": "layers.39.ffn.experts.140.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E140.w3": {
+   "matrix": "L39.E140.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 140,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.140.w3.weight",
+   "scale": "layers.39.ffn.experts.140.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E183.w1": {
+   "matrix": "L39.E183.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 183,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.183.w1.weight",
+   "scale": "layers.39.ffn.experts.183.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E183.w2": {
+   "matrix": "L39.E183.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 183,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.183.w2.weight",
+   "scale": "layers.39.ffn.experts.183.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E183.w3": {
+   "matrix": "L39.E183.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 183,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.183.w3.weight",
+   "scale": "layers.39.ffn.experts.183.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E4.w1": {
+   "matrix": "L0.E4.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 4,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.4.w1.weight",
+   "scale": "layers.0.ffn.experts.4.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E4.w2": {
+   "matrix": "L0.E4.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 4,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.4.w2.weight",
+   "scale": "layers.0.ffn.experts.4.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E4.w3": {
+   "matrix": "L0.E4.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 4,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.4.w3.weight",
+   "scale": "layers.0.ffn.experts.4.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E63.w1": {
+   "matrix": "L0.E63.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 63,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.63.w1.weight",
+   "scale": "layers.0.ffn.experts.63.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E63.w2": {
+   "matrix": "L0.E63.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 63,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.63.w2.weight",
+   "scale": "layers.0.ffn.experts.63.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E63.w3": {
+   "matrix": "L0.E63.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 63,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.63.w3.weight",
+   "scale": "layers.0.ffn.experts.63.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E284.w1": {
+   "matrix": "L0.E284.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 284,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.284.w1.weight",
+   "scale": "layers.0.ffn.experts.284.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E284.w2": {
+   "matrix": "L0.E284.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 284,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.284.w2.weight",
+   "scale": "layers.0.ffn.experts.284.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E284.w3": {
+   "matrix": "L0.E284.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 284,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.284.w3.weight",
+   "scale": "layers.0.ffn.experts.284.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E355.w1": {
+   "matrix": "L0.E355.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 355,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.355.w1.weight",
+   "scale": "layers.0.ffn.experts.355.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E355.w2": {
+   "matrix": "L0.E355.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 355,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.355.w2.weight",
+   "scale": "layers.0.ffn.experts.355.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E355.w3": {
+   "matrix": "L0.E355.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 355,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.355.w3.weight",
+   "scale": "layers.0.ffn.experts.355.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E361.w1": {
+   "matrix": "L0.E361.w1",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 361,
+   "role": "w1",
+   "weight": "layers.0.ffn.experts.361.w1.weight",
+   "scale": "layers.0.ffn.experts.361.w1.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L0.E361.w2": {
+   "matrix": "L0.E361.w2",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 361,
+   "role": "w2",
+   "weight": "layers.0.ffn.experts.361.w2.weight",
+   "scale": "layers.0.ffn.experts.361.w2.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L0.E361.w3": {
+   "matrix": "L0.E361.w3",
+   "prefix": "layers",
+   "layer": 0,
+   "expert": 361,
+   "role": "w3",
+   "weight": "layers.0.ffn.experts.361.w3.weight",
+   "scale": "layers.0.ffn.experts.361.w3.scale",
+   "weight_file": "model-00003-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E61.w1": {
+   "matrix": "L13.E61.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 61,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.61.w1.weight",
+   "scale": "layers.13.ffn.experts.61.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E61.w2": {
+   "matrix": "L13.E61.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 61,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.61.w2.weight",
+   "scale": "layers.13.ffn.experts.61.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E61.w3": {
+   "matrix": "L13.E61.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 61,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.61.w3.weight",
+   "scale": "layers.13.ffn.experts.61.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E122.w1": {
+   "matrix": "L13.E122.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 122,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.122.w1.weight",
+   "scale": "layers.13.ffn.experts.122.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E122.w2": {
+   "matrix": "L13.E122.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 122,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.122.w2.weight",
+   "scale": "layers.13.ffn.experts.122.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E122.w3": {
+   "matrix": "L13.E122.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 122,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.122.w3.weight",
+   "scale": "layers.13.ffn.experts.122.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E141.w1": {
+   "matrix": "L13.E141.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 141,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.141.w1.weight",
+   "scale": "layers.13.ffn.experts.141.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E141.w2": {
+   "matrix": "L13.E141.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 141,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.141.w2.weight",
+   "scale": "layers.13.ffn.experts.141.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E141.w3": {
+   "matrix": "L13.E141.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 141,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.141.w3.weight",
+   "scale": "layers.13.ffn.experts.141.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E301.w1": {
+   "matrix": "L13.E301.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 301,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.301.w1.weight",
+   "scale": "layers.13.ffn.experts.301.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E301.w2": {
+   "matrix": "L13.E301.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 301,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.301.w2.weight",
+   "scale": "layers.13.ffn.experts.301.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E301.w3": {
+   "matrix": "L13.E301.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 301,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.301.w3.weight",
+   "scale": "layers.13.ffn.experts.301.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E306.w1": {
+   "matrix": "L13.E306.w1",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 306,
+   "role": "w1",
+   "weight": "layers.13.ffn.experts.306.w1.weight",
+   "scale": "layers.13.ffn.experts.306.w1.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L13.E306.w2": {
+   "matrix": "L13.E306.w2",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 306,
+   "role": "w2",
+   "weight": "layers.13.ffn.experts.306.w2.weight",
+   "scale": "layers.13.ffn.experts.306.w2.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L13.E306.w3": {
+   "matrix": "L13.E306.w3",
+   "prefix": "layers",
+   "layer": 13,
+   "expert": 306,
+   "role": "w3",
+   "weight": "layers.13.ffn.experts.306.w3.weight",
+   "scale": "layers.13.ffn.experts.306.w3.scale",
+   "weight_file": "model-00016-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E121.w1": {
+   "matrix": "L26.E121.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 121,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.121.w1.weight",
+   "scale": "layers.26.ffn.experts.121.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E121.w2": {
+   "matrix": "L26.E121.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 121,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.121.w2.weight",
+   "scale": "layers.26.ffn.experts.121.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E121.w3": {
+   "matrix": "L26.E121.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 121,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.121.w3.weight",
+   "scale": "layers.26.ffn.experts.121.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E163.w1": {
+   "matrix": "L26.E163.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 163,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.163.w1.weight",
+   "scale": "layers.26.ffn.experts.163.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E163.w2": {
+   "matrix": "L26.E163.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 163,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.163.w2.weight",
+   "scale": "layers.26.ffn.experts.163.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E163.w3": {
+   "matrix": "L26.E163.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 163,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.163.w3.weight",
+   "scale": "layers.26.ffn.experts.163.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E203.w1": {
+   "matrix": "L26.E203.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 203,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.203.w1.weight",
+   "scale": "layers.26.ffn.experts.203.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E203.w2": {
+   "matrix": "L26.E203.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 203,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.203.w2.weight",
+   "scale": "layers.26.ffn.experts.203.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E203.w3": {
+   "matrix": "L26.E203.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 203,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.203.w3.weight",
+   "scale": "layers.26.ffn.experts.203.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E242.w1": {
+   "matrix": "L26.E242.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 242,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.242.w1.weight",
+   "scale": "layers.26.ffn.experts.242.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E242.w2": {
+   "matrix": "L26.E242.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 242,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.242.w2.weight",
+   "scale": "layers.26.ffn.experts.242.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E242.w3": {
+   "matrix": "L26.E242.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 242,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.242.w3.weight",
+   "scale": "layers.26.ffn.experts.242.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E302.w1": {
+   "matrix": "L26.E302.w1",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 302,
+   "role": "w1",
+   "weight": "layers.26.ffn.experts.302.w1.weight",
+   "scale": "layers.26.ffn.experts.302.w1.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L26.E302.w2": {
+   "matrix": "L26.E302.w2",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 302,
+   "role": "w2",
+   "weight": "layers.26.ffn.experts.302.w2.weight",
+   "scale": "layers.26.ffn.experts.302.w2.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L26.E302.w3": {
+   "matrix": "L26.E302.w3",
+   "prefix": "layers",
+   "layer": 26,
+   "expert": 302,
+   "role": "w3",
+   "weight": "layers.26.ffn.experts.302.w3.weight",
+   "scale": "layers.26.ffn.experts.302.w3.scale",
+   "weight_file": "model-00029-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E50.w1": {
+   "matrix": "L39.E50.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 50,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.50.w1.weight",
+   "scale": "layers.39.ffn.experts.50.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E50.w2": {
+   "matrix": "L39.E50.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 50,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.50.w2.weight",
+   "scale": "layers.39.ffn.experts.50.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E50.w3": {
+   "matrix": "L39.E50.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 50,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.50.w3.weight",
+   "scale": "layers.39.ffn.experts.50.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E68.w1": {
+   "matrix": "L39.E68.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 68,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.68.w1.weight",
+   "scale": "layers.39.ffn.experts.68.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E68.w2": {
+   "matrix": "L39.E68.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 68,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.68.w2.weight",
+   "scale": "layers.39.ffn.experts.68.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E68.w3": {
+   "matrix": "L39.E68.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 68,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.68.w3.weight",
+   "scale": "layers.39.ffn.experts.68.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E122.w1": {
+   "matrix": "L39.E122.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 122,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.122.w1.weight",
+   "scale": "layers.39.ffn.experts.122.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E122.w2": {
+   "matrix": "L39.E122.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 122,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.122.w2.weight",
+   "scale": "layers.39.ffn.experts.122.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E122.w3": {
+   "matrix": "L39.E122.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 122,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.122.w3.weight",
+   "scale": "layers.39.ffn.experts.122.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E239.w1": {
+   "matrix": "L39.E239.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 239,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.239.w1.weight",
+   "scale": "layers.39.ffn.experts.239.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E239.w2": {
+   "matrix": "L39.E239.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 239,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.239.w2.weight",
+   "scale": "layers.39.ffn.experts.239.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E239.w3": {
+   "matrix": "L39.E239.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 239,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.239.w3.weight",
+   "scale": "layers.39.ffn.experts.239.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E340.w1": {
+   "matrix": "L39.E340.w1",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 340,
+   "role": "w1",
+   "weight": "layers.39.ffn.experts.340.w1.weight",
+   "scale": "layers.39.ffn.experts.340.w1.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  },
+  "L39.E340.w2": {
+   "matrix": "L39.E340.w2",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 340,
+   "role": "w2",
+   "weight": "layers.39.ffn.experts.340.w2.weight",
+   "scale": "layers.39.ffn.experts.340.w2.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    5120,
+    1152
+   ],
+   "scale_shape": [
+    5120,
+    72
+   ],
+   "codeword_shape": [
+    5120,
+    2304
+   ]
+  },
+  "L39.E340.w3": {
+   "matrix": "L39.E340.w3",
+   "prefix": "layers",
+   "layer": 39,
+   "expert": 340,
+   "role": "w3",
+   "weight": "layers.39.ffn.experts.340.w3.weight",
+   "scale": "layers.39.ffn.experts.340.w3.scale",
+   "weight_file": "model-00042-of-00048.safetensors",
+   "weight_shape": [
+    2304,
+    2560
+   ],
+   "scale_shape": [
+    2304,
+    160
+   ],
+   "codeword_shape": [
+    2304,
+    5120
+   ]
+  }
+ }
+}
