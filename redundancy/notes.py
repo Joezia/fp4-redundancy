@@ -196,8 +196,24 @@ class Notes:
             "lines": [f"蓝线：实测（{s['n_entries']} 个条目中位数，浅色阴影为最小–最大）；灰线：基线；橙色竖虚线：回本长度。"],
             "baseline": f"{self.base_zh(s['baseline'])}，3 次重复。",
             "breakeven": f"复制一段要记位置，约 log2 N bit；长度 L* = log2 N / H 以上才划算，L* = {g(s['breakeven'], 3)}。",
-            "keys": [f"最长出现重复的 k（中位数）：{g(s.get('Kstar_median'))}。",
+            "keys": self._r6_need(s) + [f"最长出现重复的 k（中位数）：{g(s.get('Kstar_median'))}。",
                      f"超出基线的 k：{d}。" if d else "没有超出基线的 k。"] + self.alt_line(s, "R6")}
+
+    def _r6_need(self, s):
+        ks = s["ks"]
+        rm, bm = s["real"]["median"], s["base"]["median"]
+        zero = [i for i in range(len(ks)) if all((rm[j] or 0) == 0 and (bm[j] or 0) == 0 for j in range(i, len(ks)))]
+        if not zero:
+            return ["回本长度只是必要条件：越过回本长度的 k 上实测仍需超出基线才算可利用。"]
+        k0 = ks[zero[0]]
+        rmax = [(ks[j], s["real"]["max"][j]) for j in range(zero[0], len(ks)) if (s["real"]["max"][j] or 0) > 0]
+        bmax = [(ks[j], s["base"]["max"][j]) for j in range(zero[0], len(ks)) if (s["base"]["max"][j] or 0) > 0]
+        txt = (f"回本长度只是必要条件：长度 {k0} 以上实测与基线都为 0（{s['n_entries']} 个条目的中位数），"
+               "没有超出偶然水平的长重复")
+        if rmax:
+            txt += (f"（个别条目在 k = {rmax[0][0]}–{rmax[-1][0]} 仍有极少重复，最多 {pct(max(v for _, v in rmax), 2)}"
+                    + (f"；基线最多 {pct(max(v for _, v in bmax), 2)}" if bmax else "；基线为 0") + "）")
+        return [txt + "；短长度处超出基线的部分见下方说明。"]
 
     def _r7(self, rec, tag):
         s = rec["summary"]
@@ -257,10 +273,19 @@ class Notes:
             "baseline": f"{self.base_zh(s['baseline'])}，整条流程重复 3 次。",
             "breakeven": f"每{{unit_zh}} s 个原子，各付 log2 K bit 编号和 {want} bit 系数："
                          f"R² > 1 − 2^(−2s(log2 K + {want}) / L)。",
-            "keys": ["；".join(keys) + "。",
-                     f"判定沿用配置中的 b = {s.get('b')}（合成数据验收所用）；本条目在任何 (K, s) 上都"
-                     + ("没有超出基线，因此在 16 bit 下判定同样为「无」。" if not rec["detail"]["exceed"]
-                        else f"超出基线：{rec['detail']['exceed']}。")]}
+            "keys": ["；".join(keys) + "。"] + self._r8_bits(rec)}
+
+    def _r8_bits(self, rec):
+        s = rec["summary"]
+        out = [f"被测数据的判定与回本线都按 b = {s.get('b')} bit；判定：{self.verdict(rec)}"
+               + ("（在任何 (K, s) 上都没有超出基线）。" if not rec["detail"]["exceed"]
+                  else f"（超出基线：{rec['detail']['exceed']}）。")]
+        sh = self.syn_has("R8")
+        if sh and sh.get("summary", {}).get("b") not in (None, s.get("b")):
+            out.append(f"合成数据的验收按合成配置中的单独设置 b = {sh['summary']['b']}："
+                       f"合成“有”数据在 {s.get('b')} bit 下过不了回本线（007 已说明）。这一设置只用于合成数据，"
+                       f"合成“有”的判定为「{self.verdict(sh)}」。")
+        return out
 
     FIGS = {"R1": r1, "R2": r2, "R3": r3, "R4": r4, "R5": r5, "R6": r6, "R7a_partner": r7a_partner,
             "R7a_row": r7a_row, "R7b": r7b, "R8": r8}
@@ -332,7 +357,7 @@ def write_all(man, res, syn, ctx, odir, written, skipped, overview_figs):
         esc = lambda t: t.replace("|", "\\|")
         rows.append(f"| {pat} {PATTERN_ZH.get(pat, '')} | {fig_cell} | {esc(ind)} | {nt.verdict(rec)} | "
                     f"{esc(rec.get('key', ''))} | {alt} |")
-    rows += [""] + [f"- {fid}：" + x for fid in ("R3", "R4", "R6") if fid in man["figures"]
+    rows += [""] + [f"- {fid}：" + x for fid in ("R3", "R4", "R6", "R7a_row", "R7b", "R8") if fid in man["figures"]
                     for x in nt.extra_notes(fid)]
     rows += ["", f"总览图 `overview.png` 的各联：{', '.join(overview_figs)}。", ""]
     with open(odir / "overview.md", "w", encoding="utf-8") as f:

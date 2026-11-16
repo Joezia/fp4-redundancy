@@ -15,7 +15,13 @@
   "seed": 20261117,
   "rows": 1024,
   "cols": 2048,
-  "unit_len": 32
+  "unit_len": 32,
+  "indicators": {
+   "R8": {
+    "b": 8,
+    "b_alt": 16
+   }
+  }
  },
  "indicators": {
   "R1": {
@@ -77,7 +83,8 @@
    "min_amp_unit": 0.25,
    "min_amp_corr": 0.005,
    "min_amp_share": 0.01,
-   "baseline": "known"
+   "baseline": "known",
+   "baseline_row": "whole"
   },
   "R7b": {
    "ks": [
@@ -109,8 +116,7 @@
    ],
    "sample": 100000,
    "iters": 15,
-   "b": 8,
-   "b_alt": 16,
+   "b": 16,
    "min_amp": 0.005,
    "baseline": "known",
    "entries": [
@@ -199,14 +205,14 @@
     "synthetic_has",
     "data"
    ],
-   "synthetic": "rank-4 component (30% of energy)"
+   "synthetic": "rank-4 component"
   },
   "R6": {
    "panels": [
     "data"
    ],
    "note_zh": [
-    "相对完全打乱的多余重复，来自同一块共享同一个 scale（块内码字分布集中，短窗口更容易重复）：块内打乱后消失。超出完全打乱基线的只有 k = 8（实测 1.41%，完全打乱 0.78%，块内打乱 1.42%）。它与 R2 中 scale 分组的收益是同一来源，不能相加；也不是“一段内容原样再现”意义上的长重复。"
+    "长度 8 处的超出来自同块共享同一个 scale（块内码字分布集中，短窗口更容易重复）：实测 1.41%，完全打乱 0.78%，块内打乱 1.42%，块内打乱后超出消失。它与 R2 中 scale 分组的收益是同一来源，不能相加；也不是“一段内容原样再现”意义上的长重复。"
    ]
   },
   "R7a_partner": {
@@ -215,13 +221,16 @@
     "data"
    ],
    "synthetic": "correlated row pairs",
-   "title": "Correlation between corresponding rows of W1 and W3",
+   "title": "Correlation of corresponding W1 and W3 rows",
    "xlabel": "|Correlation| between row $i$ of W1 and row $i$ of W3",
    "dataset_label": "FP4 weights ({n} W1–W3 pairs)"
   },
   "R7a_row": {
    "panels": [
     "data"
+   ],
+   "note_zh": [
+    "基线由“同 scale 的块之间打乱”改为完全打乱后判定不变（仍为“存在，过回本线”）：最大 |ρ| 的基线中位数 0.0506 → 0.0506，越过回本线的行的比例基线均为 0%，实测 8.7%。"
    ]
   },
   "R7b": {
@@ -229,14 +238,22 @@
     "synthetic_has",
     "data"
    ],
-   "synthetic": "16 prototype blocks"
+   "synthetic": "16 prototype blocks",
+   "baseline_legend": "whole",
+   "note_zh": [
+    "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+   ]
   },
   "R8": {
    "panels": [
     "data"
    ],
    "s": 4,
-   "breakeven_bits": 16
+   "breakeven_bits": 16,
+   "baseline_legend": "whole",
+   "note_zh": [
+    "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+   ]
   },
   "R7a_unit": {
    "panels": []

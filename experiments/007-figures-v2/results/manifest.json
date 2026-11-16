@@ -53,11 +53,15 @@
     "synthetic": "rank-4 component (30% of energy)"
    },
    "R6": {
+    "note_zh": [
+     "相对完全打乱的多余重复，来自同一块共享同一个 scale（块内码字分布集中，短窗口更容易重复）：块内打乱后消失。超出完全打乱基线的只有 k = 8（实测 1.41%，完全打乱 0.78%，块内打乱 1.42%）。它与 R2 中 scale 分组的收益是同一来源，不能相加；也不是“一段内容原样再现”意义上的长重复。"
+    ],
     "panels": [
      "data"
     ]
    },
    "R7a_partner": {
+    "dataset_label": "FP4 weights ({n} W1–W3 pairs)",
     "panels": [
      "synthetic_has",
      "data"
@@ -104,6 +108,7 @@
     "R7b",
     "R8"
    ],
+   "overview_title": "FP4 weights: 36 matrices (R7a corresponding rows: 12 W1–W3 pairs; R8: 12 matrices)",
    "vocab": {
     "Sym": "Code",
     "Unit": "Block",
@@ -174,6 +179,7 @@
    "R7a": {
     "b": 16,
     "baseline": "known",
+    "baseline_row": "whole",
     "min_amp_corr": 0.005,
     "min_amp_share": 0.01,
     "min_amp_unit": 0.25,
@@ -196,8 +202,7 @@
     "sample": 100000
    },
    "R8": {
-    "b": 8,
-    "b_alt": 16,
+    "b": 16,
     "baseline": "known",
     "entries": [
      "L0.E164.w1",
@@ -237,6 +242,12 @@
   "seed": 20261116,
   "synthetic": {
    "cols": 2048,
+   "indicators": {
+    "R8": {
+     "b": 8,
+     "b_alt": 16
+    }
+   },
    "rows": 1024,
    "seed": 20261117,
    "unit_len": 32
@@ -272,7 +283,7 @@
   "R7a_row": "median max|ρ| = 0.078 (baseline 0.051), ρ* = 0.086",
   "R7a_unit": "median best = 12 (baseline 12), m* = 13 of 32",
   "R7b": "ratio(K=64) = 0.831 (baseline 0.831), break-even 0.771",
-  "R8": "R2(K=64, s=2) = 0.356 (baseline 0.356), break-even 0.703 (b = 8)",
+  "R8": "R2(K=64, s=2) = 0.356 (baseline 0.356), break-even 0.851 (b = 16)",
   "R9_max_level": "TV = 0.114; share at 0: 0.000 (expected 3.56e-24)",
   "R9_odd_count": "TV = 0.444; share at 0: 0.301 (expected 0.0097)"
  },

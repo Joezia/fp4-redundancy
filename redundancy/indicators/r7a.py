@@ -6,7 +6,7 @@ unit    (short segments; needs `unit`): similarity = number of equal positions (
         same `known` label (all units without `known`). Baseline: shuffle within `known` groups.
         Break-even m*: smallest m with m·H > log2(#candidates) + log2 C(L, m).
 row     (long segments; needs `values`): |correlation| with the most correlated other row.
-        Baseline: shuffle within `known` groups. Break-even: sqrt(1 - 2^(-2 (log2 #rows + b) / L)).
+        Baseline: `baseline_row` (default: `baseline`, shuffle within `known` groups). Break-even: sqrt(1 - 2^(-2 (log2 #rows + b) / L)).
 partner (needs `partner`): |correlation| of row i with partner row i (the partner's candidate for
         it). Baseline: partner rows randomly permuted. Break-even as for rows with one candidate.
 Existence uses the mean similarity; the break-even test uses the share of segments beyond the line.
@@ -100,7 +100,7 @@ def row_part(entry, cfg, seed):
     if R < 2:
         return {"applicable": False, "reason": "fewer than 2 rows"}
     line = breakeven.long_corr(R - 1, cfg.get("b", 16), W)
-    bname = baselines.pick(entry, "R7a_row", cfg.get("baseline", "known"))
+    bname = baselines.pick(entry, "R7a_row", cfg.get("baseline_row", cfg.get("baseline", "known")))
     real = _max_corr(entry.values)
     reps = []
     for i in range(REPS):

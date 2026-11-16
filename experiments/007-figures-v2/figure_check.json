@@ -1,5 +1,11 @@
 {
  "R1_distribution": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -21,8 +27,7 @@
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -62,6 +67,12 @@
   ]
  },
  "R2_groups": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -83,8 +94,7 @@
     "loc": "upper right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -109,12 +119,18 @@
     "Row",
     "Column",
     "Layer",
-    "Position in block",
+    "Position\nin block",
     "Role"
    ]
   ]
  },
  "R3_mi_distance": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   422.8
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -136,8 +152,7 @@
     "loc": "upper right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -168,6 +183,12 @@
   ]
  },
  "R4_autocorr": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -189,8 +210,7 @@
     "loc": "center right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -221,6 +241,12 @@
   ]
  },
  "R5_spectrum": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   394.2
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -246,15 +272,13 @@
     "loc": "center right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -278,8 +302,8 @@
    ]
   ],
   "ylabels": [
-   "Normalized energy\n$\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)",
-   "Normalized energy\n$\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)"
+   "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)",
+   "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)"
   ],
   "xticklabels": [
    [
@@ -307,6 +331,12 @@
   ]
  },
  "R6_repeats": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -328,8 +358,7 @@
     "loc": "upper right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -363,6 +392,12 @@
   ]
  },
  "R7a_neighbors_partner": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   394.2
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -385,28 +420,26 @@
   ],
   "legend_placement": [
    {
-    "loc": "upper center",
+    "loc": "upper right",
     "clear": true,
-    "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": true
+    "headroom": 0.2,
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
-    "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "headroom": 0.2,
+    "x_room": 0.0
    }
   ],
   "ylims": [
    [
     3.616898148148148e-05,
-    0.9646990740740741
+    7.406328625533981
    ],
    [
     3.616898148148148e-05,
-    0.9646990740740741
+    7.406328625533981
    ]
   ],
   "xlims": [
@@ -445,6 +478,12 @@
   ]
  },
  "R7a_neighbors_row": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -466,14 +505,13 @@
     "loc": "upper right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
    [
     0.00015733506944444443,
-    1.0121527777777777
+    1.0030381944444444
    ]
   ],
   "xlims": [
@@ -496,6 +534,12 @@
   ]
  },
  "R7b_clusters": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   394.2
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -521,15 +565,13 @@
     "loc": "upper right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": true
+    "x_room": 0.0
    },
    {
-    "loc": "lower left",
+    "loc": "upper right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -580,6 +622,12 @@
   ]
  },
  "R8_dictionary": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -601,8 +649,7 @@
     "loc": "lower right",
     "clear": true,
     "headroom": 0.0,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -630,6 +677,14 @@
   ]
  },
  "overview": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   415.6,
+   879.5,
+   881.5
+  ],
   "chinese": [],
   "code_names": [],
   "outside_figure": [],
@@ -687,71 +742,61 @@
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "center right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "center right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": true
+    "x_room": 0.0
    },
    {
     "loc": "upper right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    },
    {
     "loc": "lower right",
     "clear": true,
     "headroom": 0.1,
-    "x_room": 0.0,
-    "wrapped": false
+    "x_room": 0.0
    }
   ],
   "ylims": [
@@ -785,7 +830,7 @@
    ],
    [
     0.00015733506944444443,
-    2.4326975897644925
+    2.408610993141722
    ],
    [
     0.6934446275022383,
@@ -848,7 +893,7 @@
    "Fraction of rows (%)",
    "Fraction of rows (%)",
    "Held-out distortion ratio (%)",
-   "Held-out explained\nvariance $R^2$ (%)"
+   "Held-out explained variance $R^2$ (%)"
   ],
   "xticklabels": [
    [
@@ -875,7 +920,7 @@
     "Row",
     "Column",
     "Layer",
-    "Position in block",
+    "Position\nin block",
     "Role"
    ],
    [

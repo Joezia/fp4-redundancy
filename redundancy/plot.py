@@ -96,7 +96,8 @@ class Ctx:
             or self.L["dataset_label"]
         return self.t(lab, n=n)
 
-    def baseline(self, name):
+    def baseline(self, name, fid=None):
+        name = self.fig(fid).get("baseline_legend", name) if fid else name
         return self.t(self.L["legend"]["baseline"].get(name, name))
 
     def leg(self, key, **kw):
@@ -220,7 +221,7 @@ def d_r2(ax, rec, ctx, fid, extra):
             ax.errorbar([i], [top[i]], yerr=[[top[i] - lo], [hi - top[i]]], fmt="none", ecolor="black",
                         elinewidth=1.8, capsize=5, capthick=1.8, zorder=3)
     ax.set_xticks(x)
-    ax.set_xticklabels(cats, rotation=30, ha="right", rotation_mode="anchor")
+    ax.set_xticklabels([split2(c) if len(c) > 9 else c for c in cats])
     ax.set_xlim(-0.6, len(x) - 0.4)
     hi = max([skew + max(r[3][1], 0) for r in rows if r[3] is not None] + list(top))
     ax.set_ylim(0, hi * 1.05)
@@ -341,7 +342,7 @@ def d_r7b(ax, rec, ctx, fid, extra):
     ks = [int(k) for k in s["ks"]]
     x = np.asarray(ks, dtype=np.float64)
     hs = [band_line(ax, x, s["real"], style.REAL, ctx.leg("measured"), marker="o"),
-          base_line(ax, x, s["base"]["median"], ctx.baseline(s["baseline"]), marker="s"),
+          base_line(ax, x, s["base"]["median"], ctx.baseline(s["baseline"], fid), marker="s"),
           ax.plot(x, s["breakeven"], color=style.LINE, ls="--", lw=style.LW_LINE, label=ctx.leg("breakeven"))[0]]
     log2_ticks(ax, ks)
     vals = np.concatenate([arr(s["real"]["min"]), arr(s["real"]["max"]), arr(s["base"]["median"]), arr(s["breakeven"])])
@@ -362,7 +363,7 @@ def d_r8(ax, rec, ctx, fid, extra):
     line = s["breakeven"] if s.get("b") == want else s["breakeven_alt"]
     b = {q: [s["real"][q][j] for j in idx] for q in ("median", "min", "max")}
     hs = [band_line(ax, ks, b, style.REAL, ctx.leg("measured"), marker="o"),
-          base_line(ax, ks, [s["base"]["median"][j] for j in idx], ctx.baseline(s["baseline"]), marker="s"),
+          base_line(ax, ks, [s["base"]["median"][j] for j in idx], ctx.baseline(s["baseline"], fid), marker="s"),
           ax.plot(ks, [line[j] for j in idx], color=style.LINE, ls="--", lw=style.LW_LINE,
                   label=ctx.leg("breakeven"))[0]]
     log2_ticks(ax, ks)
@@ -506,11 +507,9 @@ def place_legends(fig, specs):
                 if not hs:
                     result[i] = {"loc": None, "clear": True}
                     continue
-                for wrapped in (False, True):
-                    loc = _try_locs(fig, ax, hs, wrapped)
-                    if loc:
-                        result[i] = {"loc": loc, "clear": True, "headroom": h, "x_room": xr, "wrapped": wrapped}
-                        break
+                loc = _try_locs(fig, ax, hs, False)
+                if loc:
+                    result[i] = {"loc": loc, "clear": True, "headroom": h, "x_room": xr}
                 if not loc:
                     ok = False
                     break
@@ -549,10 +548,6 @@ def fit_texts(fig, axes):
     for ax in axes:
         bb = ax.get_window_extent()
         t = ax.title
-        te, fb = t.get_window_extent(), fig.bbox
-        if t.get_text() and "\n" not in t.get_text() and (te.width > bb.width or te.x0 < fb.x0 or te.x1 > fb.x1):
-            t.set_text(split2(t.get_text()))
-            changed = True
         yl = ax.yaxis.label
         if yl.get_text() and "\n" not in yl.get_text() and yl.get_window_extent().height > bb.height * 0.98:
             yl.set_text(split2(yl.get_text()))
@@ -602,7 +597,17 @@ def check_figure(fig, axes, legend_info):
         if leg:
             legs.append({"clear": legend_clear(ax, leg), "inside_figure": legend_inside_figure(fig, leg)})
     allt = [t.get_text() for t in texts]
-    return {"chinese": [s for s in allt if CJK.search(s)],
+    titles = [ax.title for ax in axes if ax.title.get_text()]
+    title_rows = sorted({round(t.get_window_extent().y0, 1) for t in titles})
+    legend_texts = [t.get_text() for ax in axes if ax.get_legend() for t in ax.get_legend().get_texts()]
+    too_wide = [t.get_text() for t in titles
+                if t.get_window_extent().width > t.axes.get_window_extent().width * 1.12]
+    return {"multiline_titles": [t.get_text() for t in titles if "\n" in t.get_text()] +
+                                ([fig._suptitle.get_text()] if fig._suptitle and "\n" in fig._suptitle.get_text() else []),
+            "titles_wider_than_axes": too_wide,
+            "multiline_legend_entries": [t for t in legend_texts if "\n" in t],
+            "title_baselines_px": title_rows,
+            "chinese": [s for s in allt if CJK.search(s)],
             "code_names": [s for s in allt if CODE_NAME.search(_plain(s))],
             "outside_figure": out_of_fig, "font_sizes": sizes,
             "min_line_width": min(lines) if lines else None, "legends": legs, "legend_placement": legend_info,

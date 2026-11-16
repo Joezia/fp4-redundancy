@@ -333,7 +333,7 @@
      "share": 0.0
     }
    ],
-   "baseline": "known",
+   "baseline": "whole",
    "kind": "row",
    "line": 0.13207776894250506,
    "n": 1024,
@@ -557,7 +557,7 @@
   "base_median": 0.07477812296867296,
   "base_sd": 0.000331062024718265,
   "base_share": 0.0,
-  "baseline": "known",
+  "baseline": "whole",
   "kind": "row",
   "line": 0.13207776894250506,
   "mean": 0.10734123135722273,

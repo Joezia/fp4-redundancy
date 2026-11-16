@@ -66,11 +66,20 @@ def enabled(cfg):
     return [k for k in indicators.ORDER if k in ic and ic[k].get("enabled", True)]
 
 
+def synthetic_cfg(cfg):
+    """The config as seen by the synthetic datasets: `synthetic.indicators.<Rk>` overrides the
+    indicator settings (e.g. a different parameter width), and the data-only `entries` filter is dropped."""
+    ovr = (cfg.get("synthetic") or {}).get("indicators", {})
+    ind = {k: {**{a: b for a, b in v.items() if a != "entries"}, **ovr.get(k, {})}
+           for k, v in cfg.get("indicators", {}).items()}
+    return {**cfg, "indicators": ind}
+
+
 def task_synthetic(cfg, key, side):
     t0 = time.time()
     e = Synthetic(cfg["synthetic"]).entry(key, side)
     ind, fig = KEYS[key]
-    icfg = {k: v for k, v in cfg["indicators"].get(ind, {}).items() if k != "entries"}  # data-only filter
+    icfg = synthetic_cfg(cfg)["indicators"].get(ind, {})
     res = indicators.MODULES[ind].compute(e, icfg, cfg["seed"])
     return {"fig": fig, "entry": e.name, "result": res[fig], "attrs": e.attrs, "seconds": time.time() - t0}
 
@@ -137,7 +146,7 @@ def main():
                 "config": cfg, "figures": [], "synthetic": {}, "verdicts": {}, "keys": {}}
     for (key, side), r in sorted(syn_res.items()):
         fig = r["fig"]
-        rec = record(fig, f"synthetic/{key}_{side}", side, [(r["entry"], r["result"])], cfg,
+        rec = record(fig, f"synthetic/{key}_{side}", side, [(r["entry"], r["result"])], synthetic_cfg(cfg),
                      {"description": r["attrs"].get("description", ""), "side": side})
         dump(out / "synthetic" / f"{key}_{side}.json", rec)
         manifest["synthetic"].setdefault(key, {})[side] = {"file": f"synthetic/{key}_{side}.json",

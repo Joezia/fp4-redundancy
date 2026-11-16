@@ -11,7 +11,7 @@
   "known_zh": "已知分组"
  },
  "dataset_label": "Measured data (n = {n})",
- "synthetic_panel": "Synthetic data with {desc}",
+ "synthetic_panel": "Synthetic: {desc}",
  "na_text": "Not applicable",
  "titles": {
   "R1": "{Sym} probability distribution",
@@ -21,25 +21,61 @@
   "R5": "Singular value spectrum",
   "R6": "Fraction of repeated length-$k$ windows",
   "R7a_unit": "Equal positions with the most similar other {unit}",
-  "R7a_row": "Maximum |correlation| between a row and any other row",
-  "R7a_partner": "Correlation between corresponding rows of the two matrices",
+  "R7a_row": "Max. |correlation| with another row",
+  "R7a_partner": "Correlation of corresponding rows",
   "R7b": "k-means distortion vs. number of centroids $K$",
   "R8": "Dictionary learning with {s} atoms per {unit}",
   "R9": "Constraint check: {name}"
  },
  "axes": {
-  "R1": ["{Sym} index $c$", "Probability (%)"],
-  "R2": ["Grouping variable $G$", "Saving vs. {raw}-bit storage (bits per {sym} ${var}$)"],
-  "R3": ["Lag $d$ (positions within a row)", "Mutual information (bits)"],
-  "R4": ["Lag $d$ (positions within a row)", "Autocorrelation $\\rho(d)$"],
-  "R5": ["Singular value index $i$ (descending order)", "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)"],
-  "R6": ["Window length $k$ ({sym}s)", "Repeated windows (%)"],
-  "R7a_unit": ["Equal positions with the most similar other {unit}", "Fraction of {unit}s (%)"],
-  "R7a_row": ["Maximum |correlation| with any other row", "Fraction of rows (%)"],
-  "R7a_partner": ["|Correlation| between row $i$ of the two matrices", "Fraction of rows (%)"],
-  "R7b": ["Number of centroids $K$", "Held-out distortion ratio (%)"],
-  "R8": ["Dictionary size $K$ (atoms)", "Held-out explained variance $R^2$ (%)"],
-  "R9": ["Value per {unit}", "Fraction of {unit}s (%)"]
+  "R1": [
+   "{Sym} index $c$",
+   "Probability (%)"
+  ],
+  "R2": [
+   "Grouping variable $G$",
+   "Saving vs. {raw}-bit storage (bits per {sym} ${var}$)"
+  ],
+  "R3": [
+   "Lag $d$ (positions within a row)",
+   "Mutual information (bits)"
+  ],
+  "R4": [
+   "Lag $d$ (positions within a row)",
+   "Autocorrelation $\\rho(d)$"
+  ],
+  "R5": [
+   "Singular value index $i$ (descending order)",
+   "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)"
+  ],
+  "R6": [
+   "Window length $k$ ({sym}s)",
+   "Repeated windows (%)"
+  ],
+  "R7a_unit": [
+   "Equal positions with the most similar other {unit}",
+   "Fraction of {unit}s (%)"
+  ],
+  "R7a_row": [
+   "Max. |correlation| with another row",
+   "Fraction of rows (%)"
+  ],
+  "R7a_partner": [
+   "|Correlation| between row $i$ of the two matrices",
+   "Fraction of rows (%)"
+  ],
+  "R7b": [
+   "Number of centroids $K$",
+   "Held-out distortion ratio (%)"
+  ],
+  "R8": [
+   "Dictionary size $K$ (atoms)",
+   "Held-out explained variance $R^2$ (%)"
+  ],
+  "R9": [
+   "Value per {unit}",
+   "Fraction of {unit}s (%)"
+  ]
  },
  "legend": {
   "measured": "Measured",
@@ -60,7 +96,7 @@
    "unit": "Shuffled within {unit}s",
    "known": "Shuffled within equal-{known} {unit}s",
    "random_sign": "Random baseline (signs shuffled)",
-   "misalign": "Baseline (rows randomly paired)"
+   "misalign": "Baseline (random pairing)"
   }
  },
  "zh": {

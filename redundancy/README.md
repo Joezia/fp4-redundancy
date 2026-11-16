@@ -14,7 +14,7 @@ python -m redundancy.plot --results <结果目录> --out <图目录>
 在仓库根目录运行。`run` 写结果文件：`data/<图>.json`、`synthetic/<规律>_{none,has}.json`、`manifest.json`。`plot` 只读这些文件，写 `<图名>.png/.pdf`（300 dpi；单联 6.5 × 4.5 英寸），以及 `--overview` 目录中的 `overview.png/.pdf`、`overview.md`（判定总表）、`figure_notes.md`（每张图的中文说明）、`r5_gain.json`（R5 算了严格收益时）和 `figure_check.json`（自动版面检查：图例是否压住数据、文字是否出界、字号、中文与变量名）。
 
 - 结果目录里没有合成数据时（配置里没有 `synthetic` 一节），可用 `--synthetic <另一个结果目录>` 借用那里的合成面板。
-- 图例位置自动选择：依次试各个角，压住任何线、点、阴影或柱就换位置；都不行时加大纵轴上方余量、把长图例条目折成两行；仍不行才放到坐标区外。
+- 图例位置自动选择：依次试各个位置，压住任何线、点、阴影或柱就换位置；都不行时加大纵轴上方余量（直方图还可加宽横轴）；仍不行才放到坐标区外。图例条目和标题不折行，过长时在配置里改短；`figure_check.json` 会列出折行或宽于坐标区的标题。
 
 ## 三层
 
@@ -65,13 +65,13 @@ python -m redundancy.plot --results <结果目录> --out <图目录>
 
 - `seed`：全部随机数的种子。同一配置连跑两次，结果文件逐字节相同；`run` 把数值库固定为单线程。
 - `workers`：并行进程数。
-- `synthetic`：合成数据的形状与种子。省略这一节则不算合成面板。
-- `indicators.<Rk>`：各指标的参数、最小幅度（`min_amp*`）、参数位数 `b`、基线名 `baseline`（`whole` / `known` / `unit` / `random_sign`）。R3、R4、R6 可加 `alt_baselines`：另算的基线只存进结果文件（含它下的判定），不参与判定、不画。R5 可加 `gain: {"k", "bins"}`，按 003 R5.3 的方法算严格收益。
+- `synthetic`：合成数据的形状与种子。省略这一节则不算合成面板。`synthetic.indicators.<Rk>` 只对合成数据覆盖指标设置（FP4 配置用它让合成数据的 R8 按 b = 8 验收，被测数据按 16 bit）。
+- `indicators.<Rk>`：各指标的参数、最小幅度（`min_amp*`）、参数位数 `b`、基线名 `baseline`（`whole` / `known` / `unit` / `random_sign`）。R7a 可用 `baseline_row` 给“矩阵内行”单独指定基线。R3、R4、R6 可加 `alt_baselines`：另算的基线只存进结果文件（含它下的判定），不参与判定、不画。R5 可加 `gain: {"k", "bins"}`，按 003 R5.3 的方法算严格收益。
 - `figures`（只给画图层用，可省略）：
   - `dataset_label`：被测数据一联的标题，`{n}` 换成条目数；各图也可单独给。
   - `vocab`：图中的通用词，如 `sym`（符号叫什么）、`var`（符号变量的字母）、`unit`（局部单位叫什么）、`known`（已知分组叫什么），以及 `*_zh`（中文说明用）。
   - `<图>.panels`：保留哪几联，取 `synthetic_none`、`synthetic_has`、`data`；空列表表示不出图。省略时画出全部可用的联。
-  - `<图>.title`、`xlabel`、`synthetic`（合成一联的结构描述）、`unit_line`（R3、R4 在单位长度处画点线）、`groups`（R2 保留的分组及显示名）、`s` 与 `breakeven_bits`（R8）、`note_zh`（写进说明的补充）。
+  - `<图>.title`、`xlabel`、`synthetic`（合成一联的结构描述，标题为 “Synthetic: <描述>”）、`baseline_legend`（图例改用另一种基线的名称，如取样已使两种打乱等价时）、`unit_line`（R3、R4 在单位长度处画点线）、`groups`（R2 保留的分组及显示名）、`s` 与 `breakeven_bits`（R8）、`note_zh`（写进说明的补充）。
   - `overview`：总览图的各联。
 
 ## 判定规则（写在 `indicators/common.py`）
