@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PKG = ROOT / "redundancy"
 PY = sys.executable
 FORBIDDEN = ("scale", "e2m1", "expert", "w1", "w2", "w3", "mtp")
-GENERIC_FILES = ["plot.py", "baselines.py", "breakeven.py"]
+GENERIC_FILES = ["plot.py", "notes.py", "style.py", "labels.json", "baselines.py", "breakeven.py"]
 
 
 def load(p):
@@ -120,7 +120,8 @@ def check_fp4(results):
         "H0": {m: r["H"] for m, r in ent["R1"].items()},
         "I_scale": {m: r["groups"]["scale"]["mi"] for m, r in ent["R2"].items()},
         "mi_same": {m: r["mi_same_unit"][0] for m, r in ent["R3"].items()},
-        "mi_same_S2": {m: r["base_same_unit_mean"][0] for m, r in ent["R3"].items()},
+        "mi_same_S2": {m: (r["alt"]["unit"] if r["baseline"] != "unit" else r)["base_same_unit_mean"][0]
+                       for m, r in ent["R3"].items()},
         "acf_abs": {m: r["abs"][0] for m, r in ent["R4"].items()},
         "top_share": {m: r["share"][0] for m, r in ent["R5"].items()},
         "top_share_S4": {m: r["base_mean"][0] for m, r in ent["R5"].items()},
@@ -247,9 +248,9 @@ def check_isolation():
         for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
             for m in pat.finditer(line):
                 hits.append(f"{f.relative_to(ROOT)}:{i}: {m.group(0)}")
-    tree = ast.parse((PKG / "plot.py").read_text(encoding="utf-8"))
     bad_imports = []
-    for node in ast.walk(tree):
+    for node in [n for f in ("plot.py", "notes.py", "style.py")
+                 for n in ast.walk(ast.parse((PKG / f).read_text(encoding="utf-8")))]:
         names = []
         if isinstance(node, ast.Import):
             names = [a.name for a in node.names]

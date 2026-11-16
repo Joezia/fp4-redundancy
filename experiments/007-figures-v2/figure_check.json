@@ -1,0 +1,956 @@
+{
+ "R1_distribution": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.11833451080322267
+   ]
+  ],
+  "xlims": [
+   [
+    -0.6,
+    15.6
+   ]
+  ],
+  "ylabels": [
+   "Probability (%)"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+   ]
+  ]
+ },
+ "R2_groups": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 2.4,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.26318867122572237
+   ]
+  ],
+  "xlims": [
+   [
+    -0.6,
+    6.6
+   ]
+  ],
+  "ylabels": [
+   "Saving vs. 4-bit storage\n(bits per code $C$)"
+  ],
+  "xticklabels": [
+   [
+    "None",
+    "Scale",
+    "Row",
+    "Column",
+    "Layer",
+    "Position in block",
+    "Role"
+   ]
+  ]
+ },
+ "R3_mi_distance": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.030903905763498784
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    97.0
+   ]
+  ],
+  "ylabels": [
+   "Mutual information (bits)"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ]
+  ]
+ },
+ "R4_autocorr": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "center right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    -0.051230904033447947,
+    0.55
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    97.0
+   ]
+  ],
+  "ylabels": [
+   "Autocorrelation $\\rho(d)$"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ]
+  ]
+ },
+ "R5_spectrum": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "center right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.000715205230624913,
+    0.12510557933187658
+   ],
+   [
+    0.000715205230624913,
+    0.12510557933187658
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    65.0
+   ],
+   [
+    0.0,
+    65.0
+   ]
+  ],
+  "ylabels": [
+   "Normalized energy\n$\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)",
+   "Normalized energy\n$\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)"
+  ],
+  "xticklabels": [
+   [
+    "1",
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64"
+   ],
+   [
+    "1",
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64"
+   ]
+  ]
+ },
+ "R6_repeats": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    5e-09,
+    0.04727752911406182
+   ]
+  ],
+  "xlims": [
+   [
+    5.408328187502021,
+    73.6
+   ]
+  ],
+  "ylabels": [
+   "Repeated windows (%)"
+  ],
+  "xticklabels": [
+   [
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20",
+    "24",
+    "32",
+    "48",
+    "64"
+   ]
+  ]
+ },
+ "R7a_neighbors_partner": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 2.0,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper center",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": true
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    3.616898148148148e-05,
+    0.9646990740740741
+   ],
+   [
+    3.616898148148148e-05,
+    0.9646990740740741
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    0.635
+   ],
+   [
+    0.0,
+    0.635
+   ]
+  ],
+  "ylabels": [
+   "Fraction of rows (%)",
+   "Fraction of rows (%)"
+  ],
+  "xticklabels": [
+   [
+    "0.0",
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.5",
+    "0.6"
+   ],
+   [
+    "0.0",
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.5",
+    "0.6"
+   ]
+  ]
+ },
+ "R7a_neighbors_row": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 2.0,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.00015733506944444443,
+    1.0121527777777777
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    0.245
+   ]
+  ],
+  "ylabels": [
+   "Fraction of rows (%)"
+  ],
+  "xticklabels": [
+   [
+    "0.00",
+    "0.05",
+    "0.10",
+    "0.15",
+    "0.20"
+   ]
+  ]
+ },
+ "R7b_clusters": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": true
+   },
+   {
+    "loc": "lower left",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.6642040872954945,
+    0.99512948593004
+   ],
+   [
+    0.6642040872954945,
+    0.99512948593004
+   ]
+  ],
+  "xlims": [
+   [
+    1.6,
+    320.0
+   ],
+   [
+    1.6,
+    320.0
+   ]
+  ],
+  "ylabels": [
+   "Held-out distortion ratio (%)",
+   "Held-out distortion ratio (%)"
+  ],
+  "xticklabels": [
+   [
+    "2",
+    "4",
+    "8",
+    "16",
+    "32",
+    "64",
+    "128",
+    "256"
+   ],
+   [
+    "2",
+    "4",
+    "8",
+    "16",
+    "32",
+    "64",
+    "128",
+    "256"
+   ]
+  ]
+ },
+ "R8_dictionary": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "lower right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    1.0
+   ]
+  ],
+  "xlims": [
+   [
+    12.8,
+    1280.0
+   ]
+  ],
+  "ylabels": [
+   "Held-out explained variance $R^2$ (%)"
+  ],
+  "xticklabels": [
+   [
+    "16",
+    "64",
+    "256",
+    "1024"
+   ]
+  ]
+ },
+ "overview": {
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "center right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "center right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": true
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   },
+   {
+    "loc": "lower right",
+    "clear": true,
+    "headroom": 0.1,
+    "x_room": 0.0,
+    "wrapped": false
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.11833451080322267
+   ],
+   [
+    0.0,
+    0.2895075383482946
+   ],
+   [
+    0.0,
+    0.03399429633984866
+   ],
+   [
+    -0.051230904033447947,
+    0.6101230904033449
+   ],
+   [
+    0.000715205230624913,
+    0.029125536485090395
+   ],
+   [
+    5e-09,
+    0.04727752911406182
+   ],
+   [
+    3.616898148148148e-05,
+    2.67299052885358
+   ],
+   [
+    0.00015733506944444443,
+    2.4326975897644925
+   ],
+   [
+    0.6934446275022383,
+    1.024068746662522
+   ],
+   [
+    0.0,
+    1.0
+   ]
+  ],
+  "xlims": [
+   [
+    -0.6,
+    15.6
+   ],
+   [
+    -0.6,
+    6.6
+   ],
+   [
+    0.0,
+    97.0
+   ],
+   [
+    0.0,
+    97.0
+   ],
+   [
+    0.0,
+    65.0
+   ],
+   [
+    5.408328187502021,
+    73.6
+   ],
+   [
+    0.0,
+    0.635
+   ],
+   [
+    0.0,
+    0.245
+   ],
+   [
+    1.6,
+    320.0
+   ],
+   [
+    12.8,
+    1280.0
+   ]
+  ],
+  "ylabels": [
+   "Probability (%)",
+   "Saving vs. 4-bit storage\n(bits per code $C$)",
+   "Mutual information (bits)",
+   "Autocorrelation $\\rho(d)$",
+   "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)",
+   "Repeated windows (%)",
+   "Fraction of rows (%)",
+   "Fraction of rows (%)",
+   "Held-out distortion ratio (%)",
+   "Held-out explained\nvariance $R^2$ (%)"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+   ],
+   [
+    "None",
+    "Scale",
+    "Row",
+    "Column",
+    "Layer",
+    "Position in block",
+    "Role"
+   ],
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ],
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ],
+   [
+    "1",
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64"
+   ],
+   [
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20",
+    "24",
+    "32",
+    "48",
+    "64"
+   ],
+   [
+    "0.0",
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.5",
+    "0.6"
+   ],
+   [
+    "0.00",
+    "0.05",
+    "0.10",
+    "0.15",
+    "0.20"
+   ],
+   [
+    "2",
+    "4",
+    "8",
+    "16",
+    "32",
+    "64",
+    "128",
+    "256"
+   ],
+   [
+    "16",
+    "64",
+    "256",
+    "1024"
+   ]
+  ]
+ }
+}

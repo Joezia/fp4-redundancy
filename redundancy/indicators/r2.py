@@ -92,7 +92,8 @@ def aggregate(fig, items, cfg, seed):
                       "mi": float(np.median(mi)), "base_mean": float(np.median(mus)),
                       "base_sd": float(np.median(sds)), "net": float(np.median(mi - mus)),
                       "cost": float(np.median([g["cost"] for g in gs])),
-                      "label_bits": float(np.median([g["label_bits"] for g in gs])), "pooled": False}
+                      "label_bits": float(np.median([g["label_bits"] for g in gs])), "pooled": False,
+                      "net_min": float((mi - mus).min()), "net_max": float((mi - mus).max())}
     for name, r in rows.items():
         ok, _ = exceed_stats(r["mi"], r["base_mean"], r["base_sd"], amp)
         r["exceeds"] = bool(ok[0])

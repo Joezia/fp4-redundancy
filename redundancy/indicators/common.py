@@ -9,6 +9,8 @@ import zlib
 
 import numpy as np
 
+from .. import baselines
+
 NONE, PRESENT, PASS, NA = "none", "present", "present_breakeven", "not_applicable"
 REPS = 3
 
@@ -99,3 +101,17 @@ def med_baseline(items, real_key, mu_key, sd_key):
 def mean_sd(reps):
     B = np.asarray(reps, dtype=np.float64)
     return B.mean(axis=0), (B.std(axis=0, ddof=1) if B.shape[0] > 1 else np.zeros(B.shape[1:]))
+
+
+def stream(seed, ind, name, bname, r, legacy):
+    """Replicate stream r of baseline `bname`. The indicator's original default baseline (`legacy`)
+    keeps the stream of the first version, so its numbers are unchanged; others get their own."""
+    return rng(seed, ind, name, r) if bname == legacy else rng(seed, ind, name, bname, r)
+
+
+def baseline_names(entry, ind, cfg, default):
+    """(main baseline, [extra baselines]) for an indicator. Extras (`alt_baselines` in the config)
+    are computed and stored for reference; the verdict uses the main one."""
+    main = baselines.pick(entry, ind, cfg.get("baseline", default))
+    alts = [baselines.default_name(entry, b) for b in cfg.get("alt_baselines", [])]
+    return main, [b for b in dict.fromkeys(alts) if b != main]

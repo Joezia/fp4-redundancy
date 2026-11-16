@@ -1,0 +1,378 @@
+{
+ "1_synthetic": {
+  "rows": [
+   {
+    "key": "R1",
+    "none": "none",
+    "has": "present",
+    "pass": true
+   },
+   {
+    "key": "R2",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R3",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R4",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R5",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R6",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R7a_partner",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R7a_row",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R7a_unit",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R7b",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R8",
+    "none": "none",
+    "has": "present_breakeven",
+    "pass": true
+   },
+   {
+    "key": "R9_count_in_unit",
+    "none": "none",
+    "has": "present",
+    "pass": true
+   },
+   {
+    "key": "R9_max_rank_in_unit",
+    "none": "none",
+    "has": "present",
+    "pass": true
+   }
+  ],
+  "pass": true
+ },
+ "2_consistency": {
+  "rows": [
+   {
+    "quantity": "zero-order entropy",
+    "source": "001 r1_histograms (stored to 6 significant digits)",
+    "tolerance": 5e-06,
+    "n_matrices": 36,
+    "max_abs_diff": 4.643226586775739e-06,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "zero-order entropy",
+    "source": "002 cond_entropy H(C) (full precision, same quantity)",
+    "tolerance": 1e-06,
+    "n_matrices": 36,
+    "max_abs_diff": 4.975406753260359e-10,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "MI with the scale group",
+    "source": "002 H(C) - H(C|E)",
+    "tolerance": 0.0001,
+    "n_matrices": 36,
+    "max_abs_diff": 8.865673195579404e-10,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "MI of adjacent symbols, same unit",
+    "source": "001 C1 row d=1 same",
+    "tolerance": 0.0001,
+    "n_matrices": 36,
+    "max_abs_diff": 4.761379440720859e-08,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "same, after shuffling inside units",
+    "source": "001 C1 S2 baseline mean",
+    "tolerance": 0.0001,
+    "n_matrices": 36,
+    "max_abs_diff": 0.00011008081436676004,
+    "n_outside": 2,
+    "outside": {
+     "L0.E375.w1": [
+      0.02498348081436676,
+      0.0248734
+     ],
+     "L0.E375.w2": [
+      0.02757370736724699,
+      0.0276755
+     ]
+    },
+    "pass": false
+   },
+   {
+    "quantity": "|v| lag-1 autocorrelation",
+    "source": "001 D1 |v| row d=1",
+    "tolerance": 0.001,
+    "n_matrices": 36,
+    "max_abs_diff": 4.5910268758886374e-07,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "strongest layer energy share",
+    "source": "003 R5.1 top-1 share",
+    "tolerance": 0.0001,
+    "n_matrices": 36,
+    "max_abs_diff": 3.3435001468851144e-10,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "its baseline (sign shuffle)",
+    "source": "003 R5.1 S4 mean",
+    "tolerance": 0.0001,
+    "n_matrices": 36,
+    "max_abs_diff": 1.0064934333487915e-05,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "longest repeat length (on the k grid)",
+    "source": "003 R6.2 K*",
+    "tolerance": "equal",
+    "n_matrices": 36,
+    "max_abs_diff": 0,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "median nearest-neighbour equal positions",
+    "source": "003 R7.1",
+    "tolerance": "equal",
+    "n_matrices": 36,
+    "max_abs_diff": 0.0,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "k-means distortion ratio, K = 64",
+    "source": "003 R7.2 v",
+    "tolerance": 0.005,
+    "n_matrices": 36,
+    "max_abs_diff": 0.002200146152703031,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "dictionary R2, K = 64, s = 2",
+    "source": "003 R8.2",
+    "tolerance": 0.005,
+    "n_matrices": 12,
+    "max_abs_diff": 0.0012598067751447561,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "dictionary R2, K = 64, s = 2",
+    "source": "006 sweep",
+    "tolerance": 0.005,
+    "n_matrices": 12,
+    "max_abs_diff": 0.0012598067751447561,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   },
+   {
+    "quantity": "share of units without odd levels",
+    "source": "005 a_grid",
+    "tolerance": 0.0001,
+    "n_matrices": 15,
+    "max_abs_diff": 3.1025824631658594e-08,
+    "n_outside": 0,
+    "outside": {},
+    "pass": true
+   }
+  ],
+  "pass": false
+ },
+ "3_portable": {
+  "pass": true,
+  "datasets": {
+   "uniform": {
+    "run_ok": true,
+    "plot_ok": true,
+    "verdicts": {
+     "R1": "none",
+     "R10": "not_applicable",
+     "R2": "none",
+     "R3": "none",
+     "R4": "not_applicable",
+     "R5": "not_applicable",
+     "R6": "none",
+     "R7a_partner": "not_applicable",
+     "R7a_row": "not_applicable",
+     "R7a_unit": "not_applicable",
+     "R7b": "not_applicable",
+     "R8": "not_applicable",
+     "R9": "not_applicable"
+    },
+    "figures": [
+     "R1_distribution",
+     "R2_groups",
+     "R3_mi_distance",
+     "R4_autocorr",
+     "R5_spectrum",
+     "R6_repeats",
+     "R7a_neighbors_partner",
+     "R7a_neighbors_row",
+     "R7a_neighbors_unit",
+     "R7b_clusters",
+     "R8_dictionary",
+     "R9",
+     "overview"
+    ],
+    "all_figures": true,
+    "not_applicable": [
+     "R10",
+     "R4",
+     "R5",
+     "R7a_partner",
+     "R7a_row",
+     "R7a_unit",
+     "R7b",
+     "R8",
+     "R9"
+    ],
+    "pass": true
+   },
+   "smooth": {
+    "run_ok": true,
+    "plot_ok": true,
+    "verdicts": {
+     "R1": "present",
+     "R10": "not_applicable",
+     "R2": "present",
+     "R3": "present_breakeven",
+     "R4": "present_breakeven",
+     "R5": "present_breakeven",
+     "R6": "present_breakeven",
+     "R7a_partner": "not_applicable",
+     "R7a_row": "present_breakeven",
+     "R7a_unit": "not_applicable",
+     "R7b": "not_applicable",
+     "R8": "not_applicable",
+     "R9": "not_applicable"
+    },
+    "figures": [
+     "R1_distribution",
+     "R2_groups",
+     "R3_mi_distance",
+     "R4_autocorr",
+     "R5_spectrum",
+     "R6_repeats",
+     "R7a_neighbors_partner",
+     "R7a_neighbors_row",
+     "R7a_neighbors_unit",
+     "R7b_clusters",
+     "R8_dictionary",
+     "R9",
+     "overview"
+    ],
+    "all_figures": true,
+    "not_applicable": [
+     "R10",
+     "R7a_partner",
+     "R7a_unit",
+     "R7b",
+     "R8",
+     "R9"
+    ],
+    "pass": true
+   }
+  }
+ },
+ "4_isolation": {
+  "files": [
+   "redundancy/indicators/__init__.py",
+   "redundancy/indicators/common.py",
+   "redundancy/indicators/r1.py",
+   "redundancy/indicators/r10.py",
+   "redundancy/indicators/r2.py",
+   "redundancy/indicators/r3.py",
+   "redundancy/indicators/r4.py",
+   "redundancy/indicators/r5.py",
+   "redundancy/indicators/r6.py",
+   "redundancy/indicators/r7a.py",
+   "redundancy/indicators/r7b.py",
+   "redundancy/indicators/r8.py",
+   "redundancy/indicators/r9.py",
+   "redundancy/indicators/sample.py",
+   "redundancy/plot.py",
+   "redundancy/notes.py",
+   "redundancy/style.py",
+   "redundancy/labels.json",
+   "redundancy/baselines.py",
+   "redundancy/breakeven.py"
+  ],
+  "forbidden_words": [
+   "scale",
+   "e2m1",
+   "expert",
+   "w1",
+   "w2",
+   "w3",
+   "mtp"
+  ],
+  "hits": [],
+  "plot_bad_imports": [],
+  "pass": true
+ },
+ "5_reproducible": {
+  "n_files": 41,
+  "different": [],
+  "only_in_one": [],
+  "pass": true
+ },
+ "all_pass": false
+}

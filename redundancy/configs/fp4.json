@@ -1,6 +1,6 @@
 {
  "name": "fp4",
- "label": "FP4 原样本 36 张",
+ "label": "FP4 weights (36 matrices)",
  "seed": 20261116,
  "workers": 48,
  "adapter": {
@@ -29,18 +29,28 @@
    "max_lag": 96,
    "min_amp": 0.002,
    "b": 16,
-   "baseline": "unit"
+   "baseline": "whole",
+   "alt_baselines": [
+    "unit"
+   ]
   },
   "R4": {
    "max_lag": 96,
    "min_amp": 0.02,
-   "baseline": "unit"
+   "baseline": "whole",
+   "alt_baselines": [
+    "unit"
+   ]
   },
   "R5": {
    "show": 64,
    "min_amp": 0.0005,
    "b": 16,
-   "baseline": "whole"
+   "baseline": "random_sign",
+   "gain": {
+    "k": 4,
+    "bins": 16
+   }
   },
   "R6": {
    "ks": [
@@ -56,7 +66,10 @@
     64
    ],
    "min_amp": 0.0001,
-   "baseline": "unit"
+   "baseline": "whole",
+   "alt_baselines": [
+    "unit"
+   ]
   },
   "R7a": {
    "queries": 500,
@@ -119,5 +132,118 @@
    "tv": 0.05
   },
   "R10": {}
+ },
+ "figures": {
+  "dataset_label": "FP4 weights ({n} matrices)",
+  "vocab": {
+   "sym": "code",
+   "Sym": "Code",
+   "var": "C",
+   "unit": "block",
+   "Unit": "Block",
+   "known": "scale",
+   "sym_zh": "码字",
+   "unit_zh": "块",
+   "known_zh": "scale"
+  },
+  "overview": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7a_partner",
+   "R7a_row",
+   "R7b",
+   "R8"
+  ],
+  "R1": {
+   "panels": [
+    "data"
+   ]
+  },
+  "R2": {
+   "panels": [
+    "data"
+   ],
+   "groups": {
+    "scale": "Scale",
+    "row": "Row",
+    "column": "Column",
+    "position_in_block": "Position in block",
+    "layer": "Layer",
+    "role": "Role"
+   }
+  },
+  "R3": {
+   "panels": [
+    "data"
+   ],
+   "unit_line": true,
+   "note_zh": [
+    "相对完全打乱存在的依赖，来自同一块 32 个码字共享同一个 scale：块内打乱（保留每块的码字集合）后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+   ]
+  },
+  "R4": {
+   "panels": [
+    "data"
+   ],
+   "unit_line": true,
+   "note_zh": [
+    "相对完全打乱存在的相关（主要是 |v|），来自同一块共享同一个 scale：块内打乱后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+   ]
+  },
+  "R5": {
+   "panels": [
+    "synthetic_has",
+    "data"
+   ],
+   "synthetic": "rank-4 component (30% of energy)"
+  },
+  "R6": {
+   "panels": [
+    "data"
+   ],
+   "note_zh": [
+    "相对完全打乱的多余重复，来自同一块共享同一个 scale（块内码字分布集中，短窗口更容易重复）：块内打乱后消失。超出完全打乱基线的只有 k = 8（实测 1.41%，完全打乱 0.78%，块内打乱 1.42%）。它与 R2 中 scale 分组的收益是同一来源，不能相加；也不是“一段内容原样再现”意义上的长重复。"
+   ]
+  },
+  "R7a_partner": {
+   "panels": [
+    "synthetic_has",
+    "data"
+   ],
+   "synthetic": "correlated row pairs",
+   "title": "Correlation between corresponding rows of W1 and W3",
+   "xlabel": "|Correlation| between row $i$ of W1 and row $i$ of W3",
+   "dataset_label": "FP4 weights ({n} W1–W3 pairs)"
+  },
+  "R7a_row": {
+   "panels": [
+    "data"
+   ]
+  },
+  "R7b": {
+   "panels": [
+    "synthetic_has",
+    "data"
+   ],
+   "synthetic": "16 prototype blocks"
+  },
+  "R8": {
+   "panels": [
+    "data"
+   ],
+   "s": 4,
+   "breakeven_bits": 16
+  },
+  "R7a_unit": {
+   "panels": []
+  },
+  "R9": {
+   "panels": []
+  },
+  "overview_title": "FP4 weights: 36 matrices (R7a corresponding rows: 12 W1–W3 pairs; R8: 12 matrices)"
  }
 }

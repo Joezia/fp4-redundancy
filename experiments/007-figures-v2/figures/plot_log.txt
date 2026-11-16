@@ -1,0 +1,1 @@
+labels: English (DejaVu Sans); sizes: ticks 12, axis labels 14, titles 15, legend 12 pt

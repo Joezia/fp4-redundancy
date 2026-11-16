@@ -1,15 +1,15 @@
 """R6: a stretch of content recurs verbatim. For every window length k: the fraction of in-row
 windows of length k that repeat an earlier window anywhere in the entry (windows - distinct windows,
-counted exactly), on symbols with equivalent symbols merged. Baseline: shuffle inside units (whole
-shuffle without units). Break-even: repeat length > log2(N) / H."""
+counted exactly), on symbols with equivalent symbols merged. Baseline: the configured shuffle
+(`baseline`; extra ones in `alt_baselines` are stored for reference). Break-even: repeat length > log2(N) / H."""
 import math
 
 import numpy as np
 
 from .. import baselines, breakeven
 from ..dataset import entropy
-from .common import (REPS, applicable, band, exceed_stats, med_baseline, mean_sd, nanlist,
-                     not_applicable_summary, rng, verdict)
+from .common import (REPS, applicable, band, baseline_names, exceed_stats, med_baseline, mean_sd,
+                     nanlist, not_applicable_summary, stream, verdict)
 
 FIGURES = ("R6",)
 GOLD = np.uint64(0x9E3779B97F4A7C15)
@@ -88,21 +88,35 @@ def dup_fraction(X, A, ks):
     return out, raw
 
 
+def _baseline(entry, bname, seed, X, ks):
+    reps = []
+    for r in range(REPS):
+        s, _ = baselines.run(bname, entry, stream(seed, "R6", entry.name, bname, r, "unit"), symbols=X,
+                             values=None)
+        reps.append(dup_fraction(s, entry.A, ks)[0])
+    mu, sd = mean_sd(reps)
+    return {"base_mean": nanlist(mu), "base_sd": nanlist(sd), "base_reps": [nanlist(x) for x in reps]}
+
+
 def compute(entry, cfg, seed):
     ks = [int(k) for k in cfg.get("ks", (8, 10, 12, 14, 16, 20, 24, 32, 48, 64))]
     X = entry.canonical()
-    bname = baselines.pick(entry, "R6", cfg.get("baseline", "unit"))
+    bname, alts = baseline_names(entry, "R6", cfg, "unit")
     real, dup = dup_fraction(X, entry.A, ks)
-    reps = []
-    for r in range(REPS):
-        s, _ = baselines.run(bname, entry, rng(seed, "R6", entry.name, r), symbols=X, values=None)
-        reps.append(dup_fraction(s, entry.A, ks)[0])
-    mu, sd = mean_sd(reps)
     H = entropy(np.bincount(X.ravel(), minlength=entry.A))
     kstar = max([k for k, d in zip(ks, dup) if d > 0], default=None)
-    return {"R6": {"ks": ks, "frac": nanlist(real), "dup": dup, "base_mean": nanlist(mu),
-                   "base_sd": nanlist(sd), "base_reps": [nanlist(x) for x in reps], "baseline": bname,
-                   "H": H, "Kstar": kstar, "breakeven": breakeven.repeat_length(entry.N, H)}}
+    out = {"ks": ks, "frac": nanlist(real), "dup": dup, "baseline": bname, "H": H, "Kstar": kstar,
+           "breakeven": breakeven.repeat_length(entry.N, H)}
+    out.update(_baseline(entry, bname, seed, X, ks))
+    if alts:
+        out["alt"] = {b: _baseline(entry, b, seed, X, ks) for b in alts}
+    return {"R6": out}
+
+
+def _judge(items, ks, amp, be):
+    Rm, Mu, Sd = med_baseline(items, "frac", "base_mean", "base_sd")
+    ok, _ = exceed_stats(Rm, Mu, Sd, amp, curve=True)
+    return ok, bool(np.any(ok & (np.asarray(ks) > be)))
 
 
 def aggregate(fig, items, cfg, seed):
@@ -111,15 +125,19 @@ def aggregate(fig, items, cfg, seed):
         return not_applicable_summary(items)
     amp = cfg.get("min_amp", 1e-4)
     ks = items[0][1]["ks"]
-    Rm, Mu, Sd = med_baseline(items, "frac", "base_mean", "base_sd")
-    ok, _ = exceed_stats(Rm, Mu, Sd, amp, curve=True)
     be = float(np.median([r["breakeven"] for _, r in items]))
-    passes = bool(np.any(ok & (np.asarray(ks) > be)))
+    ok, passes = _judge(items, ks, amp, be)
+    alt = {}
+    for b in items[0][1].get("alt", {}):
+        ia = [(nm, {**r, **r["alt"][b]}) for nm, r in items]
+        oka, pa = _judge(ia, ks, amp, be)
+        alt[b] = {"verdict": verdict(bool(oka.any()), pa), "exceed_k": [int(ks[i]) for i in np.flatnonzero(oka)],
+                  "base": band([r["base_mean"] for _, r in ia])}
     kst = [r["Kstar"] for _, r in items if r["Kstar"] is not None]
     return {"summary": {"ks": ks, "real": band([r["frac"] for _, r in items]),
                         "base": band([r["base_mean"] for _, r in items]), "breakeven": be,
                         "Kstar_median": float(np.median(kst)) if kst else None,
-                        "baseline": items[0][1]["baseline"], "n_entries": len(items)},
+                        "baseline": items[0][1]["baseline"], "n_entries": len(items), "alt": alt},
             "verdict": verdict(bool(ok.any()), passes),
             "detail": {"exceed_k": [int(ks[i]) for i in np.flatnonzero(ok)], "min_amp": amp},
             "key": (f"K* = {np.median(kst):g}" if kst else "K* = none") + f", L* = {be:.1f}"}
