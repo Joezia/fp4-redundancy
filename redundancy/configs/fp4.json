@@ -1,0 +1,123 @@
+{
+ "name": "fp4",
+ "label": "FP4 原样本 36 张",
+ "seed": 20261116,
+ "workers": 48,
+ "adapter": {
+  "type": "fp4",
+  "snapshot_env": "SNAPSHOT",
+  "samples": "experiments/r1-r4/samples.json",
+  "partner": {
+   "w1": "w3"
+  }
+ },
+ "synthetic": {
+  "seed": 20261117,
+  "rows": 1024,
+  "cols": 2048,
+  "unit_len": 32
+ },
+ "indicators": {
+  "R1": {
+   "min_amp": 0.01
+  },
+  "R2": {
+   "min_amp": 0.002,
+   "b": 16
+  },
+  "R3": {
+   "max_lag": 96,
+   "min_amp": 0.002,
+   "b": 16,
+   "baseline": "unit"
+  },
+  "R4": {
+   "max_lag": 96,
+   "min_amp": 0.02,
+   "baseline": "unit"
+  },
+  "R5": {
+   "show": 64,
+   "min_amp": 0.0005,
+   "b": 16,
+   "baseline": "whole"
+  },
+  "R6": {
+   "ks": [
+    8,
+    10,
+    12,
+    14,
+    16,
+    20,
+    24,
+    32,
+    48,
+    64
+   ],
+   "min_amp": 0.0001,
+   "baseline": "unit"
+  },
+  "R7a": {
+   "queries": 500,
+   "b": 16,
+   "min_amp_unit": 0.25,
+   "min_amp_corr": 0.005,
+   "min_amp_share": 0.01,
+   "baseline": "known"
+  },
+  "R7b": {
+   "ks": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+   ],
+   "sample": 100000,
+   "iters": 20,
+   "min_amp": 0.005,
+   "baseline": "known"
+  },
+  "R8": {
+   "ks": [
+    16,
+    64,
+    256,
+    1024
+   ],
+   "ss": [
+    1,
+    2,
+    4
+   ],
+   "sample": 100000,
+   "iters": 15,
+   "b": 8,
+   "b_alt": 16,
+   "min_amp": 0.005,
+   "baseline": "known",
+   "entries": [
+    "L0.E164.w1",
+    "L0.E164.w2",
+    "L0.E164.w3",
+    "L13.E49.w1",
+    "L13.E49.w2",
+    "L13.E49.w3",
+    "L26.E12.w1",
+    "L26.E12.w2",
+    "L26.E12.w3",
+    "L39.E61.w1",
+    "L39.E61.w2",
+    "L39.E61.w3"
+   ]
+  },
+  "R9": {
+   "tv": 0.05
+  },
+  "R10": {}
+ }
+}

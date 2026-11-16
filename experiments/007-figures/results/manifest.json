@@ -1,0 +1,333 @@
+{
+ "config": {
+  "adapter": {
+   "partner": {
+    "w1": "w3"
+   },
+   "samples": "experiments/r1-r4/samples.json",
+   "snapshot_env": "SNAPSHOT",
+   "type": "fp4"
+  },
+  "indicators": {
+   "R1": {
+    "min_amp": 0.01
+   },
+   "R10": {},
+   "R2": {
+    "b": 16,
+    "min_amp": 0.002
+   },
+   "R3": {
+    "b": 16,
+    "baseline": "unit",
+    "max_lag": 96,
+    "min_amp": 0.002
+   },
+   "R4": {
+    "baseline": "unit",
+    "max_lag": 96,
+    "min_amp": 0.02
+   },
+   "R5": {
+    "b": 16,
+    "baseline": "whole",
+    "min_amp": 0.0005,
+    "show": 64
+   },
+   "R6": {
+    "baseline": "unit",
+    "ks": [
+     8,
+     10,
+     12,
+     14,
+     16,
+     20,
+     24,
+     32,
+     48,
+     64
+    ],
+    "min_amp": 0.0001
+   },
+   "R7a": {
+    "b": 16,
+    "baseline": "known",
+    "min_amp_corr": 0.005,
+    "min_amp_share": 0.01,
+    "min_amp_unit": 0.25,
+    "queries": 500
+   },
+   "R7b": {
+    "baseline": "known",
+    "iters": 20,
+    "ks": [
+     2,
+     4,
+     8,
+     16,
+     32,
+     64,
+     128,
+     256
+    ],
+    "min_amp": 0.005,
+    "sample": 100000
+   },
+   "R8": {
+    "b": 8,
+    "b_alt": 16,
+    "baseline": "known",
+    "entries": [
+     "L0.E164.w1",
+     "L0.E164.w2",
+     "L0.E164.w3",
+     "L13.E49.w1",
+     "L13.E49.w2",
+     "L13.E49.w3",
+     "L26.E12.w1",
+     "L26.E12.w2",
+     "L26.E12.w3",
+     "L39.E61.w1",
+     "L39.E61.w2",
+     "L39.E61.w3"
+    ],
+    "iters": 15,
+    "ks": [
+     16,
+     64,
+     256,
+     1024
+    ],
+    "min_amp": 0.005,
+    "sample": 100000,
+    "ss": [
+     1,
+     2,
+     4
+    ]
+   },
+   "R9": {
+    "tv": 0.05
+   }
+  },
+  "label": "FP4 原样本 36 张",
+  "name": "fp4",
+  "seed": 20261116,
+  "synthetic": {
+   "cols": 2048,
+   "rows": 1024,
+   "seed": 20261117,
+   "unit_len": 32
+  },
+  "workers": 48
+ },
+ "dataset": "fp4",
+ "figures": [
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7a_partner",
+  "R7a_row",
+  "R7a_unit",
+  "R7b",
+  "R8",
+  "R9_max_level",
+  "R9_odd_count",
+  "R10"
+ ],
+ "keys": {
+  "R1": "H = 3.894 bit, saving = 0.106",
+  "R10": "3 equivalences, 0.1176 bit/symbol in total",
+  "R2": "best = scale: net MI = 0.1269, cost = 6.1e-05",
+  "R3": "MI(d=1) = 0.02621, baseline = 0.02625, break-even = 0.000326",
+  "R4": "ρ(1) = 0.000, |x| ρ(1) = 0.105, bound = 0.000174 bit",
+  "R5": "top share = 0.002474 (baseline 0.001217), break-even = 0.0139",
+  "R6": "K* = 12, L* = 6.2",
+  "R7a_partner": "median |ρ| = 0.152 (baseline 0.010), ρ* = 0.066",
+  "R7a_row": "median max|ρ| = 0.078 (baseline 0.051), ρ* = 0.086",
+  "R7a_unit": "median best = 12 (baseline 12), m* = 13 of 32",
+  "R7b": "ratio(K=64) = 0.831 (baseline 0.831), break-even 0.771",
+  "R8": "R2(K=64, s=2) = 0.356 (baseline 0.356), break-even 0.703 (b = 8)",
+  "R9_max_level": "TV = 0.114; share at 0: 0.000 (expected 3.56e-24)",
+  "R9_odd_count": "TV = 0.444; share at 0: 0.301 (expected 0.0097)"
+ },
+ "label": "FP4 原样本 36 张",
+ "synthetic": {
+  "R1": {
+   "has": {
+    "figure": "R1",
+    "file": "synthetic/R1_has.json",
+    "verdict": "present"
+   },
+   "none": {
+    "figure": "R1",
+    "file": "synthetic/R1_none.json",
+    "verdict": "none"
+   }
+  },
+  "R2": {
+   "has": {
+    "figure": "R2",
+    "file": "synthetic/R2_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R2",
+    "file": "synthetic/R2_none.json",
+    "verdict": "none"
+   }
+  },
+  "R3": {
+   "has": {
+    "figure": "R3",
+    "file": "synthetic/R3_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R3",
+    "file": "synthetic/R3_none.json",
+    "verdict": "none"
+   }
+  },
+  "R4": {
+   "has": {
+    "figure": "R4",
+    "file": "synthetic/R4_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R4",
+    "file": "synthetic/R4_none.json",
+    "verdict": "none"
+   }
+  },
+  "R5": {
+   "has": {
+    "figure": "R5",
+    "file": "synthetic/R5_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R5",
+    "file": "synthetic/R5_none.json",
+    "verdict": "none"
+   }
+  },
+  "R6": {
+   "has": {
+    "figure": "R6",
+    "file": "synthetic/R6_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R6",
+    "file": "synthetic/R6_none.json",
+    "verdict": "none"
+   }
+  },
+  "R7a_partner": {
+   "has": {
+    "figure": "R7a_partner",
+    "file": "synthetic/R7a_partner_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R7a_partner",
+    "file": "synthetic/R7a_partner_none.json",
+    "verdict": "none"
+   }
+  },
+  "R7a_row": {
+   "has": {
+    "figure": "R7a_row",
+    "file": "synthetic/R7a_row_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R7a_row",
+    "file": "synthetic/R7a_row_none.json",
+    "verdict": "none"
+   }
+  },
+  "R7a_unit": {
+   "has": {
+    "figure": "R7a_unit",
+    "file": "synthetic/R7a_unit_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R7a_unit",
+    "file": "synthetic/R7a_unit_none.json",
+    "verdict": "none"
+   }
+  },
+  "R7b": {
+   "has": {
+    "figure": "R7b",
+    "file": "synthetic/R7b_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R7b",
+    "file": "synthetic/R7b_none.json",
+    "verdict": "none"
+   }
+  },
+  "R8": {
+   "has": {
+    "figure": "R8",
+    "file": "synthetic/R8_has.json",
+    "verdict": "present_breakeven"
+   },
+   "none": {
+    "figure": "R8",
+    "file": "synthetic/R8_none.json",
+    "verdict": "none"
+   }
+  },
+  "R9_count_in_unit": {
+   "has": {
+    "figure": "R9_count_in_unit",
+    "file": "synthetic/R9_count_in_unit_has.json",
+    "verdict": "present"
+   },
+   "none": {
+    "figure": "R9_count_in_unit",
+    "file": "synthetic/R9_count_in_unit_none.json",
+    "verdict": "none"
+   }
+  },
+  "R9_max_rank_in_unit": {
+   "has": {
+    "figure": "R9_max_rank_in_unit",
+    "file": "synthetic/R9_max_rank_in_unit_has.json",
+    "verdict": "present"
+   },
+   "none": {
+    "figure": "R9_max_rank_in_unit",
+    "file": "synthetic/R9_max_rank_in_unit_none.json",
+    "verdict": "none"
+   }
+  }
+ },
+ "verdicts": {
+  "R1": "present",
+  "R10": "present",
+  "R2": "present_breakeven",
+  "R3": "none",
+  "R4": "none",
+  "R5": "present",
+  "R6": "none",
+  "R7a_partner": "present_breakeven",
+  "R7a_row": "present_breakeven",
+  "R7a_unit": "none",
+  "R7b": "none",
+  "R8": "none",
+  "R9_max_level": "present",
+  "R9_odd_count": "present"
+ }
+}

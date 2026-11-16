@@ -1,0 +1,236 @@
+{
+ "zh": {
+  "panel_none": "合成：无",
+  "panel_has": "合成：有",
+  "verdict": {
+   "none": "无",
+   "present": "存在",
+   "present_breakeven": "存在，过回本线",
+   "present_below": "存在，未过回本线",
+   "not_applicable": "不适用"
+  },
+  "breakeven": "break-even",
+  "real": "实测",
+  "baseline": "基线",
+  "band": "最小–最大",
+  "na_text": "不适用",
+  "titles": {
+   "R1": "R1 符号概率不均匀",
+   "R2": "R2 不同分组的分布不同",
+   "R3": "R3 与邻近符号有关系",
+   "R4": "R4 与邻近数值有线性关系",
+   "R5": "R5 各行是少数图案的混合",
+   "R6": "R6 一段内容原样再现",
+   "R7a_unit": "R7a 短段与另一段相似（成对）",
+   "R7a_row": "R7a 行与另一行相似（成对）",
+   "R7a_partner": "R7a 行与 partner 的对应行相似",
+   "R7b": "R7b 段与段相似（成群）",
+   "R8": "R8 各段只用字典里少数原子",
+   "R9": "R9 产生过程的约束",
+   "R10": "R10 等价存法"
+  },
+  "axes": {
+   "R1": [
+    "符号",
+    "概率"
+   ],
+   "R2": [
+    "符号",
+    "概率"
+   ],
+   "R3": [
+    "距离 d",
+    "互信息（bit）"
+   ],
+   "R4": [
+    "距离 d",
+    "相关系数"
+   ],
+   "R5": [
+    "层序号",
+    "能量份额"
+   ],
+   "R6": [
+    "长度 k",
+    "重复比例"
+   ],
+   "R7a_unit": [
+    "相同位置数",
+    "段的比例"
+   ],
+   "R7a_row": [
+    "最大 |相关系数|",
+    "行的比例"
+   ],
+   "R7a_partner": [
+    "|相关系数|",
+    "行的比例"
+   ],
+   "R7b": [
+    "原型个数 K",
+    "失真比"
+   ],
+   "R8": [
+    "字典大小 K",
+    "解释比例 R²"
+   ],
+   "R9": [
+    "每单位的取值（{name}）",
+    "比例"
+   ]
+  },
+  "legend": {
+   "uniform": "均匀 1/A",
+   "overall": "整体",
+   "noise": "噪声带 ±5/√n",
+   "abs": "|x|",
+   "value": "x",
+   "expected": "无约束时的预期",
+   "observed": "实际",
+   "s": "s = {s}",
+   "zero_floor": "0 画在下限"
+  },
+  "r2_table": "分组变量：净互信息 / 回本线",
+  "r10_table": "等价存法：log2 个数，折合 bit/符号",
+  "overview": "被测数据总览",
+  "md_header": [
+   "规律",
+   "图",
+   "指标",
+   "判定",
+   "关键数字"
+  ],
+  "indicator": {
+   "R1": "各符号占比",
+   "R2": "I(符号; 分组) − 打乱基线",
+   "R3": "I(x_j; x_j+d)",
+   "R4": "自相关 ρ(d)",
+   "R5": "奇异值能量份额",
+   "R6": "长度 k 窗口的重复比例",
+   "R7a_unit": "最近邻的相同位置数",
+   "R7a_row": "最近邻行的 |ρ|",
+   "R7a_partner": "对应行的 |ρ|",
+   "R7b": "k-means 留出失真比",
+   "R8": "字典留出 R²",
+   "R9": "实际与预期分布的总变差",
+   "R10": "等价存法个数"
+  }
+ },
+ "en": {
+  "panel_none": "Synthetic: none",
+  "panel_has": "Synthetic: present",
+  "verdict": {
+   "none": "none",
+   "present": "present",
+   "present_breakeven": "present, past break-even",
+   "present_below": "present, below break-even",
+   "not_applicable": "not applicable"
+  },
+  "breakeven": "break-even",
+  "real": "measured",
+  "baseline": "baseline",
+  "band": "min–max",
+  "na_text": "not applicable",
+  "titles": {
+   "R1": "R1 non-uniform symbol probabilities",
+   "R2": "R2 distributions differ between groups",
+   "R3": "R3 relation with nearby symbols",
+   "R4": "R4 linear relation with nearby values",
+   "R5": "R5 rows mix a few patterns",
+   "R6": "R6 content recurs verbatim",
+   "R7a_unit": "R7a short segment resembles another",
+   "R7a_row": "R7a row resembles another row",
+   "R7a_partner": "R7a row resembles its partner row",
+   "R7b": "R7b segments form clusters",
+   "R8": "R8 segments use few dictionary atoms",
+   "R9": "R9 constraints of the generating process",
+   "R10": "R10 equivalent encodings"
+  },
+  "axes": {
+   "R1": [
+    "symbol",
+    "probability"
+   ],
+   "R2": [
+    "symbol",
+    "probability"
+   ],
+   "R3": [
+    "distance d",
+    "mutual information (bit)"
+   ],
+   "R4": [
+    "distance d",
+    "correlation"
+   ],
+   "R5": [
+    "layer",
+    "energy share"
+   ],
+   "R6": [
+    "length k",
+    "repeated fraction"
+   ],
+   "R7a_unit": [
+    "equal positions",
+    "fraction of segments"
+   ],
+   "R7a_row": [
+    "max |correlation|",
+    "fraction of rows"
+   ],
+   "R7a_partner": [
+    "|correlation|",
+    "fraction of rows"
+   ],
+   "R7b": [
+    "prototypes K",
+    "distortion ratio"
+   ],
+   "R8": [
+    "dictionary size K",
+    "explained share R²"
+   ],
+   "R9": [
+    "value per unit ({name})",
+    "fraction"
+   ]
+  },
+  "legend": {
+   "uniform": "uniform 1/A",
+   "overall": "overall",
+   "noise": "noise ±5/√n",
+   "abs": "|x|",
+   "value": "x",
+   "expected": "expected without constraint",
+   "observed": "observed",
+   "s": "s = {s}",
+   "zero_floor": "0 drawn at floor"
+  },
+  "r2_table": "group variables: net MI / break-even",
+  "r10_table": "equivalences: log2 count, bit/symbol",
+  "overview": "Overview of the measured data",
+  "md_header": [
+   "pattern",
+   "figure",
+   "indicator",
+   "verdict",
+   "key numbers"
+  ],
+  "indicator": {
+   "R1": "symbol shares",
+   "R2": "I(symbol; group) - shuffle baseline",
+   "R3": "I(x_j; x_j+d)",
+   "R4": "autocorrelation ρ(d)",
+   "R5": "singular-value energy share",
+   "R6": "repeated fraction of length-k windows",
+   "R7a_unit": "equal positions with the nearest unit",
+   "R7a_row": "|ρ| with the nearest row",
+   "R7a_partner": "|ρ| with the partner row",
+   "R7b": "k-means held-out distortion ratio",
+   "R8": "dictionary held-out R²",
+   "R9": "total variation, observed vs expected",
+   "R10": "number of equivalent encodings"
+  }
+ }
+}
