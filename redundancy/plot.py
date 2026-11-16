@@ -290,7 +290,9 @@ def d_r6(ax, rec, ctx, fid, extra):
     b = {q: fix(s["real"][q]) for q in ("median", "min", "max")}
     hs = [band_line(ax, x, b, style.REAL, ctx.leg("measured"), marker="o"),
           base_line(ax, x, fix(s["base"]["median"]), ctx.baseline(s["baseline"]), marker="s")]
-    hs.append(vline(ax, s["breakeven"], ctx.leg("breakeven")))
+    show_be = ctx.fig(fid).get("breakeven_line", True)
+    if show_be:
+        hs.append(vline(ax, s["breakeven"], ctx.leg("breakeven")))
     ax.set_yscale("log")
     top = max(pos.max() if len(pos) else d0, d0) * 3
     ax.set_ylim(floor / 2, top)
@@ -310,7 +312,7 @@ def d_r6(ax, rec, ctx, fid, extra):
     ax.xaxis.set_major_locator(FixedLocator(xt))
     ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:g}"))
     ax.xaxis.set_minor_locator(FixedLocator([]))
-    lo_x = min(xt[0], s["breakeven"]) / 1.15
+    lo_x = (min(xt[0], s["breakeven"]) if show_be else xt[0]) / 1.15
     ax.set_xlim(lo_x, xt[-1] * 1.15)
     return hs, {"log_y": True, "fixed_y": True}
 

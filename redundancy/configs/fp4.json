@@ -213,11 +213,11 @@
    ],
    "note_zh": [
     "长度 8 处的超出来自同块共享同一个 scale（块内码字分布集中，短窗口更容易重复）：实测 1.41%，完全打乱 0.78%，块内打乱 1.42%，块内打乱后超出消失。它与 R2 中 scale 分组的收益是同一来源，不能相加；也不是“一段内容原样再现”意义上的长重复。"
-   ]
+   ],
+   "breakeven_line": false
   },
   "R7a_partner": {
    "panels": [
-    "synthetic_has",
     "data"
    ],
    "synthetic": "correlated row pairs",
@@ -235,7 +235,6 @@
   },
   "R7b": {
    "panels": [
-    "synthetic_has",
     "data"
    ],
    "synthetic": "16 prototype blocks",

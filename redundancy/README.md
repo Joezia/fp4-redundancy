@@ -71,7 +71,7 @@ python -m redundancy.plot --results <结果目录> --out <图目录>
   - `dataset_label`：被测数据一联的标题，`{n}` 换成条目数；各图也可单独给。
   - `vocab`：图中的通用词，如 `sym`（符号叫什么）、`var`（符号变量的字母）、`unit`（局部单位叫什么）、`known`（已知分组叫什么），以及 `*_zh`（中文说明用）。
   - `<图>.panels`：保留哪几联，取 `synthetic_none`、`synthetic_has`、`data`；空列表表示不出图。省略时画出全部可用的联。
-  - `<图>.title`、`xlabel`、`synthetic`（合成一联的结构描述，标题为 “Synthetic: <描述>”）、`baseline_legend`（图例改用另一种基线的名称，如取样已使两种打乱等价时）、`unit_line`（R3、R4 在单位长度处画点线）、`groups`（R2 保留的分组及显示名）、`s` 与 `breakeven_bits`（R8）、`note_zh`（写进说明的补充）。
+  - `<图>.title`、`xlabel`、`synthetic`（合成一联的结构描述，标题为 “Synthetic: <描述>”）、`baseline_legend`（图例改用另一种基线的名称，如取样已使两种打乱等价时）、`unit_line`（R3、R4 在单位长度处画点线）、`groups`（R2 保留的分组及显示名）、`s` 与 `breakeven_bits`（R8）、`breakeven_line`（R6，默认 true；false 时不画回本长度，横轴下限只按数据取）、`note_zh`（写进说明的补充）。
   - `overview`：总览图的各联。
 
 ## 判定规则（写在 `indicators/common.py`）

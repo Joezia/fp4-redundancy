@@ -190,10 +190,11 @@ class Notes:
     def r6(self, rec):
         s = rec["summary"]
         d = rec["detail"]["exceed_k"]
+        show = self.ctx.fig("R6").get("breakeven_line", True)
         return {
             "axes": ["横轴：窗口长度 k（{sym_zh}数），标出全部计算过的 k：" + ", ".join(str(k) for k in s["ks"]) + "（对数轴）。",
                      "纵轴：重复窗口占全部窗口的比例（%，对数轴）；最下方的刻度为 0，轴断裂记号以下的点表示 0。"],
-            "lines": [f"蓝线：实测（{s['n_entries']} 个条目中位数，浅色阴影为最小–最大）；灰线：基线；橙色竖虚线：回本长度。"],
+            "lines": [f"蓝线：实测（{s['n_entries']} 个条目中位数，浅色阴影为最小–最大）；灰线：基线" + ("；橙色竖虚线：回本长度。" if show else "。图中不画回本长度，横轴下限只按数据取。")],
             "baseline": f"{self.base_zh(s['baseline'])}，3 次重复。",
             "breakeven": f"复制一段要记位置，约 log2 N bit；长度 L* = log2 N / H 以上才划算，L* = {g(s['breakeven'], 3)}。",
             "keys": self._r6_need(s) + [f"最长出现重复的 k（中位数）：{g(s.get('Kstar_median'))}。",
@@ -215,6 +216,15 @@ class Notes:
                     + (f"；基线最多 {pct(max(v for _, v in bmax), 2)}" if bmax else "；基线为 0") + "）")
         return [txt + "；短长度处超出基线的部分见下方说明。"]
 
+    def two(self, fid):
+        return len(self.ctx.fig(fid).get("panels") or []) > 1
+
+    def syn_key(self, fid, sh, fn):
+        """Synthetic 'has' key line: labelled (a) when drawn, otherwise marked as not drawn."""
+        if not sh:
+            return []
+        return [fn(sh, "(a) " if self.two(fid) else "合成“有”数据（图中未画，仅供核对）：")]
+
     def _r7(self, rec, tag):
         s = rec["summary"]
         return (f"{tag}中位数 {g(s['median'], 3)}（基线 {g(s['base_median'], 3)}）；越过回本线的比例 {pct(s['share'])}"
@@ -225,12 +235,13 @@ class Notes:
         return {
             "axes": ["横轴：" + self.ctx.axes("R7a_partner", rec)[0].replace("$", "") + "，0–1 分 100 格。",
                      "纵轴：行的比例（%，对数轴）。"],
-            "lines": ["蓝柱：实测直方图（(b) 为各条目归一化直方图的逐格中位数）；灰色阶梯线：基线；橙色竖虚线：回本线。",
-                      "随机置换偶尔把某一行配回它自己的对应行（每次约 1 行），所以 (a) 的基线在实测峰附近有一个高约 1/(3R) 的小格（3 次重复的平均）；"
-                      "这是基线做法本身的性质，不是数据的结构。"],
+            "lines": (["蓝柱：实测直方图（(b) 为各条目归一化直方图的逐格中位数）；灰色阶梯线：基线；橙色竖虚线：回本线。",
+                       "随机置换偶尔把某一行配回它自己的对应行（每次约 1 行），所以 (a) 的基线在实测峰附近有一个高约 1/(3R) 的小格（3 次重复的平均）；"
+                       "这是基线做法本身的性质，不是数据的结构。"] if self.two("R7a_partner") else
+                      ["蓝柱：实测直方图（各条目归一化直方图的逐格中位数）；灰色阶梯线：基线；橙色竖虚线：回本线。"]),
             "baseline": "对应行随机配对（把配对矩阵的行随机置换），3 次重复。",
             "breakeven": "用另一行预测本行、只付 16 bit 系数：|ρ| > sqrt(1 − 2^(−2·16 / W))，W 为行长。",
-            "keys": ([self._r7(sh, "(a) ")] if sh else []) + [self._r7(rec, "(b) ")]}
+            "keys": self.syn_key("R7a_partner", sh, self._r7) + [self._r7(rec, "(b) " if self.two("R7a_partner") else "")]}
 
     def r7a_row(self, rec):
         return {
@@ -251,11 +262,11 @@ class Notes:
         return {
             "axes": ["横轴：原型（质心）个数 K = " + ", ".join(str(k) for k in rec["summary"]["ks"]) + "（对数轴，全部标出）。",
                      "纵轴：留出失真比（%）= 留出{unit_zh}到最近原型的平方距离 / 到拟合半的均值的平方距离。"],
-            "lines": ["蓝线：实测（(b) 为条目中位数，浅色阴影为最小–最大）；灰线：基线；橙色虚线：回本线。"],
+            "lines": ["蓝线：实测（" + ("(b) 为" if self.two("R7b") else "") + "条目中位数，浅色阴影为最小–最大）；灰线：基线；橙色虚线：回本线。"],
             "baseline": f"{self.base_zh(rec['summary']['baseline'])}，整条流程重复 3 次。",
             "breakeven": "每个{unit_zh}只付 log2 K bit 原型编号：失真比 < 2^(−2·log2 K / L)，L 为{unit_zh}长。"
                          "这条线不含参数位数（原型表的成本未计入），因此与 16 bit 的统一约定无关。",
-            "keys": ([self._r7b(sh, "(a) ")] if sh else []) + [self._r7b(rec, "(b) ")]}
+            "keys": self.syn_key("R7b", sh, self._r7b) + [self._r7b(rec, "(b) " if self.two("R7b") else "")]}
 
     def r8(self, rec):
         s = rec["summary"]
