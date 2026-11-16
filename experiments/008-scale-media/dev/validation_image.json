@@ -1,0 +1,80 @@
+{
+ "unit": "% of raw bits",
+ "zero_tolerance": 0.2,
+ "checks": {
+  "V1_image": {
+   "name": "V1 (2-D chain) i.i.d. image, 512 x 768 x 3, clipped Laplace (scale 12) around 128",
+   "theory": {
+    "R1": 24.63210616876936,
+    "others": 0.0
+   },
+   "measured": {
+    "R1": 24.5953366510116,
+    "R2": -1.0596381293402777e-05,
+    "R3": -1.0596381293402777e-05,
+    "R4": -1.0596381293402777e-05,
+    "R5": -1.0596381293402777e-05,
+    "R6": -1.0596381293402777e-05,
+    "R7": -1.0596381293402777e-05,
+    "R8": -1.0596381293402777e-05,
+    "R10": -1.2534114904871687
+   },
+   "tolerance": {
+    "R1": "|measured - theory| <= 0.1 %",
+    "others": "|x| <= 0.2 % (R10 excluded: the colour transform of independent channels mixes them and is expected to cost)"
+   },
+   "pass": true,
+   "violations": {},
+   "note": "theory uses the empirical per-channel entropy of the generated image",
+   "seconds": 122.90487384796143,
+   "if_forced_on": [
+    {
+     "R1": 24.5953366510116,
+     "R2": -0.0018222852692496695,
+     "R3": -0.2269569647594949,
+     "R4": -0.14989556002081234,
+     "R5": -0.6448673203900906,
+     "R6": -4.569403755125576e-05,
+     "R7": -0.002421411742749137,
+     "R8": -0.00023687973023100994,
+     "R10": -1.2534114904871687
+    }
+   ]
+  },
+  "V5_image": {
+   "name": "V5 (2-D chain) shuffle baseline on kodim13.png: each channel's pixels fully shuffled",
+   "theory": {
+    "all but R1": 0.0
+   },
+   "measured": {
+    "R1": 6.86263669888984,
+    "R2": -1.0596381293402777e-05,
+    "R3": -1.0596381293402777e-05,
+    "R4": -1.0596381293402777e-05,
+    "R5": -1.0596381293402777e-05,
+    "R6": -1.0596381293402777e-05,
+    "R7": -1.0596381293402777e-05,
+    "R8": -1.0596381293402777e-05,
+    "R10": -4.005379551144807
+   },
+   "tolerance": "|x| <= 0.2 % for every pattern but R1 and R10 (R10 is reported; shuffling each channel separately makes the channels independent, so the colour transform is expected to cost)",
+   "pass": true,
+   "violations": {},
+   "seconds": 127.53741979598999,
+   "if_forced_on": [
+    {
+     "R1": 6.86263669888984,
+     "R2": -0.015476718016750447,
+     "R3": -1.1173831697070153,
+     "R4": -0.5288722122298929,
+     "R5": -1.5113548534260661,
+     "R6": -1.0596381293402777e-05,
+     "R7": -1.8061740002358482,
+     "R8": -0.9214820461120333,
+     "R10": -4.005379551144807
+    }
+   ]
+  }
+ },
+ "all_pass_1d": true
+}

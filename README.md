@@ -129,6 +129,19 @@
 
 结果见[第二版说明](experiments/007-figures-v2/summary.md)。
 
+实验 008 新增通用的“逐模式增量节省”模块 [`redundancy/increment.py`](redundancy/increment.py)：
+- 做法：链式模型，用顺序自适应码长；边信息按实际比特计费；R2–R8 各带一个开关位。做法见 [method.md](experiments/008-scale-media/method.md)。
+- 验证：合成数据上 V1–V5 全部通过。
+- 真实媒体数据上的总节省（% 原始比特，默认顺序）：
+
+| 数据集 | 总节省 | 最大的一项 | 真实 codec |
+| --- | ---: | --- | ---: |
+| SQAM 偶数曲目 | 78.6% | R1 | FLAC -8：70.8% |
+| LibriSpeech test-clean | 42.5% | R1 | FLAC -8：44.8% |
+| Kodak 13–24 | 57.9% | R4 | PNG：43.3% |
+
+数据来源见 [data_sources.md](experiments/008-scale-media/data_sources.md)。FP4 扩大抽样（Part 1）和 FP4 汇总仍在运行，完成后再更新这里。
+
 ## 使用
 
 首次使用复制`.env.example`为`.env`并设置本地路径，然后在仓库根目录加载 `source .env`。查看已实现方法：`PYTHONPATH=src python3 -m fp4_redundancy methods`。
