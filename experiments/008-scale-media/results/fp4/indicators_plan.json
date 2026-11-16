@@ -1,0 +1,6457 @@
+{
+ "note": "complete rounds only: B rounds 1-4, A rounds [11, 12]",
+ "E_B": 4,
+ "E_A": 6,
+ "tasks": [
+  {
+   "id": "round1.L0.E323",
+   "round": 1,
+   "layer": 0,
+   "expert": 323,
+   "shard": "model-00003-of-00048.safetensors",
+   "entries": [
+    "L0.E323.w3",
+    "L0.E323.w1",
+    "L0.E323.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L1.E312",
+   "round": 1,
+   "layer": 1,
+   "expert": 312,
+   "shard": "model-00004-of-00048.safetensors",
+   "entries": [
+    "L1.E312.w3",
+    "L1.E312.w1",
+    "L1.E312.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L2.E118",
+   "round": 1,
+   "layer": 2,
+   "expert": 118,
+   "shard": "model-00005-of-00048.safetensors",
+   "entries": [
+    "L2.E118.w3",
+    "L2.E118.w1",
+    "L2.E118.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L3.E70",
+   "round": 1,
+   "layer": 3,
+   "expert": 70,
+   "shard": "model-00006-of-00048.safetensors",
+   "entries": [
+    "L3.E70.w3",
+    "L3.E70.w1",
+    "L3.E70.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L4.E121",
+   "round": 1,
+   "layer": 4,
+   "expert": 121,
+   "shard": "model-00007-of-00048.safetensors",
+   "entries": [
+    "L4.E121.w3",
+    "L4.E121.w1",
+    "L4.E121.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L5.E300",
+   "round": 1,
+   "layer": 5,
+   "expert": 300,
+   "shard": "model-00008-of-00048.safetensors",
+   "entries": [
+    "L5.E300.w3",
+    "L5.E300.w1",
+    "L5.E300.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L6.E354",
+   "round": 1,
+   "layer": 6,
+   "expert": 354,
+   "shard": "model-00009-of-00048.safetensors",
+   "entries": [
+    "L6.E354.w3",
+    "L6.E354.w1",
+    "L6.E354.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L7.E289",
+   "round": 1,
+   "layer": 7,
+   "expert": 289,
+   "shard": "model-00010-of-00048.safetensors",
+   "entries": [
+    "L7.E289.w3",
+    "L7.E289.w1",
+    "L7.E289.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L8.E2",
+   "round": 1,
+   "layer": 8,
+   "expert": 2,
+   "shard": "model-00011-of-00048.safetensors",
+   "entries": [
+    "L8.E2.w3",
+    "L8.E2.w1",
+    "L8.E2.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L9.E23",
+   "round": 1,
+   "layer": 9,
+   "expert": 23,
+   "shard": "model-00012-of-00048.safetensors",
+   "entries": [
+    "L9.E23.w3",
+    "L9.E23.w1",
+    "L9.E23.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L10.E85",
+   "round": 1,
+   "layer": 10,
+   "expert": 85,
+   "shard": "model-00013-of-00048.safetensors",
+   "entries": [
+    "L10.E85.w3",
+    "L10.E85.w1",
+    "L10.E85.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L11.E264",
+   "round": 1,
+   "layer": 11,
+   "expert": 264,
+   "shard": "model-00014-of-00048.safetensors",
+   "entries": [
+    "L11.E264.w3",
+    "L11.E264.w1",
+    "L11.E264.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L12.E91",
+   "round": 1,
+   "layer": 12,
+   "expert": 91,
+   "shard": "model-00015-of-00048.safetensors",
+   "entries": [
+    "L12.E91.w3",
+    "L12.E91.w1",
+    "L12.E91.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L13.E215",
+   "round": 1,
+   "layer": 13,
+   "expert": 215,
+   "shard": "model-00016-of-00048.safetensors",
+   "entries": [
+    "L13.E215.w3",
+    "L13.E215.w1",
+    "L13.E215.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L14.E124",
+   "round": 1,
+   "layer": 14,
+   "expert": 124,
+   "shard": "model-00017-of-00048.safetensors",
+   "entries": [
+    "L14.E124.w3",
+    "L14.E124.w1",
+    "L14.E124.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L15.E266",
+   "round": 1,
+   "layer": 15,
+   "expert": 266,
+   "shard": "model-00018-of-00048.safetensors",
+   "entries": [
+    "L15.E266.w3",
+    "L15.E266.w1",
+    "L15.E266.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L16.E228",
+   "round": 1,
+   "layer": 16,
+   "expert": 228,
+   "shard": "model-00019-of-00048.safetensors",
+   "entries": [
+    "L16.E228.w3",
+    "L16.E228.w1",
+    "L16.E228.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L17.E323",
+   "round": 1,
+   "layer": 17,
+   "expert": 323,
+   "shard": "model-00020-of-00048.safetensors",
+   "entries": [
+    "L17.E323.w3",
+    "L17.E323.w1",
+    "L17.E323.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L18.E258",
+   "round": 1,
+   "layer": 18,
+   "expert": 258,
+   "shard": "model-00021-of-00048.safetensors",
+   "entries": [
+    "L18.E258.w3",
+    "L18.E258.w1",
+    "L18.E258.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L19.E248",
+   "round": 1,
+   "layer": 19,
+   "expert": 248,
+   "shard": "model-00022-of-00048.safetensors",
+   "entries": [
+    "L19.E248.w3",
+    "L19.E248.w1",
+    "L19.E248.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L20.E86",
+   "round": 1,
+   "layer": 20,
+   "expert": 86,
+   "shard": "model-00023-of-00048.safetensors",
+   "entries": [
+    "L20.E86.w3",
+    "L20.E86.w1",
+    "L20.E86.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L21.E327",
+   "round": 1,
+   "layer": 21,
+   "expert": 327,
+   "shard": "model-00024-of-00048.safetensors",
+   "entries": [
+    "L21.E327.w3",
+    "L21.E327.w1",
+    "L21.E327.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L22.E272",
+   "round": 1,
+   "layer": 22,
+   "expert": 272,
+   "shard": "model-00025-of-00048.safetensors",
+   "entries": [
+    "L22.E272.w3",
+    "L22.E272.w1",
+    "L22.E272.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L23.E59",
+   "round": 1,
+   "layer": 23,
+   "expert": 59,
+   "shard": "model-00026-of-00048.safetensors",
+   "entries": [
+    "L23.E59.w3",
+    "L23.E59.w1",
+    "L23.E59.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L24.E58",
+   "round": 1,
+   "layer": 24,
+   "expert": 58,
+   "shard": "model-00027-of-00048.safetensors",
+   "entries": [
+    "L24.E58.w3",
+    "L24.E58.w1",
+    "L24.E58.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L25.E165",
+   "round": 1,
+   "layer": 25,
+   "expert": 165,
+   "shard": "model-00028-of-00048.safetensors",
+   "entries": [
+    "L25.E165.w3",
+    "L25.E165.w1",
+    "L25.E165.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L26.E318",
+   "round": 1,
+   "layer": 26,
+   "expert": 318,
+   "shard": "model-00029-of-00048.safetensors",
+   "entries": [
+    "L26.E318.w3",
+    "L26.E318.w1",
+    "L26.E318.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L27.E44",
+   "round": 1,
+   "layer": 27,
+   "expert": 44,
+   "shard": "model-00030-of-00048.safetensors",
+   "entries": [
+    "L27.E44.w3",
+    "L27.E44.w1",
+    "L27.E44.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L28.E231",
+   "round": 1,
+   "layer": 28,
+   "expert": 231,
+   "shard": "model-00031-of-00048.safetensors",
+   "entries": [
+    "L28.E231.w3",
+    "L28.E231.w1",
+    "L28.E231.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L29.E316",
+   "round": 1,
+   "layer": 29,
+   "expert": 316,
+   "shard": "model-00032-of-00048.safetensors",
+   "entries": [
+    "L29.E316.w3",
+    "L29.E316.w1",
+    "L29.E316.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L30.E202",
+   "round": 1,
+   "layer": 30,
+   "expert": 202,
+   "shard": "model-00033-of-00048.safetensors",
+   "entries": [
+    "L30.E202.w3",
+    "L30.E202.w1",
+    "L30.E202.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L31.E298",
+   "round": 1,
+   "layer": 31,
+   "expert": 298,
+   "shard": "model-00034-of-00048.safetensors",
+   "entries": [
+    "L31.E298.w3",
+    "L31.E298.w1",
+    "L31.E298.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L32.E271",
+   "round": 1,
+   "layer": 32,
+   "expert": 271,
+   "shard": "model-00035-of-00048.safetensors",
+   "entries": [
+    "L32.E271.w3",
+    "L32.E271.w1",
+    "L32.E271.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L33.E228",
+   "round": 1,
+   "layer": 33,
+   "expert": 228,
+   "shard": "model-00036-of-00048.safetensors",
+   "entries": [
+    "L33.E228.w3",
+    "L33.E228.w1",
+    "L33.E228.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L34.E86",
+   "round": 1,
+   "layer": 34,
+   "expert": 86,
+   "shard": "model-00037-of-00048.safetensors",
+   "entries": [
+    "L34.E86.w3",
+    "L34.E86.w1",
+    "L34.E86.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L35.E167",
+   "round": 1,
+   "layer": 35,
+   "expert": 167,
+   "shard": "model-00038-of-00048.safetensors",
+   "entries": [
+    "L35.E167.w3",
+    "L35.E167.w1",
+    "L35.E167.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L36.E333",
+   "round": 1,
+   "layer": 36,
+   "expert": 333,
+   "shard": "model-00039-of-00048.safetensors",
+   "entries": [
+    "L36.E333.w3",
+    "L36.E333.w1",
+    "L36.E333.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L37.E218",
+   "round": 1,
+   "layer": 37,
+   "expert": 218,
+   "shard": "model-00040-of-00048.safetensors",
+   "entries": [
+    "L37.E218.w3",
+    "L37.E218.w1",
+    "L37.E218.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L38.E170",
+   "round": 1,
+   "layer": 38,
+   "expert": 170,
+   "shard": "model-00041-of-00048.safetensors",
+   "entries": [
+    "L38.E170.w3",
+    "L38.E170.w1",
+    "L38.E170.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L39.E320",
+   "round": 1,
+   "layer": 39,
+   "expert": 320,
+   "shard": "model-00042-of-00048.safetensors",
+   "entries": [
+    "L39.E320.w3",
+    "L39.E320.w1",
+    "L39.E320.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L40.E101",
+   "round": 1,
+   "layer": 40,
+   "expert": 101,
+   "shard": "model-00044-of-00048.safetensors",
+   "entries": [
+    "L40.E101.w3",
+    "L40.E101.w1",
+    "L40.E101.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L41.E77",
+   "round": 1,
+   "layer": 41,
+   "expert": 77,
+   "shard": "model-00045-of-00048.safetensors",
+   "entries": [
+    "L41.E77.w3",
+    "L41.E77.w1",
+    "L41.E77.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round1.L42.E59",
+   "round": 1,
+   "layer": 42,
+   "expert": 59,
+   "shard": "model-00046-of-00048.safetensors",
+   "entries": [
+    "L42.E59.w3",
+    "L42.E59.w1",
+    "L42.E59.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L0.E83",
+   "round": 2,
+   "layer": 0,
+   "expert": 83,
+   "shard": "model-00003-of-00048.safetensors",
+   "entries": [
+    "L0.E83.w3",
+    "L0.E83.w1",
+    "L0.E83.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L1.E186",
+   "round": 2,
+   "layer": 1,
+   "expert": 186,
+   "shard": "model-00004-of-00048.safetensors",
+   "entries": [
+    "L1.E186.w3",
+    "L1.E186.w1",
+    "L1.E186.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L2.E304",
+   "round": 2,
+   "layer": 2,
+   "expert": 304,
+   "shard": "model-00005-of-00048.safetensors",
+   "entries": [
+    "L2.E304.w3",
+    "L2.E304.w1",
+    "L2.E304.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L3.E152",
+   "round": 2,
+   "layer": 3,
+   "expert": 152,
+   "shard": "model-00006-of-00048.safetensors",
+   "entries": [
+    "L3.E152.w3",
+    "L3.E152.w1",
+    "L3.E152.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L4.E73",
+   "round": 2,
+   "layer": 4,
+   "expert": 73,
+   "shard": "model-00007-of-00048.safetensors",
+   "entries": [
+    "L4.E73.w3",
+    "L4.E73.w1",
+    "L4.E73.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L5.E309",
+   "round": 2,
+   "layer": 5,
+   "expert": 309,
+   "shard": "model-00008-of-00048.safetensors",
+   "entries": [
+    "L5.E309.w3",
+    "L5.E309.w1",
+    "L5.E309.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L6.E168",
+   "round": 2,
+   "layer": 6,
+   "expert": 168,
+   "shard": "model-00009-of-00048.safetensors",
+   "entries": [
+    "L6.E168.w3",
+    "L6.E168.w1",
+    "L6.E168.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L7.E61",
+   "round": 2,
+   "layer": 7,
+   "expert": 61,
+   "shard": "model-00010-of-00048.safetensors",
+   "entries": [
+    "L7.E61.w3",
+    "L7.E61.w1",
+    "L7.E61.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L8.E309",
+   "round": 2,
+   "layer": 8,
+   "expert": 309,
+   "shard": "model-00011-of-00048.safetensors",
+   "entries": [
+    "L8.E309.w3",
+    "L8.E309.w1",
+    "L8.E309.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L9.E13",
+   "round": 2,
+   "layer": 9,
+   "expert": 13,
+   "shard": "model-00012-of-00048.safetensors",
+   "entries": [
+    "L9.E13.w3",
+    "L9.E13.w1",
+    "L9.E13.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L10.E254",
+   "round": 2,
+   "layer": 10,
+   "expert": 254,
+   "shard": "model-00013-of-00048.safetensors",
+   "entries": [
+    "L10.E254.w3",
+    "L10.E254.w1",
+    "L10.E254.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L11.E285",
+   "round": 2,
+   "layer": 11,
+   "expert": 285,
+   "shard": "model-00014-of-00048.safetensors",
+   "entries": [
+    "L11.E285.w3",
+    "L11.E285.w1",
+    "L11.E285.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L12.E237",
+   "round": 2,
+   "layer": 12,
+   "expert": 237,
+   "shard": "model-00015-of-00048.safetensors",
+   "entries": [
+    "L12.E237.w3",
+    "L12.E237.w1",
+    "L12.E237.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L13.E85",
+   "round": 2,
+   "layer": 13,
+   "expert": 85,
+   "shard": "model-00016-of-00048.safetensors",
+   "entries": [
+    "L13.E85.w3",
+    "L13.E85.w1",
+    "L13.E85.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L14.E125",
+   "round": 2,
+   "layer": 14,
+   "expert": 125,
+   "shard": "model-00017-of-00048.safetensors",
+   "entries": [
+    "L14.E125.w3",
+    "L14.E125.w1",
+    "L14.E125.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L15.E213",
+   "round": 2,
+   "layer": 15,
+   "expert": 213,
+   "shard": "model-00018-of-00048.safetensors",
+   "entries": [
+    "L15.E213.w3",
+    "L15.E213.w1",
+    "L15.E213.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L16.E272",
+   "round": 2,
+   "layer": 16,
+   "expert": 272,
+   "shard": "model-00019-of-00048.safetensors",
+   "entries": [
+    "L16.E272.w3",
+    "L16.E272.w1",
+    "L16.E272.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L17.E236",
+   "round": 2,
+   "layer": 17,
+   "expert": 236,
+   "shard": "model-00020-of-00048.safetensors",
+   "entries": [
+    "L17.E236.w3",
+    "L17.E236.w1",
+    "L17.E236.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L18.E355",
+   "round": 2,
+   "layer": 18,
+   "expert": 355,
+   "shard": "model-00021-of-00048.safetensors",
+   "entries": [
+    "L18.E355.w3",
+    "L18.E355.w1",
+    "L18.E355.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L19.E58",
+   "round": 2,
+   "layer": 19,
+   "expert": 58,
+   "shard": "model-00022-of-00048.safetensors",
+   "entries": [
+    "L19.E58.w3",
+    "L19.E58.w1",
+    "L19.E58.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L20.E24",
+   "round": 2,
+   "layer": 20,
+   "expert": 24,
+   "shard": "model-00023-of-00048.safetensors",
+   "entries": [
+    "L20.E24.w3",
+    "L20.E24.w1",
+    "L20.E24.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L21.E71",
+   "round": 2,
+   "layer": 21,
+   "expert": 71,
+   "shard": "model-00024-of-00048.safetensors",
+   "entries": [
+    "L21.E71.w3",
+    "L21.E71.w1",
+    "L21.E71.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L22.E230",
+   "round": 2,
+   "layer": 22,
+   "expert": 230,
+   "shard": "model-00025-of-00048.safetensors",
+   "entries": [
+    "L22.E230.w3",
+    "L22.E230.w1",
+    "L22.E230.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L23.E307",
+   "round": 2,
+   "layer": 23,
+   "expert": 307,
+   "shard": "model-00026-of-00048.safetensors",
+   "entries": [
+    "L23.E307.w3",
+    "L23.E307.w1",
+    "L23.E307.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L24.E20",
+   "round": 2,
+   "layer": 24,
+   "expert": 20,
+   "shard": "model-00027-of-00048.safetensors",
+   "entries": [
+    "L24.E20.w3",
+    "L24.E20.w1",
+    "L24.E20.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L25.E17",
+   "round": 2,
+   "layer": 25,
+   "expert": 17,
+   "shard": "model-00028-of-00048.safetensors",
+   "entries": [
+    "L25.E17.w3",
+    "L25.E17.w1",
+    "L25.E17.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L26.E90",
+   "round": 2,
+   "layer": 26,
+   "expert": 90,
+   "shard": "model-00029-of-00048.safetensors",
+   "entries": [
+    "L26.E90.w3",
+    "L26.E90.w1",
+    "L26.E90.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L27.E62",
+   "round": 2,
+   "layer": 27,
+   "expert": 62,
+   "shard": "model-00030-of-00048.safetensors",
+   "entries": [
+    "L27.E62.w3",
+    "L27.E62.w1",
+    "L27.E62.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L28.E283",
+   "round": 2,
+   "layer": 28,
+   "expert": 283,
+   "shard": "model-00031-of-00048.safetensors",
+   "entries": [
+    "L28.E283.w3",
+    "L28.E283.w1",
+    "L28.E283.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L29.E114",
+   "round": 2,
+   "layer": 29,
+   "expert": 114,
+   "shard": "model-00032-of-00048.safetensors",
+   "entries": [
+    "L29.E114.w3",
+    "L29.E114.w1",
+    "L29.E114.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L30.E27",
+   "round": 2,
+   "layer": 30,
+   "expert": 27,
+   "shard": "model-00033-of-00048.safetensors",
+   "entries": [
+    "L30.E27.w3",
+    "L30.E27.w1",
+    "L30.E27.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L31.E100",
+   "round": 2,
+   "layer": 31,
+   "expert": 100,
+   "shard": "model-00034-of-00048.safetensors",
+   "entries": [
+    "L31.E100.w3",
+    "L31.E100.w1",
+    "L31.E100.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L32.E141",
+   "round": 2,
+   "layer": 32,
+   "expert": 141,
+   "shard": "model-00035-of-00048.safetensors",
+   "entries": [
+    "L32.E141.w3",
+    "L32.E141.w1",
+    "L32.E141.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L33.E342",
+   "round": 2,
+   "layer": 33,
+   "expert": 342,
+   "shard": "model-00036-of-00048.safetensors",
+   "entries": [
+    "L33.E342.w3",
+    "L33.E342.w1",
+    "L33.E342.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L34.E24",
+   "round": 2,
+   "layer": 34,
+   "expert": 24,
+   "shard": "model-00037-of-00048.safetensors",
+   "entries": [
+    "L34.E24.w3",
+    "L34.E24.w1",
+    "L34.E24.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L35.E382",
+   "round": 2,
+   "layer": 35,
+   "expert": 382,
+   "shard": "model-00038-of-00048.safetensors",
+   "entries": [
+    "L35.E382.w3",
+    "L35.E382.w1",
+    "L35.E382.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L36.E122",
+   "round": 2,
+   "layer": 36,
+   "expert": 122,
+   "shard": "model-00039-of-00048.safetensors",
+   "entries": [
+    "L36.E122.w3",
+    "L36.E122.w1",
+    "L36.E122.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L37.E25",
+   "round": 2,
+   "layer": 37,
+   "expert": 25,
+   "shard": "model-00040-of-00048.safetensors",
+   "entries": [
+    "L37.E25.w3",
+    "L37.E25.w1",
+    "L37.E25.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L38.E125",
+   "round": 2,
+   "layer": 38,
+   "expert": 125,
+   "shard": "model-00041-of-00048.safetensors",
+   "entries": [
+    "L38.E125.w3",
+    "L38.E125.w1",
+    "L38.E125.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L39.E368",
+   "round": 2,
+   "layer": 39,
+   "expert": 368,
+   "shard": "model-00042-of-00048.safetensors",
+   "entries": [
+    "L39.E368.w3",
+    "L39.E368.w1",
+    "L39.E368.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L40.E71",
+   "round": 2,
+   "layer": 40,
+   "expert": 71,
+   "shard": "model-00044-of-00048.safetensors",
+   "entries": [
+    "L40.E71.w3",
+    "L40.E71.w1",
+    "L40.E71.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L41.E99",
+   "round": 2,
+   "layer": 41,
+   "expert": 99,
+   "shard": "model-00045-of-00048.safetensors",
+   "entries": [
+    "L41.E99.w3",
+    "L41.E99.w1",
+    "L41.E99.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round2.L42.E8",
+   "round": 2,
+   "layer": 42,
+   "expert": 8,
+   "shard": "model-00046-of-00048.safetensors",
+   "entries": [
+    "L42.E8.w3",
+    "L42.E8.w1",
+    "L42.E8.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L0.E315",
+   "round": 3,
+   "layer": 0,
+   "expert": 315,
+   "shard": "model-00003-of-00048.safetensors",
+   "entries": [
+    "L0.E315.w3",
+    "L0.E315.w1",
+    "L0.E315.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L1.E104",
+   "round": 3,
+   "layer": 1,
+   "expert": 104,
+   "shard": "model-00004-of-00048.safetensors",
+   "entries": [
+    "L1.E104.w3",
+    "L1.E104.w1",
+    "L1.E104.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L2.E91",
+   "round": 3,
+   "layer": 2,
+   "expert": 91,
+   "shard": "model-00005-of-00048.safetensors",
+   "entries": [
+    "L2.E91.w3",
+    "L2.E91.w1",
+    "L2.E91.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L3.E374",
+   "round": 3,
+   "layer": 3,
+   "expert": 374,
+   "shard": "model-00006-of-00048.safetensors",
+   "entries": [
+    "L3.E374.w3",
+    "L3.E374.w1",
+    "L3.E374.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L4.E137",
+   "round": 3,
+   "layer": 4,
+   "expert": 137,
+   "shard": "model-00007-of-00048.safetensors",
+   "entries": [
+    "L4.E137.w3",
+    "L4.E137.w1",
+    "L4.E137.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L5.E35",
+   "round": 3,
+   "layer": 5,
+   "expert": 35,
+   "shard": "model-00008-of-00048.safetensors",
+   "entries": [
+    "L5.E35.w3",
+    "L5.E35.w1",
+    "L5.E35.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L6.E81",
+   "round": 3,
+   "layer": 6,
+   "expert": 81,
+   "shard": "model-00009-of-00048.safetensors",
+   "entries": [
+    "L6.E81.w3",
+    "L6.E81.w1",
+    "L6.E81.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L7.E84",
+   "round": 3,
+   "layer": 7,
+   "expert": 84,
+   "shard": "model-00010-of-00048.safetensors",
+   "entries": [
+    "L7.E84.w3",
+    "L7.E84.w1",
+    "L7.E84.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L8.E310",
+   "round": 3,
+   "layer": 8,
+   "expert": 310,
+   "shard": "model-00011-of-00048.safetensors",
+   "entries": [
+    "L8.E310.w3",
+    "L8.E310.w1",
+    "L8.E310.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L9.E11",
+   "round": 3,
+   "layer": 9,
+   "expert": 11,
+   "shard": "model-00012-of-00048.safetensors",
+   "entries": [
+    "L9.E11.w3",
+    "L9.E11.w1",
+    "L9.E11.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L10.E120",
+   "round": 3,
+   "layer": 10,
+   "expert": 120,
+   "shard": "model-00013-of-00048.safetensors",
+   "entries": [
+    "L10.E120.w3",
+    "L10.E120.w1",
+    "L10.E120.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L11.E150",
+   "round": 3,
+   "layer": 11,
+   "expert": 150,
+   "shard": "model-00014-of-00048.safetensors",
+   "entries": [
+    "L11.E150.w3",
+    "L11.E150.w1",
+    "L11.E150.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L12.E291",
+   "round": 3,
+   "layer": 12,
+   "expert": 291,
+   "shard": "model-00015-of-00048.safetensors",
+   "entries": [
+    "L12.E291.w3",
+    "L12.E291.w1",
+    "L12.E291.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L13.E31",
+   "round": 3,
+   "layer": 13,
+   "expert": 31,
+   "shard": "model-00016-of-00048.safetensors",
+   "entries": [
+    "L13.E31.w3",
+    "L13.E31.w1",
+    "L13.E31.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L14.E320",
+   "round": 3,
+   "layer": 14,
+   "expert": 320,
+   "shard": "model-00017-of-00048.safetensors",
+   "entries": [
+    "L14.E320.w3",
+    "L14.E320.w1",
+    "L14.E320.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L15.E239",
+   "round": 3,
+   "layer": 15,
+   "expert": 239,
+   "shard": "model-00018-of-00048.safetensors",
+   "entries": [
+    "L15.E239.w3",
+    "L15.E239.w1",
+    "L15.E239.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L16.E7",
+   "round": 3,
+   "layer": 16,
+   "expert": 7,
+   "shard": "model-00019-of-00048.safetensors",
+   "entries": [
+    "L16.E7.w3",
+    "L16.E7.w1",
+    "L16.E7.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L17.E279",
+   "round": 3,
+   "layer": 17,
+   "expert": 279,
+   "shard": "model-00020-of-00048.safetensors",
+   "entries": [
+    "L17.E279.w3",
+    "L17.E279.w1",
+    "L17.E279.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L18.E46",
+   "round": 3,
+   "layer": 18,
+   "expert": 46,
+   "shard": "model-00021-of-00048.safetensors",
+   "entries": [
+    "L18.E46.w3",
+    "L18.E46.w1",
+    "L18.E46.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L19.E73",
+   "round": 3,
+   "layer": 19,
+   "expert": 73,
+   "shard": "model-00022-of-00048.safetensors",
+   "entries": [
+    "L19.E73.w3",
+    "L19.E73.w1",
+    "L19.E73.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L20.E318",
+   "round": 3,
+   "layer": 20,
+   "expert": 318,
+   "shard": "model-00023-of-00048.safetensors",
+   "entries": [
+    "L20.E318.w3",
+    "L20.E318.w1",
+    "L20.E318.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L21.E199",
+   "round": 3,
+   "layer": 21,
+   "expert": 199,
+   "shard": "model-00024-of-00048.safetensors",
+   "entries": [
+    "L21.E199.w3",
+    "L21.E199.w1",
+    "L21.E199.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L22.E206",
+   "round": 3,
+   "layer": 22,
+   "expert": 206,
+   "shard": "model-00025-of-00048.safetensors",
+   "entries": [
+    "L22.E206.w3",
+    "L22.E206.w1",
+    "L22.E206.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L23.E354",
+   "round": 3,
+   "layer": 23,
+   "expert": 354,
+   "shard": "model-00026-of-00048.safetensors",
+   "entries": [
+    "L23.E354.w3",
+    "L23.E354.w1",
+    "L23.E354.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L24.E170",
+   "round": 3,
+   "layer": 24,
+   "expert": 170,
+   "shard": "model-00027-of-00048.safetensors",
+   "entries": [
+    "L24.E170.w3",
+    "L24.E170.w1",
+    "L24.E170.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L25.E220",
+   "round": 3,
+   "layer": 25,
+   "expert": 220,
+   "shard": "model-00028-of-00048.safetensors",
+   "entries": [
+    "L25.E220.w3",
+    "L25.E220.w1",
+    "L25.E220.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L26.E167",
+   "round": 3,
+   "layer": 26,
+   "expert": 167,
+   "shard": "model-00029-of-00048.safetensors",
+   "entries": [
+    "L26.E167.w3",
+    "L26.E167.w1",
+    "L26.E167.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L27.E7",
+   "round": 3,
+   "layer": 27,
+   "expert": 7,
+   "shard": "model-00030-of-00048.safetensors",
+   "entries": [
+    "L27.E7.w3",
+    "L27.E7.w1",
+    "L27.E7.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L28.E18",
+   "round": 3,
+   "layer": 28,
+   "expert": 18,
+   "shard": "model-00031-of-00048.safetensors",
+   "entries": [
+    "L28.E18.w3",
+    "L28.E18.w1",
+    "L28.E18.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L29.E37",
+   "round": 3,
+   "layer": 29,
+   "expert": 37,
+   "shard": "model-00032-of-00048.safetensors",
+   "entries": [
+    "L29.E37.w3",
+    "L29.E37.w1",
+    "L29.E37.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L30.E125",
+   "round": 3,
+   "layer": 30,
+   "expert": 125,
+   "shard": "model-00033-of-00048.safetensors",
+   "entries": [
+    "L30.E125.w3",
+    "L30.E125.w1",
+    "L30.E125.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L31.E115",
+   "round": 3,
+   "layer": 31,
+   "expert": 115,
+   "shard": "model-00034-of-00048.safetensors",
+   "entries": [
+    "L31.E115.w3",
+    "L31.E115.w1",
+    "L31.E115.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L32.E329",
+   "round": 3,
+   "layer": 32,
+   "expert": 329,
+   "shard": "model-00035-of-00048.safetensors",
+   "entries": [
+    "L32.E329.w3",
+    "L32.E329.w1",
+    "L32.E329.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L33.E61",
+   "round": 3,
+   "layer": 33,
+   "expert": 61,
+   "shard": "model-00036-of-00048.safetensors",
+   "entries": [
+    "L33.E61.w3",
+    "L33.E61.w1",
+    "L33.E61.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L34.E151",
+   "round": 3,
+   "layer": 34,
+   "expert": 151,
+   "shard": "model-00037-of-00048.safetensors",
+   "entries": [
+    "L34.E151.w3",
+    "L34.E151.w1",
+    "L34.E151.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L35.E254",
+   "round": 3,
+   "layer": 35,
+   "expert": 254,
+   "shard": "model-00038-of-00048.safetensors",
+   "entries": [
+    "L35.E254.w3",
+    "L35.E254.w1",
+    "L35.E254.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L36.E58",
+   "round": 3,
+   "layer": 36,
+   "expert": 58,
+   "shard": "model-00039-of-00048.safetensors",
+   "entries": [
+    "L36.E58.w3",
+    "L36.E58.w1",
+    "L36.E58.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L37.E41",
+   "round": 3,
+   "layer": 37,
+   "expert": 41,
+   "shard": "model-00040-of-00048.safetensors",
+   "entries": [
+    "L37.E41.w3",
+    "L37.E41.w1",
+    "L37.E41.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L38.E310",
+   "round": 3,
+   "layer": 38,
+   "expert": 310,
+   "shard": "model-00041-of-00048.safetensors",
+   "entries": [
+    "L38.E310.w3",
+    "L38.E310.w1",
+    "L38.E310.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L39.E114",
+   "round": 3,
+   "layer": 39,
+   "expert": 114,
+   "shard": "model-00042-of-00048.safetensors",
+   "entries": [
+    "L39.E114.w3",
+    "L39.E114.w1",
+    "L39.E114.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L40.E80",
+   "round": 3,
+   "layer": 40,
+   "expert": 80,
+   "shard": "model-00044-of-00048.safetensors",
+   "entries": [
+    "L40.E80.w3",
+    "L40.E80.w1",
+    "L40.E80.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L41.E46",
+   "round": 3,
+   "layer": 41,
+   "expert": 46,
+   "shard": "model-00045-of-00048.safetensors",
+   "entries": [
+    "L41.E46.w3",
+    "L41.E46.w1",
+    "L41.E46.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round3.L42.E58",
+   "round": 3,
+   "layer": 42,
+   "expert": 58,
+   "shard": "model-00046-of-00048.safetensors",
+   "entries": [
+    "L42.E58.w3",
+    "L42.E58.w1",
+    "L42.E58.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L0.E196",
+   "round": 4,
+   "layer": 0,
+   "expert": 196,
+   "shard": "model-00003-of-00048.safetensors",
+   "entries": [
+    "L0.E196.w3",
+    "L0.E196.w1",
+    "L0.E196.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L1.E194",
+   "round": 4,
+   "layer": 1,
+   "expert": 194,
+   "shard": "model-00004-of-00048.safetensors",
+   "entries": [
+    "L1.E194.w3",
+    "L1.E194.w1",
+    "L1.E194.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L2.E292",
+   "round": 4,
+   "layer": 2,
+   "expert": 292,
+   "shard": "model-00005-of-00048.safetensors",
+   "entries": [
+    "L2.E292.w3",
+    "L2.E292.w1",
+    "L2.E292.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L3.E44",
+   "round": 4,
+   "layer": 3,
+   "expert": 44,
+   "shard": "model-00006-of-00048.safetensors",
+   "entries": [
+    "L3.E44.w3",
+    "L3.E44.w1",
+    "L3.E44.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L4.E304",
+   "round": 4,
+   "layer": 4,
+   "expert": 304,
+   "shard": "model-00007-of-00048.safetensors",
+   "entries": [
+    "L4.E304.w3",
+    "L4.E304.w1",
+    "L4.E304.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L5.E191",
+   "round": 4,
+   "layer": 5,
+   "expert": 191,
+   "shard": "model-00008-of-00048.safetensors",
+   "entries": [
+    "L5.E191.w3",
+    "L5.E191.w1",
+    "L5.E191.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L6.E6",
+   "round": 4,
+   "layer": 6,
+   "expert": 6,
+   "shard": "model-00009-of-00048.safetensors",
+   "entries": [
+    "L6.E6.w3",
+    "L6.E6.w1",
+    "L6.E6.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L7.E326",
+   "round": 4,
+   "layer": 7,
+   "expert": 326,
+   "shard": "model-00010-of-00048.safetensors",
+   "entries": [
+    "L7.E326.w3",
+    "L7.E326.w1",
+    "L7.E326.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L8.E338",
+   "round": 4,
+   "layer": 8,
+   "expert": 338,
+   "shard": "model-00011-of-00048.safetensors",
+   "entries": [
+    "L8.E338.w3",
+    "L8.E338.w1",
+    "L8.E338.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L9.E355",
+   "round": 4,
+   "layer": 9,
+   "expert": 355,
+   "shard": "model-00012-of-00048.safetensors",
+   "entries": [
+    "L9.E355.w3",
+    "L9.E355.w1",
+    "L9.E355.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L10.E328",
+   "round": 4,
+   "layer": 10,
+   "expert": 328,
+   "shard": "model-00013-of-00048.safetensors",
+   "entries": [
+    "L10.E328.w3",
+    "L10.E328.w1",
+    "L10.E328.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L11.E34",
+   "round": 4,
+   "layer": 11,
+   "expert": 34,
+   "shard": "model-00014-of-00048.safetensors",
+   "entries": [
+    "L11.E34.w3",
+    "L11.E34.w1",
+    "L11.E34.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L12.E165",
+   "round": 4,
+   "layer": 12,
+   "expert": 165,
+   "shard": "model-00015-of-00048.safetensors",
+   "entries": [
+    "L12.E165.w3",
+    "L12.E165.w1",
+    "L12.E165.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L13.E167",
+   "round": 4,
+   "layer": 13,
+   "expert": 167,
+   "shard": "model-00016-of-00048.safetensors",
+   "entries": [
+    "L13.E167.w3",
+    "L13.E167.w1",
+    "L13.E167.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L14.E171",
+   "round": 4,
+   "layer": 14,
+   "expert": 171,
+   "shard": "model-00017-of-00048.safetensors",
+   "entries": [
+    "L14.E171.w3",
+    "L14.E171.w1",
+    "L14.E171.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L15.E261",
+   "round": 4,
+   "layer": 15,
+   "expert": 261,
+   "shard": "model-00018-of-00048.safetensors",
+   "entries": [
+    "L15.E261.w3",
+    "L15.E261.w1",
+    "L15.E261.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L16.E241",
+   "round": 4,
+   "layer": 16,
+   "expert": 241,
+   "shard": "model-00019-of-00048.safetensors",
+   "entries": [
+    "L16.E241.w3",
+    "L16.E241.w1",
+    "L16.E241.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L17.E179",
+   "round": 4,
+   "layer": 17,
+   "expert": 179,
+   "shard": "model-00020-of-00048.safetensors",
+   "entries": [
+    "L17.E179.w3",
+    "L17.E179.w1",
+    "L17.E179.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L18.E345",
+   "round": 4,
+   "layer": 18,
+   "expert": 345,
+   "shard": "model-00021-of-00048.safetensors",
+   "entries": [
+    "L18.E345.w3",
+    "L18.E345.w1",
+    "L18.E345.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L19.E78",
+   "round": 4,
+   "layer": 19,
+   "expert": 78,
+   "shard": "model-00022-of-00048.safetensors",
+   "entries": [
+    "L19.E78.w3",
+    "L19.E78.w1",
+    "L19.E78.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L20.E109",
+   "round": 4,
+   "layer": 20,
+   "expert": 109,
+   "shard": "model-00023-of-00048.safetensors",
+   "entries": [
+    "L20.E109.w3",
+    "L20.E109.w1",
+    "L20.E109.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L21.E277",
+   "round": 4,
+   "layer": 21,
+   "expert": 277,
+   "shard": "model-00024-of-00048.safetensors",
+   "entries": [
+    "L21.E277.w3",
+    "L21.E277.w1",
+    "L21.E277.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L22.E118",
+   "round": 4,
+   "layer": 22,
+   "expert": 118,
+   "shard": "model-00025-of-00048.safetensors",
+   "entries": [
+    "L22.E118.w3",
+    "L22.E118.w1",
+    "L22.E118.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L23.E305",
+   "round": 4,
+   "layer": 23,
+   "expert": 305,
+   "shard": "model-00026-of-00048.safetensors",
+   "entries": [
+    "L23.E305.w3",
+    "L23.E305.w1",
+    "L23.E305.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L24.E187",
+   "round": 4,
+   "layer": 24,
+   "expert": 187,
+   "shard": "model-00027-of-00048.safetensors",
+   "entries": [
+    "L24.E187.w3",
+    "L24.E187.w1",
+    "L24.E187.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L25.E250",
+   "round": 4,
+   "layer": 25,
+   "expert": 250,
+   "shard": "model-00028-of-00048.safetensors",
+   "entries": [
+    "L25.E250.w3",
+    "L25.E250.w1",
+    "L25.E250.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L26.E155",
+   "round": 4,
+   "layer": 26,
+   "expert": 155,
+   "shard": "model-00029-of-00048.safetensors",
+   "entries": [
+    "L26.E155.w3",
+    "L26.E155.w1",
+    "L26.E155.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L27.E175",
+   "round": 4,
+   "layer": 27,
+   "expert": 175,
+   "shard": "model-00030-of-00048.safetensors",
+   "entries": [
+    "L27.E175.w3",
+    "L27.E175.w1",
+    "L27.E175.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L28.E10",
+   "round": 4,
+   "layer": 28,
+   "expert": 10,
+   "shard": "model-00031-of-00048.safetensors",
+   "entries": [
+    "L28.E10.w3",
+    "L28.E10.w1",
+    "L28.E10.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L29.E111",
+   "round": 4,
+   "layer": 29,
+   "expert": 111,
+   "shard": "model-00032-of-00048.safetensors",
+   "entries": [
+    "L29.E111.w3",
+    "L29.E111.w1",
+    "L29.E111.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L30.E196",
+   "round": 4,
+   "layer": 30,
+   "expert": 196,
+   "shard": "model-00033-of-00048.safetensors",
+   "entries": [
+    "L30.E196.w3",
+    "L30.E196.w1",
+    "L30.E196.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L31.E101",
+   "round": 4,
+   "layer": 31,
+   "expert": 101,
+   "shard": "model-00034-of-00048.safetensors",
+   "entries": [
+    "L31.E101.w3",
+    "L31.E101.w1",
+    "L31.E101.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L32.E203",
+   "round": 4,
+   "layer": 32,
+   "expert": 203,
+   "shard": "model-00035-of-00048.safetensors",
+   "entries": [
+    "L32.E203.w3",
+    "L32.E203.w1",
+    "L32.E203.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L33.E225",
+   "round": 4,
+   "layer": 33,
+   "expert": 225,
+   "shard": "model-00036-of-00048.safetensors",
+   "entries": [
+    "L33.E225.w3",
+    "L33.E225.w1",
+    "L33.E225.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L34.E359",
+   "round": 4,
+   "layer": 34,
+   "expert": 359,
+   "shard": "model-00037-of-00048.safetensors",
+   "entries": [
+    "L34.E359.w3",
+    "L34.E359.w1",
+    "L34.E359.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L35.E359",
+   "round": 4,
+   "layer": 35,
+   "expert": 359,
+   "shard": "model-00038-of-00048.safetensors",
+   "entries": [
+    "L35.E359.w3",
+    "L35.E359.w1",
+    "L35.E359.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L36.E341",
+   "round": 4,
+   "layer": 36,
+   "expert": 341,
+   "shard": "model-00039-of-00048.safetensors",
+   "entries": [
+    "L36.E341.w3",
+    "L36.E341.w1",
+    "L36.E341.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L37.E79",
+   "round": 4,
+   "layer": 37,
+   "expert": 79,
+   "shard": "model-00040-of-00048.safetensors",
+   "entries": [
+    "L37.E79.w3",
+    "L37.E79.w1",
+    "L37.E79.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L38.E292",
+   "round": 4,
+   "layer": 38,
+   "expert": 292,
+   "shard": "model-00041-of-00048.safetensors",
+   "entries": [
+    "L38.E292.w3",
+    "L38.E292.w1",
+    "L38.E292.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L39.E373",
+   "round": 4,
+   "layer": 39,
+   "expert": 373,
+   "shard": "model-00042-of-00048.safetensors",
+   "entries": [
+    "L39.E373.w3",
+    "L39.E373.w1",
+    "L39.E373.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L40.E60",
+   "round": 4,
+   "layer": 40,
+   "expert": 60,
+   "shard": "model-00044-of-00048.safetensors",
+   "entries": [
+    "L40.E60.w3",
+    "L40.E60.w1",
+    "L40.E60.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L41.E74",
+   "round": 4,
+   "layer": 41,
+   "expert": 74,
+   "shard": "model-00045-of-00048.safetensors",
+   "entries": [
+    "L41.E74.w3",
+    "L41.E74.w1",
+    "L41.E74.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round4.L42.E62",
+   "round": 4,
+   "layer": 42,
+   "expert": 62,
+   "shard": "model-00046-of-00048.safetensors",
+   "entries": [
+    "L42.E62.w3",
+    "L42.E62.w1",
+    "L42.E62.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "round11.L0.E302",
+   "round": 11,
+   "layer": 0,
+   "expert": 302,
+   "shard": "model-00003-of-00048.safetensors",
+   "entries": [
+    "L0.E302.w3",
+    "L0.E302.w1",
+    "L0.E302.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L1.E97",
+   "round": 11,
+   "layer": 1,
+   "expert": 97,
+   "shard": "model-00004-of-00048.safetensors",
+   "entries": [
+    "L1.E97.w3",
+    "L1.E97.w1",
+    "L1.E97.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L2.E155",
+   "round": 11,
+   "layer": 2,
+   "expert": 155,
+   "shard": "model-00005-of-00048.safetensors",
+   "entries": [
+    "L2.E155.w3",
+    "L2.E155.w1",
+    "L2.E155.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L3.E199",
+   "round": 11,
+   "layer": 3,
+   "expert": 199,
+   "shard": "model-00006-of-00048.safetensors",
+   "entries": [
+    "L3.E199.w3",
+    "L3.E199.w1",
+    "L3.E199.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L4.E228",
+   "round": 11,
+   "layer": 4,
+   "expert": 228,
+   "shard": "model-00007-of-00048.safetensors",
+   "entries": [
+    "L4.E228.w3",
+    "L4.E228.w1",
+    "L4.E228.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L5.E284",
+   "round": 11,
+   "layer": 5,
+   "expert": 284,
+   "shard": "model-00008-of-00048.safetensors",
+   "entries": [
+    "L5.E284.w3",
+    "L5.E284.w1",
+    "L5.E284.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L6.E365",
+   "round": 11,
+   "layer": 6,
+   "expert": 365,
+   "shard": "model-00009-of-00048.safetensors",
+   "entries": [
+    "L6.E365.w3",
+    "L6.E365.w1",
+    "L6.E365.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L7.E81",
+   "round": 11,
+   "layer": 7,
+   "expert": 81,
+   "shard": "model-00010-of-00048.safetensors",
+   "entries": [
+    "L7.E81.w3",
+    "L7.E81.w1",
+    "L7.E81.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L8.E32",
+   "round": 11,
+   "layer": 8,
+   "expert": 32,
+   "shard": "model-00011-of-00048.safetensors",
+   "entries": [
+    "L8.E32.w3",
+    "L8.E32.w1",
+    "L8.E32.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L9.E224",
+   "round": 11,
+   "layer": 9,
+   "expert": 224,
+   "shard": "model-00012-of-00048.safetensors",
+   "entries": [
+    "L9.E224.w3",
+    "L9.E224.w1",
+    "L9.E224.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L10.E352",
+   "round": 11,
+   "layer": 10,
+   "expert": 352,
+   "shard": "model-00013-of-00048.safetensors",
+   "entries": [
+    "L10.E352.w3",
+    "L10.E352.w1",
+    "L10.E352.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L11.E63",
+   "round": 11,
+   "layer": 11,
+   "expert": 63,
+   "shard": "model-00014-of-00048.safetensors",
+   "entries": [
+    "L11.E63.w3",
+    "L11.E63.w1",
+    "L11.E63.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L12.E128",
+   "round": 11,
+   "layer": 12,
+   "expert": 128,
+   "shard": "model-00015-of-00048.safetensors",
+   "entries": [
+    "L12.E128.w3",
+    "L12.E128.w1",
+    "L12.E128.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L13.E140",
+   "round": 11,
+   "layer": 13,
+   "expert": 140,
+   "shard": "model-00016-of-00048.safetensors",
+   "entries": [
+    "L13.E140.w3",
+    "L13.E140.w1",
+    "L13.E140.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L14.E305",
+   "round": 11,
+   "layer": 14,
+   "expert": 305,
+   "shard": "model-00017-of-00048.safetensors",
+   "entries": [
+    "L14.E305.w3",
+    "L14.E305.w1",
+    "L14.E305.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L15.E74",
+   "round": 11,
+   "layer": 15,
+   "expert": 74,
+   "shard": "model-00018-of-00048.safetensors",
+   "entries": [
+    "L15.E74.w3",
+    "L15.E74.w1",
+    "L15.E74.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L16.E314",
+   "round": 11,
+   "layer": 16,
+   "expert": 314,
+   "shard": "model-00019-of-00048.safetensors",
+   "entries": [
+    "L16.E314.w3",
+    "L16.E314.w1",
+    "L16.E314.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L17.E204",
+   "round": 11,
+   "layer": 17,
+   "expert": 204,
+   "shard": "model-00020-of-00048.safetensors",
+   "entries": [
+    "L17.E204.w3",
+    "L17.E204.w1",
+    "L17.E204.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L18.E190",
+   "round": 11,
+   "layer": 18,
+   "expert": 190,
+   "shard": "model-00021-of-00048.safetensors",
+   "entries": [
+    "L18.E190.w3",
+    "L18.E190.w1",
+    "L18.E190.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L19.E272",
+   "round": 11,
+   "layer": 19,
+   "expert": 272,
+   "shard": "model-00022-of-00048.safetensors",
+   "entries": [
+    "L19.E272.w3",
+    "L19.E272.w1",
+    "L19.E272.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L20.E47",
+   "round": 11,
+   "layer": 20,
+   "expert": 47,
+   "shard": "model-00023-of-00048.safetensors",
+   "entries": [
+    "L20.E47.w3",
+    "L20.E47.w1",
+    "L20.E47.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L21.E235",
+   "round": 11,
+   "layer": 21,
+   "expert": 235,
+   "shard": "model-00024-of-00048.safetensors",
+   "entries": [
+    "L21.E235.w3",
+    "L21.E235.w1",
+    "L21.E235.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L22.E217",
+   "round": 11,
+   "layer": 22,
+   "expert": 217,
+   "shard": "model-00025-of-00048.safetensors",
+   "entries": [
+    "L22.E217.w3",
+    "L22.E217.w1",
+    "L22.E217.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L23.E97",
+   "round": 11,
+   "layer": 23,
+   "expert": 97,
+   "shard": "model-00026-of-00048.safetensors",
+   "entries": [
+    "L23.E97.w3",
+    "L23.E97.w1",
+    "L23.E97.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L24.E217",
+   "round": 11,
+   "layer": 24,
+   "expert": 217,
+   "shard": "model-00027-of-00048.safetensors",
+   "entries": [
+    "L24.E217.w3",
+    "L24.E217.w1",
+    "L24.E217.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L25.E312",
+   "round": 11,
+   "layer": 25,
+   "expert": 312,
+   "shard": "model-00028-of-00048.safetensors",
+   "entries": [
+    "L25.E312.w3",
+    "L25.E312.w1",
+    "L25.E312.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L26.E48",
+   "round": 11,
+   "layer": 26,
+   "expert": 48,
+   "shard": "model-00029-of-00048.safetensors",
+   "entries": [
+    "L26.E48.w3",
+    "L26.E48.w1",
+    "L26.E48.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L27.E201",
+   "round": 11,
+   "layer": 27,
+   "expert": 201,
+   "shard": "model-00030-of-00048.safetensors",
+   "entries": [
+    "L27.E201.w3",
+    "L27.E201.w1",
+    "L27.E201.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L28.E17",
+   "round": 11,
+   "layer": 28,
+   "expert": 17,
+   "shard": "model-00031-of-00048.safetensors",
+   "entries": [
+    "L28.E17.w3",
+    "L28.E17.w1",
+    "L28.E17.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L29.E8",
+   "round": 11,
+   "layer": 29,
+   "expert": 8,
+   "shard": "model-00032-of-00048.safetensors",
+   "entries": [
+    "L29.E8.w3",
+    "L29.E8.w1",
+    "L29.E8.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L30.E67",
+   "round": 11,
+   "layer": 30,
+   "expert": 67,
+   "shard": "model-00033-of-00048.safetensors",
+   "entries": [
+    "L30.E67.w3",
+    "L30.E67.w1",
+    "L30.E67.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L31.E173",
+   "round": 11,
+   "layer": 31,
+   "expert": 173,
+   "shard": "model-00034-of-00048.safetensors",
+   "entries": [
+    "L31.E173.w3",
+    "L31.E173.w1",
+    "L31.E173.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L32.E296",
+   "round": 11,
+   "layer": 32,
+   "expert": 296,
+   "shard": "model-00035-of-00048.safetensors",
+   "entries": [
+    "L32.E296.w3",
+    "L32.E296.w1",
+    "L32.E296.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L33.E260",
+   "round": 11,
+   "layer": 33,
+   "expert": 260,
+   "shard": "model-00036-of-00048.safetensors",
+   "entries": [
+    "L33.E260.w3",
+    "L33.E260.w1",
+    "L33.E260.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L34.E218",
+   "round": 11,
+   "layer": 34,
+   "expert": 218,
+   "shard": "model-00037-of-00048.safetensors",
+   "entries": [
+    "L34.E218.w3",
+    "L34.E218.w1",
+    "L34.E218.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L35.E250",
+   "round": 11,
+   "layer": 35,
+   "expert": 250,
+   "shard": "model-00038-of-00048.safetensors",
+   "entries": [
+    "L35.E250.w3",
+    "L35.E250.w1",
+    "L35.E250.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L36.E73",
+   "round": 11,
+   "layer": 36,
+   "expert": 73,
+   "shard": "model-00039-of-00048.safetensors",
+   "entries": [
+    "L36.E73.w3",
+    "L36.E73.w1",
+    "L36.E73.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L37.E186",
+   "round": 11,
+   "layer": 37,
+   "expert": 186,
+   "shard": "model-00040-of-00048.safetensors",
+   "entries": [
+    "L37.E186.w3",
+    "L37.E186.w1",
+    "L37.E186.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L38.E117",
+   "round": 11,
+   "layer": 38,
+   "expert": 117,
+   "shard": "model-00041-of-00048.safetensors",
+   "entries": [
+    "L38.E117.w3",
+    "L38.E117.w1",
+    "L38.E117.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L39.E279",
+   "round": 11,
+   "layer": 39,
+   "expert": 279,
+   "shard": "model-00042-of-00048.safetensors",
+   "entries": [
+    "L39.E279.w3",
+    "L39.E279.w1",
+    "L39.E279.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L40.E37",
+   "round": 11,
+   "layer": 40,
+   "expert": 37,
+   "shard": "model-00044-of-00048.safetensors",
+   "entries": [
+    "L40.E37.w3",
+    "L40.E37.w1",
+    "L40.E37.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L41.E48",
+   "round": 11,
+   "layer": 41,
+   "expert": 48,
+   "shard": "model-00045-of-00048.safetensors",
+   "entries": [
+    "L41.E48.w3",
+    "L41.E48.w1",
+    "L41.E48.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round11.L42.E41",
+   "round": 11,
+   "layer": 42,
+   "expert": 41,
+   "shard": "model-00046-of-00048.safetensors",
+   "entries": [
+    "L42.E41.w3",
+    "L42.E41.w1",
+    "L42.E41.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L0.E218",
+   "round": 12,
+   "layer": 0,
+   "expert": 218,
+   "shard": "model-00003-of-00048.safetensors",
+   "entries": [
+    "L0.E218.w3",
+    "L0.E218.w1",
+    "L0.E218.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L1.E242",
+   "round": 12,
+   "layer": 1,
+   "expert": 242,
+   "shard": "model-00004-of-00048.safetensors",
+   "entries": [
+    "L1.E242.w3",
+    "L1.E242.w1",
+    "L1.E242.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L2.E338",
+   "round": 12,
+   "layer": 2,
+   "expert": 338,
+   "shard": "model-00005-of-00048.safetensors",
+   "entries": [
+    "L2.E338.w3",
+    "L2.E338.w1",
+    "L2.E338.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L3.E278",
+   "round": 12,
+   "layer": 3,
+   "expert": 278,
+   "shard": "model-00006-of-00048.safetensors",
+   "entries": [
+    "L3.E278.w3",
+    "L3.E278.w1",
+    "L3.E278.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L4.E282",
+   "round": 12,
+   "layer": 4,
+   "expert": 282,
+   "shard": "model-00007-of-00048.safetensors",
+   "entries": [
+    "L4.E282.w3",
+    "L4.E282.w1",
+    "L4.E282.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L5.E205",
+   "round": 12,
+   "layer": 5,
+   "expert": 205,
+   "shard": "model-00008-of-00048.safetensors",
+   "entries": [
+    "L5.E205.w3",
+    "L5.E205.w1",
+    "L5.E205.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L6.E177",
+   "round": 12,
+   "layer": 6,
+   "expert": 177,
+   "shard": "model-00009-of-00048.safetensors",
+   "entries": [
+    "L6.E177.w3",
+    "L6.E177.w1",
+    "L6.E177.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L7.E315",
+   "round": 12,
+   "layer": 7,
+   "expert": 315,
+   "shard": "model-00010-of-00048.safetensors",
+   "entries": [
+    "L7.E315.w3",
+    "L7.E315.w1",
+    "L7.E315.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L8.E339",
+   "round": 12,
+   "layer": 8,
+   "expert": 339,
+   "shard": "model-00011-of-00048.safetensors",
+   "entries": [
+    "L8.E339.w3",
+    "L8.E339.w1",
+    "L8.E339.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L9.E257",
+   "round": 12,
+   "layer": 9,
+   "expert": 257,
+   "shard": "model-00012-of-00048.safetensors",
+   "entries": [
+    "L9.E257.w3",
+    "L9.E257.w1",
+    "L9.E257.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L10.E252",
+   "round": 12,
+   "layer": 10,
+   "expert": 252,
+   "shard": "model-00013-of-00048.safetensors",
+   "entries": [
+    "L10.E252.w3",
+    "L10.E252.w1",
+    "L10.E252.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L11.E207",
+   "round": 12,
+   "layer": 11,
+   "expert": 207,
+   "shard": "model-00014-of-00048.safetensors",
+   "entries": [
+    "L11.E207.w3",
+    "L11.E207.w1",
+    "L11.E207.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L12.E164",
+   "round": 12,
+   "layer": 12,
+   "expert": 164,
+   "shard": "model-00015-of-00048.safetensors",
+   "entries": [
+    "L12.E164.w3",
+    "L12.E164.w1",
+    "L12.E164.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L13.E104",
+   "round": 12,
+   "layer": 13,
+   "expert": 104,
+   "shard": "model-00016-of-00048.safetensors",
+   "entries": [
+    "L13.E104.w3",
+    "L13.E104.w1",
+    "L13.E104.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L14.E168",
+   "round": 12,
+   "layer": 14,
+   "expert": 168,
+   "shard": "model-00017-of-00048.safetensors",
+   "entries": [
+    "L14.E168.w3",
+    "L14.E168.w1",
+    "L14.E168.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L15.E116",
+   "round": 12,
+   "layer": 15,
+   "expert": 116,
+   "shard": "model-00018-of-00048.safetensors",
+   "entries": [
+    "L15.E116.w3",
+    "L15.E116.w1",
+    "L15.E116.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L16.E283",
+   "round": 12,
+   "layer": 16,
+   "expert": 283,
+   "shard": "model-00019-of-00048.safetensors",
+   "entries": [
+    "L16.E283.w3",
+    "L16.E283.w1",
+    "L16.E283.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L17.E261",
+   "round": 12,
+   "layer": 17,
+   "expert": 261,
+   "shard": "model-00020-of-00048.safetensors",
+   "entries": [
+    "L17.E261.w3",
+    "L17.E261.w1",
+    "L17.E261.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L18.E164",
+   "round": 12,
+   "layer": 18,
+   "expert": 164,
+   "shard": "model-00021-of-00048.safetensors",
+   "entries": [
+    "L18.E164.w3",
+    "L18.E164.w1",
+    "L18.E164.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L19.E111",
+   "round": 12,
+   "layer": 19,
+   "expert": 111,
+   "shard": "model-00022-of-00048.safetensors",
+   "entries": [
+    "L19.E111.w3",
+    "L19.E111.w1",
+    "L19.E111.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L20.E272",
+   "round": 12,
+   "layer": 20,
+   "expert": 272,
+   "shard": "model-00023-of-00048.safetensors",
+   "entries": [
+    "L20.E272.w3",
+    "L20.E272.w1",
+    "L20.E272.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L21.E363",
+   "round": 12,
+   "layer": 21,
+   "expert": 363,
+   "shard": "model-00024-of-00048.safetensors",
+   "entries": [
+    "L21.E363.w3",
+    "L21.E363.w1",
+    "L21.E363.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L22.E190",
+   "round": 12,
+   "layer": 22,
+   "expert": 190,
+   "shard": "model-00025-of-00048.safetensors",
+   "entries": [
+    "L22.E190.w3",
+    "L22.E190.w1",
+    "L22.E190.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L23.E353",
+   "round": 12,
+   "layer": 23,
+   "expert": 353,
+   "shard": "model-00026-of-00048.safetensors",
+   "entries": [
+    "L23.E353.w3",
+    "L23.E353.w1",
+    "L23.E353.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L24.E251",
+   "round": 12,
+   "layer": 24,
+   "expert": 251,
+   "shard": "model-00027-of-00048.safetensors",
+   "entries": [
+    "L24.E251.w3",
+    "L24.E251.w1",
+    "L24.E251.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L25.E331",
+   "round": 12,
+   "layer": 25,
+   "expert": 331,
+   "shard": "model-00028-of-00048.safetensors",
+   "entries": [
+    "L25.E331.w3",
+    "L25.E331.w1",
+    "L25.E331.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L26.E356",
+   "round": 12,
+   "layer": 26,
+   "expert": 356,
+   "shard": "model-00029-of-00048.safetensors",
+   "entries": [
+    "L26.E356.w3",
+    "L26.E356.w1",
+    "L26.E356.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L27.E279",
+   "round": 12,
+   "layer": 27,
+   "expert": 279,
+   "shard": "model-00030-of-00048.safetensors",
+   "entries": [
+    "L27.E279.w3",
+    "L27.E279.w1",
+    "L27.E279.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L28.E330",
+   "round": 12,
+   "layer": 28,
+   "expert": 330,
+   "shard": "model-00031-of-00048.safetensors",
+   "entries": [
+    "L28.E330.w3",
+    "L28.E330.w1",
+    "L28.E330.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L29.E102",
+   "round": 12,
+   "layer": 29,
+   "expert": 102,
+   "shard": "model-00032-of-00048.safetensors",
+   "entries": [
+    "L29.E102.w3",
+    "L29.E102.w1",
+    "L29.E102.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L30.E250",
+   "round": 12,
+   "layer": 30,
+   "expert": 250,
+   "shard": "model-00033-of-00048.safetensors",
+   "entries": [
+    "L30.E250.w3",
+    "L30.E250.w1",
+    "L30.E250.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L31.E190",
+   "round": 12,
+   "layer": 31,
+   "expert": 190,
+   "shard": "model-00034-of-00048.safetensors",
+   "entries": [
+    "L31.E190.w3",
+    "L31.E190.w1",
+    "L31.E190.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L32.E22",
+   "round": 12,
+   "layer": 32,
+   "expert": 22,
+   "shard": "model-00035-of-00048.safetensors",
+   "entries": [
+    "L32.E22.w3",
+    "L32.E22.w1",
+    "L32.E22.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L33.E363",
+   "round": 12,
+   "layer": 33,
+   "expert": 363,
+   "shard": "model-00036-of-00048.safetensors",
+   "entries": [
+    "L33.E363.w3",
+    "L33.E363.w1",
+    "L33.E363.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L34.E172",
+   "round": 12,
+   "layer": 34,
+   "expert": 172,
+   "shard": "model-00037-of-00048.safetensors",
+   "entries": [
+    "L34.E172.w3",
+    "L34.E172.w1",
+    "L34.E172.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L35.E150",
+   "round": 12,
+   "layer": 35,
+   "expert": 150,
+   "shard": "model-00038-of-00048.safetensors",
+   "entries": [
+    "L35.E150.w3",
+    "L35.E150.w1",
+    "L35.E150.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L36.E181",
+   "round": 12,
+   "layer": 36,
+   "expert": 181,
+   "shard": "model-00039-of-00048.safetensors",
+   "entries": [
+    "L36.E181.w3",
+    "L36.E181.w1",
+    "L36.E181.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L37.E73",
+   "round": 12,
+   "layer": 37,
+   "expert": 73,
+   "shard": "model-00040-of-00048.safetensors",
+   "entries": [
+    "L37.E73.w3",
+    "L37.E73.w1",
+    "L37.E73.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L38.E366",
+   "round": 12,
+   "layer": 38,
+   "expert": 366,
+   "shard": "model-00041-of-00048.safetensors",
+   "entries": [
+    "L38.E366.w3",
+    "L38.E366.w1",
+    "L38.E366.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L39.E328",
+   "round": 12,
+   "layer": 39,
+   "expert": 328,
+   "shard": "model-00042-of-00048.safetensors",
+   "entries": [
+    "L39.E328.w3",
+    "L39.E328.w1",
+    "L39.E328.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L40.E51",
+   "round": 12,
+   "layer": 40,
+   "expert": 51,
+   "shard": "model-00044-of-00048.safetensors",
+   "entries": [
+    "L40.E51.w3",
+    "L40.E51.w1",
+    "L40.E51.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L41.E7",
+   "round": 12,
+   "layer": 41,
+   "expert": 7,
+   "shard": "model-00045-of-00048.safetensors",
+   "entries": [
+    "L41.E7.w3",
+    "L41.E7.w1",
+    "L41.E7.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  },
+  {
+   "id": "round12.L42.E124",
+   "round": 12,
+   "layer": 42,
+   "expert": 124,
+   "shard": "model-00046-of-00048.safetensors",
+   "entries": [
+    "L42.E124.w3",
+    "L42.E124.w1",
+    "L42.E124.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R10",
+    "R3",
+    "R4",
+    "R6",
+    "R7a_partner"
+   ]
+  }
+ ]
+}

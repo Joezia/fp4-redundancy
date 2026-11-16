@@ -1,0 +1,636 @@
+{
+ "seed": 8001,
+ "note": "pilot: 30 matrices, layers spread evenly, roles cycling",
+ "tasks": [
+  {
+   "id": "L0.E200.w1",
+   "entries": [
+    "L0.E200.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L1.E353.w2",
+   "entries": [
+    "L1.E353.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L3.E54.w3",
+   "entries": [
+    "L3.E54.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L4.E348.w1",
+   "entries": [
+    "L4.E348.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L6.E383.w2",
+   "entries": [
+    "L6.E383.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L7.E322.w3",
+   "entries": [
+    "L7.E322.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L9.E148.w1",
+   "entries": [
+    "L9.E148.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L10.E189.w2",
+   "entries": [
+    "L10.E189.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L12.E312.w3",
+   "entries": [
+    "L12.E312.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L13.E147.w1",
+   "entries": [
+    "L13.E147.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L14.E52.w2",
+   "entries": [
+    "L14.E52.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L16.E286.w3",
+   "entries": [
+    "L16.E286.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L17.E328.w1",
+   "entries": [
+    "L17.E328.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L19.E80.w2",
+   "entries": [
+    "L19.E80.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L20.E98.w3",
+   "entries": [
+    "L20.E98.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L22.E154.w1",
+   "entries": [
+    "L22.E154.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L23.E338.w2",
+   "entries": [
+    "L23.E338.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L25.E146.w3",
+   "entries": [
+    "L25.E146.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L26.E172.w1",
+   "entries": [
+    "L26.E172.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L28.E111.w2",
+   "entries": [
+    "L28.E111.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L29.E129.w3",
+   "entries": [
+    "L29.E129.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L30.E98.w1",
+   "entries": [
+    "L30.E98.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L32.E212.w2",
+   "entries": [
+    "L32.E212.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L33.E181.w3",
+   "entries": [
+    "L33.E181.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L35.E361.w1",
+   "entries": [
+    "L35.E361.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L36.E305.w2",
+   "entries": [
+    "L36.E305.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L38.E206.w3",
+   "entries": [
+    "L38.E206.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L39.E236.w1",
+   "entries": [
+    "L39.E236.w1"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L41.E108.w2",
+   "entries": [
+    "L41.E108.w2"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  },
+  {
+   "id": "L42.E70.w3",
+   "entries": [
+    "L42.E70.w3"
+   ],
+   "figs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_unit",
+    "R7a_row",
+    "R7a_partner",
+    "R7b",
+    "R8",
+    "R9",
+    "R10"
+   ]
+  }
+ ]
+}

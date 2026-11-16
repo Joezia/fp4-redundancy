@@ -1,0 +1,24 @@
+{
+ "note": "R3 increment in bit per weight with R1c, R1s, R2 already on; within-block shuffle keeps each block code set and scale",
+ "seed": 0,
+ "rows": [
+  {
+   "item": "L13.E135.w2",
+   "original": {
+    "R3_bits_per_weight": 0.021041464950814593
+   },
+   "within_block_shuffled": {
+    "R3_bits_per_weight": 0.020873385116077416
+   }
+  },
+  {
+   "item": "L26.E12.w3",
+   "original": {
+    "R3_bits_per_weight": 0.015513585278104832
+   },
+   "within_block_shuffled": {
+    "R3_bits_per_weight": 0.015518870576795508
+   }
+  }
+ ]
+}

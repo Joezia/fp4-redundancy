@@ -1,0 +1,14 @@
+{
+ "block": 32,
+ "beta": 256.0,
+ "nblocks": 32,
+ "ctx_order": 2,
+ "lp_order": 8,
+ "lp_rows": 64,
+ "pred_tau": 0.25,
+ "rank": 1,
+ "lzp_k": 16,
+ "dict_atoms": 16,
+ "dict_iters": 8,
+ "dict_sample": 20000
+}

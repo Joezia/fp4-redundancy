@@ -1,0 +1,35 @@
+V1 PASS 160 s
+V2 PASS 126 s
+V3 PASS 130 s
+V4 FAIL 154 s
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/zhouziang/.local/share/miniforge3/envs/lab/lib/python3.11/concurrent/futures/process.py", line 261, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/redundancy/validate_increment.py", line 263, in run_one
+    r = TESTS[name](seed)
+        ^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/redundancy/validate_increment.py", line 167, in v5
+    w = rng.normal(0, 1, n) * sig
+        ~~~~~~~~~~~~~~~~~~~~^~~~~
+ValueError: operands could not be broadcast together with shapes (1000000,) (999424,) 
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/redundancy/validate_increment.py", line 292, in <module>
+    main()
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/redundancy/validate_increment.py", line 282, in main
+    n, r = f.result()
+           ^^^^^^^^^^
+  File "/home/zhouziang/.local/share/miniforge3/envs/lab/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/.local/share/miniforge3/envs/lab/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: operands could not be broadcast together with shapes (1000000,) (999424,) 

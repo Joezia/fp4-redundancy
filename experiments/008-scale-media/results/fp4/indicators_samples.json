@@ -1,0 +1,27 @@
+{
+ "E_B": 4,
+ "E_A": 6,
+ "B_matrices": 516,
+ "all_matrices": 774,
+ "n_entries": {
+  "R1": 774,
+  "R10": 774,
+  "R2": 774,
+  "R3": 774,
+  "R4": 774,
+  "R5": 516,
+  "R6": 774,
+  "R7a_partner": 774,
+  "R7a_row": 516,
+  "R7a_unit": 516,
+  "R7b": 516,
+  "R8": 516,
+  "R9_max_level": 516,
+  "R9_odd_count": 516
+ },
+ "A_rounds": [
+  11,
+  12
+ ],
+ "W1_W3_pairs": 258
+}

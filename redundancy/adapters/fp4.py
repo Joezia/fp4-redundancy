@@ -97,3 +97,47 @@ class FP4:
                      unit_len=B, known=E, partner=partner, partner_name=partner_name, equivalences=eqs,
                      process_checks=checks, baselines={"R5": "random_sign"},
                      attrs={"layer": s["layer"], "expert": s["expert"], "role": role, "shape": [R, W]})
+
+
+MATRIX = r"^(layers|mtp)\.(\d+)\.ffn\.experts\.(\d+)\.w([123])\.weight$"
+
+
+def list_matrices(snapshot):
+    """Every routed-expert matrix of the snapshot, in the samples-file format the adapter reads.
+
+    Layers are numbered as found; the multi-token-prediction blocks `mtp.<i>` follow the last
+    `layers.<i>` and get layer = (number of decoder layers) + i, with block = "mtp"."""
+    import re
+    from diagnostics.st import index_snapshot
+    idx = index_snapshot(snapshot)
+    pat = re.compile(MATRIX)
+    found = []
+    for name, info in idx.items():
+        m = pat.match(name)
+        if m:
+            found.append((m[1], int(m[2]), int(m[3]), int(m[4]), name, info))
+    n_dec = 1 + max(i for k, i, *_ in found if k == "layers")
+    out = []
+    for kind, i, e, r, name, info in sorted(found, key=lambda t: (t[0] != "layers", t[1], t[2], t[3])):
+        layer = i if kind == "layers" else n_dec + i
+        sname = name[:-len(".weight")] + ".scale"
+        sinfo = idx[sname]
+        R, Wp = info["shape"]
+        out.append({"matrix": f"L{layer}.E{e}.w{r}", "layer": layer, "block": kind, "block_index": i,
+                    "expert": e, "role": f"w{r}", "weight": name, "weight_file": info["file"],
+                    "weight_dtype": info["dtype"], "weight_shape": info["shape"], "scale": sname,
+                    "scale_file": sinfo["file"], "scale_dtype": sinfo["dtype"], "scale_shape": sinfo["shape"],
+                    "codeword_shape": [R, 2 * Wp], "codewords": R * 2 * Wp})
+    return {"decoder_layers": n_dec, "matrices": out}
+
+
+if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser(description="list every routed-expert matrix of a snapshot")
+    ap.add_argument("--snapshot-env", default="SNAPSHOT")
+    ap.add_argument("--out", required=True)
+    a = ap.parse_args()
+    res = list_matrices(os.environ[a.snapshot_env])
+    with open(a.out, "w") as f:
+        json.dump(res, f)
+    print(len(res["matrices"]), "matrices;", res["decoder_layers"], "decoder layers")

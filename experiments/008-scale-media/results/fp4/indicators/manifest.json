@@ -1,0 +1,320 @@
+{
+ "config": {
+  "adapter": {
+   "partner": {
+    "w1": "w3"
+   },
+   "samples": "data/008/fp4/matrices.json",
+   "snapshot_env": "SNAPSHOT",
+   "type": "fp4"
+  },
+  "figures": {
+   "R1": {
+    "panels": [
+     "data"
+    ]
+   },
+   "R2": {
+    "groups": {
+     "column": "Column",
+     "layer": "Layer",
+     "position_in_block": "Position in block",
+     "role": "Role",
+     "row": "Row",
+     "scale": "Scale"
+    },
+    "panels": [
+     "data"
+    ]
+   },
+   "R3": {
+    "note_zh": [
+     "相对完全打乱存在的依赖，来自同一块 32 个码字共享同一个 scale：块内打乱（保留每块的码字集合）后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "unit_line": true
+   },
+   "R4": {
+    "note_zh": [
+     "相对完全打乱存在的相关（主要是 |v|），来自同一块共享同一个 scale：块内打乱后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "unit_line": true
+   },
+   "R5": {
+    "panels": [
+     "synthetic_has",
+     "data"
+    ],
+    "synthetic": "rank-4 component"
+   },
+   "R6": {
+    "breakeven_line": false,
+    "note_zh": [
+     "长度 8 处的超出来自同块共享同一个 scale（块内码字分布集中，短窗口更容易重复）：实测 1.41%，完全打乱 0.78%，块内打乱 1.42%，块内打乱后超出消失。它与 R2 中 scale 分组的收益是同一来源，不能相加；也不是“一段内容原样再现”意义上的长重复。"
+    ],
+    "panels": [
+     "data"
+    ]
+   },
+   "R7a_partner": {
+    "dataset_label": "FP4 weights ({n} W1–W3 pairs)",
+    "panels": [
+     "data"
+    ],
+    "synthetic": "correlated row pairs",
+    "title": "Correlation of corresponding W1 and W3 rows",
+    "xlabel": "|Correlation| between row $i$ of W1 and row $i$ of W3"
+   },
+   "R7a_row": {
+    "note_zh": [
+     "基线由“同 scale 的块之间打乱”改为完全打乱后判定不变（仍为“存在，过回本线”）：最大 |ρ| 的基线中位数 0.0506 → 0.0506，越过回本线的行的比例基线均为 0%，实测 8.7%。"
+    ],
+    "panels": [
+     "data"
+    ]
+   },
+   "R7a_unit": {
+    "panels": []
+   },
+   "R7b": {
+    "baseline_legend": "whole",
+    "note_zh": [
+     "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "synthetic": "16 prototype blocks"
+   },
+   "R8": {
+    "baseline_legend": "whole",
+    "breakeven_bits": 16,
+    "note_zh": [
+     "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "s": 4
+   },
+   "R9": {
+    "panels": []
+   },
+   "dataset_label": "FP4 weights ({n} matrices)",
+   "overview": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_partner",
+    "R7a_row",
+    "R7b",
+    "R8"
+   ],
+   "overview_title": "FP4 weights: 36 matrices (R7a corresponding rows: 12 W1–W3 pairs; R8: 12 matrices)",
+   "vocab": {
+    "Sym": "Code",
+    "Unit": "Block",
+    "known": "scale",
+    "known_zh": "scale",
+    "sym": "code",
+    "sym_zh": "码字",
+    "unit": "block",
+    "unit_zh": "块",
+    "var": "C"
+   }
+  },
+  "indicators": {
+   "R1": {
+    "min_amp": 0.01
+   },
+   "R10": {},
+   "R2": {
+    "b": 16,
+    "min_amp": 0.002
+   },
+   "R3": {
+    "alt_baselines": [
+     "unit"
+    ],
+    "b": 16,
+    "baseline": "whole",
+    "max_lag": 96,
+    "min_amp": 0.002
+   },
+   "R4": {
+    "alt_baselines": [
+     "unit"
+    ],
+    "baseline": "whole",
+    "max_lag": 96,
+    "min_amp": 0.02
+   },
+   "R5": {
+    "b": 16,
+    "baseline": "random_sign",
+    "gain": {
+     "bins": 16,
+     "k": 4
+    },
+    "min_amp": 0.0005,
+    "show": 64
+   },
+   "R6": {
+    "alt_baselines": [
+     "unit"
+    ],
+    "baseline": "whole",
+    "ks": [
+     8,
+     10,
+     12,
+     14,
+     16,
+     20,
+     24,
+     32,
+     48,
+     64
+    ],
+    "min_amp": 0.0001
+   },
+   "R7a": {
+    "b": 16,
+    "baseline": "known",
+    "baseline_row": "whole",
+    "min_amp_corr": 0.005,
+    "min_amp_share": 0.01,
+    "min_amp_unit": 0.25,
+    "queries": 500
+   },
+   "R7b": {
+    "baseline": "known",
+    "iters": 20,
+    "ks": [
+     2,
+     4,
+     8,
+     16,
+     32,
+     64,
+     128,
+     256
+    ],
+    "min_amp": 0.005,
+    "sample": 100000
+   },
+   "R8": {
+    "b": 16,
+    "baseline": "known",
+    "iters": 15,
+    "ks": [
+     16,
+     64,
+     256,
+     1024
+    ],
+    "min_amp": 0.005,
+    "sample": 100000,
+    "ss": [
+     1,
+     2,
+     4
+    ]
+   },
+   "R9": {
+    "tv": 0.05
+   }
+  },
+  "label": "FP4 weights (spec 008 sample)",
+  "name": "fp4_008",
+  "seed": 20261116,
+  "synthetic": {
+   "cols": 2048,
+   "indicators": {
+    "R8": {
+     "b": 8,
+     "b_alt": 16
+    }
+   },
+   "rows": 1024,
+   "seed": 20261117,
+   "unit_len": 32
+  },
+  "workers": 76
+ },
+ "dataset": "fp4_008",
+ "figures": [
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7a_unit",
+  "R7a_row",
+  "R7a_partner",
+  "R7b",
+  "R8",
+  "R9_max_level",
+  "R9_odd_count",
+  "R10"
+ ],
+ "keys": {
+  "R1": "H = 3.895 bit, saving = 0.105",
+  "R10": "3 equivalences, 0.1175 bit/symbol in total",
+  "R2": "best = scale: net MI = 0.129, cost = 6.1e-05",
+  "R3": "MI(d=1) = 0.02711, baseline = 1.369e-05, break-even = 0.000326",
+  "R4": "ρ(1) = 0.000, |x| ρ(1) = 0.105, bound = 0.000171 bit",
+  "R5": "top share = 0.002853 (baseline 0.001213), break-even = 0.0139",
+  "R6": "K* = 12, L* = 6.2",
+  "R7a_partner": "median |ρ| = 0.106 (baseline 0.010), ρ* = 0.066",
+  "R7a_row": "median max|ρ| = 0.074 (baseline 0.051), ρ* = 0.086",
+  "R7a_unit": "median best = 12 (baseline 12), m* = 13 of 32",
+  "R7b": "ratio(K=64) = 0.831 (baseline 0.831), break-even 0.771",
+  "R8": "R2(K=64, s=2) = 0.356 (baseline 0.356), break-even 0.851 (b = 16)",
+  "R9_max_level": "TV = 0.115; share at 0: 0.000 (expected 4.32e-24)",
+  "R9_odd_count": "TV = 0.442; share at 0: 0.304 (expected 0.00988)"
+ },
+ "label": "FP4 weights (spec 008 sample)",
+ "n_entries": {
+  "R1": 774,
+  "R10": 774,
+  "R2": 774,
+  "R3": 774,
+  "R4": 774,
+  "R5": 516,
+  "R6": 774,
+  "R7a_partner": 774,
+  "R7a_row": 516,
+  "R7a_unit": 516,
+  "R7b": 516,
+  "R8": 516,
+  "R9_max_level": 516,
+  "R9_odd_count": 516
+ },
+ "synthetic": {},
+ "verdicts": {
+  "R1": "present",
+  "R10": "present",
+  "R2": "present_breakeven",
+  "R3": "present_breakeven",
+  "R4": "present",
+  "R5": "present",
+  "R6": "present_breakeven",
+  "R7a_partner": "present_breakeven",
+  "R7a_row": "present_breakeven",
+  "R7a_unit": "none",
+  "R7b": "none",
+  "R8": "none",
+  "R9_max_level": "present",
+  "R9_odd_count": "present"
+ }
+}

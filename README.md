@@ -131,16 +131,19 @@
 
 实验 008 新增通用的“逐模式增量节省”模块 [`redundancy/increment.py`](redundancy/increment.py)：
 - 做法：链式模型，用顺序自适应码长；边信息按实际比特计费；R2–R8 各带一个开关位。做法见 [method.md](experiments/008-scale-media/method.md)。
-- 验证：合成数据上 V1–V5 全部通过。
-- 真实媒体数据上的总节省（% 原始比特，默认顺序）：
+- 验证：合成数据上 V1–V5 全部通过；V6（007 的 36 个 FP4 矩阵）各单项与 slide 13 手算值相差不超过 0.0021 bit/权重，合计多 0.017，来自 slide 13 未计的 R3。
+- 总节省（% 原始比特，默认顺序）：
 
 | 数据集 | 总节省 | 最大的一项 | 真实 codec |
 | --- | ---: | --- | ---: |
+| FP4（516 个矩阵，每层 4 个专家） | 14.1%（0.599 bit/权重） | R1 scale 流 | — |
 | SQAM 偶数曲目 | 78.6% | R1 | FLAC -8：70.8% |
 | LibriSpeech test-clean | 42.5% | R1 | FLAC -8：44.8% |
 | Kodak 13–24 | 57.9% | R4 | PNG：43.3% |
 
-数据来源见 [data_sources.md](experiments/008-scale-media/data_sources.md)。FP4 扩大抽样（Part 1）和 FP4 汇总仍在运行，完成后再更新这里。
+FP4 扩大抽样（Part 1）：B 层每层 4 个专家（516 个矩阵，全部指标），A 层每层 6 个专家（774 个矩阵，便宜指标）；计划的每层 10 个专家因负载未达到。10 张指标图的判定与 007 相同，图在 [figures/fp4_indicators](experiments/008-scale-media/figures/fp4_indicators/)。
+
+结果与偏差说明见 [report.md](experiments/008-scale-media/report.md)；数据来源见 [data_sources.md](experiments/008-scale-media/data_sources.md)。
 
 ## 使用
 

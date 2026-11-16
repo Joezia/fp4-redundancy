@@ -1,0 +1,119 @@
+{
+ "figures": {
+  "dataset_label": "FP4 weights ({n} matrices)",
+  "vocab": {
+   "sym": "code",
+   "Sym": "Code",
+   "var": "C",
+   "unit": "block",
+   "Unit": "Block",
+   "known": "scale",
+   "sym_zh": "码字",
+   "unit_zh": "块",
+   "known_zh": "scale"
+  },
+  "overview": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7a_partner",
+   "R7a_row",
+   "R7b",
+   "R8"
+  ],
+  "R1": {
+   "panels": [
+    "data"
+   ]
+  },
+  "R2": {
+   "panels": [
+    "data"
+   ],
+   "groups": {
+    "scale": "Scale",
+    "row": "Row",
+    "column": "Column",
+    "position_in_block": "Position in block",
+    "layer": "Layer",
+    "role": "Role"
+   }
+  },
+  "R3": {
+   "panels": [
+    "data"
+   ],
+   "unit_line": true,
+   "note_zh": [
+    "相对完全打乱存在的依赖，来自同一块 32 个码字共享同一个 scale：块内打乱（保留每块的码字集合）后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+   ]
+  },
+  "R4": {
+   "panels": [
+    "data"
+   ],
+   "unit_line": true,
+   "note_zh": [
+    "相对完全打乱存在的相关（主要是 |v|），来自同一块共享同一个 scale：块内打乱后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+   ]
+  },
+  "R5": {
+   "panels": [
+    "synthetic_has",
+    "data"
+   ],
+   "synthetic": "rank-4 component"
+  },
+  "R6": {
+   "panels": [
+    "data"
+   ],
+   "breakeven_line": false
+  },
+  "R7a_partner": {
+   "panels": [
+    "data"
+   ],
+   "synthetic": "correlated row pairs",
+   "title": "Correlation of corresponding W1 and W3 rows",
+   "xlabel": "|Correlation| between row $i$ of W1 and row $i$ of W3",
+   "dataset_label": "FP4 weights ({n} W1–W3 pairs)"
+  },
+  "R7a_row": {
+   "panels": [
+    "data"
+   ]
+  },
+  "R7b": {
+   "panels": [
+    "data"
+   ],
+   "synthetic": "16 prototype blocks",
+   "baseline_legend": "whole",
+   "note_zh": [
+    "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+   ]
+  },
+  "R8": {
+   "panels": [
+    "data"
+   ],
+   "s": 4,
+   "breakeven_bits": 16,
+   "baseline_legend": "whole",
+   "note_zh": [
+    "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+   ]
+  },
+  "R7a_unit": {
+   "panels": []
+  },
+  "R9": {
+   "panels": []
+  },
+  "overview_title": "FP4 weights: 774 matrices, 6 experts per layer (R7a corresponding rows: 258 W1–W3 pairs; R5, R7a rows, R7b, R8: 516 matrices, 4 experts per layer)"
+ }
+}

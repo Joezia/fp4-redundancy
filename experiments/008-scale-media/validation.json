@@ -1,0 +1,409 @@
+{
+ "unit": "% of raw bits unless stated",
+ "zero_tolerance_percent": 0.2,
+ "switch_rule": "patterns R2-R8 have one on/off bit per item; the encoder switches a pattern on only if that lowers the code length (kept for later steps); 'if_forced_on' lists the increments with the pattern always on",
+ "all_V1_V5_pass": true,
+ "checks": {
+  "V1": {
+   "name": "V1 i.i.d. discrete Laplace (scale 40), 2e6 samples, 16-bit",
+   "theory": {
+    "R1": 51.4715749773282,
+    "others": 0.0
+   },
+   "measured": {
+    "R1": 51.47651377918684,
+    "R2": -3.1249999999999997e-06,
+    "R3": -3.1249999999999997e-06,
+    "R4": -3.1249999999999997e-06,
+    "R5": -3.1249999999999997e-06,
+    "R6": -3.1249999999999997e-06,
+    "R7": -3.1249999999999997e-06,
+    "R8": -3.1249999999999997e-06,
+    "R10": 0.0
+   },
+   "tolerance": {
+    "R1": "|measured - theory| <= 0.05 % of raw bits",
+    "others": "|x| <= 0.2 %"
+   },
+   "pass": true,
+   "violations": {},
+   "note": "theory R1 = (16 - H) / 16 with H = 7.7645 bit (entropy of the discrete Laplace law)",
+   "seconds": 144.9600875377655,
+   "if_forced_on": [
+    {
+     "R1": 51.47651377918684,
+     "R2": -0.00042910925390897317,
+     "R3": -0.024744395285687643,
+     "R4": -0.004797858704690588,
+     "R5": -0.14707767735457164,
+     "R6": -0.0001238767675124109,
+     "R7": -0.0002945305987028405,
+     "R8": -2.5910966459196063e-05,
+     "R10": 0.0
+    }
+   ]
+  },
+  "V2": {
+   "name": "V2 quantised Gaussian AR(1), rho = 0.9, innovation sd 40, 1e6 samples",
+   "theory": {
+    "R4": 7.4872771135348115
+   },
+   "measured": {
+    "alt_order_R4_before_R3": {
+     "R10": 0.0,
+     "R1": 46.453462144255106,
+     "R2": 0.0011674681427306496,
+     "R4": 7.431472462118155,
+     "R3": -6.2499999999999995e-06,
+     "R5": -6.2499999999999995e-06,
+     "R6": -6.2499999999999995e-06,
+     "R7": 0.0008687495070160366,
+     "R8": 0.0031529956761514773
+    },
+    "default_order": {
+     "R1": 46.453462144255106,
+     "R2": 0.0011674681427306496,
+     "R3": 2.7646880605883957,
+     "R4": 4.615169634679525,
+     "R5": -6.2499999999999995e-06,
+     "R6": -6.2499999999999995e-06,
+     "R7": 0.0005174997650261503,
+     "R8": -6.2499999999999995e-06,
+     "R10": 0.0
+    }
+   },
+   "tolerance": "|R4 - theory| <= 0.15 % in the order with R4 before R3; in the default order R3 (quantised previous-sample context) comes first and takes part of the same dependence, so R3 + R4 is compared with the theory, same tolerance",
+   "pass": true,
+   "note": "theory = 1/2 log2(1 / (1 - rho^2)) bit per sample / 16 bit",
+   "seconds": 134.99761247634888,
+   "if_forced_on": [
+    {
+     "R10": 0.0,
+     "R1": 46.453462144255106,
+     "R2": 0.0011674681427306496,
+     "R4": 7.431472462118155,
+     "R3": -0.05161476685023518,
+     "R5": -0.18411618926933151,
+     "R6": -9.09562568704132e-05,
+     "R7": 0.0008687495070160366,
+     "R8": 0.0031529956761514773
+    },
+    {
+     "R1": 46.453462144255106,
+     "R2": 0.0011674681427306496,
+     "R3": 2.7646880605883957,
+     "R4": 4.615169634679525,
+     "R5": -0.18972935378130643,
+     "R6": -9.163803876144812e-05,
+     "R7": 0.0005174997650261503,
+     "R8": -0.004330574253108352,
+     "R10": 0.0
+    }
+   ]
+  },
+  "V3": {
+   "name": "V3 piecewise variance: each 1024-sample frame Gaussian with sd 4 or 64 (random), 2e6 samples",
+   "theory": {
+    "R2": 4.509140835016135
+   },
+   "measured": {
+    "R1": 57.52747302671205,
+    "R2": 4.382016215758836,
+    "R3": -3.1252000128008195e-06,
+    "R4": -3.1252000128008195e-06,
+    "R5": -3.1252000128008195e-06,
+    "R6": -3.1252000128008195e-06,
+    "R7": -3.1252000128008195e-06,
+    "R8": -3.1252000128008195e-06,
+    "R10": 0.0
+   },
+   "tolerance": "|R2 - theory| <= 10 % of theory = 0.451 %",
+   "pass": true,
+   "note": "theory = [H(mixture) - mean H(component) - 1 bit label per frame] / 16 with H(mixture) = 6.7695, H = 4.0471 / 8.0471 bit",
+   "seconds": 114.90399312973022,
+   "if_forced_on": [
+    {
+     "R1": 57.52747302671205,
+     "R2": 4.382016215758836,
+     "R3": -0.03009662330268056,
+     "R4": -0.006287146533927856,
+     "R5": -0.14006305187454318,
+     "R6": -0.2804407698628881,
+     "R7": -0.0339689144348437,
+     "R8": -2.591262486718756e-05,
+     "R10": 0.0
+    }
+   ]
+  },
+  "V4": {
+   "name": "V4 exact repeats: i.i.d. discrete Laplace (scale 40) with 1562 copied segments of 256 samples (20 % of 2e6 samples) from random earlier positions",
+   "theory": {
+    "R6": 9.55097638556208
+   },
+   "measured": {
+    "R1": 51.47204981081828,
+    "R2": -3.1249999999999997e-06,
+    "R3": -3.1249999999999997e-06,
+    "R4": -3.1249999999999997e-06,
+    "R5": -3.1249999999999997e-06,
+    "R6": 9.46209755242027,
+    "R7": -3.1249999999999997e-06,
+    "R8": -3.1249999999999997e-06,
+    "R10": 0.0
+   },
+   "tolerance": "|R6 - theory| <= 5 % of theory = 0.478 %",
+   "pass": true,
+   "note": "theory = segments x (length - k) x H / raw bits with the match context k = 4 (the first k samples of a copy cannot be predicted), H = 7.7645 bit; the cost of the hit/miss flags is not in the theory",
+   "seconds": 128.6419699192047,
+   "if_forced_on": [
+    {
+     "R1": 51.47204981081828,
+     "R2": -0.0002360417547286488,
+     "R3": -0.02333141154855839,
+     "R4": -0.00457876824689447,
+     "R5": -0.1478582725627348,
+     "R6": 9.46209755242027,
+     "R7": -0.0013588250789092855,
+     "R8": -2.5910966459196063e-05,
+     "R10": 0.0
+    }
+   ]
+  },
+  "V5": {
+   "name": "V5 shuffle baseline: AR(1) with frame-wise variance and repeats (1e6 samples), all samples shuffled",
+   "theory": {
+    "all but R1": 0.0
+   },
+   "measured": {
+    "R1": 45.68923749564311,
+    "R2": -6.253602074795082e-06,
+    "R3": -6.253602074795082e-06,
+    "R4": -6.253602074795082e-06,
+    "R5": -6.253602074795082e-06,
+    "R6": -6.253602074795082e-06,
+    "R7": -6.253602074795082e-06,
+    "R8": -6.253602074795082e-06,
+    "R10": 0.0
+   },
+   "measured_before_shuffle": {
+    "R1": 45.68923749564311,
+    "R2": 3.1726416130144077,
+    "R3": 2.918327878524136,
+    "R4": 4.640826483796574,
+    "R5": -6.253602074795082e-06,
+    "R6": 1.2410123914847129,
+    "R7": -6.253602074795082e-06,
+    "R8": -6.253602074795082e-06,
+    "R10": 0.0
+   },
+   "tolerance": "|x| <= 0.2 % for every pattern but R1",
+   "pass": true,
+   "violations": {},
+   "seconds": 156.9300355911255,
+   "if_forced_on": [
+    {
+     "R1": 45.68923749564311,
+     "R2": 3.1726416130144077,
+     "R3": 2.918327878524136,
+     "R4": 4.640826483796574,
+     "R5": -0.18589153900902664,
+     "R6": 1.2410123914847129,
+     "R7": -0.007900723543380976,
+     "R8": -0.004431893811882071,
+     "R10": 0.0
+    },
+    {
+     "R1": 45.68923749564311,
+     "R2": -0.0023559518802667447,
+     "R3": -0.05448132764068074,
+     "R4": -0.022972925831417152,
+     "R5": -0.3266759725837117,
+     "R6": -5.105016543847133e-05,
+     "R7": -0.002333914138190363,
+     "R8": -4.872283264350072e-05,
+     "R10": 0.0
+    }
+   ]
+  },
+  "V1_image": {
+   "name": "V1 (2-D chain) i.i.d. image, 512 x 768 x 3, clipped Laplace (scale 12) around 128",
+   "theory": {
+    "R1": 24.63210616876936,
+    "others": 0.0
+   },
+   "measured": {
+    "R1": 24.5953366510116,
+    "R2": -1.0596381293402777e-05,
+    "R3": -1.0596381293402777e-05,
+    "R4": -1.0596381293402777e-05,
+    "R5": -1.0596381293402777e-05,
+    "R6": -1.0596381293402777e-05,
+    "R7": -1.0596381293402777e-05,
+    "R8": -1.0596381293402777e-05,
+    "R10": -1.2534114904871687
+   },
+   "tolerance": {
+    "R1": "|measured - theory| <= 0.1 %",
+    "others": "|x| <= 0.2 % (R10 excluded: the colour transform of independent channels mixes them and is expected to cost)"
+   },
+   "pass": true,
+   "violations": {},
+   "note": "theory uses the empirical per-channel entropy of the generated image",
+   "seconds": 122.90487384796143,
+   "if_forced_on": [
+    {
+     "R1": 24.5953366510116,
+     "R2": -0.0018222852692496695,
+     "R3": -0.2269569647594949,
+     "R4": -0.14989556002081234,
+     "R5": -0.6448673203900906,
+     "R6": -4.569403755125576e-05,
+     "R7": -0.002421411742749137,
+     "R8": -0.00023687973023100994,
+     "R10": -1.2534114904871687
+    }
+   ]
+  },
+  "V1_fp4": {
+   "name": "V1 (FP4 chain) i.i.d. codes (fixed skewed law), i.i.d. scales over 6 values, independent partner",
+   "theory": {
+    "R1c": 2.3955889551784706,
+    "R1s": 3.981728922806454,
+    "R10": 2.8811524609843935,
+    "others": 0.0
+   },
+   "measured": {
+    "R1c": 2.3953134004677716,
+    "R1s": 3.9668140974464596,
+    "R2": -1.1219697840073529e-05,
+    "R3": -1.1219697840073529e-05,
+    "R4": 0.00015583551081189238,
+    "R5": -1.1219697840073529e-05,
+    "R6": -1.1219697840073529e-05,
+    "R7": -1.1219697840073529e-05,
+    "R8": -1.1219697840073529e-05,
+    "R10": 2.8776189044488145
+   },
+   "tolerance": {
+    "R1c, R1s, R10": "|measured - theory| <= 0.05 %",
+    "others": "|x| <= 0.2 %"
+   },
+   "pass": true,
+   "violations": {},
+   "note": "theory: code R1 = (4 - H(code)) / 4.25, scale R1 = (8 - H(scale)) / 32 / 4.25, R10 = P(zero) x 1 bit / 4.25",
+   "seconds": 24.77570104598999,
+   "if_forced_on": [
+    {
+     "R1c": 2.3953134004677716,
+     "R1s": 3.9668140974464596,
+     "R2": -0.004666215480508175,
+     "R3": -0.012484989397709046,
+     "R4": 0.00015583551081189238,
+     "R5": -0.5484754823681826,
+     "R6": -1.1219697840073529e-05,
+     "R7": -0.010932098092751667,
+     "R8": -1.5502387479511375,
+     "R10": 2.8776189044488145
+    }
+   ]
+  },
+  "V5_image": {
+   "name": "V5 (2-D chain) shuffle baseline on kodim13.png: each channel's pixels fully shuffled",
+   "theory": {
+    "all but R1": 0.0
+   },
+   "measured": {
+    "R1": 6.86263669888984,
+    "R2": -1.0596381293402777e-05,
+    "R3": -1.0596381293402777e-05,
+    "R4": -1.0596381293402777e-05,
+    "R5": -1.0596381293402777e-05,
+    "R6": -1.0596381293402777e-05,
+    "R7": -1.0596381293402777e-05,
+    "R8": -1.0596381293402777e-05,
+    "R10": -4.005379551144807
+   },
+   "tolerance": "|x| <= 0.2 % for every pattern but R1 and R10 (R10 is reported; shuffling each channel separately makes the channels independent, so the colour transform is expected to cost)",
+   "pass": true,
+   "violations": {},
+   "seconds": 127.53741979598999,
+   "if_forced_on": [
+    {
+     "R1": 6.86263669888984,
+     "R2": -0.015476718016750447,
+     "R3": -1.1173831697070153,
+     "R4": -0.5288722122298929,
+     "R5": -1.5113548534260661,
+     "R6": -1.0596381293402777e-05,
+     "R7": -1.8061740002358482,
+     "R8": -0.9214820461120333,
+     "R10": -4.005379551144807
+    }
+   ]
+  },
+  "V6": {
+   "name": "V6 FP4: the 36 matrices of 007 recomputed with the chain module, compared with the slide-13 hand numbers",
+   "explanation": {
+    "total_excess": "comes from R3 (slide 13 counts R3 as 0); after the scale context of R2, the two previous codes still carry block-level information: the R3 increment survives a within-block shuffle (dev/r3_blockshuffle.json)",
+    "check": [
+     {
+      "item": "L13.E135.w2",
+      "original": {
+       "R3_bits_per_weight": 0.021041464950814593
+      },
+      "within_block_shuffled": {
+       "R3_bits_per_weight": 0.020873385116077416
+      }
+     },
+     {
+      "item": "L26.E12.w3",
+      "original": {
+       "R3_bits_per_weight": 0.015513585278104832
+      },
+      "within_block_shuffled": {
+       "R3_bits_per_weight": 0.015518870576795508
+      }
+     }
+    ]
+   },
+   "unit": "bit per weight",
+   "slide13": {
+    "R1c": 0.106,
+    "R1s": 0.219,
+    "R2": 0.127,
+    "R7": 0.012,
+    "R10": 0.117,
+    "total": 0.581
+   },
+   "chain": {
+    "R1c": 0.10798761297081866,
+    "R1s": 0.21905078510984666,
+    "R2": 0.12491355266043953,
+    "R7": 0.011117523941914407,
+    "R10": 0.11737462190344167,
+    "total": 0.5982628927582718
+   },
+   "difference": {
+    "R1c": 0.0019876129708186613,
+    "R1s": 5.0785109846657184e-05,
+    "R2": -0.0020864473395604682,
+    "R7": -0.0008824760580855937,
+    "R10": 0.00037462190344166035,
+    "total": 0.017262892758271864
+   },
+   "other_patterns": {
+    "R3": 0.017819135256012274,
+    "R4": -8.477105034722221e-08,
+    "R5": -8.477105034722221e-08,
+    "R6": -8.477105034722221e-08,
+    "R8": -8.477105034722221e-08
+   },
+   "n_matrices": 36,
+   "tolerance": "|difference| <= 0.01 bit per weight per item; larger differences are explained in report.md",
+   "over_tolerance": {
+    "total": 0.017262892758271864
+   },
+   "pass": false
+  }
+ }
+}
