@@ -150,6 +150,13 @@ FP4 扩大抽样（Part 1）：B 层每层 4 个专家（516 个矩阵，全部�
 - 10 张指标图中 7 张判定与 DeepSeek 相同；R5、R9 为“无”，R7a 矩阵内行未过回本线。
 - 详见 [009 report.md](experiments/009-kimi-k3/report.md)。扩大到与 DeepSeek 相近的样本量（552 / 828 个矩阵）尚未进行。
 
+实验 010 在 DeepSeek 的 48 个矩阵（第 0、13、26、39 层各 4 个专家）上试了三种变换和一个神经网络探针，相对 008 链式模型的净节省都在 ±0.0001 bit/权重以内或为负：
+- 神经元符号规范化：输出逐位不变，+0.00005 bit/权重。
+- 跨专家置换对齐：−0.00095，即排列成本。
+- 行重排后按列编码：−0.015 到 −0.017；行重排后仍按行编码、scale 以上一行为上下文：−0.00006。
+- 神经网络探针：−0.084。
+详见 [010 report.md](experiments/010-transforms/report.md)。
+
 ## 使用
 
 首次使用复制`.env.example`为`.env`并设置本地路径，然后在仓库根目录加载 `source .env`。查看已实现方法：`PYTHONPATH=src python3 -m fp4_redundancy methods`。

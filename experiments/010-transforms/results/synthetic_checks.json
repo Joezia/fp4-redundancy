@@ -1,0 +1,69 @@
+{
+ "T1": {
+  "rows_flipped": 117,
+  "rows_with_negative_sign": 117,
+  "flips_match_truth": true,
+  "invariance": {
+   "bitwise_identical": true,
+   "max_abs_diff": 0.0,
+   "tokens": 16,
+   "dtype": "float32",
+   "rows_flipped": null
+  },
+  "saving_bits": 261.5984343315358,
+  "expected_about_bits": 258.96168263129636,
+  "pass": true
+ },
+ "T2": {
+  "related": {
+   "permutation_recovered": 1.0,
+   "saving_bits": 132598.38260352035,
+   "perm_bits": 1683.9962872242147,
+   "matched_corr_median": 0.701417227152821
+  },
+  "independent": {
+   "matched_corr_median": 0.11750686809567032,
+   "baseline_median": 0.1154964259956402,
+   "saving_bits": 1034.3509592437185
+  },
+  "pass": true
+ },
+ "column_direction": {
+  "col_R3": 0.33501074981435874,
+  "row_R3": 0.011905595050303596,
+  "col_total": 0.4494326020312711,
+  "row_total": 0.08405114984781836,
+  "scale_bits": {
+   "none": 4.33121775934795,
+   "above": 0.9768376535067667,
+   "left": 4.320031866309755
+  },
+  "pass": true
+ },
+ "column_direction_iid": {
+  "increments": {
+   "R1c": -0.00012805458139469547,
+   "R1s": 0.05778112309513972,
+   "R2": 5.2694939733007285e-05,
+   "R3": -1.7951516544117647e-06,
+   "R4": -1.7951516544117647e-06,
+   "R6": -1.7951516544117647e-06,
+   "R7": -1.7951516544117647e-06,
+   "R10": 0.02809478813190716
+  },
+  "pass": true
+ },
+ "T3": {
+  "same_cluster_adjacent": {
+   "nn_code_corr": 0.9725490196078431,
+   "nn_scale_dist": 0.9725490196078431,
+   "random": 0.12941176470588237
+  },
+  "col_total_nn": 0.2886890148010201,
+  "col_total_random": 0.06527415285495314,
+  "R3_nn": 0.19250390020006214,
+  "R3_random": -1.7951516544117647e-06,
+  "pass": true
+ },
+ "all_pass": true
+}

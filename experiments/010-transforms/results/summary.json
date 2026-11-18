@@ -1,0 +1,163 @@
+{
+ "n_base_matrices": 48,
+ "T1": {
+  "experts": 16,
+  "all_bitwise_identical": true,
+  "rows_flipped_fraction": 0.5035264756944444,
+  "w3_given_w1_saving_bits_per_weight": 0.0001524329103997641,
+  "w2_saving_bits_per_weight": -3.334581242637253e-06,
+  "w1_saving_bits_per_weight": 0.0001472300202443143,
+  "w3_alone_saving_bits_per_weight": 1.5321159190130453e-06,
+  "net_bits_per_weight": 4.847585164023003e-05,
+  "net_percent": 0.0011406082738877655,
+  "affected": "w1, w2, w3 of each expert"
+ },
+ "T2": {
+  "real": {
+   "pairs": 24,
+   "net_bits_per_weight": -0.0009502601026688122,
+   "net_percent": -0.022359061239266172,
+   "saving_before_permutation_cost_bits_per_weight": -4.238552517361111e-08,
+   "w3_saving_bits_per_weight_of_w3": 0.0,
+   "permutation_bits_per_weight": 0.0009502177171436386,
+   "matched_corr_median_of_pair_medians": 0.04871382337366646,
+   "matched_corr_median_of_pair_p99": 0.07163959460998715,
+   "matched_corr_pair_medians_range": [
+    0.046338182622211246,
+    0.05714043189915238
+   ]
+  },
+  "shuffled": {
+   "pairs": 24,
+   "net_bits_per_weight": -0.0003657718141946936,
+   "net_percent": -0.008606395628110438,
+   "saving_before_permutation_cost_bits_per_weight": 0.0005844459029488791,
+   "w3_saving_bits_per_weight_of_w3": 0.0,
+   "permutation_bits_per_weight": 0.0009502177171436386,
+   "matched_corr_median_of_pair_medians": 0.04630664058475573,
+   "matched_corr_median_of_pair_p99": 0.061746106883668564,
+   "matched_corr_pair_medians_range": [
+    0.04607112429245252,
+    0.046628119036233005
+   ]
+  },
+  "identity_fraction_real": 0.0005063657407407407,
+  "affected": "w1 and w3 of expert B in each pair"
+ },
+ "T3": {
+  "original": {
+   "net_bits_per_weight": -0.01547796466597045,
+   "net_percent": -0.3641874039051871,
+   "column_increments_bits_per_weight": {
+    "R3": -8.477105034722221e-08,
+    "R4": 2.2058958517945372e-05,
+    "R6": 5.589290593219529e-07,
+    "R7": 0.021177832699847996
+   },
+   "scale_stream_bits_per_weight": {
+    "none": 0.03084646205546176,
+    "above": 0.030796314951920346,
+    "left": 0.03064062406514959
+   }
+  },
+  "nn_code_corr": {
+   "net_bits_per_weight": -0.017436298510479117,
+   "net_percent": -0.410265847305391,
+   "column_increments_bits_per_weight": {
+    "R3": 0.000991752762198238,
+    "R4": 1.0394034078665805e-05,
+    "R6": 5.683398287498815e-07,
+    "R7": 0.018717794282842724
+   },
+   "scale_stream_bits_per_weight": {
+    "none": 0.03084646205546176,
+    "above": 0.03073806490819634,
+    "left": 0.030640936214830664
+   }
+  },
+  "nn_scale_dist": {
+   "net_bits_per_weight": -0.015413031773302697,
+   "net_percent": -0.362659571136534,
+   "column_increments_bits_per_weight": {
+    "R3": -8.477105034722221e-08,
+    "R4": 2.2180819034546396e-05,
+    "R6": 6.04892981037608e-07,
+    "R7": 0.02117791839383282
+   },
+   "scale_stream_bits_per_weight": {
+    "none": 0.03084646205546176,
+    "above": 0.029780980940379034,
+    "left": 0.030641821344089604
+   }
+  },
+  "random": {
+   "net_bits_per_weight": -0.016445406707334343,
+   "net_percent": -0.3869507460549257,
+   "column_increments_bits_per_weight": {
+    "R3": -8.477105034722221e-08,
+    "R4": 2.210869896034732e-05,
+    "R6": 3.795895191653168e-07,
+    "R7": 0.02117789527945067
+   },
+   "scale_stream_bits_per_weight": {
+    "none": 0.03084646205546176,
+    "above": 0.03079621288778164,
+    "left": 0.030640709749285074
+   }
+  },
+  "permutation_bits_per_weight": 0.0009502177171436387,
+  "affected": "w1 and w3 of each expert, coded column by column (008: row by row)"
+ },
+ "T3_row_major": {
+  "nn_code_corr": {
+   "net_bits_per_weight": -0.0009292660100896515,
+   "net_percent": -0.021865082590344743,
+   "code_chain_change_bits_per_weight": -8.736066916128493e-05,
+   "scale_saving_bits_per_weight": 0.00010831237621506549,
+   "permutation_bits_per_weight": 0.0009502177171436386
+  },
+  "nn_scale_dist": {
+   "net_bits_per_weight": -5.9519441277602584e-05,
+   "net_percent": -0.001400457441825943,
+   "code_chain_change_bits_per_weight": -0.00017469806816643697,
+   "scale_saving_bits_per_weight": 0.0010653963440323652,
+   "permutation_bits_per_weight": 0.0009502177171436386
+  },
+  "random": {
+   "net_bits_per_weight": -0.0009043718551263267,
+   "net_percent": -0.021279337767678274,
+   "code_chain_change_bits_per_weight": -4.318534612421684e-06,
+   "scale_saving_bits_per_weight": 5.016439662975396e-05,
+   "permutation_bits_per_weight": 0.0009502177171436386
+  },
+  "affected": "w1 and w3 of each expert; codes row by row as in 008, scale stream with the row above as context"
+ },
+ "P1": {
+  "n_params": 159640,
+  "nn_bits_per_code": 3.709244946638743,
+  "nn_se": 0.00018265456719961708,
+  "chain_code_bits_per_code": 3.6255973214104835,
+  "net_saving_bits_per_weight_without_model_cost": -0.08364762522825941,
+  "model_cost_bits_per_weight_16bit": 0.009021900318287037,
+  "net_saving_bits_per_weight_with_model_cost": -0.09266952554654645,
+  "fit": {
+   "lr": 0.003,
+   "validation_bits_per_epoch": {
+    "0.001": [
+     3.7149922847747803,
+     3.710627555847168,
+     3.7084267139434814,
+     3.707787275314331
+    ],
+    "0.003": [
+     3.7109270095825195,
+     3.7080795764923096,
+     3.7070348262786865,
+     3.7066025733947754
+    ]
+   }
+  },
+  "net_percent_with_model_cost": -2.1804594246246225,
+  "net_percent_without_model_cost": -1.9681794171355156
+ }
+}

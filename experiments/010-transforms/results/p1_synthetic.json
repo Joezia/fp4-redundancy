@@ -1,0 +1,13 @@
+{
+ "iid": {
+  "test_bits_per_code": 3.716356039047241,
+  "target_entropy": 3.713548293615844,
+  "pass": true
+ },
+ "markov": {
+  "test_bits_per_code": 2.6639668941497803,
+  "target_entropy": 2.645038852598879,
+  "pass": true
+ },
+ "all_pass": true
+}

@@ -1,0 +1,274 @@
+{
+ "train_matrices": [
+  "L0.E167.w1",
+  "L0.E167.w2",
+  "L0.E167.w3",
+  "L0.E232.w1",
+  "L0.E232.w2",
+  "L0.E232.w3",
+  "L13.E27.w1",
+  "L13.E27.w2",
+  "L13.E27.w3",
+  "L13.E193.w1",
+  "L13.E193.w2",
+  "L13.E193.w3",
+  "L26.E259.w1",
+  "L26.E259.w2",
+  "L26.E259.w3",
+  "L26.E32.w1",
+  "L26.E32.w2",
+  "L26.E32.w3",
+  "L39.E9.w1",
+  "L39.E9.w2",
+  "L39.E9.w3",
+  "L39.E126.w1",
+  "L39.E126.w2",
+  "L39.E126.w3"
+ ],
+ "test_matrices": [
+  "L0.E191.w1",
+  "L0.E191.w2",
+  "L0.E191.w3",
+  "L0.E230.w1",
+  "L0.E230.w2",
+  "L0.E230.w3",
+  "L13.E127.w1",
+  "L13.E127.w2",
+  "L13.E127.w3",
+  "L13.E267.w1",
+  "L13.E267.w2",
+  "L13.E267.w3",
+  "L26.E336.w1",
+  "L26.E336.w2",
+  "L26.E336.w3",
+  "L26.E92.w1",
+  "L26.E92.w2",
+  "L26.E92.w3",
+  "L39.E70.w1",
+  "L39.E70.w2",
+  "L39.E70.w3",
+  "L39.E88.w1",
+  "L39.E88.w2",
+  "L39.E88.w3"
+ ],
+ "n_params": 159640,
+ "train_positions": 9600000,
+ "test_positions_per_matrix": 500000,
+ "fit": {
+  "lr": 0.003,
+  "validation_bits_per_epoch": {
+   "0.001": [
+    3.7149922847747803,
+    3.710627555847168,
+    3.7084267139434814,
+    3.707787275314331
+   ],
+   "0.003": [
+    3.7109270095825195,
+    3.7080795764923096,
+    3.7070348262786865,
+    3.7066025733947754
+   ]
+  }
+ },
+ "nn_bits_per_code": 3.709244946638743,
+ "nn_se": 0.00018265456719961708,
+ "chain_code_bits_per_code": 3.6255973214104835,
+ "net_saving_bits_per_weight_without_model_cost": -0.08364762522825941,
+ "model_cost_bits_per_weight_16bit": 0.009021900318287037,
+ "net_saving_bits_per_weight_with_model_cost": -0.09266952554654645,
+ "per_matrix": {
+  "L0.E191.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.712970018386841,
+   "nn_se": 0.0008698279852978885,
+   "chain_code_bits_per_code": 3.633396604582232,
+   "chain_scale_bits_per_weight": 0.029653322155460002,
+   "chain_total_bits_per_weight": 3.663049926737692
+  },
+  "L0.E191.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7201130390167236,
+   "nn_se": 0.0008600153378210962,
+   "chain_code_bits_per_code": 3.651260669259308,
+   "chain_scale_bits_per_weight": 0.028792049994091476,
+   "chain_total_bits_per_weight": 3.6800527192534
+  },
+  "L0.E191.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.733009099960327,
+   "nn_se": 0.000997460330836475,
+   "chain_code_bits_per_code": 3.6438365918209734,
+   "chain_scale_bits_per_weight": 0.029533772945476194,
+   "chain_total_bits_per_weight": 3.6733703647664493
+  },
+  "L0.E230.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.713038444519043,
+   "nn_se": 0.0009180486085824668,
+   "chain_code_bits_per_code": 3.548605540696271,
+   "chain_scale_bits_per_weight": 0.031183087806960354,
+   "chain_total_bits_per_weight": 3.5797886285032314
+  },
+  "L0.E230.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7023816108703613,
+   "nn_se": 0.0008906717994250357,
+   "chain_code_bits_per_code": 3.6299999791964317,
+   "chain_scale_bits_per_weight": 0.031123998013062728,
+   "chain_total_bits_per_weight": 3.661123977209494
+  },
+  "L0.E230.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.698356866836548,
+   "nn_se": 0.0009913803078234196,
+   "chain_code_bits_per_code": 3.6384703018194178,
+   "chain_scale_bits_per_weight": 0.031042686620823285,
+   "chain_total_bits_per_weight": 3.669512988440241
+  },
+  "L13.E127.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7395379543304443,
+   "nn_se": 0.0009558046003803611,
+   "chain_code_bits_per_code": 3.650642188569568,
+   "chain_scale_bits_per_weight": 0.031779202882579356,
+   "chain_total_bits_per_weight": 3.6824213914521473
+  },
+  "L13.E127.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7073357105255127,
+   "nn_se": 0.0008695365395396948,
+   "chain_code_bits_per_code": 3.636339876552642,
+   "chain_scale_bits_per_weight": 0.030518093642166788,
+   "chain_total_bits_per_weight": 3.666857970194809
+  },
+  "L13.E127.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7167255878448486,
+   "nn_se": 0.0008674402488395572,
+   "chain_code_bits_per_code": 3.6464868011243796,
+   "chain_scale_bits_per_weight": 0.031021558455610096,
+   "chain_total_bits_per_weight": 3.6775083595799902
+  },
+  "L13.E267.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7094719409942627,
+   "nn_se": 0.0009143539355136454,
+   "chain_code_bits_per_code": 3.608455627691384,
+   "chain_scale_bits_per_weight": 0.031492584614008036,
+   "chain_total_bits_per_weight": 3.6399482123053923
+  },
+  "L13.E267.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.701206684112549,
+   "nn_se": 0.0008742263307794929,
+   "chain_code_bits_per_code": 3.6286327597788386,
+   "chain_scale_bits_per_weight": 0.031142662983088012,
+   "chain_total_bits_per_weight": 3.6597754227619266
+  },
+  "L13.E267.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7043569087982178,
+   "nn_se": 0.0008653208496980369,
+   "chain_code_bits_per_code": 3.6313433790894365,
+   "chain_scale_bits_per_weight": 0.031370715993421346,
+   "chain_total_bits_per_weight": 3.6627140950828574
+  },
+  "L26.E336.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7239935398101807,
+   "nn_se": 0.0008539844420738518,
+   "chain_code_bits_per_code": 3.636011712290845,
+   "chain_scale_bits_per_weight": 0.030110128790998624,
+   "chain_total_bits_per_weight": 3.6661218410818437
+  },
+  "L26.E336.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.700035810470581,
+   "nn_se": 0.000865795009303838,
+   "chain_code_bits_per_code": 3.622710901027656,
+   "chain_scale_bits_per_weight": 0.0313695541473562,
+   "chain_total_bits_per_weight": 3.654080455175012
+  },
+  "L26.E336.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7107300758361816,
+   "nn_se": 0.0008703168714419007,
+   "chain_code_bits_per_code": 3.637450155453434,
+   "chain_scale_bits_per_weight": 0.03141203434337249,
+   "chain_total_bits_per_weight": 3.668862189796806
+  },
+  "L26.E92.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.6991655826568604,
+   "nn_se": 0.0008719642064534128,
+   "chain_code_bits_per_code": 3.62269306785047,
+   "chain_scale_bits_per_weight": 0.031409774595632114,
+   "chain_total_bits_per_weight": 3.654102842446102
+  },
+  "L26.E92.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.70011830329895,
+   "nn_se": 0.0008602580055594444,
+   "chain_code_bits_per_code": 3.6220605665980563,
+   "chain_scale_bits_per_weight": 0.031435530059108444,
+   "chain_total_bits_per_weight": 3.6534960966571646
+  },
+  "L26.E92.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.6970930099487305,
+   "nn_se": 0.0008709311950951815,
+   "chain_code_bits_per_code": 3.618816124454252,
+   "chain_scale_bits_per_weight": 0.03147433592715325,
+   "chain_total_bits_per_weight": 3.650290460381405
+  },
+  "L39.E70.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.708686590194702,
+   "nn_se": 0.0009329704334959388,
+   "chain_code_bits_per_code": 3.6184289987746037,
+   "chain_scale_bits_per_weight": 0.031791948288797486,
+   "chain_total_bits_per_weight": 3.650220947063401
+  },
+  "L39.E70.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7025704383850098,
+   "nn_se": 0.0008606024202890694,
+   "chain_code_bits_per_code": 3.614009056918948,
+   "chain_scale_bits_per_weight": 0.030138321922187534,
+   "chain_total_bits_per_weight": 3.644147378841135
+  },
+  "L39.E70.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.7026102542877197,
+   "nn_se": 0.0008866796852089465,
+   "chain_code_bits_per_code": 3.6174691645095782,
+   "chain_scale_bits_per_weight": 0.030867944800294082,
+   "chain_total_bits_per_weight": 3.648337109309872
+  },
+  "L39.E88.w1": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.701000928878784,
+   "nn_se": 0.0008884153212420642,
+   "chain_code_bits_per_code": 3.619696756240075,
+   "chain_scale_bits_per_weight": 0.03164528179103507,
+   "chain_total_bits_per_weight": 3.65134203803111
+  },
+  "L39.E88.w2": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.706036329269409,
+   "nn_se": 0.0008826402481645346,
+   "chain_code_bits_per_code": 3.614908566042579,
+   "chain_scale_bits_per_weight": 0.02912220760271485,
+   "chain_total_bits_per_weight": 3.644030773645294
+  },
+  "L39.E88.w3": {
+   "weights": 11796480,
+   "nn_bits_per_code": 3.711333990097046,
+   "nn_se": 0.0009352926281280816,
+   "chain_code_bits_per_code": 3.622610323510232,
+   "chain_scale_bits_per_weight": 0.029389659695950896,
+   "chain_total_bits_per_weight": 3.651999983206183
+  }
+ }
+}
