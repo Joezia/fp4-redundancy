@@ -145,6 +145,11 @@ FP4 扩大抽样（Part 1）：B 层每层 4 个专家（516 个矩阵，全部�
 
 结果与偏差说明见 [report.md](experiments/008-scale-media/report.md)；数据来源见 [data_sources.md](experiments/008-scale-media/data_sources.md)。
 
+实验 009 测量 Kimi-K3 的 FP4 权重（compressed-tensors MXFP4，码值与 scale 编码与 DeepSeek 相同，适配器加了 Kimi 的张量命名）。第一步在 4 层 × 3 个专家 = 36 个矩阵上：
+- 链式合计 0.657 bit/权重（15.45%），DeepSeek 同规模为 0.598。Kimi 的 R1 码值更大（0.244，DeepSeek 0.108），R2 更小（0.055，DeepSeek 0.125），R3 为 0。
+- 10 张指标图中 7 张判定与 DeepSeek 相同；R5、R9 为“无”，R7a 矩阵内行未过回本线。
+- 详见 [009 report.md](experiments/009-kimi-k3/report.md)。扩大到与 DeepSeek 相近的样本量（552 / 828 个矩阵）尚未进行。
+
 ## 使用
 
 首次使用复制`.env.example`为`.env`并设置本地路径，然后在仓库根目录加载 `source .env`。查看已实现方法：`PYTHONPATH=src python3 -m fp4_redundancy methods`。

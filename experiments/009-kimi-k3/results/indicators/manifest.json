@@ -1,0 +1,314 @@
+{
+ "config": {
+  "adapter": {
+   "partner": {
+    "w1": "w3"
+   },
+   "samples": "data/009/kimi/matrices.json",
+   "snapshot_env": "KIMI_SNAPSHOT",
+   "type": "fp4"
+  },
+  "figures": {
+   "R1": {
+    "panels": [
+     "data"
+    ]
+   },
+   "R2": {
+    "groups": {
+     "column": "Column",
+     "layer": "Layer",
+     "position_in_block": "Position in block",
+     "role": "Role",
+     "row": "Row",
+     "scale": "Scale"
+    },
+    "panels": [
+     "data"
+    ]
+   },
+   "R3": {
+    "note_zh": [
+     "相对完全打乱存在的依赖，来自同一块 32 个码字共享同一个 scale：块内打乱（保留每块的码字集合）后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "unit_line": true
+   },
+   "R4": {
+    "note_zh": [
+     "相对完全打乱存在的相关（主要是 |v|），来自同一块共享同一个 scale：块内打乱后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "unit_line": true
+   },
+   "R5": {
+    "panels": [
+     "synthetic_has",
+     "data"
+    ],
+    "synthetic": "rank-4 component"
+   },
+   "R6": {
+    "breakeven_line": false,
+    "panels": [
+     "data"
+    ]
+   },
+   "R7a_partner": {
+    "dataset_label": "Kimi-K3 FP4 weights ({n} W1–W3 pairs)",
+    "panels": [
+     "data"
+    ],
+    "synthetic": "correlated row pairs",
+    "title": "Correlation of corresponding W1 and W3 rows",
+    "xlabel": "|Correlation| between row $i$ of W1 and row $i$ of W3"
+   },
+   "R7a_row": {
+    "panels": [
+     "data"
+    ]
+   },
+   "R7a_unit": {
+    "panels": []
+   },
+   "R7b": {
+    "baseline_legend": "whole",
+    "note_zh": [
+     "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "synthetic": "16 prototype blocks"
+   },
+   "R8": {
+    "baseline_legend": "whole",
+    "breakeven_bits": 16,
+    "note_zh": [
+     "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+    ],
+    "panels": [
+     "data"
+    ],
+    "s": 4
+   },
+   "R9": {
+    "panels": []
+   },
+   "dataset_label": "Kimi-K3 FP4 weights ({n} matrices)",
+   "overview": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7a_partner",
+    "R7a_row",
+    "R7b",
+    "R8"
+   ],
+   "overview_title": "Kimi-K3 FP4 weights: 36 matrices (R7a corresponding rows: 12 W1–W3 pairs)",
+   "vocab": {
+    "Sym": "Code",
+    "Unit": "Block",
+    "known": "scale",
+    "known_zh": "scale",
+    "sym": "code",
+    "sym_zh": "码字",
+    "unit": "block",
+    "unit_zh": "块",
+    "var": "C"
+   }
+  },
+  "indicators": {
+   "R1": {
+    "min_amp": 0.01
+   },
+   "R10": {},
+   "R2": {
+    "b": 16,
+    "min_amp": 0.002
+   },
+   "R3": {
+    "alt_baselines": [
+     "unit"
+    ],
+    "b": 16,
+    "baseline": "whole",
+    "max_lag": 96,
+    "min_amp": 0.002
+   },
+   "R4": {
+    "alt_baselines": [
+     "unit"
+    ],
+    "baseline": "whole",
+    "max_lag": 96,
+    "min_amp": 0.02
+   },
+   "R5": {
+    "b": 16,
+    "baseline": "random_sign",
+    "gain": {
+     "bins": 16,
+     "k": 4
+    },
+    "min_amp": 0.0005,
+    "show": 64
+   },
+   "R6": {
+    "alt_baselines": [
+     "unit"
+    ],
+    "baseline": "whole",
+    "ks": [
+     8,
+     10,
+     12,
+     14,
+     16,
+     20,
+     24,
+     32,
+     48,
+     64
+    ],
+    "min_amp": 0.0001
+   },
+   "R7a": {
+    "b": 16,
+    "baseline": "known",
+    "baseline_row": "whole",
+    "min_amp_corr": 0.005,
+    "min_amp_share": 0.01,
+    "min_amp_unit": 0.25,
+    "queries": 500
+   },
+   "R7b": {
+    "baseline": "known",
+    "iters": 20,
+    "ks": [
+     2,
+     4,
+     8,
+     16,
+     32,
+     64,
+     128,
+     256
+    ],
+    "min_amp": 0.005,
+    "sample": 100000
+   },
+   "R8": {
+    "b": 16,
+    "baseline": "known",
+    "iters": 15,
+    "ks": [
+     16,
+     64,
+     256,
+     1024
+    ],
+    "min_amp": 0.005,
+    "sample": 100000,
+    "ss": [
+     1,
+     2,
+     4
+    ]
+   },
+   "R9": {
+    "tv": 0.05
+   }
+  },
+  "label": "Kimi-K3 FP4 weights (spec 009 sample)",
+  "name": "fp4_kimi_009",
+  "seed": 20261118,
+  "synthetic": {
+   "cols": 2048,
+   "indicators": {
+    "R8": {
+     "b": 8,
+     "b_alt": 16
+    }
+   },
+   "rows": 1024,
+   "seed": 20261117,
+   "unit_len": 32
+  },
+  "workers": 12
+ },
+ "dataset": "fp4_kimi_009",
+ "figures": [
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7a_unit",
+  "R7a_row",
+  "R7a_partner",
+  "R7b",
+  "R8",
+  "R9_max_level",
+  "R9_odd_count",
+  "R10"
+ ],
+ "keys": {
+  "R1": "H = 3.755 bit, saving = 0.245",
+  "R10": "3 equivalences, 0.1164 bit/symbol in total",
+  "R2": "best = block_max_level: net MI = 0.06476, cost = 0.0442",
+  "R3": "MI(d=1) = 0.005896, baseline = 1.457e-05, break-even = 0.000349",
+  "R4": "ρ(1) = 0.000, |x| ρ(1) = 0.081, bound = 0.000122 bit",
+  "R5": "top share = 0.00139 (baseline 0.001208), break-even = 0.0133",
+  "R6": "K* = 12, L* = 6.4",
+  "R7a_partner": "median |ρ| = 0.115 (baseline 0.012), ρ* = 0.079",
+  "R7a_row": "median max|ρ| = 0.066 (baseline 0.062), ρ* = 0.103",
+  "R7a_unit": "median best = 12 (baseline 12), m* = 13 of 32",
+  "R7b": "ratio(K=64) = 0.832 (baseline 0.832), break-even 0.771",
+  "R8": "R2(K=64, s=2) = 0.355 (baseline 0.355), break-even 0.851 (b = 16)",
+  "R9_max_level": "TV = 0.033; share at 0: 0.000 (expected 3.46e-23)",
+  "R9_odd_count": "TV = 0.004; share at 0: 0.000 (expected 1.34e-05)"
+ },
+ "label": "Kimi-K3 FP4 weights (spec 009 sample)",
+ "n_entries": {
+  "R1": 36,
+  "R10": 36,
+  "R2": 36,
+  "R3": 36,
+  "R4": 36,
+  "R5": 36,
+  "R6": 36,
+  "R7a_partner": 36,
+  "R7a_row": 36,
+  "R7a_unit": 36,
+  "R7b": 36,
+  "R8": 36,
+  "R9_max_level": 36,
+  "R9_odd_count": 36
+ },
+ "synthetic": {},
+ "verdicts": {
+  "R1": "present",
+  "R10": "present",
+  "R2": "present_breakeven",
+  "R3": "present_breakeven",
+  "R4": "present",
+  "R5": "none",
+  "R6": "present_breakeven",
+  "R7a_partner": "present_breakeven",
+  "R7a_row": "present",
+  "R7a_unit": "none",
+  "R7b": "none",
+  "R8": "none",
+  "R9_max_level": "none",
+  "R9_odd_count": "none"
+ }
+}

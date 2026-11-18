@@ -1,0 +1,954 @@
+{
+ "R1_distribution": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.11829109191894532
+   ]
+  ],
+  "xlims": [
+   [
+    -0.6,
+    15.6
+   ]
+  ],
+  "ylabels": [
+   "Probability (%)"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+   ]
+  ]
+ },
+ "R2_groups": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 2.4,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper left",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.4629152185416997
+   ]
+  ],
+  "xlims": [
+   [
+    -0.6,
+    6.6
+   ]
+  ],
+  "ylabels": [
+   "Saving vs. 4-bit storage\n(bits per code $C$)"
+  ],
+  "xticklabels": [
+   [
+    "None",
+    "Scale",
+    "Row",
+    "Layer",
+    "Column",
+    "Role",
+    "Position\nin block"
+   ]
+  ]
+ },
+ "R3_mi_distance": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   422.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.007995323488085732
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    97.0
+   ]
+  ],
+  "ylabels": [
+   "Mutual information (bits)"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ]
+  ]
+ },
+ "R4_autocorr": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "center right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    -0.05729631252781549,
+    0.55
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    97.0
+   ]
+  ],
+  "ylabels": [
+   "Autocorrelation $\\rho(d)$"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ]
+  ]
+ },
+ "R5_spectrum": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   394.2
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "center right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    0.0007077561029275515,
+    0.12510557933187658
+   ],
+   [
+    0.0007077561029275515,
+    0.12510557933187658
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    65.0
+   ],
+   [
+    0.0,
+    65.0
+   ]
+  ],
+  "ylabels": [
+   "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)",
+   "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)"
+  ],
+  "xticklabels": [
+   [
+    "1",
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64"
+   ],
+   [
+    "1",
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64"
+   ]
+  ]
+ },
+ "R6_repeats": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    5e-09,
+    0.13026820307037987
+   ]
+  ],
+  "xlims": [
+   [
+    6.9565217391304355,
+    73.6
+   ]
+  ],
+  "ylabels": [
+   "Repeated windows (%)"
+  ],
+  "xticklabels": [
+   [
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20",
+    "24",
+    "32",
+    "48",
+    "64"
+   ]
+  ]
+ },
+ "R7a_neighbors_row": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 2.0,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper left",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    2.712673611111111e-05,
+    28.09313429580192
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    0.155
+   ]
+  ],
+  "ylabels": [
+   "Fraction of rows (%)"
+  ],
+  "xticklabels": [
+   [
+    "0.00",
+    "0.02",
+    "0.04",
+    "0.06",
+    "0.08",
+    "0.10",
+    "0.12",
+    "0.14"
+   ]
+  ]
+ },
+ "R7a_neighbors_partner": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 2.0,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    5.425347222222222e-05,
+    0.8743489583333333
+   ]
+  ],
+  "xlims": [
+   [
+    0.0,
+    0.805
+   ]
+  ],
+  "ylabels": [
+   "Fraction of rows (%)"
+  ],
+  "xticklabels": [
+   [
+    "0.0",
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.5",
+    "0.6",
+    "0.7",
+    "0.8"
+   ]
+  ]
+ },
+ "R7b_clusters": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    0.6934408856280575,
+    0.9940905879148397
+   ]
+  ],
+  "xlims": [
+   [
+    1.6,
+    320.0
+   ]
+  ],
+  "ylabels": [
+   "Held-out distortion ratio (%)"
+  ],
+  "xticklabels": [
+   [
+    "2",
+    "4",
+    "8",
+    "16",
+    "32",
+    "64",
+    "128",
+    "256"
+   ]
+  ]
+ },
+ "R8_dictionary": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   424.8
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "lower right",
+    "clear": true,
+    "headroom": 0.0,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    1.0
+   ]
+  ],
+  "xlims": [
+   [
+    12.8,
+    1280.0
+   ]
+  ],
+  "ylabels": [
+   "Held-out explained variance $R^2$ (%)"
+  ],
+  "xticklabels": [
+   [
+    "16",
+    "64",
+    "256",
+    "1024"
+   ]
+  ]
+ },
+ "overview": {
+  "multiline_titles": [],
+  "titles_wider_than_axes": [],
+  "multiline_legend_entries": [],
+  "title_baselines_px": [
+   415.6,
+   879.5,
+   881.5
+  ],
+  "chinese": [],
+  "code_names": [],
+  "outside_figure": [],
+  "font_sizes": {
+   "tick": 12.0,
+   "label": 14.0,
+   "title": 15.0,
+   "legend": 12.0
+  },
+  "min_line_width": 1.8,
+  "legends": [
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   },
+   {
+    "clear": true,
+    "inside_figure": true
+   }
+  ],
+  "legend_placement": [
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "center right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper left",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "upper right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   },
+   {
+    "loc": "lower right",
+    "clear": true,
+    "headroom": 0.3,
+    "x_room": 0.0
+   }
+  ],
+  "ylims": [
+   [
+    0.0,
+    0.15377841949462892
+   ],
+   [
+    0.0,
+    0.6017897841042096
+   ],
+   [
+    0.0,
+    0.010393920534511452
+   ],
+   [
+    -0.05729631252781549,
+    0.7321888937583447
+   ],
+   [
+    0.0007077561029275515,
+    0.05442418184186195
+   ],
+   [
+    5e-09,
+    0.13026820307037987
+   ],
+   [
+    5.425347222222222e-05,
+    15.990497454449255
+   ],
+   [
+    2.712673611111111e-05,
+    28.09313429580192
+   ],
+   [
+    0.6934408856280575,
+    1.0842854986008743
+   ],
+   [
+    0.0,
+    1.0
+   ]
+  ],
+  "xlims": [
+   [
+    -0.6,
+    15.6
+   ],
+   [
+    -0.6,
+    6.6
+   ],
+   [
+    0.0,
+    97.0
+   ],
+   [
+    0.0,
+    97.0
+   ],
+   [
+    0.0,
+    65.0
+   ],
+   [
+    6.9565217391304355,
+    73.6
+   ],
+   [
+    0.0,
+    0.805
+   ],
+   [
+    0.0,
+    0.155
+   ],
+   [
+    1.6,
+    320.0
+   ],
+   [
+    12.8,
+    1280.0
+   ]
+  ],
+  "ylabels": [
+   "Probability (%)",
+   "Saving vs. 4-bit storage\n(bits per code $C$)",
+   "Mutual information (bits)",
+   "Autocorrelation $\\rho(d)$",
+   "Normalized energy $\\sigma_i^2\\,/\\,\\sum_j \\sigma_j^2$ (%)",
+   "Repeated windows (%)",
+   "Fraction of rows (%)",
+   "Fraction of rows (%)",
+   "Held-out distortion ratio (%)",
+   "Held-out explained variance $R^2$ (%)"
+  ],
+  "xticklabels": [
+   [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+   ],
+   [
+    "None",
+    "Scale",
+    "Row",
+    "Layer",
+    "Column",
+    "Role",
+    "Position\nin block"
+   ],
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ],
+   [
+    "0",
+    "16",
+    "32",
+    "48",
+    "64",
+    "80",
+    "96"
+   ],
+   [
+    "1",
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64"
+   ],
+   [
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "20",
+    "24",
+    "32",
+    "48",
+    "64"
+   ],
+   [
+    "0.0",
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.5",
+    "0.6",
+    "0.7",
+    "0.8"
+   ],
+   [
+    "0.00",
+    "0.02",
+    "0.04",
+    "0.06",
+    "0.08",
+    "0.10",
+    "0.12",
+    "0.14"
+   ],
+   [
+    "2",
+    "4",
+    "8",
+    "16",
+    "32",
+    "64",
+    "128",
+    "256"
+   ],
+   [
+    "16",
+    "64",
+    "256",
+    "1024"
+   ]
+  ]
+ }
+}

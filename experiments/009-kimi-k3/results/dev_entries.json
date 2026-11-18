@@ -1,0 +1,12 @@
+{
+ "entries": [
+  "L10.E84.w1",
+  "L25.E542.w2",
+  "L45.E238.w3",
+  "L55.E875.w1",
+  "L70.E300.w2",
+  "L80.E197.w3",
+  "L88.E641.w1"
+ ],
+ "rule": "last expert of the permutation in layers [10, 25, 45, 55, 70, 80, 88]"
+}

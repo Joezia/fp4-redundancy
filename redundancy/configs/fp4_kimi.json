@@ -1,0 +1,245 @@
+{
+ "name": "fp4_kimi_009",
+ "label": "Kimi-K3 FP4 weights (spec 009 sample)",
+ "seed": 20261118,
+ "workers": 12,
+ "adapter": {
+  "type": "fp4",
+  "snapshot_env": "KIMI_SNAPSHOT",
+  "samples": "data/009/kimi/matrices.json",
+  "partner": {
+   "w1": "w3"
+  }
+ },
+ "synthetic": {
+  "seed": 20261117,
+  "rows": 1024,
+  "cols": 2048,
+  "unit_len": 32,
+  "indicators": {
+   "R8": {
+    "b": 8,
+    "b_alt": 16
+   }
+  }
+ },
+ "indicators": {
+  "R1": {
+   "min_amp": 0.01
+  },
+  "R2": {
+   "min_amp": 0.002,
+   "b": 16
+  },
+  "R3": {
+   "max_lag": 96,
+   "min_amp": 0.002,
+   "b": 16,
+   "baseline": "whole",
+   "alt_baselines": [
+    "unit"
+   ]
+  },
+  "R4": {
+   "max_lag": 96,
+   "min_amp": 0.02,
+   "baseline": "whole",
+   "alt_baselines": [
+    "unit"
+   ]
+  },
+  "R5": {
+   "show": 64,
+   "min_amp": 0.0005,
+   "b": 16,
+   "baseline": "random_sign",
+   "gain": {
+    "k": 4,
+    "bins": 16
+   }
+  },
+  "R6": {
+   "ks": [
+    8,
+    10,
+    12,
+    14,
+    16,
+    20,
+    24,
+    32,
+    48,
+    64
+   ],
+   "min_amp": 0.0001,
+   "baseline": "whole",
+   "alt_baselines": [
+    "unit"
+   ]
+  },
+  "R7a": {
+   "queries": 500,
+   "b": 16,
+   "min_amp_unit": 0.25,
+   "min_amp_corr": 0.005,
+   "min_amp_share": 0.01,
+   "baseline": "known",
+   "baseline_row": "whole"
+  },
+  "R7b": {
+   "ks": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+   ],
+   "sample": 100000,
+   "iters": 20,
+   "min_amp": 0.005,
+   "baseline": "known"
+  },
+  "R8": {
+   "ks": [
+    16,
+    64,
+    256,
+    1024
+   ],
+   "ss": [
+    1,
+    2,
+    4
+   ],
+   "sample": 100000,
+   "iters": 15,
+   "b": 16,
+   "min_amp": 0.005,
+   "baseline": "known"
+  },
+  "R9": {
+   "tv": 0.05
+  },
+  "R10": {}
+ },
+ "figures": {
+  "dataset_label": "Kimi-K3 FP4 weights ({n} matrices)",
+  "vocab": {
+   "sym": "code",
+   "Sym": "Code",
+   "var": "C",
+   "unit": "block",
+   "Unit": "Block",
+   "known": "scale",
+   "sym_zh": "码字",
+   "unit_zh": "块",
+   "known_zh": "scale"
+  },
+  "overview": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7a_partner",
+   "R7a_row",
+   "R7b",
+   "R8"
+  ],
+  "R1": {
+   "panels": [
+    "data"
+   ]
+  },
+  "R2": {
+   "panels": [
+    "data"
+   ],
+   "groups": {
+    "scale": "Scale",
+    "row": "Row",
+    "column": "Column",
+    "position_in_block": "Position in block",
+    "layer": "Layer",
+    "role": "Role"
+   }
+  },
+  "R3": {
+   "panels": [
+    "data"
+   ],
+   "unit_line": true,
+   "note_zh": [
+    "相对完全打乱存在的依赖，来自同一块 32 个码字共享同一个 scale：块内打乱（保留每块的码字集合）后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+   ]
+  },
+  "R4": {
+   "panels": [
+    "data"
+   ],
+   "unit_line": true,
+   "note_zh": [
+    "相对完全打乱存在的相关（主要是 |v|），来自同一块共享同一个 scale：块内打乱后消失。它与 R2 中 scale 分组的收益是同一来源，二者不能相加。"
+   ]
+  },
+  "R5": {
+   "panels": [
+    "synthetic_has",
+    "data"
+   ],
+   "synthetic": "rank-4 component"
+  },
+  "R6": {
+   "panels": [
+    "data"
+   ],
+   "breakeven_line": false
+  },
+  "R7a_partner": {
+   "panels": [
+    "data"
+   ],
+   "synthetic": "correlated row pairs",
+   "title": "Correlation of corresponding W1 and W3 rows",
+   "xlabel": "|Correlation| between row $i$ of W1 and row $i$ of W3",
+   "dataset_label": "Kimi-K3 FP4 weights ({n} W1–W3 pairs)"
+  },
+  "R7a_row": {
+   "panels": [
+    "data"
+   ]
+  },
+  "R7b": {
+   "panels": [
+    "data"
+   ],
+   "synthetic": "16 prototype blocks",
+   "baseline_legend": "whole",
+   "note_zh": [
+    "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+   ]
+  },
+  "R8": {
+   "panels": [
+    "data"
+   ],
+   "s": 4,
+   "breakeven_bits": 16,
+   "baseline_legend": "whole",
+   "note_zh": [
+    "取样只取同一 scale 值（每张矩阵中出现最多的那个）的块，在这些块上“同 scale 的块之间打乱”与完全打乱等价，因此图例统一写 “Shuffled baseline”。"
+   ]
+  },
+  "R7a_unit": {
+   "panels": []
+  },
+  "R9": {
+   "panels": []
+  },
+  "overview_title": "Kimi-K3 FP4 weights: 36 matrices (R7a corresponding rows: 12 W1–W3 pairs)"
+ }
+}

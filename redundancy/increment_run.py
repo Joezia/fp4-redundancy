@@ -64,10 +64,10 @@ def item_task(dataset, path, P, orders, max_seconds):
     return out
 
 
-def fp4_task(entries, partner_of, P, orders, samples, seed):
+def fp4_task(entries, partner_of, P, orders, samples, seed, snapshot_env="SNAPSHOT"):
     from .adapters.fp4 import FP4
     t0 = time.process_time()
-    ad = FP4({"samples": samples, "snapshot_env": "SNAPSHOT"})
+    ad = FP4({"samples": samples, "snapshot_env": snapshot_env})
     codes = {}
     out = []
     for n in entries:
@@ -183,7 +183,7 @@ def cmd_fp4(a):
         w1 = [e for e in ents if e.endswith(".w1")]
         w3 = [e for e in ents if e.endswith(".w3")]
         partner = {w1[0]: w3[0]} if w1 and w3 else {}
-        jobs.append((t["id"], fp4_task, (ents, partner, P, orders, a.samples, plan.get("seed", 0))))
+        jobs.append((t["id"], fp4_task, (ents, partner, P, orders, a.samples, plan.get("seed", 0), a.snapshot_env)))
     if a.limit:
         jobs = jobs[:a.limit]
     print(f"{len(jobs)} experts to run", flush=True)
@@ -240,9 +240,9 @@ FP4_GRID = [("R3", "ctx_order", [1, 2]), ("R4", "lp_order", [2, 4, 8]), ("R5", "
             ("R6", "lzp_k", [8, 12, 16]), ("R8", "dict_atoms", [16, 64])]
 
 
-def _fp4_dev_cost(name, partner, P, flags, samples):
+def _fp4_dev_cost(name, partner, P, flags, samples, snapshot_env="SNAPSHOT"):
     from .adapters.fp4 import FP4
-    ad = FP4({"samples": samples, "snapshot_env": "SNAPSHOT"})
+    ad = FP4({"samples": samples, "snapshot_env": snapshot_env})
     C, E = ad._read(ad.samples[name])
     part = ad._read(ad.samples[partner])[0].astype(np.int64) if partner else None
     return I.fp4_codelen(C.astype(np.int64), E, frozenset(flags), P, FP4_ORDERS["default"], partner=part)[0]
@@ -265,7 +265,8 @@ def cmd_fp4_devsel(a):
                 Pv = dict(P)
                 Pv[key] = v
                 costs[v] = sum(ex.map(_fp4_dev_cost, names, [part[n] for n in names], [Pv] * len(names),
-                                      [flags] * len(names), [a.samples] * len(names)))
+                                      [flags] * len(names), [a.samples] * len(names),
+                                      [a.snapshot_env] * len(names)))
             best = min(costs, key=costs.get)
             P[key] = best
             log["steps"].append({"pattern": pat, "parameter": key, "bits": {str(k): v for k, v in costs.items()},
@@ -344,11 +345,13 @@ def main():
     f.add_argument("--shard", default=None, help="i/n: every n-th task starting at i")
     f.add_argument("--first", type=int, default=None, help="only the first N tasks of the plan")
     f.add_argument("--skip", default=None, help="other output dirs whose items count as done")
+    f.add_argument("--snapshot-env", default="SNAPSHOT", help="environment variable holding the snapshot path")
     h = sub.add_parser("fp4-devsel")
     h.add_argument("--entries", required=True)
     h.add_argument("--samples", default="data/008/fp4/matrices.json")
     h.add_argument("--out", required=True)
     h.add_argument("--workers", type=int, default=8)
+    h.add_argument("--snapshot-env", default="SNAPSHOT", help="environment variable holding the snapshot path")
     g = sub.add_parser("aggregate")
     g.add_argument("--dir", required=True)
     g.add_argument("--name", required=True)

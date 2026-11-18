@@ -1,4 +1,5 @@
-"""FP4 adapter: DeepSeek-style FP4 (E2M1) expert weights with E8M0 block scales.
+"""FP4 adapter: FP4 (E2M1) expert weights with E8M0 block scales (DeepSeek layout; Kimi-K3
+compressed-tensors MXFP4 through `FORMATS`, same codewords and scales).
 
 The only module of the framework that knows the format. It reads tensors through the verified
 readers of `diagnostics/` (safetensors index, packed-nibble unpacking) and maps one weight matrix to
@@ -100,17 +101,26 @@ class FP4:
 
 
 MATRIX = r"^(layers|mtp)\.(\d+)\.ffn\.experts\.(\d+)\.w([123])\.weight$"
+# Kimi-K3 (compressed-tensors `mxfp4-pack-quantized`): same codewords as above -- E2M1, bit 3 = sign,
+# element 2i in the low nibble -- and one E8M0 byte per 32 weights along the input dimension, stored
+# as `weight_packed` (U8 [out, in/2]) and `weight_scale` (U8 [out, in/32]).
+FORMATS = {
+    "deepseek": {"pattern": MATRIX, "scale": lambda n: n[:-len(".weight")] + ".scale"},
+    "kimi": {"pattern": r"^language_model\.model\.(layers)\.(\d+)\.block_sparse_moe\.experts\.(\d+)\.w([123])\.weight_packed$",
+             "scale": lambda n: n[:-len(".weight_packed")] + ".weight_scale"},
+}
 
 
-def list_matrices(snapshot):
+def list_matrices(snapshot, fmt="deepseek"):
     """Every routed-expert matrix of the snapshot, in the samples-file format the adapter reads.
 
-    Layers are numbered as found; the multi-token-prediction blocks `mtp.<i>` follow the last
-    `layers.<i>` and get layer = (number of decoder layers) + i, with block = "mtp"."""
+    Layers are numbered as found; the multi-token-prediction blocks `mtp.<i>` (DeepSeek) follow the
+    last `layers.<i>` and get layer = (number of decoder layers) + i, with block = "mtp"."""
     import re
     from diagnostics.st import index_snapshot
     idx = index_snapshot(snapshot)
-    pat = re.compile(MATRIX)
+    F = FORMATS[fmt]
+    pat = re.compile(F["pattern"])
     found = []
     for name, info in idx.items():
         m = pat.match(name)
@@ -120,24 +130,27 @@ def list_matrices(snapshot):
     out = []
     for kind, i, e, r, name, info in sorted(found, key=lambda t: (t[0] != "layers", t[1], t[2], t[3])):
         layer = i if kind == "layers" else n_dec + i
-        sname = name[:-len(".weight")] + ".scale"
+        sname = F["scale"](name)
         sinfo = idx[sname]
         R, Wp = info["shape"]
+        assert info["dtype"] in ("U8", "I8") and sinfo["dtype"] in ("U8", "F8_E8M0") and sinfo["shape"] == [R, 2 * Wp // B], \
+            (name, info["dtype"], info["shape"], sinfo["dtype"], sinfo["shape"])
         out.append({"matrix": f"L{layer}.E{e}.w{r}", "layer": layer, "block": kind, "block_index": i,
                     "expert": e, "role": f"w{r}", "weight": name, "weight_file": info["file"],
                     "weight_dtype": info["dtype"], "weight_shape": info["shape"], "scale": sname,
                     "scale_file": sinfo["file"], "scale_dtype": sinfo["dtype"], "scale_shape": sinfo["shape"],
                     "codeword_shape": [R, 2 * Wp], "codewords": R * 2 * Wp})
-    return {"decoder_layers": n_dec, "matrices": out}
+    return {"format": fmt, "layers_numbered_as_found": True, "max_layer_index": n_dec - 1, "matrices": out}
 
 
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(description="list every routed-expert matrix of a snapshot")
     ap.add_argument("--snapshot-env", default="SNAPSHOT")
+    ap.add_argument("--format", default="deepseek", choices=sorted(FORMATS))
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
-    res = list_matrices(os.environ[a.snapshot_env])
+    res = list_matrices(os.environ[a.snapshot_env], a.format)
     with open(a.out, "w") as f:
         json.dump(res, f)
-    print(len(res["matrices"]), "matrices;", res["decoder_layers"], "decoder layers")
+    print(len(res["matrices"]), "matrices; layer indices up to", res["max_layer_index"])

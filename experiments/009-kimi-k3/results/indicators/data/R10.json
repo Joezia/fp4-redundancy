@@ -1,0 +1,1559 @@
+{
+ "dataset": "data",
+ "dataset_label": "Kimi-K3 FP4 weights (spec 009 sample)",
+ "detail": {
+  "rule": "present when some equivalence has a positive count"
+ },
+ "entries": {
+  "L1.E236.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11523264930361793,
+     "log2_count": 1268717.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E236.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.17841175624302455,
+     "log2_count": 1964322.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E236.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11503174191429502,
+     "log2_count": 1266505.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E628.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11509550185430617,
+     "log2_count": 1267207.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E628.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.12227376302083333,
+     "log2_count": 1346240.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E628.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11520195007324219,
+     "log2_count": 1268379.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E677.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11471593947637648,
+     "log2_count": 1263028.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E677.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.15728587195986793,
+     "log2_count": 1731725.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L1.E677.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11484082539876302,
+     "log2_count": 1264403.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E434.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11550358363560267,
+     "log2_count": 1271700.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E434.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11659803844633557,
+     "log2_count": 1283750.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E434.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11555571783156622,
+     "log2_count": 1272274.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E810.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11556970505487352,
+     "log2_count": 1272428.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E810.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.1161359151204427,
+     "log2_count": 1278662.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E810.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11530440194266182,
+     "log2_count": 1269507.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E812.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11564854213169642,
+     "log2_count": 1273296.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E812.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11575671604701451,
+     "log2_count": 1274487.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L31.E812.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11549740745907738,
+     "log2_count": 1271632.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E12.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11450831095377605,
+     "log2_count": 1260742.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E12.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11544681730724517,
+     "log2_count": 1271075.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E12.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11439250764392671,
+     "log2_count": 1259467.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E593.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11447870163690477,
+     "log2_count": 1260416.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E593.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11586316426595052,
+     "log2_count": 1275659.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E593.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11463437761579241,
+     "log2_count": 1262130.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E739.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11459759303501674,
+     "log2_count": 1261725.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E739.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11529958815801711,
+     "log2_count": 1269454.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L62.E739.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11480976286388579,
+     "log2_count": 1264061.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E18.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11589976719447545,
+     "log2_count": 1276062.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E18.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11454010009765625,
+     "log2_count": 1261092.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E18.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11558450971330915,
+     "log2_count": 1272591.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E61.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11487833658854167,
+     "log2_count": 1264816.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E61.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11581284659249443,
+     "log2_count": 1275105.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E61.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11417942955380395,
+     "log2_count": 1257121.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E809.w1": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11587678818475633,
+     "log2_count": 1275809.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E809.w2": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11314192272367932,
+     "log2_count": 1245698.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  },
+  "L92.E809.w3": {
+   "rows": [
+    {
+     "bits_per_symbol": 0.11543028695242745,
+     "log2_count": 1270893.0,
+     "n_symbols": 11010048,
+     "name": "+0 = -0",
+     "note": "sign of a zero codeword",
+     "symbol_classes": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "bits_per_symbol": 0.0009435067526516142,
+     "log2_count": 31164.1639050552,
+     "n_symbols": 33030144,
+     "name": "neuron permutation",
+     "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+     "symbol_classes": []
+    },
+    {
+     "bits_per_symbol": 9.300595238095238e-05,
+     "log2_count": 3072.0,
+     "n_symbols": 33030144,
+     "name": "paired sign flip",
+     "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+     "symbol_classes": []
+    }
+   ]
+  }
+ },
+ "entry_attrs": {
+  "L1.E236.w1": {
+   "expert": 236,
+   "layer": 1,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L1.E236.w2": {
+   "expert": 236,
+   "layer": 1,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L1.E236.w3": {
+   "expert": 236,
+   "layer": 1,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L1.E628.w1": {
+   "expert": 628,
+   "layer": 1,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L1.E628.w2": {
+   "expert": 628,
+   "layer": 1,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L1.E628.w3": {
+   "expert": 628,
+   "layer": 1,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L1.E677.w1": {
+   "expert": 677,
+   "layer": 1,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L1.E677.w2": {
+   "expert": 677,
+   "layer": 1,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L1.E677.w3": {
+   "expert": 677,
+   "layer": 1,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L31.E434.w1": {
+   "expert": 434,
+   "layer": 31,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L31.E434.w2": {
+   "expert": 434,
+   "layer": 31,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L31.E434.w3": {
+   "expert": 434,
+   "layer": 31,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L31.E810.w1": {
+   "expert": 810,
+   "layer": 31,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L31.E810.w2": {
+   "expert": 810,
+   "layer": 31,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L31.E810.w3": {
+   "expert": 810,
+   "layer": 31,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L31.E812.w1": {
+   "expert": 812,
+   "layer": 31,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L31.E812.w2": {
+   "expert": 812,
+   "layer": 31,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L31.E812.w3": {
+   "expert": 812,
+   "layer": 31,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L62.E12.w1": {
+   "expert": 12,
+   "layer": 62,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L62.E12.w2": {
+   "expert": 12,
+   "layer": 62,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L62.E12.w3": {
+   "expert": 12,
+   "layer": 62,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L62.E593.w1": {
+   "expert": 593,
+   "layer": 62,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L62.E593.w2": {
+   "expert": 593,
+   "layer": 62,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L62.E593.w3": {
+   "expert": 593,
+   "layer": 62,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L62.E739.w1": {
+   "expert": 739,
+   "layer": 62,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L62.E739.w2": {
+   "expert": 739,
+   "layer": 62,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L62.E739.w3": {
+   "expert": 739,
+   "layer": 62,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L92.E18.w1": {
+   "expert": 18,
+   "layer": 92,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L92.E18.w2": {
+   "expert": 18,
+   "layer": 92,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L92.E18.w3": {
+   "expert": 18,
+   "layer": 92,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L92.E61.w1": {
+   "expert": 61,
+   "layer": 92,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L92.E61.w2": {
+   "expert": 61,
+   "layer": 92,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L92.E61.w3": {
+   "expert": 61,
+   "layer": 92,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L92.E809.w1": {
+   "expert": 809,
+   "layer": 92,
+   "role": "w1",
+   "shape": [
+    3072,
+    3584
+   ]
+  },
+  "L92.E809.w2": {
+   "expert": 809,
+   "layer": 92,
+   "role": "w2",
+   "shape": [
+    3584,
+    3072
+   ]
+  },
+  "L92.E809.w3": {
+   "expert": 809,
+   "layer": 92,
+   "role": "w3",
+   "shape": [
+    3072,
+    3584
+   ]
+  }
+ },
+ "figure": "R10",
+ "key": "3 equivalences, 0.1164 bit/symbol in total",
+ "pattern": "R10",
+ "summary": {
+  "n_entries": 36,
+  "table": [
+   {
+    "bits_per_symbol": 0.11536734444754464,
+    "log2_count": 1270200.0,
+    "name": "+0 = -0",
+    "note": "sign of a zero codeword",
+    "symbol_classes": [
+     [
+      0,
+      8
+     ]
+    ]
+   },
+   {
+    "bits_per_symbol": 0.0009435067526516142,
+    "log2_count": 31164.1639050552,
+    "name": "neuron permutation",
+    "note": "3072! orders of the expert's neurons (w1/w3 rows with w2 columns), spread over the expert's 3 matrices",
+    "symbol_classes": []
+   },
+   {
+    "bits_per_symbol": 9.300595238095238e-05,
+    "log2_count": 3072.0,
+    "name": "paired sign flip",
+    "note": "flip w3 row i and w2 column i together; spread over the expert's 3 matrices",
+    "symbol_classes": []
+   }
+  ],
+  "total_bits_per_symbol": 0.11640385715257721
+ },
+ "verdict": "present"
+}
