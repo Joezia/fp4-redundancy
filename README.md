@@ -158,6 +158,11 @@ FP4 扩大抽样（Part 1）：B 层每层 4 个专家（516 个矩阵，全部�
 - 建在链式模型之上的修正探针（P1b）：离线 +0.050（模型成本摊到全模型），在线 +0.051，约占 1.2%。增益完全来自行内前面的码值，并依赖块内位置，属于“明显遗漏的结构”，待专门分析。
 详见 [010 report.md](experiments/010-transforms/report.md)。
 
+实验 011（冗余极限与概率模型，规格见 [docs/011](docs/011-冗余极限与概率模型.md)）进行中：
+- 阶段 0 已完成：DeepSeek 每个 32 元块的最大绝对值都是 4 或 6（6,525 万块无例外）。把“本块已出现的最大等级”加进链式模型只多省 0.0056 bit/权重，约为 P1b 增益的 11%。
+- 线 A、线 B 未开始。
+- 详见 [011 report.md](experiments/011-limits-and-models/report.md)。
+
 ## 使用
 
 首次使用复制`.env.example`为`.env`并设置本地路径，然后在仓库根目录加载 `source .env`。查看已实现方法：`PYTHONPATH=src python3 -m fp4_redundancy methods`。

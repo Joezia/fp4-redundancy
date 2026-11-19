@@ -1,0 +1,38 @@
+{
+ "V-a": {
+  "flags": [
+   "R10",
+   "R1c",
+   "R1s",
+   "R2"
+  ],
+  "true_entropy_bits_per_weight": 3.049106335049228,
+  "base_bits_per_weight": 3.0496354190594346,
+  "theory_gain_bits_per_weight": 0.0005290840102065708,
+  "r9b_gain_last": -4.76837158203125e-07,
+  "r9b_gain_after_R2": -4.76837158203125e-07,
+  "r9b_gain_bits_per_weight": -4.76837158203125e-07
+ },
+ "V-b": {
+  "flags": [
+   "R10",
+   "R1c",
+   "R1s",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "true_entropy_bits_per_weight": 2.7588084534109703,
+  "base_bits_per_weight": 3.0233168815413554,
+  "theory_gain_bits_per_weight": 0.2645084281303851,
+  "r9b_gain_last": 0.07004455535469001,
+  "r9b_gain_after_R2": 0.2302262091489644,
+  "r9b_gain_bits_per_weight": 0.2302262091489644
+ },
+ "checks": {
+  "V-a_about_0": true,
+  "V-b_recovers": true
+ },
+ "note": "theory gain = base chain code length - exact code length of the generator (sign: 1 bit per non-zero code); the chain's own learning cost is part of it, so the gain should be a bit below it",
+ "all_pass": true
+}
