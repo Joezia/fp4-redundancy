@@ -1,0 +1,66 @@
+== train 10:07:52
+{
+ "lr": 0.003,
+ "epoch0_is_chain": true,
+ "source": "read back from results/p1b/run_train.log (same run as offline_model.pt)",
+ "n_params": 230415,
+ "online_lr_choice": {
+  "rows": [
+   {
+    "name": "L0.E167.w1",
+    "lr": 0.0001,
+    "bits": 41117698.791015625,
+    "chain_bits": 41809974.081424825,
+    "n": 11796480
+   },
+   {
+    "name": "L0.E167.w1",
+    "lr": 0.0003,
+    "bits": 41113603.607421875,
+    "chain_bits": 41809974.081424825,
+    "n": 11796480
+   },
+   {
+    "name": "L26.E259.w2",
+    "lr": 0.0001,
+    "bits": 42150068.0078125,
+    "chain_bits": 42748054.63307024,
+    "n": 11796480
+   },
+   {
+    "name": "L26.E259.w2",
+    "lr": 0.0003,
+    "bits": 42147786.240234375,
+    "chain_bits": 42748054.63307024,
+    "n": 11796480
+   }
+  ],
+  "chosen": 0.0003
+ }
+}
+== test 10:09:26
+L0.E191.w1 {'chain_code_bits': 3.6332, 'offline_bits': 3.5724, 'online_bits': 3.57137}
+L0.E191.w2 {'chain_code_bits': 3.65126, 'offline_bits': 3.58869, 'online_bits': 3.58741}
+L0.E191.w3 {'chain_code_bits': 3.64384, 'offline_bits': 3.58203, 'online_bits': 3.5812}
+L0.E230.w1 {'chain_code_bits': 3.54841, 'offline_bits': 3.49228, 'online_bits': 3.4912}
+L0.E230.w2 {'chain_code_bits': 3.63, 'offline_bits': 3.5762, 'online_bits': 3.57525}
+L0.E230.w3 {'chain_code_bits': 3.63847, 'offline_bits': 3.58218, 'online_bits': 3.58145}
+L13.E127.w1 {'chain_code_bits': 3.65045, 'offline_bits': 3.59388, 'online_bits': 3.59262}
+L13.E127.w2 {'chain_code_bits': 3.63634, 'offline_bits': 3.57869, 'online_bits': 3.57756}
+L13.E127.w3 {'chain_code_bits': 3.64649, 'offline_bits': 3.59052, 'online_bits': 3.58976}
+L13.E267.w1 {'chain_code_bits': 3.60826, 'offline_bits': 3.55724, 'online_bits': 3.55636}
+L13.E267.w2 {'chain_code_bits': 3.62863, 'offline_bits': 3.57508, 'online_bits': 3.57408}
+L13.E267.w3 {'chain_code_bits': 3.63134, 'offline_bits': 3.57935, 'online_bits': 3.5787}
+L26.E336.w1 {'chain_code_bits': 3.63582, 'offline_bits': 3.57567, 'online_bits': 3.57458}
+L26.E336.w2 {'chain_code_bits': 3.62271, 'offline_bits': 3.57113, 'online_bits': 3.57017}
+L26.E336.w3 {'chain_code_bits': 3.63745, 'offline_bits': 3.58471, 'online_bits': 3.58398}
+L26.E92.w1 {'chain_code_bits': 3.62269, 'offline_bits': 3.57321, 'online_bits': 3.57236}
+L26.E92.w2 {'chain_code_bits': 3.62206, 'offline_bits': 3.57371, 'online_bits': 3.5728}
+L26.E92.w3 {'chain_code_bits': 3.61882, 'offline_bits': 3.57304, 'online_bits': 3.57245}
+L39.E70.w1 {'chain_code_bits': 3.61823, 'offline_bits': 3.57763, 'online_bits': 3.57679}
+L39.E70.w2 {'chain_code_bits': 3.61401, 'offline_bits': 3.57965, 'online_bits': 3.5789}
+L39.E70.w3 {'chain_code_bits': 3.61747, 'offline_bits': 3.57874, 'online_bits': 3.57819}
+L39.E88.w1 {'chain_code_bits': 3.6195, 'offline_bits': 3.57611, 'online_bits': 3.57532}
+L39.E88.w2 {'chain_code_bits': 3.61491, 'offline_bits': 3.58369, 'online_bits': 3.58293}
+L39.E88.w3 {'chain_code_bits': 3.62261, 'offline_bits': 3.58895, 'online_bits': 3.58836}
+ALL_DONE 10:16:24

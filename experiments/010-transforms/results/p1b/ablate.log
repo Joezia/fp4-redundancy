@@ -1,0 +1,31 @@
+trained without row_prev32 {'0.003': [3.6154603958129883, 3.615483283996582, 3.6155025959014893, 3.6155035495758057, 3.6154818534851074]}
+trained without column_above8 {'0.003': [3.6154603958129883, 3.568108320236206, 3.566983699798584, 3.5665457248687744, 3.5660035610198975]}
+trained without cross_window {'0.003': [3.6154603958129883, 3.568195343017578, 3.5672426223754883, 3.566620111465454, 3.566223621368408]}
+trained without scale_and_row_scale_stats {'0.003': [3.6154603958129883, 3.5679728984832764, 3.566814661026001, 3.566507577896118, 3.5659377574920654]}
+trained without position_in_block {'0.003': [3.6154603958129883, 3.580158233642578, 3.579465627670288, 3.5788655281066895, 3.578673839569092]}
+trained without row_layer_role {'0.003': [3.6154603958129883, 3.568308115005493, 3.5672292709350586, 3.5666134357452393, 3.5663669109344482]}
+trained without log_p_chain_input {'0.003': [3.6154603958129883, 3.5690598487854004, 3.5672619342803955, 3.566767692565918, 3.566452980041504]}
+ablation evaluated L0.E191.w1
+ablation evaluated L0.E191.w2
+ablation evaluated L0.E191.w3
+ablation evaluated L0.E230.w1
+ablation evaluated L0.E230.w2
+ablation evaluated L0.E230.w3
+ablation evaluated L13.E127.w1
+ablation evaluated L13.E127.w2
+ablation evaluated L13.E127.w3
+ablation evaluated L13.E267.w1
+ablation evaluated L13.E267.w2
+ablation evaluated L13.E267.w3
+ablation evaluated L26.E336.w1
+ablation evaluated L26.E336.w2
+ablation evaluated L26.E336.w3
+ablation evaluated L26.E92.w1
+ablation evaluated L26.E92.w2
+ablation evaluated L26.E92.w3
+ablation evaluated L39.E70.w1
+ablation evaluated L39.E70.w2
+ablation evaluated L39.E70.w3
+ablation evaluated L39.E88.w1
+ablation evaluated L39.E88.w2
+ablation evaluated L39.E88.w3

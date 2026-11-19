@@ -1,0 +1,37 @@
+== data 09:43:20
+data L0.E167.w1
+data L0.E167.w2
+data L0.E167.w3
+data L0.E232.w1
+data L0.E232.w2
+data L0.E232.w3
+data L13.E27.w1
+data L13.E27.w2
+data L13.E27.w3
+data L13.E193.w1
+data L13.E193.w2
+data L13.E193.w3
+data L26.E259.w1
+data L26.E259.w2
+data L26.E259.w3
+data L26.E32.w1
+data L26.E32.w2
+data L26.E32.w3
+data L39.E9.w1
+data L39.E9.w2
+data L39.E9.w3
+data L39.E126.w1
+data L39.E126.w2
+data L39.E126.w3
+== train 09:43:39
+training positions 9600000
+  lr 0.001 epoch 1: validation 3.56971 bit/code (chain 3.61546)
+  lr 0.001 epoch 2: validation 3.56739 bit/code (chain 3.61546)
+  lr 0.001 epoch 3: validation 3.56688 bit/code (chain 3.61546)
+  lr 0.001 epoch 4: validation 3.56694 bit/code (chain 3.61546)
+  lr 0.003 epoch 1: validation 3.56824 bit/code (chain 3.61546)
+  lr 0.003 epoch 2: validation 3.56704 bit/code (chain 3.61546)
+  lr 0.003 epoch 3: validation 3.56632 bit/code (chain 3.61546)
+  lr 0.003 epoch 4: validation 3.56594 bit/code (chain 3.61546)
+Terminated
+stage train failed

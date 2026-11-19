@@ -1,0 +1,21 @@
+{
+ "lr": 0.003,
+ "validation_bits_per_epoch": {
+  "0.001": [
+   3.61546,
+   3.56971,
+   3.56739,
+   3.56688,
+   3.56694
+  ],
+  "0.003": [
+   3.61546,
+   3.56824,
+   3.56704,
+   3.56632,
+   3.56594
+  ]
+ },
+ "epoch0_is_chain": true,
+ "source": "read back from results/p1b/run_train.log (same run as offline_model.pt)"
+}

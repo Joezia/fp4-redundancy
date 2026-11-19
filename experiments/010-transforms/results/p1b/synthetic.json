@@ -1,0 +1,80 @@
+{
+ "V-a": {
+  "flags": [
+   "R10",
+   "R1c",
+   "R1s",
+   "R2"
+  ],
+  "chain_code_bits_per_weight": 3.0880893039925343,
+  "init_identity_diff_bits_per_weight": -4.604304493227573e-09,
+  "offline_gain_bits_per_weight": 4.604304493227573e-09,
+  "fit": {
+   "lr": 0.001,
+   "validation_bits_per_epoch": {
+    "0.001": [
+     3.089811086654663,
+     3.089944839477539,
+     3.0899338722229004,
+     3.0899879932403564,
+     3.0905630588531494,
+     3.090104103088379,
+     3.0915327072143555
+    ],
+    "0.003": [
+     3.089811086654663,
+     3.089890956878662,
+     3.089993715286255,
+     3.0899486541748047,
+     3.089984893798828,
+     3.0898945331573486,
+     3.0899782180786133
+    ]
+   },
+   "epoch0_is_chain": true
+  }
+ },
+ "V-b": {
+  "flags": [
+   "R10",
+   "R1c",
+   "R1s",
+   "R2"
+  ],
+  "chain_code_bits_per_weight": 3.0885562886290474,
+  "init_identity_diff_bits_per_weight": -1.3857357039626095e-08,
+  "offline_gain_bits_per_weight": 0.3893322002880497,
+  "fit": {
+   "lr": 0.001,
+   "validation_bits_per_epoch": {
+    "0.001": [
+     3.0863842964172363,
+     3.054523468017578,
+     2.802755117416382,
+     2.7360634803771973,
+     2.716278076171875,
+     2.7050750255584717,
+     2.6993796825408936
+    ],
+    "0.003": [
+     3.0863842964172363,
+     3.086444854736328,
+     3.086454153060913,
+     3.086549758911133,
+     3.0865354537963867,
+     3.0865235328674316,
+     3.0864944458007812
+    ]
+   },
+   "epoch0_is_chain": true
+  },
+  "theory_gain_bits_per_weight": 0.3727480494007572,
+  "note": "spec example: XOR of codes 100 apart; the probe sees only the previous 32 codes of the row, so the two codes are at distances 3 and 20 (out of reach of the chain's R3, which uses the previous 2)"
+ },
+ "checks": {
+  "init_identity": true,
+  "V-a_gain_about_0": true,
+  "V-b_recovers_theory": true
+ },
+ "all_pass": true
+}

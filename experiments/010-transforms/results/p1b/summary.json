@@ -1,0 +1,184 @@
+{
+ "test_matrices": 24,
+ "test_weights": 283115520,
+ "n_params": 230415,
+ "chain_code_bits_per_weight": 3.625539618305153,
+ "offline_bits_per_weight": 3.5751989537850024,
+ "online_bits_per_weight": 3.574324328066022,
+ "offline_gain_before_model_cost": 0.05034066452015109,
+ "model_cost_over_test_matrices": 0.013021681043836806,
+ "offline_net_gain_cost_over_test": 0.03731898347631428,
+ "model_cost_over_whole_model": 6.616707847478052e-06,
+ "whole_model_experts": 15744,
+ "whole_model_weights": 557171343360,
+ "offline_net_gain_cost_over_whole_model": 0.05033404781230361,
+ "online_net_gain": 0.05121529023913101,
+ "online_lr": 0.0003,
+ "offline_lr": 0.003,
+ "per_matrix": {
+  "L0.E191.w1": {
+   "offline_gain": 0.06080196833998141,
+   "online_gain": 0.06182852291123911
+  },
+  "L0.E191.w2": {
+   "offline_gain": 0.06257144119482455,
+   "online_gain": 0.06385189350586352
+  },
+  "L0.E191.w3": {
+   "offline_gain": 0.061809064627747524,
+   "online_gain": 0.06263912934170245
+  },
+  "L0.E230.w1": {
+   "offline_gain": 0.05613400563381927,
+   "online_gain": 0.05721007179667039
+  },
+  "L0.E230.w2": {
+   "offline_gain": 0.053796176471751604,
+   "online_gain": 0.05475259342965981
+  },
+  "L0.E230.w3": {
+   "offline_gain": 0.05629092235622137,
+   "online_gain": 0.05702100441777702
+  },
+  "L13.E127.w1": {
+   "offline_gain": 0.056569725910921104,
+   "online_gain": 0.05782753276172533
+  },
+  "L13.E127.w2": {
+   "offline_gain": 0.05764771004539789,
+   "online_gain": 0.05878345651780958
+  },
+  "L13.E127.w3": {
+   "offline_gain": 0.05596615660531496,
+   "online_gain": 0.05672974028530891
+  },
+  "L13.E267.w1": {
+   "offline_gain": 0.05101491859969782,
+   "online_gain": 0.05190287366261701
+  },
+  "L13.E267.w2": {
+   "offline_gain": 0.053551616498971395,
+   "online_gain": 0.054553528357689
+  },
+  "L13.E267.w3": {
+   "offline_gain": 0.05199547175156138,
+   "online_gain": 0.052638841472603164
+  },
+  "L26.E336.w1": {
+   "offline_gain": 0.060148628636406125,
+   "online_gain": 0.06123208229827178
+  },
+  "L26.E336.w2": {
+   "offline_gain": 0.05157798465000383,
+   "online_gain": 0.05253643064936126
+  },
+  "L26.E336.w3": {
+   "offline_gain": 0.05274033728892644,
+   "online_gain": 0.05346911996922599
+  },
+  "L26.E92.w1": {
+   "offline_gain": 0.049484415579303866,
+   "online_gain": 0.05033582074290987
+  },
+  "L26.E92.w2": {
+   "offline_gain": 0.04835403159646161,
+   "online_gain": 0.04926300491281318
+  },
+  "L26.E92.w3": {
+   "offline_gain": 0.04577197934698284,
+   "online_gain": 0.0463619502601811
+  },
+  "L39.E70.w1": {
+   "offline_gain": 0.04059787289883414,
+   "online_gain": 0.04143879509554027
+  },
+  "L39.E70.w2": {
+   "offline_gain": 0.03435968534793624,
+   "online_gain": 0.03510746270397805
+  },
+  "L39.E70.w3": {
+   "offline_gain": 0.03872645806505059,
+   "online_gain": 0.03927674735155809
+  },
+  "L39.E88.w1": {
+   "offline_gain": 0.04338847309979883,
+   "online_gain": 0.044179007351064885
+  },
+  "L39.E88.w2": {
+   "offline_gain": 0.03122200664360864,
+   "online_gain": 0.03198043601194563
+  },
+  "L39.E88.w3": {
+   "offline_gain": 0.03365489729410519,
+   "online_gain": 0.034246919931631384
+  }
+ },
+ "offline_net_gain_cost_over_test_percent": 0.8780937288544536,
+ "offline_net_gain_cost_over_whole_model_percent": 1.184330536760085,
+ "online_net_gain_percent": 1.2050656526854355,
+ "tier": "> 0.02: clearly missed structure; needs a dedicated analysis",
+ "ablation": {
+  "note": "model retrained without the group (group set to a constant in training and test); offline gain before model cost, same 24 test matrices",
+  "full_offline_gain": 0.05034066452015109,
+  "groups": {
+   "row_prev32": {
+    "offline_gain_without_group": 9.998522424818172e-09,
+    "gain_lost": 0.05034065452162866
+   },
+   "column_above8": {
+    "offline_gain_without_group": 0.05023488927589302,
+    "gain_lost": 0.00010577524425806756
+   },
+   "cross_window": {
+    "offline_gain_without_group": 0.050117142452529184,
+    "gain_lost": 0.0002235220676219049
+   },
+   "scale_and_row_scale_stats": {
+    "offline_gain_without_group": 0.050294182803739,
+    "gain_lost": 4.648171641209037e-05
+   },
+   "position_in_block": {
+    "offline_gain_without_group": 0.03731284895109689,
+    "gain_lost": 0.013027815569054198
+   },
+   "row_layer_role": {
+    "offline_gain_without_group": 0.05005040768490677,
+    "gain_lost": 0.0002902568352443208
+   },
+   "log_p_chain_input": {
+    "offline_gain_without_group": 0.04997522737373688,
+    "gain_lost": 0.0003654371464142103
+   }
+  }
+ },
+ "diagnostics": {
+  "chain_bits_per_weight": 3.625539618305153,
+  "probe_bits_per_weight": 3.5751989530939348,
+  "static_entropy_bits_per_weight": 3.6214881523295426,
+  "gain_per_tenth": [
+   0.05185306557716592,
+   0.05022244603824414,
+   0.0501575859889366,
+   0.05052124112541942,
+   0.05010859753967722,
+   0.050174803780260895,
+   0.05031622296628284,
+   0.05007714133674116,
+   0.04989866240395907,
+   0.05007688535549369
+  ],
+  "chain_learning_cost_bits_per_weight": 0.004051465975610569,
+  "probe_below_static_bits_per_weight": 0.046289199235607814
+ },
+ "verify": {
+  "matrices": 48,
+  "max_abs_diff_bits_per_weight_vs_fp4_codelen": 3.157967714489334e-15,
+  "max_abs_diff_bits_per_weight_vs_008_stored_result": 3.157967714489334e-15,
+  "pass": true
+ },
+ "synthetic": {
+  "init_identity": true,
+  "V-a_gain_about_0": true,
+  "V-b_recovers_theory": true
+ }
+}
