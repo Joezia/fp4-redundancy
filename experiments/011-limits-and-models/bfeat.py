@@ -11,7 +11,9 @@ import numpy as np
 D = Path(__file__).resolve().parents[2] / "data" / "011"
 B = 32
 NAMES = ["scale", "rel_scale", "prev1_mag", "prev1_sign", "prev2_mag", "max_so_far", "cnt4_so_far", "pos",
-         "partner_mag", "partner_sign", "above_mag", "role", "layer", "mean_mag_so_far"]
+         "partner_mag", "partner_sign", "above_mag", "role", "layer", "mean_mag_so_far",
+         "odd_so_far", "nz_so_far", "coarse_flag"]
+CAUSAL = list(range(16))       # coarse_flag (whole block has no 0.5 / 1.5) is side information, not causal
 
 
 def mag_sign(s):
@@ -69,6 +71,14 @@ def features_from_arrays(S, E, X, role, layer):
     csum = np.zeros(lv.shape, dtype=np.float64)
     csum[:, :, 1:] = np.cumsum(lv, axis=2)[:, :, :-1]
     mean2 = np.where(pos == 0, 15, np.clip(np.round(2 * csum / np.maximum(pos, 1)), 0, 14))
+    odd = np.isin(lv, [1, 3]).astype(np.int64)
+    codd = np.zeros_like(lv)
+    codd[:, :, 1:] = np.cumsum(odd, axis=2)[:, :, :-1]
+    cnz = np.zeros_like(lv)
+    cnz[:, :, 1:] = np.cumsum((lv > 0).astype(np.int64), axis=2)[:, :, :-1]
+    F[..., 14] = np.minimum(codd, 8).reshape(R, W)
+    F[..., 15] = cnz.reshape(R, W)
+    F[..., 16] = np.repeat((odd.sum(-1) == 0).astype(np.int16), B, axis=1)
     F[..., 5] = prev_max.reshape(R, W)
     F[..., 6] = np.minimum(cnt, 8).reshape(R, W)
     F[..., 7] = pos.reshape(R, W)

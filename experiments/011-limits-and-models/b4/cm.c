@@ -19,7 +19,7 @@
 #include <string.h>
 #include <time.h>
 
-#define NM 9
+#define NM 10
 #define TB 22                 /* 2^22 slots per model */
 #define NODES 9
 #ifndef MIXLR
@@ -85,7 +85,7 @@ static uint64_t n_dec;
 
 /* per-symbol contexts, computed from already decoded data */
 static uint32_t ctx[NM];
-static void contexts(const uint8_t *dec, int r, int c, int bmax, int bcnt, int msum) {
+static void contexts(const uint8_t *dec, int r, int c, int bmax, int bcnt, int msum, int bodd, int bnz) {
     int pos = c & 31;
     int p1 = c > 0 ? dec[(size_t)r * W + c - 1] : 15;
     int p2 = c > 1 ? dec[(size_t)r * W + c - 2] : 15;
@@ -105,6 +105,9 @@ static void contexts(const uint8_t *dec, int r, int c, int bmax, int bcnt, int m
     ctx[6] = 1200 + sc * 9 + mag1;
     ctx[7] = 4000 + ab;
     ctx[8] = 4100 + bcnt * 16 + (mean2 > 15 ? 15 : mean2);
+    /* A3: about 29% of blocks have no magnitude 0.5 / 1.5 -- odd levels seen so far, non-zero count, max */
+    int nzb = bnz == 0 ? 0 : bnz < 2 ? 1 : bnz < 4 ? 2 : bnz < 8 ? 3 : bnz < 16 ? 4 : 5;
+    ctx[9] = 6000 + ((bodd > 3 ? 3 : bodd) * 6 + nzb) * 9 + bmax;
 }
 
 static int mixw_set(int node) { return node * 4; }
@@ -237,10 +240,10 @@ static double run(uint8_t *dec, int enc, AC *a) {
     reset_models();
     for (int r = 0; r < R; r++) {
         for (int b = 0; b < NB; b++) {
-            int bmax = 0, bcnt = 0, msum = 0;
+            int bmax = 0, bcnt = 0, msum = 0, bodd = 0, bnz = 0;
             for (int j = 0; j < 32; j++) {
                 int c = b * 32 + j;
-                contexts(dec, r, c, bmax, bcnt, msum);
+                contexts(dec, r, c, bmax, bcnt, msum, bodd, bnz);
                 int sc = E[(size_t)r * NB + b];
                 int s = code_symbol(a, enc, enc ? S[(size_t)r * W + c] : 0, sc);
                 dec[(size_t)r * W + c] = (uint8_t)s;
@@ -248,6 +251,8 @@ static double run(uint8_t *dec, int enc, AC *a) {
                 if (mg + 1 > bmax) bmax = mg + 1;
                 if (mg >= 6) bcnt = bcnt < 3 ? bcnt + 1 : 3;
                 msum += mg;
+                if (mg == 1 || mg == 3) bodd++;
+                if (mg > 0) bnz++;
             }
         }
     }

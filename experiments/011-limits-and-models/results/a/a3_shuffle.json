@@ -1,0 +1,38 @@
+{
+ "L13.E127.w3": {
+  "gain_original": 0.07093758008556077,
+  "gain_block_shuffled": 0.07097317428666783,
+  "chain_original": 3.6464862077270266,
+  "chain_block_shuffled": 3.646550369772101
+ },
+ "L26.E336.w3": {
+  "gain_original": 0.0669862596557045,
+  "gain_block_shuffled": 0.06694880101791353,
+  "chain_original": 3.6374495620560814,
+  "chain_block_shuffled": 3.637390126523488
+ },
+ "L39.E70.w2": {
+  "gain_original": 0.045600541200699105,
+  "gain_block_shuffled": 0.04556891906044472,
+  "chain_original": 3.614008463521595,
+  "chain_block_shuffled": 3.614044901938388
+ },
+ "L0.E191.w2": {
+  "gain_original": 0.07479872891778301,
+  "gain_block_shuffled": 0.07477552841676874,
+  "chain_original": 3.651260075861956,
+  "chain_block_shuffled": 3.651258825764791
+ },
+ "L13.E127.w1": {
+  "gain_original": 0.07791017672098266,
+  "gain_block_shuffled": 0.0759145146040118,
+  "chain_original": 3.650445792218148,
+  "chain_block_shuffled": 3.668272955427037
+ },
+ "L39.E70.w1": {
+  "gain_original": 0.05615720480600051,
+  "gain_block_shuffled": 0.05478588332136193,
+  "chain_original": 3.618232591913002,
+  "chain_block_shuffled": 3.6230919426288843
+ }
+}

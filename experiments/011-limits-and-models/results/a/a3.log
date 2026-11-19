@@ -1,0 +1,203 @@
+== full (160k, N 1.6e+08)  18:26:27
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:205: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(self.logp[sl])).to(dev, non_blocking=True).float()
+    seen 20M  val 3.58538 (chain 3.63579)  3.42M/s
+    seen 40M  val 3.58376 (chain 3.63579)  3.44M/s
+    seen 60M  val 3.58310 (chain 3.63579)  3.44M/s
+    seen 80M  val 3.58246 (chain 3.63579)  3.45M/s
+    seen 100M  val 3.58227 (chain 3.63579)  3.45M/s
+    seen 120M  val 3.58202 (chain 3.63579)  3.45M/s
+    seen 140M  val 3.57704 (chain 3.63579)  3.45M/s
+    seen 160M  val 3.57540 (chain 3.63579)  3.44M/s
+    seen 180M  val 3.57485 (chain 3.63579)  3.45M/s
+    seen 200M  val 3.57449 (chain 3.63579)  3.45M/s
+    seen 220M  val 3.57416 (chain 3.63579)  3.45M/s
+    seen 240M  val 3.57394 (chain 3.63579)  3.45M/s
+    seen 260M  val 3.57380 (chain 3.63579)  3.45M/s
+    seen 280M  val 3.57368 (chain 3.63579)  3.45M/s
+    seen 300M  val 3.57364 (chain 3.63579)  3.45M/s
+   T1 gain 0.06150  T2 gain 0.06435
+== -inblock (160k, N 1.6e+08)  18:28:47
+    seen 20M  val 3.63486 (chain 3.63579)  3.20M/s
+    seen 40M  val 3.63481 (chain 3.63579)  3.20M/s
+    seen 60M  val 3.63479 (chain 3.63579)  3.20M/s
+    seen 80M  val 3.63480 (chain 3.63579)  3.20M/s
+    seen 100M  val 3.63480 (chain 3.63579)  3.20M/s
+    seen 120M  val 3.63478 (chain 3.63579)  3.20M/s
+    seen 140M  val 3.63476 (chain 3.63579)  3.20M/s
+    seen 160M  val 3.63475 (chain 3.63579)  3.20M/s
+    seen 180M  val 3.63473 (chain 3.63579)  3.20M/s
+    seen 200M  val 3.63474 (chain 3.63579)  3.20M/s
+    seen 220M  val 3.63473 (chain 3.63579)  3.20M/s
+    seen 240M  val 3.63473 (chain 3.63579)  3.20M/s
+    seen 260M  val 3.63472 (chain 3.63579)  3.20M/s
+    seen 280M  val 3.63472 (chain 3.63579)  3.20M/s
+    seen 300M  val 3.63472 (chain 3.63579)  3.20M/s
+   T1 gain 0.00111  T2 gain 0.00100
+== -crossblock (160k, N 1.6e+08)  18:31:13
+    seen 20M  val 3.58343 (chain 3.63579)  3.20M/s
+    seen 40M  val 3.58257 (chain 3.63579)  3.19M/s
+    seen 60M  val 3.58230 (chain 3.63579)  3.19M/s
+    seen 80M  val 3.58173 (chain 3.63579)  3.19M/s
+    seen 100M  val 3.58153 (chain 3.63579)  3.19M/s
+    seen 120M  val 3.58166 (chain 3.63579)  3.19M/s
+    seen 140M  val 3.58130 (chain 3.63579)  3.19M/s
+    seen 160M  val 3.57469 (chain 3.63579)  3.19M/s
+    seen 180M  val 3.57391 (chain 3.63579)  3.19M/s
+    seen 200M  val 3.57344 (chain 3.63579)  3.19M/s
+    seen 220M  val 3.57313 (chain 3.63579)  3.19M/s
+    seen 240M  val 3.57301 (chain 3.63579)  3.19M/s
+    seen 260M  val 3.57281 (chain 3.63579)  3.19M/s
+    seen 280M  val 3.57279 (chain 3.63579)  3.19M/s
+    seen 300M  val 3.57273 (chain 3.63579)  3.19M/s
+   T1 gain 0.06237  T2 gain 0.06527
+== -above (160k, N 1.6e+08)  18:33:40
+    seen 20M  val 3.58522 (chain 3.63579)  3.29M/s
+    seen 40M  val 3.58371 (chain 3.63579)  3.29M/s
+    seen 60M  val 3.58294 (chain 3.63579)  3.30M/s
+    seen 80M  val 3.58242 (chain 3.63579)  3.30M/s
+    seen 100M  val 3.58220 (chain 3.63579)  3.30M/s
+    seen 120M  val 3.58208 (chain 3.63579)  3.31M/s
+    seen 140M  val 3.58177 (chain 3.63579)  3.31M/s
+    seen 160M  val 3.58162 (chain 3.63579)  3.31M/s
+    seen 180M  val 3.58154 (chain 3.63579)  3.31M/s
+    seen 200M  val 3.58134 (chain 3.63579)  3.31M/s
+    seen 220M  val 3.58113 (chain 3.63579)  3.31M/s
+    seen 240M  val 3.58017 (chain 3.63579)  3.31M/s
+    seen 260M  val 3.57859 (chain 3.63579)  3.31M/s
+    seen 280M  val 3.57784 (chain 3.63579)  3.31M/s
+    seen 300M  val 3.57735 (chain 3.63579)  3.31M/s
+   T1 gain 0.05754  T2 gain 0.06085
+== -partner (160k, N 1.6e+08)  18:36:03
+    seen 20M  val 3.58500 (chain 3.63579)  3.12M/s
+    seen 40M  val 3.58356 (chain 3.63579)  3.11M/s
+    seen 60M  val 3.58294 (chain 3.63579)  3.11M/s
+    seen 80M  val 3.58234 (chain 3.63579)  3.11M/s
+    seen 100M  val 3.58214 (chain 3.63579)  3.11M/s
+    seen 120M  val 3.58192 (chain 3.63579)  3.11M/s
+    seen 140M  val 3.58157 (chain 3.63579)  3.11M/s
+    seen 160M  val 3.58151 (chain 3.63579)  3.11M/s
+    seen 180M  val 3.58139 (chain 3.63579)  3.11M/s
+    seen 200M  val 3.58124 (chain 3.63579)  3.11M/s
+    seen 220M  val 3.57958 (chain 3.63579)  3.11M/s
+    seen 240M  val 3.57765 (chain 3.63579)  3.11M/s
+    seen 260M  val 3.57656 (chain 3.63579)  3.11M/s
+    seen 280M  val 3.57607 (chain 3.63579)  3.11M/s
+    seen 300M  val 3.57573 (chain 3.63579)  3.11M/s
+   T1 gain 0.05919  T2 gain 0.06222
+== -scale (160k, N 1.6e+08)  18:38:31
+    seen 20M  val 3.58611 (chain 3.63579)  3.37M/s
+    seen 40M  val 3.58446 (chain 3.63579)  3.36M/s
+    seen 60M  val 3.58392 (chain 3.63579)  3.36M/s
+    seen 80M  val 3.58328 (chain 3.63579)  3.36M/s
+    seen 100M  val 3.57928 (chain 3.63579)  3.36M/s
+    seen 120M  val 3.57698 (chain 3.63579)  3.36M/s
+    seen 140M  val 3.57614 (chain 3.63579)  3.36M/s
+    seen 160M  val 3.57563 (chain 3.63579)  3.37M/s
+    seen 180M  val 3.57534 (chain 3.63579)  3.37M/s
+    seen 200M  val 3.57520 (chain 3.63579)  3.38M/s
+    seen 220M  val 3.57482 (chain 3.63579)  3.38M/s
+    seen 240M  val 3.57473 (chain 3.63579)  3.38M/s
+    seen 260M  val 3.57461 (chain 3.63579)  3.38M/s
+    seen 280M  val 3.57449 (chain 3.63579)  3.39M/s
+    seen 300M  val 3.57447 (chain 3.63579)  3.39M/s
+   T1 gain 0.06044  T2 gain 0.06343
+== -position (160k, N 1.6e+08)  18:40:52
+    seen 20M  val 3.59798 (chain 3.63579)  3.42M/s
+    seen 40M  val 3.59672 (chain 3.63579)  3.42M/s
+    seen 60M  val 3.59602 (chain 3.63579)  3.42M/s
+    seen 80M  val 3.59574 (chain 3.63579)  3.42M/s
+    seen 100M  val 3.59530 (chain 3.63579)  3.41M/s
+    seen 120M  val 3.59284 (chain 3.63579)  3.41M/s
+    seen 140M  val 3.59187 (chain 3.63579)  3.41M/s
+    seen 160M  val 3.59114 (chain 3.63579)  3.41M/s
+    seen 180M  val 3.59065 (chain 3.63579)  3.42M/s
+    seen 200M  val 3.59035 (chain 3.63579)  3.42M/s
+    seen 220M  val 3.59008 (chain 3.63579)  3.42M/s
+    seen 240M  val 3.59001 (chain 3.63579)  3.42M/s
+    seen 260M  val 3.58979 (chain 3.63579)  3.42M/s
+    seen 280M  val 3.58971 (chain 3.63579)  3.42M/s
+    seen 300M  val 3.58966 (chain 3.63579)  3.42M/s
+   T1 gain 0.04569  T2 gain 0.04793
+== ctx0 (160k, N 1.6e+08)  18:43:13
+    seen 20M  val 3.63582 (chain 3.63579)  2.97M/s
+    seen 40M  val 3.63582 (chain 3.63579)  2.97M/s
+    seen 60M  val 3.63580 (chain 3.63579)  2.97M/s
+    seen 80M  val 3.63581 (chain 3.63579)  2.97M/s
+    early stop
+   T1 gain 0.00000  T2 gain 0.00000
+== ctx2 (160k, N 1.6e+08)  18:44:32
+    seen 20M  val 3.63582 (chain 3.63579)  3.00M/s
+    seen 40M  val 3.63582 (chain 3.63579)  3.00M/s
+    seen 60M  val 3.63580 (chain 3.63579)  2.99M/s
+    seen 80M  val 3.63581 (chain 3.63579)  2.99M/s
+    early stop
+   T1 gain 0.00000  T2 gain 0.00000
+== ctx4 (160k, N 1.6e+08)  18:45:51
+    seen 20M  val 3.61921 (chain 3.63579)  3.02M/s
+    seen 40M  val 3.61798 (chain 3.63579)  3.02M/s
+    seen 60M  val 3.61776 (chain 3.63579)  3.02M/s
+    seen 80M  val 3.61754 (chain 3.63579)  3.02M/s
+    seen 100M  val 3.61736 (chain 3.63579)  3.02M/s
+    seen 120M  val 3.61725 (chain 3.63579)  3.02M/s
+    seen 140M  val 3.61709 (chain 3.63579)  3.02M/s
+    seen 160M  val 3.61677 (chain 3.63579)  3.02M/s
+    seen 180M  val 3.61665 (chain 3.63579)  3.02M/s
+    seen 200M  val 3.61651 (chain 3.63579)  3.03M/s
+    seen 220M  val 3.61636 (chain 3.63579)  3.03M/s
+    seen 240M  val 3.61625 (chain 3.63579)  3.03M/s
+    seen 260M  val 3.61615 (chain 3.63579)  3.03M/s
+    seen 280M  val 3.61605 (chain 3.63579)  3.03M/s
+    seen 300M  val 3.61600 (chain 3.63579)  3.03M/s
+   T1 gain 0.02022  T2 gain 0.02086
+== ctx8 (160k, N 1.6e+08)  18:48:23
+    seen 20M  val 3.59853 (chain 3.63579)  3.08M/s
+    seen 40M  val 3.59677 (chain 3.63579)  3.07M/s
+    seen 60M  val 3.59673 (chain 3.63579)  3.07M/s
+    seen 80M  val 3.59622 (chain 3.63579)  3.07M/s
+    seen 100M  val 3.59543 (chain 3.63579)  3.07M/s
+    seen 120M  val 3.59514 (chain 3.63579)  3.07M/s
+    seen 140M  val 3.59488 (chain 3.63579)  3.07M/s
+    seen 160M  val 3.59475 (chain 3.63579)  3.08M/s
+    seen 180M  val 3.59457 (chain 3.63579)  3.08M/s
+    seen 200M  val 3.59442 (chain 3.63579)  3.08M/s
+    seen 220M  val 3.59430 (chain 3.63579)  3.08M/s
+    seen 240M  val 3.59423 (chain 3.63579)  3.09M/s
+    seen 260M  val 3.59417 (chain 3.63579)  3.09M/s
+    seen 280M  val 3.59414 (chain 3.63579)  3.09M/s
+    seen 300M  val 3.59412 (chain 3.63579)  3.09M/s
+   T1 gain 0.04134  T2 gain 0.04364
+== ctx16 (160k, N 1.6e+08)  18:50:53
+    seen 20M  val 3.58583 (chain 3.63579)  3.18M/s
+    seen 40M  val 3.58466 (chain 3.63579)  3.17M/s
+    seen 60M  val 3.58417 (chain 3.63579)  3.17M/s
+    seen 80M  val 3.58357 (chain 3.63579)  3.17M/s
+    seen 100M  val 3.58349 (chain 3.63579)  3.17M/s
+    seen 120M  val 3.58230 (chain 3.63579)  3.17M/s
+    seen 140M  val 3.58060 (chain 3.63579)  3.17M/s
+    seen 160M  val 3.58033 (chain 3.63579)  3.17M/s
+    seen 180M  val 3.58015 (chain 3.63579)  3.17M/s
+    seen 200M  val 3.57999 (chain 3.63579)  3.17M/s
+    seen 220M  val 3.57981 (chain 3.63579)  3.18M/s
+    seen 240M  val 3.57972 (chain 3.63579)  3.18M/s
+    seen 260M  val 3.57964 (chain 3.63579)  3.18M/s
+    seen 280M  val 3.57962 (chain 3.63579)  3.18M/s
+    seen 300M  val 3.57959 (chain 3.63579)  3.18M/s
+   T1 gain 0.05517  T2 gain 0.05855
+== inblock_only (160k, N 1.6e+08)  18:53:19
+    seen 20M  val 3.58365 (chain 3.63579)  2.82M/s
+    seen 40M  val 3.58224 (chain 3.63579)  2.82M/s
+    seen 60M  val 3.58186 (chain 3.63579)  2.82M/s
+    seen 80M  val 3.58139 (chain 3.63579)  2.82M/s
+    seen 100M  val 3.58132 (chain 3.63579)  2.81M/s
+    seen 120M  val 3.58138 (chain 3.63579)  2.81M/s
+    seen 140M  val 3.58109 (chain 3.63579)  2.81M/s
+    seen 160M  val 3.58104 (chain 3.63579)  2.81M/s
+    seen 180M  val 3.57467 (chain 3.63579)  2.81M/s
+    seen 200M  val 3.57411 (chain 3.63579)  2.82M/s
+    seen 220M  val 3.57328 (chain 3.63579)  2.82M/s
+    seen 240M  val 3.57321 (chain 3.63579)  2.82M/s
+    seen 260M  val 3.57301 (chain 3.63579)  2.82M/s
+    seen 280M  val 3.57295 (chain 3.63579)  2.82M/s
+    seen 300M  val 3.57292 (chain 3.63579)  2.82M/s
+   T1 gain 0.06209  T2 gain 0.06498

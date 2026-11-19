@@ -1,0 +1,22 @@
+{
+ "V-a": {
+  "gain": -0.010326070579751306,
+  "theory": 0.00010268293439013279,
+  "lossless": true,
+  "coded_vs_ideal_bits_per_code": 2.5213453505380636e-06,
+  "decode_codes_per_s": 2896405.421331762
+ },
+ "V-b": {
+  "gain": 0.20618655371532257,
+  "theory": 0.2296552798975158,
+  "lossless": true,
+  "coded_vs_ideal_bits_per_code": 2.351888020749963e-06,
+  "decode_codes_per_s": 2608917.197452229
+ },
+ "checks": {
+  "lossless": true,
+  "V-a_about_0": false,
+  "V-b_recovers": true
+ },
+ "all_pass": false
+}

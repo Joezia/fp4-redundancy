@@ -38,7 +38,9 @@ B = 32
 LEVELS = ["0", "0.5", "1", "1.5", "2", "3", "4", "6"]
 COMBOS = {"max": ["max"], "cnt": ["cnt"], "pos4": ["pos4"], "max+pos4": ["max", "pos4"], "cnt+pos4": ["cnt", "pos4"],
           "max+cnt": ["max", "cnt"], "max+cnt+pos4": ["max", "cnt", "pos4"], "max+cnt+pos32": ["max", "cnt", "pos32"],
-          "mean (extra)": ["mean"], "mean+pos4 (extra)": ["mean", "pos4"], "mean+max (extra)": ["mean", "max"]}
+          "mean (extra)": ["mean"], "mean+pos4 (extra)": ["mean", "pos4"], "mean+max (extra)": ["mean", "max"],
+          "R9c odd": ["odd"], "R9c odd+nzc": ["odd", "nzc"], "R9c odd+pos4": ["odd", "pos4"],
+          "R9c odd+nzc+max": ["odd", "nzc", "max"]}
 SEQ = [["max"], ["max", "cnt"], ["max", "cnt", "pos4"]]     # added one after another
 
 
@@ -58,7 +60,16 @@ def block_feats(C):
     csum[:, :, 1:] = np.cumsum(lv, axis=2)[:, :, :-1]
     mean = csum / np.maximum(pos, 1)
     mbin = np.where(pos == 0, 0, 1 + np.digitize(mean, [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]))
-    return {"mean": (mbin.reshape(R, W), 9),
+    # found in A3: about 29% of blocks contain no magnitude 0.5 or 1.5 ("coarse" blocks)
+    odd = np.isin(lv, [1, 3]).astype(np.int64)
+    nz = (lv > 0).astype(np.int64)
+    codd = np.zeros_like(lv)
+    codd[:, :, 1:] = np.cumsum(odd, axis=2)[:, :, :-1]
+    cnz = np.zeros_like(lv)
+    cnz[:, :, 1:] = np.cumsum(nz, axis=2)[:, :, :-1]
+    nzb = np.digitize(cnz, [1, 2, 4, 8, 16])               # 0, 1, 2-3, 4-7, 8-15, 16+
+    return {"odd": (np.minimum(codd, 3).reshape(R, W), 4), "nzc": (nzb.reshape(R, W), 6),
+            "mean": (mbin.reshape(R, W), 9),
             "max": (prev_max.reshape(R, W), 9), "cnt": (np.minimum(cnt, 3).reshape(R, W), 4),
             "pos4": ((pos // 8).reshape(R, W), 4), "pos32": (pos.reshape(R, W).copy(), 32)}
 

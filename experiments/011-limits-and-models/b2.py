@@ -175,13 +175,19 @@ def _eval_matrix(args):
     F, y = BF.matrix_features(M, name)
     r = M.reg[name]
     out = {"task": name, "n": len(y)}
+    R_, W_ = M.codes(name)[0].shape
+    flags = F[:, 16].reshape(R_, W_)[:, ::32].astype(np.int64)
+    prevf = np.full(flags.shape, 2, dtype=np.int64)
+    prevf[:, 1:] = flags[:, :-1]
+    flag_bits = I.dirichlet_bits(flags.ravel(), prevf.ravel(), 2)
     for key, tr in trees.items():
         sharing, leaves = key
-        t = tr[group_key(sharing, r["layer"], r["role"])]
-        lf = t.leaf(F)
-        static = float(-np.log2(t.table[lf, y]).sum())
-        adapt = I.hier_bits(y, [np.zeros(len(y), dtype=np.int64), lf], KQ, p1b.P["beta"], p1b.P["nblocks"])
-        out[f"{sharing}:{leaves}"] = {"static": static, "adaptive": adapt}
+        flag = sharing == "model+flag"
+        t = tr["all"] if flag else tr[group_key(sharing, r["layer"], r["role"])]
+        lf = t.leaf(F if flag else F[:, BF.CAUSAL])
+        static = float(-np.log2(t.table[lf, y]).sum()) + (flag_bits if flag else 0.0)
+        adapt = I.hier_bits(y, [np.zeros(len(y), dtype=np.int64), lf], KQ, p1b.P["beta"], p1b.P["nblocks"]) + (flag_bits if flag else 0.0)
+        out[f"{sharing}:{leaves}"] = {"static": static, "adaptive": adapt, "flag_bits": flag_bits if flag else 0.0}
     return out
 
 
@@ -196,6 +202,14 @@ def stage_run(workers=48):
     rol = np.array([reg[int(m)]["role"] for m in range(max(reg) + 1)])[mid]
     trees = {}
     info = {}
+    Fall = F
+    F = Fall[:, BF.CAUSAL]
+    # B1b x B2: the 1-bit "coarse block" flag sent per block, as one more tree feature (model-wide trees)
+    for leaves in (256, 1024):
+        trees[("model+flag", leaves)] = {"all": Tree(Fall, y, leaves)}
+        tr = trees[("model+flag", leaves)]
+        info[f"model+flag:{leaves}"] = {"trees": 1, "leaves_total": int(tr["all"].n_leaves), "cost_bits_all": float(tr["all"].cost_bits())}
+        print("model+flag", leaves, info[f"model+flag:{leaves}"], flush=True)
     for sharing in SHARING:
         groups = {}
         allk = np.char.add(np.char.add(lay.astype(str), "."), rol) if sharing == "layer_role" else \
@@ -216,7 +230,7 @@ def stage_run(workers=48):
     test = K.T1 + K.T2
     with ProcessPoolExecutor(workers) as ex:
         rows = list(ex.map(_eval_matrix, [(n, str(tp)) for n in test]))
-    with open(RES / "b2_rows.jsonl", "w") as f:
+    with open(RES / "b2_v2_rows.jsonl", "w") as f:
         for r in rows:
             f.write(json.dumps(r) + "\n")
     chain = {json.loads(l)["name"]: json.loads(l)["chain_code_bits"] for l in open(D / "build_info.jsonl")}
@@ -231,15 +245,18 @@ def stage_run(workers=48):
             ch = sum(chain[r["task"]] for r in sel)
             st = sum(r[k]["static"] for r in sel)
             ad = sum(r[k]["adaptive"] for r in sel)
-            used = {group_key(key[0], reg_n[r["task"]]["layer"], reg_n[r["task"]]["role"]) for r in sel}
+            used = {"all"} if key[0] == "model+flag" else {group_key(key[0], reg_n[r["task"]]["layer"], reg_n[r["task"]]["role"]) for r in sel}
             cost_test = sum(tr[g].cost_bits() for g in used)
-            res[split] = {"static_gain": (ch - st) / n, "static_net_cost_over_test": (ch - st - cost_test) / n,
+            res[split] = {"flag_bits_per_code": sum(r[k]["flag_bits"] for r in sel) / n, "static_gain": (ch - st) / n, "static_net_cost_over_test": (ch - st - cost_test) / n,
                           "static_net_cost_over_whole_model": (ch - st) / n - info[k]["cost_bits_all"] / ALL_W,
                           "adaptive_gain": (ch - ad) / n, "static_minus_adaptive_loss": (st - ad) / n,
                           "chain_bits_per_code": ch / n}
         out[k] = res
         print(k, {s: {a: round(b, 5) for a, b in res[s].items()} for s in ("T1", "T2")}, flush=True)
-    json.dump(out, open(RES / "b2.json", "w"), indent=1)
+    out["note"] = ("v2 features: v1 plus odd levels seen so far in the block and non-zero count so far (A3); "
+                   "model+flag = the coarse-block flag sent per block (adaptive, previous block's flag as context), "
+                   "its bits are included in static / adaptive")
+    json.dump(out, open(RES / "b2_v2.json", "w"), indent=1)
 
 
 def stage_synth():

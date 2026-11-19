@@ -18,12 +18,13 @@ sys.path.insert(0, str(HERE.parents[1]))
 def fit(x, y):
     from scipy.optimize import curve_fit
     x, y = np.asarray(x, float), np.asarray(y, float)
-    f = lambda n, L, a, al: L + a * n ** (-al)
+    x0 = x.min()
+    f = lambda n, L, a, al: L + a * (n / x0) ** (-al)        # n normalised by the smallest point
     try:
-        p, cov = curve_fit(f, x, y, p0=[y.min() - 1e-3, 1.0, 0.5], maxfev=20000)
+        p, cov = curve_fit(f, x, y, p0=[y.min() - 1e-3, max(y.max() - y.min(), 1e-4), 0.5], maxfev=200000)
         resid = y - f(x, *p)
         err = np.sqrt(np.diag(cov)) if np.all(np.isfinite(cov)) else [None] * 3
-        return {"L_inf": float(p[0]), "a": float(p[1]), "alpha": float(p[2]), "rms_residual": float(np.sqrt(np.mean(resid ** 2))),
+        return {"L_inf": float(p[0]), "a": float(p[1]), "alpha": float(p[2]), "x0": float(x0), "rms_residual": float(np.sqrt(np.mean(resid ** 2))),
                 "L_inf_std": None if err[0] is None else float(err[0]), "points": len(x)}
     except Exception as e:   # too few points or no convergence
         return {"error": str(e), "points": len(x)}

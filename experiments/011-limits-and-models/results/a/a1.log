@@ -209,3 +209,79 @@
     seen 1000M  val 3.57208 (chain 3.63579)  1.57M/s
    T1 gain 0.06339  T2 gain 0.06654  (3.56215 vs chain 3.62554)
 == 10M (9702095 parameters), N = 1.00e+09, lr 0.001  17:49:40
+    seen 20M  val 3.58527 (chain 3.63579)  0.86M/s
+    seen 40M  val 3.58059 (chain 3.63579)  0.87M/s
+    seen 60M  val 3.57735 (chain 3.63579)  0.87M/s
+    seen 80M  val 3.57627 (chain 3.63579)  0.87M/s
+    seen 100M  val 3.57564 (chain 3.63579)  0.87M/s
+    seen 120M  val 3.57518 (chain 3.63579)  0.87M/s
+    seen 140M  val 3.57464 (chain 3.63579)  0.88M/s
+    seen 160M  val 3.57447 (chain 3.63579)  0.88M/s
+    seen 180M  val 3.57406 (chain 3.63579)  0.88M/s
+    seen 200M  val 3.57405 (chain 3.63579)  0.88M/s
+    seen 220M  val 3.57396 (chain 3.63579)  0.88M/s
+    seen 240M  val 3.57356 (chain 3.63579)  0.88M/s
+    seen 260M  val 3.57362 (chain 3.63579)  0.88M/s
+    seen 280M  val 3.57340 (chain 3.63579)  0.88M/s
+    seen 300M  val 3.57330 (chain 3.63579)  0.88M/s
+    seen 320M  val 3.57324 (chain 3.63579)  0.88M/s
+    seen 340M  val 3.57320 (chain 3.63579)  0.88M/s
+    seen 360M  val 3.57308 (chain 3.63579)  0.88M/s
+    seen 380M  val 3.57307 (chain 3.63579)  0.88M/s
+    seen 400M  val 3.57299 (chain 3.63579)  0.88M/s
+    seen 420M  val 3.57289 (chain 3.63579)  0.87M/s
+    seen 440M  val 3.57283 (chain 3.63579)  0.87M/s
+    seen 460M  val 3.57280 (chain 3.63579)  0.87M/s
+    seen 480M  val 3.57275 (chain 3.63579)  0.87M/s
+    seen 500M  val 3.57263 (chain 3.63579)  0.87M/s
+    seen 520M  val 3.57258 (chain 3.63579)  0.87M/s
+    seen 540M  val 3.57260 (chain 3.63579)  0.86M/s
+    seen 560M  val 3.57256 (chain 3.63579)  0.86M/s
+    seen 580M  val 3.57248 (chain 3.63579)  0.86M/s
+    seen 600M  val 3.57246 (chain 3.63579)  0.86M/s
+    seen 620M  val 3.57243 (chain 3.63579)  0.86M/s
+    seen 640M  val 3.57238 (chain 3.63579)  0.86M/s
+    seen 660M  val 3.57235 (chain 3.63579)  0.86M/s
+    seen 680M  val 3.57233 (chain 3.63579)  0.86M/s
+    seen 700M  val 3.57228 (chain 3.63579)  0.86M/s
+    seen 720M  val 3.57221 (chain 3.63579)  0.86M/s
+    seen 740M  val 3.57222 (chain 3.63579)  0.86M/s
+    seen 760M  val 3.57214 (chain 3.63579)  0.86M/s
+    seen 780M  val 3.57213 (chain 3.63579)  0.86M/s
+    seen 800M  val 3.57212 (chain 3.63579)  0.85M/s
+    seen 820M  val 3.57207 (chain 3.63579)  0.85M/s
+    seen 840M  val 3.57204 (chain 3.63579)  0.86M/s
+    seen 860M  val 3.57204 (chain 3.63579)  0.86M/s
+    seen 880M  val 3.57202 (chain 3.63579)  0.86M/s
+    seen 900M  val 3.57200 (chain 3.63579)  0.86M/s
+    seen 920M  val 3.57198 (chain 3.63579)  0.86M/s
+    seen 940M  val 3.57198 (chain 3.63579)  0.86M/s
+    seen 960M  val 3.57195 (chain 3.63579)  0.86M/s
+    seen 980M  val 3.57196 (chain 3.63579)  0.86M/s
+    seen 1000M  val 3.57194 (chain 3.63579)  0.86M/s
+   T1 gain 0.06362  T2 gain 0.06679  (3.56192 vs chain 3.62554)
+== 10M (9702095 parameters), N = 1.00e+07, lr 0.001  18:12:13
+    seen 20M  val 3.58384 (chain 3.63579)  0.88M/s
+    seen 40M  val 3.58877 (chain 3.63579)  0.88M/s
+    seen 60M  val 3.61696 (chain 3.63579)  0.88M/s
+    seen 80M  val 3.64333 (chain 3.63579)  0.88M/s
+    seen 100M  val 3.68885 (chain 3.63579)  0.88M/s
+    early stop
+   T1 gain 0.05118  T2 gain 0.05418  (3.57436 vs chain 3.62554)
+== 10M (9702095 parameters), N = 1.60e+08, lr 0.001  18:17:17
+    seen 20M  val 3.58286 (chain 3.63579)  0.88M/s
+    seen 40M  val 3.58035 (chain 3.63579)  0.88M/s
+    seen 60M  val 3.57703 (chain 3.63579)  0.88M/s
+    seen 80M  val 3.57577 (chain 3.63579)  0.88M/s
+    seen 100M  val 3.57509 (chain 3.63579)  0.88M/s
+    seen 120M  val 3.57485 (chain 3.63579)  0.88M/s
+    seen 140M  val 3.57415 (chain 3.63579)  0.88M/s
+    seen 160M  val 3.57388 (chain 3.63579)  0.88M/s
+    seen 180M  val 3.57361 (chain 3.63579)  0.88M/s
+    seen 200M  val 3.57353 (chain 3.63579)  0.88M/s
+    seen 220M  val 3.57321 (chain 3.63579)  0.88M/s
+    seen 240M  val 3.57308 (chain 3.63579)  0.88M/s
+    seen 260M  val 3.57298 (chain 3.63579)  0.88M/s
+    seen 280M  val 3.57295 (chain 3.63579)  0.88M/s
+    seen 300M  val 3.57295 (chain 3.63579)  0.88M/s
+   T1 gain 0.06221  T2 gain 0.06517  (3.56333 vs chain 3.62554)

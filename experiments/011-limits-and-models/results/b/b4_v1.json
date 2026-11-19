@@ -1,0 +1,17 @@
+{
+ "all_lossless": true,
+ "T1": {
+  "gain_ideal": -0.014562186018396359,
+  "gain_actual_coded": -0.014564435333446217,
+  "chain_bits_per_code": 3.625539618305153,
+  "decode_codes_per_s_median": 2341454.211855551,
+  "encode_codes_per_s_median": 2375616.687816712
+ },
+ "T2": {
+  "gain_ideal": -0.014118971714139695,
+  "gain_actual_coded": -0.014121326353688346,
+  "chain_bits_per_code": 3.6463751381283718,
+  "decode_codes_per_s_median": 2338298.3184113638,
+  "encode_codes_per_s_median": 2373729.883551594
+ }
+}

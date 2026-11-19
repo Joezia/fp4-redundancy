@@ -34,7 +34,9 @@ GROUPINGS = {"1 (all parallel)": np.zeros(32, dtype=int), "2 (even/odd)": np.ara
              "4 (every 4th)": np.arange(32) % 4, "8+24": (np.arange(32) >= 8).astype(int),
              "32 (serial in block)": np.arange(32)}
 FNAMES = ["scale", "rel_scale", "partner_mag", "partner_sign", "role", "layer", "pos", "max_A", "cnt4_A", "mean_A",
-          "left_A", "right_A"]
+          "left_A", "right_A", "odd_A", "nz_A", "coarse_flag"]
+# variants: (grouping, coarse flag sent per block as side information)
+VARIANTS = [(g, False) for g in GROUPINGS] + [("1 (all parallel)", True), ("2 (even/odd)", True), ("4 (every 4th)", True)]
 
 
 def grouped_features(S, E, X, role, layer, g):
@@ -61,10 +63,14 @@ def grouped_features(S, E, X, role, layer, g):
             F[:, :, j, 7] = sub.max(-1) + 1
             F[:, :, j, 8] = np.minimum((sub >= 6).sum(-1), 8)
             F[:, :, j, 9] = np.clip(np.round(2 * sub.mean(-1)), 0, 14)
+            F[:, :, j, 12] = np.minimum(np.isin(sub, [1, 3]).sum(-1), 8)
+            F[:, :, j, 13] = (sub > 0).sum(-1)
         else:
             F[:, :, j, 7], F[:, :, j, 8], F[:, :, j, 9] = 0, 0, 15
+            F[:, :, j, 12], F[:, :, j, 13] = 0, 0
         F[:, :, j, 10] = lv[:, :, j - 1] if j > 0 and A[j - 1] else 8
         F[:, :, j, 11] = lv[:, :, j + 1] if j < 31 and A[j + 1] else 8
+    F[..., 14] = (np.isin(lv, [1, 3]).sum(-1) == 0)[:, :, None]
     return F.reshape(R * W, -1), S.ravel()
 
 
@@ -101,22 +107,34 @@ def train_data(gkey, workers=32):
 
 
 def _eval(args):
-    name, gkey, tree = args
+    name, gkey, tree, cols, use_flag = args
+    from redundancy import increment as I
     F, y = _feat((name, gkey, None))
-    return {"task": name, "n": len(y), "static": float(-np.log2(tree.table[tree.leaf(F), y]).sum())}
+    bits = float(-np.log2(tree.table[tree.leaf(F[:, cols]), y]).sum())
+    if use_flag:     # the flags themselves: adaptive, previous block's flag in the row as context
+        M = BF.Matrices()
+        R, W = M.codes(name)[0].shape
+        fl = F[:, 14].reshape(R, W)[:, ::32].astype(np.int64)
+        pv = np.full(fl.shape, 2, dtype=np.int64)
+        pv[:, 1:] = fl[:, :-1]
+        bits += I.dirichlet_bits(fl.ravel(), pv.ravel(), 2)
+    return {"task": name, "n": len(y), "static": bits}
 
 
 def stage_run():
     import common as K
     chain = {json.loads(l)["name"]: json.loads(l)["chain_code_bits"] for l in open(BF.D / "build_info.jsonl")}
     out = {}
-    for gkey, g in GROUPINGS.items():
+    for gkey, use_flag in VARIANTS:
+        g = GROUPINGS[gkey]
         F, y = train_data(gkey)
-        tree = b2.Tree(F, y, 1024)
+        cols = list(range(len(FNAMES))) if use_flag else list(range(len(FNAMES) - 1))
+        tree = b2.Tree(F[:, cols], y, 1024)
         del F, y
         with ProcessPoolExecutor(24) as ex:
-            rows = list(ex.map(_eval, [(n, gkey, tree) for n in K.T1 + K.T2]))
-        res = {"rounds": int(g.max() + 1), "leaves": tree.n_leaves, "table_cost_bits": tree.cost_bits()}
+            rows = list(ex.map(_eval, [(n, gkey, tree, cols, use_flag) for n in K.T1 + K.T2]))
+        gkey = gkey + (" + coarse flag" if use_flag else "")
+        res = {"rounds": int(g.max() + 1), "leaves": tree.n_leaves, "table_cost_bits": tree.cost_bits(), "flag_sent": use_flag}
         for split, ns in (("T1", K.T1), ("T2", K.T2)):
             sel = [r for r in rows if r["task"] in ns]
             n = sum(r["n"] for r in sel)
@@ -126,7 +144,7 @@ def stage_run():
                           "net_cost_over_whole_model": (ch - st) / n - tree.cost_bits() / b2.ALL_W}
         out[gkey] = res
         print(gkey, res, flush=True)
-        json.dump(out, open(RES / "b3.json", "w"), indent=1)
+        json.dump(out, open(RES / "b3_v2.json", "w"), indent=1)
 
 
 def stage_synth():
@@ -152,9 +170,10 @@ def stage_synth():
         chain_bits = float(-np.log2(p[np.arange(len(sym)), sym]).sum())
         for gkey, g in GROUPINGS.items():
             Fs, ys = zip(*[grouped_features(S, E_, None, "w3", 0, g) for S, E_, _, _ in merged[:4]])
-            tree = b2.Tree(np.concatenate(Fs), np.concatenate(ys), 256)
+            c = len(FNAMES) - 1                     # causal columns only (no side-information flag)
+            tree = b2.Tree(np.concatenate(Fs)[:, :c], np.concatenate(ys), 256)
             F, y = grouped_features(merged[4][0], merged[4][1], None, "w3", 0, g)
-            st = float(-np.log2(tree.table[tree.leaf(F), y]).sum())
+            st = float(-np.log2(tree.table[tree.leaf(F[:, :c]), y]).sum())
             res[gkey] = (chain_bits - st) / len(y)
         res["theory"] = (chain_bits - tb) / C.size
         out[kind] = res

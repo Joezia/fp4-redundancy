@@ -1,17 +1,17 @@
 {
  "V-a": {
-  "gain": -0.010326070579751306,
+  "gain": -0.010760499070283914,
   "theory": 0.00010268293439013279,
   "lossless": true,
-  "coded_vs_ideal_bits_per_code": 2.5213453505380636e-06,
-  "decode_codes_per_s": 2896405.421331762
+  "coded_vs_ideal_bits_per_code": 2.120632595708432e-06,
+  "decode_codes_per_s": 2606438.4984202036
  },
  "V-b": {
-  "gain": 0.20618655371532257,
+  "gain": 0.2064984019107164,
   "theory": 0.2296552798975158,
   "lossless": true,
-  "coded_vs_ideal_bits_per_code": 2.351888020749963e-06,
-  "decode_codes_per_s": 2608917.197452229
+  "coded_vs_ideal_bits_per_code": 2.2426181367841815e-06,
+  "decode_codes_per_s": 2374588.3489673496
  },
  "checks": {
   "lossless": true,
