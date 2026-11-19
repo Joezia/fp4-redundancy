@@ -1,0 +1,22 @@
+{
+ "V-a": {
+  "init_identity_diff": -2.7229431154296435e-08,
+  "gain": 0.0002910022040634175,
+  "theory": 0.0007801899155399639,
+  "best_val": 3.088343471288681,
+  "seen": 100007936
+ },
+ "V-b": {
+  "init_identity_diff": -5.8734641150692823e-08,
+  "gain": 0.431744217002616,
+  "theory": 0.43295108892629397,
+  "best_val": 2.5340455770492554,
+  "seen": 120061952
+ },
+ "checks": {
+  "init_identity": true,
+  "V-a_about_0": true,
+  "V-b_recovers": true
+ },
+ "all_pass": true
+}

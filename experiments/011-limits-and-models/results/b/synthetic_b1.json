@@ -1,0 +1,27 @@
+{
+ "V-a": {
+  "b1b_gain": 3.092789789516104e-05,
+  "theory_gain": 3.092789789516104e-05,
+  "flags": [
+   "R10",
+   "R1c",
+   "R1s"
+  ]
+ },
+ "V-b": {
+  "b1b_gain": 0.08428342936687283,
+  "theory_gain": 0.08113657535872365,
+  "flags": [
+   "R10",
+   "R1c",
+   "R1s",
+   "R3",
+   "R4"
+  ]
+ },
+ "checks": {
+  "V-a_about_0": true,
+  "V-b_recovers": true
+ },
+ "all_pass": true
+}

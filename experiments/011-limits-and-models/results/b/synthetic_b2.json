@@ -1,0 +1,19 @@
+{
+ "V-a": {
+  "static_gain": -0.00025445224099795993,
+  "static_net_of_table_cost": -0.04809075595193546,
+  "theory": 0.0009619134271003915,
+  "leaves": 256
+ },
+ "V-b": {
+  "static_gain": 0.2898976866549643,
+  "static_net_of_table_cost": 0.2420613829440268,
+  "theory": 0.29127543018116686,
+  "leaves": 256
+ },
+ "checks": {
+  "V-a_about_0": true,
+  "V-b_recovers": true
+ },
+ "all_pass": true
+}

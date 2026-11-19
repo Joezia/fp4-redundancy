@@ -1,0 +1,25 @@
+{
+ "vq_table_cost_bits": 2880,
+ "T1": {
+  "chain_bits_per_code": 3.625539618305153,
+  "bound_laplace_gain": -0.11762691113577241,
+  "bound_gauss_gain": -0.06480705057688156,
+  "row_laplace_gain": -0.1338098381259257,
+  "row_gauss_gain": -0.08934455683713118,
+  "vq_gain": -0.010938089065794647,
+  "vq_net_cost_over_test": -0.010948261591836315,
+  "vq_side_bits_per_code": 0.11876867248456346,
+  "vq_codes_only_gain": 0.1078305834187686
+ },
+ "T2": {
+  "chain_bits_per_code": 3.6463751381283718,
+  "bound_laplace_gain": -0.11006639215504829,
+  "bound_gauss_gain": -0.05587377762562011,
+  "row_laplace_gain": -0.12634863566307322,
+  "row_gauss_gain": -0.0808120601423247,
+  "vq_gain": -0.008894270139520207,
+  "vq_net_cost_over_test": -0.008904442665561873,
+  "vq_side_bits_per_code": 0.1181247656164545,
+  "vq_codes_only_gain": 0.10923049547693356
+ }
+}

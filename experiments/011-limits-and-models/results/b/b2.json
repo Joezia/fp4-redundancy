@@ -1,0 +1,370 @@
+{
+ "model:16": {
+  "trees": {
+   "trees": 1,
+   "leaves_total": 16,
+   "cost_bits_all": 3120.0
+  },
+  "T1": {
+   "static_gain": -0.012486612630244441,
+   "static_net_cost_over_test": -0.01249763286678958,
+   "static_net_cost_over_whole_model": -0.012486618229958132,
+   "adaptive_gain": -0.009521068545748895,
+   "static_minus_adaptive_loss": 0.0029655440844955456,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.017329770575730454,
+   "static_net_cost_over_test": -0.017340790812275592,
+   "static_net_cost_over_whole_model": -0.017329776175444147,
+   "adaptive_gain": -0.016359422160897558,
+   "static_minus_adaptive_loss": 0.000970348414832895,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "model:64": {
+  "trees": {
+   "trees": 1,
+   "leaves_total": 64,
+   "cost_bits_all": 12528.0
+  },
+  "T1": {
+   "static_gain": 0.00217707924884078,
+   "static_net_cost_over_test": 0.0021328287605595305,
+   "static_net_cost_over_whole_model": 0.0021770567638365722,
+   "adaptive_gain": 0.0036440523067114926,
+   "static_minus_adaptive_loss": 0.0014669730578707122,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.0018498393124214427,
+   "static_net_cost_over_test": -0.0018940898007026926,
+   "static_net_cost_over_whole_model": -0.0018498617974256506,
+   "adaptive_gain": -0.0010906620196877797,
+   "static_minus_adaptive_loss": 0.000759177292733663,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "model:256": {
+  "trees": {
+   "trees": 1,
+   "leaves_total": 256,
+   "cost_bits_all": 50160.0
+  },
+  "T1": {
+   "static_gain": 0.006907987993526553,
+   "static_net_cost_over_test": 0.006730816498300859,
+   "static_net_cost_over_whole_model": 0.006907897967360279,
+   "adaptive_gain": 0.007161092390180733,
+   "static_minus_adaptive_loss": 0.0002531043966541802,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": 0.004419306174745291,
+   "static_net_cost_over_test": 0.004242134679519596,
+   "static_net_cost_over_whole_model": 0.004419216148579017,
+   "adaptive_gain": 0.0047160968495080415,
+   "static_minus_adaptive_loss": 0.0002967906747627509,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "model:1024": {
+  "trees": {
+   "trees": 1,
+   "leaves_total": 1024,
+   "cost_bits_all": 200688.0
+  },
+  "T1": {
+   "static_gain": 0.00811930593487036,
+   "static_net_cost_over_test": 0.0074104504118668885,
+   "static_net_cost_over_whole_model": 0.008118945744055826,
+   "adaptive_gain": 0.00603268293640903,
+   "static_minus_adaptive_loss": -0.0020866229984613308,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": 0.0061692694863684965,
+   "static_net_cost_over_test": 0.005460413963365025,
+   "static_net_cost_over_whole_model": 0.006168909295553963,
+   "adaptive_gain": 0.004543587071884337,
+   "static_minus_adaptive_loss": -0.0016256824144841597,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "role:16": {
+  "trees": {
+   "trees": 3,
+   "leaves_total": 48,
+   "cost_bits_all": 9360.0
+  },
+  "T1": {
+   "static_gain": -0.013401631608515227,
+   "static_net_cost_over_test": -0.013434692318150643,
+   "static_net_cost_over_whole_model": -0.013401648407656301,
+   "adaptive_gain": -0.011082719506058917,
+   "static_minus_adaptive_loss": 0.0023189121024563097,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.016143300971067153,
+   "static_net_cost_over_test": -0.016176361680702567,
+   "static_net_cost_over_whole_model": -0.016143317770208228,
+   "adaptive_gain": -0.015118477491256709,
+   "static_minus_adaptive_loss": 0.0010248234798104427,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "role:64": {
+  "trees": {
+   "trees": 3,
+   "leaves_total": 192,
+   "cost_bits_all": 37584.0
+  },
+  "T1": {
+   "static_gain": 0.0024099474180376192,
+   "static_net_cost_over_test": 0.0022771959531938694,
+   "static_net_cost_over_whole_model": 0.0024098799630249954,
+   "adaptive_gain": 0.003710493813756936,
+   "static_minus_adaptive_loss": 0.0013005463957193166,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.0012966666342389612,
+   "static_net_cost_over_test": -0.0014294180990827112,
+   "static_net_cost_over_whole_model": -0.001296734089251585,
+   "adaptive_gain": -0.0006227979431805073,
+   "static_minus_adaptive_loss": 0.0006738686910584537,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "role:256": {
+  "trees": {
+   "trees": 3,
+   "leaves_total": 768,
+   "cost_bits_all": 150480.0
+  },
+  "T1": {
+   "static_gain": 0.007260623711200693,
+   "static_net_cost_over_test": 0.00672910922552361,
+   "static_net_cost_over_whole_model": 0.007260353632701873,
+   "adaptive_gain": 0.007381086040444879,
+   "static_minus_adaptive_loss": 0.00012046232924418561,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": 0.004973398958550542,
+   "static_net_cost_over_test": 0.004441884472873459,
+   "static_net_cost_over_whole_model": 0.004973128880051723,
+   "adaptive_gain": 0.005041565818010406,
+   "static_minus_adaptive_loss": 6.816685945986374e-05,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "role:1024": {
+  "trees": {
+   "trees": 3,
+   "leaves_total": 3072,
+   "cost_bits_all": 602064.0
+  },
+  "T1": {
+   "static_gain": 0.007452490924125683,
+   "static_net_cost_over_test": 0.005325924355115266,
+   "static_net_cost_over_whole_model": 0.0074514103516820805,
+   "adaptive_gain": 0.0058849580167109,
+   "static_minus_adaptive_loss": -0.001567532907414783,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": 0.005385402169008979,
+   "static_net_cost_over_test": 0.003258835599998562,
+   "static_net_cost_over_whole_model": 0.005384321596565376,
+   "adaptive_gain": 0.004283909115770257,
+   "static_minus_adaptive_loss": -0.0011014930532387216,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer:16": {
+  "trees": {
+   "trees": 43,
+   "leaves_total": 688,
+   "cost_bits_all": 134160.0
+  },
+  "T1": {
+   "static_gain": -0.006336170770460588,
+   "static_net_cost_over_test": -0.006380251716641144,
+   "static_net_cost_over_whole_model": -0.006336411558149328,
+   "adaptive_gain": -0.005294090503156844,
+   "static_minus_adaptive_loss": 0.0010420802673037442,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.005659355513110616,
+   "static_net_cost_over_test": -0.005703436459291172,
+   "static_net_cost_over_whole_model": -0.005659596300799356,
+   "adaptive_gain": -0.004392160541636645,
+   "static_minus_adaptive_loss": 0.0012671949714739706,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer:64": {
+  "trees": {
+   "trees": 43,
+   "leaves_total": 2752,
+   "cost_bits_all": 538704.0
+  },
+  "T1": {
+   "static_gain": 0.003138230509592564,
+   "static_net_cost_over_test": 0.002961228556467564,
+   "static_net_cost_over_whole_model": 0.003137263654411622,
+   "adaptive_gain": 0.004318475534469396,
+   "static_minus_adaptive_loss": 0.0011802450248768327,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": 0.0010984518301761959,
+   "static_net_cost_over_test": 0.000921449877051196,
+   "static_net_cost_over_whole_model": 0.001097484974995254,
+   "adaptive_gain": 0.0026798573278631046,
+   "static_minus_adaptive_loss": 0.0015814054976869085,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer:256": {
+  "trees": {
+   "trees": 43,
+   "leaves_total": 11008,
+   "cost_bits_all": 2156880.0
+  },
+  "T1": {
+   "static_gain": 0.0012759895384504118,
+   "static_net_cost_over_test": 0.000567303557547634,
+   "static_net_cost_over_whole_model": 0.0012721184133006635,
+   "adaptive_gain": 0.004227891851143408,
+   "static_minus_adaptive_loss": 0.002951902312692996,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.0005924028713248272,
+   "static_net_cost_over_test": -0.001301088852227605,
+   "static_net_cost_over_whole_model": -0.0005962739964745756,
+   "adaptive_gain": 0.002712396629277481,
+   "static_minus_adaptive_loss": 0.003304799500602308,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer:1024": {
+  "trees": {
+   "trees": 43,
+   "leaves_total": 18462,
+   "cost_bits_all": 3617864.0
+  },
+  "T1": {
+   "static_gain": -0.0005609395906230087,
+   "static_net_cost_over_test": -0.0017556180031664116,
+   "static_net_cost_over_whole_model": -0.0005674328606791868,
+   "adaptive_gain": 0.0035113834096924383,
+   "static_minus_adaptive_loss": 0.004072323000315447,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.0024788765661111468,
+   "static_net_cost_over_test": -0.0036728626817433803,
+   "static_net_cost_over_whole_model": -0.002485369836167325,
+   "adaptive_gain": 0.002055461645397406,
+   "static_minus_adaptive_loss": 0.004534338211508553,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer_role:16": {
+  "trees": {
+   "trees": 129,
+   "leaves_total": 2064,
+   "cost_bits_all": 402480.0
+  },
+  "T1": {
+   "static_gain": -0.0061435222866609565,
+   "static_net_cost_over_test": -0.006275765125202623,
+   "static_net_cost_over_whole_model": -0.0061442446497271775,
+   "adaptive_gain": -0.004835824702126536,
+   "static_minus_adaptive_loss": 0.0013076975845344215,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.006414052558974011,
+   "static_net_cost_over_test": -0.006546295397515678,
+   "static_net_cost_over_whole_model": -0.006414774922040232,
+   "adaptive_gain": -0.004963599940916723,
+   "static_minus_adaptive_loss": 0.0014504526180572882,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer_role:64": {
+  "trees": {
+   "trees": 129,
+   "leaves_total": 8256,
+   "cost_bits_all": 1616112.0
+  },
+  "T1": {
+   "static_gain": -0.0026233176360131406,
+   "static_net_cost_over_test": -0.0031543234953881403,
+   "static_net_cost_over_whole_model": -0.0026262182015559664,
+   "adaptive_gain": 2.3118271016115882e-05,
+   "static_minus_adaptive_loss": 0.0026464359070292563,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.003606532250700588,
+   "static_net_cost_over_test": -0.004137538110075588,
+   "static_net_cost_over_whole_model": -0.0036094328162434137,
+   "adaptive_gain": -0.000644470605586186,
+   "static_minus_adaptive_loss": 0.002962061645114402,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer_role:256": {
+  "trees": {
+   "trees": 129,
+   "leaves_total": 18321,
+   "cost_bits_all": 3588852.0
+  },
+  "T1": {
+   "static_gain": -0.005327272939339562,
+   "static_net_cost_over_test": -0.0065159608643250945,
+   "static_net_cost_over_whole_model": -0.005333714139237528,
+   "adaptive_gain": -0.00044483638517510405,
+   "static_minus_adaptive_loss": 0.004882436554164458,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.006203046548596881,
+   "static_net_cost_over_test": -0.007379273129181372,
+   "static_net_cost_over_whole_model": -0.0062094877484948465,
+   "adaptive_gain": -0.0010006159258380278,
+   "static_minus_adaptive_loss": 0.005202430622758853,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ },
+ "layer_role:1024": {
+  "trees": {
+   "trees": 129,
+   "leaves_total": 18321,
+   "cost_bits_all": 3588852.0
+  },
+  "T1": {
+   "static_gain": -0.005327272939339562,
+   "static_net_cost_over_test": -0.0065159608643250945,
+   "static_net_cost_over_whole_model": -0.005333714139237528,
+   "adaptive_gain": -0.00044483638517510405,
+   "static_minus_adaptive_loss": 0.004882436554164458,
+   "chain_bits_per_code": 3.625539618305153
+  },
+  "T2": {
+   "static_gain": -0.006203046548596881,
+   "static_net_cost_over_test": -0.007379273129181372,
+   "static_net_cost_over_whole_model": -0.0062094877484948465,
+   "adaptive_gain": -0.0010006159258380278,
+   "static_minus_adaptive_loss": 0.005202430622758853,
+   "chain_bits_per_code": 3.6463751381283718
+  }
+ }
+}

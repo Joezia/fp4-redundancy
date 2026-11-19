@@ -38,3 +38,4 @@ experiments/008-scale-media/results/fp4/*/entries.jsonl
 experiments/008-scale-media/results/fp4/indicators/data/
 experiments/008-scale-media/results/fp4/A/paused_pid.txt
 experiments/010-transforms/results/p1b/data/
+experiments/011-limits-and-models/b4/cm
