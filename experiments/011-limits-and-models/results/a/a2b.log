@@ -1,0 +1,22 @@
+== a2b_10M: 10079503 parameters, 1.00e+09 tokens, lr 0.0005  20:25:55
+    seen 50M  val 3.58436 (chain 3.63643)  0.259M tok/s
+    seen 100M  val 3.57944 (chain 3.63643)  0.257M tok/s
+    seen 150M  val 3.57381 (chain 3.63643)  0.257M tok/s
+    seen 200M  val 3.57400 (chain 3.63643)  0.258M tok/s
+    seen 250M  val 3.57256 (chain 3.63643)  0.257M tok/s
+    seen 300M  val 3.57254 (chain 3.63643)  0.257M tok/s
+    seen 350M  val 3.57235 (chain 3.63643)  0.257M tok/s
+    seen 400M  val 3.57186 (chain 3.63643)  0.257M tok/s
+    seen 450M  val 3.57162 (chain 3.63643)  0.257M tok/s
+    seen 500M  val 3.57084 (chain 3.63643)  0.257M tok/s
+    seen 550M  val 3.57024 (chain 3.63643)  0.257M tok/s
+    seen 600M  val 3.56949 (chain 3.63643)  0.257M tok/s
+    seen 650M  val 3.56922 (chain 3.63643)  0.257M tok/s
+    seen 700M  val 3.56903 (chain 3.63643)  0.258M tok/s
+    seen 750M  val 3.56862 (chain 3.63643)  0.258M tok/s
+    seen 800M  val 3.56845 (chain 3.63643)  0.258M tok/s
+    seen 850M  val 3.56836 (chain 3.63643)  0.258M tok/s
+    seen 900M  val 3.56835 (chain 3.63643)  0.258M tok/s
+    seen 950M  val 3.56824 (chain 3.63643)  0.258M tok/s
+    seen 1000M  val 3.56820 (chain 3.63643)  0.258M tok/s
+   T1 gain 0.06849  T2 gain 0.07280
