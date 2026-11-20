@@ -1,0 +1,19 @@
+{
+ "A6_klt_expert_axis": {
+  "kind": "expert_axis",
+  "aligned": false,
+  "q": 4
+ },
+ "A6_klt_subspace": {
+  "kind": "subspace",
+  "k": 8,
+  "q": 4
+ },
+ "A8_tucker": {
+  "ranks": [
+   2,
+   32,
+   32
+  ]
+ }
+}

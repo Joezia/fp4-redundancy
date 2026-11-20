@@ -79,8 +79,37 @@ def main():
             continue
         s = json.load(open(p))
         lines += [f"## 阶段 {st}", ""]
+        if st == "3":
+            lines += ["| 方法 | 集合 | 参数量 | C0 | C1 | 显现度 C0 | 显现度 C1 | 净收益（摊到测试矩阵） | 净收益（摊到全模型） | 往返 |",
+                      "|---|---|---:|---:|---:|---:|---:|---:|---:|---|"]
+            for k, d in s["methods"].items():
+                for sp in ("train", "test", "T2"):
+                    x = d.get(sp)
+                    if x:
+                        lines.append(f"| {k} | {sp} | {x['params']} | {f(x['C0'], sign=False)} | {f(x['C1'], sign=False)} | "
+                                     f"{f(x['appear_C0'])} | {f(x['appear_C1'])} | {f(x.get('net_gain_model_over_test'))} | "
+                                     f"{f(x.get('net_gain_model_over_model'))} | {'通过' if x['roundtrip_all'] else '失败'} |")
+            lines += ["", "E4 坐标网络：", "", "| 设置 | 参数量 | C0 | C1 | 显现度 C0 | 显现度 C1 | 相对均方误差 | 净收益 |",
+                      "|---|---:|---:|---:|---:|---:|---:|---:|"]
+            for k, x in s.get("E4_inr", {}).items():
+                lines.append(f"| `{k}` | {x['params']} | {f(x['C0'], sign=False)} | {f(x['C1'], sign=False)} | {f(x['appear_C0'])} | "
+                             f"{f(x['appear_C1'])} | {f(x['relative_mse_mean'], 4, False)} | {f(x.get('net_gain'))} |")
+            lines.append("")
+            continue
         for meth, d in s.items():
             if meth in ("note", "sweep", "A8_tucker_layer_mode") or not isinstance(d, dict):
+                if meth == "sweep":
+                    lines += ["### 共享专家数扫描（报告专家）", "", "| 文件 | 集合 | 显现度 C0 | 显现度 C1 | 边信息 | 净收益 |",
+                              "|---|---|---:|---:|---:|---:|"]
+                    for k, dd in d.items():
+                        for sp, x in dd.items():
+                            lines.append(f"| `{k}` | {sp} | {f(x['appear_C0'])} | {f(x['appear_C1'])} | {f(x['side_C1'], sign=False)} | {f(x.get('net_gain'))} |")
+                    lines.append("")
+                if meth == "A8_tucker_layer_mode":
+                    lines += ["### A8 层模式（相邻 4 层同一专家编号）", "", "| 变体 | 显现度 C0 | 显现度 C1 | 边信息 | 净收益 |", "|---|---:|---:|---:|---:|"]
+                    for k, x in d.items():
+                        lines.append(f"| `{k}` | {f(x['appear_C0'])} | {f(x['appear_C1'])} | {f(x['side_C1'], sign=False)} | {f(x.get('net_gain'))} |")
+                    lines.append("")
                 continue
             if "best_on_xsel" in d or (st == "2" and meth in NAMES and meth in ("A6_klt", "A7_ica_shared", "A8_tucker", "C3_expert_order")):
                 lines += group_table(meth, d)
