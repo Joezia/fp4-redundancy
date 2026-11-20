@@ -1,0 +1,1221 @@
+{
+ "A1_wht {'dom': 'L', 'axis': 'row', 'N': 8, 'rsign': False}": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.6151462745104035,
+   "appear_C1": -0.5092681705497735
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.2159553763497453,
+   "appear_C1": 1.039759767761586
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A1_wht {'dom': 'X', 'axis': 'col', 'N': 32, 'rsign': False}": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.768435222135817,
+   "appear_C1": -0.5901784714461438
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.277252612174721,
+   "appear_C1": 0.8597157865740792
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A1_wht random sign N=32 (V-b: fixed sign pattern x smooth)": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.7695291502460404,
+   "appear_C1": -0.5878784540459931
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.674779977125718,
+   "appear_C1": 1.0713361323147668
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A2_dct {'dom': 'L', 'axis': 'row', 'N': 32, 'q': 1}": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.7983085167822677,
+   "appear_C1": -0.7982102060931013
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.5065024606570896,
+   "appear_C1": 0.9864978272889768
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A2_dct {'dom': 'X', 'axis': 'col', 'N': 32, 'q': 2}": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.7286989624401978,
+   "appear_C1": -0.727618114821516
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.110224340587582,
+   "appear_C1": 0.8344095270019807
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A3_dft row full q=1": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.7990037140340873,
+   "appear_C1": -0.7989237004192318
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 5.790724275330577,
+   "appear_C1": 5.749666579114956
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt haar inblock lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.448515497452989,
+   "appear_C1": -0.42196412443390274
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.3574340854968874,
+   "appear_C1": 1.1693803525307862
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt haar row lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.448515497452989,
+   "appear_C1": -0.42187328277262504
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.3574340854968874,
+   "appear_C1": 1.1746538366490187
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt haar col lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.4489586350693249,
+   "appear_C1": -0.42139547154929113
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 2.9267895465501805,
+   "appear_C1": 1.033006896929706
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt haar 2d lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.5488531545872877,
+   "appear_C1": -0.49025758677922093
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.0552751165498115,
+   "appear_C1": 1.2726968154450922
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 53 inblock lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.44289192286590184,
+   "appear_C1": -0.4372273984086861
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.4262405581822053,
+   "appear_C1": 1.2201939912165511
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 53 row lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.42597020329973967,
+   "appear_C1": -0.3984409581585342
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.458050440339251,
+   "appear_C1": 1.2770527598203767
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 53 col lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.42616504677964917,
+   "appear_C1": -0.39872783669567546
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.4438718565103072,
+   "appear_C1": 1.2764997007081398
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 53 2d lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.4788255161484929,
+   "appear_C1": -0.45557026284262614
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.281329032702122,
+   "appear_C1": 1.4203119177943533
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 97 inblock lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.38578252374602284,
+   "appear_C1": -0.3852980576250258
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.2271859049755722,
+   "appear_C1": 1.0552900798051335
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 97 row lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.37288890857928214,
+   "appear_C1": -0.3668874173927015
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.258259945033822,
+   "appear_C1": 1.094667049621159
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 97 col lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.37324854339781277,
+   "appear_C1": -0.3673839495742546
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.252583268009186,
+   "appear_C1": 1.1101487504696337
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A4_dwt 97 2d lev3": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.417351292895932,
+   "appear_C1": -0.4121775287039582
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.071322069336692,
+   "appear_C1": 1.2182557521078308
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "A5_lapped M=8 q=1": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.7989655533851345,
+   "appear_C1": -0.7988888807533123
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.534231268671141,
+   "appear_C1": 1.0051794296155885
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B1_lorenzo col": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.7734364998748791,
+   "appear_C1": -0.5907516840647689
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.065041756538665,
+   "appear_C1": 1.125401989519451
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B1_lorenzo 2d": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -1.2938955453518548,
+   "appear_C1": -1.0039952950945588
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.759611878818785,
+   "appear_C1": 1.0408051432636767
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B1_lorenzo row_inblock": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.7619796372639258,
+   "appear_C1": -0.5816081488349218
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.9407678670308575,
+   "appear_C1": 1.2987774017407028
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B2_xor left": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.36566936633612546,
+   "appear_C1": -0.3408929378618559
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 1.9184197907503797,
+   "appear_C1": -0.03711374360850472
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code"
+  },
+  "pass": true
+ },
+ "B2_xor up": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.365449983798253,
+   "appear_C1": -0.34100549922128875
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 2.238131548950693,
+   "appear_C1": 0.2781438483499378
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code"
+  },
+  "pass": true
+ },
+ "B2_xor partner": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.3650560032318375,
+   "appear_C1": -0.3684642533381708
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 2.806698023872462,
+   "appear_C1": 2.811973203375386
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code"
+  },
+  "pass": true
+ },
+ "B3_regress order1 s1": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.11850828179780959,
+   "appear_C0": -0.33410637359565865,
+   "appear_C1": -0.3329505401473076
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.36323987100843635,
+   "appear_C0": 3.8318468376168235,
+   "appear_C1": 1.552807433265059
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B3_regress order2 s1": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.23380478400192428,
+   "appear_C0": -0.4333889136319695,
+   "appear_C1": -0.4311116652457785
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.3980964479514569,
+   "appear_C0": 3.7783084035178613,
+   "appear_C1": 1.4995615534230353
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B4_interp linear row": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.5827021232348248,
+   "appear_C1": -0.5461570734352335
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.282870996612914,
+   "appear_C1": 1.4095736530406362
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B4_interp linear col": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.5839443737686287,
+   "appear_C1": -0.5474824139395404
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.9844963212677715,
+   "appear_C1": 1.29837893778965
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B4_interp linear inblock": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.6053058093671724,
+   "appear_C1": -0.5702945057516096
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.9517671867385014,
+   "appear_C1": 1.260255489147121
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B5_multilevel linear": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.5796466917882808,
+   "appear_C1": -0.5194542762141805
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.421207815651311,
+   "appear_C1": 1.4603074856628426
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B4_interp cubic row": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.6485379033149505,
+   "appear_C1": -0.606441772427257
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.192662909521324,
+   "appear_C1": 1.3254241930539572
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B4_interp cubic col": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.6481461272965077,
+   "appear_C1": -0.6058731179379113
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.995835785382712,
+   "appear_C1": 1.2752276432636966
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B4_interp cubic inblock": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.6453050553020012,
+   "appear_C1": -0.6036115742908588
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 3.893586964333229,
+   "appear_C1": 1.2042218383132153
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "B5_multilevel cubic": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.646709449613398,
+   "appear_C1": -0.5815236860316939
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 4.324669546132494,
+   "appear_C1": 1.373042488939841
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level"
+  },
+  "pass": true
+ },
+ "C_order col code": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 3.283946087062617e-06
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 2.2322616651777842
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code_seq"
+  },
+  "pass": true
+ },
+ "C_order col value": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": -5.050903685077657e-06
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 2.5532239134980705
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level_seq"
+  },
+  "pass": true
+ },
+ "C_order blockcol code": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 2.0723912085074403e-05
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.11615250022075863
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.005,
+   "base_view": "code_seq"
+  },
+  "pass": true
+ },
+ "C_order z code code": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": -6.919935829641233e-05
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.4413890718144944
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code_seq"
+  },
+  "pass": true
+ },
+ "C_order z block code": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": -7.859694314049648e-06
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.026126356706625664
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.005,
+   "base_view": "code_seq"
+  },
+  "pass": true
+ },
+ "C_order z code value": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 1.1361951413491056e-05
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.4872470479678963
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level_seq"
+  },
+  "pass": true
+ },
+ "C_order z block value": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": -3.4106864075234e-06
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.025876290513620503
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.005,
+   "base_view": "level_seq"
+  },
+  "pass": true
+ },
+ "C_order hilbert code code": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 8.396962961398913e-06
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.41919573905619023
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code_seq"
+  },
+  "pass": true
+ },
+ "C_order hilbert block code": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": -1.213958202361809e-05
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.026239155363673605
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.005,
+   "base_view": "code_seq"
+  },
+  "pass": true
+ },
+ "C_order hilbert code value": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 5.364033055510475e-06
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.565850609818277
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "level_seq"
+  },
+  "pass": true
+ },
+ "C_order hilbert block value": {
+  "V-a": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": -7.5111935275984365e-06
+  },
+  "V-b": {
+   "n": 1048576,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.0,
+   "appear_C1": 0.026055247699889872
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.005,
+   "base_view": "level_seq"
+  },
+  "pass": true
+ },
+ "D1_split fields": {
+  "V-a": {
+   "n": 2097152,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 2.3680500542244687e-05,
+   "appear_C1": 0.005560553310858918
+  },
+  "V-b": {
+   "n": 65536,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": 0.00047519789522310063,
+   "appear_C1": 0.09642646507650099
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code"
+  },
+  "pass": true
+ },
+ "D1_split planes": {
+  "V-a": {
+   "n": 2097152,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.04780726492960907,
+   "appear_C1": -0.041349479348286255
+  },
+  "V-b": {
+   "n": 65536,
+   "roundtrip": true,
+   "side_per_value": 0.0,
+   "appear_C0": -0.04790746345242569,
+   "appear_C1": 0.06372028655518447
+  },
+  "theory_V-b_per_value": null,
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "criteria": {
+   "V-a_max": 0.01,
+   "V-b_min": 0.05,
+   "base_view": "code"
+  },
+  "pass": true
+ },
+ "D1_split scale_planes": {
+  "V-a": {
+   "n": 32768,
+   "roundtrip": true,
+   "appear_C0": -1.5742519280527651,
+   "appear_C1": -1.5789843214387216
+  },
+  "V-b": {
+   "n": 32768,
+   "roundtrip": true,
+   "appear_C0": -1.9437902679697403,
+   "appear_C1": 1.1484007498814839
+  },
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "pass": true,
+  "theory_V-b_per_value": null
+ },
+ "all_pass": true
+}

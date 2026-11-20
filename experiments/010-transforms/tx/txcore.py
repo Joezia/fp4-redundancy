@@ -378,15 +378,16 @@ def reference():
 def jsonl_done(path, key="key"):
     if not Path(path).exists():
         return set()
-    return {json.loads(l)[key] for l in open(path)}
+    return {json.loads(l).get(key) for l in open(path)}
 
 
-def run_jobs(fn, jobs, out_path, workers=48, log=print):
-    """jobs: list of dicts with a unique 'key'; fn(job) -> dict; results appended to out_path (skips done keys)."""
+def run_jobs(fn, jobs, out_path, workers=48, log=print, done_key="key"):
+    """jobs: list of dicts with a unique 'key'; fn(job) -> dict or list of dicts; results appended to out_path
+    (skips jobs whose key already appears in the file under done_key)."""
     Path(out_path).parent.mkdir(parents=True, exist_ok=True)
-    done = jsonl_done(out_path)
+    done = jsonl_done(out_path, done_key)
     todo = [j for j in jobs if j["key"] not in done]
-    log(f"{out_path}: {len(todo)} jobs ({len(jobs) - len(todo)} done)")
+    log(f"{out_path}: {len(todo)} jobs ({len(jobs) - len(todo)} done)", flush=True)
     if not todo:
         return
     t0 = time.time()
@@ -394,10 +395,11 @@ def run_jobs(fn, jobs, out_path, workers=48, log=print):
         futs = {ex.submit(fn, j): j for j in todo}
         for i, fu in enumerate(as_completed(futs)):
             r = fu.result()
-            f.write(json.dumps(r) + "\n")
+            for x in (r if isinstance(r, list) else [r]):
+                f.write(json.dumps(x) + "\n")
             f.flush()
             if (i + 1) % max(1, len(todo) // 20) == 0:
-                log(f"  {i + 1}/{len(todo)}  {time.time() - t0:.0f}s")
+                log(f"  {i + 1}/{len(todo)}  {time.time() - t0:.0f}s", flush=True)
 
 
 def load_rows(path):

@@ -4,6 +4,11 @@
     PYTHONPATH=. python experiments/010-transforms/tx/stage0.py raw     # raw C0 / C1 on train + test (+ T2)
     PYTHONPATH=. python experiments/010-transforms/tx/stage0.py ref     # reference (008 chain + R9c), measured
 """
+import os
+
+for _v in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):
+    os.environ.setdefault(_v, "1")
+
 import json
 import math
 import sys
