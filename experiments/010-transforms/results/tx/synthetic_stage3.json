@@ -1,0 +1,102 @@
+{
+ "E1_flow": {
+  "V-a": {
+   "roundtrip": true,
+   "appear_C0": -0.9175683135011199,
+   "appear_C1": -0.9159663279943011,
+   "variant": {
+    "q": 2.0
+   }
+  },
+  "V-b": {
+   "roundtrip": true,
+   "appear_C0": -0.09821235805965944,
+   "appear_C1": -0.019670724433685116,
+   "variant": {
+    "q": 1.0
+   }
+  },
+  "pass_V-a": true,
+  "pass_V-b": false,
+  "pass": false
+ },
+ "E2_idf": {
+  "V-a": {
+   "roundtrip": true,
+   "appear_C0": -0.2840085599444442,
+   "appear_C1": -0.28392417342241494,
+   "appear_prior": -0.3013172909014692,
+   "variant": {}
+  },
+  "V-b": {
+   "roundtrip": true,
+   "appear_C0": 2.1238461282194647,
+   "appear_C1": 2.167468138734663,
+   "appear_prior": 2.296549646929659,
+   "variant": {}
+  },
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "pass": true
+ },
+ "E3_ae": {
+  "V-a": {
+   "roundtrip": true,
+   "appear_C0": -0.07728159627020803,
+   "appear_C1": -0.07626649758524096,
+   "variant": {}
+  },
+  "V-b": {
+   "roundtrip": true,
+   "appear_C0": 2.214478611094707,
+   "appear_C1": 2.2204601712230607,
+   "variant": {}
+  },
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "pass": true
+ },
+ "E1_rbig": {
+  "V-a": {
+   "roundtrip": true,
+   "appear_C0": -0.6692177411372917,
+   "appear_C1": -0.6667269934288762,
+   "variant": {
+    "K": 1,
+    "q": 4.0
+   }
+  },
+  "V-b": {
+   "roundtrip": true,
+   "appear_C0": 1.558288683800356,
+   "appear_C1": 1.9322484340573554,
+   "variant": {
+    "K": 1,
+    "q": 4.0
+   }
+  },
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "pass": true
+ },
+ "E4_inr": {
+  "V-a": {
+   "roundtrip": true,
+   "appear_C0": -0.7158481788056306,
+   "appear_C1": -0.7147261464626657,
+   "relative_mse": 0.9786597100385996
+  },
+  "V-b": {
+   "roundtrip": true,
+   "appear_C0": 4.173777095650733,
+   "appear_C1": 1.211380954391187,
+   "relative_mse": 0.0013666882280822885
+  },
+  "pass_V-a": true,
+  "pass_V-b": true,
+  "pass": true
+ },
+ "all_pass": false,
+ "all_pass_except_E1_flow": true,
+ "note": "appearance excludes the network cost (shared nets are billed over the whole model in the real runs)"
+}
