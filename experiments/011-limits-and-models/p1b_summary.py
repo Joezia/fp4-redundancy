@@ -1,11 +1,11 @@
-"""Spec 010 P1b: net gain over the 008 chain from results/p1b/{test,train,verify,synthetic}.json(l).
+"""Spec 010 P1b (moved to 011): net gain over the 008 chain from results/p1b/{test,train,verify,synthetic}.json(l).
 
-    python experiments/010-transforms/p1b_summary.py      -> results/p1b/summary.json
+    python experiments/011-limits-and-models/p1b_summary.py      -> results/p1b/summary.json
 """
 import json
 from pathlib import Path
 
-R = Path("experiments/010-transforms/results/p1b")
+R = Path("experiments/011-limits-and-models/results/p1b")
 
 
 def tier(g):

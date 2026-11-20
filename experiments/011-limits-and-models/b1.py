@@ -159,7 +159,6 @@ def stage_synth():
     cannot see); B1b with that level set (2 bit per block, per-block choice) should recover about
     (chain - exact code length given b - 2 bit per block)."""
     import common as K
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     out = {}
     for kind in ("V-a", "V-b"):

@@ -1,7 +1,7 @@
-"""Spec 010 P1: capability probe -- a small neural network predicting each FP4 code from its context.
+"""Spec 010 P1 (moved to 011 with the other neural-network work): capability probe -- a small neural network predicting each FP4 code from its context.
 
-    PYTHONPATH=. python experiments/010-transforms/probe.py synth     # synthetic checks first
-    PYTHONPATH=. python experiments/010-transforms/probe.py real      # train on 24 matrices, test on the other 24
+    PYTHONPATH=. python experiments/011-limits-and-models/p1_probe.py synth     # synthetic checks first
+    PYTHONPATH=. python experiments/011-limits-and-models/p1_probe.py real      # train on 24 matrices, test on the other 24
 
 Context of the code at (row r, column c): the previous 32 codes of the row, the 8 codes above in the same
 column, the code of w1 at the same weight (w3: w1[r, c]; w2: w1[c, r], i.e. the same neuron and hidden unit;
@@ -29,7 +29,7 @@ from pathlib import Path
 import numpy as np
 import torch
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "010-transforms"))
 import tx  # noqa: E402
 
 from redundancy import increment as I  # noqa: E402
@@ -37,7 +37,7 @@ from redundancy import increment as I  # noqa: E402
 torch.set_num_threads(48)
 PAD = 16
 NPREV, NABOVE = 32, 8
-RES = tx.RES
+RES = Path(__file__).resolve().parent / "results" / "p1"     # results; the 008 chain of the 48 matrices stays in tx.RES
 
 
 def gather(C, X, E, r, c, role, layer, B=32):
@@ -201,7 +201,7 @@ def real(n_train=400000, n_test=500000):
     print(f"training data {len(tr[3])} positions, {time.time() - t0:.0f}s", flush=True)
     model, info = fit(tr, va)
     base = {}
-    for line in open(RES / "base.jsonl"):
+    for line in open(tx.RES / "base.jsonl"):
         r = json.loads(line)
         base[r["task"]] = r["chain"]
     per = {}

@@ -153,7 +153,6 @@ def stage_synth():
     tree recovers most of (chain - exact code length); fewer rounds see less of the block and recover less."""
     import common as K
     import s0
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     out = {}
     for kind, cm in (("V-a", 0.0), ("V-b", 0.5)):

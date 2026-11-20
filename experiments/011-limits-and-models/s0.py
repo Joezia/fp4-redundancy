@@ -28,7 +28,6 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as K  # noqa: E402
 
-sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
 import p1b  # noqa: E402
 
 from redundancy import increment as I  # noqa: E402

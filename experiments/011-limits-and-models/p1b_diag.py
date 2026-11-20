@@ -1,6 +1,6 @@
-"""Spec 010 P1b diagnostics: is the probe's gain the chain's learning cost or structure the chain does not see?
+"""Spec 010 P1b diagnostics (moved to 011): is the probe's gain the chain's learning cost or structure the chain does not see?
 
-    PYTHONPATH=. python experiments/010-transforms/p1b_diag.py      -> results/p1b/diag.json
+    PYTHONPATH=. python experiments/011-limits-and-models/p1b_diag.py      -> results/p1b/diag.json
 
 For every test matrix:
   - chain and offline-probe code length per tenth of the coding order (a learning-cost effect is largest at

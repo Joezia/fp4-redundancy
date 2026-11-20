@@ -137,14 +137,7 @@ def main():
                       "permutation_bits_per_weight": perm}
         res["affected"] = "w1 and w3 of each expert; codes row by row as in 008, scale stream with the row above as context"
         out["T3_row_major"] = res
-    p1 = R / "p1.json"
-    if p1.exists():
-        d = json.load(open(p1))
-        out["P1"] = {k: d[k] for k in ("n_params", "nn_bits_per_code", "nn_se", "chain_code_bits_per_code",
-                                       "net_saving_bits_per_weight_without_model_cost", "model_cost_bits_per_weight_16bit",
-                                       "net_saving_bits_per_weight_with_model_cost", "fit")}
-        out["P1"]["net_percent_with_model_cost"] = 100 * d["net_saving_bits_per_weight_with_model_cost"] / 4.25
-        out["P1"]["net_percent_without_model_cost"] = 100 * d["net_saving_bits_per_weight_without_model_cost"] / 4.25
+    # P1 (neural probe) moved to experiments/011-limits-and-models (results/p1/p1.json)
     json.dump(out, open(R / "summary.json", "w"), indent=1)
     print(json.dumps(out, indent=1))
 

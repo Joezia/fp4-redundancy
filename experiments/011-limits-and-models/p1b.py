@@ -1,11 +1,11 @@
-"""Spec 010 P1b: correction probe on top of the 008 chain.
+"""Spec 010 P1b (moved to 011 with the other neural-network work): correction probe on top of the 008 chain.
 
-    PYTHONPATH=. python experiments/010-transforms/p1b.py verify    # per-position chain = closed form, 48 matrices
-    PYTHONPATH=. python experiments/010-transforms/p1b.py synth     # V-a, V-b and the zero-init identity check
-    PYTHONPATH=. python experiments/010-transforms/p1b.py data      # training samples of the 24 training matrices
-    PYTHONPATH=. python experiments/010-transforms/p1b.py train     # offline model + online learning-rate choice
-    PYTHONPATH=. python experiments/010-transforms/p1b.py test      # offline and online code length, 24 test matrices
-    PYTHONPATH=. python experiments/010-transforms/p1b.py ablate    # only if a gain > 0.005 bit per weight
+    PYTHONPATH=. python experiments/011-limits-and-models/p1b.py verify    # per-position chain = closed form, 48 matrices
+    PYTHONPATH=. python experiments/011-limits-and-models/p1b.py synth     # V-a, V-b and the zero-init identity check
+    PYTHONPATH=. python experiments/011-limits-and-models/p1b.py data      # training samples of the 24 training matrices
+    PYTHONPATH=. python experiments/011-limits-and-models/p1b.py train     # offline model + online learning-rate choice
+    PYTHONPATH=. python experiments/011-limits-and-models/p1b.py test      # offline and online code length, 24 test matrices
+    PYTHONPATH=. python experiments/011-limits-and-models/p1b.py ablate    # only if a gain > 0.005 bit per weight
 
 Chain predictions: `chain_probs` rebuilds, for the patterns the 008 chain actually switched on for a matrix,
 the same context levels as increment.fp4_codelen and gives the sequential predictive distribution of every
@@ -36,12 +36,12 @@ from pathlib import Path
 
 import numpy as np
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "010-transforms"))
 import tx  # noqa: E402
 
 from redundancy import increment as I  # noqa: E402
 
-RES = tx.RES / "p1b"
+RES = Path(__file__).resolve().parent / "results" / "p1b"     # the 008 chain of the 48 matrices stays in tx.RES
 P = tx.P
 ORDER = tx.ORDER
 SWITCH = ["R2", "R3", "R4", "R5", "R6", "R7", "R8"]   # one flag bit each in the chain

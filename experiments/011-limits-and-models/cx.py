@@ -117,7 +117,6 @@ def build_synth(sd, mats, seed=0):
     """mats: list of dicts {name, layer, expert, role, C (raw codes), E, split, cross (id or None), cross_kind}.
     Writes registry, codes, chain probabilities (val / test / shuffled training positions) into sd."""
     import common as K
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     for d in ("codes", "val", "test", "train_all", "models"):
         (sd / d).mkdir(parents=True, exist_ok=True)

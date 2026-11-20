@@ -167,7 +167,6 @@ def stage_data(workers=32):
 def _eval_matrix(args):
     name, trees_path = args
     import pickle
-    sys.path.insert(0, str(HERE.parents[1] / "experiments" / "010-transforms"))
     from redundancy import increment as I
     import p1b
     trees = pickle.load(open(trees_path, "rb"))
@@ -266,7 +265,6 @@ def stage_synth():
     maximum) should find most of (chain code length - exact generator code length)."""
     import common as K
     import s0
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     from redundancy import increment as I
     out = {}

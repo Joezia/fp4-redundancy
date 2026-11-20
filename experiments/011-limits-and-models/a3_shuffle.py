@@ -21,7 +21,6 @@ NAMES = ["L13.E127.w3", "L26.E336.w3", "L39.E70.w2", "L0.E191.w2", "L13.E127.w1"
 
 def build():
     import common as K
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     src = K.ROOT / "data" / "011"
     reg_all = {r["name"]: r for r in json.load(open(src / "registry.json"))}

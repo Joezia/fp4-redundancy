@@ -58,7 +58,6 @@ def inp(name, fmt, crop=False):
 
 def stage_crop():
     """first CROP rows of the strong set: input files and the chain (without partner) on the crop."""
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     (W5 / "in512").mkdir(parents=True, exist_ok=True)
     for name in STRONG_SET:
         for fmt in ("a", "b"):
@@ -76,7 +75,6 @@ def stage_crop():
 
 
 def chain_crop_one(name):
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     C, E = K.read(name)
     C, E = C[:CROP], E[:CROP]
@@ -104,7 +102,6 @@ def stage_prep():
 
 
 def chain_one(name):
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     C, E = K.read(name)
     ch = K.tx.chain(C, E)                                  # flags chosen without the partner

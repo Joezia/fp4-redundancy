@@ -174,7 +174,6 @@ def stage_synth():
     import torch
     import amodel as A
     import common as K
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     dev = "cuda:0"
     out = {}

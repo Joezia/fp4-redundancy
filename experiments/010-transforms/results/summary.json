@@ -131,33 +131,5 @@
    "permutation_bits_per_weight": 0.0009502177171436386
   },
   "affected": "w1 and w3 of each expert; codes row by row as in 008, scale stream with the row above as context"
- },
- "P1": {
-  "n_params": 159640,
-  "nn_bits_per_code": 3.709244946638743,
-  "nn_se": 0.00018265456719961708,
-  "chain_code_bits_per_code": 3.6255973214104835,
-  "net_saving_bits_per_weight_without_model_cost": -0.08364762522825941,
-  "model_cost_bits_per_weight_16bit": 0.009021900318287037,
-  "net_saving_bits_per_weight_with_model_cost": -0.09266952554654645,
-  "fit": {
-   "lr": 0.003,
-   "validation_bits_per_epoch": {
-    "0.001": [
-     3.7149922847747803,
-     3.710627555847168,
-     3.7084267139434814,
-     3.707787275314331
-    ],
-    "0.003": [
-     3.7109270095825195,
-     3.7080795764923096,
-     3.7070348262786865,
-     3.7066025733947754
-    ]
-   }
-  },
-  "net_percent_with_model_cost": -2.1804594246246225,
-  "net_percent_without_model_cost": -1.9681794171355156
  }
 }

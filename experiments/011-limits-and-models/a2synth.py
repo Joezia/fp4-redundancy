@@ -20,7 +20,6 @@ SD = HERE.parents[1] / "data" / "011_synth2"
 def build(xor, rng):
     import common as K
     import a1
-    sys.path.insert(0, str(K.ROOT / "experiments" / "010-transforms"))
     import p1b
     for d in ("codes", "rows", "test"):
         (SD / d).mkdir(parents=True, exist_ok=True)
