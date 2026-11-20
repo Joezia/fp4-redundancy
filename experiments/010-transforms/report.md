@@ -61,3 +61,5 @@
   - `t1.jsonl`、`t2.jsonl`、`t3.jsonl`、`t3row.jsonl`：各项试验的逐任务结果。
   - `synthetic_checks.json`：合成数据验证。
 - 运行时间：机器基本空闲，全部约 17 分钟（16:09–16:26，含当时一起运行的 P1）。
+
+补充实验：变换全集（TX），见 [report_tx.md](report_tx.md)。

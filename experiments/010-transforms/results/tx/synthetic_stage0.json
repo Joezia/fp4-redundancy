@@ -1,0 +1,35 @@
+{
+ "sym_iid": {
+  "H": 2.97855532508209,
+  "C0": 2.9818177542321607,
+  "C1": 3.002219319046536
+ },
+ "sym_copy_left": {
+  "H_marginal": 2.9890538894054632,
+  "H_cond_left": 1.099612347594592,
+  "C0": 2.9893369492461517,
+  "C1": 1.1259830975334817
+ },
+ "int_iid": {
+  "H": 4.916324829889936,
+  "C0": 4.917336581451963,
+  "C1": 4.930947853504889
+ },
+ "int_smooth_scale": {
+  "C0": 4.52029175381305,
+  "C1": 4.215030655116583
+ },
+ "views": {
+  "codes_from_levels": true,
+  "aligned_roundtrip": true,
+  "minus_zero_merged": true
+ },
+ "checks": {
+  "sym_iid": true,
+  "sym_copy_left": true,
+  "int_iid": true,
+  "int_smooth_scale": true,
+  "views": true
+ },
+ "all_pass": true
+}
