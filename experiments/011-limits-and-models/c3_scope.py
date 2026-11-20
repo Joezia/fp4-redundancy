@@ -284,11 +284,11 @@ def stage_causal(tests=40):
     print("causal pass:", ok, len(report))
 
 
-def make_model(levels, dev, extra_embs=None):
+def make_model(levels, dev, extra_embs=None, seed=0):
     import torch
     import amodel as A
     import cx
-    torch.manual_seed(0)
+    torch.manual_seed(seed)
     return cx.MLPx(embs=extra_embs, n_cont=width(levels), **A.SIZES["160k"]).to(dev)
 
 
@@ -303,11 +303,14 @@ def stage_run(names):
     for cfg in names:
         if cfg in done:
             continue
-        lv = CONFIGS[cfg]
+        base_cfg, _, sd = cfg.partition("@s")          # "<config>@s<seed>": the same with another initialisation seed
+        lv = CONFIGS[base_cfg]
+        seed = int(sd) if sd else 0
         store.extras = [Levels(store, lv, dev)] if lv else []
         print(f"== {cfg}  {time.strftime('%H:%M:%S')}", flush=True)
-        model = make_model(lv, dev)
-        cx.run(model, store, N_REAL, dev, 3e-3, out, {"tag": "c3_" + cfg.replace("+", "_"), "config": cfg, "levels": lv},
+        model = make_model(lv, dev, seed=seed)
+        cx.run(model, store, N_REAL, dev, 3e-3, out, {"tag": "c3_" + cfg.replace("+", "_").replace("@", "_"), "config": cfg,
+                                                      "levels": lv, "seed": seed},
                K.T1 + K.T2, log=lambda s: print(s, flush=True))
         del model
         store.extras = []

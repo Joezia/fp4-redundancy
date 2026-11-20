@@ -1,0 +1,516 @@
+{
+ "C2": [
+  {
+   "config": "base",
+   "params": 164175,
+   "N": 1000000000,
+   "sha256": "809695fa95b2009296105f19eb7e33d131b33fd3a1ceb3487f2de9a0b2f05f46",
+   "T1": {
+    "bits_per_code": 3.56201,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06353,
+    "net_gain_cost_over_test": 0.05425,
+    "net_gain_cost_over_whole_model": 0.06353
+   },
+   "T2": {
+    "bits_per_code": 3.57961,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06676,
+    "net_gain_cost_over_test": 0.05748,
+    "net_gain_cost_over_whole_model": 0.06676
+   }
+  },
+  {
+   "config": "hidden@layer",
+   "params": 1926991,
+   "N": 1000000000,
+   "sha256": "1e5e9b56aebed6a73fa11134f97b0436604a40e52247bf3cba7e834de85f673c",
+   "T1": {
+    "bits_per_code": 3.56076,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06478,
+    "net_gain_cost_over_test": -0.04412,
+    "net_gain_cost_over_whole_model": 0.06472
+   },
+   "T2": {
+    "bits_per_code": 3.57914,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06724,
+    "net_gain_cost_over_test": -0.04166,
+    "net_gain_cost_over_whole_model": 0.06718
+   }
+  },
+  {
+   "config": "hidden",
+   "params": 206671,
+   "N": 1000000000,
+   "sha256": "a8f054a8e6259450bb6753a454ecb258a12635660af3dab9870fe54873f15c56",
+   "T1": {
+    "bits_per_code": 3.56184,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.0637,
+    "net_gain_cost_over_test": 0.05202,
+    "net_gain_cost_over_whole_model": 0.06369
+   },
+   "T2": {
+    "bits_per_code": 3.57956,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06681,
+    "net_gain_cost_over_test": 0.05513,
+    "net_gain_cost_over_whole_model": 0.06681
+   }
+  },
+  {
+   "config": "hidden@layer+role",
+   "params": 5449551,
+   "N": 1000000000,
+   "sha256": "7c06ecc734191e12306e328878a50235359951881cea98130c8913be3756e39f",
+   "T1": {
+    "bits_per_code": 3.56137,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06417,
+    "net_gain_cost_over_test": -0.24381,
+    "net_gain_cost_over_whole_model": 0.06401
+   },
+   "T2": {
+    "bits_per_code": 3.57942,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06695,
+    "net_gain_cost_over_test": -0.24102,
+    "net_gain_cost_over_whole_model": 0.0668
+   }
+  },
+  {
+   "config": "neuron@layer",
+   "params": 958287,
+   "N": 1000000000,
+   "sha256": "17f64d7354dac8954e3d69876916c03631c47c54849c7851b81b91b55749a850",
+   "T1": {
+    "bits_per_code": 3.56318,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06236,
+    "net_gain_cost_over_test": 0.0082,
+    "net_gain_cost_over_whole_model": 0.06233
+   },
+   "T2": {
+    "bits_per_code": 3.58068,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06569,
+    "net_gain_cost_over_test": 0.01153,
+    "net_gain_cost_over_whole_model": 0.06566
+   }
+  }
+ ],
+ "C3": [
+  {
+   "config": "base",
+   "params": 164175,
+   "N": 160000000,
+   "sha256": "b4d743eb7c71524106ae1146715491350cc3213e9fef24632651af0edbf9b345",
+   "T1": {
+    "bits_per_code": 3.56556,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.05998,
+    "net_gain_cost_over_test": 0.0507,
+    "net_gain_cost_over_whole_model": 0.05997
+   },
+   "T2": {
+    "bits_per_code": 3.58342,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06296,
+    "net_gain_cost_over_test": 0.05368,
+    "net_gain_cost_over_whole_model": 0.06295
+   }
+  },
+  {
+   "config": "M",
+   "params": 173199,
+   "N": 160000000,
+   "sha256": "b6f7f20e9c98d20b11ce4ccd9ed26a4514a41c2a6f158000457858b99adfa8f0",
+   "T1": {
+    "bits_per_code": 3.5639,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06164,
+    "net_gain_cost_over_test": 0.05185,
+    "net_gain_cost_over_whole_model": 0.06164
+   },
+   "T2": {
+    "bits_per_code": 3.58193,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06445,
+    "net_gain_cost_over_test": 0.05466,
+    "net_gain_cost_over_whole_model": 0.06444
+   }
+  },
+  {
+   "config": "M+E",
+   "params": 186255,
+   "N": 160000000,
+   "sha256": "b1ba3d76bcfaff6a784837087b73b4bef7fe45c64deb32edaafdce4466c26e4c",
+   "T1": {
+    "bits_per_code": 3.5636,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06194,
+    "net_gain_cost_over_test": 0.05142,
+    "net_gain_cost_over_whole_model": 0.06194
+   },
+   "T2": {
+    "bits_per_code": 3.58153,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06485,
+    "net_gain_cost_over_test": 0.05432,
+    "net_gain_cost_over_whole_model": 0.06484
+   }
+  },
+  {
+   "config": "M+E+L",
+   "params": 195471,
+   "N": 160000000,
+   "sha256": "57797f71b02e7e3112f77728843f79c027dd806f13851c9f430a637d7abf96d0",
+   "T1": {
+    "bits_per_code": 3.5632,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06234,
+    "net_gain_cost_over_test": 0.0513,
+    "net_gain_cost_over_whole_model": 0.06234
+   },
+   "T2": {
+    "bits_per_code": 3.58133,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06504,
+    "net_gain_cost_over_test": 0.05399,
+    "net_gain_cost_over_whole_model": 0.06503
+   }
+  },
+  {
+   "config": "M+E+L+G",
+   "params": 213903,
+   "N": 160000000,
+   "sha256": "1f1a8625c6e942e75e54afef9b9c7d4e190998412ef11993078b0791c135fd84",
+   "T1": {
+    "bits_per_code": 3.56396,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06158,
+    "net_gain_cost_over_test": 0.04949,
+    "net_gain_cost_over_whole_model": 0.06157
+   },
+   "T2": {
+    "bits_per_code": 3.58198,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.0644,
+    "net_gain_cost_over_test": 0.05231,
+    "net_gain_cost_over_whole_model": 0.06439
+   }
+  },
+  {
+   "config": "L",
+   "params": 173391,
+   "N": 160000000,
+   "sha256": "a6230e0ed05b9cd6ec4f5d3a6e4a5fba9b42af148b1171361ab444324070b719",
+   "T1": {
+    "bits_per_code": 3.56412,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06142,
+    "net_gain_cost_over_test": 0.05162,
+    "net_gain_cost_over_whole_model": 0.06141
+   },
+   "T2": {
+    "bits_per_code": 3.5821,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06427,
+    "net_gain_cost_over_test": 0.05448,
+    "net_gain_cost_over_whole_model": 0.06427
+   }
+  },
+  {
+   "config": "G",
+   "params": 182607,
+   "N": 160000000,
+   "sha256": "e33fddc1385903afcad0444fce7217b21292dd1d8fc0bb250dd6309c9e884bd8",
+   "T1": {
+    "bits_per_code": 3.56795,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.05759,
+    "net_gain_cost_over_test": 0.04727,
+    "net_gain_cost_over_whole_model": 0.05758
+   },
+   "T2": {
+    "bits_per_code": 3.58535,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06102,
+    "net_gain_cost_over_test": 0.0507,
+    "net_gain_cost_over_whole_model": 0.06102
+   }
+  },
+  {
+   "config": "E",
+   "params": 177231,
+   "N": 160000000,
+   "sha256": "8f0c056371b51d40eef58b7b4fc29ff8ca7d5357045c202db37e18f383d8dd06",
+   "T1": {
+    "bits_per_code": 3.56353,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06201,
+    "net_gain_cost_over_test": 0.05199,
+    "net_gain_cost_over_whole_model": 0.062
+   },
+   "T2": {
+    "bits_per_code": 3.58126,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06511,
+    "net_gain_cost_over_test": 0.05509,
+    "net_gain_cost_over_whole_model": 0.06511
+   }
+  },
+  {
+   "config": "base@s1",
+   "params": 164175,
+   "N": 160000000,
+   "sha256": "7b672dad6523b7cd280f3b28531e82973f1efc164a5e697f6d748c1427fbb292",
+   "T1": {
+    "bits_per_code": 3.56925,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.05629,
+    "net_gain_cost_over_test": 0.04702,
+    "net_gain_cost_over_whole_model": 0.05629
+   },
+   "T2": {
+    "bits_per_code": 3.5865,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.05987,
+    "net_gain_cost_over_test": 0.0506,
+    "net_gain_cost_over_whole_model": 0.05987
+   }
+  },
+  {
+   "config": "base@s2",
+   "params": 164175,
+   "N": 160000000,
+   "sha256": "7d143d3bf1b7b185ecdfe2d4cc2c10b1546cb8a1169fba162cd0fa30d354c5a1",
+   "T1": {
+    "bits_per_code": 3.56531,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06023,
+    "net_gain_cost_over_test": 0.05095,
+    "net_gain_cost_over_whole_model": 0.06022
+   },
+   "T2": {
+    "bits_per_code": 3.58316,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06321,
+    "net_gain_cost_over_test": 0.05393,
+    "net_gain_cost_over_whole_model": 0.06321
+   }
+  },
+  {
+   "config": "M+E+L@s1",
+   "params": 195471,
+   "N": 160000000,
+   "sha256": "277295865c483c8cd6687360a6435f0481df51a4b930cb9436e9df9a68634935",
+   "T1": {
+    "bits_per_code": 3.56392,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06162,
+    "net_gain_cost_over_test": 0.05057,
+    "net_gain_cost_over_whole_model": 0.06161
+   },
+   "T2": {
+    "bits_per_code": 3.58206,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06431,
+    "net_gain_cost_over_test": 0.05326,
+    "net_gain_cost_over_whole_model": 0.0643
+   }
+  },
+  {
+   "config": "M+E+L@s2",
+   "params": 195471,
+   "N": 160000000,
+   "sha256": "4d8b5560b8714625597e0d026bacbfd109078c5b7c84614fd26a282e3ade32f0",
+   "T1": {
+    "bits_per_code": 3.56395,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06159,
+    "net_gain_cost_over_test": 0.05054,
+    "net_gain_cost_over_whole_model": 0.06158
+   },
+   "T2": {
+    "bits_per_code": 3.58206,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06431,
+    "net_gain_cost_over_test": 0.05327,
+    "net_gain_cost_over_whole_model": 0.06431
+   }
+  }
+ ],
+ "C4": [
+  {
+   "config": "base",
+   "params": 164175,
+   "N": 160000000,
+   "sha256": "6beb7f83e89b59ee70aa508574d1cc3066efe2e2be1cc733fe5eacb0341903d9",
+   "T1": {
+    "bits_per_code": 3.56538,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06016,
+    "net_gain_cost_over_test": 0.05088,
+    "net_gain_cost_over_whole_model": 0.06015
+   },
+   "T2": {
+    "bits_per_code": 3.58334,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06303,
+    "net_gain_cost_over_test": 0.05375,
+    "net_gain_cost_over_whole_model": 0.06303
+   }
+  },
+  {
+   "config": "oracle_h",
+   "params": 167247,
+   "N": 160000000,
+   "sha256": "e349f76b12fb7a55f84098d5b881dab2ee50bc6883c3d2fdd48e8b7b343bf1eb",
+   "T1": {
+    "bits_per_code": 3.56455,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06098,
+    "net_gain_cost_over_test": 0.05153,
+    "net_gain_cost_over_whole_model": 0.06098
+   },
+   "T2": {
+    "bits_per_code": 3.58263,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06375,
+    "net_gain_cost_over_test": 0.0543,
+    "net_gain_cost_over_whole_model": 0.06375
+   }
+  },
+  {
+   "config": "oracle_n",
+   "params": 167247,
+   "N": 160000000,
+   "sha256": "cdf669934b4af3d82387e7ed331e90583ea6e4c33ac7233bbc00907185798408",
+   "T1": {
+    "bits_per_code": 3.5636,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06194,
+    "net_gain_cost_over_test": 0.05249,
+    "net_gain_cost_over_whole_model": 0.06193
+   },
+   "T2": {
+    "bits_per_code": 3.58104,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06533,
+    "net_gain_cost_over_test": 0.05588,
+    "net_gain_cost_over_whole_model": 0.06533
+   }
+  },
+  {
+   "config": "oracle_hn",
+   "params": 170319,
+   "N": 160000000,
+   "sha256": "6162fdb7c0c4779bb014f08e7ee02021cbb29fdb8d4987968c185bf0216e9b21",
+   "T1": {
+    "bits_per_code": 3.56371,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06183,
+    "net_gain_cost_over_test": 0.05221,
+    "net_gain_cost_over_whole_model": 0.06183
+   },
+   "T2": {
+    "bits_per_code": 3.58158,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06479,
+    "net_gain_cost_over_test": 0.05517,
+    "net_gain_cost_over_whole_model": 0.06479
+   }
+  },
+  {
+   "config": "coded_h",
+   "params": 165655,
+   "N": 160000000,
+   "sha256": "a56f3a00a50bc4856867a62140ca2e57e3e9bf95f050f2c92d787496b324252e",
+   "T1": {
+    "bits_per_code": 3.56598,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.05956,
+    "net_gain_cost_over_test": 0.05019,
+    "net_gain_cost_over_whole_model": 0.05955,
+    "latent_bits_per_code": 0.0
+   },
+   "T2": {
+    "bits_per_code": 3.58382,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06255,
+    "net_gain_cost_over_test": 0.05319,
+    "net_gain_cost_over_whole_model": 0.06255,
+    "latent_bits_per_code": 0.0
+   }
+  },
+  {
+   "config": "coded_n",
+   "params": 165655,
+   "N": 160000000,
+   "sha256": "06358ba44982f103adc56c295424e43b7f2faf2decc4eddb2cd435238d315a2b",
+   "T1": {
+    "bits_per_code": 3.56912,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.05642,
+    "net_gain_cost_over_test": 0.04706,
+    "net_gain_cost_over_whole_model": 0.05642,
+    "latent_bits_per_code": 2e-05
+   },
+   "T2": {
+    "bits_per_code": 3.58643,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.05994,
+    "net_gain_cost_over_test": 0.05058,
+    "net_gain_cost_over_whole_model": 0.05994,
+    "latent_bits_per_code": 4e-05
+   }
+  },
+  {
+   "config": "coded_hn",
+   "params": 167135,
+   "N": 160000000,
+   "sha256": "de343e10115c1ea10ac638c5cbd1376760fd2c04930d02093bc9ca928cfd2a30",
+   "T1": {
+    "bits_per_code": 3.56475,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.06079,
+    "net_gain_cost_over_test": 0.05135,
+    "net_gain_cost_over_whole_model": 0.06079,
+    "latent_bits_per_code": 2e-05
+   },
+   "T2": {
+    "bits_per_code": 3.58264,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06373,
+    "net_gain_cost_over_test": 0.05429,
+    "net_gain_cost_over_whole_model": 0.06373,
+    "latent_bits_per_code": 3e-05
+   }
+  },
+  {
+   "config": "coded_m",
+   "params": 165655,
+   "N": 160000000,
+   "sha256": "baee14a177d71329f429ec3b456388dda565c996d3adf0beb00f4eea4dc9b7ce",
+   "T1": {
+    "bits_per_code": 3.56364,
+    "chain_bits_per_code": 3.62554,
+    "gain": 0.0619,
+    "net_gain_cost_over_test": 0.05253,
+    "net_gain_cost_over_whole_model": 0.06189,
+    "latent_bits_per_code": 0.0
+   },
+   "T2": {
+    "bits_per_code": 3.58154,
+    "chain_bits_per_code": 3.64638,
+    "gain": 0.06483,
+    "net_gain_cost_over_test": 0.05547,
+    "net_gain_cost_over_whole_model": 0.06483,
+    "latent_bits_per_code": 0.0
+   }
+  }
+ ]
+}

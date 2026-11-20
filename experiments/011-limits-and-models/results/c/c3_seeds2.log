@@ -1,0 +1,37 @@
+== base@s2  18:32:42
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:205: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(self.logp[sl])).to(dev, non_blocking=True).float()
+    seen 20M  val 3.58618 (chain 3.63579)  1.83M/s
+    seen 40M  val 3.58490 (chain 3.63579)  1.84M/s
+    seen 60M  val 3.58436 (chain 3.63579)  1.84M/s
+    seen 80M  val 3.58347 (chain 3.63579)  1.83M/s
+    seen 100M  val 3.58335 (chain 3.63579)  1.84M/s
+    seen 120M  val 3.58280 (chain 3.63579)  1.84M/s
+    seen 140M  val 3.58229 (chain 3.63579)  1.80M/s
+    seen 160M  val 3.58179 (chain 3.63579)  1.80M/s
+    seen 180M  val 3.58109 (chain 3.63579)  1.80M/s
+    seen 200M  val 3.57734 (chain 3.63579)  1.81M/s
+    seen 220M  val 3.57594 (chain 3.63579)  1.81M/s
+    seen 240M  val 3.57537 (chain 3.63579)  1.81M/s
+    seen 260M  val 3.57502 (chain 3.63579)  1.81M/s
+    seen 280M  val 3.57482 (chain 3.63579)  1.82M/s
+    seen 300M  val 3.57472 (chain 3.63579)  1.82M/s
+   c3_base_s2: T1 gain 0.06023  T2 gain 0.06321
+== M+E+L@s2  18:37:17
+    seen 20M  val 3.58548 (chain 3.63579)  1.54M/s
+    seen 40M  val 3.58432 (chain 3.63579)  1.53M/s
+    seen 60M  val 3.58350 (chain 3.63579)  1.52M/s
+    seen 80M  val 3.58274 (chain 3.63579)  1.52M/s
+    seen 100M  val 3.58091 (chain 3.63579)  1.53M/s
+    seen 120M  val 3.57684 (chain 3.63579)  1.53M/s
+    seen 140M  val 3.57569 (chain 3.63579)  1.53M/s
+    seen 160M  val 3.57502 (chain 3.63579)  1.53M/s
+    seen 180M  val 3.57469 (chain 3.63579)  1.52M/s
+    seen 200M  val 3.57434 (chain 3.63579)  1.52M/s
+    seen 220M  val 3.57407 (chain 3.63579)  1.52M/s
+    seen 240M  val 3.57391 (chain 3.63579)  1.52M/s
+    seen 260M  val 3.57371 (chain 3.63579)  1.52M/s
+    seen 280M  val 3.57367 (chain 3.63579)  1.51M/s
+    seen 300M  val 3.57358 (chain 3.63579)  1.50M/s
+   c3_M_E_L_s2: T1 gain 0.06159  T2 gain 0.06431
+C3_DONE

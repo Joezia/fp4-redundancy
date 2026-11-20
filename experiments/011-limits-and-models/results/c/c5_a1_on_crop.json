@@ -1,0 +1,45 @@
+{
+ "rows": 512,
+ "n": 12845056,
+ "a1_bits_per_code": 3.5698030992430083,
+ "fullchain_restricted_bits_per_code": 3.6430848934212507,
+ "gain": 0.07328179417824258,
+ "per_matrix": {
+  "L0.E191.w1": {
+   "n": 2621440,
+   "bits": 9342850.9375,
+   "chain_bits_f32": 9539141.5625,
+   "chain_bits_exact": null
+  },
+  "L0.E191.w2": {
+   "n": 1179648,
+   "bits": 4221740.28125,
+   "chain_bits_f32": 4313213.90625,
+   "chain_bits_exact": null
+  },
+  "L0.E191.w3": {
+   "n": 2621440,
+   "bits": 9368117.3125,
+   "chain_bits_f32": 9562937.25,
+   "chain_bits_exact": null
+  },
+  "L26.E336.w1": {
+   "n": 2621440,
+   "bits": 9350139.4375,
+   "chain_bits_f32": 9552763.375,
+   "chain_bits_exact": null
+  },
+  "L26.E336.w2": {
+   "n": 1179648,
+   "bits": 4202953.75,
+   "chain_bits_f32": 4281039.75,
+   "chain_bits_exact": null
+  },
+  "L26.E336.w3": {
+   "n": 2621440,
+   "bits": 9368519.0,
+   "chain_bits_f32": 9546533.625,
+   "chain_bits_exact": null
+  }
+ }
+}

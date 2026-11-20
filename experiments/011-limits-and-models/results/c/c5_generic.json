@@ -1,0 +1,330 @@
+{
+ "versions": {
+  "cmix_commit": "194af9cd133b8b741d2a53afca13ed0ca453c276",
+  "nncp_tar_sha256": "7b4be2a5871186b82cd5f1c6137a8f6fed0d0c6b2bb281793db1f0be65831119",
+  "xz": [
+   "xz (XZ Utils) 5.2.5"
+  ],
+  "zstd": [
+   "*** zstd command line interface 64-bits v1.4.8, by Yann Collet ***"
+  ],
+  "bzip2": [
+   "bzip2, a block-sorting file compressor.  Version 1.0.8, 13-Jul-2019."
+  ]
+ },
+ "tools": {
+  "bzip2/a/T1": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.9164893256293403,
+   "chain_nopart_bits_per_code": 3.6326881799612956,
+   "chain_bits_per_code": 3.625539618305153,
+   "gain_vs_chain_nopart": -0.2838011456680449,
+   "gain_vs_chain": -0.29094970732418696,
+   "enc_codes_per_s": 6541341.642371912,
+   "dec_codes_per_s": 4673220.626675777
+  },
+  "bzip2/a/T2": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.9212990089699074,
+   "chain_nopart_bits_per_code": 3.6549750851741702,
+   "chain_bits_per_code": 3.6463751381283718,
+   "gain_vs_chain_nopart": -0.26632392379573694,
+   "gain_vs_chain": -0.2749238708415356,
+   "enc_codes_per_s": 9266607.705473417,
+   "dec_codes_per_s": 8725858.394086037
+  },
+  "bzip2/a/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.9221120198567707,
+   "chain_nopart_bits_per_code": 3.6425646252855475,
+   "chain_bits_per_code": 3.6373785745026113,
+   "gain_vs_chain_nopart": -0.2795473945712232,
+   "gain_vs_chain": -0.2847334453541597,
+   "enc_codes_per_s": 6214154.7912501255,
+   "dec_codes_per_s": 5761593.063770912
+  },
+  "bzip2/b/T1": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.157663415979456,
+   "chain_nopart_bits_per_code": 3.6634723657142683,
+   "chain_bits_per_code": 3.6563238040581263,
+   "gain_vs_chain_nopart": -0.49419105026518756,
+   "gain_vs_chain": -0.5013396119213296,
+   "enc_codes_per_s": 6274267.654111872,
+   "dec_codes_per_s": 4293249.654516765
+  },
+  "bzip2/b/T2": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.161717252378111,
+   "chain_nopart_bits_per_code": 3.6829012147632425,
+   "chain_bits_per_code": 3.6743012677174445,
+   "gain_vs_chain_nopart": -0.47881603761486785,
+   "gain_vs_chain": -0.487415984660666,
+   "enc_codes_per_s": 8814850.959755167,
+   "dec_codes_per_s": 7658202.419371244
+  },
+  "bzip2/b/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.164040233470775,
+   "chain_nopart_bits_per_code": 3.6727097690150066,
+   "chain_bits_per_code": 3.6675237182320704,
+   "gain_vs_chain_nopart": -0.4913304644557688,
+   "gain_vs_chain": -0.49651651523870527,
+   "enc_codes_per_s": 8648360.32182811,
+   "dec_codes_per_s": 5433108.095325428
+  },
+  "cmix/a/T1": {
+   "matrices": 6,
+   "complete": false,
+   "all_lossless": true,
+   "bits_per_code": 3.646645059390944,
+   "chain_nopart_bits_per_code": 3.6476134311338613,
+   "chain_bits_per_code": 3.6476134311338613,
+   "gain_vs_chain_nopart": 0.0009683717429175672,
+   "gain_vs_chain": 0.0009683717429175672,
+   "enc_codes_per_s": 1084.3679267316443,
+   "dec_codes_per_s": 1184.7912388630766
+  },
+  "cmix/a/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.646645059390944,
+   "chain_nopart_bits_per_code": 3.6476134311338613,
+   "chain_bits_per_code": 3.6476134311338613,
+   "gain_vs_chain_nopart": 0.0009683717429175672,
+   "gain_vs_chain": 0.0009683717429175672,
+   "enc_codes_per_s": 1084.3679267316443,
+   "dec_codes_per_s": 1184.7912388630766
+  },
+  "cmix/b/T1": {
+   "matrices": 6,
+   "complete": false,
+   "all_lossless": true,
+   "bits_per_code": 3.61748084243463,
+   "chain_nopart_bits_per_code": 3.678306452435631,
+   "chain_bits_per_code": 3.678306452435631,
+   "gain_vs_chain_nopart": 0.060825610001000646,
+   "gain_vs_chain": 0.060825610001000646,
+   "enc_codes_per_s": 1022.430271903917,
+   "dec_codes_per_s": 1113.1444855761483
+  },
+  "cmix/b/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.61748084243463,
+   "chain_nopart_bits_per_code": 3.678306452435631,
+   "chain_bits_per_code": 3.678306452435631,
+   "gain_vs_chain_nopart": 0.060825610001000646,
+   "gain_vs_chain": 0.060825610001000646,
+   "enc_codes_per_s": 1022.430271903917,
+   "dec_codes_per_s": 1113.1444855761483
+  },
+  "nncp/a/T1": {
+   "matrices": 6,
+   "complete": false,
+   "all_lossless": true,
+   "bits_per_code": 3.6328538682725693,
+   "chain_nopart_bits_per_code": 3.6425646252855475,
+   "chain_bits_per_code": 3.6373785745026113,
+   "gain_vs_chain_nopart": 0.009710757012978185,
+   "gain_vs_chain": 0.004524706230041729,
+   "enc_codes_per_s": 2541.511115713254,
+   "dec_codes_per_s": 3589.063589819689
+  },
+  "nncp/a/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.6328538682725693,
+   "chain_nopart_bits_per_code": 3.6425646252855475,
+   "chain_bits_per_code": 3.6373785745026113,
+   "gain_vs_chain_nopart": 0.009710757012978185,
+   "gain_vs_chain": 0.004524706230041729,
+   "enc_codes_per_s": 2541.511115713254,
+   "dec_codes_per_s": 3589.063589819689
+  },
+  "nncp/b/T1": {
+   "matrices": 6,
+   "complete": false,
+   "all_lossless": true,
+   "bits_per_code": 3.622040586118345,
+   "chain_nopart_bits_per_code": 3.6727097690150066,
+   "chain_bits_per_code": 3.667523718232071,
+   "gain_vs_chain_nopart": 0.05066918289666176,
+   "gain_vs_chain": 0.04548313211372572,
+   "enc_codes_per_s": 2480.062204719429,
+   "dec_codes_per_s": 3530.9941862346136
+  },
+  "nncp/b/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.622040586118345,
+   "chain_nopart_bits_per_code": 3.6727097690150066,
+   "chain_bits_per_code": 3.667523718232071,
+   "gain_vs_chain_nopart": 0.05066918289666176,
+   "gain_vs_chain": 0.04548313211372572,
+   "enc_codes_per_s": 2480.062204719429,
+   "dec_codes_per_s": 3530.9941862346136
+  },
+  "xz/a/T1": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.975415943287037,
+   "chain_nopart_bits_per_code": 3.6326881799612956,
+   "chain_bits_per_code": 3.625539618305153,
+   "gain_vs_chain_nopart": -0.3427277633257417,
+   "gain_vs_chain": -0.3498763249818837,
+   "enc_codes_per_s": 306783.9757294997,
+   "dec_codes_per_s": 11201421.465387879
+  },
+  "xz/a/T2": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.981906580041956,
+   "chain_nopart_bits_per_code": 3.6549750851741702,
+   "chain_bits_per_code": 3.6463751381283718,
+   "gain_vs_chain_nopart": -0.32693149486778555,
+   "gain_vs_chain": -0.3355314419135842,
+   "enc_codes_per_s": 400593.40254866367,
+   "dec_codes_per_s": 20679466.126880016
+  },
+  "xz/a/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.980115650318287,
+   "chain_nopart_bits_per_code": 3.6425646252855475,
+   "chain_bits_per_code": 3.6373785745026113,
+   "gain_vs_chain_nopart": -0.3375510250327394,
+   "gain_vs_chain": -0.34273707581567586,
+   "enc_codes_per_s": 320886.6961004708,
+   "dec_codes_per_s": 11409735.50130761
+  },
+  "xz/b/T1": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.208154522931134,
+   "chain_nopart_bits_per_code": 3.6634723657142683,
+   "chain_bits_per_code": 3.6563238040581263,
+   "gain_vs_chain_nopart": -0.5446821572168657,
+   "gain_vs_chain": -0.5518307188730078,
+   "enc_codes_per_s": 301092.32832048554,
+   "dec_codes_per_s": 12469723.94467973
+  },
+  "xz/b/T2": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.213822654441551,
+   "chain_nopart_bits_per_code": 3.6829012147632425,
+   "chain_bits_per_code": 3.6743012677174445,
+   "gain_vs_chain_nopart": -0.5309214396783082,
+   "gain_vs_chain": -0.5395213867241064,
+   "enc_codes_per_s": 396102.8983904061,
+   "dec_codes_per_s": 20998942.477626193
+  },
+  "xz/b/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.213428186487269,
+   "chain_nopart_bits_per_code": 3.6727097690150066,
+   "chain_bits_per_code": 3.6675237182320704,
+   "gain_vs_chain_nopart": -0.5407184174722619,
+   "gain_vs_chain": -0.5459044682551983,
+   "enc_codes_per_s": 302351.8582659631,
+   "dec_codes_per_s": 10124709.961905314
+  },
+  "zstd/a/T1": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.8196633515534577,
+   "chain_nopart_bits_per_code": 3.6326881799612956,
+   "chain_bits_per_code": 3.625539618305153,
+   "gain_vs_chain_nopart": -0.18697517159216237,
+   "gain_vs_chain": -0.19412373324830443,
+   "enc_codes_per_s": 273380.54745247104,
+   "dec_codes_per_s": 111089875.1422058
+  },
+  "zstd/a/T2": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.8210486518012154,
+   "chain_nopart_bits_per_code": 3.6549750851741702,
+   "chain_bits_per_code": 3.6463751381283718,
+   "gain_vs_chain_nopart": -0.16607356662704484,
+   "gain_vs_chain": -0.17467351367284345,
+   "enc_codes_per_s": 377774.0235268083,
+   "dec_codes_per_s": 289951491.64214253
+  },
+  "zstd/a/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 3.821901109483507,
+   "chain_nopart_bits_per_code": 3.6425646252855475,
+   "chain_bits_per_code": 3.6373785745026113,
+   "gain_vs_chain_nopart": -0.1793364841979593,
+   "gain_vs_chain": -0.18452253498089577,
+   "enc_codes_per_s": 251560.9336391029,
+   "dec_codes_per_s": 106516861.89660548
+  },
+  "zstd/b/T1": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.066506901493779,
+   "chain_nopart_bits_per_code": 3.6634723657142683,
+   "chain_bits_per_code": 3.6563238040581263,
+   "gain_vs_chain_nopart": -0.4030345357795105,
+   "gain_vs_chain": -0.4101830974356525,
+   "enc_codes_per_s": 267015.32617991493,
+   "dec_codes_per_s": 128219289.09675495
+  },
+  "zstd/b/T2": {
+   "matrices": 24,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.064323990433304,
+   "chain_nopart_bits_per_code": 3.6829012147632425,
+   "chain_bits_per_code": 3.6743012677174445,
+   "gain_vs_chain_nopart": -0.3814227756700617,
+   "gain_vs_chain": -0.39002272271585986,
+   "enc_codes_per_s": 381669.3341045861,
+   "dec_codes_per_s": 300162877.32244986
+  },
+  "zstd/b/strong6": {
+   "matrices": 6,
+   "complete": true,
+   "all_lossless": true,
+   "bits_per_code": 4.069298751265914,
+   "chain_nopart_bits_per_code": 3.6727097690150066,
+   "chain_bits_per_code": 3.6675237182320704,
+   "gain_vs_chain_nopart": -0.39658898225090766,
+   "gain_vs_chain": -0.40177503303384415,
+   "enc_codes_per_s": 246421.92041724862,
+   "dec_codes_per_s": 138657599.70944637
+  }
+ },
+ "note": "cmix: first 512 rows, compared with the chain on the same rows (no partner); chain_bits_per_code for cmix is also the no-partner crop chain"
+}

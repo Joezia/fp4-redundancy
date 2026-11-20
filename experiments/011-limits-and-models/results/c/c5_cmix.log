@@ -1,0 +1,14 @@
+CROP_DONE
+cmix {'task': 'L0.E191.w1', 'fmt': 'a', 'tool': 'cmix', 'bytes': 1193589, 'in_bytes': 2621440, 'enc_s': 2516.2817571163177, 'dec_s': 2132.384218454361, 'lossless': True}
+cmix {'task': 'L0.E191.w1', 'fmt': 'b', 'tool': 'cmix', 'bytes': 1184024, 'in_bytes': 2703360, 'enc_s': 2441.566054582596, 'dec_s': 2388.152904510498, 'lossless': True}
+cmix {'task': 'L0.E191.w2', 'fmt': 'a', 'tool': 'cmix', 'bytes': 539528, 'in_bytes': 1179648, 'enc_s': 1085.67968416214, 'dec_s': 1159.8171389102936, 'lossless': True}
+cmix {'task': 'L0.E191.w2', 'fmt': 'b', 'tool': 'cmix', 'bytes': 534452, 'in_bytes': 1216512, 'enc_s': 1140.1396026611328, 'dec_s': 1109.2791798114777, 'lossless': True}
+cmix {'task': 'L0.E191.w3', 'fmt': 'a', 'tool': 'cmix', 'bytes': 1194037, 'in_bytes': 2621440, 'enc_s': 2329.2805783748627, 'dec_s': 2130.093867301941, 'lossless': True}
+cmix {'task': 'L0.E191.w3', 'fmt': 'b', 'tool': 'cmix', 'bytes': 1184513, 'in_bytes': 2703360, 'enc_s': 2516.450128555298, 'dec_s': 2270.6380994319916, 'lossless': True}
+cmix {'task': 'L26.E336.w1', 'fmt': 'a', 'tool': 'cmix', 'bytes': 1196434, 'in_bytes': 2621440, 'enc_s': 2287.031885623932, 'dec_s': 2116.4993579387665, 'lossless': True}
+cmix {'task': 'L26.E336.w1', 'fmt': 'b', 'tool': 'cmix', 'bytes': 1187508, 'in_bytes': 2703360, 'enc_s': 2496.4790086746216, 'dec_s': 2267.054220199585, 'lossless': True}
+cmix {'task': 'L26.E336.w2', 'fmt': 'a', 'tool': 'cmix', 'bytes': 537266, 'in_bytes': 1179648, 'enc_s': 1064.7915494441986, 'dec_s': 1021.249214887619, 'lossless': True}
+cmix {'task': 'L26.E336.w2', 'fmt': 'b', 'tool': 'cmix', 'bytes': 532887, 'in_bytes': 1216512, 'enc_s': 1186.4824776649475, 'dec_s': 1106.0421102046967, 'lossless': True}
+cmix {'task': 'L26.E336.w3', 'fmt': 'a', 'tool': 'cmix', 'bytes': 1194316, 'in_bytes': 2621440, 'enc_s': 2562.5965971946716, 'dec_s': 2281.5758724212646, 'lossless': True}
+cmix {'task': 'L26.E336.w3', 'fmt': 'b', 'tool': 'cmix', 'bytes': 1184959, 'in_bytes': 2703360, 'enc_s': 2782.1414194107056, 'dec_s': 2398.2662966251373, 'lossless': True}
+STRONG_DONE cmix

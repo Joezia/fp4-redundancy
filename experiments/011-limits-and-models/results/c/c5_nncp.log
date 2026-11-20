@@ -1,0 +1,13 @@
+nncp {'task': 'L0.E191.w1', 'fmt': 'a', 'tool': 'nncp', 'bytes': 5357403, 'in_bytes': 11796480, 'enc_s': 4647.194335460663, 'dec_s': 3266.81964302063, 'lossless': True}
+nncp {'task': 'L0.E191.w1', 'fmt': 'b', 'tool': 'nncp', 'bytes': 5339386, 'in_bytes': 12165120, 'enc_s': 4758.546570777893, 'dec_s': 3333.271980047226, 'lossless': True}
+nncp {'task': 'L0.E191.w2', 'fmt': 'a', 'tool': 'nncp', 'bytes': 5362382, 'in_bytes': 11796480, 'enc_s': 4635.499677658081, 'dec_s': 3266.796198606491, 'lossless': True}
+nncp {'task': 'L0.E191.w2', 'fmt': 'b', 'tool': 'nncp', 'bytes': 5355196, 'in_bytes': 12165120, 'enc_s': 4737.562985420227, 'dec_s': 3360.415020942688, 'lossless': True}
+nncp {'task': 'L0.E191.w3', 'fmt': 'a', 'tool': 'nncp', 'bytes': 5347135, 'in_bytes': 11796480, 'enc_s': 4631.447937250137, 'dec_s': 3269.9289979934692, 'lossless': True}
+nncp {'task': 'L0.E191.w3', 'fmt': 'b', 'tool': 'nncp', 'bytes': 5336950, 'in_bytes': 12165120, 'enc_s': 4747.332848072052, 'dec_s': 3332.1925840377808, 'lossless': True}
+nncp {'task': 'L26.E336.w1', 'fmt': 'a', 'tool': 'nncp', 'bytes': 5373815, 'in_bytes': 11796480, 'enc_s': 4642.7435874938965, 'dec_s': 3319.1865265369415, 'lossless': True}
+nncp {'task': 'L26.E336.w1', 'fmt': 'b', 'tool': 'nncp', 'bytes': 5353519, 'in_bytes': 12165120, 'enc_s': 4746.198654413223, 'dec_s': 3333.3224737644196, 'lossless': True}
+nncp {'task': 'L26.E336.w2', 'fmt': 'a', 'tool': 'nncp', 'bytes': 5345617, 'in_bytes': 11796480, 'enc_s': 4657.510736465454, 'dec_s': 3287.8141980171204, 'lossless': True}
+nncp {'task': 'L26.E336.w2', 'fmt': 'b', 'tool': 'nncp', 'bytes': 5319032, 'in_bytes': 12165120, 'enc_s': 4741.974007129669, 'dec_s': 3359.736479282379, 'lossless': True}
+nncp {'task': 'L26.E336.w3', 'fmt': 'a', 'tool': 'nncp', 'bytes': 5354814, 'in_bytes': 11796480, 'enc_s': 4634.736299753189, 'dec_s': 3310.163815498352, 'lossless': True}
+nncp {'task': 'L26.E336.w3', 'fmt': 'b', 'tool': 'nncp', 'bytes': 5341414, 'in_bytes': 12165120, 'enc_s': 4807.540067195892, 'dec_s': 3326.0902178287506, 'lossless': True}
+STRONG_DONE nncp
