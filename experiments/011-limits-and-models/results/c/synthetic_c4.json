@@ -1,0 +1,23 @@
+{
+ "V-a": {
+  "theory": 0.0008116659185706254,
+  "type_bits_per_code": 0.0,
+  "base": -4.695641732332945e-06,
+  "oracle_h": -4.695641732332945e-06,
+  "coded_h": -3.0504452920077085e-05
+ },
+ "V-b": {
+  "theory": 0.28104218456292607,
+  "type_bits_per_code": 0.00390625,
+  "base": 0.20235737939701348,
+  "oracle_h": 0.27750405450687676,
+  "coded_h": 0.26810028930530816
+ },
+ "checks": {
+  "V-a_coded_about_0": true,
+  "V-b_oracle_recovers": true,
+  "V-b_coded_recovers": true,
+  "V-b_coded_le_oracle": true
+ },
+ "all_pass": true
+}

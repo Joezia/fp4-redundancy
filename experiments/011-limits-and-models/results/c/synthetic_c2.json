@@ -1,0 +1,20 @@
+{
+ "V-a": {
+  "theory": 0.0004222848724850792,
+  "base": 1.0308872866460206e-08,
+  "hidden@layer": 1.0308872866460206e-08,
+  "neuron@layer": 1.0308872866460206e-08
+ },
+ "V-b": {
+  "theory": 0.07943540858690445,
+  "base": 0.052586567328889,
+  "hidden@layer": 0.07885779135080062,
+  "neuron@layer": 0.05239389531465255
+ },
+ "checks": {
+  "V-a_about_0": true,
+  "V-b_hidden_recovers": true,
+  "V-b_neuron_control": true
+ },
+ "all_pass": true
+}

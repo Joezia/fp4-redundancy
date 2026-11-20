@@ -1,0 +1,15 @@
+registry summaries 0s
+C3_PREP_DONE 1s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:205: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(self.logp[sl])).to(dev, non_blocking=True).float()
+V-a {'theory': 0.0008378007026585976, 'base': -1.3150465161260172e-09, 'base_w1': 8.148312868883067e-08, 'V-a': -1.3150465161260172e-09, 'V-a_w1': 8.148312868883067e-08}
+registry summaries 1s
+C3_PREP_DONE 1s
+V-b-M {'theory': 0.08172823070031843, 'base': 0.05316737504830349, 'base_w1': 0.053993738640884636, 'V-b-M': 0.07655629726281155, 'V-b-M_w1': 0.07810298298750329}
+registry summaries 1s
+C3_PREP_DONE 1s
+V-b-E {'theory': 0.07972669675234467, 'theory_w1': 0.07640755577937686, 'base': 0.05291408893337457, 'base_w1': 0.05086840878396215, 'V-b-E': 0.0643733799146673, 'V-b-E_w1': 0.07374312172799291}
+registry summaries 1s
+C3_PREP_DONE 1s
+V-b-L {'theory': 0.07514007399128309, 'base': 0.05064403958280339, 'base_w1': 0.04952789818764192, 'V-b-L': 0.07381069607694402, 'V-b-L_w1': 0.07089473282814485}
+{'V-a_about_0': True, 'V-b-M_recovers': True, 'V-b-M_beats_base': True, 'V-b-L_recovers': True, 'V-b-L_beats_base': True, 'V-b-E_recovers_w1': True, 'V-b-E_beats_base_w1': True} True

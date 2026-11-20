@@ -1,0 +1,5 @@
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:205: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(self.logp[sl])).to(dev, non_blocking=True).float()
+V-a {'theory': 0.0004222848724850792, 'base': 1.0308872866460206e-08, 'hidden@layer': 1.0308872866460206e-08, 'neuron@layer': 1.0308872866460206e-08}
+V-b {'theory': 0.07943540858690445, 'base': 0.052586567328889, 'hidden@layer': 0.07885779135080062, 'neuron@layer': 0.05239389531465255}
+{'V-a_about_0': True, 'V-b_hidden_recovers': True, 'V-b_neuron_control': True} True
