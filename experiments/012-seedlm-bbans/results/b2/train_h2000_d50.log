@@ -1,0 +1,8 @@
+{"epoch": 1, "train_loss_sampled": 3.8115173518657683, "val_neg_elbo": 3.651461018456353, "sec": 396.8664267063141}
+{"epoch": 2, "train_loss_sampled": 3.651360660791397, "val_neg_elbo": 3.6508775728720204, "sec": 829.6986217498779}
+{"epoch": 3, "train_loss_sampled": 3.650921803712845, "val_neg_elbo": 3.650768615581371, "sec": 1321.8938312530518}
+{"epoch": 4, "train_loss_sampled": 3.650639510154724, "val_neg_elbo": 3.6507393695690014, "sec": 1815.3731660842896}
+{"epoch": 5, "train_loss_sampled": 3.650458186864853, "val_neg_elbo": 3.650704578117088, "sec": 2301.070039510727}
+{"epoch": 6, "train_loss_sampled": 3.650279241800308, "val_neg_elbo": 3.650679429372152, "sec": 2788.0330061912537}
+{"epoch": 7, "train_loss_sampled": 3.650198918581009, "val_neg_elbo": 3.65068100116871, "sec": 3274.0561830997467}
+{"epoch": 8, "train_loss_sampled": 3.6500799655914307, "val_neg_elbo": 3.650689478273745, "sec": 3759.1782393455505}

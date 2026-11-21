@@ -12,3 +12,37 @@ decoded 0 0.11658692359924316
 decoded 1000 118.8503086566925
 decoded 2000 238.38717818260193
 decoded 3000 396.64515805244446
+decoded 4000 516.6777629852295
+decoded 5000 663.9857838153839
+decoded 6000 819.7078740596771
+decoded 7000 971.4108531475067
+decoded 8000 1123.321539402008
+decoded 9000 1273.0365521907806
+{
+ "kind": "full",
+ "mode": "test",
+ "n_images": 10000,
+ "cfg": {
+  "prior_precision": 8,
+  "obs_precision": 14,
+  "q_precision": 14,
+  "latent_shape": [
+   1,
+   50
+  ]
+ },
+ "n_other_words": 50,
+ "init_bits": 1596,
+ "net_bits_official": 11022400,
+ "bpd_official": 1.4059183673469389,
+ "bpd_exact_net": 1.4059151785714286,
+ "bpd_with_initial": 1.4061224489795918,
+ "neg_elbo_official_test": 0.001775755670909979,
+ "neg_elbo_mc20": 1.3912907219671302,
+ "first_image_posterior_pop_bits": 344,
+ "first_image_increment_bits": 924,
+ "roundtrip_ok": true,
+ "other_bits_recovered": true,
+ "encode_s": 848.2480478286743,
+ "decode_s": 1421.5232150554657
+}

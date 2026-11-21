@@ -223,7 +223,10 @@ def main():
         r["impl"] = "craystack"
         res["runs"].append(r)
         print(json.dumps(r), flush=True)
-    with open(os.path.join(OUT, f"b3_K{K}.jsonl"), "a") as f:
+    sys.path.insert(0, os.path.join(V.ROOT, "experiments/011-limits-and-models"))
+    import common
+    suffix = "_T2" if name in common.T2 else ""
+    with open(os.path.join(OUT, f"b3_K{K}{suffix}.jsonl"), "a") as f:
         f.write(json.dumps(res) + "\n")
     print(json.dumps({k: v for k, v in res.items() if k != "runs"}), flush=True)
 

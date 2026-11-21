@@ -71,18 +71,21 @@ def scale_feature(E):
 
 
 class FP4VAE(nn.Module):
-    def __init__(self, hidden_dim=200, latent_dim=50):
+    """bn=True: official full-MNIST structure (batch norm); bn=False: official binarised-MNIST structure (no batch norm)."""
+
+    def __init__(self, hidden_dim=200, latent_dim=50, bn=True):
         super().__init__()
-        self.hidden_dim, self.latent_dim = hidden_dim, latent_dim
+        self.hidden_dim, self.latent_dim, self.bn = hidden_dim, latent_dim, bn
         self.register_buffer("level", torch.from_numpy(LEVEL / 12.0))
+        norm = nn.BatchNorm1d if bn else (lambda d: nn.Identity())
         self.fc1 = nn.Linear(B + 1, hidden_dim)
-        self.bn1 = nn.BatchNorm1d(hidden_dim)
+        self.bn1 = norm(hidden_dim)
         self.fc21 = nn.Linear(hidden_dim, latent_dim)
         self.fc22 = nn.Linear(hidden_dim, latent_dim)
-        self.bn21 = nn.BatchNorm1d(latent_dim)
-        self.bn22 = nn.BatchNorm1d(latent_dim)
+        self.bn21 = norm(latent_dim)
+        self.bn22 = norm(latent_dim)
         self.fc3 = nn.Linear(latent_dim + 1, hidden_dim)
-        self.bn3 = nn.BatchNorm1d(hidden_dim)
+        self.bn3 = norm(hidden_dim)
         self.fc4 = nn.Linear(hidden_dim, B * NSYM)
 
     def encode(self, sym, s):
@@ -96,18 +99,18 @@ class FP4VAE(nn.Module):
         h = F.relu(self.bn3(self.fc3(torch.cat([z, s[:, None]], 1))))
         return self.fc4(h).view(-1, B, NSYM)
 
-    def neg_elbo(self, sym, s, sample=True):
-        """per-block negative ELBO in bits (sum over the 32 positions)."""
+    def neg_elbo(self, sym, s, sample=True, beta=1.0):
+        """per-block negative ELBO in bits (sum over the 32 positions); beta < 1 only for KL warm-up (extension)."""
         mu, std = self.encode(sym, s)
         z = mu + std * torch.randn_like(std) if sample else mu
         logits = self.decode(z, s)
         ll = -F.cross_entropy(logits.reshape(-1, NSYM), sym.reshape(-1), reduction="none").view(-1, B).sum(1)
         pz = (-0.5 * z * z - 0.5 * np.log(2 * np.pi)).sum(1)
         qz = (-0.5 * ((z - mu) / std) ** 2 - torch.log(std) - 0.5 * np.log(2 * np.pi)).sum(1)
-        return -(ll + pz - qz) / np.log(2)
+        return -(ll + beta * (pz - qz)) / np.log(2)
 
-    def loss(self, sym, s):
-        return self.neg_elbo(sym, s).mean() / B             # bits per weight, as the official loss
+    def loss(self, sym, s, beta=1.0):
+        return self.neg_elbo(sym, s, beta=beta).mean() / B   # bits per weight, as the official loss
 
 
 def n_params(m):

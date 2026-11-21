@@ -124,8 +124,33 @@ def neg_elbo(kind, model, images, n_samples=20):
     return sum(off) / len(x), sum(mc) / d * np.log2(np.e)
 
 
+def patch_ppf():
+    """--ppf-fix: Craystack's correction (craystack/codecs/codecs.py, _gaussian_ppf) added to the official
+    util.gaussian_latent_ppf. The official version returns the bucket from norm.ppf + searchsorted only; when the
+    float cdf and ppf disagree at a bucket edge, the cdf check in util.non_uniform_dec_statfun fails (it happened
+    once in the full-MNIST three-copy run). The loop only moves the index when cdf(idx) <= cf < cdf(idx+1) fails,
+    so it changes nothing in every other case."""
+    orig = util.gaussian_latent_ppf
+
+    def ppf_fixed(mean, stdd, prior_prec, post_prec):
+        base = orig(mean, stdd, prior_prec, post_prec)
+        cdf = util.gaussian_latent_cdf(mean, stdd, prior_prec, post_prec)
+        top = (1 << prior_prec) - 1
+
+        def ppf(cf):
+            idx = int(base(cf))
+            while not (cdf(idx) <= cf < cdf(idx + 1)):
+                idx = idx - 1 if cf < cdf(idx) else idx + 1
+                idx = min(max(idx, 0), top)
+            return idx
+        return ppf
+    util.gaussian_latent_ppf = ppf_fixed
+
+
 def main():
     kind, mode = sys.argv[1], sys.argv[2]
+    if "--ppf-fix" in sys.argv:
+        patch_ppf()
     os.makedirs(OUT, exist_ok=True)
     torch.set_num_threads(int(os.environ.get('OMP_NUM_THREADS', '4')))
     model, vae_append, vae_pop, n_other, cfg = setup(kind)
@@ -196,7 +221,8 @@ def main():
                roundtrip_ok=bool(ok), other_bits_recovered=bool(ok_other),
                encode_s=t_enc, decode_s=t_dec,
                sizes_every_100=sizes)
-    with open(os.path.join(OUT, f'b1_{kind}_{mode}.json'), 'w') as f:
+    res['ppf_fix'] = '--ppf-fix' in sys.argv
+    with open(os.path.join(OUT, f'b1_{kind}_{mode}{"_ppffix" if "--ppf-fix" in sys.argv else ""}.json'), 'w') as f:
         json.dump(res, f, indent=1)
     print(json.dumps({k: v for k, v in res.items() if k != 'sizes_every_100'}, indent=1))
 

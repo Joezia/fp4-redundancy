@@ -1,0 +1,68 @@
+[
+ {
+  "K": 16,
+  "set": "T2",
+  "matrices": 24,
+  "n": 283115520,
+  "marginal_bpw": 3.596771325574319,
+  "k1_bpw": 3.6721142678204752,
+  "gain_vs_k1": 0.07534294224615644,
+  "model_cost_bpw": 0.0007740162037037037,
+  "scale_bpw": 0.02792612958907231,
+  "ref_total_bpw": 3.621241266697862,
+  "runs": [
+   {
+    "N": 1,
+    "impl": "official bits-back",
+    "gross_bpw": 3.5973046196831597,
+    "net_bpw": 3.5971689860026044,
+    "overhead_vs_marginal": 0.0005332941088408074,
+    "total_bpw": 3.6260047654759355,
+    "net_gain": -0.0047634987780737804,
+    "roundtrip": true,
+    "borrowed_words": 0,
+    "decode_codes_per_s_cpu": 16182.45431510337,
+    "encode_codes_per_s": 23958.256520949824
+   },
+   {
+    "N": 64,
+    "impl": "craystack",
+    "gross_bpw": 3.597571026837384,
+    "net_bpw": null,
+    "overhead_vs_marginal": 0.0007997012630653443,
+    "total_bpw": 3.6262711726301604,
+    "net_gain": -0.005029905932298317,
+    "roundtrip": true,
+    "borrowed_words": 1536,
+    "decode_codes_per_s_cpu": 258834.0055564185,
+    "encode_codes_per_s": 475057.29520330904
+   },
+   {
+    "N": 1024,
+    "impl": "craystack",
+    "gross_bpw": 3.6035755298755787,
+    "net_bpw": null,
+    "overhead_vs_marginal": 0.006804204301259789,
+    "total_bpw": 3.6322756756683545,
+    "net_gain": -0.011034408970492762,
+    "roundtrip": true,
+    "borrowed_words": 24576,
+    "decode_codes_per_s_cpu": 458776.69686261204,
+    "encode_codes_per_s": 1369015.833839385
+   },
+   {
+    "N": 16384,
+    "impl": "craystack",
+    "gross_bpw": 3.700351404260706,
+    "net_bpw": null,
+    "overhead_vs_marginal": 0.1035800786863871,
+    "total_bpw": 3.729051550053482,
+    "net_gain": -0.10781028335562008,
+    "roundtrip": true,
+    "borrowed_words": 393216,
+    "decode_codes_per_s_cpu": 486740.028093972,
+    "encode_codes_per_s": 1542797.4350192419
+   }
+  ]
+ }
+]

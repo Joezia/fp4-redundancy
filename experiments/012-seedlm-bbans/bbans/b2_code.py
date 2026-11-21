@@ -35,7 +35,7 @@ def load_model(path):
     sd = torch.load(path, map_location="cpu")
     H = sd["fc1.weight"].shape[0]
     D = sd["fc21.weight"].shape[0]
-    m = V.FP4VAE(H, D)
+    m = V.FP4VAE(H, D, bn="bn1.weight" in sd)
     m.load_state_dict(sd)
     m.eval()
     return m
