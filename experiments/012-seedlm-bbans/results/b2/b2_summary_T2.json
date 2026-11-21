@@ -1,0 +1,56 @@
+{
+ "set": "T2",
+ "matrices": 24,
+ "neg_elbo_bpw": 4.112934390496523,
+ "scale_bpw": 0.027926129589072306,
+ "ref_total_bpw": 3.6212412666978615,
+ "model_cost_these": 0.016422978153935185,
+ "model_cost_whole": 8.345009224560562e-06,
+ "runs": [
+  {
+   "N": 1,
+   "impl": "official bits-back",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 4.093102914315683,
+   "net_official_bpw": 4.092967280635127,
+   "total_bpw": 4.121029043904755,
+   "net_gain": -0.49978777720689355,
+   "roundtrip": true,
+   "decode_codes_per_s": 8141.6917765965245
+  },
+  {
+   "N": 64,
+   "impl": "craystack",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 4.106697478117766,
+   "total_bpw": 4.134623607706839,
+   "net_gain": -0.5133823410089775,
+   "roundtrip": true,
+   "decode_codes_per_s": 168147.59966770286
+  },
+  {
+   "N": 1024,
+   "impl": "craystack",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 4.122969111689815,
+   "total_bpw": 4.150895241278888,
+   "net_gain": -0.5296539745810258,
+   "roundtrip": true,
+   "decode_codes_per_s": 395971.1219073544
+  },
+  {
+   "N": 16384,
+   "impl": "craystack",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 4.388021624529803,
+   "total_bpw": 4.415947754118876,
+   "net_gain": -0.7947064874210144,
+   "roundtrip": true,
+   "decode_codes_per_s": 410703.17640534934
+  }
+ ]
+}

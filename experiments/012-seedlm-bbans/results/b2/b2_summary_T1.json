@@ -1,0 +1,89 @@
+{
+ "set": "T1",
+ "matrices": 24,
+ "neg_elbo_bpw": 3.6494575364702198,
+ "scale_bpw": 0.030784185752972856,
+ "ref_total_bpw": 3.6056187243683024,
+ "model_cost_these": 0.016422978153935185,
+ "model_cost_whole": 8.345009224560562e-06,
+ "runs": [
+  {
+   "N": 1,
+   "impl": "official bits-back",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 3.6496220341435186,
+   "net_official_bpw": 3.649486400462963,
+   "total_bpw": 3.6804062198964913,
+   "net_gain": -0.07478749552818902,
+   "roundtrip": true,
+   "decode_codes_per_s": 8158.548366512116
+  },
+  {
+   "N": 64,
+   "impl": "craystack",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 3.65057214807581,
+   "total_bpw": 3.681356333828783,
+   "net_gain": -0.07573760946048107,
+   "roundtrip": true,
+   "decode_codes_per_s": 166091.3969729419
+  },
+  {
+   "N": 1024,
+   "impl": "craystack",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 3.667199820059317,
+   "total_bpw": 3.6979840058122897,
+   "net_gain": -0.09236528144398787,
+   "roundtrip": true,
+   "decode_codes_per_s": 389365.0071698641
+  },
+  {
+   "N": 16384,
+   "impl": "craystack",
+   "device": "cpu",
+   "matrices": 24,
+   "gross_bpw": 3.9327354148582176,
+   "total_bpw": 3.9635196006111904,
+   "net_gain": -0.3579008762428881,
+   "roundtrip": true,
+   "decode_codes_per_s": 402665.31972148555
+  },
+  {
+   "N": 64,
+   "impl": "craystack",
+   "device": "cuda",
+   "matrices": 2,
+   "gross_bpw": 3.649222819010417,
+   "total_bpw": 3.6786105838895042,
+   "net_gain": -0.07121826926550276,
+   "roundtrip": true,
+   "decode_codes_per_s": 33139.50688209205
+  },
+  {
+   "N": 1024,
+   "impl": "craystack",
+   "device": "cuda",
+   "matrices": 2,
+   "gross_bpw": 3.665779622395833,
+   "total_bpw": 3.6951673872749207,
+   "net_gain": -0.08777507265091919,
+   "roundtrip": true,
+   "decode_codes_per_s": 307652.8189246476
+  },
+  {
+   "N": 16384,
+   "impl": "craystack",
+   "device": "cuda",
+   "matrices": 2,
+   "gross_bpw": 3.931707085503472,
+   "total_bpw": 3.9610948503825596,
+   "net_gain": -0.3537025357585581,
+   "roundtrip": true,
+   "decode_codes_per_s": 563204.3131098975
+  }
+ ]
+}
