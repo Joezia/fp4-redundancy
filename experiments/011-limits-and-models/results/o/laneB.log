@@ -1,0 +1,74 @@
+o1_40k_a1_e10: params 43759, positions 283115520, epochs 10, lr 0.001; start 3.56165 chain 3.62547
+  epoch 1: train (4M sample) 3.56166  gain 0.06381  146s
+  epoch 2: train (4M sample) 3.56142  gain 0.06405  291s
+  epoch 3: train (4M sample) 3.56145  gain 0.06402  436s
+  epoch 4: train (4M sample) 3.56126  gain 0.06421  581s
+  epoch 5: train (4M sample) 3.56107  gain 0.06440  726s
+  epoch 6: train (4M sample) 3.56097  gain 0.06450  871s
+  epoch 7: train (4M sample) 3.56090  gain 0.06457  1015s
+  epoch 8: train (4M sample) 3.56083  gain 0.06464  1160s
+  epoch 9: train (4M sample) 3.56076  gain 0.06471  1304s
+  epoch 10: train (4M sample) 3.56075  gain 0.06472  1449s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:310: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(lp_all[i:i + len(j)])).to(dev)
+o1_40k_a1_e10: T1 (trained) gain 0.06458   T2 (unseen) gain 0.05201 net 0.05201   1542s
+o1_160k_a1_e10: params 164175, positions 283115520, epochs 10, lr 0.001; start 3.56130 chain 3.62547
+  epoch 1: train (4M sample) 3.56139  gain 0.06408  151s
+  epoch 2: train (4M sample) 3.56138  gain 0.06409  302s
+  epoch 3: train (4M sample) 3.56111  gain 0.06436  452s
+  epoch 4: train (4M sample) 3.56108  gain 0.06439  602s
+  epoch 5: train (4M sample) 3.56091  gain 0.06456  752s
+  epoch 6: train (4M sample) 3.56081  gain 0.06466  903s
+  epoch 7: train (4M sample) 3.56070  gain 0.06477  1053s
+  epoch 8: train (4M sample) 3.56061  gain 0.06486  1203s
+  epoch 9: train (4M sample) 3.56058  gain 0.06489  1335s
+  epoch 10: train (4M sample) 3.56057  gain 0.06490  1488s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:310: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(lp_all[i:i + len(j)])).to(dev)
+o1_160k_a1_e10: T1 (trained) gain 0.06477   T2 (unseen) gain 0.04682 net 0.04682   1598s
+o1_640k_a1_e10: params 695823, positions 283115520, epochs 10, lr 0.001; start 3.56273 chain 3.62547
+  epoch 1: train (4M sample) 3.56150  gain 0.06397  188s
+  epoch 2: train (4M sample) 3.56120  gain 0.06427  378s
+  epoch 3: train (4M sample) 3.56099  gain 0.06448  568s
+  epoch 4: train (4M sample) 3.56073  gain 0.06474  758s
+  epoch 5: train (4M sample) 3.56058  gain 0.06489  946s
+  epoch 6: train (4M sample) 3.56049  gain 0.06498  1136s
+  epoch 7: train (4M sample) 3.56042  gain 0.06505  1326s
+  epoch 8: train (4M sample) 3.56034  gain 0.06513  1517s
+  epoch 9: train (4M sample) 3.56029  gain 0.06518  1707s
+  epoch 10: train (4M sample) 3.56028  gain 0.06519  1889s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:310: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(lp_all[i:i + len(j)])).to(dev)
+o1_640k_a1_e10: T1 (trained) gain 0.06504   T2 (unseen) gain 0.04836 net 0.04834   2029s
+o1_2.56M_a1_e10: params 2739087, positions 283115520, epochs 10, lr 0.0003333333333333333; start 3.56199 chain 3.62547
+  epoch 1: train (4M sample) 3.56117  gain 0.06430  294s
+  epoch 2: train (4M sample) 3.56068  gain 0.06479  594s
+  epoch 3: train (4M sample) 3.56046  gain 0.06501  889s
+  epoch 4: train (4M sample) 3.56029  gain 0.06518  1164s
+  epoch 5: train (4M sample) 3.56011  gain 0.06536  1463s
+  epoch 6: train (4M sample) 3.55996  gain 0.06551  1751s
+  epoch 7: train (4M sample) 3.55980  gain 0.06567  2051s
+  epoch 8: train (4M sample) 3.55970  gain 0.06577  2340s
+  epoch 9: train (4M sample) 3.55962  gain 0.06585  2639s
+  epoch 10: train (4M sample) 3.55958  gain 0.06589  2927s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:310: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(lp_all[i:i + len(j)])).to(dev)
+o1_2.56M_a1_e10: T1 (trained) gain 0.06577   T2 (unseen) gain 0.05464 net 0.05457   3144s
+o1_10M_a1_e10: params 9702095, positions 283115520, epochs 10, lr 0.0003333333333333333; start 3.56177 chain 3.62547
+  epoch 1: train (4M sample) 3.56092  gain 0.06455  632s
+  epoch 2: train (4M sample) 3.56052  gain 0.06495  1258s
+  epoch 3: train (4M sample) 3.56030  gain 0.06517  1857s
+  epoch 4: train (4M sample) 3.56004  gain 0.06543  2500s
+  epoch 5: train (4M sample) 3.55960  gain 0.06587  3143s
+  epoch 6: train (4M sample) 3.55919  gain 0.06628  3785s
+  epoch 7: train (4M sample) 3.55885  gain 0.06662  4427s
+  epoch 8: train (4M sample) 3.55862  gain 0.06685  5070s
+  epoch 9: train (4M sample) 3.55848  gain 0.06699  5712s
+  epoch 10: train (4M sample) 3.55842  gain 0.06705  6354s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/amodel.py:310: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  lp = torch.from_numpy(np.asarray(lp_all[i:i + len(j)])).to(dev)
+o1_10M_a1_e10: T1 (trained) gain 0.06687   T2 (unseen) gain 0.05361 net 0.05333   6739s
+o1_40M_scratch_e10: params 38655247, positions 283115520, epochs 10, lr 0.0005; start 3.62547 chain 3.62547
+  epoch 1: train (4M sample) 3.56337  gain 0.06210  1691s
+  epoch 2: train (4M sample) 3.56245  gain 0.06302  3419s
+  epoch 3: train (4M sample) 3.56139  gain 0.06408  5133s
