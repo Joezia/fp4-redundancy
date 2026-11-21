@@ -39,3 +39,6 @@ experiments/008-scale-media/results/fp4/indicators/data/
 experiments/008-scale-media/results/fp4/A/paused_pid.txt
 experiments/010-transforms/results/p1b/data/
 experiments/011-limits-and-models/b4/cm
+
+# 012: paper PDFs are not published (URLs and sha256 in experiments/012-seedlm-bbans/refs.md)
+refs/

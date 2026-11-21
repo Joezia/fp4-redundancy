@@ -1,0 +1,102 @@
+{
+ "fig4_V4": [
+  [
+   2,
+   5
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   3,
+   1
+  ],
+  [
+   4,
+   2
+  ]
+ ],
+ "fig4_ok": true,
+ "fig4_V_by_seed_ok": true,
+ "maximal": {
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true,
+  "11": true,
+  "12": true,
+  "13": true,
+  "14": true,
+  "15": true,
+  "16": true,
+  "17": true,
+  "18": true,
+  "19": true,
+  "20": true,
+  "21": true,
+  "22": true,
+  "23": true,
+  "24": true
+ },
+ "maximal_s": 17.756454706192017,
+ "pinv_bytes_fp32_C8P3": 6291360,
+ "pinv_bytes_fp32_C12P4": 12582720,
+ "C8P3K16_paper": {
+  "gpu_vs_numpy_seed_agree": 1.0,
+  "gpu_vs_numpy_err_maxrel": 7.399892183457268e-07,
+  "thirdparty_seed_agree": 0.87890625,
+  "rel_err_ours_2048": 0.1871831715106964,
+  "rel_err_ours_256": 0.18777374923229218,
+  "rel_err_thirdparty_256": 0.18777374923229218,
+  "floor_frac": 0.0,
+  "t_numpy_256": 3.9773666858673096,
+  "t_gpu_2048": 0.4954650402069092,
+  "t_thirdparty_256": 1.2713069915771484,
+  "bits_per_element": 4.0
+ },
+ "C8P3K16_range": {
+  "gpu_vs_numpy_seed_agree": 1.0,
+  "gpu_vs_numpy_err_maxrel": 1.7316026514890837e-06,
+  "thirdparty_seed_agree": 0.9609375,
+  "rel_err_ours_2048": 0.12222813069820404,
+  "rel_err_ours_256": 0.11978672444820404,
+  "rel_err_thirdparty_256": 0.11978672444820404,
+  "floor_frac": 0.0,
+  "t_numpy_256": 3.9190127849578857,
+  "t_gpu_2048": 0.6588706970214844,
+  "t_thirdparty_256": 0.9295134544372559,
+  "bits_per_element": 4.0
+ },
+ "C12P4K16_paper": {
+  "gpu_vs_numpy_seed_agree": 0.96875,
+  "gpu_vs_numpy_err_maxrel": 5.710426194127649e-07,
+  "thirdparty_seed_agree": 0.890625,
+  "rel_err_ours_2048": 0.30559834837913513,
+  "rel_err_ours_256": 0.30423808097839355,
+  "rel_err_thirdparty_256": 0.30423808097839355,
+  "floor_frac": 0.0,
+  "t_numpy_256": 4.9608659744262695,
+  "t_gpu_2048": 1.2886762619018555,
+  "t_thirdparty_256": 1.6856977939605713,
+  "bits_per_element": 3.0
+ },
+ "C12P4K16_range": {
+  "gpu_vs_numpy_seed_agree": 0.984375,
+  "gpu_vs_numpy_err_maxrel": 5.146309263182047e-07,
+  "thirdparty_seed_agree": 0.9765625,
+  "rel_err_ours_2048": 0.22541725635528564,
+  "rel_err_ours_256": 0.22493432462215424,
+  "rel_err_thirdparty_256": 0.22493432462215424,
+  "floor_frac": 0.0,
+  "t_numpy_256": 4.886845588684082,
+  "t_gpu_2048": 1.3580305576324463,
+  "t_thirdparty_256": 1.2361502647399902,
+  "bits_per_element": 3.0
+ }
+}

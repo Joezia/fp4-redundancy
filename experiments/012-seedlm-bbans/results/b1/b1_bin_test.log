@@ -1,0 +1,47 @@
+encoded 0 750 0.03026580810546875
+encoded 1000 152798 29.808131456375122
+encoded 2000 305075 59.102060317993164
+encoded 3000 458227 89.00941061973572
+encoded 4000 612165 118.80876231193542
+encoded 5000 763598 148.85008239746094
+encoded 6000 914538 178.83083963394165
+encoded 7000 1065670 209.0157265663147
+encoded 8000 1213749 238.47731232643127
+encoded 9000 1366374 267.6528391838074
+decoded 0 0.039087772369384766
+decoded 1000 40.681835889816284
+decoded 2000 80.48819589614868
+decoded 3000 120.49824118614197
+decoded 4000 160.6385691165924
+decoded 5000 200.80081415176392
+decoded 6000 240.79419255256653
+decoded 7000 281.02672839164734
+decoded 8000 321.187602519989
+decoded 9000 361.3261625766754
+{
+ "kind": "bin",
+ "mode": "test",
+ "n_images": 10000,
+ "cfg": {
+  "prior_precision": 8,
+  "obs_precision": 12,
+  "q_precision": 14,
+  "latent_shape": [
+   40
+  ]
+ },
+ "n_other_words": 20,
+ "init_bits": 636,
+ "net_bits_official": 1520992,
+ "bpd_official": 0.19400408163265306,
+ "bpd_exact_net": 0.19400331632653062,
+ "bpd_with_initial": 0.19408571428571428,
+ "neg_elbo_official_test": 0.00024695475946883767,
+ "neg_elbo_mc20": 0.19385679847827308,
+ "first_image_posterior_pop_bits": 284,
+ "first_image_increment_bits": 114,
+ "roundtrip_ok": true,
+ "other_bits_recovered": true,
+ "encode_s": 296.75252628326416,
+ "decode_s": 401.48679304122925
+}
