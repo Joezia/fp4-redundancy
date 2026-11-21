@@ -16,3 +16,5 @@
 {"epoch": 16, "train_loss_sampled": 3.6496418744325636, "val_neg_elbo": 3.6508635414971247, "sec": 7400.089920282364}
 {"epoch": 17, "train_loss_sampled": 3.6496144473552703, "val_neg_elbo": 3.6508643715469926, "sec": 7650.094335794449}
 {"epoch": 18, "train_loss_sampled": 3.6495601683855057, "val_neg_elbo": 3.650903074829667, "sec": 7837.633955001831}
+{"epoch": 19, "train_loss_sampled": 3.6495163321495054, "val_neg_elbo": 3.65086473359002, "sec": 8001.526376008987}
+{"epoch": 20, "train_loss_sampled": 3.6495465487241745, "val_neg_elbo": 3.6508903856630677, "sec": 8170.143569469452}
