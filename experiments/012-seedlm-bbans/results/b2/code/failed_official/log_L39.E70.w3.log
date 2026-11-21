@@ -1,0 +1,24 @@
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/012-seedlm-bbans/bbans/fp4vae.py:70: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.as_tensor(E).float() - 120.0) / 4.0
+Traceback (most recent call last):
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/012-seedlm-bbans/bbans/b2_code.py", line 146, in <module>
+    main()
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/012-seedlm-bbans/bbans/b2_code.py", line 114, in main
+    state = app(state, sym[b])
+            ^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/data/012/src/bits-back_bits-back/util.py", line 154, in append
+    state, latent = post_pop(data)(state)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/data/012/src/bits-back_bits-back/util.py", line 66, in pop
+    state, symbol = rans.pop_symbol(statfun, precision)(state)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/data/012/src/bits-back_bits-back/rans.py", line 98, in pop_
+    return pop(msg, statfun, precision)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/data/012/src/bits-back_bits-back/rans.py", line 80, in pop
+    symb, (start, prob) = statfun(cf)
+                          ^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/data/012/src/bits-back_bits-back/util.py", line 49, in dec
+    assert start <= cf < start + freq
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

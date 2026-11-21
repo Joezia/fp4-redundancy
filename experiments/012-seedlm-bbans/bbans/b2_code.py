@@ -25,6 +25,9 @@ BB = os.path.join(V.ROOT, "data/012/src/bits-back_bits-back")
 sys.path.insert(0, BB)
 import rans  # noqa: E402
 import util  # noqa: E402
+from official_fix import patch_ppf  # noqa: E402
+
+patch_ppf(util)      # see official_fix.py (same patch as B1 --ppf-fix)
 
 OUT = os.path.join(HERE, "../results/b2/code")
 PRIOR_PREC, Q_PREC, OBS_PREC = 8, 14, 14       # torch_mnist_compress.py
