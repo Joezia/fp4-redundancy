@@ -3,6 +3,29 @@
   "C": 8,
   "P": 1,
   "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 2.0,
+  "rel_mse": 0.3300216933147459,
+  "code_mismatch": 0.7844047405101635,
+  "floor_frac": 7.479632342303241e-05,
+  "side_bpw": 2.0,
+  "code_bpw": 2.788915902596933,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.819700088349905,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.214081363981604,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 28082259.628111817
+ },
+ {
+  "C": 8,
+  "P": 1,
+  "K": 8,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -21,6 +44,29 @@
    "16": 24
   },
   "decode_codes_per_s": 25567619.28179533
+ },
+ {
+  "C": 8,
+  "P": 1,
+  "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 2.5,
+  "rel_mse": 0.3123093363935663,
+  "code_mismatch": 0.768714247809516,
+  "floor_frac": 7.052951388888888e-05,
+  "side_bpw": 2.5,
+  "code_bpw": 2.747725423177083,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.278509608930055,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.6728908845617545,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27380638.593459945
  },
  {
   "C": 8,
@@ -49,6 +95,29 @@
   "C": 8,
   "P": 1,
   "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 3.0,
+  "rel_mse": 0.3120200663324313,
+  "code_mismatch": 0.7686656563370317,
+  "floor_frac": 7.033171477141204e-05,
+  "side_bpw": 3.0,
+  "code_bpw": 2.746434642650463,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.777218828403435,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -2.171600104035134,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 27710149.89421199
+ },
+ {
+  "C": 8,
+  "P": 1,
+  "K": 16,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -67,6 +136,29 @@
    "16": 24
   },
   "decode_codes_per_s": 27366285.022379454
+ },
+ {
+  "C": 8,
+  "P": 2,
+  "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 2.5,
+  "rel_mse": 0.20786076926878375,
+  "code_mismatch": 0.7185151559335214,
+  "floor_frac": 0.0004160845721209491,
+  "side_bpw": 2.5,
+  "code_bpw": 2.486736043294271,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.017520229047243,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.4119015046789418,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 27917425.0017328
  },
  {
   "C": 8,
@@ -95,6 +187,29 @@
   "C": 8,
   "P": 2,
   "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 3.0,
+  "rel_mse": 0.1083853056290115,
+  "code_mismatch": 0.6113908555772569,
+  "floor_frac": 0.00027448866102430553,
+  "side_bpw": 3.0,
+  "code_bpw": 2.0240489818431713,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.0548331675961435,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.4492144432278424,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 28639526.605012562
+ },
+ {
+  "C": 8,
+  "P": 2,
+  "K": 12,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -113,6 +228,29 @@
    "8": 24
   },
   "decode_codes_per_s": 28752456.86034414
+ },
+ {
+  "C": 8,
+  "P": 2,
+  "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 3.5,
+  "rel_mse": 0.05851714587006276,
+  "code_mismatch": 0.4982876742327655,
+  "floor_frac": 0.00017589992947048612,
+  "side_bpw": 3.5,
+  "code_bpw": 1.5918084038628473,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.122592589615819,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.5169738652475182,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 28763304.07429519
  },
  {
   "C": 8,
@@ -141,6 +279,29 @@
   "C": 8,
   "P": 3,
   "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 3.0,
+  "rel_mse": 0.15087620599858412,
+  "code_mismatch": 0.6632804340786405,
+  "floor_frac": 0.0006083735713252315,
+  "side_bpw": 3.0,
+  "code_bpw": 2.2641137017144097,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.294897887467382,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.6892791630990809,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 28236821.404411394
+ },
+ {
+  "C": 8,
+  "P": 3,
+  "K": 8,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -159,6 +320,29 @@
    "8": 24
   },
   "decode_codes_per_s": 26555702.74024689
+ },
+ {
+  "C": 8,
+  "P": 3,
+  "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 3.5,
+  "rel_mse": 0.07283695113736614,
+  "code_mismatch": 0.5337473268862124,
+  "floor_frac": 0.0008314062047887731,
+  "side_bpw": 3.5,
+  "code_bpw": 1.743279916268808,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.27406410202178,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.668445377653479,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 28620749.006477453
  },
  {
   "C": 8,
@@ -233,6 +417,29 @@
   "C": 8,
   "P": 4,
   "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 3.5,
+  "rel_mse": 0.11245996032610628,
+  "code_mismatch": 0.6096952120463054,
+  "floor_frac": 0.000728465892650463,
+  "side_bpw": 3.5,
+  "code_bpw": 2.0484258581090855,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.579210043862058,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.9735913194937564,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 28516726.328993127
+ },
+ {
+  "C": 8,
+  "P": 4,
+  "K": 8,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -256,6 +463,29 @@
   "C": 8,
   "P": 4,
   "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 4.0,
+  "rel_mse": 0.05165800087022793,
+  "code_mismatch": 0.462641030770761,
+  "floor_frac": 0.0012000472457320602,
+  "side_bpw": 4.0,
+  "code_bpw": 1.4968616626880786,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.527645848441051,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.9220271240727496,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 28740303.0819848
+ },
+ {
+  "C": 8,
+  "P": 4,
+  "K": 12,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -274,6 +504,29 @@
    "16": 24
   },
   "decode_codes_per_s": 31731361.562812753
+ },
+ {
+  "C": 8,
+  "P": 4,
+  "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 4.5,
+  "rel_mse": 0.02493849324209262,
+  "code_mismatch": 0.31209786026566116,
+  "floor_frac": 0.0017862673158998842,
+  "side_bpw": 4.5,
+  "code_bpw": 0.9987126103153935,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.529496796068366,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.9238780717000643,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 30406470.492765974
  },
  {
   "C": 8,
@@ -348,6 +601,29 @@
   "C": 16,
   "P": 1,
   "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.0,
+  "rel_mse": 0.5647553905116095,
+  "code_mismatch": 0.8521713150872124,
+  "floor_frac": 2.13623046875e-05,
+  "side_bpw": 1.0,
+  "code_bpw": 3.22139655219184,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.252180737944813,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.6465620135765114,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 28244090.283995837
+ },
+ {
+  "C": 16,
+  "P": 1,
+  "K": 8,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -366,6 +642,29 @@
    "4": 24
   },
   "decode_codes_per_s": 28408420.8093221
+ },
+ {
+  "C": 16,
+  "P": 1,
+  "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.25,
+  "rel_mse": 0.43887785830758225,
+  "code_mismatch": 0.8241404250816062,
+  "floor_frac": 1.373291015625e-05,
+  "side_bpw": 1.25,
+  "code_bpw": 3.0220480459707755,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.302832231723747,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.6972135073554466,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 28357121.579809245
  },
  {
   "C": 16,
@@ -394,6 +693,29 @@
   "C": 16,
   "P": 1,
   "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.5,
+  "rel_mse": 0.36613358570742355,
+  "code_mismatch": 0.8049863426773637,
+  "floor_frac": 1.2376573350694445e-05,
+  "side_bpw": 1.5,
+  "code_bpw": 2.857299239547164,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.388083425300136,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.7824647009318355,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27350260.038418386
+ },
+ {
+  "C": 16,
+  "P": 1,
+  "K": 16,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -412,6 +734,29 @@
    "8": 24
   },
   "decode_codes_per_s": 27733973.363327976
+ },
+ {
+  "C": 16,
+  "P": 2,
+  "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.25,
+  "rel_mse": 0.4775659936863247,
+  "code_mismatch": 0.829773853443287,
+  "floor_frac": 9.34742115162037e-05,
+  "side_bpw": 1.25,
+  "code_bpw": 3.108147967303241,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.388932153056213,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.7833134286879119,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27561636.740839936
  },
  {
   "C": 16,
@@ -440,6 +785,29 @@
   "C": 16,
   "P": 2,
   "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.5,
+  "rel_mse": 0.34417315198889653,
+  "code_mismatch": 0.7925672248557761,
+  "floor_frac": 3.0348036024305556e-05,
+  "side_bpw": 1.5,
+  "code_bpw": 2.863380714699074,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.394164900452046,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.7885461760837452,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27483315.11287641
+ },
+ {
+  "C": 16,
+  "P": 2,
+  "K": 12,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -458,6 +826,29 @@
    "8": 24
   },
   "decode_codes_per_s": 27607705.27350929
+ },
+ {
+  "C": 16,
+  "P": 2,
+  "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.75,
+  "rel_mse": 0.2507431064066332,
+  "code_mismatch": 0.7513721148173015,
+  "floor_frac": 1.9158257378472222e-05,
+  "side_bpw": 1.75,
+  "code_bpw": 2.6279612223307294,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.408745408083702,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.8031266837154003,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 28222628.230735667
  },
  {
   "C": 16,
@@ -486,6 +877,29 @@
   "C": 16,
   "P": 3,
   "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.5,
+  "rel_mse": 0.42313858467717325,
+  "code_mismatch": 0.8145647614090531,
+  "floor_frac": 0.00012517858434606482,
+  "side_bpw": 1.5,
+  "code_bpw": 3.021475558810764,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.552259744563736,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.9466410201954351,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27474433.159223076
+ },
+ {
+  "C": 16,
+  "P": 3,
+  "K": 8,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -504,6 +918,29 @@
    "8": 24
   },
   "decode_codes_per_s": 27575250.83661947
+ },
+ {
+  "C": 16,
+  "P": 3,
+  "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.75,
+  "rel_mse": 0.29437122768046053,
+  "code_mismatch": 0.7696486296477141,
+  "floor_frac": 6.052652994791667e-05,
+  "side_bpw": 1.75,
+  "code_bpw": 2.755598845305266,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.5363830310582385,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.9307643066899374,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27380863.983829077
  },
  {
   "C": 16,
@@ -532,6 +969,29 @@
   "C": 16,
   "P": 3,
   "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 2.0,
+  "rel_mse": 0.20737010383414173,
+  "code_mismatch": 0.7215609479833532,
+  "floor_frac": 4.306369357638889e-05,
+  "side_bpw": 2.0,
+  "code_bpw": 2.5003623679832176,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.53114655373619,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.9255278293678888,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27734735.126296274
+ },
+ {
+  "C": 16,
+  "P": 3,
+  "K": 16,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -550,6 +1010,29 @@
    "8": 24
   },
   "decode_codes_per_s": 28483331.93647238
+ },
+ {
+  "C": 16,
+  "P": 4,
+  "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.75,
+  "rel_mse": 0.3770760617000978,
+  "code_mismatch": 0.800238037109375,
+  "floor_frac": 0.00011506257233796296,
+  "side_bpw": 1.75,
+  "code_bpw": 2.9372538248697917,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.718038010622764,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.1124192862544626,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27730483.13264788
  },
  {
   "C": 16,
@@ -578,6 +1061,29 @@
   "C": 16,
   "P": 4,
   "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 2.0,
+  "rel_mse": 0.25511024357932416,
+  "code_mismatch": 0.7499599668714735,
+  "floor_frac": 7.092511212384259e-05,
+  "side_bpw": 2.0,
+  "code_bpw": 2.6527615017361112,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.683545687489083,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.0779269631207822,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27356760.67637704
+ },
+ {
+  "C": 16,
+  "P": 4,
+  "K": 12,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -596,6 +1102,29 @@
    "8": 24
   },
   "decode_codes_per_s": 28160417.25331005
+ },
+ {
+  "C": 16,
+  "P": 4,
+  "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 2.25,
+  "rel_mse": 0.17614766800731227,
+  "code_mismatch": 0.6966433948940701,
+  "floor_frac": 6.403040002893518e-05,
+  "side_bpw": 2.25,
+  "code_bpw": 2.3839270697699653,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.6647112555229375,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.0590925311546364,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 28005841.056730673
  },
  {
   "C": 16,
@@ -624,6 +1153,29 @@
   "C": 32,
   "P": 1,
   "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.5,
+  "rel_mse": 0.7575770804498415,
+  "code_mismatch": 0.8852616416083442,
+  "floor_frac": 2.2605613425925925e-05,
+  "side_bpw": 0.5,
+  "code_bpw": 3.44202880859375,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 3.972812994346722,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.36719426997842114,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 28153737.37345237
+ },
+ {
+  "C": 32,
+  "P": 1,
+  "K": 8,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -642,6 +1194,29 @@
    "4": 24
   },
   "decode_codes_per_s": 27854508.843713734
+ },
+ {
+  "C": 32,
+  "P": 1,
+  "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.625,
+  "rel_mse": 0.6571447979201954,
+  "code_mismatch": 0.8689785533481174,
+  "floor_frac": 1.5823929398148147e-05,
+  "side_bpw": 0.625,
+  "code_bpw": 3.33311688458478,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 3.9889010703377523,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.38328234596945127,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 28319922.4490328
  },
  {
   "C": 32,
@@ -670,6 +1245,29 @@
   "C": 32,
   "P": 1,
   "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.75,
+  "rel_mse": 0.5676201746553041,
+  "code_mismatch": 0.8524553793447989,
+  "floor_frac": 1.548484519675926e-05,
+  "side_bpw": 0.75,
+  "code_bpw": 3.2258982340494793,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.006682419802451,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.4010636954341503,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 28125302.765473466
+ },
+ {
+  "C": 32,
+  "P": 1,
+  "K": 16,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -688,6 +1286,29 @@
    "4": 24
   },
   "decode_codes_per_s": 28644457.88207512
+ },
+ {
+  "C": 32,
+  "P": 2,
+  "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.625,
+  "rel_mse": 0.7023157283016224,
+  "code_mismatch": 0.8730143970913358,
+  "floor_frac": 0.00027906629774305554,
+  "side_bpw": 0.625,
+  "code_bpw": 3.390612905996817,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.04639709174979,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.4407783673814883,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 27142049.984081935
  },
  {
   "C": 32,
@@ -716,6 +1337,29 @@
   "C": 32,
   "P": 2,
   "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.75,
+  "rel_mse": 0.5922636408180328,
+  "code_mismatch": 0.8520276175604926,
+  "floor_frac": 2.6900679976851853e-05,
+  "side_bpw": 0.75,
+  "code_bpw": 3.267342687536169,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.048126873289141,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.44250814892084017,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 27626329.06065891
+ },
+ {
+  "C": 32,
+  "P": 2,
+  "K": 12,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -734,6 +1378,29 @@
    "4": 24
   },
   "decode_codes_per_s": 27565003.971380852
+ },
+ {
+  "C": 32,
+  "P": 2,
+  "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.875,
+  "rel_mse": 0.5013015702932344,
+  "code_mismatch": 0.834940677218967,
+  "floor_frac": 1.6276041666666666e-05,
+  "side_bpw": 0.875,
+  "code_bpw": 3.145305718315972,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.051089904068944,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.44547117970064337,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27100478.4354417
  },
  {
   "C": 32,
@@ -762,6 +1429,29 @@
   "C": 32,
   "P": 3,
   "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.75,
+  "rel_mse": 0.6649106756839613,
+  "code_mismatch": 0.8662517865498861,
+  "floor_frac": 0.0004628499348958333,
+  "side_bpw": 0.75,
+  "code_bpw": 3.3529790807653357,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.133763266518308,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.5281445421500068,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 26802652.844516285
+ },
+ {
+  "C": 32,
+  "P": 3,
+  "K": 8,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -780,6 +1470,29 @@
    "4": 24
   },
   "decode_codes_per_s": 27353909.138973255
+ },
+ {
+  "C": 32,
+  "P": 3,
+  "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.875,
+  "rel_mse": 0.5564512836306119,
+  "code_mismatch": 0.8462877344202112,
+  "floor_frac": 8.01368995949074e-05,
+  "side_bpw": 0.875,
+  "code_bpw": 3.2234867802372684,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.129270965990241,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.5236522416219397,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 27473142.16762479
  },
  {
   "C": 32,
@@ -808,6 +1521,29 @@
   "C": 32,
   "P": 3,
   "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.0,
+  "rel_mse": 0.467390131744108,
+  "code_mismatch": 0.8271320237053765,
+  "floor_frac": 2.8935185185185186e-05,
+  "side_bpw": 1.0,
+  "code_bpw": 3.0962818287037037,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.127066014456676,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.5214472900883749,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 27228637.722825233
+ },
+ {
+  "C": 32,
+  "P": 3,
+  "K": 16,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -826,6 +1562,29 @@
    "4": 24
   },
   "decode_codes_per_s": 27156753.639308173
+ },
+ {
+  "C": 32,
+  "P": 4,
+  "K": 8,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 0.875,
+  "rel_mse": 0.6320759788639337,
+  "code_mismatch": 0.8612257251033076,
+  "floor_frac": 0.00033964934172453704,
+  "side_bpw": 0.875,
+  "code_bpw": 3.3162042688440394,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.221988454597011,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.6163697302287106,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 27147422.966420252
  },
  {
   "C": 32,
@@ -854,6 +1613,29 @@
   "C": 32,
   "P": 4,
   "K": 12,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.0,
+  "rel_mse": 0.5225179960469702,
+  "code_mismatch": 0.8399207892241302,
+  "floor_frac": 8.273654513888889e-05,
+  "side_bpw": 1.0,
+  "code_bpw": 3.1775297941984952,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.208313979951468,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.6026952555831665,
+  "roundtrip": true,
+  "sub": {
+   "4": 24
+  },
+  "decode_codes_per_s": 27443283.65975911
+ },
+ {
+  "C": 32,
+  "P": 4,
+  "K": 12,
   "mode": "range",
   "table1": false,
   "matrices": 24,
@@ -872,6 +1654,29 @@
    "4": 24
   },
   "decode_codes_per_s": 27185715.235107385
+ },
+ {
+  "C": 32,
+  "P": 4,
+  "K": 16,
+  "mode": "paper",
+  "table1": false,
+  "matrices": 24,
+  "bits_per_element": 1.125,
+  "rel_mse": 0.43508917246874645,
+  "code_mismatch": 0.8191410276624892,
+  "floor_frac": 4.1142216435185184e-05,
+  "side_bpw": 1.125,
+  "code_bpw": 3.044109090169271,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.199893275922243,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.594274551553942,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 27166595.38364203
  },
  {
   "C": 32,

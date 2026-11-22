@@ -1,6 +1,7 @@
 """B2: BB-ANS with the FP4 VAE over N parallel streams (Craystack), with the network on CPU or GPU.
 
-usage: python b2_streams.py MODEL_FILE MATRIX N[,N...] cpu|cuda [n_blocks]
+usage: python b2_streams.py MODEL_FILE MATRIX N[,N...] cpu|cuda [n_blocks] [--suffix=TAG]
+--suffix writes to {model tag}{TAG}.jsonl (used for the idle-GPU speed re-measurement, kept apart from the main runs).
 """
 import json
 import os
@@ -43,8 +44,10 @@ class VAEAdapter:
 
 
 def main():
-    model_file, name, Ns, device = sys.argv[1], sys.argv[2], [int(x) for x in sys.argv[3].split(",")], sys.argv[4]
-    limit = int(sys.argv[5]) if len(sys.argv) > 5 else None
+    suffix = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--suffix=")), "")
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    model_file, name, Ns, device = args[0], args[1], [int(x) for x in args[2].split(",")], args[3]
+    limit = int(args[4]) if len(args) > 4 else None
     torch.set_num_threads(1)
     if device == "cuda":
         torch.backends.cudnn.deterministic = True
@@ -56,7 +59,7 @@ def main():
     if limit:
         sym, E = sym[:limit], E[:limit]
     sf = V.scale_feature(E).numpy().astype(np.float32)
-    tag = os.path.basename(model_file).replace(".pt", "")
+    tag = os.path.basename(model_file).replace(".pt", "") + suffix
     for N in Ns:
         res = ST.run(ad, sym, sf, E, N)
         res.update(matrix=name, model_file=model_file, device=device, limit=limit, n_weights=len(sym) * V.B)
