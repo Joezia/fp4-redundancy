@@ -1,0 +1,6045 @@
+{
+ "source": "b2.Tree, model-wide, 256 leaves, causal v2 features, 50M training positions (b2_tree.py)",
+ "training_positions": 50000000,
+ "root_entropy_bits_per_code": 3.7759505759865566,
+ "leaf_entropy_bits_per_code": 3.5639637705923777,
+ "total_split_gain_bits_per_training_code": 0.21198680539417944,
+ "features": {
+  "scale": "块 scale 字节 E",
+  "rel_scale": "块 scale 相对本行平均 scale 的差（+8 偏移，截到 0..16）",
+  "prev1_mag": "前 1 个码值的幅度等级（0..7 = 0, 0.5, 1, 1.5, 2, 3, 4, 6；8 = 行首无前值）",
+  "prev1_sign": "前 1 个码值的符号（0 正、1 负、2 零或无）",
+  "prev2_mag": "前 2 个码值的幅度等级（8 = 无）",
+  "max_so_far": "块内已解码值的最大幅度等级 + 1（0 = 块内第 1 个）",
+  "cnt4_so_far": "块内已出现幅度 ≥ 4 的个数（截到 8）",
+  "pos": "在 32 个码值块内的位置 0..31",
+  "partner_mag": "配对矩阵同位置码值的幅度等级（w1 看 w3；8 = 无配对）",
+  "partner_sign": "配对矩阵同位置码值的符号",
+  "above_mag": "上一行同列码值的幅度等级（8 = 第一行）",
+  "role": "矩阵角色（0 = w1、1 = w2、2 = w3）",
+  "layer": "层号",
+  "mean_mag_so_far": "块内已解码值幅度等级平均值的 2 倍（15 = 块内第 1 个）",
+  "odd_so_far": "块内已出现的 0.5、1.5（奇数等级）个数（截到 8）",
+  "nz_so_far": "块内已出现的非零个数"
+ },
+ "depth": {
+  "max": 12,
+  "mean_leaf_depth": 8.78515625,
+  "sample_weighted_mean_leaf_depth": 8.62911256,
+  "leaf_depth_distribution": {
+   "5": 4,
+   "6": 13,
+   "7": 34,
+   "8": 53,
+   "9": 68,
+   "10": 57,
+   "11": 17,
+   "12": 10
+  }
+ },
+ "top3_levels": [
+  {
+   "node": 0,
+   "depth": 0,
+   "feature": "scale",
+   "threshold": 120,
+   "samples": 50000000,
+   "left": 1,
+   "right": 2,
+   "gain_bits": 5323310.808947638,
+   "gain_bits_per_training_code": 0.10646621617895276,
+   "condition": "scale ≤ 120",
+   "share_of_samples": 1.0
+  },
+  {
+   "node": 1,
+   "depth": 1,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 26004863,
+   "left": 3,
+   "right": 4,
+   "gain_bits": 2859269.9965974092,
+   "gain_bits_per_training_code": 0.05718539993194818,
+   "condition": "odd_so_far ≤ 0",
+   "share_of_samples": 0.52009726
+  },
+  {
+   "node": 2,
+   "depth": 1,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 23995137,
+   "left": 5,
+   "right": 6,
+   "gain_bits": 470039.9380454533,
+   "gain_bits_per_training_code": 0.009400798760909065,
+   "condition": "layer ≤ 39",
+   "share_of_samples": 0.47990274
+  },
+  {
+   "node": 3,
+   "depth": 2,
+   "feature": "pos",
+   "threshold": 6,
+   "samples": 15454272,
+   "left": 7,
+   "right": 8,
+   "gain_bits": 457137.1238752827,
+   "gain_bits_per_training_code": 0.009142742477505654,
+   "condition": "pos ≤ 6",
+   "share_of_samples": 0.30908544
+  },
+  {
+   "node": 4,
+   "depth": 2,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 10550591,
+   "left": 17,
+   "right": 18,
+   "gain_bits": 87473.6940579922,
+   "gain_bits_per_training_code": 0.001749473881159844,
+   "condition": "layer ≤ 39",
+   "share_of_samples": 0.21101182
+  },
+  {
+   "node": 5,
+   "depth": 2,
+   "feature": "max_so_far",
+   "threshold": 6,
+   "samples": 21006515,
+   "left": 9,
+   "right": 10,
+   "gain_bits": 207502.78743974864,
+   "gain_bits_per_training_code": 0.004150055748794973,
+   "condition": "max_so_far ≤ 6",
+   "share_of_samples": 0.4201303
+  },
+  {
+   "node": 6,
+   "depth": 2,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 2988622,
+   "left": 11,
+   "right": 12,
+   "gain_bits": 175023.99341872614,
+   "gain_bits_per_training_code": 0.003500479868374523,
+   "condition": "odd_so_far ≤ 0",
+   "share_of_samples": 0.05977244
+  }
+ ],
+ "feature_usage_ranking": [
+  {
+   "feature": "scale",
+   "description": "块 scale 字节 E",
+   "uses": 24,
+   "gain_bits_per_training_code": 0.10841558784101872,
+   "min_depth": 0,
+   "share_of_total_gain": 0.5114261127687879
+  },
+  {
+   "feature": "odd_so_far",
+   "description": "块内已出现的 0.5、1.5（奇数等级）个数（截到 8）",
+   "uses": 10,
+   "gain_bits_per_training_code": 0.06132468174251318,
+   "min_depth": 1,
+   "share_of_total_gain": 0.2892853714573548
+  },
+  {
+   "feature": "pos",
+   "description": "在 32 个码值块内的位置 0..31",
+   "uses": 46,
+   "gain_bits_per_training_code": 0.017647681264013896,
+   "min_depth": 2,
+   "share_of_total_gain": 0.08324896085489315
+  },
+  {
+   "feature": "layer",
+   "description": "层号",
+   "uses": 28,
+   "gain_bits_per_training_code": 0.011706448841200033,
+   "min_depth": 1,
+   "share_of_total_gain": 0.05522253528672431
+  },
+  {
+   "feature": "max_so_far",
+   "description": "块内已解码值的最大幅度等级 + 1（0 = 块内第 1 个）",
+   "uses": 26,
+   "gain_bits_per_training_code": 0.005177313486744739,
+   "min_depth": 2,
+   "share_of_total_gain": 0.024422810075927934
+  },
+  {
+   "feature": "rel_scale",
+   "description": "块 scale 相对本行平均 scale 的差（+8 偏移，截到 0..16）",
+   "uses": 38,
+   "gain_bits_per_training_code": 0.004185049823760589,
+   "min_depth": 3,
+   "share_of_total_gain": 0.01974202977387525
+  },
+  {
+   "feature": "mean_mag_so_far",
+   "description": "块内已解码值幅度等级平均值的 2 倍（15 = 块内第 1 个）",
+   "uses": 36,
+   "gain_bits_per_training_code": 0.0024732279898970395,
+   "min_depth": 3,
+   "share_of_total_gain": 0.011666895896177072
+  },
+  {
+   "feature": "above_mag",
+   "description": "上一行同列码值的幅度等级（8 = 第一行）",
+   "uses": 17,
+   "gain_bits_per_training_code": 0.0007881548869534408,
+   "min_depth": 4,
+   "share_of_total_gain": 0.00371794313088451
+  },
+  {
+   "feature": "partner_mag",
+   "description": "配对矩阵同位置码值的幅度等级（w1 看 w3；8 = 无配对）",
+   "uses": 15,
+   "gain_bits_per_training_code": 0.00013825072752891168,
+   "min_depth": 5,
+   "share_of_total_gain": 0.000652166663259258
+  },
+  {
+   "feature": "role",
+   "description": "矩阵角色（0 = w1、1 = w2、2 = w3）",
+   "uses": 12,
+   "gain_bits_per_training_code": 0.00011577224912674631,
+   "min_depth": 6,
+   "share_of_total_gain": 0.0005461295051428945
+  },
+  {
+   "feature": "nz_so_far",
+   "description": "块内已出现的非零个数",
+   "uses": 3,
+   "gain_bits_per_training_code": 1.463654142197027e-05,
+   "min_depth": 8,
+   "share_of_total_gain": 6.904458697207268e-05
+  },
+  {
+   "feature": "prev1_mag",
+   "description": "前 1 个码值的幅度等级（0..7 = 0, 0.5, 1, 1.5, 2, 3, 4, 6；8 = 行首无前值）",
+   "uses": 0,
+   "gain_bits_per_training_code": 0.0,
+   "share_of_total_gain": 0.0,
+   "min_depth": null
+  },
+  {
+   "feature": "prev1_sign",
+   "description": "前 1 个码值的符号（0 正、1 负、2 零或无）",
+   "uses": 0,
+   "gain_bits_per_training_code": 0.0,
+   "share_of_total_gain": 0.0,
+   "min_depth": null
+  },
+  {
+   "feature": "prev2_mag",
+   "description": "前 2 个码值的幅度等级（8 = 无）",
+   "uses": 0,
+   "gain_bits_per_training_code": 0.0,
+   "share_of_total_gain": 0.0,
+   "min_depth": null
+  },
+  {
+   "feature": "cnt4_so_far",
+   "description": "块内已出现幅度 ≥ 4 的个数（截到 8）",
+   "uses": 0,
+   "gain_bits_per_training_code": 0.0,
+   "share_of_total_gain": 0.0,
+   "min_depth": null
+  },
+  {
+   "feature": "partner_sign",
+   "description": "配对矩阵同位置码值的符号",
+   "uses": 0,
+   "gain_bits_per_training_code": 0.0,
+   "share_of_total_gain": 0.0,
+   "min_depth": null
+  }
+ ],
+ "leaf_size": {
+  "min": 2004,
+  "median": 49838.0,
+  "max": 4375525,
+  "distribution": [
+   {
+    "from": 2000,
+    "to_below": 5000,
+    "leaves": 61,
+    "share_of_samples": 0.00381152
+   },
+   {
+    "from": 5000,
+    "to_below": 10000,
+    "leaves": 20,
+    "share_of_samples": 0.0027619
+   },
+   {
+    "from": 10000,
+    "to_below": 50000,
+    "leaves": 47,
+    "share_of_samples": 0.02258022
+   },
+   {
+    "from": 50000,
+    "to_below": 100000,
+    "leaves": 34,
+    "share_of_samples": 0.0529145
+   },
+   {
+    "from": 100000,
+    "to_below": 500000,
+    "leaves": 65,
+    "share_of_samples": 0.2835308
+   },
+   {
+    "from": 500000,
+    "to_below": 1000000,
+    "leaves": 17,
+    "share_of_samples": 0.22784658
+   },
+   {
+    "from": 1000000,
+    "to_below": 5000000,
+    "leaves": 12,
+    "share_of_samples": 0.40655448
+   },
+   {
+    "from": 5000000,
+    "to_below": 1000000000,
+    "leaves": 0,
+    "share_of_samples": 0.0
+   }
+  ]
+ },
+ "representative_leaves": {
+  "largest": [
+   {
+    "node": 300,
+    "leaf_id": 79,
+    "depth": 6,
+    "samples": 4375525,
+    "share": 0.0875105,
+    "bits_per_code_with_table": 3.841290289701792,
+    "empirical_entropy": 3.8412893022785837,
+    "conditions": [
+     {
+      "feature": "scale",
+      "min": null,
+      "max": 120,
+      "text": "scale ≤ 120"
+     },
+     {
+      "feature": "odd_so_far",
+      "min": 1,
+      "max": null,
+      "text": "odd_so_far ≥ 1"
+     },
+     {
+      "feature": "layer",
+      "min": null,
+      "max": 26,
+      "text": "layer ≤ 26"
+     },
+     {
+      "feature": "rel_scale",
+      "min": 8,
+      "max": null,
+      "text": "rel_scale ≥ 8"
+     },
+     {
+      "feature": "partner_mag",
+      "min": 3,
+      "max": null,
+      "text": "partner_mag ≥ 3"
+     }
+    ],
+    "path": [
+     {
+      "feature": "scale",
+      "threshold": 120,
+      "branch": "≤"
+     },
+     {
+      "feature": "odd_so_far",
+      "threshold": 0,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 39,
+      "branch": "≤"
+     },
+     {
+      "feature": "rel_scale",
+      "threshold": 7,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 26,
+      "branch": "≤"
+     },
+     {
+      "feature": "partner_mag",
+      "threshold": 2,
+      "branch": ">"
+     }
+    ],
+    "probabilities": {
+     "0": 0.072021484375,
+     "+0.5": 0.07080078125,
+     "+1": 0.067626953125,
+     "+1.5": 0.0625,
+     "+2": 0.081787109375,
+     "+3": 0.08349609375,
+     "+4": 0.073974609375,
+     "+6": 0.023681640625,
+     "-0.5": 0.070556640625,
+     "-1": 0.0673828125,
+     "-1.5": 0.0625,
+     "-2": 0.08203125,
+     "-3": 0.083740234375,
+     "-4": 0.073974609375,
+     "-6": 0.02392578125
+    }
+   },
+   {
+    "node": 404,
+    "leaf_id": 160,
+    "depth": 9,
+    "samples": 2170487,
+    "share": 0.04340974,
+    "bits_per_code_with_table": 3.43160701072242,
+    "empirical_entropy": 3.431586489269841,
+    "conditions": [
+     {
+      "feature": "scale",
+      "min": 121,
+      "max": 121,
+      "text": "121 ≤ scale ≤ 121"
+     },
+     {
+      "feature": "layer",
+      "min": null,
+      "max": 21,
+      "text": "layer ≤ 21"
+     },
+     {
+      "feature": "max_so_far",
+      "min": 7,
+      "max": null,
+      "text": "max_so_far ≥ 7"
+     },
+     {
+      "feature": "rel_scale",
+      "min": 9,
+      "max": null,
+      "text": "rel_scale ≥ 9"
+     },
+     {
+      "feature": "odd_so_far",
+      "min": 1,
+      "max": null,
+      "text": "odd_so_far ≥ 1"
+     },
+     {
+      "feature": "partner_mag",
+      "min": 3,
+      "max": null,
+      "text": "partner_mag ≥ 3"
+     },
+     {
+      "feature": "role",
+      "min": 1,
+      "max": null,
+      "text": "role ≥ 1"
+     }
+    ],
+    "path": [
+     {
+      "feature": "scale",
+      "threshold": 120,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 39,
+      "branch": "≤"
+     },
+     {
+      "feature": "max_so_far",
+      "threshold": 6,
+      "branch": ">"
+     },
+     {
+      "feature": "rel_scale",
+      "threshold": 8,
+      "branch": ">"
+     },
+     {
+      "feature": "scale",
+      "threshold": 121,
+      "branch": "≤"
+     },
+     {
+      "feature": "odd_so_far",
+      "threshold": 0,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 21,
+      "branch": "≤"
+     },
+     {
+      "feature": "partner_mag",
+      "threshold": 2,
+      "branch": ">"
+     },
+     {
+      "feature": "role",
+      "threshold": 0,
+      "branch": ">"
+     }
+    ],
+    "probabilities": {
+     "0": 0.136962890625,
+     "+0.5": 0.128662109375,
+     "+1": 0.10791015625,
+     "+1.5": 0.08056640625,
+     "+2": 0.071533203125,
+     "+3": 0.034912109375,
+     "+4": 0.0078125,
+     "+6": 0.000244140625,
+     "-0.5": 0.12841796875,
+     "-1": 0.107666015625,
+     "-1.5": 0.080810546875,
+     "-2": 0.07177734375,
+     "-3": 0.03466796875,
+     "-4": 0.0078125,
+     "-6": 0.000244140625
+    }
+   },
+   {
+    "node": 278,
+    "leaf_id": 62,
+    "depth": 5,
+    "samples": 2043011,
+    "share": 0.04086022,
+    "bits_per_code_with_table": 3.8443041475887356,
+    "empirical_entropy": 3.84430343768754,
+    "conditions": [
+     {
+      "feature": "scale",
+      "min": null,
+      "max": 120,
+      "text": "scale ≤ 120"
+     },
+     {
+      "feature": "odd_so_far",
+      "min": 1,
+      "max": null,
+      "text": "odd_so_far ≥ 1"
+     },
+     {
+      "feature": "layer",
+      "min": 27,
+      "max": 39,
+      "text": "27 ≤ layer ≤ 39"
+     },
+     {
+      "feature": "rel_scale",
+      "min": 8,
+      "max": null,
+      "text": "rel_scale ≥ 8"
+     }
+    ],
+    "path": [
+     {
+      "feature": "scale",
+      "threshold": 120,
+      "branch": "≤"
+     },
+     {
+      "feature": "odd_so_far",
+      "threshold": 0,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 39,
+      "branch": "≤"
+     },
+     {
+      "feature": "rel_scale",
+      "threshold": 7,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 26,
+      "branch": ">"
+     }
+    ],
+    "probabilities": {
+     "0": 0.0703125,
+     "+0.5": 0.0703125,
+     "+1": 0.066650390625,
+     "+1.5": 0.062255859375,
+     "+2": 0.081298828125,
+     "+3": 0.083984375,
+     "+4": 0.075439453125,
+     "+6": 0.02490234375,
+     "-0.5": 0.06982421875,
+     "-1": 0.06689453125,
+     "-1.5": 0.06201171875,
+     "-2": 0.081787109375,
+     "-3": 0.083740234375,
+     "-4": 0.07568359375,
+     "-6": 0.02490234375
+    }
+   }
+  ],
+  "lowest_code_length": [
+   {
+    "node": 345,
+    "leaf_id": 110,
+    "depth": 7,
+    "samples": 12379,
+    "share": 0.00024758,
+    "bits_per_code_with_table": 0.320182883498802,
+    "empirical_entropy": 0.32010079597300944,
+    "conditions": [
+     {
+      "feature": "scale",
+      "min": 121,
+      "max": null,
+      "text": "scale ≥ 121"
+     },
+     {
+      "feature": "layer",
+      "min": 40,
+      "max": null,
+      "text": "layer ≥ 40"
+     },
+     {
+      "feature": "odd_so_far",
+      "min": null,
+      "max": 0,
+      "text": "odd_so_far ≤ 0"
+     },
+     {
+      "feature": "pos",
+      "min": 7,
+      "max": null,
+      "text": "pos ≥ 7"
+     },
+     {
+      "feature": "rel_scale",
+      "min": 9,
+      "max": null,
+      "text": "rel_scale ≥ 9"
+     },
+     {
+      "feature": "above_mag",
+      "min": null,
+      "max": 0,
+      "text": "above_mag ≤ 0"
+     }
+    ],
+    "path": [
+     {
+      "feature": "scale",
+      "threshold": 120,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 39,
+      "branch": ">"
+     },
+     {
+      "feature": "odd_so_far",
+      "threshold": 0,
+      "branch": "≤"
+     },
+     {
+      "feature": "pos",
+      "threshold": 6,
+      "branch": ">"
+     },
+     {
+      "feature": "rel_scale",
+      "threshold": 8,
+      "branch": ">"
+     },
+     {
+      "feature": "above_mag",
+      "threshold": 1,
+      "branch": "≤"
+     },
+     {
+      "feature": "above_mag",
+      "threshold": 0,
+      "branch": "≤"
+     }
+    ],
+    "probabilities": {
+     "0": 0.964111328125,
+     "+0.5": 0.0107421875,
+     "+1": 0.0029296875,
+     "+1.5": 0.000732421875,
+     "+2": 0.0009765625,
+     "+3": 0.000244140625,
+     "+4": 0.000244140625,
+     "+6": 0.00048828125,
+     "-0.5": 0.012939453125,
+     "-1": 0.00341796875,
+     "-1.5": 0.000732421875,
+     "-2": 0.0009765625,
+     "-3": 0.000244140625,
+     "-4": 0.0009765625,
+     "-6": 0.000244140625
+    }
+   },
+   {
+    "node": 139,
+    "leaf_id": 7,
+    "depth": 7,
+    "samples": 7864,
+    "share": 0.00015728,
+    "bits_per_code_with_table": 0.3304187607228054,
+    "empirical_entropy": 0.330289844951474,
+    "conditions": [
+     {
+      "feature": "scale",
+      "min": 121,
+      "max": 122,
+      "text": "121 ≤ scale ≤ 122"
+     },
+     {
+      "feature": "layer",
+      "min": 40,
+      "max": null,
+      "text": "layer ≥ 40"
+     },
+     {
+      "feature": "odd_so_far",
+      "min": null,
+      "max": 0,
+      "text": "odd_so_far ≤ 0"
+     },
+     {
+      "feature": "pos",
+      "min": null,
+      "max": 6,
+      "text": "pos ≤ 6"
+     },
+     {
+      "feature": "rel_scale",
+      "min": 9,
+      "max": null,
+      "text": "rel_scale ≥ 9"
+     },
+     {
+      "feature": "above_mag",
+      "min": null,
+      "max": 0,
+      "text": "above_mag ≤ 0"
+     }
+    ],
+    "path": [
+     {
+      "feature": "scale",
+      "threshold": 120,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 39,
+      "branch": ">"
+     },
+     {
+      "feature": "odd_so_far",
+      "threshold": 0,
+      "branch": "≤"
+     },
+     {
+      "feature": "pos",
+      "threshold": 6,
+      "branch": "≤"
+     },
+     {
+      "feature": "rel_scale",
+      "threshold": 8,
+      "branch": ">"
+     },
+     {
+      "feature": "scale",
+      "threshold": 122,
+      "branch": "≤"
+     },
+     {
+      "feature": "above_mag",
+      "threshold": 0,
+      "branch": "≤"
+     }
+    ],
+    "probabilities": {
+     "0": 0.9609375,
+     "+0.5": 0.014404296875,
+     "+1": 0.003662109375,
+     "+1.5": 0.001708984375,
+     "+2": 0.000732421875,
+     "+3": 0.000732421875,
+     "+4": 0.0009765625,
+     "+6": 0.000244140625,
+     "-0.5": 0.011962890625,
+     "-1": 0.001953125,
+     "-1.5": 0.000732421875,
+     "-2": 0.00048828125,
+     "-3": 0.00048828125,
+     "-4": 0.00048828125,
+     "-6": 0.00048828125
+    }
+   },
+   {
+    "node": 371,
+    "leaf_id": 132,
+    "depth": 8,
+    "samples": 17207,
+    "share": 0.00034414,
+    "bits_per_code_with_table": 0.3959215455020599,
+    "empirical_entropy": 0.3958675550472362,
+    "conditions": [
+     {
+      "feature": "scale",
+      "min": 121,
+      "max": 122,
+      "text": "121 ≤ scale ≤ 122"
+     },
+     {
+      "feature": "layer",
+      "min": 40,
+      "max": null,
+      "text": "layer ≥ 40"
+     },
+     {
+      "feature": "odd_so_far",
+      "min": 1,
+      "max": null,
+      "text": "odd_so_far ≥ 1"
+     },
+     {
+      "feature": "rel_scale",
+      "min": 9,
+      "max": null,
+      "text": "rel_scale ≥ 9"
+     },
+     {
+      "feature": "above_mag",
+      "min": null,
+      "max": 0,
+      "text": "above_mag ≤ 0"
+     },
+     {
+      "feature": "mean_mag_so_far",
+      "min": null,
+      "max": 1,
+      "text": "mean_mag_so_far ≤ 1"
+     }
+    ],
+    "path": [
+     {
+      "feature": "scale",
+      "threshold": 120,
+      "branch": ">"
+     },
+     {
+      "feature": "layer",
+      "threshold": 39,
+      "branch": ">"
+     },
+     {
+      "feature": "odd_so_far",
+      "threshold": 0,
+      "branch": ">"
+     },
+     {
+      "feature": "rel_scale",
+      "threshold": 8,
+      "branch": ">"
+     },
+     {
+      "feature": "scale",
+      "threshold": 122,
+      "branch": "≤"
+     },
+     {
+      "feature": "above_mag",
+      "threshold": 1,
+      "branch": "≤"
+     },
+     {
+      "feature": "above_mag",
+      "threshold": 0,
+      "branch": "≤"
+     },
+     {
+      "feature": "mean_mag_so_far",
+      "threshold": 1,
+      "branch": "≤"
+     }
+    ],
+    "probabilities": {
+     "0": 0.950927734375,
+     "+0.5": 0.020751953125,
+     "+1": 0.00244140625,
+     "+1.5": 0.0009765625,
+     "+2": 0.001220703125,
+     "+3": 0.0009765625,
+     "+4": 0.000732421875,
+     "+6": 0.000244140625,
+     "-0.5": 0.016845703125,
+     "-1": 0.00146484375,
+     "-1.5": 0.000732421875,
+     "-2": 0.000732421875,
+     "-3": 0.00048828125,
+     "-4": 0.001220703125,
+     "-6": 0.000244140625
+    }
+   }
+  ]
+ },
+ "all_internal_nodes": [
+  {
+   "node": 0,
+   "depth": 0,
+   "feature": "scale",
+   "threshold": 120,
+   "samples": 50000000,
+   "left": 1,
+   "right": 2,
+   "gain_bits": 5323310.808947638,
+   "gain_bits_per_training_code": 0.10646621617895276,
+   "condition": "scale ≤ 120",
+   "share_of_samples": 1.0
+  },
+  {
+   "node": 1,
+   "depth": 1,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 26004863,
+   "left": 3,
+   "right": 4,
+   "gain_bits": 2859269.9965974092,
+   "gain_bits_per_training_code": 0.05718539993194818,
+   "condition": "odd_so_far ≤ 0",
+   "share_of_samples": 0.52009726
+  },
+  {
+   "node": 2,
+   "depth": 1,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 23995137,
+   "left": 5,
+   "right": 6,
+   "gain_bits": 470039.9380454533,
+   "gain_bits_per_training_code": 0.009400798760909065,
+   "condition": "layer ≤ 39",
+   "share_of_samples": 0.47990274
+  },
+  {
+   "node": 3,
+   "depth": 2,
+   "feature": "pos",
+   "threshold": 6,
+   "samples": 15454272,
+   "left": 7,
+   "right": 8,
+   "gain_bits": 457137.1238752827,
+   "gain_bits_per_training_code": 0.009142742477505654,
+   "condition": "pos ≤ 6",
+   "share_of_samples": 0.30908544
+  },
+  {
+   "node": 4,
+   "depth": 2,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 10550591,
+   "left": 17,
+   "right": 18,
+   "gain_bits": 87473.6940579922,
+   "gain_bits_per_training_code": 0.001749473881159844,
+   "condition": "layer ≤ 39",
+   "share_of_samples": 0.21101182
+  },
+  {
+   "node": 5,
+   "depth": 2,
+   "feature": "max_so_far",
+   "threshold": 6,
+   "samples": 21006515,
+   "left": 9,
+   "right": 10,
+   "gain_bits": 207502.78743974864,
+   "gain_bits_per_training_code": 0.004150055748794973,
+   "condition": "max_so_far ≤ 6",
+   "share_of_samples": 0.4201303
+  },
+  {
+   "node": 6,
+   "depth": 2,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 2988622,
+   "left": 11,
+   "right": 12,
+   "gain_bits": 175023.99341872614,
+   "gain_bits_per_training_code": 0.003500479868374523,
+   "condition": "odd_so_far ≤ 0",
+   "share_of_samples": 0.05977244
+  },
+  {
+   "node": 7,
+   "depth": 3,
+   "feature": "pos",
+   "threshold": 2,
+   "samples": 4314741,
+   "left": 27,
+   "right": 28,
+   "gain_bits": 37397.42751645576,
+   "gain_bits_per_training_code": 0.0007479485503291152
+  },
+  {
+   "node": 8,
+   "depth": 3,
+   "feature": "pos",
+   "threshold": 13,
+   "samples": 11139531,
+   "left": 23,
+   "right": 24,
+   "gain_bits": 49213.035306826234,
+   "gain_bits_per_training_code": 0.0009842607061365247
+  },
+  {
+   "node": 9,
+   "depth": 3,
+   "feature": "pos",
+   "threshold": 23,
+   "samples": 9675041,
+   "left": 13,
+   "right": 14,
+   "gain_bits": 114872.97087257472,
+   "gain_bits_per_training_code": 0.0022974594174514943
+  },
+  {
+   "node": 10,
+   "depth": 3,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 11331474,
+   "left": 37,
+   "right": 38,
+   "gain_bits": 23153.40518317744,
+   "gain_bits_per_training_code": 0.00046306810366354885
+  },
+  {
+   "node": 11,
+   "depth": 3,
+   "feature": "pos",
+   "threshold": 6,
+   "samples": 882898,
+   "left": 19,
+   "right": 20,
+   "gain_bits": 70190.14878372569,
+   "gain_bits_per_training_code": 0.0014038029756745136
+  },
+  {
+   "node": 12,
+   "depth": 3,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 2105724,
+   "left": 15,
+   "right": 16,
+   "gain_bits": 95132.67128050793,
+   "gain_bits_per_training_code": 0.0019026534256101587
+  },
+  {
+   "node": 13,
+   "depth": 4,
+   "feature": "pos",
+   "threshold": 13,
+   "samples": 9121925,
+   "left": 35,
+   "right": 36,
+   "gain_bits": 23691.869856264442,
+   "gain_bits_per_training_code": 0.0004738373971252888
+  },
+  {
+   "node": 14,
+   "depth": 4,
+   "feature": "pos",
+   "threshold": 30,
+   "samples": 553116,
+   "left": 31,
+   "right": 32,
+   "gain_bits": 31771.903302878116,
+   "gain_bits_per_training_code": 0.0006354380660575623
+  },
+  {
+   "node": 15,
+   "depth": 4,
+   "feature": "layer",
+   "threshold": 41,
+   "samples": 1771196,
+   "left": 127,
+   "right": 128,
+   "gain_bits": 2277.869668589672,
+   "gain_bits_per_training_code": 4.555739337179344e-05
+  },
+  {
+   "node": 16,
+   "depth": 4,
+   "feature": "scale",
+   "threshold": 122,
+   "samples": 334528,
+   "left": 25,
+   "right": 26,
+   "gain_bits": 38015.006922012195,
+   "gain_bits_per_training_code": 0.0007603001384402439
+  },
+  {
+   "node": 17,
+   "depth": 3,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 10211635,
+   "left": 95,
+   "right": 96,
+   "gain_bits": 4035.5939852558076,
+   "gain_bits_per_training_code": 8.071187970511615e-05
+  },
+  {
+   "node": 18,
+   "depth": 3,
+   "feature": "mean_mag_so_far",
+   "threshold": 2,
+   "samples": 338956,
+   "left": 21,
+   "right": 22,
+   "gain_bits": 53206.13133010769,
+   "gain_bits_per_training_code": 0.0010641226266021537
+  },
+  {
+   "node": 19,
+   "depth": 4,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 356902,
+   "left": 39,
+   "right": 40,
+   "gain_bits": 18997.14169965779,
+   "gain_bits_per_training_code": 0.0003799428339931558
+  },
+  {
+   "node": 20,
+   "depth": 4,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 525996,
+   "left": 29,
+   "right": 30,
+   "gain_bits": 32150.48350238844,
+   "gain_bits_per_training_code": 0.0006430096700477688
+  },
+  {
+   "node": 21,
+   "depth": 4,
+   "feature": "above_mag",
+   "threshold": 2,
+   "samples": 72837,
+   "left": 51,
+   "right": 52,
+   "gain_bits": 11468.20816222293,
+   "gain_bits_per_training_code": 0.0002293641632444586
+  },
+  {
+   "node": 22,
+   "depth": 4,
+   "feature": "scale",
+   "threshold": 116,
+   "samples": 266119,
+   "left": 69,
+   "right": 70,
+   "gain_bits": 6579.98245192389,
+   "gain_bits_per_training_code": 0.00013159964903847781
+  },
+  {
+   "node": 23,
+   "depth": 4,
+   "feature": "mean_mag_so_far",
+   "threshold": 2,
+   "samples": 3217701,
+   "left": 55,
+   "right": 56,
+   "gain_bits": 9795.079205248505,
+   "gain_bits_per_training_code": 0.0001959015841049701
+  },
+  {
+   "node": 24,
+   "depth": 4,
+   "feature": "mean_mag_so_far",
+   "threshold": 3,
+   "samples": 7921830,
+   "left": 33,
+   "right": 34,
+   "gain_bits": 25182.98100648448,
+   "gain_bits_per_training_code": 0.0005036596201296896
+  },
+  {
+   "node": 25,
+   "depth": 5,
+   "feature": "above_mag",
+   "threshold": 1,
+   "samples": 31300,
+   "left": 59,
+   "right": 60,
+   "gain_bits": 8268.719049108135,
+   "gain_bits_per_training_code": 0.00016537438098216268
+  },
+  {
+   "node": 26,
+   "depth": 5,
+   "feature": "max_so_far",
+   "threshold": 6,
+   "samples": 303228,
+   "left": 65,
+   "right": 66,
+   "gain_bits": 6932.029824974248,
+   "gain_bits_per_training_code": 0.00013864059649948497
+  },
+  {
+   "node": 27,
+   "depth": 4,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 2166190,
+   "left": 53,
+   "right": 54,
+   "gain_bits": 9952.162653093677,
+   "gain_bits_per_training_code": 0.00019904325306187355
+  },
+  {
+   "node": 28,
+   "depth": 4,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 2148551,
+   "left": 77,
+   "right": 78,
+   "gain_bits": 5789.313960559797,
+   "gain_bits_per_training_code": 0.00011578627921119594
+  },
+  {
+   "node": 29,
+   "depth": 5,
+   "feature": "pos",
+   "threshold": 11,
+   "samples": 508872,
+   "left": 73,
+   "right": 74,
+   "gain_bits": 6271.091230615741,
+   "gain_bits_per_training_code": 0.0001254218246123148
+  },
+  {
+   "node": 30,
+   "depth": 5,
+   "feature": "above_mag",
+   "threshold": 1,
+   "samples": 17124,
+   "left": 105,
+   "right": 106,
+   "gain_bits": 3688.9169833352753,
+   "gain_bits_per_training_code": 7.37783396667055e-05
+  },
+  {
+   "node": 31,
+   "depth": 5,
+   "feature": "pos",
+   "threshold": 28,
+   "samples": 538669,
+   "left": 43,
+   "right": 44,
+   "gain_bits": 13363.432145751955,
+   "gain_bits_per_training_code": 0.0002672686429150391
+  },
+  {
+   "node": 33,
+   "depth": 5,
+   "feature": "above_mag",
+   "threshold": 2,
+   "samples": 18661,
+   "left": 109,
+   "right": 110,
+   "gain_bits": 3176.4439337435506,
+   "gain_bits_per_training_code": 6.352887867487101e-05
+  },
+  {
+   "node": 34,
+   "depth": 5,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 7903169,
+   "left": 41,
+   "right": 42,
+   "gain_bits": 16247.270482156426,
+   "gain_bits_per_training_code": 0.00032494540964312854
+  },
+  {
+   "node": 35,
+   "depth": 5,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 6857233,
+   "left": 61,
+   "right": 62,
+   "gain_bits": 7844.965357540175,
+   "gain_bits_per_training_code": 0.00015689930715080352
+  },
+  {
+   "node": 36,
+   "depth": 5,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 2264692,
+   "left": 57,
+   "right": 58,
+   "gain_bits": 9363.080860724673,
+   "gain_bits_per_training_code": 0.00018726161721449344
+  },
+  {
+   "node": 37,
+   "depth": 4,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 4148273,
+   "left": 45,
+   "right": 46,
+   "gain_bits": 12542.376716779545,
+   "gain_bits_per_training_code": 0.0002508475343355909
+  },
+  {
+   "node": 38,
+   "depth": 4,
+   "feature": "scale",
+   "threshold": 121,
+   "samples": 7183201,
+   "left": 75,
+   "right": 76,
+   "gain_bits": 6257.2617112990265,
+   "gain_bits_per_training_code": 0.00012514523422598053
+  },
+  {
+   "node": 39,
+   "depth": 5,
+   "feature": "pos",
+   "threshold": 3,
+   "samples": 323364,
+   "left": 99,
+   "right": 100,
+   "gain_bits": 3815.0261770715006,
+   "gain_bits_per_training_code": 7.630052354143001e-05
+  },
+  {
+   "node": 40,
+   "depth": 5,
+   "feature": "scale",
+   "threshold": 122,
+   "samples": 33538,
+   "left": 49,
+   "right": 50,
+   "gain_bits": 11931.757106963283,
+   "gain_bits_per_training_code": 0.00023863514213926567
+  },
+  {
+   "node": 41,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 26,
+   "samples": 682683,
+   "left": 63,
+   "right": 64,
+   "gain_bits": 7218.918749452729,
+   "gain_bits_per_training_code": 0.00014437837498905458
+  },
+  {
+   "node": 42,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 7220486,
+   "left": 89,
+   "right": 90,
+   "gain_bits": 4637.542500890791,
+   "gain_bits_per_training_code": 9.275085001781582e-05
+  },
+  {
+   "node": 43,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 26,
+   "samples": 464396,
+   "left": 117,
+   "right": 118,
+   "gain_bits": 2880.039276169555,
+   "gain_bits_per_training_code": 5.7600785523391096e-05
+  },
+  {
+   "node": 44,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 29,
+   "samples": 74273,
+   "left": 161,
+   "right": 162,
+   "gain_bits": 1453.7958009961294,
+   "gain_bits_per_training_code": 2.907591601992259e-05
+  },
+  {
+   "node": 45,
+   "depth": 5,
+   "feature": "pos",
+   "threshold": 11,
+   "samples": 110836,
+   "left": 47,
+   "right": 48,
+   "gain_bits": 16974.70207594418,
+   "gain_bits_per_training_code": 0.0003394940415188836
+  },
+  {
+   "node": 46,
+   "depth": 5,
+   "feature": "layer",
+   "threshold": 37,
+   "samples": 4037437,
+   "left": 155,
+   "right": 156,
+   "gain_bits": 1666.6429802994244,
+   "gain_bits_per_training_code": 3.333285960598849e-05
+  },
+  {
+   "node": 47,
+   "depth": 6,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 70719,
+   "left": 167,
+   "right": 168,
+   "gain_bits": 1397.1554537325756,
+   "gain_bits_per_training_code": 2.7943109074651512e-05
+  },
+  {
+   "node": 48,
+   "depth": 6,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 40117,
+   "left": 147,
+   "right": 148,
+   "gain_bits": 1867.8903061044984,
+   "gain_bits_per_training_code": 3.735780612208997e-05
+  },
+  {
+   "node": 49,
+   "depth": 6,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 10672,
+   "left": 139,
+   "right": 140,
+   "gain_bits": 1974.4646314942056,
+   "gain_bits_per_training_code": 3.948929262988411e-05
+  },
+  {
+   "node": 51,
+   "depth": 5,
+   "feature": "scale",
+   "threshold": 119,
+   "samples": 62869,
+   "left": 83,
+   "right": 84,
+   "gain_bits": 5501.951906576258,
+   "gain_bits_per_training_code": 0.00011003903813152515
+  },
+  {
+   "node": 52,
+   "depth": 5,
+   "feature": "above_mag",
+   "threshold": 5,
+   "samples": 9968,
+   "left": 213,
+   "right": 214,
+   "gain_bits": 923.1613914952777,
+   "gain_bits_per_training_code": 1.8463227829905555e-05
+  },
+  {
+   "node": 53,
+   "depth": 5,
+   "feature": "mean_mag_so_far",
+   "threshold": 9,
+   "samples": 2129524,
+   "left": 79,
+   "right": 80,
+   "gain_bits": 5709.62241243571,
+   "gain_bits_per_training_code": 0.00011419244824871421
+  },
+  {
+   "node": 54,
+   "depth": 5,
+   "feature": "scale",
+   "threshold": 118,
+   "samples": 36666,
+   "left": 67,
+   "right": 68,
+   "gain_bits": 6687.163722667869,
+   "gain_bits_per_training_code": 0.00013374327445335736
+  },
+  {
+   "node": 55,
+   "depth": 5,
+   "feature": "above_mag",
+   "threshold": 1,
+   "samples": 8130,
+   "left": 157,
+   "right": 158,
+   "gain_bits": 1665.986684895087,
+   "gain_bits_per_training_code": 3.331973369790174e-05
+  },
+  {
+   "node": 56,
+   "depth": 5,
+   "feature": "pos",
+   "threshold": 9,
+   "samples": 3209571,
+   "left": 71,
+   "right": 72,
+   "gain_bits": 6349.45329598058,
+   "gain_bits_per_training_code": 0.0001269890659196116
+  },
+  {
+   "node": 58,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 18,
+   "samples": 2254210,
+   "left": 97,
+   "right": 98,
+   "gain_bits": 3861.7395100183785,
+   "gain_bits_per_training_code": 7.723479020036757e-05
+  },
+  {
+   "node": 59,
+   "depth": 6,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 24829,
+   "left": 203,
+   "right": 204,
+   "gain_bits": 980.7801288525516,
+   "gain_bits_per_training_code": 1.9615602577051032e-05
+  },
+  {
+   "node": 60,
+   "depth": 6,
+   "feature": "max_so_far",
+   "threshold": 6,
+   "samples": 6471,
+   "left": 267,
+   "right": 268,
+   "gain_bits": 603.5572173660094,
+   "gain_bits_per_training_code": 1.2071144347320187e-05
+  },
+  {
+   "node": 61,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 6,
+   "samples": 2374996,
+   "left": 217,
+   "right": 218,
+   "gain_bits": 900.718438074924,
+   "gain_bits_per_training_code": 1.801436876149848e-05
+  },
+  {
+   "node": 62,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 121,
+   "samples": 4482237,
+   "left": 91,
+   "right": 92,
+   "gain_bits": 4578.8000776888,
+   "gain_bits_per_training_code": 9.157600155377601e-05
+  },
+  {
+   "node": 63,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 20,
+   "samples": 649506,
+   "left": 149,
+   "right": 150,
+   "gain_bits": 1833.050037334906,
+   "gain_bits_per_training_code": 3.666100074669812e-05
+  },
+  {
+   "node": 64,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 29,
+   "samples": 33177,
+   "left": 131,
+   "right": 132,
+   "gain_bits": 2165.1317820378354,
+   "gain_bits_per_training_code": 4.3302635640756704e-05
+  },
+  {
+   "node": 65,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 24,
+   "samples": 142560,
+   "left": 129,
+   "right": 130,
+   "gain_bits": 2243.8706143964555,
+   "gain_bits_per_training_code": 4.487741228792911e-05
+  },
+  {
+   "node": 66,
+   "depth": 6,
+   "feature": "layer",
+   "threshold": 41,
+   "samples": 160668,
+   "left": 333,
+   "right": 334,
+   "gain_bits": 352.96467743453104,
+   "gain_bits_per_training_code": 7.059293548690621e-06
+  },
+  {
+   "node": 67,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 116,
+   "samples": 26422,
+   "left": 187,
+   "right": 188,
+   "gain_bits": 1188.6822856241124,
+   "gain_bits_per_training_code": 2.3773645712482247e-05
+  },
+  {
+   "node": 68,
+   "depth": 6,
+   "feature": "above_mag",
+   "threshold": 1,
+   "samples": 10244,
+   "left": 143,
+   "right": 144,
+   "gain_bits": 1967.389506950416,
+   "gain_bits_per_training_code": 3.934779013900832e-05
+  },
+  {
+   "node": 69,
+   "depth": 5,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 69146,
+   "left": 315,
+   "right": 316,
+   "gain_bits": 393.35521336228703,
+   "gain_bits_per_training_code": 7.867104267245741e-06
+  },
+  {
+   "node": 70,
+   "depth": 5,
+   "feature": "mean_mag_so_far",
+   "threshold": 3,
+   "samples": 196973,
+   "left": 93,
+   "right": 94,
+   "gain_bits": 4372.65740198479,
+   "gain_bits_per_training_code": 8.745314803969581e-05
+  },
+  {
+   "node": 71,
+   "depth": 6,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 1411279,
+   "left": 115,
+   "right": 116,
+   "gain_bits": 2976.049817657098,
+   "gain_bits_per_training_code": 5.9520996353141965e-05
+  },
+  {
+   "node": 72,
+   "depth": 6,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 1798292,
+   "left": 121,
+   "right": 122,
+   "gain_bits": 2357.7818733048625,
+   "gain_bits_per_training_code": 4.715563746609725e-05
+  },
+  {
+   "node": 73,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 111510,
+   "left": 199,
+   "right": 200,
+   "gain_bits": 1064.456697424932,
+   "gain_bits_per_training_code": 2.1289133948498637e-05
+  },
+  {
+   "node": 74,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 397362,
+   "left": 107,
+   "right": 108,
+   "gain_bits": 3585.4348352712113,
+   "gain_bits_per_training_code": 7.170869670542423e-05
+  },
+  {
+   "node": 75,
+   "depth": 5,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 7166079,
+   "left": 101,
+   "right": 102,
+   "gain_bits": 3737.333666317165,
+   "gain_bits_per_training_code": 7.47466733263433e-05
+  },
+  {
+   "node": 76,
+   "depth": 5,
+   "feature": "odd_so_far",
+   "threshold": 1,
+   "samples": 17122,
+   "left": 181,
+   "right": 182,
+   "gain_bits": 1229.4389425027257,
+   "gain_bits_per_training_code": 2.4588778850054514e-05
+  },
+  {
+   "node": 77,
+   "depth": 5,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 2124104,
+   "left": 81,
+   "right": 82,
+   "gain_bits": 5684.214079896919,
+   "gain_bits_per_training_code": 0.00011368428159793839
+  },
+  {
+   "node": 78,
+   "depth": 5,
+   "feature": "scale",
+   "threshold": 118,
+   "samples": 24447,
+   "left": 85,
+   "right": 86,
+   "gain_bits": 5064.024396387191,
+   "gain_bits_per_training_code": 0.00010128048792774381
+  },
+  {
+   "node": 79,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 839817,
+   "left": 193,
+   "right": 194,
+   "gain_bits": 1099.1344178104773,
+   "gain_bits_per_training_code": 2.1982688356209548e-05
+  },
+  {
+   "node": 80,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 1289707,
+   "left": 135,
+   "right": 136,
+   "gain_bits": 1993.7405261774547,
+   "gain_bits_per_training_code": 3.987481052354909e-05
+  },
+  {
+   "node": 81,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 4,
+   "samples": 1438534,
+   "left": 111,
+   "right": 112,
+   "gain_bits": 3154.4706350550987,
+   "gain_bits_per_training_code": 6.308941270110198e-05
+  },
+  {
+   "node": 82,
+   "depth": 6,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 685570,
+   "left": 87,
+   "right": 88,
+   "gain_bits": 4777.523420646321,
+   "gain_bits_per_training_code": 9.555046841292643e-05
+  },
+  {
+   "node": 83,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 118,
+   "samples": 24061,
+   "left": 125,
+   "right": 126,
+   "gain_bits": 2295.3758259619863,
+   "gain_bits_per_training_code": 4.5907516519239726e-05
+  },
+  {
+   "node": 84,
+   "depth": 6,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 38808,
+   "left": 189,
+   "right": 190,
+   "gain_bits": 1168.2159231049009,
+   "gain_bits_per_training_code": 2.3364318462098016e-05
+  },
+  {
+   "node": 85,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 116,
+   "samples": 17071,
+   "left": 273,
+   "right": 274,
+   "gain_bits": 585.2761325825122,
+   "gain_bits_per_training_code": 1.1705522651650244e-05
+  },
+  {
+   "node": 86,
+   "depth": 6,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 7376,
+   "left": 179,
+   "right": 180,
+   "gain_bits": 1247.1982270980661,
+   "gain_bits_per_training_code": 2.494396454196132e-05
+  },
+  {
+   "node": 87,
+   "depth": 7,
+   "feature": "mean_mag_so_far",
+   "threshold": 9,
+   "samples": 298761,
+   "left": 287,
+   "right": 288,
+   "gain_bits": 503.5077039342723,
+   "gain_bits_per_training_code": 1.0070154078685446e-05
+  },
+  {
+   "node": 88,
+   "depth": 7,
+   "feature": "mean_mag_so_far",
+   "threshold": 10,
+   "samples": 386809,
+   "left": 259,
+   "right": 260,
+   "gain_bits": 621.35767040879,
+   "gain_bits_per_training_code": 1.24271534081758e-05
+  },
+  {
+   "node": 89,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 6,
+   "samples": 1721716,
+   "left": 253,
+   "right": 254,
+   "gain_bits": 660.716928514652,
+   "gain_bits_per_training_code": 1.3214338570293038e-05
+  },
+  {
+   "node": 90,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 19,
+   "samples": 5498770,
+   "left": 133,
+   "right": 134,
+   "gain_bits": 2069.6703639868647,
+   "gain_bits_per_training_code": 4.1393407279737295e-05
+  },
+  {
+   "node": 91,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 6,
+   "samples": 4469863,
+   "left": 145,
+   "right": 146,
+   "gain_bits": 1924.2210158118978,
+   "gain_bits_per_training_code": 3.848442031623796e-05
+  },
+  {
+   "node": 92,
+   "depth": 7,
+   "feature": "scale",
+   "threshold": 122,
+   "samples": 12374,
+   "left": 221,
+   "right": 222,
+   "gain_bits": 891.5233419492752,
+   "gain_bits_per_training_code": 1.7830466838985502e-05
+  },
+  {
+   "node": 93,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 118,
+   "samples": 22495,
+   "left": 119,
+   "right": 120,
+   "gain_bits": 2555.693281435768,
+   "gain_bits_per_training_code": 5.111386562871536e-05
+  },
+  {
+   "node": 94,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 174478,
+   "left": 123,
+   "right": 124,
+   "gain_bits": 2320.7120566034573,
+   "gain_bits_per_training_code": 4.6414241132069146e-05
+  },
+  {
+   "node": 95,
+   "depth": 4,
+   "feature": "layer",
+   "threshold": 37,
+   "samples": 1735498,
+   "left": 475,
+   "right": 476,
+   "gain_bits": 207.24477074190509,
+   "gain_bits_per_training_code": 4.144895414838101e-06
+  },
+  {
+   "node": 96,
+   "depth": 4,
+   "feature": "layer",
+   "threshold": 26,
+   "samples": 8476137,
+   "left": 277,
+   "right": 278,
+   "gain_bits": 564.2368432693183,
+   "gain_bits_per_training_code": 1.1284736865386366e-05
+  },
+  {
+   "node": 97,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 1363461,
+   "left": 171,
+   "right": 172,
+   "gain_bits": 1366.7392411381006,
+   "gain_bits_per_training_code": 2.7334784822762012e-05
+  },
+  {
+   "node": 98,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 890749,
+   "left": 223,
+   "right": 224,
+   "gain_bits": 865.3068128642626,
+   "gain_bits_per_training_code": 1.7306136257285253e-05
+  },
+  {
+   "node": 99,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 233100,
+   "left": 151,
+   "right": 152,
+   "gain_bits": 1806.1047891923226,
+   "gain_bits_per_training_code": 3.6122095783846455e-05
+  },
+  {
+   "node": 100,
+   "depth": 6,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 90264,
+   "left": 215,
+   "right": 216,
+   "gain_bits": 919.5605691221426,
+   "gain_bits_per_training_code": 1.839121138244285e-05
+  },
+  {
+   "node": 101,
+   "depth": 6,
+   "feature": "pos",
+   "threshold": 12,
+   "samples": 119523,
+   "left": 103,
+   "right": 104,
+   "gain_bits": 12725.382171252604,
+   "gain_bits_per_training_code": 0.00025450764342505207
+  },
+  {
+   "node": 102,
+   "depth": 6,
+   "feature": "layer",
+   "threshold": 21,
+   "samples": 7046556,
+   "left": 229,
+   "right": 230,
+   "gain_bits": 799.8813322093338,
+   "gain_bits_per_training_code": 1.5997626644186675e-05
+  },
+  {
+   "node": 103,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 97532,
+   "left": 209,
+   "right": 210,
+   "gain_bits": 942.9623209725796,
+   "gain_bits_per_training_code": 1.8859246419451593e-05
+  },
+  {
+   "node": 104,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 21991,
+   "left": 169,
+   "right": 170,
+   "gain_bits": 1380.20326323044,
+   "gain_bits_per_training_code": 2.76040652646088e-05
+  },
+  {
+   "node": 105,
+   "depth": 6,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 14423,
+   "left": 345,
+   "right": 346,
+   "gain_bits": 344.5108355186471,
+   "gain_bits_per_training_code": 6.890216710372942e-06
+  },
+  {
+   "node": 108,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 375688,
+   "left": 113,
+   "right": 114,
+   "gain_bits": 2992.342450844124,
+   "gain_bits_per_training_code": 5.9846849016882476e-05
+  },
+  {
+   "node": 109,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 119,
+   "samples": 16346,
+   "left": 201,
+   "right": 202,
+   "gain_bits": 993.7975241721524,
+   "gain_bits_per_training_code": 1.987595048344305e-05
+  },
+  {
+   "node": 111,
+   "depth": 7,
+   "feature": "mean_mag_so_far",
+   "threshold": 6,
+   "samples": 727886,
+   "left": 183,
+   "right": 184,
+   "gain_bits": 1204.9099993612617,
+   "gain_bits_per_training_code": 2.4098199987225235e-05
+  },
+  {
+   "node": 112,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 710648,
+   "left": 175,
+   "right": 176,
+   "gain_bits": 1296.4387326833094,
+   "gain_bits_per_training_code": 2.5928774653666188e-05
+  },
+  {
+   "node": 113,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 25,
+   "samples": 70960,
+   "left": 185,
+   "right": 186,
+   "gain_bits": 1196.7773181915509,
+   "gain_bits_per_training_code": 2.3935546363831016e-05
+  },
+  {
+   "node": 114,
+   "depth": 8,
+   "feature": "layer",
+   "threshold": 41,
+   "samples": 304728,
+   "left": 257,
+   "right": 258,
+   "gain_bits": 634.0101125545916,
+   "gain_bits_per_training_code": 1.2680202251091833e-05
+  },
+  {
+   "node": 115,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 1071290,
+   "left": 153,
+   "right": 154,
+   "gain_bits": 1805.6332189342938,
+   "gain_bits_per_training_code": 3.611266437868588e-05
+  },
+  {
+   "node": 116,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 339989,
+   "left": 141,
+   "right": 142,
+   "gain_bits": 1968.7156274383888,
+   "gain_bits_per_training_code": 3.937431254876778e-05
+  },
+  {
+   "node": 117,
+   "depth": 7,
+   "feature": "odd_so_far",
+   "threshold": 4,
+   "samples": 327389,
+   "left": 231,
+   "right": 232,
+   "gain_bits": 789.0676509863697,
+   "gain_bits_per_training_code": 1.5781353019727393e-05
+  },
+  {
+   "node": 118,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 27,
+   "samples": 137007,
+   "left": 369,
+   "right": 370,
+   "gain_bits": 310.17650358894025,
+   "gain_bits_per_training_code": 6.203530071778805e-06
+  },
+  {
+   "node": 119,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 15097,
+   "left": 245,
+   "right": 246,
+   "gain_bits": 700.5498421815064,
+   "gain_bits_per_training_code": 1.4010996843630127e-05
+  },
+  {
+   "node": 120,
+   "depth": 7,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 7398,
+   "left": 227,
+   "right": 228,
+   "gain_bits": 836.7993000700462,
+   "gain_bits_per_training_code": 1.6735986001400923e-05
+  },
+  {
+   "node": 121,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 938880,
+   "left": 173,
+   "right": 174,
+   "gain_bits": 1345.7707272418775,
+   "gain_bits_per_training_code": 2.691541454483755e-05
+  },
+  {
+   "node": 122,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 859412,
+   "left": 137,
+   "right": 138,
+   "gain_bits": 1987.04722852353,
+   "gain_bits_per_training_code": 3.97409445704706e-05
+  },
+  {
+   "node": 123,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 139228,
+   "left": 205,
+   "right": 206,
+   "gain_bits": 973.017907736008,
+   "gain_bits_per_training_code": 1.9460358154720162e-05
+  },
+  {
+   "node": 124,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 6,
+   "samples": 35250,
+   "left": 261,
+   "right": 262,
+   "gain_bits": 618.4911760258692,
+   "gain_bits_per_training_code": 1.2369823520517385e-05
+  },
+  {
+   "node": 125,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 6,
+   "samples": 4178,
+   "left": 347,
+   "right": 348,
+   "gain_bits": 341.22059165706014,
+   "gain_bits_per_training_code": 6.824411833141202e-06
+  },
+  {
+   "node": 126,
+   "depth": 7,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 19883,
+   "left": 309,
+   "right": 310,
+   "gain_bits": 405.5818902957253,
+   "gain_bits_per_training_code": 8.111637805914507e-06
+  },
+  {
+   "node": 127,
+   "depth": 5,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 1486557,
+   "left": 237,
+   "right": 238,
+   "gain_bits": 761.2193727828562,
+   "gain_bits_per_training_code": 1.5224387455657124e-05
+  },
+  {
+   "node": 128,
+   "depth": 5,
+   "feature": "scale",
+   "threshold": 121,
+   "samples": 284639,
+   "left": 339,
+   "right": 340,
+   "gain_bits": 348.102767109056,
+   "gain_bits_per_training_code": 6.96205534218112e-06
+  },
+  {
+   "node": 129,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 13,
+   "samples": 134123,
+   "left": 281,
+   "right": 282,
+   "gain_bits": 536.5033355352934,
+   "gain_bits_per_training_code": 1.0730066710705869e-05
+  },
+  {
+   "node": 130,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 27,
+   "samples": 8437,
+   "left": 353,
+   "right": 354,
+   "gain_bits": 338.0190037211396,
+   "gain_bits_per_training_code": 6.760380074422792e-06
+  },
+  {
+   "node": 131,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 28,
+   "samples": 27377,
+   "left": 499,
+   "right": 500,
+   "gain_bits": 195.5639595445573,
+   "gain_bits_per_training_code": 3.911279190891146e-06
+  },
+  {
+   "node": 133,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 1665239,
+   "left": 225,
+   "right": 226,
+   "gain_bits": 851.3692569250707,
+   "gain_bits_per_training_code": 1.7027385138501415e-05
+  },
+  {
+   "node": 134,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 3833531,
+   "left": 307,
+   "right": 308,
+   "gain_bits": 406.9502997007221,
+   "gain_bits_per_training_code": 8.139005994014443e-06
+  },
+  {
+   "node": 135,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 272470,
+   "left": 335,
+   "right": 336,
+   "gain_bits": 351.31969655408466,
+   "gain_bits_per_training_code": 7.026393931081693e-06
+  },
+  {
+   "node": 136,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 1017237,
+   "left": 165,
+   "right": 166,
+   "gain_bits": 1397.6852307100198,
+   "gain_bits_per_training_code": 2.7953704614200396e-05
+  },
+  {
+   "node": 137,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 146336,
+   "left": 295,
+   "right": 296,
+   "gain_bits": 475.7830432675255,
+   "gain_bits_per_training_code": 9.51566086535051e-06
+  },
+  {
+   "node": 138,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 713076,
+   "left": 247,
+   "right": 248,
+   "gain_bits": 676.0900674345903,
+   "gain_bits_per_training_code": 1.3521801348691807e-05
+  },
+  {
+   "node": 142,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 267851,
+   "left": 429,
+   "right": 430,
+   "gain_bits": 250.1195170180872,
+   "gain_bits_per_training_code": 5.002390340361744e-06
+  },
+  {
+   "node": 143,
+   "depth": 7,
+   "feature": "scale",
+   "threshold": 119,
+   "samples": 7542,
+   "left": 321,
+   "right": 322,
+   "gain_bits": 378.1046053251439,
+   "gain_bits_per_training_code": 7.5620921065028775e-06
+  },
+  {
+   "node": 145,
+   "depth": 8,
+   "feature": "partner_mag",
+   "threshold": 4,
+   "samples": 2612212,
+   "left": 331,
+   "right": 332,
+   "gain_bits": 353.4048180691898,
+   "gain_bits_per_training_code": 7.068096361383796e-06
+  },
+  {
+   "node": 146,
+   "depth": 8,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 1857651,
+   "left": 163,
+   "right": 164,
+   "gain_bits": 1401.5558584332466,
+   "gain_bits_per_training_code": 2.803111716866493e-05
+  },
+  {
+   "node": 147,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 18,
+   "samples": 7111,
+   "left": 317,
+   "right": 318,
+   "gain_bits": 391.7954266619072,
+   "gain_bits_per_training_code": 7.835908533238144e-06
+  },
+  {
+   "node": 148,
+   "depth": 7,
+   "feature": "mean_mag_so_far",
+   "threshold": 6,
+   "samples": 33006,
+   "left": 497,
+   "right": 498,
+   "gain_bits": 196.0497121922508,
+   "gain_bits_per_training_code": 3.920994243845016e-06
+  },
+  {
+   "node": 149,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 491981,
+   "left": 235,
+   "right": 236,
+   "gain_bits": 775.2698024780257,
+   "gain_bits_per_training_code": 1.5505396049560512e-05
+  },
+  {
+   "node": 150,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 24,
+   "samples": 157525,
+   "left": 377,
+   "right": 378,
+   "gain_bits": 291.72718879139575,
+   "gain_bits_per_training_code": 5.834543775827915e-06
+  },
+  {
+   "node": 152,
+   "depth": 7,
+   "feature": "layer",
+   "threshold": 41,
+   "samples": 228285,
+   "left": 211,
+   "right": 212,
+   "gain_bits": 936.3468633574375,
+   "gain_bits_per_training_code": 1.872693726714875e-05
+  },
+  {
+   "node": 153,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 6,
+   "samples": 568042,
+   "left": 159,
+   "right": 160,
+   "gain_bits": 1518.1528037822573,
+   "gain_bits_per_training_code": 3.0363056075645145e-05
+  },
+  {
+   "node": 154,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 503248,
+   "left": 329,
+   "right": 330,
+   "gain_bits": 355.20812677568756,
+   "gain_bits_per_training_code": 7.1041625355137516e-06
+  },
+  {
+   "node": 155,
+   "depth": 6,
+   "feature": "partner_mag",
+   "threshold": 2,
+   "samples": 3257819,
+   "left": 195,
+   "right": 196,
+   "gain_bits": 1079.7973055336624,
+   "gain_bits_per_training_code": 2.1595946110673247e-05
+  },
+  {
+   "node": 157,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 119,
+   "samples": 6053,
+   "left": 343,
+   "right": 344,
+   "gain_bits": 347.7950096921986,
+   "gain_bits_per_training_code": 6.9559001938439725e-06
+  },
+  {
+   "node": 159,
+   "depth": 9,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 273882,
+   "left": 337,
+   "right": 338,
+   "gain_bits": 350.83989804328485,
+   "gain_bits_per_training_code": 7.016797960865697e-06
+  },
+  {
+   "node": 160,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 294160,
+   "left": 373,
+   "right": 374,
+   "gain_bits": 305.1130218489561,
+   "gain_bits_per_training_code": 6.102260436979123e-06
+  },
+  {
+   "node": 163,
+   "depth": 9,
+   "feature": "pos",
+   "threshold": 10,
+   "samples": 19701,
+   "left": 303,
+   "right": 304,
+   "gain_bits": 419.5857041177187,
+   "gain_bits_per_training_code": 8.391714082354374e-06
+  },
+  {
+   "node": 164,
+   "depth": 9,
+   "feature": "pos",
+   "threshold": 10,
+   "samples": 1837950,
+   "left": 355,
+   "right": 356,
+   "gain_bits": 333.3163466989063,
+   "gain_bits_per_training_code": 6.666326933978125e-06
+  },
+  {
+   "node": 165,
+   "depth": 8,
+   "feature": "layer",
+   "threshold": 21,
+   "samples": 924770,
+   "left": 491,
+   "right": 492,
+   "gain_bits": 199.42050610273145,
+   "gain_bits_per_training_code": 3.988410122054629e-06
+  },
+  {
+   "node": 167,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 7,
+   "samples": 61632,
+   "left": 453,
+   "right": 454,
+   "gain_bits": 226.99764381345813,
+   "gain_bits_per_training_code": 4.539952876269163e-06
+  },
+  {
+   "node": 168,
+   "depth": 7,
+   "feature": "pos",
+   "threshold": 6,
+   "samples": 9087,
+   "left": 279,
+   "right": 280,
+   "gain_bits": 538.6396362349442,
+   "gain_bits_per_training_code": 1.0772792724698883e-05
+  },
+  {
+   "node": 172,
+   "depth": 8,
+   "feature": "scale",
+   "threshold": 121,
+   "samples": 910378,
+   "left": 243,
+   "right": 244,
+   "gain_bits": 730.200268214805,
+   "gain_bits_per_training_code": 1.4604005364296099e-05
+  },
+  {
+   "node": 173,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 6,
+   "samples": 407497,
+   "left": 325,
+   "right": 326,
+   "gain_bits": 364.4254599175183,
+   "gain_bits_per_training_code": 7.288509198350366e-06
+  },
+  {
+   "node": 174,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 531383,
+   "left": 367,
+   "right": 368,
+   "gain_bits": 310.99295123969205,
+   "gain_bits_per_training_code": 6.219859024793841e-06
+  },
+  {
+   "node": 175,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 6,
+   "samples": 493630,
+   "left": 177,
+   "right": 178,
+   "gain_bits": 1424.2702177303145,
+   "gain_bits_per_training_code": 2.848540435460629e-05
+  },
+  {
+   "node": 177,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 5,
+   "samples": 251656,
+   "left": 409,
+   "right": 410,
+   "gain_bits": 262.29687383282,
+   "gain_bits_per_training_code": 5.2459374766564e-06
+  },
+  {
+   "node": 178,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 241974,
+   "left": 413,
+   "right": 414,
+   "gain_bits": 258.3421887034783,
+   "gain_bits_per_training_code": 5.166843774069566e-06
+  },
+  {
+   "node": 182,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 122,
+   "samples": 14984,
+   "left": 207,
+   "right": 208,
+   "gain_bits": 956.5655171676035,
+   "gain_bits_per_training_code": 1.913131034335207e-05
+  },
+  {
+   "node": 183,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 366583,
+   "left": 341,
+   "right": 342,
+   "gain_bits": 348.0887761050835,
+   "gain_bits_per_training_code": 6.96177552210167e-06
+  },
+  {
+   "node": 184,
+   "depth": 8,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 361303,
+   "left": 191,
+   "right": 192,
+   "gain_bits": 1127.2814235906117,
+   "gain_bits_per_training_code": 2.2545628471812232e-05
+  },
+  {
+   "node": 185,
+   "depth": 9,
+   "feature": "pos",
+   "threshold": 18,
+   "samples": 65719,
+   "left": 365,
+   "right": 366,
+   "gain_bits": 311.1333818903804,
+   "gain_bits_per_training_code": 6.222667637807608e-06
+  },
+  {
+   "node": 187,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 11237,
+   "left": 443,
+   "right": 444,
+   "gain_bits": 243.03464849510783,
+   "gain_bits_per_training_code": 4.860692969902156e-06
+  },
+  {
+   "node": 188,
+   "depth": 7,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 15185,
+   "left": 359,
+   "right": 360,
+   "gain_bits": 324.08214641844825,
+   "gain_bits_per_training_code": 6.481642928368965e-06
+  },
+  {
+   "node": 190,
+   "depth": 7,
+   "feature": "above_mag",
+   "threshold": 1,
+   "samples": 10419,
+   "left": 427,
+   "right": 428,
+   "gain_bits": 251.25628780327224,
+   "gain_bits_per_training_code": 5.0251257560654445e-06
+  },
+  {
+   "node": 191,
+   "depth": 9,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 282740,
+   "left": 319,
+   "right": 320,
+   "gain_bits": 386.38616263272706,
+   "gain_bits_per_training_code": 7.727723252654541e-06
+  },
+  {
+   "node": 194,
+   "depth": 7,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 665450,
+   "left": 233,
+   "right": 234,
+   "gain_bits": 779.3126934405882,
+   "gain_bits_per_training_code": 1.5586253868811765e-05
+  },
+  {
+   "node": 195,
+   "depth": 7,
+   "feature": "layer",
+   "threshold": 10,
+   "samples": 854134,
+   "left": 395,
+   "right": 396,
+   "gain_bits": 268.9005182534456,
+   "gain_bits_per_training_code": 5.378010365068912e-06
+  },
+  {
+   "node": 196,
+   "depth": 7,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 2403685,
+   "left": 197,
+   "right": 198,
+   "gain_bits": 1725.6450065579265,
+   "gain_bits_per_training_code": 3.451290013115853e-05
+  },
+  {
+   "node": 197,
+   "depth": 8,
+   "feature": "partner_mag",
+   "threshold": 4,
+   "samples": 524208,
+   "left": 241,
+   "right": 242,
+   "gain_bits": 741.1842526175315,
+   "gain_bits_per_training_code": 1.482368505235063e-05
+  },
+  {
+   "node": 198,
+   "depth": 8,
+   "feature": "partner_mag",
+   "threshold": 7,
+   "samples": 1879477,
+   "left": 269,
+   "right": 270,
+   "gain_bits": 601.7869887398556,
+   "gain_bits_per_training_code": 1.2035739774797113e-05
+  },
+  {
+   "node": 200,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 106084,
+   "left": 263,
+   "right": 264,
+   "gain_bits": 606.7762054495397,
+   "gain_bits_per_training_code": 1.2135524108990794e-05
+  },
+  {
+   "node": 202,
+   "depth": 7,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 8358,
+   "left": 485,
+   "right": 486,
+   "gain_bits": 202.4125862810247,
+   "gain_bits_per_training_code": 4.048251725620494e-06
+  },
+  {
+   "node": 203,
+   "depth": 7,
+   "feature": "mean_mag_so_far",
+   "threshold": 1,
+   "samples": 20968,
+   "left": 371,
+   "right": 372,
+   "gain_bits": 307.6412111614195,
+   "gain_bits_per_training_code": 6.15282422322839e-06
+  },
+  {
+   "node": 205,
+   "depth": 8,
+   "feature": "above_mag",
+   "threshold": 1,
+   "samples": 10581,
+   "left": 239,
+   "right": 240,
+   "gain_bits": 757.3212772925308,
+   "gain_bits_per_training_code": 1.5146425545850616e-05
+  },
+  {
+   "node": 206,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 6,
+   "samples": 128647,
+   "left": 297,
+   "right": 298,
+   "gain_bits": 474.89858898981765,
+   "gain_bits_per_training_code": 9.497971779796353e-06
+  },
+  {
+   "node": 210,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 7,
+   "samples": 7035,
+   "left": 265,
+   "right": 266,
+   "gain_bits": 604.5877854111577,
+   "gain_bits_per_training_code": 1.2091755708223155e-05
+  },
+  {
+   "node": 211,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 182015,
+   "left": 285,
+   "right": 286,
+   "gain_bits": 509.4125127210282,
+   "gain_bits_per_training_code": 1.0188250254420564e-05
+  },
+  {
+   "node": 212,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 9,
+   "samples": 46270,
+   "left": 467,
+   "right": 468,
+   "gain_bits": 214.7650906536437,
+   "gain_bits_per_training_code": 4.295301813072874e-06
+  },
+  {
+   "node": 213,
+   "depth": 6,
+   "feature": "scale",
+   "threshold": 118,
+   "samples": 6119,
+   "left": 327,
+   "right": 328,
+   "gain_bits": 355.6245173098705,
+   "gain_bits_per_training_code": 7.11249034619741e-06
+  },
+  {
+   "node": 216,
+   "depth": 7,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 86751,
+   "left": 349,
+   "right": 350,
+   "gain_bits": 341.11058597118245,
+   "gain_bits_per_training_code": 6.822211719423649e-06
+  },
+  {
+   "node": 217,
+   "depth": 7,
+   "feature": "partner_mag",
+   "threshold": 2,
+   "samples": 1412663,
+   "left": 311,
+   "right": 312,
+   "gain_bits": 401.913480500225,
+   "gain_bits_per_training_code": 8.0382696100045e-06
+  },
+  {
+   "node": 218,
+   "depth": 7,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 962333,
+   "left": 219,
+   "right": 220,
+   "gain_bits": 2667.1665058275685,
+   "gain_bits_per_training_code": 5.334333011655137e-05
+  },
+  {
+   "node": 219,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 9,
+   "samples": 16477,
+   "left": 283,
+   "right": 284,
+   "gain_bits": 520.5527431449591,
+   "gain_bits_per_training_code": 1.0411054862899182e-05
+  },
+  {
+   "node": 220,
+   "depth": 8,
+   "feature": "layer",
+   "threshold": 37,
+   "samples": 945856,
+   "left": 435,
+   "right": 436,
+   "gain_bits": 244.20365484093782,
+   "gain_bits_per_training_code": 4.884073096818757e-06
+  },
+  {
+   "node": 221,
+   "depth": 8,
+   "feature": "odd_so_far",
+   "threshold": 0,
+   "samples": 9325,
+   "left": 471,
+   "right": 472,
+   "gain_bits": 210.07690795281087,
+   "gain_bits_per_training_code": 4.201538159056217e-06
+  },
+  {
+   "node": 223,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 21,
+   "samples": 290710,
+   "left": 433,
+   "right": 434,
+   "gain_bits": 246.1917465404258,
+   "gain_bits_per_training_code": 4.923834930808516e-06
+  },
+  {
+   "node": 224,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 21,
+   "samples": 600039,
+   "left": 291,
+   "right": 292,
+   "gain_bits": 477.4692265598569,
+   "gain_bits_per_training_code": 9.549384531197138e-06
+  },
+  {
+   "node": 225,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 1411646,
+   "left": 447,
+   "right": 448,
+   "gain_bits": 239.38499533711,
+   "gain_bits_per_training_code": 4.7876999067422e-06
+  },
+  {
+   "node": 229,
+   "depth": 7,
+   "feature": "partner_mag",
+   "threshold": 2,
+   "samples": 4184020,
+   "left": 249,
+   "right": 250,
+   "gain_bits": 666.674734249711,
+   "gain_bits_per_training_code": 1.333349468499422e-05
+  },
+  {
+   "node": 230,
+   "depth": 7,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 2862536,
+   "left": 385,
+   "right": 386,
+   "gain_bits": 279.6823558472097,
+   "gain_bits_per_training_code": 5.593647116944194e-06
+  },
+  {
+   "node": 232,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 25,
+   "samples": 324056,
+   "left": 305,
+   "right": 306,
+   "gain_bits": 416.30168172356207,
+   "gain_bits_per_training_code": 8.326033634471242e-06
+  },
+  {
+   "node": 234,
+   "depth": 8,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 238505,
+   "left": 293,
+   "right": 294,
+   "gain_bits": 476.12469767816947,
+   "gain_bits_per_training_code": 9.52249395356339e-06
+  },
+  {
+   "node": 235,
+   "depth": 9,
+   "feature": "pos",
+   "threshold": 16,
+   "samples": 388402,
+   "left": 469,
+   "right": 470,
+   "gain_bits": 211.35193395323586,
+   "gain_bits_per_training_code": 4.227038679064717e-06
+  },
+  {
+   "node": 236,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 103579,
+   "left": 495,
+   "right": 496,
+   "gain_bits": 196.42469329417509,
+   "gain_bits_per_training_code": 3.928493865883502e-06
+  },
+  {
+   "node": 238,
+   "depth": 6,
+   "feature": "partner_mag",
+   "threshold": 6,
+   "samples": 1482159,
+   "left": 379,
+   "right": 380,
+   "gain_bits": 290.601304913871,
+   "gain_bits_per_training_code": 5.812026098277419e-06
+  },
+  {
+   "node": 239,
+   "depth": 9,
+   "feature": "scale",
+   "threshold": 117,
+   "samples": 6801,
+   "left": 255,
+   "right": 256,
+   "gain_bits": 649.5537608856266,
+   "gain_bits_per_training_code": 1.2991075217712533e-05
+  },
+  {
+   "node": 242,
+   "depth": 9,
+   "feature": "layer",
+   "threshold": 13,
+   "samples": 245621,
+   "left": 289,
+   "right": 290,
+   "gain_bits": 486.39981500280555,
+   "gain_bits_per_training_code": 9.72799630005611e-06
+  },
+  {
+   "node": 243,
+   "depth": 9,
+   "feature": "pos",
+   "threshold": 16,
+   "samples": 908369,
+   "left": 387,
+   "right": 388,
+   "gain_bits": 274.5841787518002,
+   "gain_bits_per_training_code": 5.4916835750360045e-06
+  },
+  {
+   "node": 245,
+   "depth": 8,
+   "feature": "above_mag",
+   "threshold": 0,
+   "samples": 5848,
+   "left": 383,
+   "right": 384,
+   "gain_bits": 282.79013439142,
+   "gain_bits_per_training_code": 5.6558026878284e-06
+  },
+  {
+   "node": 246,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 9249,
+   "left": 483,
+   "right": 484,
+   "gain_bits": 202.54148642521977,
+   "gain_bits_per_training_code": 4.050829728504395e-06
+  },
+  {
+   "node": 247,
+   "depth": 9,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 406117,
+   "left": 415,
+   "right": 416,
+   "gain_bits": 257.4789951633429,
+   "gain_bits_per_training_code": 5.149579903266858e-06
+  },
+  {
+   "node": 248,
+   "depth": 9,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 306959,
+   "left": 381,
+   "right": 382,
+   "gain_bits": 290.2246269849129,
+   "gain_bits_per_training_code": 5.804492539698258e-06
+  },
+  {
+   "node": 249,
+   "depth": 8,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 1333269,
+   "left": 251,
+   "right": 252,
+   "gain_bits": 660.8946297955699,
+   "gain_bits_per_training_code": 1.3217892595911398e-05
+  },
+  {
+   "node": 250,
+   "depth": 8,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 2850751,
+   "left": 403,
+   "right": 404,
+   "gain_bits": 263.21109221689403,
+   "gain_bits_per_training_code": 5.264221844337881e-06
+  },
+  {
+   "node": 251,
+   "depth": 9,
+   "feature": "layer",
+   "threshold": 6,
+   "samples": 594216,
+   "left": 361,
+   "right": 362,
+   "gain_bits": 314.22634375235066,
+   "gain_bits_per_training_code": 6.284526875047013e-06
+  },
+  {
+   "node": 254,
+   "depth": 8,
+   "feature": "pos",
+   "threshold": 18,
+   "samples": 1719193,
+   "left": 271,
+   "right": 272,
+   "gain_bits": 592.3821571962908,
+   "gain_bits_per_training_code": 1.1847643143925817e-05
+  },
+  {
+   "node": 257,
+   "depth": 9,
+   "feature": "pos",
+   "threshold": 16,
+   "samples": 217374,
+   "left": 393,
+   "right": 394,
+   "gain_bits": 269.48905588989146,
+   "gain_bits_per_training_code": 5.389781117797829e-06
+  },
+  {
+   "node": 259,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 274414,
+   "left": 375,
+   "right": 376,
+   "gain_bits": 300.0701641148189,
+   "gain_bits_per_training_code": 6.001403282296378e-06
+  },
+  {
+   "node": 260,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 112395,
+   "left": 505,
+   "right": 506,
+   "gain_bits": 191.52068412536755,
+   "gain_bits_per_training_code": 3.830413682507351e-06
+  },
+  {
+   "node": 261,
+   "depth": 8,
+   "feature": "nz_so_far",
+   "threshold": 17,
+   "samples": 13281,
+   "left": 445,
+   "right": 446,
+   "gain_bits": 241.2520389541105,
+   "gain_bits_per_training_code": 4.82504077908221e-06
+  },
+  {
+   "node": 263,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 7,
+   "samples": 59916,
+   "left": 275,
+   "right": 276,
+   "gain_bits": 568.0596135276719,
+   "gain_bits_per_training_code": 1.1361192270553438e-05
+  },
+  {
+   "node": 264,
+   "depth": 8,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 46168,
+   "left": 451,
+   "right": 452,
+   "gain_bits": 231.47857576539536,
+   "gain_bits_per_training_code": 4.629571515307907e-06
+  },
+  {
+   "node": 271,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 8,
+   "samples": 437625,
+   "left": 493,
+   "right": 494,
+   "gain_bits": 198.25157729990315,
+   "gain_bits_per_training_code": 3.965031545998063e-06
+  },
+  {
+   "node": 272,
+   "depth": 9,
+   "feature": "scale",
+   "threshold": 119,
+   "samples": 1281568,
+   "left": 363,
+   "right": 364,
+   "gain_bits": 311.4722481025383,
+   "gain_bits_per_training_code": 6.2294449620507655e-06
+  },
+  {
+   "node": 277,
+   "depth": 5,
+   "feature": "partner_mag",
+   "threshold": 2,
+   "samples": 6433126,
+   "left": 299,
+   "right": 300,
+   "gain_bits": 436.7166727036238,
+   "gain_bits_per_training_code": 8.734333454072475e-06
+  },
+  {
+   "node": 286,
+   "depth": 9,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 123742,
+   "left": 459,
+   "right": 460,
+   "gain_bits": 219.7780540173735,
+   "gain_bits_per_training_code": 4.39556108034747e-06
+  },
+  {
+   "node": 287,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 158850,
+   "left": 473,
+   "right": 474,
+   "gain_bits": 207.8717888314859,
+   "gain_bits_per_training_code": 4.157435776629718e-06
+  },
+  {
+   "node": 288,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 7,
+   "samples": 139911,
+   "left": 425,
+   "right": 426,
+   "gain_bits": 251.493382985238,
+   "gain_bits_per_training_code": 5.02986765970476e-06
+  },
+  {
+   "node": 297,
+   "depth": 9,
+   "feature": "scale",
+   "threshold": 119,
+   "samples": 105369,
+   "left": 401,
+   "right": 402,
+   "gain_bits": 264.86772224784363,
+   "gain_bits_per_training_code": 5.297354444956873e-06
+  },
+  {
+   "node": 299,
+   "depth": 6,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 2057601,
+   "left": 301,
+   "right": 302,
+   "gain_bits": 819.1373957698233,
+   "gain_bits_per_training_code": 1.638274791539647e-05
+  },
+  {
+   "node": 301,
+   "depth": 7,
+   "feature": "layer",
+   "threshold": 6,
+   "samples": 1028039,
+   "left": 389,
+   "right": 390,
+   "gain_bits": 274.1989325629547,
+   "gain_bits_per_training_code": 5.483978651259095e-06
+  },
+  {
+   "node": 305,
+   "depth": 9,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 232311,
+   "left": 399,
+   "right": 400,
+   "gain_bits": 265.1284444910707,
+   "gain_bits_per_training_code": 5.3025688898214136e-06
+  },
+  {
+   "node": 307,
+   "depth": 9,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 2164102,
+   "left": 417,
+   "right": 418,
+   "gain_bits": 255.9755013479371,
+   "gain_bits_per_training_code": 5.119510026958742e-06
+  },
+  {
+   "node": 311,
+   "depth": 8,
+   "feature": "layer",
+   "threshold": 12,
+   "samples": 384837,
+   "left": 449,
+   "right": 450,
+   "gain_bits": 238.04231583257206,
+   "gain_bits_per_training_code": 4.760846316651441e-06
+  },
+  {
+   "node": 312,
+   "depth": 8,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 1027826,
+   "left": 313,
+   "right": 314,
+   "gain_bits": 450.62933163903654,
+   "gain_bits_per_training_code": 9.012586632780731e-06
+  },
+  {
+   "node": 313,
+   "depth": 9,
+   "feature": "partner_mag",
+   "threshold": 5,
+   "samples": 224507,
+   "left": 323,
+   "right": 324,
+   "gain_bits": 368.1776412659383,
+   "gain_bits_per_training_code": 7.363552825318766e-06
+  },
+  {
+   "node": 314,
+   "depth": 9,
+   "feature": "layer",
+   "threshold": 37,
+   "samples": 803319,
+   "left": 357,
+   "right": 358,
+   "gain_bits": 324.08452263334766,
+   "gain_bits_per_training_code": 6.4816904526669535e-06
+  },
+  {
+   "node": 324,
+   "depth": 10,
+   "feature": "layer",
+   "threshold": 13,
+   "samples": 54676,
+   "left": 423,
+   "right": 424,
+   "gain_bits": 252.32738986020559,
+   "gain_bits_per_training_code": 5.046547797204112e-06
+  },
+  {
+   "node": 325,
+   "depth": 9,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 237455,
+   "left": 481,
+   "right": 482,
+   "gain_bits": 204.6006377770791,
+   "gain_bits_per_training_code": 4.092012755541582e-06
+  },
+  {
+   "node": 330,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 6,
+   "samples": 385426,
+   "left": 431,
+   "right": 432,
+   "gain_bits": 246.82549009949435,
+   "gain_bits_per_training_code": 4.936509801989887e-06
+  },
+  {
+   "node": 331,
+   "depth": 9,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 1337556,
+   "left": 391,
+   "right": 392,
+   "gain_bits": 271.6580093293451,
+   "gain_bits_per_training_code": 5.433160186586902e-06
+  },
+  {
+   "node": 332,
+   "depth": 9,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 1274656,
+   "left": 419,
+   "right": 420,
+   "gain_bits": 254.81997692910954,
+   "gain_bits_per_training_code": 5.096399538582191e-06
+  },
+  {
+   "node": 340,
+   "depth": 6,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 273706,
+   "left": 477,
+   "right": 478,
+   "gain_bits": 206.92907128902152,
+   "gain_bits_per_training_code": 4.13858142578043e-06
+  },
+  {
+   "node": 342,
+   "depth": 9,
+   "feature": "mean_mag_so_far",
+   "threshold": 4,
+   "samples": 291395,
+   "left": 455,
+   "right": 456,
+   "gain_bits": 225.42861795262434,
+   "gain_bits_per_training_code": 4.508572359052487e-06
+  },
+  {
+   "node": 350,
+   "depth": 8,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 35324,
+   "left": 351,
+   "right": 352,
+   "gain_bits": 370.5811486588209,
+   "gain_bits_per_training_code": 7.411622973176418e-06
+  },
+  {
+   "node": 360,
+   "depth": 8,
+   "feature": "rel_scale",
+   "threshold": 8,
+   "samples": 12963,
+   "left": 397,
+   "right": 398,
+   "gain_bits": 265.17597496599956,
+   "gain_bits_per_training_code": 5.303519499319991e-06
+  },
+  {
+   "node": 363,
+   "depth": 10,
+   "feature": "layer",
+   "threshold": 39,
+   "samples": 15481,
+   "left": 503,
+   "right": 504,
+   "gain_bits": 191.52087262975692,
+   "gain_bits_per_training_code": 3.830417452595138e-06
+  },
+  {
+   "node": 364,
+   "depth": 10,
+   "feature": "partner_mag",
+   "threshold": 2,
+   "samples": 1266087,
+   "left": 489,
+   "right": 490,
+   "gain_bits": 200.96321484772488,
+   "gain_bits_per_training_code": 4.019264296954498e-06
+  },
+  {
+   "node": 376,
+   "depth": 9,
+   "feature": "pos",
+   "threshold": 4,
+   "samples": 204758,
+   "left": 487,
+   "right": 488,
+   "gain_bits": 201.72440877434565,
+   "gain_bits_per_training_code": 4.034488175486913e-06
+  },
+  {
+   "node": 391,
+   "depth": 10,
+   "feature": "layer",
+   "threshold": 13,
+   "samples": 639726,
+   "left": 411,
+   "right": 412,
+   "gain_bits": 261.9923551038373,
+   "gain_bits_per_training_code": 5.2398471020767465e-06
+  },
+  {
+   "node": 401,
+   "depth": 10,
+   "feature": "max_so_far",
+   "threshold": 6,
+   "samples": 100965,
+   "left": 507,
+   "right": 508,
+   "gain_bits": 191.0119044177991,
+   "gain_bits_per_training_code": 3.820238088355982e-06
+  },
+  {
+   "node": 402,
+   "depth": 10,
+   "feature": "nz_so_far",
+   "threshold": 12,
+   "samples": 4404,
+   "left": 465,
+   "right": 466,
+   "gain_bits": 216.26949112254078,
+   "gain_bits_per_training_code": 4.325389822450815e-06
+  },
+  {
+   "node": 403,
+   "depth": 9,
+   "feature": "partner_mag",
+   "threshold": 5,
+   "samples": 680264,
+   "left": 405,
+   "right": 406,
+   "gain_bits": 777.421515064314,
+   "gain_bits_per_training_code": 1.554843030128628e-05
+  },
+  {
+   "node": 406,
+   "depth": 10,
+   "feature": "layer",
+   "threshold": 12,
+   "samples": 178817,
+   "left": 407,
+   "right": 408,
+   "gain_bits": 392.58373534079874,
+   "gain_bits_per_training_code": 7.851674706815974e-06
+  },
+  {
+   "node": 411,
+   "depth": 11,
+   "feature": "partner_mag",
+   "threshold": 2,
+   "samples": 222500,
+   "left": 479,
+   "right": 480,
+   "gain_bits": 205.13922164478572,
+   "gain_bits_per_training_code": 4.102784432895715e-06
+  },
+  {
+   "node": 417,
+   "depth": 10,
+   "feature": "partner_mag",
+   "threshold": 4,
+   "samples": 2149469,
+   "left": 461,
+   "right": 462,
+   "gain_bits": 217.87118203612044,
+   "gain_bits_per_training_code": 4.357423640722409e-06
+  },
+  {
+   "node": 419,
+   "depth": 10,
+   "feature": "layer",
+   "threshold": 10,
+   "samples": 230258,
+   "left": 421,
+   "right": 422,
+   "gain_bits": 368.81909536232706,
+   "gain_bits_per_training_code": 7.3763819072465416e-06
+  },
+  {
+   "node": 435,
+   "depth": 9,
+   "feature": "partner_mag",
+   "threshold": 3,
+   "samples": 774925,
+   "left": 437,
+   "right": 438,
+   "gain_bits": 311.1883378094062,
+   "gain_bits_per_training_code": 6.223766756188124e-06
+  },
+  {
+   "node": 438,
+   "depth": 10,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 525149,
+   "left": 439,
+   "right": 440,
+   "gain_bits": 426.9298745037522,
+   "gain_bits_per_training_code": 8.538597490075044e-06
+  },
+  {
+   "node": 439,
+   "depth": 11,
+   "feature": "partner_mag",
+   "threshold": 5,
+   "samples": 96683,
+   "left": 441,
+   "right": 442,
+   "gain_bits": 259.6957064496237,
+   "gain_bits_per_training_code": 5.1939141289924735e-06
+  },
+  {
+   "node": 456,
+   "depth": 10,
+   "feature": "max_so_far",
+   "threshold": 7,
+   "samples": 195209,
+   "left": 457,
+   "right": 458,
+   "gain_bits": 256.88449925639725,
+   "gain_bits_per_training_code": 5.137689985127945e-06
+  },
+  {
+   "node": 461,
+   "depth": 11,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 1106822,
+   "left": 463,
+   "right": 464,
+   "gain_bits": 234.61865746881813,
+   "gain_bits_per_training_code": 4.692373149376362e-06
+  },
+  {
+   "node": 490,
+   "depth": 11,
+   "feature": "role",
+   "threshold": 0,
+   "samples": 927342,
+   "left": 501,
+   "right": 502,
+   "gain_bits": 194.4570549908094,
+   "gain_bits_per_training_code": 3.889141099816188e-06
+  },
+  {
+   "node": 507,
+   "depth": 11,
+   "feature": "nz_so_far",
+   "threshold": 20,
+   "samples": 30735,
+   "left": 509,
+   "right": 510,
+   "gain_bits": 274.30554102186215,
+   "gain_bits_per_training_code": 5.486110820437243e-06
+  }
+ ],
+ "all_leaves": [
+  {
+   "node": 32,
+   "leaf_id": 0,
+   "depth": 5,
+   "samples": 14447,
+   "share": 0.00028894,
+   "bits_per_code_with_table": 1.2685391277330993,
+   "empirical_entropy": 1.264653808355516
+  },
+  {
+   "node": 50,
+   "leaf_id": 1,
+   "depth": 6,
+   "samples": 22866,
+   "share": 0.00045732,
+   "bits_per_code_with_table": 3.357975763489364,
+   "empirical_entropy": 3.357927820516138
+  },
+  {
+   "node": 57,
+   "leaf_id": 2,
+   "depth": 6,
+   "samples": 10482,
+   "share": 0.00020964,
+   "bits_per_code_with_table": 3.009856119383946,
+   "empirical_entropy": 3.009846163587838
+  },
+  {
+   "node": 106,
+   "leaf_id": 3,
+   "depth": 6,
+   "samples": 2701,
+   "share": 5.402e-05,
+   "bits_per_code_with_table": 3.3128091310075867,
+   "empirical_entropy": 3.312803274604314
+  },
+  {
+   "node": 107,
+   "leaf_id": 4,
+   "depth": 7,
+   "samples": 21674,
+   "share": 0.00043348,
+   "bits_per_code_with_table": 3.4582990456768363,
+   "empirical_entropy": 3.457897185215371
+  },
+  {
+   "node": 110,
+   "leaf_id": 5,
+   "depth": 6,
+   "samples": 2315,
+   "share": 4.63e-05,
+   "bits_per_code_with_table": 3.3166378974607404,
+   "empirical_entropy": 3.316140476437736
+  },
+  {
+   "node": 132,
+   "leaf_id": 6,
+   "depth": 8,
+   "samples": 5800,
+   "share": 0.000116,
+   "bits_per_code_with_table": 2.6034268242017857,
+   "empirical_entropy": 2.603003575111032
+  },
+  {
+   "node": 139,
+   "leaf_id": 7,
+   "depth": 7,
+   "samples": 7864,
+   "share": 0.00015728,
+   "bits_per_code_with_table": 0.3304187607228054,
+   "empirical_entropy": 0.330289844951474
+  },
+  {
+   "node": 140,
+   "leaf_id": 8,
+   "depth": 7,
+   "samples": 2808,
+   "share": 5.616e-05,
+   "bits_per_code_with_table": 2.6555664110344863,
+   "empirical_entropy": 2.6555571787077388
+  },
+  {
+   "node": 141,
+   "leaf_id": 9,
+   "depth": 8,
+   "samples": 72138,
+   "share": 0.00144276,
+   "bits_per_code_with_table": 3.647375765750998,
+   "empirical_entropy": 3.647373636802847
+  },
+  {
+   "node": 144,
+   "leaf_id": 10,
+   "depth": 7,
+   "samples": 2702,
+   "share": 5.404e-05,
+   "bits_per_code_with_table": 3.6172866622336173,
+   "empirical_entropy": 3.6172832969112636
+  },
+  {
+   "node": 151,
+   "leaf_id": 11,
+   "depth": 7,
+   "samples": 4815,
+   "share": 9.63e-05,
+   "bits_per_code_with_table": 3.5754840000388572,
+   "empirical_entropy": 3.5754772473162344
+  },
+  {
+   "node": 156,
+   "leaf_id": 12,
+   "depth": 6,
+   "samples": 779618,
+   "share": 0.01559236,
+   "bits_per_code_with_table": 3.541376185762868,
+   "empirical_entropy": 3.54137129273335
+  },
+  {
+   "node": 158,
+   "leaf_id": 13,
+   "depth": 6,
+   "samples": 2077,
+   "share": 4.154e-05,
+   "bits_per_code_with_table": 3.270674748061218,
+   "empirical_entropy": 3.270611231785315
+  },
+  {
+   "node": 161,
+   "leaf_id": 14,
+   "depth": 7,
+   "samples": 44543,
+   "share": 0.00089086,
+   "bits_per_code_with_table": 3.5707870768747965,
+   "empirical_entropy": 3.5707851981408356
+  },
+  {
+   "node": 162,
+   "leaf_id": 15,
+   "depth": 7,
+   "samples": 29730,
+   "share": 0.0005946,
+   "bits_per_code_with_table": 3.2903245140553263,
+   "empirical_entropy": 3.290321864927416
+  },
+  {
+   "node": 166,
+   "leaf_id": 16,
+   "depth": 8,
+   "samples": 92467,
+   "share": 0.00184934,
+   "bits_per_code_with_table": 3.6722068144908566,
+   "empirical_entropy": 3.6722045710539843
+  },
+  {
+   "node": 169,
+   "leaf_id": 17,
+   "depth": 8,
+   "samples": 3003,
+   "share": 6.006e-05,
+   "bits_per_code_with_table": 3.3244930956444216,
+   "empirical_entropy": 3.32447772288782
+  },
+  {
+   "node": 170,
+   "leaf_id": 18,
+   "depth": 8,
+   "samples": 18988,
+   "share": 0.00037976,
+   "bits_per_code_with_table": 2.6448440248721123,
+   "empirical_entropy": 2.6446962304954513
+  },
+  {
+   "node": 171,
+   "leaf_id": 19,
+   "depth": 8,
+   "samples": 453083,
+   "share": 0.00906166,
+   "bits_per_code_with_table": 3.6113565763487623,
+   "empirical_entropy": 3.6113534302426333
+  },
+  {
+   "node": 176,
+   "leaf_id": 20,
+   "depth": 8,
+   "samples": 217018,
+   "share": 0.00434036,
+   "bits_per_code_with_table": 3.474406599350047,
+   "empirical_entropy": 3.4744010873545346
+  },
+  {
+   "node": 179,
+   "leaf_id": 21,
+   "depth": 7,
+   "samples": 4412,
+   "share": 8.824e-05,
+   "bits_per_code_with_table": 1.243285127043523,
+   "empirical_entropy": 1.243236865142422
+  },
+  {
+   "node": 180,
+   "leaf_id": 22,
+   "depth": 7,
+   "samples": 2964,
+   "share": 5.928e-05,
+   "bits_per_code_with_table": 3.1094434667033712,
+   "empirical_entropy": 3.109436910520376
+  },
+  {
+   "node": 181,
+   "leaf_id": 23,
+   "depth": 6,
+   "samples": 2138,
+   "share": 4.276e-05,
+   "bits_per_code_with_table": 2.151638657565048,
+   "empirical_entropy": 2.151427577673079
+  },
+  {
+   "node": 186,
+   "leaf_id": 24,
+   "depth": 9,
+   "samples": 5241,
+   "share": 0.00010482,
+   "bits_per_code_with_table": 3.3119112108756683,
+   "empirical_entropy": 3.310843303343756
+  },
+  {
+   "node": 189,
+   "leaf_id": 25,
+   "depth": 7,
+   "samples": 28389,
+   "share": 0.00056778,
+   "bits_per_code_with_table": 1.1318163583901943,
+   "empirical_entropy": 1.1317806363020533
+  },
+  {
+   "node": 192,
+   "leaf_id": 26,
+   "depth": 9,
+   "samples": 78563,
+   "share": 0.00157126,
+   "bits_per_code_with_table": 3.5363715180331257,
+   "empirical_entropy": 3.5363678725171734
+  },
+  {
+   "node": 193,
+   "leaf_id": 27,
+   "depth": 7,
+   "samples": 174367,
+   "share": 0.00348734,
+   "bits_per_code_with_table": 3.6571850751072863,
+   "empirical_entropy": 3.657183646190137
+  },
+  {
+   "node": 199,
+   "leaf_id": 28,
+   "depth": 7,
+   "samples": 5426,
+   "share": 0.00010852,
+   "bits_per_code_with_table": 3.4885198510744115,
+   "empirical_entropy": 3.488510804173281
+  },
+  {
+   "node": 201,
+   "leaf_id": 29,
+   "depth": 7,
+   "samples": 7988,
+   "share": 0.00015976,
+   "bits_per_code_with_table": 1.560276721622924,
+   "empirical_entropy": 1.5588605096597035
+  },
+  {
+   "node": 204,
+   "leaf_id": 30,
+   "depth": 7,
+   "samples": 3861,
+   "share": 7.722e-05,
+   "bits_per_code_with_table": 1.7071822485486028,
+   "empirical_entropy": 1.7071641450902049
+  },
+  {
+   "node": 207,
+   "leaf_id": 31,
+   "depth": 7,
+   "samples": 11558,
+   "share": 0.00023116,
+   "bits_per_code_with_table": 2.848686577645489,
+   "empirical_entropy": 2.8486630827071098
+  },
+  {
+   "node": 208,
+   "leaf_id": 32,
+   "depth": 7,
+   "samples": 3426,
+   "share": 6.852e-05,
+   "bits_per_code_with_table": 2.052169805434784,
+   "empirical_entropy": 2.0519864722805923
+  },
+  {
+   "node": 209,
+   "leaf_id": 33,
+   "depth": 8,
+   "samples": 90497,
+   "share": 0.00180994,
+   "bits_per_code_with_table": 3.440167721682661,
+   "empirical_entropy": 3.440131693384936
+  },
+  {
+   "node": 214,
+   "leaf_id": 34,
+   "depth": 6,
+   "samples": 3849,
+   "share": 7.698e-05,
+   "bits_per_code_with_table": 3.7610181100769573,
+   "empirical_entropy": 3.7610151098104567
+  },
+  {
+   "node": 215,
+   "leaf_id": 35,
+   "depth": 7,
+   "samples": 3513,
+   "share": 7.026e-05,
+   "bits_per_code_with_table": 3.531726080553595,
+   "empirical_entropy": 3.5317112267462805
+  },
+  {
+   "node": 222,
+   "leaf_id": 36,
+   "depth": 8,
+   "samples": 3049,
+   "share": 6.098e-05,
+   "bits_per_code_with_table": 2.2159191234926867,
+   "empirical_entropy": 2.215865468660214
+  },
+  {
+   "node": 226,
+   "leaf_id": 37,
+   "depth": 9,
+   "samples": 253593,
+   "share": 0.00507186,
+   "bits_per_code_with_table": 3.393374789797833,
+   "empirical_entropy": 3.393345151296502
+  },
+  {
+   "node": 227,
+   "leaf_id": 38,
+   "depth": 8,
+   "samples": 4527,
+   "share": 9.054e-05,
+   "bits_per_code_with_table": 1.7715580537947744,
+   "empirical_entropy": 1.7715120277253154
+  },
+  {
+   "node": 228,
+   "leaf_id": 39,
+   "depth": 8,
+   "samples": 2871,
+   "share": 5.742e-05,
+   "bits_per_code_with_table": 3.072166129588682,
+   "empirical_entropy": 3.072149291558995
+  },
+  {
+   "node": 231,
+   "leaf_id": 40,
+   "depth": 8,
+   "samples": 3333,
+   "share": 6.666e-05,
+   "bits_per_code_with_table": 3.6648070898113727,
+   "empirical_entropy": 3.6648049023118556
+  },
+  {
+   "node": 233,
+   "leaf_id": 41,
+   "depth": 8,
+   "samples": 426945,
+   "share": 0.0085389,
+   "bits_per_code_with_table": 3.6704350371697787,
+   "empirical_entropy": 3.6704337862069742
+  },
+  {
+   "node": 237,
+   "leaf_id": 42,
+   "depth": 6,
+   "samples": 4398,
+   "share": 8.796e-05,
+   "bits_per_code_with_table": 3.862035882183156,
+   "empirical_entropy": 3.862032637078311
+  },
+  {
+   "node": 240,
+   "leaf_id": 43,
+   "depth": 9,
+   "samples": 3780,
+   "share": 7.56e-05,
+   "bits_per_code_with_table": 3.811172461768789,
+   "empirical_entropy": 3.811170873774063
+  },
+  {
+   "node": 241,
+   "leaf_id": 44,
+   "depth": 9,
+   "samples": 278587,
+   "share": 0.00557174,
+   "bits_per_code_with_table": 3.520649301398463,
+   "empirical_entropy": 3.5206404656068586
+  },
+  {
+   "node": 244,
+   "leaf_id": 45,
+   "depth": 9,
+   "samples": 2009,
+   "share": 4.018e-05,
+   "bits_per_code_with_table": 2.9034562090779237,
+   "empirical_entropy": 2.9034114446174133
+  },
+  {
+   "node": 252,
+   "leaf_id": 46,
+   "depth": 9,
+   "samples": 739053,
+   "share": 0.01478106,
+   "bits_per_code_with_table": 3.430028150016573,
+   "empirical_entropy": 3.4300107701966076
+  },
+  {
+   "node": 253,
+   "leaf_id": 47,
+   "depth": 8,
+   "samples": 2523,
+   "share": 5.046e-05,
+   "bits_per_code_with_table": 2.9663614020387223,
+   "empirical_entropy": 2.964948515386155
+  },
+  {
+   "node": 255,
+   "leaf_id": 48,
+   "depth": 10,
+   "samples": 2675,
+   "share": 5.35e-05,
+   "bits_per_code_with_table": 3.6332367988248366,
+   "empirical_entropy": 3.6332315127230257
+  },
+  {
+   "node": 256,
+   "leaf_id": 49,
+   "depth": 10,
+   "samples": 4126,
+   "share": 8.252e-05,
+   "bits_per_code_with_table": 2.9193170050116786,
+   "empirical_entropy": 2.9193128928958303
+  },
+  {
+   "node": 258,
+   "leaf_id": 50,
+   "depth": 9,
+   "samples": 87354,
+   "share": 0.00174708,
+   "bits_per_code_with_table": 3.309886933068684,
+   "empirical_entropy": 3.3098136162575127
+  },
+  {
+   "node": 262,
+   "leaf_id": 51,
+   "depth": 8,
+   "samples": 21969,
+   "share": 0.00043938,
+   "bits_per_code_with_table": 3.37940760348278,
+   "empirical_entropy": 3.3793123572867767
+  },
+  {
+   "node": 265,
+   "leaf_id": 52,
+   "depth": 9,
+   "samples": 4446,
+   "share": 8.892e-05,
+   "bits_per_code_with_table": 3.3997252573992824,
+   "empirical_entropy": 3.399717629146323
+  },
+  {
+   "node": 266,
+   "leaf_id": 53,
+   "depth": 9,
+   "samples": 2589,
+   "share": 5.178e-05,
+   "bits_per_code_with_table": 2.8765881982055372,
+   "empirical_entropy": 2.8765198146952113
+  },
+  {
+   "node": 267,
+   "leaf_id": 54,
+   "depth": 7,
+   "samples": 2956,
+   "share": 5.912e-05,
+   "bits_per_code_with_table": 3.610010940664994,
+   "empirical_entropy": 3.610009384179812
+  },
+  {
+   "node": 268,
+   "leaf_id": 55,
+   "depth": 7,
+   "samples": 3515,
+   "share": 7.03e-05,
+   "bits_per_code_with_table": 3.2477440434557776,
+   "empirical_entropy": 3.247736934632205
+  },
+  {
+   "node": 269,
+   "leaf_id": 56,
+   "depth": 9,
+   "samples": 437300,
+   "share": 0.008746,
+   "bits_per_code_with_table": 3.472194094700652,
+   "empirical_entropy": 3.4721841545820085
+  },
+  {
+   "node": 270,
+   "leaf_id": 57,
+   "depth": 9,
+   "samples": 1442177,
+   "share": 0.02884354,
+   "bits_per_code_with_table": 3.5057501692249318,
+   "empirical_entropy": 3.5057474859273556
+  },
+  {
+   "node": 273,
+   "leaf_id": 58,
+   "depth": 7,
+   "samples": 9959,
+   "share": 0.00019918,
+   "bits_per_code_with_table": 3.6355331620522833,
+   "empirical_entropy": 3.635531085232886
+  },
+  {
+   "node": 274,
+   "leaf_id": 59,
+   "depth": 7,
+   "samples": 7112,
+   "share": 0.00014224,
+   "bits_per_code_with_table": 3.628129245605643,
+   "empirical_entropy": 3.628126769256228
+  },
+  {
+   "node": 275,
+   "leaf_id": 60,
+   "depth": 9,
+   "samples": 48249,
+   "share": 0.00096498,
+   "bits_per_code_with_table": 3.4699132787853544,
+   "empirical_entropy": 3.4699096308663835
+  },
+  {
+   "node": 276,
+   "leaf_id": 61,
+   "depth": 9,
+   "samples": 11667,
+   "share": 0.00023334,
+   "bits_per_code_with_table": 3.656872996702133,
+   "empirical_entropy": 3.656871553219147
+  },
+  {
+   "node": 278,
+   "leaf_id": 62,
+   "depth": 5,
+   "samples": 2043011,
+   "share": 0.04086022,
+   "bits_per_code_with_table": 3.8443041475887356,
+   "empirical_entropy": 3.84430343768754
+  },
+  {
+   "node": 279,
+   "leaf_id": 63,
+   "depth": 8,
+   "samples": 4872,
+   "share": 9.744e-05,
+   "bits_per_code_with_table": 3.4797203036937905,
+   "empirical_entropy": 3.4797158353434017
+  },
+  {
+   "node": 280,
+   "leaf_id": 64,
+   "depth": 8,
+   "samples": 4215,
+   "share": 8.43e-05,
+   "bits_per_code_with_table": 3.0893221064863696,
+   "empirical_entropy": 3.0893153012484653
+  },
+  {
+   "node": 281,
+   "leaf_id": 65,
+   "depth": 8,
+   "samples": 90766,
+   "share": 0.00181532,
+   "bits_per_code_with_table": 3.3931956984470313,
+   "empirical_entropy": 3.393173296394017
+  },
+  {
+   "node": 282,
+   "leaf_id": 66,
+   "depth": 8,
+   "samples": 43357,
+   "share": 0.00086714,
+   "bits_per_code_with_table": 3.4561179496121457,
+   "empirical_entropy": 3.4561113262429695
+  },
+  {
+   "node": 283,
+   "leaf_id": 67,
+   "depth": 9,
+   "samples": 11230,
+   "share": 0.0002246,
+   "bits_per_code_with_table": 3.5684849981068614,
+   "empirical_entropy": 3.5684830355476507
+  },
+  {
+   "node": 284,
+   "leaf_id": 68,
+   "depth": 9,
+   "samples": 5247,
+   "share": 0.00010494,
+   "bits_per_code_with_table": 3.327430848926448,
+   "empirical_entropy": 3.3274276956916573
+  },
+  {
+   "node": 285,
+   "leaf_id": 69,
+   "depth": 9,
+   "samples": 58273,
+   "share": 0.00116546,
+   "bits_per_code_with_table": 3.7312521505033027,
+   "empirical_entropy": 3.731251034545757
+  },
+  {
+   "node": 289,
+   "leaf_id": 70,
+   "depth": 10,
+   "samples": 99636,
+   "share": 0.00199272,
+   "bits_per_code_with_table": 3.6079657344980394,
+   "empirical_entropy": 3.6079619757211954
+  },
+  {
+   "node": 290,
+   "leaf_id": 71,
+   "depth": 10,
+   "samples": 145985,
+   "share": 0.0029197,
+   "bits_per_code_with_table": 3.5487516073386782,
+   "empirical_entropy": 3.5487466699572034
+  },
+  {
+   "node": 291,
+   "leaf_id": 72,
+   "depth": 9,
+   "samples": 395683,
+   "share": 0.00791366,
+   "bits_per_code_with_table": 3.593464677736614,
+   "empirical_entropy": 3.5934609998573803
+  },
+  {
+   "node": 292,
+   "leaf_id": 73,
+   "depth": 9,
+   "samples": 204356,
+   "share": 0.00408712,
+   "bits_per_code_with_table": 3.614680946908991,
+   "empirical_entropy": 3.614670133329553
+  },
+  {
+   "node": 293,
+   "leaf_id": 74,
+   "depth": 9,
+   "samples": 219317,
+   "share": 0.00438634,
+   "bits_per_code_with_table": 3.724763684530699,
+   "empirical_entropy": 3.724762890182756
+  },
+  {
+   "node": 294,
+   "leaf_id": 75,
+   "depth": 9,
+   "samples": 19188,
+   "share": 0.00038376,
+   "bits_per_code_with_table": 3.5989003682123966,
+   "empirical_entropy": 3.5988988126580095
+  },
+  {
+   "node": 295,
+   "leaf_id": 76,
+   "depth": 9,
+   "samples": 110336,
+   "share": 0.00220672,
+   "bits_per_code_with_table": 3.4968558839488493,
+   "empirical_entropy": 3.4968510332232703
+  },
+  {
+   "node": 296,
+   "leaf_id": 77,
+   "depth": 9,
+   "samples": 36000,
+   "share": 0.00072,
+   "bits_per_code_with_table": 3.592422090596008,
+   "empirical_entropy": 3.5924202751462735
+  },
+  {
+   "node": 298,
+   "leaf_id": 78,
+   "depth": 9,
+   "samples": 23278,
+   "share": 0.00046556,
+   "bits_per_code_with_table": 3.759443871176913,
+   "empirical_entropy": 3.7594418173445474
+  },
+  {
+   "node": 300,
+   "leaf_id": 79,
+   "depth": 6,
+   "samples": 4375525,
+   "share": 0.0875105,
+   "bits_per_code_with_table": 3.841290289701792,
+   "empirical_entropy": 3.8412893022785837
+  },
+  {
+   "node": 302,
+   "leaf_id": 80,
+   "depth": 7,
+   "samples": 1029562,
+   "share": 0.02059124,
+   "bits_per_code_with_table": 3.8415754692500412,
+   "empirical_entropy": 3.841573433423858
+  },
+  {
+   "node": 303,
+   "leaf_id": 81,
+   "depth": 10,
+   "samples": 16390,
+   "share": 0.0003278,
+   "bits_per_code_with_table": 3.53471682408889,
+   "empirical_entropy": 3.5347120539944443
+  },
+  {
+   "node": 304,
+   "leaf_id": 82,
+   "depth": 10,
+   "samples": 3311,
+   "share": 6.622e-05,
+   "bits_per_code_with_table": 3.3470410334632072,
+   "empirical_entropy": 3.347037252089694
+  },
+  {
+   "node": 306,
+   "leaf_id": 83,
+   "depth": 9,
+   "samples": 91745,
+   "share": 0.0018349,
+   "bits_per_code_with_table": 3.6596378163348775,
+   "empirical_entropy": 3.6596349069025482
+  },
+  {
+   "node": 308,
+   "leaf_id": 84,
+   "depth": 9,
+   "samples": 1669429,
+   "share": 0.03338858,
+   "bits_per_code_with_table": 3.367337026941087,
+   "empirical_entropy": 3.366765000858253
+  },
+  {
+   "node": 309,
+   "leaf_id": 85,
+   "depth": 8,
+   "samples": 12907,
+   "share": 0.00025814,
+   "bits_per_code_with_table": 1.9862510060950958,
+   "empirical_entropy": 1.9861970989183626
+  },
+  {
+   "node": 310,
+   "leaf_id": 86,
+   "depth": 8,
+   "samples": 6976,
+   "share": 0.00013952,
+   "bits_per_code_with_table": 2.498949565200438,
+   "empirical_entropy": 2.498945529033399
+  },
+  {
+   "node": 315,
+   "leaf_id": 87,
+   "depth": 6,
+   "samples": 9159,
+   "share": 0.00018318,
+   "bits_per_code_with_table": 3.851199904998059,
+   "empirical_entropy": 3.851199342264232
+  },
+  {
+   "node": 316,
+   "leaf_id": 88,
+   "depth": 6,
+   "samples": 59987,
+   "share": 0.00119974,
+   "bits_per_code_with_table": 3.8050272727154217,
+   "empirical_entropy": 3.8050257124233626
+  },
+  {
+   "node": 317,
+   "leaf_id": 89,
+   "depth": 8,
+   "samples": 3933,
+   "share": 7.866e-05,
+   "bits_per_code_with_table": 3.369224846176818,
+   "empirical_entropy": 3.3692216203485787
+  },
+  {
+   "node": 318,
+   "leaf_id": 90,
+   "depth": 8,
+   "samples": 3178,
+   "share": 6.356e-05,
+   "bits_per_code_with_table": 3.15800950166211,
+   "empirical_entropy": 3.157594225068614
+  },
+  {
+   "node": 319,
+   "leaf_id": 91,
+   "depth": 10,
+   "samples": 60526,
+   "share": 0.00121052,
+   "bits_per_code_with_table": 3.6306151007741994,
+   "empirical_entropy": 3.630611979649033
+  },
+  {
+   "node": 320,
+   "leaf_id": 92,
+   "depth": 10,
+   "samples": 222214,
+   "share": 0.00444428,
+   "bits_per_code_with_table": 3.6573756013215424,
+   "empirical_entropy": 3.657374058695435
+  },
+  {
+   "node": 321,
+   "leaf_id": 93,
+   "depth": 8,
+   "samples": 2671,
+   "share": 5.342e-05,
+   "bits_per_code_with_table": 2.2080906477707893,
+   "empirical_entropy": 2.208038691544397
+  },
+  {
+   "node": 322,
+   "leaf_id": 94,
+   "depth": 8,
+   "samples": 4871,
+   "share": 9.742e-05,
+   "bits_per_code_with_table": 1.3103708752389218,
+   "empirical_entropy": 1.3103521486598815
+  },
+  {
+   "node": 323,
+   "leaf_id": 95,
+   "depth": 10,
+   "samples": 169831,
+   "share": 0.00339662,
+   "bits_per_code_with_table": 3.5844292269407694,
+   "empirical_entropy": 3.5844252997913313
+  },
+  {
+   "node": 326,
+   "leaf_id": 96,
+   "depth": 9,
+   "samples": 170042,
+   "share": 0.00340084,
+   "bits_per_code_with_table": 3.455009476415796,
+   "empirical_entropy": 3.4549983154988126
+  },
+  {
+   "node": 327,
+   "leaf_id": 97,
+   "depth": 7,
+   "samples": 2156,
+   "share": 4.312e-05,
+   "bits_per_code_with_table": 3.6423359835365368,
+   "empirical_entropy": 3.6423202233066228
+  },
+  {
+   "node": 328,
+   "leaf_id": 98,
+   "depth": 7,
+   "samples": 3963,
+   "share": 7.926e-05,
+   "bits_per_code_with_table": 3.488337287647194,
+   "empirical_entropy": 3.488334986852248
+  },
+  {
+   "node": 329,
+   "leaf_id": 99,
+   "depth": 9,
+   "samples": 117822,
+   "share": 0.00235644,
+   "bits_per_code_with_table": 3.443634384312147,
+   "empirical_entropy": 3.4436145604868997
+  },
+  {
+   "node": 333,
+   "leaf_id": 100,
+   "depth": 7,
+   "samples": 101908,
+   "share": 0.00203816,
+   "bits_per_code_with_table": 3.231833578734996,
+   "empirical_entropy": 3.2314149079067604
+  },
+  {
+   "node": 334,
+   "leaf_id": 101,
+   "depth": 7,
+   "samples": 58760,
+   "share": 0.0011752,
+   "bits_per_code_with_table": 3.3206757942510476,
+   "empirical_entropy": 3.320331269400933
+  },
+  {
+   "node": 335,
+   "leaf_id": 102,
+   "depth": 8,
+   "samples": 242713,
+   "share": 0.00485426,
+   "bits_per_code_with_table": 3.7328653508244445,
+   "empirical_entropy": 3.7328643326522277
+  },
+  {
+   "node": 336,
+   "leaf_id": 103,
+   "depth": 8,
+   "samples": 29757,
+   "share": 0.00059514,
+   "bits_per_code_with_table": 3.649374625357788,
+   "empirical_entropy": 3.6493730901122454
+  },
+  {
+   "node": 337,
+   "leaf_id": 104,
+   "depth": 10,
+   "samples": 270972,
+   "share": 0.00541944,
+   "bits_per_code_with_table": 3.4550749287550744,
+   "empirical_entropy": 3.45506957543463
+  },
+  {
+   "node": 338,
+   "leaf_id": 105,
+   "depth": 10,
+   "samples": 2910,
+   "share": 5.82e-05,
+   "bits_per_code_with_table": 3.448663133725041,
+   "empirical_entropy": 3.4486546002697738
+  },
+  {
+   "node": 339,
+   "leaf_id": 106,
+   "depth": 6,
+   "samples": 10933,
+   "share": 0.00021866,
+   "bits_per_code_with_table": 3.7378953031874427,
+   "empirical_entropy": 3.7378925263509015
+  },
+  {
+   "node": 341,
+   "leaf_id": 107,
+   "depth": 9,
+   "samples": 75188,
+   "share": 0.00150376,
+   "bits_per_code_with_table": 3.5513191631219057,
+   "empirical_entropy": 3.5513151671497103
+  },
+  {
+   "node": 343,
+   "leaf_id": 108,
+   "depth": 7,
+   "samples": 2032,
+   "share": 4.064e-05,
+   "bits_per_code_with_table": 1.3530054894214731,
+   "empirical_entropy": 1.3524420133523911
+  },
+  {
+   "node": 344,
+   "leaf_id": 109,
+   "depth": 7,
+   "samples": 4021,
+   "share": 8.042e-05,
+   "bits_per_code_with_table": 1.2304880690850448,
+   "empirical_entropy": 1.2303886865622415
+  },
+  {
+   "node": 345,
+   "leaf_id": 110,
+   "depth": 7,
+   "samples": 12379,
+   "share": 0.00024758,
+   "bits_per_code_with_table": 0.320182883498802,
+   "empirical_entropy": 0.32010079597300944
+  },
+  {
+   "node": 346,
+   "leaf_id": 111,
+   "depth": 7,
+   "samples": 2044,
+   "share": 4.088e-05,
+   "bits_per_code_with_table": 1.1961664953300895,
+   "empirical_entropy": 1.1960604094415566
+  },
+  {
+   "node": 347,
+   "leaf_id": 112,
+   "depth": 8,
+   "samples": 2004,
+   "share": 4.008e-05,
+   "bits_per_code_with_table": 2.9833172315983725,
+   "empirical_entropy": 2.9832832533297533
+  },
+  {
+   "node": 348,
+   "leaf_id": 113,
+   "depth": 8,
+   "samples": 2174,
+   "share": 4.348e-05,
+   "bits_per_code_with_table": 3.6100869075775113,
+   "empirical_entropy": 3.610060782604015
+  },
+  {
+   "node": 349,
+   "leaf_id": 114,
+   "depth": 8,
+   "samples": 51427,
+   "share": 0.00102854,
+   "bits_per_code_with_table": 3.607683003229074,
+   "empirical_entropy": 3.607681937956641
+  },
+  {
+   "node": 351,
+   "leaf_id": 115,
+   "depth": 9,
+   "samples": 21860,
+   "share": 0.0004372,
+   "bits_per_code_with_table": 3.7308841299379876,
+   "empirical_entropy": 3.7308826988993973
+  },
+  {
+   "node": 352,
+   "leaf_id": 116,
+   "depth": 9,
+   "samples": 13464,
+   "share": 0.00026928,
+   "bits_per_code_with_table": 3.5843491225046304,
+   "empirical_entropy": 3.584347320833069
+  },
+  {
+   "node": 353,
+   "leaf_id": 117,
+   "depth": 8,
+   "samples": 5412,
+   "share": 0.00010824,
+   "bits_per_code_with_table": 3.5152456753012067,
+   "empirical_entropy": 3.5152285320876997
+  },
+  {
+   "node": 354,
+   "leaf_id": 118,
+   "depth": 8,
+   "samples": 3025,
+   "share": 6.05e-05,
+   "bits_per_code_with_table": 3.351171417475387,
+   "empirical_entropy": 3.351150374395024
+  },
+  {
+   "node": 355,
+   "leaf_id": 119,
+   "depth": 10,
+   "samples": 1133022,
+   "share": 0.02266044,
+   "bits_per_code_with_table": 3.5294975798614248,
+   "empirical_entropy": 3.5294930777609177
+  },
+  {
+   "node": 356,
+   "leaf_id": 120,
+   "depth": 10,
+   "samples": 704928,
+   "share": 0.01409856,
+   "bits_per_code_with_table": 3.5460029723083073,
+   "empirical_entropy": 3.5459889308559487
+  },
+  {
+   "node": 357,
+   "leaf_id": 121,
+   "depth": 10,
+   "samples": 663047,
+   "share": 0.01326094,
+   "bits_per_code_with_table": 3.559219901675051,
+   "empirical_entropy": 3.5592100824845168
+  },
+  {
+   "node": 358,
+   "leaf_id": 122,
+   "depth": 10,
+   "samples": 140272,
+   "share": 0.00280544,
+   "bits_per_code_with_table": 3.5929992844173766,
+   "empirical_entropy": 3.592994079922534
+  },
+  {
+   "node": 359,
+   "leaf_id": 123,
+   "depth": 8,
+   "samples": 2222,
+   "share": 4.444e-05,
+   "bits_per_code_with_table": 3.4762385947997294,
+   "empirical_entropy": 3.476232704236993
+  },
+  {
+   "node": 361,
+   "leaf_id": 124,
+   "depth": 10,
+   "samples": 192262,
+   "share": 0.00384524,
+   "bits_per_code_with_table": 3.364064499330599,
+   "empirical_entropy": 3.364030394572156
+  },
+  {
+   "node": 362,
+   "leaf_id": 125,
+   "depth": 10,
+   "samples": 401954,
+   "share": 0.00803908,
+   "bits_per_code_with_table": 3.40518217134645,
+   "empirical_entropy": 3.405179775921639
+  },
+  {
+   "node": 365,
+   "leaf_id": 126,
+   "depth": 10,
+   "samples": 44925,
+   "share": 0.0008985,
+   "bits_per_code_with_table": 3.3731381458928804,
+   "empirical_entropy": 3.373133540557451
+  },
+  {
+   "node": 366,
+   "leaf_id": 127,
+   "depth": 10,
+   "samples": 20794,
+   "share": 0.00041588,
+   "bits_per_code_with_table": 3.3552451933080976,
+   "empirical_entropy": 3.355135414099759
+  },
+  {
+   "node": 367,
+   "leaf_id": 128,
+   "depth": 9,
+   "samples": 116086,
+   "share": 0.00232172,
+   "bits_per_code_with_table": 3.4088820552991033,
+   "empirical_entropy": 3.4088442631462654
+  },
+  {
+   "node": 368,
+   "leaf_id": 129,
+   "depth": 9,
+   "samples": 415297,
+   "share": 0.00830594,
+   "bits_per_code_with_table": 3.384119557864579,
+   "empirical_entropy": 3.3840845942632245
+  },
+  {
+   "node": 369,
+   "leaf_id": 130,
+   "depth": 8,
+   "samples": 76623,
+   "share": 0.00153246,
+   "bits_per_code_with_table": 3.66246084522726,
+   "empirical_entropy": 3.662456393490088
+  },
+  {
+   "node": 370,
+   "leaf_id": 131,
+   "depth": 8,
+   "samples": 60384,
+   "share": 0.00120768,
+   "bits_per_code_with_table": 3.642119432010415,
+   "empirical_entropy": 3.6421172476724464
+  },
+  {
+   "node": 371,
+   "leaf_id": 132,
+   "depth": 8,
+   "samples": 17207,
+   "share": 0.00034414,
+   "bits_per_code_with_table": 0.3959215455020599,
+   "empirical_entropy": 0.3958675550472362
+  },
+  {
+   "node": 372,
+   "leaf_id": 133,
+   "depth": 8,
+   "samples": 3761,
+   "share": 7.522e-05,
+   "bits_per_code_with_table": 0.9442292922222328,
+   "empirical_entropy": 0.9437941930448766
+  },
+  {
+   "node": 373,
+   "leaf_id": 134,
+   "depth": 10,
+   "samples": 159142,
+   "share": 0.00318284,
+   "bits_per_code_with_table": 3.5076594795998592,
+   "empirical_entropy": 3.5076577385801144
+  },
+  {
+   "node": 374,
+   "leaf_id": 135,
+   "depth": 10,
+   "samples": 135018,
+   "share": 0.00270036,
+   "bits_per_code_with_table": 3.5555928365559404,
+   "empirical_entropy": 3.5555911024258746
+  },
+  {
+   "node": 375,
+   "leaf_id": 136,
+   "depth": 9,
+   "samples": 69656,
+   "share": 0.00139312,
+   "bits_per_code_with_table": 3.552662925917499,
+   "empirical_entropy": 3.552661215395236
+  },
+  {
+   "node": 377,
+   "leaf_id": 137,
+   "depth": 9,
+   "samples": 122992,
+   "share": 0.00245984,
+   "bits_per_code_with_table": 3.4297839632799456,
+   "empirical_entropy": 3.4296691398349637
+  },
+  {
+   "node": 378,
+   "leaf_id": 138,
+   "depth": 9,
+   "samples": 34533,
+   "share": 0.00069066,
+   "bits_per_code_with_table": 3.4256298604484265,
+   "empirical_entropy": 3.424844605311382
+  },
+  {
+   "node": 379,
+   "leaf_id": 139,
+   "depth": 7,
+   "samples": 979023,
+   "share": 0.01958046,
+   "bits_per_code_with_table": 3.7697271708887956,
+   "empirical_entropy": 3.769725492183668
+  },
+  {
+   "node": 380,
+   "leaf_id": 140,
+   "depth": 7,
+   "samples": 503136,
+   "share": 0.01006272,
+   "bits_per_code_with_table": 3.782212970002112,
+   "empirical_entropy": 3.782208541058317
+  },
+  {
+   "node": 381,
+   "leaf_id": 141,
+   "depth": 10,
+   "samples": 89039,
+   "share": 0.00178078,
+   "bits_per_code_with_table": 3.4589416784966462,
+   "empirical_entropy": 3.458934762002491
+  },
+  {
+   "node": 382,
+   "leaf_id": 142,
+   "depth": 10,
+   "samples": 217920,
+   "share": 0.0043584,
+   "bits_per_code_with_table": 3.4448500101225856,
+   "empirical_entropy": 3.444845292169609
+  },
+  {
+   "node": 383,
+   "leaf_id": 143,
+   "depth": 9,
+   "samples": 2868,
+   "share": 5.736e-05,
+   "bits_per_code_with_table": 2.824994182766027,
+   "empirical_entropy": 2.824878865158885
+  },
+  {
+   "node": 384,
+   "leaf_id": 144,
+   "depth": 9,
+   "samples": 2980,
+   "share": 5.96e-05,
+   "bits_per_code_with_table": 3.4050000463066143,
+   "empirical_entropy": 3.4049946861419227
+  },
+  {
+   "node": 385,
+   "leaf_id": 145,
+   "depth": 8,
+   "samples": 1061009,
+   "share": 0.02122018,
+   "bits_per_code_with_table": 3.436349990732191,
+   "empirical_entropy": 3.436307466979815
+  },
+  {
+   "node": 386,
+   "leaf_id": 146,
+   "depth": 8,
+   "samples": 1801527,
+   "share": 0.03603054,
+   "bits_per_code_with_table": 3.452982739736418,
+   "empirical_entropy": 3.452945201509689
+  },
+  {
+   "node": 387,
+   "leaf_id": 147,
+   "depth": 10,
+   "samples": 583891,
+   "share": 0.01167782,
+   "bits_per_code_with_table": 3.558498409602477,
+   "empirical_entropy": 3.558497174692971
+  },
+  {
+   "node": 388,
+   "leaf_id": 148,
+   "depth": 10,
+   "samples": 324478,
+   "share": 0.00648956,
+   "bits_per_code_with_table": 3.577841467704686,
+   "empirical_entropy": 3.5778380950302644
+  },
+  {
+   "node": 389,
+   "leaf_id": 149,
+   "depth": 8,
+   "samples": 268232,
+   "share": 0.00536464,
+   "bits_per_code_with_table": 3.82545818569716,
+   "empirical_entropy": 3.8254574417406877
+  },
+  {
+   "node": 390,
+   "leaf_id": 150,
+   "depth": 8,
+   "samples": 759807,
+   "share": 0.01519614,
+   "bits_per_code_with_table": 3.835092160772497,
+   "empirical_entropy": 3.835090200404137
+  },
+  {
+   "node": 392,
+   "leaf_id": 151,
+   "depth": 10,
+   "samples": 697830,
+   "share": 0.0139566,
+   "bits_per_code_with_table": 3.5155054945059274,
+   "empirical_entropy": 3.5154883772537544
+  },
+  {
+   "node": 393,
+   "leaf_id": 152,
+   "depth": 10,
+   "samples": 42426,
+   "share": 0.00084852,
+   "bits_per_code_with_table": 3.2526342241845767,
+   "empirical_entropy": 3.2525985512555935
+  },
+  {
+   "node": 394,
+   "leaf_id": 153,
+   "depth": 10,
+   "samples": 174948,
+   "share": 0.00349896,
+   "bits_per_code_with_table": 3.2258183764640767,
+   "empirical_entropy": 3.225211349220865
+  },
+  {
+   "node": 395,
+   "leaf_id": 154,
+   "depth": 8,
+   "samples": 200622,
+   "share": 0.00401244,
+   "bits_per_code_with_table": 3.4508519507691,
+   "empirical_entropy": 3.450845324214123
+  },
+  {
+   "node": 396,
+   "leaf_id": 155,
+   "depth": 8,
+   "samples": 653512,
+   "share": 0.01307024,
+   "bits_per_code_with_table": 3.4846261526829,
+   "empirical_entropy": 3.484593154262582
+  },
+  {
+   "node": 397,
+   "leaf_id": 156,
+   "depth": 9,
+   "samples": 10207,
+   "share": 0.00020414,
+   "bits_per_code_with_table": 3.725367910335055,
+   "empirical_entropy": 3.7253644369781096
+  },
+  {
+   "node": 398,
+   "leaf_id": 157,
+   "depth": 9,
+   "samples": 2756,
+   "share": 5.512e-05,
+   "bits_per_code_with_table": 3.4740647034391015,
+   "empirical_entropy": 3.473698520146083
+  },
+  {
+   "node": 399,
+   "leaf_id": 158,
+   "depth": 10,
+   "samples": 74663,
+   "share": 0.00149326,
+   "bits_per_code_with_table": 3.6810878477005,
+   "empirical_entropy": 3.681082782528418
+  },
+  {
+   "node": 400,
+   "leaf_id": 159,
+   "depth": 10,
+   "samples": 157648,
+   "share": 0.00315296,
+   "bits_per_code_with_table": 3.633763446023965,
+   "empirical_entropy": 3.6337578130325245
+  },
+  {
+   "node": 404,
+   "leaf_id": 160,
+   "depth": 9,
+   "samples": 2170487,
+   "share": 0.04340974,
+   "bits_per_code_with_table": 3.43160701072242,
+   "empirical_entropy": 3.431586489269841
+  },
+  {
+   "node": 405,
+   "leaf_id": 161,
+   "depth": 10,
+   "samples": 501447,
+   "share": 0.01002894,
+   "bits_per_code_with_table": 3.4323587930493376,
+   "empirical_entropy": 3.4323524210429435
+  },
+  {
+   "node": 407,
+   "leaf_id": 162,
+   "depth": 11,
+   "samples": 106529,
+   "share": 0.00213058,
+   "bits_per_code_with_table": 3.519830215377522,
+   "empirical_entropy": 3.5198089919469187
+  },
+  {
+   "node": 408,
+   "leaf_id": 163,
+   "depth": 11,
+   "samples": 72288,
+   "share": 0.00144576,
+   "bits_per_code_with_table": 3.4470751137052957,
+   "empirical_entropy": 3.447025125007492
+  },
+  {
+   "node": 409,
+   "leaf_id": 164,
+   "depth": 10,
+   "samples": 124293,
+   "share": 0.00248586,
+   "bits_per_code_with_table": 3.48771409043467,
+   "empirical_entropy": 3.487709681650152
+  },
+  {
+   "node": 410,
+   "leaf_id": 165,
+   "depth": 10,
+   "samples": 127363,
+   "share": 0.00254726,
+   "bits_per_code_with_table": 3.5337065017501437,
+   "empirical_entropy": 3.53370516579627
+  },
+  {
+   "node": 412,
+   "leaf_id": 166,
+   "depth": 11,
+   "samples": 417226,
+   "share": 0.00834452,
+   "bits_per_code_with_table": 3.5042096231367803,
+   "empirical_entropy": 3.50419692775492
+  },
+  {
+   "node": 413,
+   "leaf_id": 167,
+   "depth": 10,
+   "samples": 118418,
+   "share": 0.00236836,
+   "bits_per_code_with_table": 3.5657559848095275,
+   "empirical_entropy": 3.5657536011766977
+  },
+  {
+   "node": 414,
+   "leaf_id": 168,
+   "depth": 10,
+   "samples": 123556,
+   "share": 0.00247112,
+   "bits_per_code_with_table": 3.6147205655113686,
+   "empirical_entropy": 3.6147162898674994
+  },
+  {
+   "node": 415,
+   "leaf_id": 169,
+   "depth": 10,
+   "samples": 100939,
+   "share": 0.00201878,
+   "bits_per_code_with_table": 3.4231325743015297,
+   "empirical_entropy": 3.4231157782125554
+  },
+  {
+   "node": 416,
+   "leaf_id": 170,
+   "depth": 10,
+   "samples": 305178,
+   "share": 0.00610356,
+   "bits_per_code_with_table": 3.406314069553048,
+   "empirical_entropy": 3.406305745751352
+  },
+  {
+   "node": 418,
+   "leaf_id": 171,
+   "depth": 10,
+   "samples": 14633,
+   "share": 0.00029266,
+   "bits_per_code_with_table": 3.2816370924764167,
+   "empirical_entropy": 3.280222177593728
+  },
+  {
+   "node": 420,
+   "leaf_id": 172,
+   "depth": 10,
+   "samples": 1044398,
+   "share": 0.02088796,
+   "bits_per_code_with_table": 3.518428987692512,
+   "empirical_entropy": 3.518415380946514
+  },
+  {
+   "node": 421,
+   "leaf_id": 173,
+   "depth": 11,
+   "samples": 64031,
+   "share": 0.00128062,
+   "bits_per_code_with_table": 3.5926137284921453,
+   "empirical_entropy": 3.592609262897084
+  },
+  {
+   "node": 422,
+   "leaf_id": 174,
+   "depth": 11,
+   "samples": 166227,
+   "share": 0.00332454,
+   "bits_per_code_with_table": 3.526457744178165,
+   "empirical_entropy": 3.526456385133113
+  },
+  {
+   "node": 423,
+   "leaf_id": 175,
+   "depth": 11,
+   "samples": 18446,
+   "share": 0.00036892,
+   "bits_per_code_with_table": 3.6999488007950285,
+   "empirical_entropy": 3.699944849109266
+  },
+  {
+   "node": 424,
+   "leaf_id": 176,
+   "depth": 11,
+   "samples": 36230,
+   "share": 0.0007246,
+   "bits_per_code_with_table": 3.61691633006416,
+   "empirical_entropy": 3.6169117860640077
+  },
+  {
+   "node": 425,
+   "leaf_id": 177,
+   "depth": 9,
+   "samples": 31920,
+   "share": 0.0006384,
+   "bits_per_code_with_table": 3.710398142229993,
+   "empirical_entropy": 3.710397626174899
+  },
+  {
+   "node": 426,
+   "leaf_id": 178,
+   "depth": 9,
+   "samples": 107991,
+   "share": 0.00215982,
+   "bits_per_code_with_table": 3.7446702779699885,
+   "empirical_entropy": 3.744668860618392
+  },
+  {
+   "node": 427,
+   "leaf_id": 179,
+   "depth": 8,
+   "samples": 7196,
+   "share": 0.00014392,
+   "bits_per_code_with_table": 1.6906791023003396,
+   "empirical_entropy": 1.6906679435580432
+  },
+  {
+   "node": 428,
+   "leaf_id": 180,
+   "depth": 8,
+   "samples": 3223,
+   "share": 6.446e-05,
+   "bits_per_code_with_table": 2.405867088644504,
+   "empirical_entropy": 2.4058537126296557
+  },
+  {
+   "node": 429,
+   "leaf_id": 181,
+   "depth": 9,
+   "samples": 73690,
+   "share": 0.0014738,
+   "bits_per_code_with_table": 3.5062648525644295,
+   "empirical_entropy": 3.506259208527579
+  },
+  {
+   "node": 430,
+   "leaf_id": 182,
+   "depth": 9,
+   "samples": 194161,
+   "share": 0.00388322,
+   "bits_per_code_with_table": 3.4997716232526885,
+   "empirical_entropy": 3.4997696850469655
+  },
+  {
+   "node": 431,
+   "leaf_id": 183,
+   "depth": 10,
+   "samples": 94279,
+   "share": 0.00188558,
+   "bits_per_code_with_table": 3.3987308510315644,
+   "empirical_entropy": 3.3987202271455565
+  },
+  {
+   "node": 432,
+   "leaf_id": 184,
+   "depth": 10,
+   "samples": 291147,
+   "share": 0.00582294,
+   "bits_per_code_with_table": 3.437390466664424,
+   "empirical_entropy": 3.43738610100979
+  },
+  {
+   "node": 433,
+   "leaf_id": 185,
+   "depth": 9,
+   "samples": 192424,
+   "share": 0.00384848,
+   "bits_per_code_with_table": 3.639467507103281,
+   "empirical_entropy": 3.639464944637945
+  },
+  {
+   "node": 434,
+   "leaf_id": 186,
+   "depth": 9,
+   "samples": 98286,
+   "share": 0.00196572,
+   "bits_per_code_with_table": 3.656194862921256,
+   "empirical_entropy": 3.6561915136856906
+  },
+  {
+   "node": 436,
+   "leaf_id": 187,
+   "depth": 9,
+   "samples": 170931,
+   "share": 0.00341862,
+   "bits_per_code_with_table": 3.6075716801423026,
+   "empirical_entropy": 3.6075617899735284
+  },
+  {
+   "node": 437,
+   "leaf_id": 188,
+   "depth": 10,
+   "samples": 249776,
+   "share": 0.00499552,
+   "bits_per_code_with_table": 3.555878475931108,
+   "empirical_entropy": 3.5558743054245414
+  },
+  {
+   "node": 440,
+   "leaf_id": 189,
+   "depth": 11,
+   "samples": 428466,
+   "share": 0.00856932,
+   "bits_per_code_with_table": 3.5786782708099563,
+   "empirical_entropy": 3.5786712882333305
+  },
+  {
+   "node": 441,
+   "leaf_id": 190,
+   "depth": 12,
+   "samples": 66605,
+   "share": 0.0013321,
+   "bits_per_code_with_table": 3.6059812851157593,
+   "empirical_entropy": 3.6059801310718425
+  },
+  {
+   "node": 442,
+   "leaf_id": 191,
+   "depth": 12,
+   "samples": 30078,
+   "share": 0.00060156,
+   "bits_per_code_with_table": 3.674039588361188,
+   "empirical_entropy": 3.6740365429707746
+  },
+  {
+   "node": 443,
+   "leaf_id": 192,
+   "depth": 8,
+   "samples": 2935,
+   "share": 5.87e-05,
+   "bits_per_code_with_table": 3.6707735136606483,
+   "empirical_entropy": 3.6707698185097137
+  },
+  {
+   "node": 444,
+   "leaf_id": 193,
+   "depth": 8,
+   "samples": 8302,
+   "share": 0.00016604,
+   "bits_per_code_with_table": 3.773907916473963,
+   "empirical_entropy": 3.7739065530625275
+  },
+  {
+   "node": 445,
+   "leaf_id": 194,
+   "depth": 9,
+   "samples": 11129,
+   "share": 0.00022258,
+   "bits_per_code_with_table": 3.494719291196937,
+   "empirical_entropy": 3.4947125339415104
+  },
+  {
+   "node": 446,
+   "leaf_id": 195,
+   "depth": 9,
+   "samples": 2152,
+   "share": 4.304e-05,
+   "bits_per_code_with_table": 3.556877382003587,
+   "empirical_entropy": 3.556773737464081
+  },
+  {
+   "node": 447,
+   "leaf_id": 196,
+   "depth": 10,
+   "samples": 848618,
+   "share": 0.01697236,
+   "bits_per_code_with_table": 3.3701900476093694,
+   "empirical_entropy": 3.3699212891869346
+  },
+  {
+   "node": 448,
+   "leaf_id": 197,
+   "depth": 10,
+   "samples": 563028,
+   "share": 0.01126056,
+   "bits_per_code_with_table": 3.3775028154660127,
+   "empirical_entropy": 3.3774205571011238
+  },
+  {
+   "node": 449,
+   "leaf_id": 198,
+   "depth": 9,
+   "samples": 80528,
+   "share": 0.00161056,
+   "bits_per_code_with_table": 3.5055878078915175,
+   "empirical_entropy": 3.505582418021453
+  },
+  {
+   "node": 450,
+   "leaf_id": 199,
+   "depth": 9,
+   "samples": 304309,
+   "share": 0.00608618,
+   "bits_per_code_with_table": 3.5543766740707254,
+   "empirical_entropy": 3.554372719000026
+  },
+  {
+   "node": 451,
+   "leaf_id": 200,
+   "depth": 9,
+   "samples": 38086,
+   "share": 0.00076172,
+   "bits_per_code_with_table": 3.34266037212673,
+   "empirical_entropy": 3.342656013135505
+  },
+  {
+   "node": 452,
+   "leaf_id": 201,
+   "depth": 9,
+   "samples": 8082,
+   "share": 0.00016164,
+   "bits_per_code_with_table": 3.498532983139701,
+   "empirical_entropy": 3.49853139295994
+  },
+  {
+   "node": 453,
+   "leaf_id": 202,
+   "depth": 8,
+   "samples": 55366,
+   "share": 0.00110732,
+   "bits_per_code_with_table": 3.5235435393167793,
+   "empirical_entropy": 3.52353947244848
+  },
+  {
+   "node": 454,
+   "leaf_id": 203,
+   "depth": 8,
+   "samples": 6266,
+   "share": 0.00012532,
+   "bits_per_code_with_table": 3.5532421282966653,
+   "empirical_entropy": 3.553240134186855
+  },
+  {
+   "node": 455,
+   "leaf_id": 204,
+   "depth": 10,
+   "samples": 96186,
+   "share": 0.00192372,
+   "bits_per_code_with_table": 3.5451167725140373,
+   "empirical_entropy": 3.5451145428584576
+  },
+  {
+   "node": 457,
+   "leaf_id": 205,
+   "depth": 11,
+   "samples": 170376,
+   "share": 0.00340752,
+   "bits_per_code_with_table": 3.5999260623731817,
+   "empirical_entropy": 3.5999243637383533
+  },
+  {
+   "node": 458,
+   "leaf_id": 206,
+   "depth": 11,
+   "samples": 24833,
+   "share": 0.00049666,
+   "bits_per_code_with_table": 3.5050349942490593,
+   "empirical_entropy": 3.5050316806521598
+  },
+  {
+   "node": 459,
+   "leaf_id": 207,
+   "depth": 10,
+   "samples": 116289,
+   "share": 0.00232578,
+   "bits_per_code_with_table": 3.7703111099597018,
+   "empirical_entropy": 3.770310264893607
+  },
+  {
+   "node": 460,
+   "leaf_id": 208,
+   "depth": 10,
+   "samples": 7453,
+   "share": 0.00014906,
+   "bits_per_code_with_table": 3.6859734486359628,
+   "empirical_entropy": 3.685971978995811
+  },
+  {
+   "node": 462,
+   "leaf_id": 209,
+   "depth": 11,
+   "samples": 1042647,
+   "share": 0.02085294,
+   "bits_per_code_with_table": 3.3756277699294785,
+   "empirical_entropy": 3.3744673857857492
+  },
+  {
+   "node": 463,
+   "leaf_id": 210,
+   "depth": 12,
+   "samples": 556430,
+   "share": 0.0111286,
+   "bits_per_code_with_table": 3.356053943102235,
+   "empirical_entropy": 3.3549021276965556
+  },
+  {
+   "node": 464,
+   "leaf_id": 211,
+   "depth": 12,
+   "samples": 550392,
+   "share": 0.01100784,
+   "bits_per_code_with_table": 3.372393863070083,
+   "empirical_entropy": 3.371163166902782
+  },
+  {
+   "node": 465,
+   "leaf_id": 212,
+   "depth": 11,
+   "samples": 2060,
+   "share": 4.12e-05,
+   "bits_per_code_with_table": 3.352811068170021,
+   "empirical_entropy": 3.3527870542029032
+  },
+  {
+   "node": 466,
+   "leaf_id": 213,
+   "depth": 11,
+   "samples": 2344,
+   "share": 4.688e-05,
+   "bits_per_code_with_table": 3.7166428013512975,
+   "empirical_entropy": 3.716636648351765
+  },
+  {
+   "node": 467,
+   "leaf_id": 214,
+   "depth": 9,
+   "samples": 22257,
+   "share": 0.00044514,
+   "bits_per_code_with_table": 3.72501014130398,
+   "empirical_entropy": 3.72500847465766
+  },
+  {
+   "node": 468,
+   "leaf_id": 215,
+   "depth": 9,
+   "samples": 24013,
+   "share": 0.00048026,
+   "bits_per_code_with_table": 3.784144803474871,
+   "empirical_entropy": 3.784143233930529
+  },
+  {
+   "node": 469,
+   "leaf_id": 216,
+   "depth": 10,
+   "samples": 207204,
+   "share": 0.00414408,
+   "bits_per_code_with_table": 3.417555342338579,
+   "empirical_entropy": 3.4175338793018235
+  },
+  {
+   "node": 470,
+   "leaf_id": 217,
+   "depth": 10,
+   "samples": 181198,
+   "share": 0.00362396,
+   "bits_per_code_with_table": 3.4168180962885484,
+   "empirical_entropy": 3.4167875895768023
+  },
+  {
+   "node": 471,
+   "leaf_id": 218,
+   "depth": 9,
+   "samples": 2467,
+   "share": 4.934e-05,
+   "bits_per_code_with_table": 2.948658142127017,
+   "empirical_entropy": 2.948624117188555
+  },
+  {
+   "node": 472,
+   "leaf_id": 219,
+   "depth": 9,
+   "samples": 6858,
+   "share": 0.00013716,
+   "bits_per_code_with_table": 3.0548357097091436,
+   "empirical_entropy": 3.0548291081226147
+  },
+  {
+   "node": 473,
+   "leaf_id": 220,
+   "depth": 9,
+   "samples": 35125,
+   "share": 0.0007025,
+   "bits_per_code_with_table": 3.658074872519984,
+   "empirical_entropy": 3.6580727694635025
+  },
+  {
+   "node": 474,
+   "leaf_id": 221,
+   "depth": 9,
+   "samples": 123725,
+   "share": 0.0024745,
+   "bits_per_code_with_table": 3.690839638511335,
+   "empirical_entropy": 3.6908380582199194
+  },
+  {
+   "node": 475,
+   "leaf_id": 222,
+   "depth": 5,
+   "samples": 1514930,
+   "share": 0.0302986,
+   "bits_per_code_with_table": 3.850519445185744,
+   "empirical_entropy": 3.850518240504901
+  },
+  {
+   "node": 476,
+   "leaf_id": 223,
+   "depth": 5,
+   "samples": 220568,
+   "share": 0.00441136,
+   "bits_per_code_with_table": 3.853801227147125,
+   "empirical_entropy": 3.85379992217147
+  },
+  {
+   "node": 477,
+   "leaf_id": 224,
+   "depth": 7,
+   "samples": 106835,
+   "share": 0.0021367,
+   "bits_per_code_with_table": 3.802449889194902,
+   "empirical_entropy": 3.802448458151645
+  },
+  {
+   "node": 478,
+   "leaf_id": 225,
+   "depth": 7,
+   "samples": 166871,
+   "share": 0.00333742,
+   "bits_per_code_with_table": 3.8217236130881296,
+   "empirical_entropy": 3.821722714410001
+  },
+  {
+   "node": 479,
+   "leaf_id": 226,
+   "depth": 12,
+   "samples": 140607,
+   "share": 0.00281214,
+   "bits_per_code_with_table": 3.4472770465092664,
+   "empirical_entropy": 3.447275981204689
+  },
+  {
+   "node": 480,
+   "leaf_id": 227,
+   "depth": 12,
+   "samples": 81893,
+   "share": 0.00163786,
+   "bits_per_code_with_table": 3.5015277597100187,
+   "empirical_entropy": 3.5015161498163483
+  },
+  {
+   "node": 481,
+   "leaf_id": 228,
+   "depth": 10,
+   "samples": 234782,
+   "share": 0.00469564,
+   "bits_per_code_with_table": 3.4208134609601526,
+   "empirical_entropy": 3.4207966341317406
+  },
+  {
+   "node": 482,
+   "leaf_id": 229,
+   "depth": 10,
+   "samples": 2673,
+   "share": 5.346e-05,
+   "bits_per_code_with_table": 3.342259289602459,
+   "empirical_entropy": 3.3422399568975285
+  },
+  {
+   "node": 483,
+   "leaf_id": 230,
+   "depth": 9,
+   "samples": 3786,
+   "share": 7.572e-05,
+   "bits_per_code_with_table": 3.6550392877612925,
+   "empirical_entropy": 3.6550324066256836
+  },
+  {
+   "node": 484,
+   "leaf_id": 231,
+   "depth": 9,
+   "samples": 5463,
+   "share": 0.00010926,
+   "bits_per_code_with_table": 3.449898244307788,
+   "empirical_entropy": 3.4498607820720304
+  },
+  {
+   "node": 485,
+   "leaf_id": 232,
+   "depth": 8,
+   "samples": 2365,
+   "share": 4.73e-05,
+   "bits_per_code_with_table": 1.3830206251869777,
+   "empirical_entropy": 1.382292342779305
+  },
+  {
+   "node": 486,
+   "leaf_id": 233,
+   "depth": 8,
+   "samples": 5993,
+   "share": 0.00011986,
+   "bits_per_code_with_table": 0.6641626582844148,
+   "empirical_entropy": 0.6634271516741655
+  },
+  {
+   "node": 487,
+   "leaf_id": 234,
+   "depth": 10,
+   "samples": 88777,
+   "share": 0.00177554,
+   "bits_per_code_with_table": 3.590146963578878,
+   "empirical_entropy": 3.5901442083748325
+  },
+  {
+   "node": 488,
+   "leaf_id": 235,
+   "depth": 10,
+   "samples": 115981,
+   "share": 0.00231962,
+   "bits_per_code_with_table": 3.5435051822911183,
+   "empirical_entropy": 3.543502485459781
+  },
+  {
+   "node": 489,
+   "leaf_id": 236,
+   "depth": 11,
+   "samples": 338745,
+   "share": 0.0067749,
+   "bits_per_code_with_table": 3.3882930261161275,
+   "empirical_entropy": 3.3874373464065464
+  },
+  {
+   "node": 491,
+   "leaf_id": 237,
+   "depth": 9,
+   "samples": 578948,
+   "share": 0.01157896,
+   "bits_per_code_with_table": 3.7638454070179956,
+   "empirical_entropy": 3.7638445201277944
+  },
+  {
+   "node": 492,
+   "leaf_id": 238,
+   "depth": 9,
+   "samples": 345822,
+   "share": 0.00691644,
+   "bits_per_code_with_table": 3.7555872355937696,
+   "empirical_entropy": 3.7555848714972746
+  },
+  {
+   "node": 493,
+   "leaf_id": 239,
+   "depth": 10,
+   "samples": 341939,
+   "share": 0.00683878,
+   "bits_per_code_with_table": 3.4034973434795592,
+   "empirical_entropy": 3.403452481799674
+  },
+  {
+   "node": 494,
+   "leaf_id": 240,
+   "depth": 10,
+   "samples": 95686,
+   "share": 0.00191372,
+   "bits_per_code_with_table": 3.4239644488917254,
+   "empirical_entropy": 3.423931285624935
+  },
+  {
+   "node": 495,
+   "leaf_id": 241,
+   "depth": 10,
+   "samples": 88303,
+   "share": 0.00176606,
+   "bits_per_code_with_table": 3.4536818966315916,
+   "empirical_entropy": 3.4536768705452396
+  },
+  {
+   "node": 496,
+   "leaf_id": 242,
+   "depth": 10,
+   "samples": 15276,
+   "share": 0.00030552,
+   "bits_per_code_with_table": 3.5255770576478893,
+   "empirical_entropy": 3.525574167520986
+  },
+  {
+   "node": 497,
+   "leaf_id": 243,
+   "depth": 8,
+   "samples": 30160,
+   "share": 0.0006032,
+   "bits_per_code_with_table": 2.8080389756874817,
+   "empirical_entropy": 2.8078068506153127
+  },
+  {
+   "node": 498,
+   "leaf_id": 244,
+   "depth": 8,
+   "samples": 2846,
+   "share": 5.692e-05,
+   "bits_per_code_with_table": 3.097768062387746,
+   "empirical_entropy": 3.0977117878507703
+  },
+  {
+   "node": 499,
+   "leaf_id": 245,
+   "depth": 9,
+   "samples": 21079,
+   "share": 0.00042158,
+   "bits_per_code_with_table": 3.398941230142456,
+   "empirical_entropy": 3.3984739090210594
+  },
+  {
+   "node": 500,
+   "leaf_id": 246,
+   "depth": 9,
+   "samples": 6298,
+   "share": 0.00012596,
+   "bits_per_code_with_table": 3.2910602190799074,
+   "empirical_entropy": 3.289647462102857
+  },
+  {
+   "node": 501,
+   "leaf_id": 247,
+   "depth": 12,
+   "samples": 197721,
+   "share": 0.00395442,
+   "bits_per_code_with_table": 3.413366807088997,
+   "empirical_entropy": 3.4124321257181363
+  },
+  {
+   "node": 502,
+   "leaf_id": 248,
+   "depth": 12,
+   "samples": 729621,
+   "share": 0.01459242,
+   "bits_per_code_with_table": 3.39890885221812,
+   "empirical_entropy": 3.398139132585078
+  },
+  {
+   "node": 503,
+   "leaf_id": 249,
+   "depth": 11,
+   "samples": 4343,
+   "share": 8.686e-05,
+   "bits_per_code_with_table": 3.4532068549028008,
+   "empirical_entropy": 3.4517918919367463
+  },
+  {
+   "node": 504,
+   "leaf_id": 250,
+   "depth": 11,
+   "samples": 11138,
+   "share": 0.00022276,
+   "bits_per_code_with_table": 3.4251905376192635,
+   "empirical_entropy": 3.4242990927285155
+  },
+  {
+   "node": 505,
+   "leaf_id": 251,
+   "depth": 9,
+   "samples": 30510,
+   "share": 0.0006102,
+   "bits_per_code_with_table": 3.6028733899915717,
+   "empirical_entropy": 3.6028701600816517
+  },
+  {
+   "node": 506,
+   "leaf_id": 252,
+   "depth": 9,
+   "samples": 81885,
+   "share": 0.0016377,
+   "bits_per_code_with_table": 3.636077152696164,
+   "empirical_entropy": 3.636075022152431
+  },
+  {
+   "node": 508,
+   "leaf_id": 253,
+   "depth": 11,
+   "samples": 70230,
+   "share": 0.0014046,
+   "bits_per_code_with_table": 3.6588168904461025,
+   "empirical_entropy": 3.6588138891615936
+  },
+  {
+   "node": 509,
+   "leaf_id": 254,
+   "depth": 12,
+   "samples": 28701,
+   "share": 0.00057402,
+   "bits_per_code_with_table": 3.678092738314849,
+   "empirical_entropy": 3.6780909190485156
+  },
+  {
+   "node": 510,
+   "leaf_id": 255,
+   "depth": 12,
+   "samples": 2034,
+   "share": 4.068e-05,
+   "bits_per_code_with_table": 3.75161896445256,
+   "empirical_entropy": 3.75161337377439
+  }
+ ]
+}

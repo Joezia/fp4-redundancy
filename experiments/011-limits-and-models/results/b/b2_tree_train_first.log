@@ -1,0 +1,8 @@
+tree: 256 leaves, 255 internal nodes
+Traceback (most recent call last):
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/b2_tree.py", line 287, in <module>
+    {"train": train, "export": export}[sys.argv[1]]()
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/b2_tree.py", line 66, in train
+    old = pickle.load(open(BF.D / "b2_trees.pkl", "rb"))[("model", 256)]["all"]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: Can't get attribute 'Tree' on <module '__main__' from '/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/011-limits-and-models/b2_tree.py'>

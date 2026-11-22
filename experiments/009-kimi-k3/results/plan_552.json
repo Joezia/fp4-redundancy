@@ -1,0 +1,2312 @@
+{
+ "seed": 20261118,
+ "rule": "per layer, experts in the order of numpy default_rng([seed, 9, layer]).permutation; round r = r-th expert of every layer; one task = w3, w1, w2 of one expert",
+ "layers": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92
+ ],
+ "rounds": [
+  1,
+  2
+ ],
+ "tasks": [
+  {
+   "id": "round1.L1.E236",
+   "round": 1,
+   "layer": 1,
+   "expert": 236,
+   "shard": "model-00002-of-000096.safetensors",
+   "entries": [
+    "L1.E236.w3",
+    "L1.E236.w1",
+    "L1.E236.w2"
+   ]
+  },
+  {
+   "id": "round1.L2.E386",
+   "round": 1,
+   "layer": 2,
+   "expert": 386,
+   "shard": "model-00003-of-000096.safetensors",
+   "entries": [
+    "L2.E386.w3",
+    "L2.E386.w1",
+    "L2.E386.w2"
+   ]
+  },
+  {
+   "id": "round1.L3.E2",
+   "round": 1,
+   "layer": 3,
+   "expert": 2,
+   "shard": "model-00004-of-000096.safetensors",
+   "entries": [
+    "L3.E2.w3",
+    "L3.E2.w1",
+    "L3.E2.w2"
+   ]
+  },
+  {
+   "id": "round1.L4.E883",
+   "round": 1,
+   "layer": 4,
+   "expert": 883,
+   "shard": "model-00005-of-000096.safetensors",
+   "entries": [
+    "L4.E883.w3",
+    "L4.E883.w1",
+    "L4.E883.w2"
+   ]
+  },
+  {
+   "id": "round1.L5.E877",
+   "round": 1,
+   "layer": 5,
+   "expert": 877,
+   "shard": "model-00006-of-000096.safetensors",
+   "entries": [
+    "L5.E877.w3",
+    "L5.E877.w1",
+    "L5.E877.w2"
+   ]
+  },
+  {
+   "id": "round1.L6.E609",
+   "round": 1,
+   "layer": 6,
+   "expert": 609,
+   "shard": "model-00007-of-000096.safetensors",
+   "entries": [
+    "L6.E609.w3",
+    "L6.E609.w1",
+    "L6.E609.w2"
+   ]
+  },
+  {
+   "id": "round1.L7.E665",
+   "round": 1,
+   "layer": 7,
+   "expert": 665,
+   "shard": "model-00008-of-000096.safetensors",
+   "entries": [
+    "L7.E665.w3",
+    "L7.E665.w1",
+    "L7.E665.w2"
+   ]
+  },
+  {
+   "id": "round1.L8.E253",
+   "round": 1,
+   "layer": 8,
+   "expert": 253,
+   "shard": "model-00009-of-000096.safetensors",
+   "entries": [
+    "L8.E253.w3",
+    "L8.E253.w1",
+    "L8.E253.w2"
+   ]
+  },
+  {
+   "id": "round1.L9.E173",
+   "round": 1,
+   "layer": 9,
+   "expert": 173,
+   "shard": "model-00010-of-000096.safetensors",
+   "entries": [
+    "L9.E173.w3",
+    "L9.E173.w1",
+    "L9.E173.w2"
+   ]
+  },
+  {
+   "id": "round1.L10.E833",
+   "round": 1,
+   "layer": 10,
+   "expert": 833,
+   "shard": "model-00011-of-000096.safetensors",
+   "entries": [
+    "L10.E833.w3",
+    "L10.E833.w1",
+    "L10.E833.w2"
+   ]
+  },
+  {
+   "id": "round1.L11.E681",
+   "round": 1,
+   "layer": 11,
+   "expert": 681,
+   "shard": "model-00012-of-000096.safetensors",
+   "entries": [
+    "L11.E681.w3",
+    "L11.E681.w1",
+    "L11.E681.w2"
+   ]
+  },
+  {
+   "id": "round1.L12.E837",
+   "round": 1,
+   "layer": 12,
+   "expert": 837,
+   "shard": "model-00013-of-000096.safetensors",
+   "entries": [
+    "L12.E837.w3",
+    "L12.E837.w1",
+    "L12.E837.w2"
+   ]
+  },
+  {
+   "id": "round1.L13.E859",
+   "round": 1,
+   "layer": 13,
+   "expert": 859,
+   "shard": "model-00014-of-000096.safetensors",
+   "entries": [
+    "L13.E859.w3",
+    "L13.E859.w1",
+    "L13.E859.w2"
+   ]
+  },
+  {
+   "id": "round1.L14.E193",
+   "round": 1,
+   "layer": 14,
+   "expert": 193,
+   "shard": "model-00015-of-000096.safetensors",
+   "entries": [
+    "L14.E193.w3",
+    "L14.E193.w1",
+    "L14.E193.w2"
+   ]
+  },
+  {
+   "id": "round1.L15.E82",
+   "round": 1,
+   "layer": 15,
+   "expert": 82,
+   "shard": "model-00016-of-000096.safetensors",
+   "entries": [
+    "L15.E82.w3",
+    "L15.E82.w1",
+    "L15.E82.w2"
+   ]
+  },
+  {
+   "id": "round1.L16.E569",
+   "round": 1,
+   "layer": 16,
+   "expert": 569,
+   "shard": "model-00017-of-000096.safetensors",
+   "entries": [
+    "L16.E569.w3",
+    "L16.E569.w1",
+    "L16.E569.w2"
+   ]
+  },
+  {
+   "id": "round1.L17.E748",
+   "round": 1,
+   "layer": 17,
+   "expert": 748,
+   "shard": "model-00018-of-000096.safetensors",
+   "entries": [
+    "L17.E748.w3",
+    "L17.E748.w1",
+    "L17.E748.w2"
+   ]
+  },
+  {
+   "id": "round1.L18.E617",
+   "round": 1,
+   "layer": 18,
+   "expert": 617,
+   "shard": "model-00019-of-000096.safetensors",
+   "entries": [
+    "L18.E617.w3",
+    "L18.E617.w1",
+    "L18.E617.w2"
+   ]
+  },
+  {
+   "id": "round1.L19.E46",
+   "round": 1,
+   "layer": 19,
+   "expert": 46,
+   "shard": "model-00020-of-000096.safetensors",
+   "entries": [
+    "L19.E46.w3",
+    "L19.E46.w1",
+    "L19.E46.w2"
+   ]
+  },
+  {
+   "id": "round1.L20.E131",
+   "round": 1,
+   "layer": 20,
+   "expert": 131,
+   "shard": "model-00021-of-000096.safetensors",
+   "entries": [
+    "L20.E131.w3",
+    "L20.E131.w1",
+    "L20.E131.w2"
+   ]
+  },
+  {
+   "id": "round1.L21.E611",
+   "round": 1,
+   "layer": 21,
+   "expert": 611,
+   "shard": "model-00022-of-000096.safetensors",
+   "entries": [
+    "L21.E611.w3",
+    "L21.E611.w1",
+    "L21.E611.w2"
+   ]
+  },
+  {
+   "id": "round1.L22.E755",
+   "round": 1,
+   "layer": 22,
+   "expert": 755,
+   "shard": "model-00023-of-000096.safetensors",
+   "entries": [
+    "L22.E755.w3",
+    "L22.E755.w1",
+    "L22.E755.w2"
+   ]
+  },
+  {
+   "id": "round1.L23.E296",
+   "round": 1,
+   "layer": 23,
+   "expert": 296,
+   "shard": "model-00024-of-000096.safetensors",
+   "entries": [
+    "L23.E296.w3",
+    "L23.E296.w1",
+    "L23.E296.w2"
+   ]
+  },
+  {
+   "id": "round1.L24.E15",
+   "round": 1,
+   "layer": 24,
+   "expert": 15,
+   "shard": "model-00025-of-000096.safetensors",
+   "entries": [
+    "L24.E15.w3",
+    "L24.E15.w1",
+    "L24.E15.w2"
+   ]
+  },
+  {
+   "id": "round1.L25.E590",
+   "round": 1,
+   "layer": 25,
+   "expert": 590,
+   "shard": "model-00026-of-000096.safetensors",
+   "entries": [
+    "L25.E590.w3",
+    "L25.E590.w1",
+    "L25.E590.w2"
+   ]
+  },
+  {
+   "id": "round1.L26.E412",
+   "round": 1,
+   "layer": 26,
+   "expert": 412,
+   "shard": "model-00027-of-000096.safetensors",
+   "entries": [
+    "L26.E412.w3",
+    "L26.E412.w1",
+    "L26.E412.w2"
+   ]
+  },
+  {
+   "id": "round1.L27.E766",
+   "round": 1,
+   "layer": 27,
+   "expert": 766,
+   "shard": "model-00028-of-000096.safetensors",
+   "entries": [
+    "L27.E766.w3",
+    "L27.E766.w1",
+    "L27.E766.w2"
+   ]
+  },
+  {
+   "id": "round1.L28.E541",
+   "round": 1,
+   "layer": 28,
+   "expert": 541,
+   "shard": "model-00029-of-000096.safetensors",
+   "entries": [
+    "L28.E541.w3",
+    "L28.E541.w1",
+    "L28.E541.w2"
+   ]
+  },
+  {
+   "id": "round1.L29.E368",
+   "round": 1,
+   "layer": 29,
+   "expert": 368,
+   "shard": "model-00030-of-000096.safetensors",
+   "entries": [
+    "L29.E368.w3",
+    "L29.E368.w1",
+    "L29.E368.w2"
+   ]
+  },
+  {
+   "id": "round1.L30.E660",
+   "round": 1,
+   "layer": 30,
+   "expert": 660,
+   "shard": "model-00031-of-000096.safetensors",
+   "entries": [
+    "L30.E660.w3",
+    "L30.E660.w1",
+    "L30.E660.w2"
+   ]
+  },
+  {
+   "id": "round1.L31.E434",
+   "round": 1,
+   "layer": 31,
+   "expert": 434,
+   "shard": "model-00032-of-000096.safetensors",
+   "entries": [
+    "L31.E434.w3",
+    "L31.E434.w1",
+    "L31.E434.w2"
+   ]
+  },
+  {
+   "id": "round1.L32.E627",
+   "round": 1,
+   "layer": 32,
+   "expert": 627,
+   "shard": "model-00033-of-000096.safetensors",
+   "entries": [
+    "L32.E627.w3",
+    "L32.E627.w1",
+    "L32.E627.w2"
+   ]
+  },
+  {
+   "id": "round1.L33.E636",
+   "round": 1,
+   "layer": 33,
+   "expert": 636,
+   "shard": "model-00034-of-000096.safetensors",
+   "entries": [
+    "L33.E636.w3",
+    "L33.E636.w1",
+    "L33.E636.w2"
+   ]
+  },
+  {
+   "id": "round1.L34.E36",
+   "round": 1,
+   "layer": 34,
+   "expert": 36,
+   "shard": "model-00035-of-000096.safetensors",
+   "entries": [
+    "L34.E36.w3",
+    "L34.E36.w1",
+    "L34.E36.w2"
+   ]
+  },
+  {
+   "id": "round1.L35.E162",
+   "round": 1,
+   "layer": 35,
+   "expert": 162,
+   "shard": "model-00036-of-000096.safetensors",
+   "entries": [
+    "L35.E162.w3",
+    "L35.E162.w1",
+    "L35.E162.w2"
+   ]
+  },
+  {
+   "id": "round1.L36.E193",
+   "round": 1,
+   "layer": 36,
+   "expert": 193,
+   "shard": "model-00037-of-000096.safetensors",
+   "entries": [
+    "L36.E193.w3",
+    "L36.E193.w1",
+    "L36.E193.w2"
+   ]
+  },
+  {
+   "id": "round1.L37.E389",
+   "round": 1,
+   "layer": 37,
+   "expert": 389,
+   "shard": "model-00038-of-000096.safetensors",
+   "entries": [
+    "L37.E389.w3",
+    "L37.E389.w1",
+    "L37.E389.w2"
+   ]
+  },
+  {
+   "id": "round1.L38.E442",
+   "round": 1,
+   "layer": 38,
+   "expert": 442,
+   "shard": "model-00039-of-000096.safetensors",
+   "entries": [
+    "L38.E442.w3",
+    "L38.E442.w1",
+    "L38.E442.w2"
+   ]
+  },
+  {
+   "id": "round1.L39.E506",
+   "round": 1,
+   "layer": 39,
+   "expert": 506,
+   "shard": "model-00040-of-000096.safetensors",
+   "entries": [
+    "L39.E506.w3",
+    "L39.E506.w1",
+    "L39.E506.w2"
+   ]
+  },
+  {
+   "id": "round1.L40.E700",
+   "round": 1,
+   "layer": 40,
+   "expert": 700,
+   "shard": "model-00041-of-000096.safetensors",
+   "entries": [
+    "L40.E700.w3",
+    "L40.E700.w1",
+    "L40.E700.w2"
+   ]
+  },
+  {
+   "id": "round1.L41.E582",
+   "round": 1,
+   "layer": 41,
+   "expert": 582,
+   "shard": "model-00042-of-000096.safetensors",
+   "entries": [
+    "L41.E582.w3",
+    "L41.E582.w1",
+    "L41.E582.w2"
+   ]
+  },
+  {
+   "id": "round1.L42.E121",
+   "round": 1,
+   "layer": 42,
+   "expert": 121,
+   "shard": "model-00043-of-000096.safetensors",
+   "entries": [
+    "L42.E121.w3",
+    "L42.E121.w1",
+    "L42.E121.w2"
+   ]
+  },
+  {
+   "id": "round1.L43.E126",
+   "round": 1,
+   "layer": 43,
+   "expert": 126,
+   "shard": "model-00044-of-000096.safetensors",
+   "entries": [
+    "L43.E126.w3",
+    "L43.E126.w1",
+    "L43.E126.w2"
+   ]
+  },
+  {
+   "id": "round1.L44.E231",
+   "round": 1,
+   "layer": 44,
+   "expert": 231,
+   "shard": "model-00045-of-000096.safetensors",
+   "entries": [
+    "L44.E231.w3",
+    "L44.E231.w1",
+    "L44.E231.w2"
+   ]
+  },
+  {
+   "id": "round1.L45.E575",
+   "round": 1,
+   "layer": 45,
+   "expert": 575,
+   "shard": "model-00046-of-000096.safetensors",
+   "entries": [
+    "L45.E575.w3",
+    "L45.E575.w1",
+    "L45.E575.w2"
+   ]
+  },
+  {
+   "id": "round1.L46.E484",
+   "round": 1,
+   "layer": 46,
+   "expert": 484,
+   "shard": "model-00047-of-000096.safetensors",
+   "entries": [
+    "L46.E484.w3",
+    "L46.E484.w1",
+    "L46.E484.w2"
+   ]
+  },
+  {
+   "id": "round1.L47.E701",
+   "round": 1,
+   "layer": 47,
+   "expert": 701,
+   "shard": "model-00048-of-000096.safetensors",
+   "entries": [
+    "L47.E701.w3",
+    "L47.E701.w1",
+    "L47.E701.w2"
+   ]
+  },
+  {
+   "id": "round1.L48.E390",
+   "round": 1,
+   "layer": 48,
+   "expert": 390,
+   "shard": "model-00049-of-000096.safetensors",
+   "entries": [
+    "L48.E390.w3",
+    "L48.E390.w1",
+    "L48.E390.w2"
+   ]
+  },
+  {
+   "id": "round1.L49.E796",
+   "round": 1,
+   "layer": 49,
+   "expert": 796,
+   "shard": "model-00050-of-000096.safetensors",
+   "entries": [
+    "L49.E796.w3",
+    "L49.E796.w1",
+    "L49.E796.w2"
+   ]
+  },
+  {
+   "id": "round1.L50.E191",
+   "round": 1,
+   "layer": 50,
+   "expert": 191,
+   "shard": "model-00051-of-000096.safetensors",
+   "entries": [
+    "L50.E191.w3",
+    "L50.E191.w1",
+    "L50.E191.w2"
+   ]
+  },
+  {
+   "id": "round1.L51.E67",
+   "round": 1,
+   "layer": 51,
+   "expert": 67,
+   "shard": "model-00052-of-000096.safetensors",
+   "entries": [
+    "L51.E67.w3",
+    "L51.E67.w1",
+    "L51.E67.w2"
+   ]
+  },
+  {
+   "id": "round1.L52.E780",
+   "round": 1,
+   "layer": 52,
+   "expert": 780,
+   "shard": "model-00053-of-000096.safetensors",
+   "entries": [
+    "L52.E780.w3",
+    "L52.E780.w1",
+    "L52.E780.w2"
+   ]
+  },
+  {
+   "id": "round1.L53.E211",
+   "round": 1,
+   "layer": 53,
+   "expert": 211,
+   "shard": "model-00054-of-000096.safetensors",
+   "entries": [
+    "L53.E211.w3",
+    "L53.E211.w1",
+    "L53.E211.w2"
+   ]
+  },
+  {
+   "id": "round1.L54.E855",
+   "round": 1,
+   "layer": 54,
+   "expert": 855,
+   "shard": "model-00055-of-000096.safetensors",
+   "entries": [
+    "L54.E855.w3",
+    "L54.E855.w1",
+    "L54.E855.w2"
+   ]
+  },
+  {
+   "id": "round1.L55.E12",
+   "round": 1,
+   "layer": 55,
+   "expert": 12,
+   "shard": "model-00056-of-000096.safetensors",
+   "entries": [
+    "L55.E12.w3",
+    "L55.E12.w1",
+    "L55.E12.w2"
+   ]
+  },
+  {
+   "id": "round1.L56.E599",
+   "round": 1,
+   "layer": 56,
+   "expert": 599,
+   "shard": "model-00057-of-000096.safetensors",
+   "entries": [
+    "L56.E599.w3",
+    "L56.E599.w1",
+    "L56.E599.w2"
+   ]
+  },
+  {
+   "id": "round1.L57.E498",
+   "round": 1,
+   "layer": 57,
+   "expert": 498,
+   "shard": "model-00058-of-000096.safetensors",
+   "entries": [
+    "L57.E498.w3",
+    "L57.E498.w1",
+    "L57.E498.w2"
+   ]
+  },
+  {
+   "id": "round1.L58.E36",
+   "round": 1,
+   "layer": 58,
+   "expert": 36,
+   "shard": "model-00059-of-000096.safetensors",
+   "entries": [
+    "L58.E36.w3",
+    "L58.E36.w1",
+    "L58.E36.w2"
+   ]
+  },
+  {
+   "id": "round1.L59.E313",
+   "round": 1,
+   "layer": 59,
+   "expert": 313,
+   "shard": "model-00060-of-000096.safetensors",
+   "entries": [
+    "L59.E313.w3",
+    "L59.E313.w1",
+    "L59.E313.w2"
+   ]
+  },
+  {
+   "id": "round1.L60.E563",
+   "round": 1,
+   "layer": 60,
+   "expert": 563,
+   "shard": "model-00061-of-000096.safetensors",
+   "entries": [
+    "L60.E563.w3",
+    "L60.E563.w1",
+    "L60.E563.w2"
+   ]
+  },
+  {
+   "id": "round1.L61.E433",
+   "round": 1,
+   "layer": 61,
+   "expert": 433,
+   "shard": "model-00062-of-000096.safetensors",
+   "entries": [
+    "L61.E433.w3",
+    "L61.E433.w1",
+    "L61.E433.w2"
+   ]
+  },
+  {
+   "id": "round1.L62.E739",
+   "round": 1,
+   "layer": 62,
+   "expert": 739,
+   "shard": "model-00063-of-000096.safetensors",
+   "entries": [
+    "L62.E739.w3",
+    "L62.E739.w1",
+    "L62.E739.w2"
+   ]
+  },
+  {
+   "id": "round1.L63.E67",
+   "round": 1,
+   "layer": 63,
+   "expert": 67,
+   "shard": "model-00064-of-000096.safetensors",
+   "entries": [
+    "L63.E67.w3",
+    "L63.E67.w1",
+    "L63.E67.w2"
+   ]
+  },
+  {
+   "id": "round1.L64.E35",
+   "round": 1,
+   "layer": 64,
+   "expert": 35,
+   "shard": "model-00065-of-000096.safetensors",
+   "entries": [
+    "L64.E35.w3",
+    "L64.E35.w1",
+    "L64.E35.w2"
+   ]
+  },
+  {
+   "id": "round1.L65.E575",
+   "round": 1,
+   "layer": 65,
+   "expert": 575,
+   "shard": "model-00066-of-000096.safetensors",
+   "entries": [
+    "L65.E575.w3",
+    "L65.E575.w1",
+    "L65.E575.w2"
+   ]
+  },
+  {
+   "id": "round1.L66.E594",
+   "round": 1,
+   "layer": 66,
+   "expert": 594,
+   "shard": "model-00067-of-000096.safetensors",
+   "entries": [
+    "L66.E594.w3",
+    "L66.E594.w1",
+    "L66.E594.w2"
+   ]
+  },
+  {
+   "id": "round1.L67.E745",
+   "round": 1,
+   "layer": 67,
+   "expert": 745,
+   "shard": "model-00068-of-000096.safetensors",
+   "entries": [
+    "L67.E745.w3",
+    "L67.E745.w1",
+    "L67.E745.w2"
+   ]
+  },
+  {
+   "id": "round1.L68.E234",
+   "round": 1,
+   "layer": 68,
+   "expert": 234,
+   "shard": "model-00069-of-000096.safetensors",
+   "entries": [
+    "L68.E234.w3",
+    "L68.E234.w1",
+    "L68.E234.w2"
+   ]
+  },
+  {
+   "id": "round1.L69.E259",
+   "round": 1,
+   "layer": 69,
+   "expert": 259,
+   "shard": "model-00070-of-000096.safetensors",
+   "entries": [
+    "L69.E259.w3",
+    "L69.E259.w1",
+    "L69.E259.w2"
+   ]
+  },
+  {
+   "id": "round1.L70.E537",
+   "round": 1,
+   "layer": 70,
+   "expert": 537,
+   "shard": "model-00071-of-000096.safetensors",
+   "entries": [
+    "L70.E537.w3",
+    "L70.E537.w1",
+    "L70.E537.w2"
+   ]
+  },
+  {
+   "id": "round1.L71.E186",
+   "round": 1,
+   "layer": 71,
+   "expert": 186,
+   "shard": "model-00072-of-000096.safetensors",
+   "entries": [
+    "L71.E186.w3",
+    "L71.E186.w1",
+    "L71.E186.w2"
+   ]
+  },
+  {
+   "id": "round1.L72.E210",
+   "round": 1,
+   "layer": 72,
+   "expert": 210,
+   "shard": "model-00073-of-000096.safetensors",
+   "entries": [
+    "L72.E210.w3",
+    "L72.E210.w1",
+    "L72.E210.w2"
+   ]
+  },
+  {
+   "id": "round1.L73.E627",
+   "round": 1,
+   "layer": 73,
+   "expert": 627,
+   "shard": "model-00074-of-000096.safetensors",
+   "entries": [
+    "L73.E627.w3",
+    "L73.E627.w1",
+    "L73.E627.w2"
+   ]
+  },
+  {
+   "id": "round1.L74.E741",
+   "round": 1,
+   "layer": 74,
+   "expert": 741,
+   "shard": "model-00075-of-000096.safetensors",
+   "entries": [
+    "L74.E741.w3",
+    "L74.E741.w1",
+    "L74.E741.w2"
+   ]
+  },
+  {
+   "id": "round1.L75.E248",
+   "round": 1,
+   "layer": 75,
+   "expert": 248,
+   "shard": "model-00076-of-000096.safetensors",
+   "entries": [
+    "L75.E248.w3",
+    "L75.E248.w1",
+    "L75.E248.w2"
+   ]
+  },
+  {
+   "id": "round1.L76.E881",
+   "round": 1,
+   "layer": 76,
+   "expert": 881,
+   "shard": "model-00077-of-000096.safetensors",
+   "entries": [
+    "L76.E881.w3",
+    "L76.E881.w1",
+    "L76.E881.w2"
+   ]
+  },
+  {
+   "id": "round1.L77.E879",
+   "round": 1,
+   "layer": 77,
+   "expert": 879,
+   "shard": "model-00078-of-000096.safetensors",
+   "entries": [
+    "L77.E879.w3",
+    "L77.E879.w1",
+    "L77.E879.w2"
+   ]
+  },
+  {
+   "id": "round1.L78.E563",
+   "round": 1,
+   "layer": 78,
+   "expert": 563,
+   "shard": "model-00079-of-000096.safetensors",
+   "entries": [
+    "L78.E563.w3",
+    "L78.E563.w1",
+    "L78.E563.w2"
+   ]
+  },
+  {
+   "id": "round1.L79.E622",
+   "round": 1,
+   "layer": 79,
+   "expert": 622,
+   "shard": "model-00080-of-000096.safetensors",
+   "entries": [
+    "L79.E622.w3",
+    "L79.E622.w1",
+    "L79.E622.w2"
+   ]
+  },
+  {
+   "id": "round1.L80.E764",
+   "round": 1,
+   "layer": 80,
+   "expert": 764,
+   "shard": "model-00081-of-000096.safetensors",
+   "entries": [
+    "L80.E764.w3",
+    "L80.E764.w1",
+    "L80.E764.w2"
+   ]
+  },
+  {
+   "id": "round1.L81.E664",
+   "round": 1,
+   "layer": 81,
+   "expert": 664,
+   "shard": "model-00082-of-000096.safetensors",
+   "entries": [
+    "L81.E664.w3",
+    "L81.E664.w1",
+    "L81.E664.w2"
+   ]
+  },
+  {
+   "id": "round1.L82.E362",
+   "round": 1,
+   "layer": 82,
+   "expert": 362,
+   "shard": "model-00083-of-000096.safetensors",
+   "entries": [
+    "L82.E362.w3",
+    "L82.E362.w1",
+    "L82.E362.w2"
+   ]
+  },
+  {
+   "id": "round1.L83.E444",
+   "round": 1,
+   "layer": 83,
+   "expert": 444,
+   "shard": "model-00084-of-000096.safetensors",
+   "entries": [
+    "L83.E444.w3",
+    "L83.E444.w1",
+    "L83.E444.w2"
+   ]
+  },
+  {
+   "id": "round1.L84.E523",
+   "round": 1,
+   "layer": 84,
+   "expert": 523,
+   "shard": "model-00085-of-000096.safetensors",
+   "entries": [
+    "L84.E523.w3",
+    "L84.E523.w1",
+    "L84.E523.w2"
+   ]
+  },
+  {
+   "id": "round1.L85.E498",
+   "round": 1,
+   "layer": 85,
+   "expert": 498,
+   "shard": "model-00086-of-000096.safetensors",
+   "entries": [
+    "L85.E498.w3",
+    "L85.E498.w1",
+    "L85.E498.w2"
+   ]
+  },
+  {
+   "id": "round1.L86.E891",
+   "round": 1,
+   "layer": 86,
+   "expert": 891,
+   "shard": "model-00087-of-000096.safetensors",
+   "entries": [
+    "L86.E891.w3",
+    "L86.E891.w1",
+    "L86.E891.w2"
+   ]
+  },
+  {
+   "id": "round1.L87.E177",
+   "round": 1,
+   "layer": 87,
+   "expert": 177,
+   "shard": "model-00088-of-000096.safetensors",
+   "entries": [
+    "L87.E177.w3",
+    "L87.E177.w1",
+    "L87.E177.w2"
+   ]
+  },
+  {
+   "id": "round1.L88.E541",
+   "round": 1,
+   "layer": 88,
+   "expert": 541,
+   "shard": "model-00089-of-000096.safetensors",
+   "entries": [
+    "L88.E541.w3",
+    "L88.E541.w1",
+    "L88.E541.w2"
+   ]
+  },
+  {
+   "id": "round1.L89.E648",
+   "round": 1,
+   "layer": 89,
+   "expert": 648,
+   "shard": "model-00090-of-000096.safetensors",
+   "entries": [
+    "L89.E648.w3",
+    "L89.E648.w1",
+    "L89.E648.w2"
+   ]
+  },
+  {
+   "id": "round1.L90.E486",
+   "round": 1,
+   "layer": 90,
+   "expert": 486,
+   "shard": "model-00091-of-000096.safetensors",
+   "entries": [
+    "L90.E486.w3",
+    "L90.E486.w1",
+    "L90.E486.w2"
+   ]
+  },
+  {
+   "id": "round1.L91.E414",
+   "round": 1,
+   "layer": 91,
+   "expert": 414,
+   "shard": "model-00092-of-000096.safetensors",
+   "entries": [
+    "L91.E414.w3",
+    "L91.E414.w1",
+    "L91.E414.w2"
+   ]
+  },
+  {
+   "id": "round1.L92.E18",
+   "round": 1,
+   "layer": 92,
+   "expert": 18,
+   "shard": "model-00093-of-000096.safetensors",
+   "entries": [
+    "L92.E18.w3",
+    "L92.E18.w1",
+    "L92.E18.w2"
+   ]
+  },
+  {
+   "id": "round2.L1.E677",
+   "round": 2,
+   "layer": 1,
+   "expert": 677,
+   "shard": "model-00002-of-000096.safetensors",
+   "entries": [
+    "L1.E677.w3",
+    "L1.E677.w1",
+    "L1.E677.w2"
+   ]
+  },
+  {
+   "id": "round2.L2.E565",
+   "round": 2,
+   "layer": 2,
+   "expert": 565,
+   "shard": "model-00003-of-000096.safetensors",
+   "entries": [
+    "L2.E565.w3",
+    "L2.E565.w1",
+    "L2.E565.w2"
+   ]
+  },
+  {
+   "id": "round2.L3.E202",
+   "round": 2,
+   "layer": 3,
+   "expert": 202,
+   "shard": "model-00004-of-000096.safetensors",
+   "entries": [
+    "L3.E202.w3",
+    "L3.E202.w1",
+    "L3.E202.w2"
+   ]
+  },
+  {
+   "id": "round2.L4.E895",
+   "round": 2,
+   "layer": 4,
+   "expert": 895,
+   "shard": "model-00005-of-000096.safetensors",
+   "entries": [
+    "L4.E895.w3",
+    "L4.E895.w1",
+    "L4.E895.w2"
+   ]
+  },
+  {
+   "id": "round2.L5.E563",
+   "round": 2,
+   "layer": 5,
+   "expert": 563,
+   "shard": "model-00006-of-000096.safetensors",
+   "entries": [
+    "L5.E563.w3",
+    "L5.E563.w1",
+    "L5.E563.w2"
+   ]
+  },
+  {
+   "id": "round2.L6.E476",
+   "round": 2,
+   "layer": 6,
+   "expert": 476,
+   "shard": "model-00007-of-000096.safetensors",
+   "entries": [
+    "L6.E476.w3",
+    "L6.E476.w1",
+    "L6.E476.w2"
+   ]
+  },
+  {
+   "id": "round2.L7.E328",
+   "round": 2,
+   "layer": 7,
+   "expert": 328,
+   "shard": "model-00008-of-000096.safetensors",
+   "entries": [
+    "L7.E328.w3",
+    "L7.E328.w1",
+    "L7.E328.w2"
+   ]
+  },
+  {
+   "id": "round2.L8.E233",
+   "round": 2,
+   "layer": 8,
+   "expert": 233,
+   "shard": "model-00009-of-000096.safetensors",
+   "entries": [
+    "L8.E233.w3",
+    "L8.E233.w1",
+    "L8.E233.w2"
+   ]
+  },
+  {
+   "id": "round2.L9.E617",
+   "round": 2,
+   "layer": 9,
+   "expert": 617,
+   "shard": "model-00010-of-000096.safetensors",
+   "entries": [
+    "L9.E617.w3",
+    "L9.E617.w1",
+    "L9.E617.w2"
+   ]
+  },
+  {
+   "id": "round2.L10.E631",
+   "round": 2,
+   "layer": 10,
+   "expert": 631,
+   "shard": "model-00011-of-000096.safetensors",
+   "entries": [
+    "L10.E631.w3",
+    "L10.E631.w1",
+    "L10.E631.w2"
+   ]
+  },
+  {
+   "id": "round2.L11.E241",
+   "round": 2,
+   "layer": 11,
+   "expert": 241,
+   "shard": "model-00012-of-000096.safetensors",
+   "entries": [
+    "L11.E241.w3",
+    "L11.E241.w1",
+    "L11.E241.w2"
+   ]
+  },
+  {
+   "id": "round2.L12.E510",
+   "round": 2,
+   "layer": 12,
+   "expert": 510,
+   "shard": "model-00013-of-000096.safetensors",
+   "entries": [
+    "L12.E510.w3",
+    "L12.E510.w1",
+    "L12.E510.w2"
+   ]
+  },
+  {
+   "id": "round2.L13.E207",
+   "round": 2,
+   "layer": 13,
+   "expert": 207,
+   "shard": "model-00014-of-000096.safetensors",
+   "entries": [
+    "L13.E207.w3",
+    "L13.E207.w1",
+    "L13.E207.w2"
+   ]
+  },
+  {
+   "id": "round2.L14.E546",
+   "round": 2,
+   "layer": 14,
+   "expert": 546,
+   "shard": "model-00015-of-000096.safetensors",
+   "entries": [
+    "L14.E546.w3",
+    "L14.E546.w1",
+    "L14.E546.w2"
+   ]
+  },
+  {
+   "id": "round2.L15.E172",
+   "round": 2,
+   "layer": 15,
+   "expert": 172,
+   "shard": "model-00016-of-000096.safetensors",
+   "entries": [
+    "L15.E172.w3",
+    "L15.E172.w1",
+    "L15.E172.w2"
+   ]
+  },
+  {
+   "id": "round2.L16.E129",
+   "round": 2,
+   "layer": 16,
+   "expert": 129,
+   "shard": "model-00017-of-000096.safetensors",
+   "entries": [
+    "L16.E129.w3",
+    "L16.E129.w1",
+    "L16.E129.w2"
+   ]
+  },
+  {
+   "id": "round2.L17.E82",
+   "round": 2,
+   "layer": 17,
+   "expert": 82,
+   "shard": "model-00018-of-000096.safetensors",
+   "entries": [
+    "L17.E82.w3",
+    "L17.E82.w1",
+    "L17.E82.w2"
+   ]
+  },
+  {
+   "id": "round2.L18.E800",
+   "round": 2,
+   "layer": 18,
+   "expert": 800,
+   "shard": "model-00019-of-000096.safetensors",
+   "entries": [
+    "L18.E800.w3",
+    "L18.E800.w1",
+    "L18.E800.w2"
+   ]
+  },
+  {
+   "id": "round2.L19.E662",
+   "round": 2,
+   "layer": 19,
+   "expert": 662,
+   "shard": "model-00020-of-000096.safetensors",
+   "entries": [
+    "L19.E662.w3",
+    "L19.E662.w1",
+    "L19.E662.w2"
+   ]
+  },
+  {
+   "id": "round2.L20.E383",
+   "round": 2,
+   "layer": 20,
+   "expert": 383,
+   "shard": "model-00021-of-000096.safetensors",
+   "entries": [
+    "L20.E383.w3",
+    "L20.E383.w1",
+    "L20.E383.w2"
+   ]
+  },
+  {
+   "id": "round2.L21.E884",
+   "round": 2,
+   "layer": 21,
+   "expert": 884,
+   "shard": "model-00022-of-000096.safetensors",
+   "entries": [
+    "L21.E884.w3",
+    "L21.E884.w1",
+    "L21.E884.w2"
+   ]
+  },
+  {
+   "id": "round2.L22.E530",
+   "round": 2,
+   "layer": 22,
+   "expert": 530,
+   "shard": "model-00023-of-000096.safetensors",
+   "entries": [
+    "L22.E530.w3",
+    "L22.E530.w1",
+    "L22.E530.w2"
+   ]
+  },
+  {
+   "id": "round2.L23.E630",
+   "round": 2,
+   "layer": 23,
+   "expert": 630,
+   "shard": "model-00024-of-000096.safetensors",
+   "entries": [
+    "L23.E630.w3",
+    "L23.E630.w1",
+    "L23.E630.w2"
+   ]
+  },
+  {
+   "id": "round2.L24.E38",
+   "round": 2,
+   "layer": 24,
+   "expert": 38,
+   "shard": "model-00025-of-000096.safetensors",
+   "entries": [
+    "L24.E38.w3",
+    "L24.E38.w1",
+    "L24.E38.w2"
+   ]
+  },
+  {
+   "id": "round2.L25.E360",
+   "round": 2,
+   "layer": 25,
+   "expert": 360,
+   "shard": "model-00026-of-000096.safetensors",
+   "entries": [
+    "L25.E360.w3",
+    "L25.E360.w1",
+    "L25.E360.w2"
+   ]
+  },
+  {
+   "id": "round2.L26.E137",
+   "round": 2,
+   "layer": 26,
+   "expert": 137,
+   "shard": "model-00027-of-000096.safetensors",
+   "entries": [
+    "L26.E137.w3",
+    "L26.E137.w1",
+    "L26.E137.w2"
+   ]
+  },
+  {
+   "id": "round2.L27.E75",
+   "round": 2,
+   "layer": 27,
+   "expert": 75,
+   "shard": "model-00028-of-000096.safetensors",
+   "entries": [
+    "L27.E75.w3",
+    "L27.E75.w1",
+    "L27.E75.w2"
+   ]
+  },
+  {
+   "id": "round2.L28.E151",
+   "round": 2,
+   "layer": 28,
+   "expert": 151,
+   "shard": "model-00029-of-000096.safetensors",
+   "entries": [
+    "L28.E151.w3",
+    "L28.E151.w1",
+    "L28.E151.w2"
+   ]
+  },
+  {
+   "id": "round2.L29.E826",
+   "round": 2,
+   "layer": 29,
+   "expert": 826,
+   "shard": "model-00030-of-000096.safetensors",
+   "entries": [
+    "L29.E826.w3",
+    "L29.E826.w1",
+    "L29.E826.w2"
+   ]
+  },
+  {
+   "id": "round2.L30.E485",
+   "round": 2,
+   "layer": 30,
+   "expert": 485,
+   "shard": "model-00031-of-000096.safetensors",
+   "entries": [
+    "L30.E485.w3",
+    "L30.E485.w1",
+    "L30.E485.w2"
+   ]
+  },
+  {
+   "id": "round2.L31.E812",
+   "round": 2,
+   "layer": 31,
+   "expert": 812,
+   "shard": "model-00032-of-000096.safetensors",
+   "entries": [
+    "L31.E812.w3",
+    "L31.E812.w1",
+    "L31.E812.w2"
+   ]
+  },
+  {
+   "id": "round2.L32.E469",
+   "round": 2,
+   "layer": 32,
+   "expert": 469,
+   "shard": "model-00033-of-000096.safetensors",
+   "entries": [
+    "L32.E469.w3",
+    "L32.E469.w1",
+    "L32.E469.w2"
+   ]
+  },
+  {
+   "id": "round2.L33.E103",
+   "round": 2,
+   "layer": 33,
+   "expert": 103,
+   "shard": "model-00034-of-000096.safetensors",
+   "entries": [
+    "L33.E103.w3",
+    "L33.E103.w1",
+    "L33.E103.w2"
+   ]
+  },
+  {
+   "id": "round2.L34.E32",
+   "round": 2,
+   "layer": 34,
+   "expert": 32,
+   "shard": "model-00035-of-000096.safetensors",
+   "entries": [
+    "L34.E32.w3",
+    "L34.E32.w1",
+    "L34.E32.w2"
+   ]
+  },
+  {
+   "id": "round2.L35.E753",
+   "round": 2,
+   "layer": 35,
+   "expert": 753,
+   "shard": "model-00036-of-000096.safetensors",
+   "entries": [
+    "L35.E753.w3",
+    "L35.E753.w1",
+    "L35.E753.w2"
+   ]
+  },
+  {
+   "id": "round2.L36.E25",
+   "round": 2,
+   "layer": 36,
+   "expert": 25,
+   "shard": "model-00037-of-000096.safetensors",
+   "entries": [
+    "L36.E25.w3",
+    "L36.E25.w1",
+    "L36.E25.w2"
+   ]
+  },
+  {
+   "id": "round2.L37.E384",
+   "round": 2,
+   "layer": 37,
+   "expert": 384,
+   "shard": "model-00038-of-000096.safetensors",
+   "entries": [
+    "L37.E384.w3",
+    "L37.E384.w1",
+    "L37.E384.w2"
+   ]
+  },
+  {
+   "id": "round2.L38.E87",
+   "round": 2,
+   "layer": 38,
+   "expert": 87,
+   "shard": "model-00039-of-000096.safetensors",
+   "entries": [
+    "L38.E87.w3",
+    "L38.E87.w1",
+    "L38.E87.w2"
+   ]
+  },
+  {
+   "id": "round2.L39.E517",
+   "round": 2,
+   "layer": 39,
+   "expert": 517,
+   "shard": "model-00040-of-000096.safetensors",
+   "entries": [
+    "L39.E517.w3",
+    "L39.E517.w1",
+    "L39.E517.w2"
+   ]
+  },
+  {
+   "id": "round2.L40.E232",
+   "round": 2,
+   "layer": 40,
+   "expert": 232,
+   "shard": "model-00041-of-000096.safetensors",
+   "entries": [
+    "L40.E232.w3",
+    "L40.E232.w1",
+    "L40.E232.w2"
+   ]
+  },
+  {
+   "id": "round2.L41.E698",
+   "round": 2,
+   "layer": 41,
+   "expert": 698,
+   "shard": "model-00042-of-000096.safetensors",
+   "entries": [
+    "L41.E698.w3",
+    "L41.E698.w1",
+    "L41.E698.w2"
+   ]
+  },
+  {
+   "id": "round2.L42.E802",
+   "round": 2,
+   "layer": 42,
+   "expert": 802,
+   "shard": "model-00043-of-000096.safetensors",
+   "entries": [
+    "L42.E802.w3",
+    "L42.E802.w1",
+    "L42.E802.w2"
+   ]
+  },
+  {
+   "id": "round2.L43.E138",
+   "round": 2,
+   "layer": 43,
+   "expert": 138,
+   "shard": "model-00044-of-000096.safetensors",
+   "entries": [
+    "L43.E138.w3",
+    "L43.E138.w1",
+    "L43.E138.w2"
+   ]
+  },
+  {
+   "id": "round2.L44.E203",
+   "round": 2,
+   "layer": 44,
+   "expert": 203,
+   "shard": "model-00045-of-000096.safetensors",
+   "entries": [
+    "L44.E203.w3",
+    "L44.E203.w1",
+    "L44.E203.w2"
+   ]
+  },
+  {
+   "id": "round2.L45.E99",
+   "round": 2,
+   "layer": 45,
+   "expert": 99,
+   "shard": "model-00046-of-000096.safetensors",
+   "entries": [
+    "L45.E99.w3",
+    "L45.E99.w1",
+    "L45.E99.w2"
+   ]
+  },
+  {
+   "id": "round2.L46.E847",
+   "round": 2,
+   "layer": 46,
+   "expert": 847,
+   "shard": "model-00047-of-000096.safetensors",
+   "entries": [
+    "L46.E847.w3",
+    "L46.E847.w1",
+    "L46.E847.w2"
+   ]
+  },
+  {
+   "id": "round2.L47.E889",
+   "round": 2,
+   "layer": 47,
+   "expert": 889,
+   "shard": "model-00048-of-000096.safetensors",
+   "entries": [
+    "L47.E889.w3",
+    "L47.E889.w1",
+    "L47.E889.w2"
+   ]
+  },
+  {
+   "id": "round2.L48.E459",
+   "round": 2,
+   "layer": 48,
+   "expert": 459,
+   "shard": "model-00049-of-000096.safetensors",
+   "entries": [
+    "L48.E459.w3",
+    "L48.E459.w1",
+    "L48.E459.w2"
+   ]
+  },
+  {
+   "id": "round2.L49.E355",
+   "round": 2,
+   "layer": 49,
+   "expert": 355,
+   "shard": "model-00050-of-000096.safetensors",
+   "entries": [
+    "L49.E355.w3",
+    "L49.E355.w1",
+    "L49.E355.w2"
+   ]
+  },
+  {
+   "id": "round2.L50.E426",
+   "round": 2,
+   "layer": 50,
+   "expert": 426,
+   "shard": "model-00051-of-000096.safetensors",
+   "entries": [
+    "L50.E426.w3",
+    "L50.E426.w1",
+    "L50.E426.w2"
+   ]
+  },
+  {
+   "id": "round2.L51.E19",
+   "round": 2,
+   "layer": 51,
+   "expert": 19,
+   "shard": "model-00052-of-000096.safetensors",
+   "entries": [
+    "L51.E19.w3",
+    "L51.E19.w1",
+    "L51.E19.w2"
+   ]
+  },
+  {
+   "id": "round2.L52.E332",
+   "round": 2,
+   "layer": 52,
+   "expert": 332,
+   "shard": "model-00053-of-000096.safetensors",
+   "entries": [
+    "L52.E332.w3",
+    "L52.E332.w1",
+    "L52.E332.w2"
+   ]
+  },
+  {
+   "id": "round2.L53.E158",
+   "round": 2,
+   "layer": 53,
+   "expert": 158,
+   "shard": "model-00054-of-000096.safetensors",
+   "entries": [
+    "L53.E158.w3",
+    "L53.E158.w1",
+    "L53.E158.w2"
+   ]
+  },
+  {
+   "id": "round2.L54.E416",
+   "round": 2,
+   "layer": 54,
+   "expert": 416,
+   "shard": "model-00055-of-000096.safetensors",
+   "entries": [
+    "L54.E416.w3",
+    "L54.E416.w1",
+    "L54.E416.w2"
+   ]
+  },
+  {
+   "id": "round2.L55.E479",
+   "round": 2,
+   "layer": 55,
+   "expert": 479,
+   "shard": "model-00056-of-000096.safetensors",
+   "entries": [
+    "L55.E479.w3",
+    "L55.E479.w1",
+    "L55.E479.w2"
+   ]
+  },
+  {
+   "id": "round2.L56.E719",
+   "round": 2,
+   "layer": 56,
+   "expert": 719,
+   "shard": "model-00057-of-000096.safetensors",
+   "entries": [
+    "L56.E719.w3",
+    "L56.E719.w1",
+    "L56.E719.w2"
+   ]
+  },
+  {
+   "id": "round2.L57.E740",
+   "round": 2,
+   "layer": 57,
+   "expert": 740,
+   "shard": "model-00058-of-000096.safetensors",
+   "entries": [
+    "L57.E740.w3",
+    "L57.E740.w1",
+    "L57.E740.w2"
+   ]
+  },
+  {
+   "id": "round2.L58.E816",
+   "round": 2,
+   "layer": 58,
+   "expert": 816,
+   "shard": "model-00059-of-000096.safetensors",
+   "entries": [
+    "L58.E816.w3",
+    "L58.E816.w1",
+    "L58.E816.w2"
+   ]
+  },
+  {
+   "id": "round2.L59.E516",
+   "round": 2,
+   "layer": 59,
+   "expert": 516,
+   "shard": "model-00060-of-000096.safetensors",
+   "entries": [
+    "L59.E516.w3",
+    "L59.E516.w1",
+    "L59.E516.w2"
+   ]
+  },
+  {
+   "id": "round2.L60.E189",
+   "round": 2,
+   "layer": 60,
+   "expert": 189,
+   "shard": "model-00061-of-000096.safetensors",
+   "entries": [
+    "L60.E189.w3",
+    "L60.E189.w1",
+    "L60.E189.w2"
+   ]
+  },
+  {
+   "id": "round2.L61.E179",
+   "round": 2,
+   "layer": 61,
+   "expert": 179,
+   "shard": "model-00062-of-000096.safetensors",
+   "entries": [
+    "L61.E179.w3",
+    "L61.E179.w1",
+    "L61.E179.w2"
+   ]
+  },
+  {
+   "id": "round2.L62.E12",
+   "round": 2,
+   "layer": 62,
+   "expert": 12,
+   "shard": "model-00063-of-000096.safetensors",
+   "entries": [
+    "L62.E12.w3",
+    "L62.E12.w1",
+    "L62.E12.w2"
+   ]
+  },
+  {
+   "id": "round2.L63.E878",
+   "round": 2,
+   "layer": 63,
+   "expert": 878,
+   "shard": "model-00064-of-000096.safetensors",
+   "entries": [
+    "L63.E878.w3",
+    "L63.E878.w1",
+    "L63.E878.w2"
+   ]
+  },
+  {
+   "id": "round2.L64.E732",
+   "round": 2,
+   "layer": 64,
+   "expert": 732,
+   "shard": "model-00065-of-000096.safetensors",
+   "entries": [
+    "L64.E732.w3",
+    "L64.E732.w1",
+    "L64.E732.w2"
+   ]
+  },
+  {
+   "id": "round2.L65.E119",
+   "round": 2,
+   "layer": 65,
+   "expert": 119,
+   "shard": "model-00066-of-000096.safetensors",
+   "entries": [
+    "L65.E119.w3",
+    "L65.E119.w1",
+    "L65.E119.w2"
+   ]
+  },
+  {
+   "id": "round2.L66.E832",
+   "round": 2,
+   "layer": 66,
+   "expert": 832,
+   "shard": "model-00067-of-000096.safetensors",
+   "entries": [
+    "L66.E832.w3",
+    "L66.E832.w1",
+    "L66.E832.w2"
+   ]
+  },
+  {
+   "id": "round2.L67.E62",
+   "round": 2,
+   "layer": 67,
+   "expert": 62,
+   "shard": "model-00068-of-000096.safetensors",
+   "entries": [
+    "L67.E62.w3",
+    "L67.E62.w1",
+    "L67.E62.w2"
+   ]
+  },
+  {
+   "id": "round2.L68.E618",
+   "round": 2,
+   "layer": 68,
+   "expert": 618,
+   "shard": "model-00069-of-000096.safetensors",
+   "entries": [
+    "L68.E618.w3",
+    "L68.E618.w1",
+    "L68.E618.w2"
+   ]
+  },
+  {
+   "id": "round2.L69.E532",
+   "round": 2,
+   "layer": 69,
+   "expert": 532,
+   "shard": "model-00070-of-000096.safetensors",
+   "entries": [
+    "L69.E532.w3",
+    "L69.E532.w1",
+    "L69.E532.w2"
+   ]
+  },
+  {
+   "id": "round2.L70.E752",
+   "round": 2,
+   "layer": 70,
+   "expert": 752,
+   "shard": "model-00071-of-000096.safetensors",
+   "entries": [
+    "L70.E752.w3",
+    "L70.E752.w1",
+    "L70.E752.w2"
+   ]
+  },
+  {
+   "id": "round2.L71.E719",
+   "round": 2,
+   "layer": 71,
+   "expert": 719,
+   "shard": "model-00072-of-000096.safetensors",
+   "entries": [
+    "L71.E719.w3",
+    "L71.E719.w1",
+    "L71.E719.w2"
+   ]
+  },
+  {
+   "id": "round2.L72.E169",
+   "round": 2,
+   "layer": 72,
+   "expert": 169,
+   "shard": "model-00073-of-000096.safetensors",
+   "entries": [
+    "L72.E169.w3",
+    "L72.E169.w1",
+    "L72.E169.w2"
+   ]
+  },
+  {
+   "id": "round2.L73.E591",
+   "round": 2,
+   "layer": 73,
+   "expert": 591,
+   "shard": "model-00074-of-000096.safetensors",
+   "entries": [
+    "L73.E591.w3",
+    "L73.E591.w1",
+    "L73.E591.w2"
+   ]
+  },
+  {
+   "id": "round2.L74.E873",
+   "round": 2,
+   "layer": 74,
+   "expert": 873,
+   "shard": "model-00075-of-000096.safetensors",
+   "entries": [
+    "L74.E873.w3",
+    "L74.E873.w1",
+    "L74.E873.w2"
+   ]
+  },
+  {
+   "id": "round2.L75.E809",
+   "round": 2,
+   "layer": 75,
+   "expert": 809,
+   "shard": "model-00076-of-000096.safetensors",
+   "entries": [
+    "L75.E809.w3",
+    "L75.E809.w1",
+    "L75.E809.w2"
+   ]
+  },
+  {
+   "id": "round2.L76.E448",
+   "round": 2,
+   "layer": 76,
+   "expert": 448,
+   "shard": "model-00077-of-000096.safetensors",
+   "entries": [
+    "L76.E448.w3",
+    "L76.E448.w1",
+    "L76.E448.w2"
+   ]
+  },
+  {
+   "id": "round2.L77.E775",
+   "round": 2,
+   "layer": 77,
+   "expert": 775,
+   "shard": "model-00078-of-000096.safetensors",
+   "entries": [
+    "L77.E775.w3",
+    "L77.E775.w1",
+    "L77.E775.w2"
+   ]
+  },
+  {
+   "id": "round2.L78.E796",
+   "round": 2,
+   "layer": 78,
+   "expert": 796,
+   "shard": "model-00079-of-000096.safetensors",
+   "entries": [
+    "L78.E796.w3",
+    "L78.E796.w1",
+    "L78.E796.w2"
+   ]
+  },
+  {
+   "id": "round2.L79.E367",
+   "round": 2,
+   "layer": 79,
+   "expert": 367,
+   "shard": "model-00080-of-000096.safetensors",
+   "entries": [
+    "L79.E367.w3",
+    "L79.E367.w1",
+    "L79.E367.w2"
+   ]
+  },
+  {
+   "id": "round2.L80.E496",
+   "round": 2,
+   "layer": 80,
+   "expert": 496,
+   "shard": "model-00081-of-000096.safetensors",
+   "entries": [
+    "L80.E496.w3",
+    "L80.E496.w1",
+    "L80.E496.w2"
+   ]
+  },
+  {
+   "id": "round2.L81.E546",
+   "round": 2,
+   "layer": 81,
+   "expert": 546,
+   "shard": "model-00082-of-000096.safetensors",
+   "entries": [
+    "L81.E546.w3",
+    "L81.E546.w1",
+    "L81.E546.w2"
+   ]
+  },
+  {
+   "id": "round2.L82.E806",
+   "round": 2,
+   "layer": 82,
+   "expert": 806,
+   "shard": "model-00083-of-000096.safetensors",
+   "entries": [
+    "L82.E806.w3",
+    "L82.E806.w1",
+    "L82.E806.w2"
+   ]
+  },
+  {
+   "id": "round2.L83.E243",
+   "round": 2,
+   "layer": 83,
+   "expert": 243,
+   "shard": "model-00084-of-000096.safetensors",
+   "entries": [
+    "L83.E243.w3",
+    "L83.E243.w1",
+    "L83.E243.w2"
+   ]
+  },
+  {
+   "id": "round2.L84.E188",
+   "round": 2,
+   "layer": 84,
+   "expert": 188,
+   "shard": "model-00085-of-000096.safetensors",
+   "entries": [
+    "L84.E188.w3",
+    "L84.E188.w1",
+    "L84.E188.w2"
+   ]
+  },
+  {
+   "id": "round2.L85.E413",
+   "round": 2,
+   "layer": 85,
+   "expert": 413,
+   "shard": "model-00086-of-000096.safetensors",
+   "entries": [
+    "L85.E413.w3",
+    "L85.E413.w1",
+    "L85.E413.w2"
+   ]
+  },
+  {
+   "id": "round2.L86.E830",
+   "round": 2,
+   "layer": 86,
+   "expert": 830,
+   "shard": "model-00087-of-000096.safetensors",
+   "entries": [
+    "L86.E830.w3",
+    "L86.E830.w1",
+    "L86.E830.w2"
+   ]
+  },
+  {
+   "id": "round2.L87.E795",
+   "round": 2,
+   "layer": 87,
+   "expert": 795,
+   "shard": "model-00088-of-000096.safetensors",
+   "entries": [
+    "L87.E795.w3",
+    "L87.E795.w1",
+    "L87.E795.w2"
+   ]
+  },
+  {
+   "id": "round2.L88.E98",
+   "round": 2,
+   "layer": 88,
+   "expert": 98,
+   "shard": "model-00089-of-000096.safetensors",
+   "entries": [
+    "L88.E98.w3",
+    "L88.E98.w1",
+    "L88.E98.w2"
+   ]
+  },
+  {
+   "id": "round2.L89.E782",
+   "round": 2,
+   "layer": 89,
+   "expert": 782,
+   "shard": "model-00090-of-000096.safetensors",
+   "entries": [
+    "L89.E782.w3",
+    "L89.E782.w1",
+    "L89.E782.w2"
+   ]
+  },
+  {
+   "id": "round2.L90.E220",
+   "round": 2,
+   "layer": 90,
+   "expert": 220,
+   "shard": "model-00091-of-000096.safetensors",
+   "entries": [
+    "L90.E220.w3",
+    "L90.E220.w1",
+    "L90.E220.w2"
+   ]
+  },
+  {
+   "id": "round2.L91.E856",
+   "round": 2,
+   "layer": 91,
+   "expert": 856,
+   "shard": "model-00092-of-000096.safetensors",
+   "entries": [
+    "L91.E856.w3",
+    "L91.E856.w1",
+    "L91.E856.w2"
+   ]
+  },
+  {
+   "id": "round2.L92.E809",
+   "round": 2,
+   "layer": 92,
+   "expert": 809,
+   "shard": "model-00093-of-000096.safetensors",
+   "entries": [
+    "L92.E809.w3",
+    "L92.E809.w1",
+    "L92.E809.w2"
+   ]
+  }
+ ]
+}
