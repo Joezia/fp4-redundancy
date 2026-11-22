@@ -1,0 +1,173 @@
+[
+ {
+  "target": "qp10",
+  "matrices": 24,
+  "lossy_bpw": 7.429558619746455,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 0.34488016764322915,
+  "rel_mse": 0.0003616177154437849,
+  "code_mismatch": 8.369375158239293e-05,
+  "decode_twice_equal": true,
+  "sub": [
+   2
+  ],
+  "code_bpw": 0.0018379493995949075,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 7.468430754899024,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -3.862812030530722,
+  "roundtrip": true
+ },
+ {
+  "target": "qp16",
+  "matrices": 24,
+  "lossy_bpw": 6.441047301115813,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 0.879174264272054,
+  "rel_mse": 0.0008312958900352245,
+  "code_mismatch": 0.0009310828314887153,
+  "decode_twice_equal": true,
+  "sub": [
+   8
+  ],
+  "code_bpw": 0.006257120768229167,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 6.484338607637015,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -2.8787198832687135,
+  "roundtrip": true
+ },
+ {
+  "target": "qp22",
+  "matrices": 24,
+  "lossy_bpw": 5.401464165581597,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 2.3951032179373284,
+  "rel_mse": 0.0021698546021652137,
+  "code_mismatch": 0.019705931345621746,
+  "decode_twice_equal": true,
+  "sub": [
+   16
+  ],
+  "code_bpw": 0.06809568051938657,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 5.506594031853956,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.9009753074856546,
+  "roundtrip": true
+ },
+ {
+  "target": "qp28",
+  "matrices": 24,
+  "lossy_bpw": 4.597199955692997,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 6.189147052058467,
+  "rel_mse": 0.005554841211666137,
+  "code_mismatch": 0.08251063735396774,
+  "decode_twice_equal": true,
+  "sub": [
+   16
+  ],
+  "code_bpw": 0.2532251428674768,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.887459284313446,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -1.2818405599451457,
+  "roundtrip": true
+ },
+ {
+  "target": "qp34",
+  "matrices": 24,
+  "lossy_bpw": 3.6799205073603876,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 19.18995343314277,
+  "rel_mse": 0.017301448065040942,
+  "code_mismatch": 0.2692199389139811,
+  "decode_twice_equal": true,
+  "sub": [
+   16
+  ],
+  "code_bpw": 0.7973777488425926,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.514332441955952,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.9087137175876515,
+  "roundtrip": true
+ },
+ {
+  "target": "qp40",
+  "matrices": 24,
+  "lossy_bpw": 2.7249029088903356,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 61.32060708999634,
+  "rel_mse": 0.0553597795931466,
+  "code_mismatch": 0.5056461298907244,
+  "decode_twice_equal": true,
+  "sub": [
+   16
+  ],
+  "code_bpw": 1.574613783094618,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.336550877737926,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.7309321533696249,
+  "roundtrip": true
+ },
+ {
+  "target": "qp46",
+  "matrices": 24,
+  "lossy_bpw": 1.723905379683883,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 196.72622050179376,
+  "rel_mse": 0.17733593860090577,
+  "code_mismatch": 0.6986889980457447,
+  "decode_twice_equal": true,
+  "sub": [
+   16
+  ],
+  "code_bpw": 2.4050360785590277,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.165975643995883,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.560356919627582,
+  "roundtrip": true
+ },
+ {
+  "target": "qp51",
+  "matrices": 24,
+  "lossy_bpw": 0.9346688447175202,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 504.0298312505086,
+  "rel_mse": 0.4497605188595934,
+  "code_mismatch": 0.8154723591274685,
+  "decode_twice_equal": true,
+  "sub": [
+   16
+  ],
+  "code_bpw": 3.0622463650173612,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 4.033949395487854,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -0.42833067111955253,
+  "roundtrip": true
+ },
+ {
+  "target": "raw8",
+  "matrices": 24,
+  "lossy_bpw": 8.0,
+  "qparam_bpw": 0.00625,
+  "mse_uint8": 0.0,
+  "rel_mse": 8.027081784949352e-05,
+  "code_mismatch": 1.4517042371961805e-06,
+  "decode_twice_equal": true,
+  "sub": [
+   2
+  ],
+  "code_bpw": 0.0008853488498263889,
+  "scale_bpw": 0.030784185752972856,
+  "total_bpw": 8.0379195346028,
+  "ref_total_bpw": 3.6056187243683016,
+  "net_gain": -4.432300810234497,
+  "roundtrip": true
+ }
+]
