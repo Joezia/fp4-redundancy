@@ -1,0 +1,94 @@
+[
+ {
+  "C": 8,
+  "P": 3,
+  "K": 16,
+  "mode": "paper",
+  "table1": true,
+  "matrices": 24,
+  "bits_per_element": 4.0,
+  "rel_mse": 0.036355290116307566,
+  "code_mismatch": 0.395525003362585,
+  "floor_frac": 0.0008437262641059028,
+  "side_bpw": 4.0,
+  "code_bpw": 1.278352525499132,
+  "scale_bpw": 0.027926129589072302,
+  "total_bpw": 5.306278655088204,
+  "ref_total_bpw": 3.621241266697862,
+  "net_gain": -1.6850373883903422,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 29609505.751148682
+ },
+ {
+  "C": 8,
+  "P": 3,
+  "K": 16,
+  "mode": "range",
+  "table1": true,
+  "matrices": 24,
+  "bits_per_element": 4.0,
+  "rel_mse": 0.01514783684787772,
+  "code_mismatch": 0.22221281969988788,
+  "floor_frac": 0.25309795803493923,
+  "side_bpw": 4.0,
+  "code_bpw": 0.7250932481553819,
+  "scale_bpw": 0.027926129589072302,
+  "total_bpw": 4.7530193777444545,
+  "ref_total_bpw": 3.621241266697862,
+  "net_gain": -1.1317781110465925,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 32535447.75792103
+ },
+ {
+  "C": 12,
+  "P": 4,
+  "K": 16,
+  "mode": "paper",
+  "table1": true,
+  "matrices": 24,
+  "bits_per_element": 3.0,
+  "rel_mse": 0.0928969600425999,
+  "code_mismatch": 0.5887124096905744,
+  "floor_frac": 0.000135040283203125,
+  "side_bpw": 3.0,
+  "code_bpw": 1.9441722728587962,
+  "scale_bpw": 0.027926129589072302,
+  "total_bpw": 4.972098402447869,
+  "ref_total_bpw": 3.621241266697862,
+  "net_gain": -1.3508571357500065,
+  "roundtrip": true,
+  "sub": {
+   "8": 24
+  },
+  "decode_codes_per_s": 28479970.910618886
+ },
+ {
+  "C": 12,
+  "P": 4,
+  "K": 16,
+  "mode": "range",
+  "table1": true,
+  "matrices": 24,
+  "bits_per_element": 3.0,
+  "rel_mse": 0.050944982251153924,
+  "code_mismatch": 0.4777430181150083,
+  "floor_frac": 0.22581380208333332,
+  "side_bpw": 3.0,
+  "code_bpw": 1.5373379177517361,
+  "scale_bpw": 0.027926129589072302,
+  "total_bpw": 4.565264047340809,
+  "ref_total_bpw": 3.621241266697862,
+  "net_gain": -0.9440227806429466,
+  "roundtrip": true,
+  "sub": {
+   "16": 24
+  },
+  "decode_codes_per_s": 28819787.922185794
+ }
+]
