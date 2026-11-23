@@ -1,0 +1,81 @@
+START kodak 2026-11-23 20:19:10
+kodak: 11 items to run of 12
+RUN_DONE kodak wall 10 s
+kodak: 12 items
+pattern | pct | bit/channel value | forced pct | off | median pct | min pct | max pct
+R1 | 10.743% | 0.8595 | nan% | - | 9.021 | 6.469 | 27.078
+R2 | 5.670% | 0.4536 | 5.670% | 0 | 4.352 | 2.710 | 12.786
+R3 | 23.193% | 1.8555 | 23.193% | 0 | 23.964 | 16.463 | 28.490
+R4 | 44.544% | 3.5635 | 44.544% | 0 | 43.926 | 34.852 | 52.261
+R5 | 1.897% | 0.1518 | 0.194% | 5 | 0.709 | -0.000 | 9.818
+R6 | 1.373% | 0.1098 | 1.373% | 0 | 0.601 | 0.002 | 8.397
+R7 | 27.614% | 2.2091 | 27.614% | 0 | 26.532 | 14.214 | 42.295
+R8 | 14.724% | 1.1779 | 14.724% | 0 | 13.222 | 2.216 | 31.497
+R10 | 11.142% | 0.8913 | 11.142% | 0 | 11.746 | 1.410 | 21.279
+R2 check: {'n_items_compared': 12, 'source': ['experiments/008-scale-media/results/kodak/all/items.jsonl'], 'R2_standalone_pct': 5.669662817699029, 'R2_default_order_pct': 5.669662817699029, 'pooled_difference_pct': 0.0, 'max_abs_per_item_difference_per_unit': 0.0}
+END kodak 2026-11-23 20:19:20
+START sqam 2026-11-23 20:19:20
+sqam: 35 items to run of 35
+/home/zhouziang/Workspace/compression/fp4-redundancy/redundancy/increment.py:345: RuntimeWarning: overflow encountered in cast
+  Vq = Vt.astype(np.float16).astype(np.float64)
+/home/zhouziang/Workspace/compression/fp4-redundancy/redundancy/increment.py:346: RuntimeWarning: invalid value encountered in matmul
+  approx = np.rint(Uq @ Vq).astype(np.int64)
+/home/zhouziang/Workspace/compression/fp4-redundancy/redundancy/increment.py:346: RuntimeWarning: invalid value encountered in cast
+  approx = np.rint(Uq @ Vq).astype(np.int64)
+RUN_DONE sqam wall 157 s
+sqam: 35 items
+pattern | pct | bit/sample | forced pct | off | median pct | min pct | max pct
+R1 | 34.065% | 5.4504 | nan% | - | 33.029 | 20.184 | 53.550
+R2 | 6.340% | 1.0144 | 6.340% | 0 | 6.686 | 2.598 | 9.515
+R3 | 14.539% | 2.3263 | 14.539% | 0 | 15.173 | 3.664 | 19.350
+R4 | 25.015% | 4.0023 | 25.015% | 0 | 24.183 | 7.771 | 42.639
+R5 | 0.387% | 0.0620 | 0.356% | 7 | 0.179 | -0.000 | 3.018
+R6 | 23.797% | 3.8075 | 23.797% | 0 | 32.868 | 1.221 | 56.215
+R7 | 10.215% | 1.6344 | 10.211% | 1 | 9.619 | -0.000 | 22.369
+R8 | 2.831% | 0.4530 | 2.831% | 1 | 2.600 | -0.000 | 5.603
+R10 | 2.915% | 0.4664 | 2.915% | 0 | 1.468 | -0.408 | 31.005
+R2 check: {'n_items_compared': 35, 'source': ['experiments/008-scale-media/results/sqam/report/items.jsonl'], 'R2_standalone_pct': 6.340149477211153, 'R2_default_order_pct': 6.340149477211153, 'pooled_difference_pct': 0.0, 'max_abs_per_item_difference_per_unit': 0.0}
+END sqam 2026-11-23 20:21:57
+START librispeech 2026-11-23 20:21:57
+librispeech: 2620 items to run of 2620
+100/2620 items, 30 s
+200/2620 items, 44 s
+300/2620 items, 55 s
+400/2620 items, 65 s
+500/2620 items, 72 s
+600/2620 items, 80 s
+700/2620 items, 86 s
+800/2620 items, 92 s
+900/2620 items, 97 s
+1000/2620 items, 102 s
+1100/2620 items, 107 s
+1200/2620 items, 111 s
+1300/2620 items, 115 s
+1400/2620 items, 118 s
+1500/2620 items, 121 s
+1600/2620 items, 124 s
+1700/2620 items, 127 s
+1800/2620 items, 130 s
+1900/2620 items, 132 s
+2000/2620 items, 134 s
+2100/2620 items, 136 s
+2200/2620 items, 138 s
+2300/2620 items, 139 s
+2400/2620 items, 141 s
+2500/2620 items, 142 s
+2600/2620 items, 142 s
+RUN_DONE librispeech wall 143 s
+librispeech: 2620 items
+pattern | pct | bit/sample | forced pct | off | median pct | min pct | max pct
+R1 | 25.160% | 4.0257 | nan% | - | 25.081 | 12.527 | 59.083
+R2 | 3.238% | 0.5181 | 3.238% | 60 | 3.350 | -0.000 | 9.449
+R3 | 9.022% | 1.4436 | 9.022% | 0 | 9.009 | 3.177 | 13.997
+R4 | 10.929% | 1.7487 | 10.929% | 1 | 10.662 | -0.000 | 20.696
+R5 | 0.000% | 0.0000 | -0.848% | 2618 | -0.000 | -0.000 | 0.183
+R6 | 0.152% | 0.0243 | 0.152% | 2157 | -0.000 | -0.000 | 5.065
+R7 | 5.854% | 0.9366 | 5.854% | 0 | 5.427 | 0.620 | 12.856
+R8 | 1.101% | 0.1761 | 1.088% | 62 | 1.033 | -0.000 | 4.574
+R10 | 0.000% | 0.0000 | 0.000% | 0 | 0.000 | 0.000 | 0.000
+R2 check: {'n_items_compared': 2620, 'source': ['experiments/008-scale-media/results/librispeech/report/items.jsonl'], 'R2_standalone_pct': 3.237981314345638, 'R2_default_order_pct': 3.237981314345638, 'pooled_difference_pct': 0.0, 'max_abs_per_item_difference_per_unit': 0.0}
+END librispeech 2026-11-23 20:24:20
+MEDIA_DONE
