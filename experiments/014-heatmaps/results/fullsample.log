@@ -1,0 +1,31 @@
+deepseek: 172 experts to run
+20/172 7 s
+40/172 12 s
+60/172 13 s
+80/172 18 s
+100/172 24 s
+120/172 25 s
+140/172 30 s
+160/172 32 s
+RUN_DONE deepseek wall 34 s
+kimi: 183 experts to run
+20/183 13 s
+40/183 23 s
+60/183 25 s
+80/183 37 s
+100/183 47 s
+120/183 49 s
+140/183 61 s
+160/183 63 s
+180/183 71 s
+RUN_DONE kimi wall 71 s
+== deepseek: 516 matrices
+  w1: deq neuron CV median 0.0509 p90 0.0969 max 2.3799; ratio to shuffled median 5.0 max 48.4; ratio bins {'<2': 15, '2-5': 70, '5-10': 76, '10-20': 7, '>=20': 4}; code CV median 0.0261; with low neurons 2, >=10% low 0, frac low 0.0003; hidden ratio median 1.19
+  w3: deq neuron CV median 0.0435 p90 0.0762 max 2.2485; ratio to shuffled median 4.3 max 49.1; ratio bins {'<2': 21, '2-5': 95, '5-10': 50, '10-20': 3, '>=20': 3}; code CV median 0.0257; with low neurons 2, >=10% low 0, frac low 0.0004; hidden ratio median 1.12
+  w2: deq neuron CV median 0.0366 p90 0.0672 max 2.2831; ratio to shuffled median 3.6 max 52.4; ratio bins {'<2': 24, '2-5': 114, '5-10': 27, '10-20': 4, '>=20': 3}; code CV median 0.0295; with low neurons 4, >=10% low 1, frac low 0.0020; hidden ratio median 1.14
+  strongest: [('L42.E8.w1', 2.38, 0), ('L42.E8.w2', 2.283, 76), ('L42.E8.w3', 2.248, 0), ('L42.E62.w1', 2.235, 3), ('L42.E62.w2', 2.159, 83), ('L42.E62.w3', 2.12, 2), ('L41.E99.w1', 1.542, 134), ('L41.E99.w2', 1.515, 640), ('L41.E99.w3', 1.465, 172), ('L42.E58.w1', 0.298, 0), ('L42.E58.w3', 0.183, 0), ('L41.E74.w1', 0.183, 0)]
+== kimi: 552 matrices
+  w1: deq neuron CV median 0.0299 p90 0.0660 max 0.2910; ratio to shuffled median 2.5 max 22.2; ratio bins {'<2': 67, '2-5': 94, '5-10': 15, '10-20': 6, '>=20': 2}; code CV median 0.0266; with low neurons 23, >=10% low 0, frac low 0.0024; hidden ratio median 1.02
+  w3: deq neuron CV median 0.0268 p90 0.0567 max 0.2898; ratio to shuffled median 2.2 max 22.7; ratio bins {'<2': 76, '2-5': 92, '5-10': 9, '10-20': 5, '>=20': 2}; code CV median 0.0264; with low neurons 23, >=10% low 0, frac low 0.0024; hidden ratio median 1.02
+  w2: deq neuron CV median 0.0300 p90 0.0634 max 0.2972; ratio to shuffled median 2.5 max 23.2; ratio bins {'<2': 64, '2-5': 100, '5-10': 12, '10-20': 6, '>=20': 2}; code CV median 0.0268; with low neurons 23, >=10% low 0, frac low 0.0025; hidden ratio median 1.05
+  strongest: [('L1.E236.w2', 0.297, 288), ('L1.E236.w1', 0.291, 283), ('L1.E236.w3', 0.29, 282), ('L4.E895.w2', 0.282, 278), ('L4.E895.w1', 0.277, 277), ('L4.E895.w3', 0.276, 275), ('L1.E677.w2', 0.253, 235), ('L1.E677.w1', 0.247, 228), ('L1.E677.w3', 0.246, 229), ('L24.E38.w2', 0.23, 167), ('L24.E38.w1', 0.225, 167), ('L24.E38.w3', 0.225, 167)]
