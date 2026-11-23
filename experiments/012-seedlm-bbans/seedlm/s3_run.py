@@ -34,16 +34,24 @@ VAL = np.array([0, .5, 1, 1.5, 2, 3, 4, 6, -.5, -1, -1.5, -2, -3, -4, -6], dtype
 
 
 def names(which):
+    """matrix names of a set; env S3_ONLY (comma-separated names) restricts it to a subset (reduced first pass)."""
     import common as K
     import tx
     if which == "T1":
-        return K.T1
-    if which == "T2":
-        return K.T2
-    ex = tx.sample_experts()
-    if which == "train8":          # first sampled expert of each 010 layer, w1 and w2 (S3-b binning selection)
-        return [f"L{L}.E{es[0]}.{r}" for L, es in ex.items() for r in ("w1", "w2")]
-    return K.names({L: es[:2] for L, es in ex.items()})
+        out = K.T1
+    elif which == "T2":
+        out = K.T2
+    else:
+        ex = tx.sample_experts()
+        if which == "train8":      # first sampled expert of each 010 layer, w1 and w2 (S3-b binning selection)
+            out = [f"L{L}.E{es[0]}.{r}" for L, es in ex.items() for r in ("w1", "w2")]
+        else:
+            out = K.names({L: es[:2] for L, es in ex.items()})
+    only = os.environ.get("S3_ONLY")
+    if only:
+        keep = set(only.split(","))
+        out = [n for n in out if n in keep]
+    return out
 
 
 def load(name):
