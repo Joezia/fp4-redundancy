@@ -5,11 +5,11 @@
 #   stage 2: the remaining 20 T1 matrices (the same commands; finished matrices are skipped).
 # Run from the repo root (GPU 1).
 set -e
-R=experiments/012-seedlm-bbans/results/s3
+R=experiments/012-paper-repro/results/s3
 set -a; source .env; set +a
 export CUDA_VISIBLE_DEVICES=1 PYTHONPATH=.:src OMP_NUM_THREADS=8
 PY=/home/zhouziang/.local/share/miniforge3/envs/lab/bin/python
-D=experiments/012-seedlm-bbans/seedlm
+D=experiments/012-paper-repro/seedlm
 SUB=L0.E191.w1,L13.E127.w2,L26.E336.w3,L39.E88.w1
 for stage in 1 2; do
   for K in 18 20; do

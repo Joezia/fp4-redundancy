@@ -4,7 +4,7 @@ set -e
 set -a; source .env; set +a
 export CUDA_VISIBLE_DEVICES=1 PYTHONPATH=.:src OMP_NUM_THREADS=8
 PY=/home/zhouziang/.local/share/miniforge3/envs/lab/bin/python
-D=experiments/012-seedlm-bbans/seedlm
+D=experiments/012-paper-repro/seedlm
 for cfg in "8 3 16" "12 4 16"; do
   for mode in range paper; do
     for set in train8 T1; do $PY $D/s3_run.py $set $cfg $mode; done

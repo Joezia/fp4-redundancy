@@ -8,7 +8,7 @@ set -e
 set -a; source .env; set +a
 export CUDA_VISIBLE_DEVICES=1 PYTHONPATH=.:src OMP_NUM_THREADS=8
 PY=/home/zhouziang/.local/share/miniforge3/envs/lab/bin/python
-Q=experiments/012-seedlm-bbans/seedlm/s3c_check.py
+Q=experiments/012-paper-repro/seedlm/s3c_check.py
 SUB=L0.E191.w1,L13.E127.w2,L26.E336.w3,L39.E88.w1
 for cfg in "8 3 16" "12 4 16"; do
   $PY $Q side train8 $cfg

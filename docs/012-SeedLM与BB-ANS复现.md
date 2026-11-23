@@ -2,8 +2,8 @@
 
 本文件既给执行实验的 agent 读，也给项目负责人读。
 
-- 代码放在 `experiments/012-seedlm-bbans/`，结果放在其下的 `results/`。
-- 报告写成 `experiments/012-seedlm-bbans/report.md`。
+- 代码放在 `experiments/012-paper-repro/`，结果放在其下的 `results/`。
+- 报告写成 `experiments/012-paper-repro/report.md`。
 - 本文件放在 `docs/012-SeedLM与BB-ANS复现.md`。
 
 ---
