@@ -1,0 +1,51 @@
+{
+ "n_tensors": 552,
+ "n_elements": 6077546496,
+ "chain_R1c_R1s_R2_R10_bytes": 2737264923.31957,
+ "chain_bits_per_weight": 3.6031183637951654,
+ "wall_s": 66.04997158050537,
+ "levels": {
+  "tensor": {
+   "stream_bytes": 2737457380,
+   "head_bytes": 390816,
+   "tensor_table_bytes": 69858,
+   "streams_minus_chain_bytes": 192456.68042993546,
+   "streams_minus_chain_bpw": 0.000253334704136418
+  },
+  "expert": {
+   "stream_bytes": 2737625196,
+   "head_bytes": 390816,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 360272.68042993546,
+   "streams_minus_chain_bpw": 0.00047423437160644036
+  },
+  "layer_role": {
+   "stream_bytes": 2737543665,
+   "head_bytes": 390816,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 278741.68042993546,
+   "streams_minus_chain_bpw": 0.0003669134320744625
+  },
+  "layer": {
+   "stream_bytes": 2737693531,
+   "head_bytes": 390816,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 428607.68042993546,
+   "streams_minus_chain_bpw": 0.000564185143741183
+  },
+  "role": {
+   "stream_bytes": 2738177646,
+   "head_bytes": 390816,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 912722.6804299355,
+   "streams_minus_chain_bpw": 0.0012014357188785353
+  },
+  "model": {
+   "stream_bytes": 2738243398,
+   "head_bytes": 390816,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 978474.6804299355,
+   "streams_minus_chain_bpw": 0.0012879864347547863
+  }
+ }
+}

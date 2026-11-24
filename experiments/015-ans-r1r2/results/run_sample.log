@@ -1,0 +1,18 @@
+START kimi 09:36:18
+COUNT_DONE kimi 184 experts wall 15 s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/015-ans-r1r2/ans_r1r2.py:152: RuntimeWarning: divide by zero encountered in log2
+  cost = np.where(pres & (f > 1), c * np.log2(f / np.maximum(f - 1, 1)), np.inf)
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/015-ans-r1r2/ans_r1r2.py:152: RuntimeWarning: invalid value encountered in multiply
+  cost = np.where(pres & (f > 1), c * np.log2(f / np.maximum(f - 1, 1)), np.inf)
+kimi: 184 experts to code
+CODE_DONE kimi wall 43 s
+END kimi 09:37:20
+START deepseek 09:37:20
+COUNT_DONE deepseek 172 experts wall 4 s
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/015-ans-r1r2/ans_r1r2.py:152: RuntimeWarning: divide by zero encountered in log2
+  cost = np.where(pres & (f > 1), c * np.log2(f / np.maximum(f - 1, 1)), np.inf)
+/home/zhouziang/Workspace/compression/fp4-redundancy/experiments/015-ans-r1r2/ans_r1r2.py:152: RuntimeWarning: invalid value encountered in multiply
+  cost = np.where(pres & (f > 1), c * np.log2(f / np.maximum(f - 1, 1)), np.inf)
+deepseek: 172 experts to code
+CODE_DONE deepseek wall 36 s
+END deepseek 09:38:01
