@@ -43,3 +43,6 @@ experiments/011-limits-and-models/b4/cm
 # 012: paper PDFs are not published (URLs and sha256 in experiments/012-paper-repro/refs.md)
 refs/
 experiments/015-ans-r1r2/results/ans_deepseek_items.jsonl
+experiments/015-ans-r1r2/results/ans_r1_deepseek_items.jsonl
+experiments/015-ans-r1r2/results/ans_kimi_big_items.jsonl
+experiments/015-ans-r1r2/results/ans_r1_kimi_big_items.jsonl

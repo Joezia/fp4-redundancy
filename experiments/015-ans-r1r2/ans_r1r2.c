@@ -148,3 +148,100 @@ void decode_verify(const uint8_t *in, const int64_t *stream_len, int64_t n_codes
     mism[0] = ms;
     mism[1] = mc;
 }
+
+/* ---------------------------------------------------------------- scheme R1 (R1c + R1s only)
+ * Code stream: the 16 raw codes (+0 and -0 kept apart, bit-exact), ONE static 16-symbol table for all codes
+ * (not grouped by scale). Scale stream: as above. Same coder, chunking and flush. */
+void count16(const uint8_t *codes, int64_t n_codes, int64_t *h16) {
+    for (int64_t i = 0; i < n_codes; i++) h16[codes[i] & 15]++;
+}
+
+static int64_t put_stream_raw(const uint8_t *codes, int64_t i0, int64_t n, const RansEncSymbol *ec,
+                              uint8_t *tmp, int64_t cap, uint8_t *out) {
+    uint8_t *ptr = tmp + cap;
+    RansState r;
+    RansEncInit(&r);
+    for (int64_t i = i0 + n - 1; i >= i0; i--) RansEncPutSymbol(&r, &ptr, &ec[codes[i] & 15]);
+    RansEncFlush(&r, &ptr);
+    int64_t len = (tmp + cap) - ptr;
+    memcpy(out, ptr, (size_t)len);
+    return len;
+}
+
+int64_t encode_r1(const uint8_t *codes, const uint8_t *scale, int64_t n_codes, int64_t chunk,
+                  const uint32_t *cfreq16, const uint32_t *ccum16, const uint32_t *sfreq, const uint32_t *scum,
+                  uint8_t *out, int64_t *stream_len) {
+    int64_t nb = n_codes / 32;
+    static __thread RansEncSymbol es[256], ec[16];
+    for (int s = 0; s < 256; s++)
+        if (sfreq[s]) RansEncSymbolInit(&es[s], scum[s], sfreq[s], SCALE_BITS);
+    for (int m = 0; m < 16; m++)
+        if (cfreq16[m]) RansEncSymbolInit(&ec[m], ccum16[m], cfreq16[m], SCALE_BITS);
+    for (int64_t b = 0; b < nb; b++) if (!sfreq[scale[b]]) return -1;
+    for (int64_t i = 0; i < n_codes; i++) if (!cfreq16[codes[i] & 15]) return -1;
+    int64_t cap = 2 * chunk + 64;
+    uint8_t *tmp = (uint8_t *)malloc((size_t)cap);
+    int64_t pos = 0, k = 0;
+    for (int64_t b0 = 0; b0 < nb; b0 += chunk) {
+        int64_t n = nb - b0 < chunk ? nb - b0 : chunk;
+        stream_len[k] = put_stream_scale(scale + b0, n, es, tmp, cap, out + pos);
+        pos += stream_len[k++];
+    }
+    for (int64_t i0 = 0; i0 < n_codes; i0 += chunk) {
+        int64_t n = n_codes - i0 < chunk ? n_codes - i0 : chunk;
+        stream_len[k] = put_stream_raw(codes, i0, n, ec, tmp, cap, out + pos);
+        pos += stream_len[k++];
+    }
+    free(tmp);
+    return pos;
+}
+
+/* mism[0] = scale bytes that differ, mism[1] = codes that differ (raw, no merge) */
+void decode_verify_r1(const uint8_t *in, const int64_t *stream_len, int64_t n_codes, int64_t chunk,
+                      const uint32_t *cfreq16, const uint32_t *ccum16, const uint32_t *sfreq, const uint32_t *scum,
+                      const uint8_t *codes, const uint8_t *scale, uint8_t *dec_scale, uint8_t *dec_code, int64_t *mism) {
+    int64_t nb = n_codes / 32;
+    static __thread uint8_t s_c2s[M], c_c2s[M];
+    static __thread RansDecSymbol ds[256], dc[16];
+    for (int s = 0; s < 256; s++)
+        if (sfreq[s]) {
+            RansDecSymbolInit(&ds[s], scum[s], sfreq[s]);
+            for (uint32_t j = 0; j < sfreq[s]; j++) s_c2s[scum[s] + j] = (uint8_t)s;
+        }
+    for (int m = 0; m < 16; m++)
+        if (cfreq16[m]) {
+            RansDecSymbolInit(&dc[m], ccum16[m], cfreq16[m]);
+            for (uint32_t j = 0; j < cfreq16[m]; j++) c_c2s[ccum16[m] + j] = (uint8_t)m;
+        }
+    const uint8_t *p = in;
+    int64_t k = 0;
+    for (int64_t b0 = 0; b0 < nb; b0 += chunk) {
+        int64_t n = nb - b0 < chunk ? nb - b0 : chunk;
+        uint8_t *ptr = (uint8_t *)p;
+        RansState r;
+        RansDecInit(&r, &ptr);
+        for (int64_t i = 0; i < n; i++) {
+            uint8_t s = s_c2s[RansDecGet(&r, SCALE_BITS)];
+            dec_scale[b0 + i] = s;
+            RansDecAdvanceSymbol(&r, &ptr, &ds[s], SCALE_BITS);
+        }
+        p += stream_len[k++];
+    }
+    for (int64_t i0 = 0; i0 < n_codes; i0 += chunk) {
+        int64_t n = n_codes - i0 < chunk ? n_codes - i0 : chunk;
+        uint8_t *ptr = (uint8_t *)p;
+        RansState r;
+        RansDecInit(&r, &ptr);
+        for (int64_t i = i0; i < i0 + n; i++) {
+            uint8_t m = c_c2s[RansDecGet(&r, SCALE_BITS)];
+            dec_code[i] = m;
+            RansDecAdvanceSymbol(&r, &ptr, &dc[m], SCALE_BITS);
+        }
+        p += stream_len[k++];
+    }
+    int64_t ms = 0, mc = 0;
+    for (int64_t b = 0; b < nb; b++) ms += dec_scale[b] != scale[b];
+    for (int64_t i = 0; i < n_codes; i++) mc += dec_code[i] != (codes[i] & 15);
+    mism[0] = ms;
+    mism[1] = mc;
+}

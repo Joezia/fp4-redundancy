@@ -74,6 +74,10 @@ def lib():
         _L.encode_tensor.argtypes = [P, P, ctypes.c_int64, ctypes.c_int64, P, P, P, P, P, P]
         _L.encode_tensor.restype = ctypes.c_int64
         _L.decode_verify.argtypes = [P, P, ctypes.c_int64, ctypes.c_int64, P, P, P, P, P, P, P, P, P]
+        _L.count16.argtypes = [P, ctypes.c_int64, P]
+        _L.encode_r1.argtypes = [P, P, ctypes.c_int64, ctypes.c_int64, P, P, P, P, P, P]
+        _L.encode_r1.restype = ctypes.c_int64
+        _L.decode_verify_r1.argtypes = [P, P, ctypes.c_int64, ctypes.c_int64, P, P, P, P, P, P, P, P, P]
     return _L
 
 
@@ -82,7 +86,14 @@ def ptr(a):
 
 
 # ---------------------------------------------------------------- data
-SFX = ""          # "" = all tensors, "_sample" = the 008 / 009 stratified samples (--sample)
+SFX = ""          # "" = all tensors, "_sample" = the 008 / 009 samples (--sample), "_big" = the larger Kimi sample
+SCH = "r1r2"      # coding scheme: "r1r2" (15 merged codes, table per scale value) or "r1" (16 raw codes, one table)
+BIG_PER_LAYER = 171
+BIG_SEED = 20261124
+
+
+def tag(sch=None):
+    return "" if (sch or SCH) == "r1r2" else "_" + (sch or SCH)
 
 
 def sample_names(model):
@@ -94,8 +105,8 @@ def sample_names(model):
 
 def entries(model, all_tensors=False):
     ms = json.load(open(DATA / f"{model}_matrices.json"))["matrices"]
-    if SFX == "_sample" and not all_tensors:
-        keep = sample_names(model)
+    if SFX in ("_sample", "_big") and not all_tensors:
+        keep = sample_names(model) if SFX == "_sample" else set(json.load(open(DATA / f"{model}_big_sample.json")))
         ms = [m for m in ms if m["matrix"] in keep]
         assert len(ms) == len(keep), "sample tensors missing from the enumeration"
     return ms
@@ -284,6 +295,82 @@ def code_tensor(C, E, R, W, T, table_id):
             "code_mismatch": int(mism[1]), "t_enc": t_enc, "t_dec": t_dec}
 
 
+# ---------------------------------------------------------------- scheme R1: 16 raw codes, one table
+def build_r1(h16, sh):
+    return quantize(h16), quantize(sh)
+
+
+def serialize_r1(cf16, sf):
+    """32-byte scale bitmap, 12-bit (freq - 1) per present scale value, 16-bit code mask, 12-bit (freq - 1) per
+    present code; padded to a whole byte."""
+    present = np.nonzero(sf)[0]
+    bitmap = np.zeros(256, dtype=np.uint8)
+    bitmap[present] = 1
+    w = BitW()
+    for s_ in present:
+        w.put(sf[s_] - 1, 12)
+    mask = sum(1 << m for m in range(16) if cf16[m])
+    w.put(mask, 16)
+    for m in range(16):
+        if cf16[m]:
+            w.put(cf16[m] - 1, 12)
+    return np.packbits(bitmap, bitorder="little").tobytes() + w.bytes()
+
+
+def parse_r1(b):
+    present = np.nonzero(np.unpackbits(np.frombuffer(b[:32], dtype=np.uint8), bitorder="little"))[0]
+    r = BitR(b[32:])
+    sf = np.zeros(256, dtype=np.uint32)
+    cf = np.zeros(16, dtype=np.uint32)
+    for s_ in present:
+        sf[s_] = r.get(12) + 1
+    mask = r.get(16)
+    for m in range(16):
+        if mask >> m & 1:
+            cf[m] = r.get(12) + 1
+    return cf, sf
+
+
+class TablesR1:
+    def __init__(self, raw_bytes):
+        self.bytes = raw_bytes
+        cf, sf = parse_r1(raw_bytes)
+        assert sf.sum() == M and cf.sum() == M
+        self.cf, self.sf = np.ascontiguousarray(cf), np.ascontiguousarray(sf)
+        self.ccum = np.ascontiguousarray(np.concatenate([[0], np.cumsum(cf)[:-1]]).astype(np.uint32))
+        self.scum = np.ascontiguousarray(np.concatenate([[0], np.cumsum(sf)[:-1]]).astype(np.uint32))
+
+
+def make_r1(h16, sh):
+    cf, sf = build_r1(h16, sh)
+    t = TablesR1(serialize_r1(cf, sf))
+    assert np.array_equal(t.cf, cf) and np.array_equal(t.sf, sf), "table serialisation round trip"
+    return t
+
+
+def code_tensor_r1(C, E, R, W, T, table_id):
+    n = C.size
+    ns, nc = n_streams(n)
+    out = np.empty(2 * n + 64 * (ns + nc) + 1024, dtype=np.uint8)
+    lens = np.zeros(ns + nc, dtype=np.int64)
+    t0 = time.perf_counter()
+    tot = lib().encode_r1(ptr(C), ptr(E), n, CHUNK, ptr(T.cf), ptr(T.ccum), ptr(T.sf), ptr(T.scum), ptr(out), ptr(lens))
+    t_enc = time.perf_counter() - t0
+    assert tot > 0, "table does not cover the data"
+    head = np.array([R, W, table_id] + lens.tolist(), dtype="<u4").tobytes()
+    ds = np.empty(n // 32, dtype=np.uint8)
+    dc = np.empty(n, dtype=np.uint8)
+    mism = np.zeros(2, dtype=np.int64)
+    lens2 = np.frombuffer(head, dtype="<u4")[3:].astype(np.int64)
+    t0 = time.perf_counter()
+    lib().decode_verify_r1(ptr(out), ptr(lens2), n, CHUNK, ptr(T.cf), ptr(T.ccum), ptr(T.sf), ptr(T.scum), ptr(C),
+                           ptr(E), ptr(ds), ptr(dc), ptr(mism))
+    t_dec = time.perf_counter() - t0
+    return {"scale_bytes": int(lens[:ns].sum()), "code_bytes": int(lens[ns:].sum()), "n_scale_streams": int(ns),
+            "n_code_streams": int(nc), "head_bytes": len(head), "scale_mismatch": int(mism[0]),
+            "code_mismatch": int(mism[1]), "t_enc": t_enc, "t_dec": t_dec}
+
+
 # ---------------------------------------------------------------- commands
 def cmd_enumerate(a):
     from diagnostics.st import index_snapshot
@@ -315,18 +402,26 @@ def experts_of(model):
     return list(ex.values())
 
 
+def count16(C):
+    h = np.zeros(16, dtype=np.int64)
+    lib().count16(ptr(C), C.size, ptr(h))
+    return h
+
+
 def count_task(model, group):
     ad = reader(model)
     out = {}
     for e in group:
         C, E = read(ad, e)
         h, sh = count(C, E)
+        h16 = count16(C)
         k = (e["layer"], e["role"])
         if k in out:
             out[k][0] += h
             out[k][1] += sh
+            out[k][2] += h16
         else:
-            out[k] = [h, sh]
+            out[k] = [h, sh, h16]
     return out
 
 
@@ -344,20 +439,25 @@ def cmd_count(a):
     t0 = time.time()
     tot = {}
     for r in pool_map(count_task, [(a.model, g) for g in groups], a.workers, label="count"):
-        for k, (h, sh) in r.items():
+        for k, (h, sh, h16) in r.items():
             if k in tot:
                 tot[k][0] += h
                 tot[k][1] += sh
+                tot[k][2] += h16
             else:
-                tot[k] = [h, sh]
-    pickle.dump(tot, open(DATA / f"{a.model}_counts_layer_role{SFX}.pkl", "wb"))
+                tot[k] = [h, sh, h16]
+    pickle.dump({k: v[:2] for k, v in tot.items()}, open(DATA / f"{a.model}_counts_layer_role{SFX}.pkl", "wb"))
+    pickle.dump({k: [v[2], v[1]] for k, v in tot.items()}, open(DATA / f"{a.model}_counts16_layer_role{SFX}.pkl", "wb"))
     print(f"COUNT_DONE {a.model} {len(groups)} experts wall {time.time() - t0:.0f} s", flush=True)
     json.dump({"wall_s": time.time() - t0, "workers": a.workers}, open(RES / f"count_time_{a.model}{SFX}.json", "w"))
 
 
-def global_tables(model):
+def global_tables(model, sch="r1r2"):
     """table sets of the levels layer x role, layer, role, model from the pass-1 counts."""
-    tot = pickle.load(open(DATA / f"{model}_counts_layer_role{SFX}.pkl", "rb"))
+    if sch == "r1":
+        tot = pickle.load(open(DATA / f"{model}_counts16_layer_role{SFX}.pkl", "rb"))
+    else:
+        tot = pickle.load(open(DATA / f"{model}_counts_layer_role{SFX}.pkl", "rb"))
     agg = {"layer_role": {}, "layer": {}, "role": {}, "model": {}}
     for (L, role), (h, sh) in tot.items():
         for lvl, key in (("layer_role", f"L{L}.{role}"), ("layer", f"L{L}"), ("role", role), ("model", "model")):
@@ -367,19 +467,24 @@ def global_tables(model):
                 d[key][1] = d[key][1] + sh
             else:
                 d[key] = [h.copy(), sh.copy()]
-    return {lvl: {k: serialize_tables(*build_tables(h, sh)) for k, (h, sh) in d.items()} for lvl, d in agg.items()}
+    ser = (lambda h, sh: serialize_r1(*build_r1(h, sh))) if sch == "r1" else (lambda h, sh: serialize_tables(*build_tables(h, sh)))
+    return {lvl: {k: ser(h, sh) for k, (h, sh) in d.items()} for lvl, d in agg.items()}
 
 
 _G = {}
 
 
-def _init_code(model, sfx):
+def _init_code(model, sfx, schemes):
     global SFX
     SFX = sfx
     _G["model"] = model
-    _G["tables"] = {lvl: {k: Tables(b) for k, b in d.items()} for lvl, d in
-                    pickle.load(open(DATA / f"{model}_global_tables{SFX}.pkl", "rb")).items()}
-    _G["ids"] = {lvl: {k: i for i, k in enumerate(sorted(d))} for lvl, d in _G["tables"].items()}
+    _G["schemes"] = schemes
+    _G["tables"], _G["ids"] = {}, {}
+    for sch in schemes:
+        cls = TablesR1 if sch == "r1" else Tables
+        _G["tables"][sch] = {lvl: {k: cls(b) for k, b in d.items()} for lvl, d in
+                             pickle.load(open(DATA / f"{model}_global_tables{tag(sch)}{SFX}.pkl", "rb")).items()}
+        _G["ids"][sch] = {lvl: {k: i for i, k in enumerate(sorted(d))} for lvl, d in _G["tables"][sch].items()}
 
 
 def code_task(group):
@@ -388,12 +493,21 @@ def code_task(group):
     t_read = time.perf_counter()
     data = [(e, *read(ad, e)) for e in group]
     t_read = time.perf_counter() - t_read
-    hs = [count(C, E) for _, C, E in data]
-    ex_T = make_tables(sum(h for h, _ in hs), sum(s for _, s in hs))
+    return {sch: code_scheme(sch, data, t_read / len(group)) for sch in _G["schemes"]}
+
+
+def code_scheme(sch, data, t_read):
+    if sch == "r1":
+        hs = [(count16(C), count(C, E)[1]) for _, C, E in data]
+        make, coder = make_r1, code_tensor_r1
+    else:
+        hs = [count(C, E) for _, C, E in data]
+        make, coder = make_tables, code_tensor
+    ex_T = make(sum(h for h, _ in hs), sum(s for _, s in hs))
     recs = []
     for (e, C, E), (h, sh) in zip(data, hs):
         R, W = e["codeword_shape"]
-        tT = make_tables(h, sh)
+        tT = make(h, sh)
         k = keys_of(e)
         rec = {"matrix": e["matrix"], "layer": e["layer"], "expert": e["expert"], "role": e["role"], "shape": [R, W],
                "raw_bytes": C.size // 2 + C.size // 32, "levels": {}}
@@ -403,41 +517,49 @@ def code_task(group):
             elif lvl == "expert":
                 T, tid = ex_T, 0
             else:
-                T, tid = _G["tables"][lvl][k[lvl]], _G["ids"][lvl][k[lvl]]
-            r = code_tensor(C, E, R, W, T, tid)
+                T, tid = _G["tables"][sch][lvl][k[lvl]], _G["ids"][sch][lvl][k[lvl]]
+            r = coder(C, E, R, W, T, tid)
             if lvl == "tensor":
                 r["table_bytes"] = len(tT.bytes)
             recs_lvl = r
             rec["levels"][lvl] = recs_lvl
         rec["expert_table_bytes"] = len(ex_T.bytes)
-        rec["t_read"] = t_read / len(group)
+        rec["t_read"] = t_read
+        rec["scheme"] = sch
         recs.append(rec)
     return recs
 
 
 def cmd_code(a):
-    gt = global_tables(a.model)
-    pickle.dump(gt, open(DATA / f"{a.model}_global_tables{SFX}.pkl", "wb"))
+    schemes = a.schemes.split(",")
+    for sch in schemes:
+        pickle.dump(global_tables(a.model, sch), open(DATA / f"{a.model}_global_tables{tag(sch)}{SFX}.pkl", "wb"))
     groups = experts_of(a.model)
-    path = RES / f"ans_{a.model}{SFX}_items.jsonl"
-    done = set()
-    if path.exists():
-        done = {json.loads(l)["matrix"] for l in open(path)}
+    paths = {sch: RES / f"ans{tag(sch)}_{a.model}{SFX}_items.jsonl" for sch in schemes}
+    done = None
+    for sch, path in paths.items():
+        d = {json.loads(l)["matrix"] for l in open(path)} if path.exists() else set()
+        done = d if done is None else done & d
     todo = [g for g in groups if not all(e["matrix"] in done for e in g)]
     if a.limit:
         todo = todo[:a.limit]
     print(f"{a.model}: {len(todo)} experts to code", flush=True)
     t0 = time.time()
-    with open(path, "a") as fo, ProcessPoolExecutor(a.workers, initializer=_init_code, initargs=(a.model, SFX)) as ex:
-        for i, recs in enumerate(ex.map(code_task, todo, chunksize=2), 1):
-            for r in recs:
-                fo.write(json.dumps(r) + "\n")
+    fos = {sch: open(p, "a") for sch, p in paths.items()}
+    with ProcessPoolExecutor(a.workers, initializer=_init_code, initargs=(a.model, SFX, schemes)) as ex:
+        for i, res in enumerate(ex.map(code_task, todo, chunksize=2), 1):
+            for sch, recs in res.items():
+                for r in recs:
+                    fos[sch].write(json.dumps(r) + "\n")
             if i % 200 == 0:
-                fo.flush()
+                for fo in fos.values():
+                    fo.flush()
                 print(f"code {i}/{len(todo)} {time.time() - t0:.0f} s", flush=True)
+    for fo in fos.values():
+        fo.close()
     wall = time.time() - t0
     print(f"CODE_DONE {a.model} wall {wall:.0f} s", flush=True)
-    tf = RES / f"code_time_{a.model}{SFX}.json"
+    tf = RES / f"code_time_{'_'.join(schemes)}_{a.model}{SFX}.json"
     prev = json.load(open(tf)) if tf.exists() else {"runs": []}
     prev["runs"].append({"wall_s": wall, "workers": a.workers, "experts": len(todo)})
     json.dump(prev, open(tf, "w"), indent=1)
@@ -448,18 +570,18 @@ def file_head_bytes(n_tensors, n_tables):
 
 
 def cmd_summarize(a):
-    if SFX == "_sample":
+    if SFX in ("_sample", "_big"):
         return summarize_sample(a)
     ens = entries(a.model)
     want = [e["matrix"] for e in ens]
     rows = {}
-    for l in open(RES / f"ans_{a.model}{SFX}_items.jsonl"):
+    for l in open(RES / f"ans{tag()}_{a.model}{SFX}_items.jsonl"):
         r = json.loads(l)
         rows[r["matrix"]] = r
     missing = [m for m in want if m not in rows]
     assert not missing, f"{len(missing)} tensors missing"
     rows = [rows[m] for m in want]
-    gt = pickle.load(open(DATA / f"{a.model}_global_tables{SFX}.pkl", "rb"))
+    gt = pickle.load(open(DATA / f"{a.model}_global_tables{tag()}{SFX}.pkl", "rb"))
     raw = sum(r["raw_bytes"] for r in rows)
     n_el = sum(r["shape"][0] * r["shape"][1] for r in rows)
     out = {"model": MODELS[a.model]["label"], "n_tensors": len(rows), "n_elements": n_el, "raw_bytes": raw,
@@ -492,7 +614,8 @@ def cmd_summarize(a):
             "encode_cpu_s": t_enc, "decode_cpu_s": t_dec,
             "encode_MBps_per_thread": raw / 1e6 / t_enc, "decode_MBps_per_thread": raw / 1e6 / t_dec}
     out["read_cpu_s"] = sum(r["t_read"] for r in rows)
-    json.dump(out, open(RES / f"ans_{a.model}_summary.json", "w"), indent=1)
+    out["scheme"] = SCH
+    json.dump(out, open(RES / f"ans{tag()}_{a.model}_summary.json", "w"), indent=1)
     # per-tensor file (columnar)
     cols = {"matrix": [r["matrix"] for r in rows], "raw_bytes": [r["raw_bytes"] for r in rows],
             "shape": [r["shape"] for r in rows]}
@@ -506,7 +629,7 @@ def cmd_summarize(a):
     json.dump({"summary": out, "per_tensor": cols,
                "note": "per-tensor total at level L = code_bytes + scale_bytes + head_bytes (+ table_bytes for "
                        "level tensor); shared tables and the file head are counted once per level in summary"},
-              open(RES / f"ans_{a.model}.json", "w"))
+              open(RES / f"ans{tag()}_{a.model}.json", "w"))
     print(json.dumps({k: v for k, v in out.items() if k != "failed"}, indent=1)[:3000])
     print("failed:", len(out["failed"]))
 
@@ -525,12 +648,12 @@ def summarize_sample(a):
     allm = entries(a.model, all_tensors=True)
     smp = entries(a.model)
     rows = {}
-    for l in open(RES / f"ans_{a.model}{SFX}_items.jsonl"):
+    for l in open(RES / f"ans{tag()}_{a.model}{SFX}_items.jsonl"):
         r = json.loads(l)
         rows[r["matrix"]] = r
     assert all(m["matrix"] in rows for m in smp), "sample incomplete"
     rows = [rows[m["matrix"]] for m in smp]
-    gt = pickle.load(open(DATA / f"{a.model}_global_tables{SFX}.pkl", "rb"))
+    gt = pickle.load(open(DATA / f"{a.model}_global_tables{tag()}{SFX}.pkl", "rb"))
     full, n_el, raw = {}, 0, 0
     exp_per_layer, head_all, nstr_all = {}, 0, 0
     for m in allm:
@@ -593,7 +716,8 @@ def summarize_sample(a):
             "decode_ok_sample": not bad, "n_failed_sample": len(bad), "encode_cpu_s_sample": t_enc,
             "decode_cpu_s_sample": t_dec, "encode_MBps_per_thread": sraw / 1e6 / t_enc,
             "decode_MBps_per_thread": sraw / 1e6 / t_dec}
-    json.dump(out, open(RES / f"ans_{a.model}{SFX}_summary.json", "w"), indent=1)
+    out["scheme"] = SCH
+    json.dump(out, open(RES / f"ans{tag()}_{a.model}{SFX}_summary.json", "w"), indent=1)
     cols = {"matrix": [r["matrix"] for r in rows], "raw_bytes": [r["raw_bytes"] for r in rows],
             "shape": [r["shape"] for r in rows]}
     for lvl in LEVELS:
@@ -603,7 +727,7 @@ def summarize_sample(a):
                                     for r in rows]
     cols["tensor.table_bytes"] = [r["levels"]["tensor"]["table_bytes"] for r in rows]
     cols["expert.table_bytes_of_its_expert"] = [r["expert_table_bytes"] for r in rows]
-    json.dump({"summary": out, "per_tensor_sampled": cols}, open(RES / f"ans_{a.model}{SFX}.json", "w"))
+    json.dump({"summary": out, "per_tensor_sampled": cols}, open(RES / f"ans{tag()}_{a.model}{SFX}.json", "w"))
     print(json.dumps({k: v for k, v in out.items() if k != "failed"}, indent=1)[:3500])
     print("failed:", len(out["failed"]))
 
@@ -615,7 +739,7 @@ SAMPLES = {"deepseek": dict(plan="experiments/008-scale-media/results/fp4/B/plan
                         params="experiments/009-kimi-k3/results/increment_dev/params.json")}
 
 
-def chain_task(model, name):
+def chain_task(model, name, sch="r1r2"):
     from redundancy import increment as I
     P = dict(I.FP4_DEFAULT)
     P.update(json.load(open(ROOT / SAMPLES[model]["params"])))
@@ -623,7 +747,8 @@ def chain_task(model, name):
     s = ad.samples[name]
     C, E = ad._read(s)
     order = ["R1c", "R1s", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "R10"]
-    bits, _ = I.fp4_codelen(C.astype(np.int64), E, frozenset({"R1c", "R1s", "R2", "R10"}), P, order)
+    flags = {"R1c", "R1s"} if sch == "r1" else {"R1c", "R1s", "R2", "R10"}
+    bits, _ = I.fp4_codelen(C.astype(np.int64), E, frozenset(flags), P, order)
     return name, float(bits)
 
 
@@ -632,16 +757,17 @@ def cmd_chain(a):
     tasks = plan["tasks"][:SAMPLES[a.model]["first"]] if SAMPLES[a.model]["first"] else plan["tasks"]
     names = [e for t in tasks for e in t["entries"]]
     t0 = time.time()
-    res = dict(pool_map(chain_task, [(a.model, n) for n in names], a.workers, label="chain"))
+    res = dict(pool_map(chain_task, [(a.model, n, SCH) for n in names], a.workers, label="chain"))
     rows = {}
-    for l in open(RES / f"ans_{a.model}{SFX}_items.jsonl"):
+    for l in open(RES / f"ans{tag()}_{a.model}{SFX}_items.jsonl"):
         r = json.loads(l)
         if r["matrix"] in res:
             rows[r["matrix"]] = r
     assert len(rows) == len(names)
     n_el = sum(rows[n]["shape"][0] * rows[n]["shape"][1] for n in names)
     chain_bytes = sum(res.values()) / 8
-    out = {"n_tensors": len(names), "n_elements": n_el, "chain_R1c_R1s_R2_R10_bytes": chain_bytes,
+    out = {"n_tensors": len(names), "n_elements": n_el, "chain_flags": sorted({"R1c", "R1s"} if SCH == "r1" else {"R1c", "R1s", "R2", "R10"}),
+           "chain_bytes": chain_bytes, "chain_R1c_R1s_R2_R10_bytes": chain_bytes if SCH != "r1" else None,
            "chain_bits_per_weight": 8 * chain_bytes / n_el, "wall_s": time.time() - t0, "levels": {}}
     for lvl in LEVELS:
         streams = sum(rows[n]["levels"][lvl]["code_bytes"] + rows[n]["levels"][lvl]["scale_bytes"] for n in names)
@@ -650,8 +776,34 @@ def cmd_chain(a):
         out["levels"][lvl] = {"stream_bytes": streams, "head_bytes": head, "tensor_table_bytes": tab,
                               "streams_minus_chain_bytes": streams - chain_bytes,
                               "streams_minus_chain_bpw": 8 * (streams - chain_bytes) / n_el}
-    json.dump(out, open(RES / f"chain_compare_{a.model}.json", "w"), indent=1)
+    out["scheme"] = SCH
+    out["items_from"] = f"ans{tag()}_{a.model}{SFX}_items.jsonl"
+    json.dump(out, open(RES / f"chain_compare{tag()}_{a.model}.json", "w"), indent=1)
     print(json.dumps(out, indent=1))
+
+
+def cmd_make_big(a):
+    """Kimi-K3: per layer the two experts of plan_552 plus random others (seed BIG_SEED) up to BIG_PER_LAYER experts,
+    all three roles; 92 x 171 x 3 = 47,196 tensors, about as many as DeepSeek's 47,232."""
+    ms = json.load(open(DATA / f"{a.model}_matrices.json"))["matrices"]
+    base = sample_names(a.model)
+    rng = np.random.default_rng(BIG_SEED)
+    by_layer = {}
+    for m in ms:
+        by_layer.setdefault(m["layer"], set()).add(m["expert"])
+    base_exp = {}
+    for n in base:
+        L, E, _ = n.split(".")
+        base_exp.setdefault(int(L[1:]), set()).add(int(E[1:]))
+    keep = []
+    for L, exs in sorted(by_layer.items()):
+        chosen = set(base_exp.get(L, set()))
+        rest = sorted(exs - chosen)
+        chosen |= set(rng.choice(rest, BIG_PER_LAYER - len(chosen), replace=False).tolist())
+        keep += [f"L{L}.E{e}.w{r}" for e in sorted(chosen) for r in (1, 2, 3)]
+    json.dump(keep, open(DATA / f"{a.model}_big_sample.json", "w"))
+    json.dump(keep, open(RES / f"big_sample_{a.model}.json", "w"))
+    print(len(keep), "tensors;", len(by_layer), "layers;", BIG_PER_LAYER, "experts per layer")
 
 
 def cmd_selftest(a):
@@ -687,12 +839,18 @@ def main():
         p.add_argument("--workers", type=int, default=64)
         p.add_argument("--limit", type=int, default=None)
         p.add_argument("--sample", action="store_true", help="only the 008 / 009 stratified sample; summarize extrapolates")
+        p.add_argument("--big", action="store_true", help="only the larger stratified sample (make-big); summarize extrapolates")
+        p.add_argument("--scheme", default="r1r2", choices=["r1r2", "r1"])
+        p.add_argument("--schemes", default="r1r2", help="code: comma-separated schemes coded from one read")
+    mb = sub.add_parser("make-big")
+    mb.add_argument("model", choices=list(MODELS))
     sub.add_parser("selftest")
     a = ap.parse_args()
-    global SFX
-    SFX = "_sample" if getattr(a, "sample", False) else ""
+    global SFX, SCH
+    SFX = "_big" if getattr(a, "big", False) else ("_sample" if getattr(a, "sample", False) else "")
+    SCH = getattr(a, "scheme", "r1r2")
     {"enumerate": cmd_enumerate, "count": cmd_count, "code": cmd_code, "summarize": cmd_summarize,
-     "chain": cmd_chain, "selftest": cmd_selftest}[a.cmd](a)
+     "chain": cmd_chain, "selftest": cmd_selftest, "make-big": cmd_make_big}[a.cmd](a)
 
 
 if __name__ == "__main__":

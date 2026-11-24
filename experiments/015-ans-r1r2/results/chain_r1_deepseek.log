@@ -1,0 +1,60 @@
+chain 200/516 20 s
+chain 400/516 20 s
+{
+ "n_tensors": 516,
+ "n_elements": 6086983680,
+ "chain_flags": [
+  "R1c",
+  "R1s"
+ ],
+ "chain_bytes": 2981184499.4900312,
+ "chain_R1c_R1s_R2_R10_bytes": null,
+ "chain_bits_per_weight": 3.9181107178391925,
+ "wall_s": 21.318017959594727,
+ "levels": {
+  "tensor": {
+   "stream_bytes": 2981407657,
+   "head_bytes": 390096,
+   "tensor_table_bytes": 33210,
+   "streams_minus_chain_bytes": 223157.50996875763,
+   "streams_minus_chain_bpw": 0.00029329141880499686
+  },
+  "expert": {
+   "stream_bytes": 2984799651,
+   "head_bytes": 390096,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 3615151.5099687576,
+   "streams_minus_chain_bpw": 0.0047513207854945425
+  },
+  "layer_role": {
+   "stream_bytes": 2985428193,
+   "head_bytes": 390096,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 4243693.509968758,
+   "streams_minus_chain_bpw": 0.0055774008711897945
+  },
+  "layer": {
+   "stream_bytes": 2987145056,
+   "head_bytes": 390096,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 5960556.509968758,
+   "streams_minus_chain_bpw": 0.007833839317891856
+  },
+  "role": {
+   "stream_bytes": 2996745116,
+   "head_bytes": 390096,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 15560616.509968758,
+   "streams_minus_chain_bpw": 0.020451004737990372
+  },
+  "model": {
+   "stream_bytes": 2996980440,
+   "head_bytes": 390096,
+   "tensor_table_bytes": null,
+   "streams_minus_chain_bytes": 15795940.509968758,
+   "streams_minus_chain_bpw": 0.020760286329492846
+  }
+ },
+ "scheme": "r1",
+ "items_from": "ans_r1_deepseek_items.jsonl"
+}
