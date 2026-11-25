@@ -1,0 +1,12 @@
+== deepseek: 172 experts, 29 s
+  w1col_w3col: real median +0.259 (p10 +0.099, p90 +0.630, negative 0.00); shuffled median +0.001 (p10 -0.018, p90 +0.017)
+  w3row_w2col: real median +0.823 (p10 +0.629, p90 +0.892, negative 0.01); shuffled median +0.001 (p10 -0.028, p90 +0.032)
+  w1row_w2col: real median +0.804 (p10 +0.548, p90 +0.900, negative 0.03); shuffled median +0.001 (p10 -0.025, p90 +0.022)
+  w1row_w3row: real median +0.878 (p10 +0.644, p90 +0.931, negative 0.01); shuffled median -0.000 (p10 -0.028, p90 +0.026)
+  w1col_cross_expert_same_layer: real median +0.056 (p10 +0.005, p90 +0.517, negative 0.08); shuffled median +0.002 (p10 -0.018, p90 +0.020)
+== kimi: 184 experts, 98 s
+  w1col_w3col: real median +0.108 (p10 +0.012, p90 +0.186, negative 0.04); shuffled median -0.001 (p10 -0.019, p90 +0.021)
+  w3row_w2col: real median +0.771 (p10 +0.434, p90 +0.939, negative 0.00); shuffled median -0.001 (p10 -0.024, p90 +0.021)
+  w1row_w2col: real median +0.768 (p10 +0.433, p90 +0.942, negative 0.02); shuffled median -0.001 (p10 -0.025, p90 +0.020)
+  w1row_w3row: real median +0.867 (p10 +0.505, p90 +0.990, negative 0.00); shuffled median +0.002 (p10 -0.025, p90 +0.025)
+  w1col_cross_expert_same_layer: real median +0.019 (p10 -0.011, p90 +0.049, negative 0.23); shuffled median -0.001 (p10 -0.023, p90 +0.019)
