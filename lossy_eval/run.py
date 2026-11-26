@@ -102,7 +102,8 @@ def main():
     ap.add_argument("--seqlen", type=int, default=2048)
     ap.add_argument("--ppl-windows", type=int, default=None)
     ap.add_argument("--mc-limit", type=int, default=None)
-    ap.add_argument("--chunk-tokens", type=int, default=120_000)
+    ap.add_argument("--chunk-tokens", type=int, default=48_000)
+    ap.add_argument("--redo", action="store_true", help="recompute methods whose result JSON exists")
     ap.add_argument("--tok-budget", type=int, default=16384)
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
@@ -119,6 +120,9 @@ def main():
     ntok = sum(len(s.tokens) for s in seqs)
     log(f"{len(seqs)} sequences, {ntok} tokens, {sum(len(s.score_pos) for s in seqs)} scored positions")
     for spec in args.methods:
+        if (out / f"{spec.replace(':', '_')}.json").exists() and not args.redo:
+            log(f"{spec}: result exists, skipped")
+            continue
         method = build(spec)
         t = time.time()
         res, st, wrows = Engine(A, method, args.chunk_tokens, args.tok_budget, log=log).run(seqs)
@@ -134,7 +138,8 @@ def main():
             f"{k} KL {v['kl_mean']:.4f} top1 {v['top1_agree']:.4f}" + (f" ppl {v['ppl_ref']:.3f}->{v['ppl_pert']:.3f}" if "ppl_ref" in v else "")
             for k, v in summ["C_output"].items())
         line += "; " + "; ".join(f"{k} acc {v['acc_ref']:.4f}->{v['acc_pert']:.4f}" for k, v in summ["D_tasks"].items())
-        log(line + f" ({summ['seconds']:.0f}s)")
+        log(line + f" ({summ['seconds']:.0f}s, peak GPU {torch.cuda.max_memory_allocated() / 2**30:.1f} GiB)")
+        torch.cuda.reset_peak_memory_stats()
 
 
 if __name__ == "__main__":

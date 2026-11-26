@@ -81,7 +81,7 @@ class LayerStats:
 
 
 class Engine:
-    def __init__(self, adapter, method, chunk_tokens=120_000, tok_budget=16384, logit_chunk=2048, log=print):
+    def __init__(self, adapter, method, chunk_tokens=48_000, tok_budget=16384, logit_chunk=512, log=print):
         self.A, self.method = adapter, method
         self.chunk_tokens, self.tok_budget, self.logit_chunk = chunk_tokens, tok_budget, logit_chunk
         self.log = log
@@ -145,7 +145,7 @@ class Engine:
         exs = torch.zeros(A.n_experts, 3, device=x.device, dtype=torch.float64)
         for e, tok, k in self._dispatch(idx, A.n_experts):
             xe = x[tok]
-            ye = A.expert_fn(l, e, xe, self._worig[(e, "gate_up")], self._worig[(e, "down")])
+            ye = A.expert_fn(l, e, xe, A.orig_weight(l, e, "gate_up"), A.orig_weight(l, e, "down"))
             if self.method.identity and What is None:
                 yhe = ye
             else:
@@ -200,7 +200,6 @@ class Engine:
                 h = A.embed(ids)
                 hs.append([h, h.clone(), mask])
             for l in range(L):
-                self._worig = {(e, r): A.orig_weight(l, e, r) for e in range(A.n_experts) for r in A.roles}
                 What = self._what(l, cache)
                 # attention per padded batch; MoE once over all real tokens of the chunk
                 mids, xr, xp = [], [], []
