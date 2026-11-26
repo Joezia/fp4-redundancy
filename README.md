@@ -222,11 +222,22 @@ FP4 扩大抽样（Part 1）：B 层每层 4 个专家（516 个矩阵，全部�
 
 有损评估框架（代码在仓库根目录 `lossy_eval/`，规格见 [docs/有损评估框架](docs/有损评估框架.md)）：后续所有有损方法共用。它把专家权重 W 换成方法给出的 Ŵ，逐层执行原始流与扰动流，记录四级指标：权重 NMSE、真实激活下的层输出误差（含逐专家误差、路由改变比例）、输出分布（KL、top-1 一致率、困惑度），以及多选题精度和答案翻转。
 - 已接入 gpt-oss-20b（MXFP4 专家，A6000 上按层反量化为 bf16；模型和数据按固定 revision 下载到 `data/lossy_eval/`）。
-- 已验证：微型随机模型上与 transformers 前向逐位一致（单条和填充批量）；恒等方法 KL = 0；SDPA 加精确 sink 的注意力相对 float64 误差为 0.1%–0.5%（transformers eager 为 0.6%–5.5%）。
-- bf16 舍入会让个别接近平局的 token 换路由，同一序列单独跑和批量跑的 KL 最大约 0.003。这是测量下限。
+- 已验证：
+  - 微型随机模型上与 transformers 前向逐位一致（单条和填充批量）。
+  - 恒等方法 KL = 0。
+  - SDPA 加精确 sink 的注意力，相对 float64 误差为 0.1%–0.5%（transformers eager 为 0.6%–5.5%）。
+  - gpt-oss-20b 上，以 transformers fp32 为参考，引擎与 transformers 自己的 bf16 偏离程度相同（KL 0.022–0.023）。
+- 测量下限：bf16 舍入会让接近平局的 token 换路由，差异逐层放大。任意两种等价的 bf16 计算之间，输出 KL 约 0.02，top-1 一致率约 0.92；KL 低于约 0.03 的差别分辨不出。早先估计的 0.003 偏低。
 - DeepSeek-V4.1-Flash 的逐层执行尚未接入。
 
-实验 018（框架标定，文件夹 `experiments/018-eval-calibration/`）进行中：在 gpt-oss-20b 全部专家上施加白噪声（−40 到 0 dB）和每 32 个一组的 2/3/4 bit 舍入，测量上述四级指标。评估集为 WikiText-2 和 C4 各 64 个 2048 token 窗口，ARC-E/C、HellaSwag、PIQA、WinoGrande、MMLU 每个任务最多 2000 题（固定种子抽样）。
+实验 018（框架标定，文件夹 `experiments/018-eval-calibration/`）已完成：在 gpt-oss-20b 全部专家上施加白噪声（−40、−20、−10、−2.4 dB）和每 32 个一组的 4/3/2 bit 舍入，测量四级指标。评估集为 WikiText-2 和 C4 各 64 个 2048 token 窗口，ARC-E/C、HellaSwag、PIQA、WinoGrande、MMLU 每个任务最多 2000 题（固定种子抽样）。
+- 指标随误差单调：
+  - 白噪声的局部 MoE 误差比权重 NMSE 高约 4 dB，误差逐层累积。
+  - 路由很敏感：−40 dB 时 6%、−20 dB 时 27% 的 token 换了 top-4 专家。
+- 权重 NMSE 在约 −20 dB 以内（4 bit 舍入）时，任务平均变化在 ±1 个百分点内，但每个任务有 2%–14% 的题目翻转。−12 dB（3 bit）时平均降 3 个百分点；−10 dB 时降 20 个百分点；−5 dB（2 bit）和 −2.4 dB 时精度等于随机猜测。
+- 白信源下 10% 码率节省对应 −2.4 dB，这会让模型失效。
+- KL 是最可靠的指标。困惑度在扰动下可能下降（3 bit 时 WikiText-2 从 235.6 降到 187.5），任务平均精度会掩盖翻转。
+- 原模型困惑度 235.6 / 718.2，与公开结果相符；gpt-oss 是对话模型，原始文本困惑度本来就高。详见 [018 report.md](experiments/018-eval-calibration/report.md)。
 
 ## 使用
 

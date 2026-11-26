@@ -1,0 +1,15 @@
+{
+ "dequant_equal_transformers": true,
+ "white_noise_-20": -19.998666763305664,
+ "white_noise_-10": -9.998664855957031,
+ "white_noise_-2.4": -2.398665428161621,
+ "block_rtn_4": -19.745609283447266,
+ "block_rtn_3": -11.845097541809082,
+ "block_rtn_2": -5.9433417320251465,
+ "identity_kl_max": 0.0,
+ "identity_top1": 1.0,
+ "identity_logp_equal": true,
+ "identity_weight_err": 0.0,
+ "identity_layer_err": 0.0,
+ "padding_max_abs_logp_diff": 0.1546027958393097
+}

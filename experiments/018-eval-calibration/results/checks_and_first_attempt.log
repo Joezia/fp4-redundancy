@@ -1,0 +1,46 @@
+Loading weights:   0%|          | 0/71 [00:00<?, ?it/s]Loading weights:   7%|▋         | 5/71 [00:00<00:02, 32.02it/s]Loading weights: 100%|██████████| 71/71 [00:00<00:00, 320.70it/s]
+reference rotary inv_freq dtype: torch.float32
+engine vs transformers, single sequences, max |d logp|: 0.0
+engine vs transformers, padded batch,     max |d logp|: 0.0
+(transformers padded batch vs its own single runs, bf16 kernel rounding: 0.15769386291503906 )
+identity: max KL 0.0 layer err 0.0
+chunk 1/1 done, 0s
+white noise -10 dB: weight NMSE -10.00 dB, mean KL 2.2057, local MoE NMSE by layer [-5.29, -4.93, -4.96, -5.05]
+PASS
+1 dequant: True
+2 white noise target -20 dB -> -19.999 dB
+2 white noise target -10 dB -> -9.999 dB
+2 white noise target -2.4 dB -> -2.399 dB
+2 block RTN 4 bit -> -19.75 dB (4.5 bpw)
+2 block RTN 3 bit -> -11.85 dB (3.5 bpw)
+2 block RTN 2 bit -> -5.94 dB (2.5 bpw)
+2b attention rel. error vs float64: {'layer0_sliding_attention': {'eager': 0.055123403668403625, 'sdpa': 0.0009176229941658676}, 'layer1_full_attention': {'eager': 0.030492186546325684, 'sdpa': 0.001616765046492219}, 'layer10_sliding_attention': {'eager': 0.0075203608721494675, 'sdpa': 0.004476584028452635}, 'layer11_full_attention': {'eager': 0.01005691010504961, 'sdpa': 0.004151530563831329}}
+chunk 1/1 done, 17s
+3 identity: {'identity_kl_max': 0.0, 'identity_top1': 1.0, 'identity_logp_equal': True, 'identity_weight_err': 0.0, 'identity_layer_err': 0.0}
+chunk 1/1 done, 15s
+4 padding: max |dlogp| alone vs padded batch = 0.10546755790710449
+Loading weights:   0%|          | 0/411 [00:00<?, ?it/s]Loading weights:   1%|          | 5/411 [00:00<00:45,  8.97it/s]Loading weights:   2%|▏         | 7/411 [00:01<01:50,  3.66it/s]Loading weights:   5%|▌         | 22/411 [00:02<00:33, 11.74it/s]Loading weights:   6%|▌         | 24/411 [00:03<00:57,  6.77it/s]Loading weights:   9%|▉         | 39/411 [00:03<00:30, 12.14it/s]Loading weights:  10%|▉         | 41/411 [00:04<00:47,  7.83it/s]Loading weights:  14%|█▎        | 56/411 [00:05<00:28, 12.47it/s]Loading weights:  14%|█▍        | 58/411 [00:06<00:41,  8.44it/s]Loading weights:  18%|█▊        | 73/411 [00:06<00:25, 13.07it/s]Loading weights:  18%|█▊        | 75/411 [00:07<00:37,  9.03it/s]Loading weights:  22%|██▏       | 90/411 [00:08<00:23, 13.71it/s]Loading weights:  22%|██▏       | 92/411 [00:09<00:32,  9.67it/s]Loading weights:  26%|██▌       | 107/411 [00:09<00:20, 14.59it/s]Loading weights:  27%|██▋       | 109/411 [00:10<00:28, 10.48it/s]Loading weights:  30%|███       | 124/411 [00:10<00:18, 15.75it/s]Loading weights:  31%|███       | 127/411 [00:11<00:24, 11.64it/s]Loading weights:  34%|███▍      | 141/411 [00:12<00:16, 16.66it/s]Loading weights:  35%|███▌      | 144/411 [00:12<00:21, 12.22it/s]Loading weights:  38%|███▊      | 158/411 [00:13<00:14, 17.52it/s]Loading weights:  39%|███▉      | 161/411 [00:13<00:19, 12.75it/s]Loading weights:  43%|████▎     | 175/411 [00:14<00:13, 17.88it/s]Loading weights:  43%|████▎     | 178/411 [00:14<00:17, 12.99it/s]Loading weights:  47%|████▋     | 192/411 [00:15<00:11, 18.60it/s]Loading weights:  47%|████▋     | 195/411 [00:15<00:16, 13.41it/s]Loading weights:  51%|█████     | 209/411 [00:16<00:10, 19.07it/s]Loading weights:  52%|█████▏    | 212/411 [00:17<00:14, 13.59it/s]Loading weights:  55%|█████▍    | 226/411 [00:17<00:09, 19.31it/s]Loading weights:  56%|█████▌    | 229/411 [00:18<00:13, 13.71it/s]Loading weights:  59%|█████▉    | 243/411 [00:18<00:08, 19.15it/s]Loading weights:  60%|█████▉    | 246/411 [00:19<00:12, 13.53it/s]Loading weights:  63%|██████▎   | 260/411 [00:19<00:07, 19.14it/s]Loading weights:  64%|██████▍   | 263/411 [00:20<00:10, 13.53it/s]Loading weights:  67%|██████▋   | 277/411 [00:20<00:06, 19.18it/s]Loading weights:  68%|██████▊   | 280/411 [00:21<00:09, 13.58it/s]Loading weights:  72%|███████▏  | 294/411 [00:21<00:06, 19.19it/s]Loading weights:  72%|███████▏  | 297/411 [00:22<00:08, 13.50it/s]Loading weights:  76%|███████▌  | 311/411 [00:22<00:05, 19.13it/s]Loading weights:  76%|███████▋  | 314/411 [00:23<00:07, 13.33it/s]Loading weights:  80%|███████▉  | 328/411 [00:23<00:04, 18.91it/s]Loading weights:  81%|████████  | 331/411 [00:24<00:06, 12.76it/s]Loading weights:  84%|████████▍ | 345/411 [00:24<00:03, 17.82it/s]Loading weights:  85%|████████▍ | 348/411 [00:25<00:05, 12.32it/s]Loading weights:  88%|████████▊ | 362/411 [00:26<00:02, 17.23it/s]Loading weights:  89%|████████▉ | 365/411 [00:26<00:03, 12.09it/s]Loading weights:  92%|█████████▏| 379/411 [00:27<00:01, 17.00it/s]Loading weights:  93%|█████████▎| 382/411 [00:28<00:02, 12.11it/s]Loading weights:  96%|█████████▋| 396/411 [00:28<00:00, 17.06it/s]Loading weights:  97%|█████████▋| 399/411 [00:29<00:00, 12.18it/s]Loading weights: 100%|██████████| 411/411 [00:29<00:00, 14.06it/s]
+5 transformers CPU vs engine: max |dlogp(target)| per sequence = [0.07979011535644531, 0.9646177291870117]
+[18:43:22] model loaded; GPU mem 3.3 GiB
+[18:43:35] 28209 sequences, 1702228 tokens, 656542 scored positions
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/lossy_eval/run.py", line 141, in <module>
+    main()
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/lossy_eval/run.py", line 124, in main
+    res, st, wrows = Engine(A, method, args.chunk_tokens, args.tok_budget, log=log).run(seqs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/.local/share/miniforge3/envs/lab/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/lossy_eval/engine.py", line 212, in run
+    y, yl, idx_r = self._moe_pair(l, xr, What, st, True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/lossy_eval/engine.py", line 148, in _moe_pair
+    ye = A.expert_fn(l, e, xe, self._worig[(e, "gate_up")], self._worig[(e, "down")])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouziang/Workspace/compression/fp4-redundancy/lossy_eval/gptoss.py", line 157, in expert_fn
+    g = (up + 1) * (gate * torch.sigmoid(gate * self.alpha))
+                                         ~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 158.00 MiB. GPU 0 has a total capacity of 44.42 GiB of which 44.25 MiB is free. Process 508967 has 13.29 GiB memory in use. Process 750886 has 10.72 GiB memory in use. Process 751947 has 3.18 GiB memory in use. Process 752501 has 1.18 GiB memory in use. Process 752500 has 1.20 GiB memory in use. Including non-PyTorch memory, this process has 13.23 GiB memory in use. Of the allocated memory 12.63 GiB is allocated by PyTorch, and 293.68 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

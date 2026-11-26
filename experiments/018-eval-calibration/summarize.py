@@ -20,8 +20,14 @@ def load():
         d = json.loads(f.read_text())
         if "A_weights" in d:
             runs.append(d)
-    key = lambda d: (d["method"] != "identity", d["A_weights"]["nmse_db"] if d["A_weights"]["nmse_db"] is not None else -1e9)
+    key = lambda d: (d["method"] != "identity", xdb(d) if xdb(d) is not None else -1e9)
     return sorted(runs, key=key)
+
+
+def xdb(d):
+    """x axis: median over matrices of the per-matrix weight NMSE. The energy-weighted total is dominated by the
+    deep-layer down matrices (their mean W^2 is 10^3-10^5 times that of gate_up), so it mostly reports those."""
+    return d["A_weights"].get("matrix_nmse_db_median")
 
 
 def f(x, nd=2):
@@ -31,13 +37,13 @@ def f(x, nd=2):
 def main():
     runs = load()
     rows, lines = [], []
-    lines.append("| 扰动 | 权重 NMSE (dB) | 局部 MoE 误差中位数 (dB) | 末层隐状态误差 (dB) | 路由改变比例（中位数） | "
+    lines.append("| 扰动 | 权重 NMSE，矩阵中位数 / 按能量合计 (dB) | 局部 MoE 误差中位数 (dB) | 末层隐状态误差 (dB) | 路由改变比例（中位数） | "
                  + " | ".join(f"{p} KL / top-1 / PPL" for p in PPL) + " |")
     lines.append("|" + "---|" * (5 + len(PPL)))
     for d in runs:
         B = d["B_layers"]
         loc = [x for x in B["local_moe_nmse_db"] if x > -290]
-        cells = [d["spec"], f(d["A_weights"]["nmse_db"]),
+        cells = [d["spec"], f(xdb(d)) + " / " + f(d["A_weights"]["nmse_db"]),
                  f(float(np.median(loc))) if loc else "—",
                  f(B["hidden_nmse_db"][-1]) if B["hidden_nmse_db"][-1] > -290 else "—",
                  f(float(np.median(B["route_changed_frac"])), 3)]
@@ -90,16 +96,16 @@ def plot(runs):
     for grp, mk, lab in ((wn, "o-", "white noise"), (rtn, "s", "block RTN (k bit)")):
         if not grp:
             continue
-        x = [d["A_weights"]["nmse_db"] for d in grp]
+        x = [xdb(d) for d in grp]
         ax[0].plot(x, [np.median([v for v in d["B_layers"]["local_moe_nmse_db"]]) for d in grp], mk, label=lab)
         for p, ls in (("wikitext2", "-"), ("c4", "--")):
             if all(p in d["C_output"] for d in grp):
                 ax[1].plot(x, [d["C_output"][p]["kl_mean"] for d in grp], mk[0] + ls, label=f"{lab}, {p}")
         ax[2].plot(x, [np.mean([d["D_tasks"][t]["acc_pert"] - d["D_tasks"][t]["acc_ref"] for t in MC if t in d["D_tasks"]]) for d in grp], mk, label=lab)
     ax[0].plot([-45, 2], [-45, 2], ":", color="gray", label="y = x")
-    ax[0].set(xlabel="weight NMSE (dB)", ylabel="median local MoE output NMSE (dB)", title="B: layer output")
-    ax[1].set(xlabel="weight NMSE (dB)", ylabel="mean KL(p_orig || p_pert) (nats)", yscale="log", title="C: output distribution")
-    ax[2].set(xlabel="weight NMSE (dB)", ylabel="mean accuracy change (6 tasks)", title="D: tasks")
+    ax[0].set(xlabel="weight NMSE, median over matrices (dB)", ylabel="median local MoE output NMSE (dB)", title="B: layer output")
+    ax[1].set(xlabel="weight NMSE, median over matrices (dB)", ylabel="mean KL(p_orig || p_pert) (nats)", yscale="log", title="C: output distribution")
+    ax[2].set(xlabel="weight NMSE, median over matrices (dB)", ylabel="mean accuracy change (6 tasks)", title="D: tasks")
     ax[2].axvline(-2.4, color="gray", ls=":")
     for a in ax:
         a.grid(alpha=0.3)

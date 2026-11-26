@@ -84,6 +84,7 @@ class Engine:
     def __init__(self, adapter, method, chunk_tokens=48_000, tok_budget=16384, logit_chunk=512, log=print):
         self.A, self.method = adapter, method
         self.chunk_tokens, self.tok_budget, self.logit_chunk = chunk_tokens, tok_budget, logit_chunk
+        self.keep_ref = None  # set to a list to collect (slots, full original-stream log-probs on CPU)
         self.log = log
         self.wstats = None
         self._what_cpu = None
@@ -246,6 +247,8 @@ class Engine:
                     sl = slice(s0, s0 + self.logit_chunk)
                     lr = torch.log_softmax(A.final_logits(hr[rows_t[sl], cols_t[sl]]), -1)
                     lp = torch.log_softmax(A.final_logits(hp[rows_t[sl], cols_t[sl]]), -1)
+                    if self.keep_ref is not None:
+                        self.keep_ref.append((np.asarray(slot[sl]), lr.cpu()))
                     kl = (lr.exp() * (lr - lp)).sum(-1)
                     ag = lr.argmax(-1) == lp.argmax(-1)
                     kl, ag = kl.cpu().numpy(), ag.cpu().numpy()

@@ -1,0 +1,45 @@
+[01:10:38] eng_sdpa 41s
+[01:12:32] eng_sdpa_alone 105s
+[01:13:38] eng_eager 57s
+[01:13:55]   hf torch.bfloat16 window 1/8: 3s
+[01:13:58]   hf torch.bfloat16 window 2/8: 2s
+[01:14:01]   hf torch.bfloat16 window 3/8: 3s
+[01:14:04]   hf torch.bfloat16 window 4/8: 3s
+[01:14:07]   hf torch.bfloat16 window 5/8: 3s
+[01:14:10]   hf torch.bfloat16 window 6/8: 3s
+[01:14:12]   hf torch.bfloat16 window 7/8: 3s
+[01:14:15]   hf torch.bfloat16 window 8/8: 3s
+[01:14:16] hf_bf16 30s
+[01:14:59]   hf torch.float32 window 1/8: 9s
+[01:15:08]   hf torch.float32 window 2/8: 9s
+[01:15:16]   hf torch.float32 window 3/8: 8s
+[01:15:26]   hf torch.float32 window 4/8: 10s
+[01:15:35]   hf torch.float32 window 5/8: 9s
+[01:15:45]   hf torch.float32 window 6/8: 9s
+[01:15:54]   hf torch.float32 window 7/8: 9s
+[01:16:02]   hf torch.float32 window 8/8: 9s
+[01:16:04] hf_fp32 100s
+[01:16:15] hf_bf16 vs eng_eager | wikitext2: KL 0.01918 (p99 0.3466, max 5.214) top-1 0.9244 |dlogp| mean 0.1143 max 6.128 ppl 398.85 / 398.62 (n=8188)
+[01:16:17] hf_bf16 vs eng_eager | c4: KL 0.01679 (p99 0.2858, max 2.118) top-1 0.9389 |dlogp| mean 0.1482 max 3.832 ppl 1705.77 / 1738.58 (n=8188)
+[01:16:21] hf_bf16 vs eng_eager | all: KL 0.01799 (p99 0.3113, max 5.214) top-1 0.9317 |dlogp| mean 0.1313 max 6.128 ppl 824.83 / 832.49 (n=16376)
+[01:16:23] hf_bf16 vs eng_sdpa | wikitext2: KL 0.02089 (p99 0.4068, max 5.041) top-1 0.9202 |dlogp| mean 0.1187 max 5.264 ppl 398.85 / 397.66 (n=8188)
+[01:16:26] hf_bf16 vs eng_sdpa | c4: KL 0.02016 (p99 0.3185, max 5.999) top-1 0.9275 |dlogp| mean 0.1579 max 5.031 ppl 1705.77 / 1747.28 (n=8188)
+[01:16:31] hf_bf16 vs eng_sdpa | all: KL 0.02052 (p99 0.3489, max 5.999) top-1 0.9239 |dlogp| mean 0.1383 max 5.264 ppl 824.83 / 833.56 (n=16376)
+[01:16:34] eng_eager vs eng_sdpa | wikitext2: KL 0.02134 (p99 0.4367, max 7.995) top-1 0.9201 |dlogp| mean 0.1134 max 4.257 ppl 398.62 / 397.66 (n=8188)
+[01:16:36] eng_eager vs eng_sdpa | c4: KL 0.01978 (p99 0.3605, max 5.819) top-1 0.9354 |dlogp| mean 0.1495 max 4.289 ppl 1738.58 / 1747.28 (n=8188)
+[01:16:42] eng_eager vs eng_sdpa | all: KL 0.02056 (p99 0.3905, max 7.995) top-1 0.9278 |dlogp| mean 0.1315 max 4.289 ppl 832.49 / 833.56 (n=16376)
+[01:16:44] eng_sdpa vs eng_sdpa_alone | wikitext2: KL 0.01707 (p99 0.3339, max 5.540) top-1 0.9282 |dlogp| mean 0.1064 max 4.506 ppl 397.66 / 401.62 (n=8188)
+[01:16:47] eng_sdpa vs eng_sdpa_alone | c4: KL 0.01815 (p99 0.2857, max 5.286) top-1 0.9308 |dlogp| mean 0.1492 max 4.022 ppl 1747.28 / 1691.75 (n=8188)
+[01:16:52] eng_sdpa vs eng_sdpa_alone | all: KL 0.01761 (p99 0.3167, max 5.540) top-1 0.9295 |dlogp| mean 0.1278 max 4.506 ppl 833.56 / 824.28 (n=16376)
+[01:16:55] hf_fp32 vs hf_bf16 | wikitext2: KL 0.02436 (p99 0.5007, max 3.256) top-1 0.9080 |dlogp| mean 0.1374 max 5.680 ppl 401.99 / 398.85 (n=8188)
+[01:16:57] hf_fp32 vs hf_bf16 | c4: KL 0.02216 (p99 0.3815, max 2.115) top-1 0.9266 |dlogp| mean 0.1814 max 4.104 ppl 1761.79 / 1705.77 (n=8188)
+[01:17:02] hf_fp32 vs hf_bf16 | all: KL 0.02326 (p99 0.4513, max 3.256) top-1 0.9173 |dlogp| mean 0.1594 max 5.680 ppl 841.56 / 824.83 (n=16376)
+[01:17:05] hf_fp32 vs eng_eager | wikitext2: KL 0.02499 (p99 0.4873, max 3.853) top-1 0.9041 |dlogp| mean 0.1381 max 5.579 ppl 401.99 / 398.62 (n=8188)
+[01:17:08] hf_fp32 vs eng_eager | c4: KL 0.02187 (p99 0.3741, max 2.039) top-1 0.9282 |dlogp| mean 0.1688 max 4.249 ppl 1761.79 / 1738.58 (n=8188)
+[01:17:13] hf_fp32 vs eng_eager | all: KL 0.02343 (p99 0.4334, max 3.853) top-1 0.9162 |dlogp| mean 0.1535 max 5.579 ppl 841.56 / 832.49 (n=16376)
+[01:17:15] hf_fp32 vs eng_sdpa | wikitext2: KL 0.02393 (p99 0.4846, max 3.513) top-1 0.9097 |dlogp| mean 0.1335 max 5.372 ppl 401.99 / 397.66 (n=8188)
+[01:17:18] hf_fp32 vs eng_sdpa | c4: KL 0.02151 (p99 0.3819, max 2.690) top-1 0.9294 |dlogp| mean 0.1626 max 4.330 ppl 1761.79 / 1747.28 (n=8188)
+[01:17:23] hf_fp32 vs eng_sdpa | all: KL 0.02272 (p99 0.4361, max 3.513) top-1 0.9196 |dlogp| mean 0.1480 max 5.372 ppl 841.56 / 833.56 (n=16376)
+[01:17:25] hf_fp32 vs eng_sdpa_alone | wikitext2: KL 0.02229 (p99 0.4326, max 3.958) top-1 0.9143 |dlogp| mean 0.1253 max 4.782 ppl 401.99 / 401.62 (n=8188)
+[01:17:27] hf_fp32 vs eng_sdpa_alone | c4: KL 0.02201 (p99 0.3963, max 2.165) top-1 0.9264 |dlogp| mean 0.1852 max 4.039 ppl 1761.79 / 1691.75 (n=8188)
+[01:17:32] hf_fp32 vs eng_sdpa_alone | all: KL 0.02215 (p99 0.4076, max 3.958) top-1 0.9203 |dlogp| mean 0.1553 max 4.782 ppl 841.56 / 824.28 (n=16376)

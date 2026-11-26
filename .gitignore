@@ -46,3 +46,4 @@ experiments/015-ans-r1r2/results/ans_deepseek_items.jsonl
 experiments/015-ans-r1r2/results/ans_r1_deepseek_items.jsonl
 experiments/015-ans-r1r2/results/ans_kimi_big_items.jsonl
 experiments/015-ans-r1r2/results/ans_r1_kimi_big_items.jsonl
+experiments/018-eval-calibration/results/*.npz

@@ -1,0 +1,37 @@
+{
+ "dequant_equal_transformers": true,
+ "white_noise_-20": -19.998666763305664,
+ "white_noise_-10": -9.998664855957031,
+ "white_noise_-2.4": -2.398665428161621,
+ "block_rtn_4": -19.745609283447266,
+ "block_rtn_3": -11.845097541809082,
+ "block_rtn_2": -5.9433417320251465,
+ "attention_rel_err_vs_float64": {
+  "layer0_sliding_attention": {
+   "eager": 0.055123403668403625,
+   "sdpa": 0.0009176229941658676
+  },
+  "layer1_full_attention": {
+   "eager": 0.030492186546325684,
+   "sdpa": 0.001616765046492219
+  },
+  "layer10_sliding_attention": {
+   "eager": 0.0075203608721494675,
+   "sdpa": 0.004476584028452635
+  },
+  "layer11_full_attention": {
+   "eager": 0.01005691010504961,
+   "sdpa": 0.004151530563831329
+  }
+ },
+ "identity_kl_max": 0.0,
+ "identity_top1": 1.0,
+ "identity_logp_equal": true,
+ "identity_weight_err": 0.0,
+ "identity_layer_err": 0.0,
+ "padding_max_abs_logp_diff": 0.10546755790710449,
+ "hf_cpu_max_abs_target_logp_diff": [
+  0.07979011535644531,
+  0.9646177291870117
+ ]
+}

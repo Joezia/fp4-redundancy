@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/71 [00:00<?, ?it/s]Loading weights:   7%|▋         | 5/71 [00:00<00:02, 32.02it/s]Loading weights: 100%|██████████| 71/71 [00:00<00:00, 320.70it/s]
+reference rotary inv_freq dtype: torch.float32
+engine vs transformers, single sequences, max |d logp|: 0.0
+engine vs transformers, padded batch,     max |d logp|: 0.0
+(transformers padded batch vs its own single runs, bf16 kernel rounding: 0.15769386291503906 )
+identity: max KL 0.0 layer err 0.0
+chunk 1/1 done, 0s
+white noise -10 dB: weight NMSE -10.00 dB, mean KL 2.2057, local MoE NMSE by layer [-5.29, -4.93, -4.96, -5.05]
+PASS
