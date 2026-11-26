@@ -220,6 +220,14 @@ FP4 扩大抽样（Part 1）：B 层每层 4 个专家（516 个矩阵，全部�
 - FP4 矩阵上 DCT 编码增益在所有块形状下都是 1.000（最大 1.0018），与打乱相同；HEVC 在相同码率下只比打乱低 0.00–0.10 dB（最大 0.19 dB）：矩阵内部没有帧内预测或变换可利用的规律。
 - HEVC 在 2.5 bpw 以下与标量量化相当（±0.5 dB），更高码率下差 2–14 dB，无损需 14–17 bit/权重。块 scale 已提取了 LLM.265 依赖的“通道幅值”结构。只测权重 NMSE，不含任务精度。详见 [017 report.md](experiments/017-intra-lossy/report.md)。
 
+有损评估框架（代码在仓库根目录 `lossy_eval/`，规格见 [docs/有损评估框架](docs/有损评估框架.md)）：后续所有有损方法共用。它把专家权重 W 换成方法给出的 Ŵ，逐层执行原始流与扰动流，记录四级指标：权重 NMSE、真实激活下的层输出误差（含逐专家误差、路由改变比例）、输出分布（KL、top-1 一致率、困惑度），以及多选题精度和答案翻转。
+- 已接入 gpt-oss-20b（MXFP4 专家，A6000 上按层反量化为 bf16；模型和数据按固定 revision 下载到 `data/lossy_eval/`）。
+- 已验证：微型随机模型上与 transformers 前向逐位一致（单条和填充批量）；恒等方法 KL = 0；SDPA 加精确 sink 的注意力相对 float64 误差为 0.1%–0.5%（transformers eager 为 0.6%–5.5%）。
+- bf16 舍入会让个别接近平局的 token 换路由，同一序列单独跑和批量跑的 KL 最大约 0.003。这是测量下限。
+- DeepSeek-V4.1-Flash 的逐层执行尚未接入。
+
+实验 018（框架标定，文件夹 `experiments/018-eval-calibration/`）进行中：在 gpt-oss-20b 全部专家上施加白噪声（−40 到 0 dB）和每 32 个一组的 2/3/4 bit 舍入，测量上述四级指标。评估集为 WikiText-2 和 C4 各 64 个 2048 token 窗口，ARC-E/C、HellaSwag、PIQA、WinoGrande、MMLU 每个任务最多 2000 题（固定种子抽样）。
+
 ## 使用
 
 首次使用复制`.env.example`为`.env`并设置本地路径，然后在仓库根目录加载 `source .env`。查看已实现方法：`PYTHONPATH=src python3 -m fp4_redundancy methods`。
