@@ -1,0 +1,4 @@
+{'block32': 7, 'patch8x32': 0}
+20000/47232 242s
+40000/47232 474s
+VERIFY_DONE deepseek {'block32': 0, 'patch8x32': 0} {'block32': 7, 'patch8x32': 0}

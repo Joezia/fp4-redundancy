@@ -1,0 +1,188 @@
+{
+ "model": "deepseek",
+ "source": "scan_deepseek.npz",
+ "n_queries": 2048,
+ "vector_length": 5120,
+ "n_vectors_in_model": 108822528,
+ "reference_cost_bits": 28.69740200750271,
+ "cats": {
+  "best": {
+   "n": 2048,
+   "gain_bits_per_vector": {
+    "median": 22.056147434255763,
+    "mean": 21.133090998083333,
+    "p90": 26.174327933884342,
+    "max": 35.98098110307183
+   },
+   "net_bits_per_vector": {
+    "median": -6.641254573246947,
+    "mean": -7.564311009419379
+   },
+   "frac_net_positive": 0.021484375,
+   "pooled_gain_bits_per_weight": 0.004127556835563151,
+   "pooled_net_positive_only_bits_per_weight": 5.3272985815054276e-06,
+   "abs_cos": {
+    "median": 0.080997316921636,
+    "p90": 0.0854798839666793,
+    "max": 0.10147475007823724
+   },
+   "code_eq_frac_median": 0.0751953125,
+   "gain_vs_cos_bins": {
+    "0.0-0.1": [
+     2047,
+     21.12583751000078
+    ],
+    "0.1-0.2": [
+     1,
+     35.98098110307183
+    ],
+    "0.2-0.3": [
+     0,
+     null
+    ],
+    "0.3-0.5": [
+     0,
+     null
+    ],
+    "0.5-1.0": [
+     0,
+     null
+    ]
+   }
+  },
+  "same_expert": {
+   "n": 2048,
+   "gain_bits_per_vector": {
+    "median": 9.16030050325935,
+    "mean": 8.486795007379664,
+    "p90": 12.394457591441823,
+    "max": 129.84306672274033
+   },
+   "net_bits_per_vector": {
+    "median": -19.53710150424336,
+    "mean": -20.210607000123048
+   },
+   "frac_net_positive": 0.001953125,
+   "pooled_gain_bits_per_weight": 0.0016575771498788406,
+   "pooled_net_positive_only_bits_per_weight": 2.38067778750064e-05,
+   "abs_cos": {
+    "median": 0.05299739699564199,
+    "p90": 0.05900224836375124,
+    "max": 0.08213433755472029
+   },
+   "code_eq_frac_median": 0.073828125,
+   "gain_vs_cos_bins": {
+    "0.0-0.1": [
+     2048,
+     8.486795007379664
+    ],
+    "0.1-0.2": [
+     0,
+     null
+    ],
+    "0.2-0.3": [
+     0,
+     null
+    ],
+    "0.3-0.5": [
+     0,
+     null
+    ],
+    "0.5-1.0": [
+     0,
+     null
+    ]
+   }
+  },
+  "same_layer": {
+   "n": 2048,
+   "gain_bits_per_vector": {
+    "median": 17.23336772289258,
+    "mean": 16.284038614521585,
+    "p90": 21.065758285725316,
+    "max": 29.3863583386119
+   },
+   "net_bits_per_vector": {
+    "median": -11.464034284610129,
+    "mean": -12.41336339298113
+   },
+   "frac_net_positive": 0.0009765625,
+   "pooled_gain_bits_per_weight": 0.003180476291898747,
+   "pooled_net_positive_only_bits_per_weight": 7.717361831049383e-08,
+   "abs_cos": {
+    "median": 0.07189187899827651,
+    "p90": 0.07665638354885915,
+    "max": 0.0882929075645972
+   },
+   "code_eq_frac_median": 0.074609375,
+   "gain_vs_cos_bins": {
+    "0.0-0.1": [
+     2048,
+     16.284038614521585
+    ],
+    "0.1-0.2": [
+     0,
+     null
+    ],
+    "0.2-0.3": [
+     0,
+     null
+    ],
+    "0.3-0.5": [
+     0,
+     null
+    ],
+    "0.5-1.0": [
+     0,
+     null
+    ]
+   }
+  },
+  "other_layer": {
+   "n": 2048,
+   "gain_bits_per_vector": {
+    "median": 22.00466127918844,
+    "mean": 21.03807465080191,
+    "p90": 26.149280897156494,
+    "max": 35.81687529668852
+   },
+   "net_bits_per_vector": {
+    "median": -6.69274072831427,
+    "mean": -7.6593273567008024
+   },
+   "frac_net_positive": 0.02001953125,
+   "pooled_gain_bits_per_weight": 0.004108998955234748,
+   "pooled_net_positive_only_bits_per_weight": 4.86808730257428e-06,
+   "abs_cos": {
+    "median": 0.08097012859876401,
+    "p90": 0.0854373350846152,
+    "max": 0.10147475007823724
+   },
+   "code_eq_frac_median": 0.0751953125,
+   "gain_vs_cos_bins": {
+    "0.0-0.1": [
+     2047,
+     21.030854914287065
+    ],
+    "0.1-0.2": [
+     1,
+     35.81687529668852
+    ],
+    "0.2-0.3": [
+     0,
+     null
+    ],
+    "0.3-0.5": [
+     0,
+     null
+    ],
+    "0.5-1.0": [
+     0,
+     null
+    ]
+   }
+  }
+ },
+ "seconds": 51.117244720458984,
+ "null_control": true
+}

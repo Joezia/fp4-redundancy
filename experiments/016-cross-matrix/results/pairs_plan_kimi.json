@@ -1,0 +1,1926 @@
+{
+"seed": 20261125,
+"n_per_category": 30,
+"pairs": [
+{
+"id": 0,
+"cat": "A1_same_expert_w1w3",
+"a": "L40.E318.w1",
+"b": "L40.E318.w3",
+"ia": 105786,
+"ib": 105788
+},
+{
+"id": 1,
+"cat": "A1_same_expert_w1w3",
+"a": "L12.E33.w1",
+"b": "L12.E33.w3",
+"ia": 29667,
+"ib": 29669
+},
+{
+"id": 2,
+"cat": "A1_same_expert_w1w3",
+"a": "L80.E277.w1",
+"b": "L80.E277.w3",
+"ia": 213183,
+"ib": 213185
+},
+{
+"id": 3,
+"cat": "A1_same_expert_w1w3",
+"a": "L25.E614.w1",
+"b": "L25.E614.w3",
+"ia": 66354,
+"ib": 66356
+},
+{
+"id": 4,
+"cat": "A1_same_expert_w1w3",
+"a": "L16.E206.w1",
+"b": "L16.E206.w3",
+"ia": 40938,
+"ib": 40940
+},
+{
+"id": 5,
+"cat": "A1_same_expert_w1w3",
+"a": "L19.E10.w1",
+"b": "L19.E10.w3",
+"ia": 48414,
+"ib": 48416
+},
+{
+"id": 6,
+"cat": "A1_same_expert_w1w3",
+"a": "L36.E448.w1",
+"b": "L36.E448.w3",
+"ia": 95424,
+"ib": 95426
+},
+{
+"id": 7,
+"cat": "A1_same_expert_w1w3",
+"a": "L48.E703.w1",
+"b": "L48.E703.w3",
+"ia": 128445,
+"ib": 128447
+},
+{
+"id": 8,
+"cat": "A1_same_expert_w1w3",
+"a": "L35.E699.w1",
+"b": "L35.E699.w3",
+"ia": 93489,
+"ib": 93491
+},
+{
+"id": 9,
+"cat": "A1_same_expert_w1w3",
+"a": "L58.E152.w1",
+"b": "L58.E152.w3",
+"ia": 153672,
+"ib": 153674
+},
+{
+"id": 10,
+"cat": "A1_same_expert_w1w3",
+"a": "L41.E23.w1",
+"b": "L41.E23.w3",
+"ia": 107589,
+"ib": 107591
+},
+{
+"id": 11,
+"cat": "A1_same_expert_w1w3",
+"a": "L45.E709.w1",
+"b": "L45.E709.w3",
+"ia": 120399,
+"ib": 120401
+},
+{
+"id": 12,
+"cat": "A1_same_expert_w1w3",
+"a": "L7.E702.w1",
+"b": "L7.E702.w3",
+"ia": 18234,
+"ib": 18236
+},
+{
+"id": 13,
+"cat": "A1_same_expert_w1w3",
+"a": "L79.E71.w1",
+"b": "L79.E71.w3",
+"ia": 209877,
+"ib": 209879
+},
+{
+"id": 14,
+"cat": "A1_same_expert_w1w3",
+"a": "L29.E501.w1",
+"b": "L29.E501.w3",
+"ia": 76767,
+"ib": 76769
+},
+{
+"id": 15,
+"cat": "A1_same_expert_w1w3",
+"a": "L26.E7.w1",
+"b": "L26.E7.w3",
+"ia": 67221,
+"ib": 67223
+},
+{
+"id": 16,
+"cat": "A1_same_expert_w1w3",
+"a": "L28.E679.w1",
+"b": "L28.E679.w3",
+"ia": 74613,
+"ib": 74615
+},
+{
+"id": 17,
+"cat": "A1_same_expert_w1w3",
+"a": "L27.E98.w1",
+"b": "L27.E98.w3",
+"ia": 70182,
+"ib": 70184
+},
+{
+"id": 18,
+"cat": "A1_same_expert_w1w3",
+"a": "L6.E41.w1",
+"b": "L6.E41.w3",
+"ia": 13563,
+"ib": 13565
+},
+{
+"id": 19,
+"cat": "A1_same_expert_w1w3",
+"a": "L76.E296.w1",
+"b": "L76.E296.w3",
+"ia": 202488,
+"ib": 202490
+},
+{
+"id": 20,
+"cat": "A1_same_expert_w1w3",
+"a": "L2.E883.w1",
+"b": "L2.E883.w3",
+"ia": 5337,
+"ib": 5339
+},
+{
+"id": 21,
+"cat": "A1_same_expert_w1w3",
+"a": "L9.E726.w1",
+"b": "L9.E726.w3",
+"ia": 23682,
+"ib": 23684
+},
+{
+"id": 22,
+"cat": "A1_same_expert_w1w3",
+"a": "L82.E298.w1",
+"b": "L82.E298.w3",
+"ia": 218622,
+"ib": 218624
+},
+{
+"id": 23,
+"cat": "A1_same_expert_w1w3",
+"a": "L57.E403.w1",
+"b": "L57.E403.w3",
+"ia": 151737,
+"ib": 151739
+},
+{
+"id": 24,
+"cat": "A1_same_expert_w1w3",
+"a": "L30.E351.w1",
+"b": "L30.E351.w3",
+"ia": 79005,
+"ib": 79007
+},
+{
+"id": 25,
+"cat": "A1_same_expert_w1w3",
+"a": "L76.E573.w1",
+"b": "L76.E573.w3",
+"ia": 203319,
+"ib": 203321
+},
+{
+"id": 26,
+"cat": "A1_same_expert_w1w3",
+"a": "L59.E330.w1",
+"b": "L59.E330.w3",
+"ia": 156894,
+"ib": 156896
+},
+{
+"id": 27,
+"cat": "A1_same_expert_w1w3",
+"a": "L63.E728.w1",
+"b": "L63.E728.w3",
+"ia": 168840,
+"ib": 168842
+},
+{
+"id": 28,
+"cat": "A1_same_expert_w1w3",
+"a": "L56.E253.w1",
+"b": "L56.E253.w3",
+"ia": 148599,
+"ib": 148601
+},
+{
+"id": 29,
+"cat": "A1_same_expert_w1w3",
+"a": "L34.E750.w1",
+"b": "L34.E750.w3",
+"ia": 90954,
+"ib": 90956
+},
+{
+"id": 30,
+"cat": "A2_same_expert_w2",
+"a": "L89.E427.w1",
+"b": "L89.E427.w2",
+"ia": 237825,
+"ib": 237826
+},
+{
+"id": 31,
+"cat": "A2_same_expert_w2",
+"a": "L8.E818.w3",
+"b": "L8.E818.w2",
+"ia": 21272,
+"ib": 21271
+},
+{
+"id": 32,
+"cat": "A2_same_expert_w2",
+"a": "L36.E237.w3",
+"b": "L36.E237.w2",
+"ia": 94793,
+"ib": 94792
+},
+{
+"id": 33,
+"cat": "A2_same_expert_w2",
+"a": "L30.E799.w1",
+"b": "L30.E799.w2",
+"ia": 80349,
+"ib": 80350
+},
+{
+"id": 34,
+"cat": "A2_same_expert_w2",
+"a": "L50.E522.w1",
+"b": "L50.E522.w2",
+"ia": 133278,
+"ib": 133279
+},
+{
+"id": 35,
+"cat": "A2_same_expert_w2",
+"a": "L89.E50.w3",
+"b": "L89.E50.w2",
+"ia": 236696,
+"ib": 236695
+},
+{
+"id": 36,
+"cat": "A2_same_expert_w2",
+"a": "L40.E744.w1",
+"b": "L40.E744.w2",
+"ia": 107064,
+"ib": 107065
+},
+{
+"id": 37,
+"cat": "A2_same_expert_w2",
+"a": "L83.E314.w1",
+"b": "L83.E314.w2",
+"ia": 221358,
+"ib": 221359
+},
+{
+"id": 38,
+"cat": "A2_same_expert_w2",
+"a": "L64.E207.w1",
+"b": "L64.E207.w2",
+"ia": 169965,
+"ib": 169966
+},
+{
+"id": 39,
+"cat": "A2_same_expert_w2",
+"a": "L69.E697.w1",
+"b": "L69.E697.w2",
+"ia": 184875,
+"ib": 184876
+},
+{
+"id": 40,
+"cat": "A2_same_expert_w2",
+"a": "L68.E482.w1",
+"b": "L68.E482.w2",
+"ia": 181542,
+"ib": 181543
+},
+{
+"id": 41,
+"cat": "A2_same_expert_w2",
+"a": "L37.E167.w3",
+"b": "L37.E167.w2",
+"ia": 97271,
+"ib": 97270
+},
+{
+"id": 42,
+"cat": "A2_same_expert_w2",
+"a": "L62.E536.w1",
+"b": "L62.E536.w2",
+"ia": 165576,
+"ib": 165577
+},
+{
+"id": 43,
+"cat": "A2_same_expert_w2",
+"a": "L12.E155.w1",
+"b": "L12.E155.w2",
+"ia": 30033,
+"ib": 30034
+},
+{
+"id": 44,
+"cat": "A2_same_expert_w2",
+"a": "L69.E540.w1",
+"b": "L69.E540.w2",
+"ia": 184404,
+"ib": 184405
+},
+{
+"id": 45,
+"cat": "A2_same_expert_w2",
+"a": "L87.E333.w3",
+"b": "L87.E333.w2",
+"ia": 232169,
+"ib": 232168
+},
+{
+"id": 46,
+"cat": "A2_same_expert_w2",
+"a": "L23.E523.w1",
+"b": "L23.E523.w2",
+"ia": 60705,
+"ib": 60706
+},
+{
+"id": 47,
+"cat": "A2_same_expert_w2",
+"a": "L39.E759.w1",
+"b": "L39.E759.w2",
+"ia": 104421,
+"ib": 104422
+},
+{
+"id": 48,
+"cat": "A2_same_expert_w2",
+"a": "L18.E356.w3",
+"b": "L18.E356.w2",
+"ia": 46766,
+"ib": 46765
+},
+{
+"id": 49,
+"cat": "A2_same_expert_w2",
+"a": "L72.E242.w1",
+"b": "L72.E242.w2",
+"ia": 191574,
+"ib": 191575
+},
+{
+"id": 50,
+"cat": "A2_same_expert_w2",
+"a": "L13.E614.w1",
+"b": "L13.E614.w2",
+"ia": 34098,
+"ib": 34099
+},
+{
+"id": 51,
+"cat": "A2_same_expert_w2",
+"a": "L46.E240.w3",
+"b": "L46.E240.w2",
+"ia": 121682,
+"ib": 121681
+},
+{
+"id": 52,
+"cat": "A2_same_expert_w2",
+"a": "L59.E530.w3",
+"b": "L59.E530.w2",
+"ia": 157496,
+"ib": 157495
+},
+{
+"id": 53,
+"cat": "A2_same_expert_w2",
+"a": "L21.E138.w1",
+"b": "L21.E138.w2",
+"ia": 54174,
+"ib": 54175
+},
+{
+"id": 54,
+"cat": "A2_same_expert_w2",
+"a": "L32.E318.w1",
+"b": "L32.E318.w2",
+"ia": 84282,
+"ib": 84283
+},
+{
+"id": 55,
+"cat": "A2_same_expert_w2",
+"a": "L79.E781.w1",
+"b": "L79.E781.w2",
+"ia": 212007,
+"ib": 212008
+},
+{
+"id": 56,
+"cat": "A2_same_expert_w2",
+"a": "L60.E57.w3",
+"b": "L60.E57.w2",
+"ia": 158765,
+"ib": 158764
+},
+{
+"id": 57,
+"cat": "A2_same_expert_w2",
+"a": "L44.E54.w3",
+"b": "L44.E54.w2",
+"ia": 115748,
+"ib": 115747
+},
+{
+"id": 58,
+"cat": "A2_same_expert_w2",
+"a": "L20.E708.w1",
+"b": "L20.E708.w2",
+"ia": 53196,
+"ib": 53197
+},
+{
+"id": 59,
+"cat": "A2_same_expert_w2",
+"a": "L53.E202.w3",
+"b": "L53.E202.w2",
+"ia": 140384,
+"ib": 140383
+},
+{
+"id": 60,
+"cat": "A3_same_layer_same_role",
+"a": "L60.E427.w1",
+"b": "L60.E634.w1",
+"ia": 159873,
+"ib": 160494
+},
+{
+"id": 61,
+"cat": "A3_same_layer_same_role",
+"a": "L91.E469.w1",
+"b": "L91.E821.w1",
+"ia": 243327,
+"ib": 244383
+},
+{
+"id": 62,
+"cat": "A3_same_layer_same_role",
+"a": "L88.E666.w1",
+"b": "L88.E888.w1",
+"ia": 235854,
+"ib": 236520
+},
+{
+"id": 63,
+"cat": "A3_same_layer_same_role",
+"a": "L40.E296.w3",
+"b": "L40.E64.w3",
+"ia": 105722,
+"ib": 105026
+},
+{
+"id": 64,
+"cat": "A3_same_layer_same_role",
+"a": "L57.E846.w1",
+"b": "L57.E71.w1",
+"ia": 153066,
+"ib": 150741
+},
+{
+"id": 65,
+"cat": "A3_same_layer_same_role",
+"a": "L18.E233.w3",
+"b": "L18.E567.w3",
+"ia": 46397,
+"ib": 47399
+},
+{
+"id": 66,
+"cat": "A3_same_layer_same_role",
+"a": "L17.E703.w3",
+"b": "L17.E804.w3",
+"ia": 45119,
+"ib": 45422
+},
+{
+"id": 67,
+"cat": "A3_same_layer_same_role",
+"a": "L37.E133.w2",
+"b": "L37.E271.w2",
+"ia": 97168,
+"ib": 97582
+},
+{
+"id": 68,
+"cat": "A3_same_layer_same_role",
+"a": "L52.E701.w3",
+"b": "L52.E552.w3",
+"ia": 139193,
+"ib": 138746
+},
+{
+"id": 69,
+"cat": "A3_same_layer_same_role",
+"a": "L23.E416.w3",
+"b": "L23.E492.w3",
+"ia": 60386,
+"ib": 60614
+},
+{
+"id": 70,
+"cat": "A3_same_layer_same_role",
+"a": "L77.E481.w2",
+"b": "L77.E525.w2",
+"ia": 205732,
+"ib": 205864
+},
+{
+"id": 71,
+"cat": "A3_same_layer_same_role",
+"a": "L26.E92.w2",
+"b": "L26.E839.w2",
+"ia": 67477,
+"ib": 69718
+},
+{
+"id": 72,
+"cat": "A3_same_layer_same_role",
+"a": "L84.E275.w2",
+"b": "L84.E191.w2",
+"ia": 223930,
+"ib": 223678
+},
+{
+"id": 73,
+"cat": "A3_same_layer_same_role",
+"a": "L48.E174.w1",
+"b": "L48.E580.w1",
+"ia": 126858,
+"ib": 128076
+},
+{
+"id": 74,
+"cat": "A3_same_layer_same_role",
+"a": "L52.E619.w2",
+"b": "L52.E881.w2",
+"ia": 138946,
+"ib": 139732
+},
+{
+"id": 75,
+"cat": "A3_same_layer_same_role",
+"a": "L28.E123.w2",
+"b": "L28.E853.w2",
+"ia": 72946,
+"ib": 75136
+},
+{
+"id": 76,
+"cat": "A3_same_layer_same_role",
+"a": "L3.E504.w2",
+"b": "L3.E92.w2",
+"ia": 6889,
+"ib": 5653
+},
+{
+"id": 77,
+"cat": "A3_same_layer_same_role",
+"a": "L90.E41.w1",
+"b": "L90.E153.w1",
+"ia": 239355,
+"ib": 239691
+},
+{
+"id": 78,
+"cat": "A3_same_layer_same_role",
+"a": "L80.E177.w3",
+"b": "L80.E652.w3",
+"ia": 212885,
+"ib": 214310
+},
+{
+"id": 79,
+"cat": "A3_same_layer_same_role",
+"a": "L42.E628.w1",
+"b": "L42.E587.w1",
+"ia": 112092,
+"ib": 111969
+},
+{
+"id": 80,
+"cat": "A3_same_layer_same_role",
+"a": "L34.E881.w1",
+"b": "L34.E579.w1",
+"ia": 91347,
+"ib": 90441
+},
+{
+"id": 81,
+"cat": "A3_same_layer_same_role",
+"a": "L28.E96.w3",
+"b": "L28.E764.w3",
+"ia": 72866,
+"ib": 74870
+},
+{
+"id": 82,
+"cat": "A3_same_layer_same_role",
+"a": "L51.E513.w2",
+"b": "L51.E145.w2",
+"ia": 135940,
+"ib": 134836
+},
+{
+"id": 83,
+"cat": "A3_same_layer_same_role",
+"a": "L25.E374.w1",
+"b": "L25.E217.w1",
+"ia": 65634,
+"ib": 65163
+},
+{
+"id": 84,
+"cat": "A3_same_layer_same_role",
+"a": "L61.E275.w1",
+"b": "L61.E249.w1",
+"ia": 162105,
+"ib": 162027
+},
+{
+"id": 85,
+"cat": "A3_same_layer_same_role",
+"a": "L86.E376.w2",
+"b": "L86.E56.w2",
+"ia": 229609,
+"ib": 228649
+},
+{
+"id": 86,
+"cat": "A3_same_layer_same_role",
+"a": "L45.E606.w1",
+"b": "L45.E303.w1",
+"ia": 120090,
+"ib": 119181
+},
+{
+"id": 87,
+"cat": "A3_same_layer_same_role",
+"a": "L36.E700.w3",
+"b": "L36.E575.w3",
+"ia": 96182,
+"ib": 95807
+},
+{
+"id": 88,
+"cat": "A3_same_layer_same_role",
+"a": "L47.E878.w3",
+"b": "L47.E874.w3",
+"ia": 126284,
+"ib": 126272
+},
+{
+"id": 89,
+"cat": "A3_same_layer_same_role",
+"a": "L69.E873.w3",
+"b": "L69.E605.w3",
+"ia": 185405,
+"ib": 184601
+},
+{
+"id": 90,
+"cat": "A4_same_layer_other_role",
+"a": "L63.E842.w2",
+"b": "L63.E430.w3",
+"ia": 169183,
+"ib": 167948
+},
+{
+"id": 91,
+"cat": "A4_same_layer_other_role",
+"a": "L66.E676.w3",
+"b": "L66.E293.w1",
+"ia": 176750,
+"ib": 175599
+},
+{
+"id": 92,
+"cat": "A4_same_layer_other_role",
+"a": "L8.E709.w1",
+"b": "L8.E1.w3",
+"ia": 20943,
+"ib": 18821
+},
+{
+"id": 93,
+"cat": "A4_same_layer_other_role",
+"a": "L28.E571.w1",
+"b": "L28.E612.w2",
+"ia": 74289,
+"ib": 74413
+},
+{
+"id": 94,
+"cat": "A4_same_layer_other_role",
+"a": "L36.E353.w2",
+"b": "L36.E186.w3",
+"ia": 95140,
+"ib": 94640
+},
+{
+"id": 95,
+"cat": "A4_same_layer_other_role",
+"a": "L8.E677.w1",
+"b": "L8.E870.w2",
+"ia": 20847,
+"ib": 21427
+},
+{
+"id": 96,
+"cat": "A4_same_layer_other_role",
+"a": "L84.E16.w2",
+"b": "L84.E289.w1",
+"ia": 223153,
+"ib": 223971
+},
+{
+"id": 97,
+"cat": "A4_same_layer_other_role",
+"a": "L33.E391.w3",
+"b": "L33.E389.w1",
+"ia": 87191,
+"ib": 87183
+},
+{
+"id": 98,
+"cat": "A4_same_layer_other_role",
+"a": "L59.E269.w3",
+"b": "L59.E316.w2",
+"ia": 156713,
+"ib": 156853
+},
+{
+"id": 99,
+"cat": "A4_same_layer_other_role",
+"a": "L7.E735.w1",
+"b": "L7.E634.w3",
+"ia": 18333,
+"ib": 18032
+},
+{
+"id": 100,
+"cat": "A4_same_layer_other_role",
+"a": "L60.E423.w2",
+"b": "L60.E218.w1",
+"ia": 159862,
+"ib": 159246
+},
+{
+"id": 101,
+"cat": "A4_same_layer_other_role",
+"a": "L56.E295.w1",
+"b": "L56.E694.w2",
+"ia": 148725,
+"ib": 149923
+},
+{
+"id": 102,
+"cat": "A4_same_layer_other_role",
+"a": "L54.E247.w1",
+"b": "L54.E871.w3",
+"ia": 143205,
+"ib": 145079
+},
+{
+"id": 103,
+"cat": "A4_same_layer_other_role",
+"a": "L78.E191.w1",
+"b": "L78.E325.w3",
+"ia": 207549,
+"ib": 207953
+},
+{
+"id": 104,
+"cat": "A4_same_layer_other_role",
+"a": "L73.E710.w1",
+"b": "L73.E469.w3",
+"ia": 195666,
+"ib": 194945
+},
+{
+"id": 105,
+"cat": "A4_same_layer_other_role",
+"a": "L30.E239.w2",
+"b": "L30.E427.w3",
+"ia": 78670,
+"ib": 79235
+},
+{
+"id": 106,
+"cat": "A4_same_layer_other_role",
+"a": "L10.E194.w3",
+"b": "L10.E187.w2",
+"ia": 24776,
+"ib": 24754
+},
+{
+"id": 107,
+"cat": "A4_same_layer_other_role",
+"a": "L15.E330.w1",
+"b": "L15.E162.w2",
+"ia": 38622,
+"ib": 38119
+},
+{
+"id": 108,
+"cat": "A4_same_layer_other_role",
+"a": "L9.E77.w1",
+"b": "L9.E556.w3",
+"ia": 21735,
+"ib": 23174
+},
+{
+"id": 109,
+"cat": "A4_same_layer_other_role",
+"a": "L82.E459.w3",
+"b": "L82.E776.w2",
+"ia": 219107,
+"ib": 220057
+},
+{
+"id": 110,
+"cat": "A4_same_layer_other_role",
+"a": "L27.E391.w2",
+"b": "L27.E280.w1",
+"ia": 71062,
+"ib": 70728
+},
+{
+"id": 111,
+"cat": "A4_same_layer_other_role",
+"a": "L40.E416.w1",
+"b": "L40.E317.w2",
+"ia": 106080,
+"ib": 105784
+},
+{
+"id": 112,
+"cat": "A4_same_layer_other_role",
+"a": "L5.E422.w2",
+"b": "L5.E235.w3",
+"ia": 12019,
+"ib": 11459
+},
+{
+"id": 113,
+"cat": "A4_same_layer_other_role",
+"a": "L5.E106.w1",
+"b": "L5.E435.w3",
+"ia": 11070,
+"ib": 12059
+},
+{
+"id": 114,
+"cat": "A4_same_layer_other_role",
+"a": "L7.E346.w2",
+"b": "L7.E197.w1",
+"ia": 17167,
+"ib": 16719
+},
+{
+"id": 115,
+"cat": "A4_same_layer_other_role",
+"a": "L7.E631.w3",
+"b": "L7.E397.w2",
+"ia": 18023,
+"ib": 17320
+},
+{
+"id": 116,
+"cat": "A4_same_layer_other_role",
+"a": "L25.E746.w1",
+"b": "L25.E558.w2",
+"ia": 66750,
+"ib": 66187
+},
+{
+"id": 117,
+"cat": "A4_same_layer_other_role",
+"a": "L52.E394.w2",
+"b": "L52.E655.w1",
+"ia": 138271,
+"ib": 139053
+},
+{
+"id": 118,
+"cat": "A4_same_layer_other_role",
+"a": "L74.E506.w2",
+"b": "L74.E512.w1",
+"ia": 197743,
+"ib": 197760
+},
+{
+"id": 119,
+"cat": "A4_same_layer_other_role",
+"a": "L34.E17.w2",
+"b": "L34.E330.w3",
+"ia": 88756,
+"ib": 89696
+},
+{
+"id": 120,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L2.E581.w1",
+"b": "L3.E581.w1",
+"ia": 4431,
+"ib": 7119
+},
+{
+"id": 121,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L39.E214.w2",
+"b": "L40.E214.w2",
+"ia": 102787,
+"ib": 105475
+},
+{
+"id": 122,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L77.E548.w3",
+"b": "L78.E548.w3",
+"ia": 205934,
+"ib": 208622
+},
+{
+"id": 123,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L18.E390.w1",
+"b": "L19.E390.w1",
+"ia": 46866,
+"ib": 49554
+},
+{
+"id": 124,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L32.E284.w1",
+"b": "L33.E284.w1",
+"ia": 84180,
+"ib": 86868
+},
+{
+"id": 125,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L46.E814.w2",
+"b": "L47.E814.w2",
+"ia": 123403,
+"ib": 126091
+},
+{
+"id": 126,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L49.E45.w1",
+"b": "L50.E45.w1",
+"ia": 129159,
+"ib": 131847
+},
+{
+"id": 127,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L61.E232.w3",
+"b": "L62.E232.w3",
+"ia": 161978,
+"ib": 164666
+},
+{
+"id": 128,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L31.E119.w2",
+"b": "L32.E119.w2",
+"ia": 80998,
+"ib": 83686
+},
+{
+"id": 129,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L19.E769.w2",
+"b": "L20.E769.w2",
+"ia": 50692,
+"ib": 53380
+},
+{
+"id": 130,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L3.E85.w3",
+"b": "L4.E85.w3",
+"ia": 5633,
+"ib": 8321
+},
+{
+"id": 131,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L51.E399.w3",
+"b": "L52.E399.w3",
+"ia": 135599,
+"ib": 138287
+},
+{
+"id": 132,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L64.E352.w1",
+"b": "L65.E352.w1",
+"ia": 170400,
+"ib": 173088
+},
+{
+"id": 133,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L76.E786.w2",
+"b": "L77.E786.w2",
+"ia": 203959,
+"ib": 206647
+},
+{
+"id": 134,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L32.E86.w2",
+"b": "L33.E86.w2",
+"ia": 83587,
+"ib": 86275
+},
+{
+"id": 135,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L37.E105.w3",
+"b": "L38.E105.w3",
+"ia": 97085,
+"ib": 99773
+},
+{
+"id": 136,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L27.E409.w3",
+"b": "L28.E409.w3",
+"ia": 71117,
+"ib": 73805
+},
+{
+"id": 137,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L50.E16.w1",
+"b": "L51.E16.w1",
+"ia": 131760,
+"ib": 134448
+},
+{
+"id": 138,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L40.E70.w2",
+"b": "L41.E70.w2",
+"ia": 105043,
+"ib": 107731
+},
+{
+"id": 139,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L91.E87.w3",
+"b": "L92.E87.w3",
+"ia": 242183,
+"ib": 244871
+},
+{
+"id": 140,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L32.E611.w1",
+"b": "L33.E611.w1",
+"ia": 85161,
+"ib": 87849
+},
+{
+"id": 141,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L12.E726.w2",
+"b": "L13.E726.w2",
+"ia": 31747,
+"ib": 34435
+},
+{
+"id": 142,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L89.E94.w1",
+"b": "L90.E94.w1",
+"ia": 236826,
+"ib": 239514
+},
+{
+"id": 143,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L17.E740.w2",
+"b": "L18.E740.w2",
+"ia": 45229,
+"ib": 47917
+},
+{
+"id": 144,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L88.E887.w2",
+"b": "L89.E887.w2",
+"ia": 236518,
+"ib": 239206
+},
+{
+"id": 145,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L76.E372.w3",
+"b": "L77.E372.w3",
+"ia": 202718,
+"ib": 205406
+},
+{
+"id": 146,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L57.E401.w3",
+"b": "L58.E401.w3",
+"ia": 151733,
+"ib": 154421
+},
+{
+"id": 147,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L56.E519.w3",
+"b": "L57.E519.w3",
+"ia": 149399,
+"ib": 152087
+},
+{
+"id": 148,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L30.E856.w1",
+"b": "L31.E856.w1",
+"ia": 80520,
+"ib": 83208
+},
+{
+"id": 149,
+"cat": "A5_adjacent_layer_same_expert",
+"a": "L3.E95.w3",
+"b": "L4.E95.w3",
+"ia": 5663,
+"ib": 8351
+},
+{
+"id": 150,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L28.E183.w2",
+"b": "L29.E213.w2",
+"ia": 73126,
+"ib": 75904
+},
+{
+"id": 151,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L54.E599.w2",
+"b": "L55.E875.w2",
+"ia": 144262,
+"ib": 147778
+},
+{
+"id": 152,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L90.E134.w3",
+"b": "L91.E409.w3",
+"ia": 239636,
+"ib": 243149
+},
+{
+"id": 153,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L7.E49.w1",
+"b": "L8.E815.w1",
+"ia": 16275,
+"ib": 21261
+},
+{
+"id": 154,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L75.E571.w2",
+"b": "L76.E346.w2",
+"ia": 200626,
+"ib": 202639
+},
+{
+"id": 155,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L81.E333.w2",
+"b": "L82.E817.w2",
+"ia": 216040,
+"ib": 220180
+},
+{
+"id": 156,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L3.E152.w2",
+"b": "L4.E162.w2",
+"ia": 5833,
+"ib": 8551
+},
+{
+"id": 157,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L12.E232.w3",
+"b": "L13.E804.w3",
+"ia": 30266,
+"ib": 34670
+},
+{
+"id": 158,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L30.E301.w3",
+"b": "L31.E32.w3",
+"ia": 78857,
+"ib": 80738
+},
+{
+"id": 159,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L57.E155.w3",
+"b": "L58.E476.w3",
+"ia": 150995,
+"ib": 154646
+},
+{
+"id": 160,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L52.E281.w3",
+"b": "L53.E285.w3",
+"ia": 137933,
+"ib": 140633
+},
+{
+"id": 161,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L33.E630.w1",
+"b": "L34.E695.w1",
+"ia": 87906,
+"ib": 90789
+},
+{
+"id": 162,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L11.E103.w1",
+"b": "L12.E812.w1",
+"ia": 27189,
+"ib": 32004
+},
+{
+"id": 163,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L30.E24.w3",
+"b": "L31.E93.w3",
+"ia": 78026,
+"ib": 80921
+},
+{
+"id": 164,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L22.E109.w2",
+"b": "L23.E792.w2",
+"ia": 56776,
+"ib": 61513
+},
+{
+"id": 165,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L23.E661.w1",
+"b": "L24.E218.w1",
+"ia": 61119,
+"ib": 62478
+},
+{
+"id": 166,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L91.E867.w1",
+"b": "L92.E132.w1",
+"ia": 244521,
+"ib": 245004
+},
+{
+"id": 167,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L59.E632.w3",
+"b": "L60.E523.w3",
+"ia": 157802,
+"ib": 160163
+},
+{
+"id": 168,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L48.E715.w1",
+"b": "L49.E536.w1",
+"ia": 128481,
+"ib": 130632
+},
+{
+"id": 169,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L87.E137.w3",
+"b": "L88.E875.w3",
+"ia": 231581,
+"ib": 236483
+},
+{
+"id": 170,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L89.E71.w2",
+"b": "L90.E108.w2",
+"ia": 236758,
+"ib": 239557
+},
+{
+"id": 171,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L75.E666.w2",
+"b": "L76.E292.w2",
+"ia": 200911,
+"ib": 202477
+},
+{
+"id": 172,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L34.E314.w1",
+"b": "L35.E683.w1",
+"ia": 89646,
+"ib": 93441
+},
+{
+"id": 173,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L56.E223.w1",
+"b": "L57.E34.w1",
+"ia": 148509,
+"ib": 150630
+},
+{
+"id": 174,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L62.E287.w1",
+"b": "L63.E763.w1",
+"ia": 164829,
+"ib": 168945
+},
+{
+"id": 175,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L23.E667.w2",
+"b": "L24.E106.w2",
+"ia": 61138,
+"ib": 62143
+},
+{
+"id": 176,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L31.E478.w1",
+"b": "L32.E270.w1",
+"ia": 82074,
+"ib": 84138
+},
+{
+"id": 177,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L36.E851.w2",
+"b": "L37.E834.w2",
+"ia": 96634,
+"ib": 99271
+},
+{
+"id": 178,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L62.E475.w1",
+"b": "L63.E654.w1",
+"ia": 165393,
+"ib": 168618
+},
+{
+"id": 179,
+"cat": "A6_adjacent_layer_random_expert",
+"a": "L64.E94.w2",
+"b": "L65.E606.w2",
+"ia": 169627,
+"ib": 173851
+},
+{
+"id": 180,
+"cat": "A7_far_layer",
+"a": "L9.E761.w2",
+"b": "L67.E719.w2",
+"ia": 23788,
+"ib": 179566
+},
+{
+"id": 181,
+"cat": "A7_far_layer",
+"a": "L5.E868.w2",
+"b": "L92.E651.w2",
+"ia": 13357,
+"ib": 246562
+},
+{
+"id": 182,
+"cat": "A7_far_layer",
+"a": "L87.E677.w3",
+"b": "L39.E881.w3",
+"ia": 233201,
+"ib": 104789
+},
+{
+"id": 183,
+"cat": "A7_far_layer",
+"a": "L81.E192.w1",
+"b": "L26.E744.w1",
+"ia": 215616,
+"ib": 69432
+},
+{
+"id": 184,
+"cat": "A7_far_layer",
+"a": "L29.E325.w1",
+"b": "L84.E816.w1",
+"ia": 76239,
+"ib": 225552
+},
+{
+"id": 185,
+"cat": "A7_far_layer",
+"a": "L2.E833.w2",
+"b": "L92.E606.w2",
+"ia": 5188,
+"ib": 246427
+},
+{
+"id": 186,
+"cat": "A7_far_layer",
+"a": "L81.E448.w1",
+"b": "L3.E619.w1",
+"ia": 216384,
+"ib": 7233
+},
+{
+"id": 187,
+"cat": "A7_far_layer",
+"a": "L25.E722.w2",
+"b": "L86.E497.w2",
+"ia": 66679,
+"ib": 229972
+},
+{
+"id": 188,
+"cat": "A7_far_layer",
+"a": "L23.E803.w3",
+"b": "L81.E593.w3",
+"ia": 61547,
+"ib": 216821
+},
+{
+"id": 189,
+"cat": "A7_far_layer",
+"a": "L78.E151.w2",
+"b": "L27.E792.w2",
+"ia": 207430,
+"ib": 72265
+},
+{
+"id": 190,
+"cat": "A7_far_layer",
+"a": "L74.E314.w3",
+"b": "L5.E469.w3",
+"ia": 197168,
+"ib": 12161
+},
+{
+"id": 191,
+"cat": "A7_far_layer",
+"a": "L80.E550.w1",
+"b": "L16.E387.w1",
+"ia": 214002,
+"ib": 41481
+},
+{
+"id": 192,
+"cat": "A7_far_layer",
+"a": "L31.E654.w3",
+"b": "L83.E22.w3",
+"ia": 82604,
+"ib": 220484
+},
+{
+"id": 193,
+"cat": "A7_far_layer",
+"a": "L12.E839.w2",
+"b": "L69.E775.w2",
+"ia": 32086,
+"ib": 185110
+},
+{
+"id": 194,
+"cat": "A7_far_layer",
+"a": "L92.E30.w3",
+"b": "L30.E613.w3",
+"ia": 244700,
+"ib": 79793
+},
+{
+"id": 195,
+"cat": "A7_far_layer",
+"a": "L14.E234.w2",
+"b": "L60.E570.w2",
+"ia": 35647,
+"ib": 160303
+},
+{
+"id": 196,
+"cat": "A7_far_layer",
+"a": "L82.E316.w3",
+"b": "L33.E335.w3",
+"ia": 218678,
+"ib": 87023
+},
+{
+"id": 197,
+"cat": "A7_far_layer",
+"a": "L4.E824.w2",
+"b": "L79.E321.w2",
+"ia": 10537,
+"ib": 210628
+},
+{
+"id": 198,
+"cat": "A7_far_layer",
+"a": "L16.E621.w2",
+"b": "L71.E114.w2",
+"ia": 42184,
+"ib": 188503
+},
+{
+"id": 199,
+"cat": "A7_far_layer",
+"a": "L29.E57.w1",
+"b": "L84.E543.w1",
+"ia": 75435,
+"ib": 224733
+},
+{
+"id": 200,
+"cat": "A7_far_layer",
+"a": "L10.E438.w1",
+"b": "L87.E372.w1",
+"ia": 25506,
+"ib": 232284
+},
+{
+"id": 201,
+"cat": "A7_far_layer",
+"a": "L14.E739.w3",
+"b": "L81.E872.w3",
+"ia": 37163,
+"ib": 217658
+},
+{
+"id": 202,
+"cat": "A7_far_layer",
+"a": "L2.E308.w1",
+"b": "L62.E681.w1",
+"ia": 3612,
+"ib": 166011
+},
+{
+"id": 203,
+"cat": "A7_far_layer",
+"a": "L15.E601.w1",
+"b": "L66.E51.w1",
+"ia": 39435,
+"ib": 174873
+},
+{
+"id": 204,
+"cat": "A7_far_layer",
+"a": "L66.E620.w3",
+"b": "L7.E601.w3",
+"ia": 176582,
+"ib": 17933
+},
+{
+"id": 205,
+"cat": "A7_far_layer",
+"a": "L52.E403.w2",
+"b": "L2.E695.w2",
+"ia": 138298,
+"ib": 4774
+},
+{
+"id": 206,
+"cat": "A7_far_layer",
+"a": "L83.E703.w2",
+"b": "L34.E657.w2",
+"ia": 222526,
+"ib": 90676
+},
+{
+"id": 207,
+"cat": "A7_far_layer",
+"a": "L15.E696.w3",
+"b": "L62.E71.w3",
+"ia": 39722,
+"ib": 164183
+},
+{
+"id": 208,
+"cat": "A7_far_layer",
+"a": "L60.E329.w2",
+"b": "L9.E315.w2",
+"ia": 159580,
+"ib": 22450
+},
+{
+"id": 209,
+"cat": "A7_far_layer",
+"a": "L82.E775.w3",
+"b": "L23.E365.w3",
+"ia": 220055,
+"ib": 60233
+},
+{
+"id": 210,
+"cat": "A8_self",
+"a": "L36.E81.w3",
+"b": "L36.E81.w3",
+"ia": 94325,
+"ib": 94325
+},
+{
+"id": 211,
+"cat": "A8_self",
+"a": "L87.E649.w3",
+"b": "L87.E649.w3",
+"ia": 233117,
+"ib": 233117
+},
+{
+"id": 212,
+"cat": "A8_self",
+"a": "L76.E555.w2",
+"b": "L76.E555.w2",
+"ia": 203266,
+"ib": 203266
+},
+{
+"id": 213,
+"cat": "A8_self",
+"a": "L79.E457.w2",
+"b": "L79.E457.w2",
+"ia": 211036,
+"ib": 211036
+},
+{
+"id": 214,
+"cat": "A8_self",
+"a": "L34.E638.w2",
+"b": "L34.E638.w2",
+"ia": 90619,
+"ib": 90619
+},
+{
+"id": 215,
+"cat": "A8_self",
+"a": "L42.E588.w3",
+"b": "L42.E588.w3",
+"ia": 111974,
+"ib": 111974
+},
+{
+"id": 216,
+"cat": "A8_self",
+"a": "L25.E45.w1",
+"b": "L25.E45.w1",
+"ia": 64647,
+"ib": 64647
+},
+{
+"id": 217,
+"cat": "A8_self",
+"a": "L18.E695.w2",
+"b": "L18.E695.w2",
+"ia": 47782,
+"ib": 47782
+},
+{
+"id": 218,
+"cat": "A8_self",
+"a": "L62.E496.w3",
+"b": "L62.E496.w3",
+"ia": 165458,
+"ib": 165458
+},
+{
+"id": 219,
+"cat": "A8_self",
+"a": "L31.E841.w2",
+"b": "L31.E841.w2",
+"ia": 83164,
+"ib": 83164
+},
+{
+"id": 220,
+"cat": "A8_self",
+"a": "L51.E23.w1",
+"b": "L51.E23.w1",
+"ia": 134469,
+"ib": 134469
+},
+{
+"id": 221,
+"cat": "A8_self",
+"a": "L26.E247.w3",
+"b": "L26.E247.w3",
+"ia": 67943,
+"ib": 67943
+},
+{
+"id": 222,
+"cat": "A8_self",
+"a": "L8.E683.w1",
+"b": "L8.E683.w1",
+"ia": 20865,
+"ib": 20865
+},
+{
+"id": 223,
+"cat": "A8_self",
+"a": "L71.E238.w2",
+"b": "L71.E238.w2",
+"ia": 188875,
+"ib": 188875
+},
+{
+"id": 224,
+"cat": "A8_self",
+"a": "L84.E271.w1",
+"b": "L84.E271.w1",
+"ia": 223917,
+"ib": 223917
+},
+{
+"id": 225,
+"cat": "A8_self",
+"a": "L91.E770.w1",
+"b": "L91.E770.w1",
+"ia": 244230,
+"ib": 244230
+},
+{
+"id": 226,
+"cat": "A8_self",
+"a": "L47.E433.w2",
+"b": "L47.E433.w2",
+"ia": 124948,
+"ib": 124948
+},
+{
+"id": 227,
+"cat": "A8_self",
+"a": "L41.E143.w2",
+"b": "L41.E143.w2",
+"ia": 107950,
+"ib": 107950
+},
+{
+"id": 228,
+"cat": "A8_self",
+"a": "L73.E251.w1",
+"b": "L73.E251.w1",
+"ia": 194289,
+"ib": 194289
+},
+{
+"id": 229,
+"cat": "A8_self",
+"a": "L88.E353.w3",
+"b": "L88.E353.w3",
+"ia": 234917,
+"ib": 234917
+},
+{
+"id": 230,
+"cat": "A8_self",
+"a": "L11.E863.w3",
+"b": "L11.E863.w3",
+"ia": 29471,
+"ib": 29471
+},
+{
+"id": 231,
+"cat": "A8_self",
+"a": "L90.E268.w3",
+"b": "L90.E268.w3",
+"ia": 240038,
+"ib": 240038
+},
+{
+"id": 232,
+"cat": "A8_self",
+"a": "L63.E630.w2",
+"b": "L63.E630.w2",
+"ia": 168547,
+"ib": 168547
+},
+{
+"id": 233,
+"cat": "A8_self",
+"a": "L90.E741.w2",
+"b": "L90.E741.w2",
+"ia": 241456,
+"ib": 241456
+},
+{
+"id": 234,
+"cat": "A8_self",
+"a": "L41.E66.w1",
+"b": "L41.E66.w1",
+"ia": 107718,
+"ib": 107718
+},
+{
+"id": 235,
+"cat": "A8_self",
+"a": "L55.E140.w1",
+"b": "L55.E140.w1",
+"ia": 145572,
+"ib": 145572
+},
+{
+"id": 236,
+"cat": "A8_self",
+"a": "L81.E774.w3",
+"b": "L81.E774.w3",
+"ia": 217364,
+"ib": 217364
+},
+{
+"id": 237,
+"cat": "A8_self",
+"a": "L4.E253.w1",
+"b": "L4.E253.w1",
+"ia": 8823,
+"ib": 8823
+},
+{
+"id": 238,
+"cat": "A8_self",
+"a": "L18.E359.w1",
+"b": "L18.E359.w1",
+"ia": 46773,
+"ib": 46773
+},
+{
+"id": 239,
+"cat": "A8_self",
+"a": "L42.E666.w1",
+"b": "L42.E666.w1",
+"ia": 112206,
+"ib": 112206
+}
+]
+}

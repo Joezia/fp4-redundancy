@@ -1,0 +1,220 @@
+{
+ "results": {
+  "A.global_shift finds planted shift": {
+   "pass": true,
+   "argmax": [
+    -5,
+    37
+   ],
+   "want": [
+    -5,
+    37
+   ],
+   "gain_at_shift": 1.6086954991797413,
+   "gain_same_pos": -0.0068354424908392275,
+   "z": 740.0657958984375,
+   "v_shift": [
+    -5,
+    37
+   ],
+   "sign_shift": [
+    -5,
+    37
+   ]
+  },
+  "A.independent pair shows nothing": {
+   "pass": true,
+   "gain_at_shift": -0.006477382464241566,
+   "gain_same_pos": -0.006894001387736992,
+   "z": 4.086665630340576
+  },
+  "A.same_position detects co-located copy": {
+   "pass": true,
+   "gain": 1.0069132502507623,
+   "gain_sign": 0.19096667193996597
+  },
+  "A.local_search finds planted tiles": {
+   "pass": true,
+   "t32": {
+    "pos": [
+     10,
+     300
+    ],
+    "eq_max": 0.8154296875,
+    "eq_p0": 0.09331798553466797,
+    "eq_at": [
+     100,
+     40
+    ],
+    "evidence_bits": 2160.57518370903,
+    "bits_max": 0.90087890625
+   },
+   "t128": {
+    "pos": [
+     120,
+     0
+    ],
+    "eq_max": 0.8173828125,
+    "eq_p0": 0.09523670375347137,
+    "eq_at": [
+     3,
+     350
+    ],
+    "evidence_bits": 34610.96388268913,
+    "bits_max": 0.91064453125
+   },
+   "max_other_eq": 0.146484375,
+   "max_other_evidence": 2.931694819884367
+  },
+  "A.local_search self pair finds internal copy, excludes own position": {
+   "pass": true,
+   "t": {
+    "pos": [
+     150,
+     400
+    ],
+    "eq_max": 1.0,
+    "eq_p0": 0.09572981297969818,
+    "eq_at": [
+     20,
+     60
+    ],
+    "evidence_bits": 3598.0599096695105,
+    "bits_max": 1.0
+   }
+  },
+  "B1 two hash subsets add up": {
+   "pass": true,
+   "split": {
+    "block32": 4121,
+    "patch8x32": 513
+   },
+   "parts": [
+    {
+     "block32": 2056,
+     "patch8x32": 257
+    },
+    {
+     "block32": 2065,
+     "patch8x32": 256
+    }
+   ]
+  },
+  "B1 cross-matrix repeat counts": {
+   "pass": true,
+   "got": {
+    "matrix": 1,
+    "row_codes": 257,
+    "col_codes": 512,
+    "row_scales": 256,
+    "block32": 4121,
+    "patch8x32": 513
+   },
+   "want": {
+    "matrix": 1,
+    "row_codes": 257,
+    "col_codes": 512,
+    "row_scales": 256,
+    "block32": 4121,
+    "patch8x32": 513
+   }
+  },
+  "B1 within-matrix duplicate counts": {
+   "pass": true,
+   "within": {
+    "matrix": 0,
+    "row_codes": 0,
+    "col_codes": 0,
+    "row_scales": 0,
+    "block32": 1,
+    "patch8x32": 0
+   }
+  },
+  "B2 finds noisy negated neuron-vector copy": {
+   "pass": true,
+   "top": [
+    2,
+    77
+   ],
+   "want": [
+    2,
+    77
+   ],
+   "cos": 0.7294921875,
+   "bits_top": 0.375,
+   "null_max_cos": 0.226806640625,
+   "real_other_max_cos": 0.2132568359375
+  },
+  "B2 finds exact hidden-vector copy (bits = 1)": {
+   "pass": true,
+   "top": [
+    0,
+    5
+   ],
+   "want": [
+    0,
+    5
+   ],
+   "bits_dot": 1.0
+  },
+  "B3 finds planted patch 1x64": {
+   "pass": true,
+   "where": [
+    33,
+    20,
+    10
+   ],
+   "want": [
+    33,
+    20,
+    10
+   ],
+   "best_bits": 0.90234375,
+   "null_max_bits": 0.734375
+  },
+  "B3 finds planted patch 8x8": {
+   "pass": true,
+   "where": [
+    33,
+    60,
+    100
+   ],
+   "want": [
+    33,
+    60,
+    100
+   ],
+   "best_bits": 0.9140625,
+   "null_max_bits": 0.75
+  },
+  "B3 finds planted patch 16x16": {
+   "pass": true,
+   "where": [
+    33,
+    120,
+    150
+   ],
+   "want": [
+    33,
+    120,
+    150
+   ],
+   "best_bits": 0.923828125,
+   "null_max_bits": 0.64453125
+  },
+  "B3 excludes own window 1x64": {
+   "pass": true,
+   "n_own": 0
+  },
+  "B3 excludes own window 8x8": {
+   "pass": true,
+   "n_own": 0
+  },
+  "B3 excludes own window 16x16": {
+   "pass": true,
+   "n_own": 0
+  }
+ },
+ "seconds": 5.4289984703063965,
+ "all_pass": true
+}

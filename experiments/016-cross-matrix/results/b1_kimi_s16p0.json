@@ -1,0 +1,236 @@
+{
+ "model": "kimi",
+ "n_matrices": 247296,
+ "hash_subsets_for_blocks_patches": 16,
+ "subset_index": 0,
+ "units": {
+  "matrix": {
+   "n_units_model": 247296,
+   "n_units_checked_cross": 247296,
+   "within_matrix": {
+    "n": 247296,
+    "dup_units": 0,
+    "dup_groups": 0,
+    "dup_cost_bits": 0.0,
+    "matrices_with_dups": 0
+   },
+   "cross_matrix": {
+    "dup_groups": 0,
+    "repeat_units": 0,
+    "gross_cost_bits": 0.0,
+    "net_positive_bits_after_ref": 0.0,
+    "ref_cost_bits_per_repeat": 18.915879378835772,
+    "flag_cost_bits_all_units": 9.783688484236137,
+    "expected_false_hash_collisions": 1.657611339855869e-09,
+    "max_group_size": 0,
+    "cost_of_top_groups": [],
+    "size_of_top_groups": []
+   },
+   "note": ""
+  },
+  "row_codes": {
+   "n_units_model": 801898496,
+   "n_units_checked_cross": 801898496,
+   "within_matrix": {
+    "n": 801898496,
+    "dup_units": 0,
+    "dup_groups": 0,
+    "dup_cost_bits": 0.0,
+    "matrices_with_dups": 0
+   },
+   "cross_matrix": {
+    "dup_groups": 0,
+    "repeat_units": 0,
+    "gross_cost_bits": 0.0,
+    "net_positive_bits_after_ref": 0.0,
+    "ref_cost_bits_per_repeat": 30.578844391558203,
+    "flag_cost_bits_all_units": 15.615168912672331,
+    "expected_false_hash_collisions": 0.017429666571935343,
+    "max_group_size": 0,
+    "cost_of_top_groups": [],
+    "size_of_top_groups": []
+   },
+   "note": ""
+  },
+  "row_scales": {
+   "n_units_model": 801898496,
+   "n_units_checked_cross": 801898186,
+   "within_matrix": {
+    "n": 801898496,
+    "dup_units": 310,
+    "dup_groups": 292,
+    "dup_cost_bits": 6907.9862387091525,
+    "matrices_with_dups": 279
+   },
+   "cross_matrix": {
+    "dup_groups": 308364,
+    "repeat_units": 627051,
+    "gross_cost_bits": 20830513.128173828,
+    "net_positive_bits_after_ref": 2842302.597499381,
+    "ref_cost_bits_per_repeat": 30.578844391558203,
+    "flag_cost_bits_all_units": 7375860.145055508,
+    "expected_false_hash_collisions": 0.017429653095926537,
+    "max_group_size": 4440,
+    "cost_of_top_groups": [
+     29.74921417236328,
+     25.47464942932129,
+     63.84418869018555,
+     61.32301712036133,
+     52.186832427978516,
+     56.42780303955078,
+     56.15573501586914,
+     57.56583023071289,
+     46.958595275878906,
+     51.042274475097656,
+     50.99363708496094,
+     52.614776611328125,
+     51.75681686401367,
+     46.30122756958008,
+     47.64642333984375,
+     46.576866149902344,
+     43.45412826538086,
+     47.91878128051758,
+     49.174312591552734,
+     47.15602111816406
+    ],
+    "size_of_top_groups": [
+     4440,
+     789,
+     271,
+     255,
+     288,
+     262,
+     259,
+     241,
+     279,
+     256,
+     256,
+     236,
+     239,
+     267,
+     259,
+     260,
+     277,
+     251,
+     244,
+     253
+    ]
+   },
+   "note": ""
+  },
+  "col_codes": {
+   "n_units_model": 844103680,
+   "n_units_checked_cross": 844103680,
+   "within_matrix": {
+    "n": 844103680,
+    "dup_units": 0,
+    "dup_groups": 0,
+    "dup_cost_bits": 0.0,
+    "matrices_with_dups": 0
+   },
+   "cross_matrix": {
+    "dup_groups": 0,
+    "repeat_units": 0,
+    "gross_cost_bits": 0.0,
+    "net_positive_bits_after_ref": 0.0,
+    "ref_cost_bits_per_repeat": 30.65284497300198,
+    "flag_cost_bits_all_units": 15.652171323970766,
+    "expected_false_hash_collisions": 0.01931264994240678,
+    "max_group_size": 0,
+    "cost_of_top_groups": [],
+    "size_of_top_groups": []
+   },
+   "note": ""
+  },
+  "block32": {
+   "n_units_model": 85085650944,
+   "n_units_checked_cross": 5317881174,
+   "within_matrix": {
+    "n": 85085650944,
+    "dup_units": 0,
+    "dup_groups": 0,
+    "dup_cost_bits": 0.0,
+    "matrices_with_dups": 0
+   },
+   "cross_matrix": {
+    "dup_groups": 17,
+    "repeat_units": 17,
+    "gross_cost_bits": 2048.75,
+    "net_positive_bits_after_ref": 1414.5106543725528,
+    "ref_cost_bits_per_repeat": 37.308196801614535,
+    "flag_cost_bits_all_units": 520.7618157791363,
+    "expected_false_hash_collisions": 12.2644343359305,
+    "max_group_size": 2,
+    "cost_of_top_groups": [
+     141.5,
+     134.5,
+     124.75,
+     120.5,
+     120.0,
+     119.5,
+     118.5,
+     118.5,
+     118.25,
+     118.0,
+     117.75,
+     117.75,
+     117.75,
+     116.0,
+     115.75,
+     115.0,
+     114.75
+    ],
+    "size_of_top_groups": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ]
+   },
+   "note": "cross-matrix check of this unit covers hash subset 0 of 16 (disjoint subsets; units are assigned by hash, so repeated units fall in the same subset)"
+  },
+  "patch8x32": {
+   "n_units_model": 10635706368,
+   "n_units_checked_cross": 664760449,
+   "within_matrix": {
+    "n": 10635706368,
+    "dup_units": 0,
+    "dup_groups": 0,
+    "dup_cost_bits": 0.0,
+    "matrices_with_dups": 0
+   },
+   "cross_matrix": {
+    "dup_groups": 1,
+    "repeat_units": 1,
+    "gross_cost_bits": 1012.0,
+    "net_positive_bits_after_ref": 977.6918031983855,
+    "ref_cost_bits_per_repeat": 34.308196801614535,
+    "flag_cost_bits_all_units": 45.78813813845555,
+    "expected_false_hash_collisions": 0.19164637493712716,
+    "max_group_size": 2,
+    "cost_of_top_groups": [
+     1012.0
+    ],
+    "size_of_top_groups": [
+     2
+    ]
+   },
+   "note": "cross-matrix check of this unit covers hash subset 0 of 16 (disjoint subsets; units are assigned by hash, so repeated units fall in the same subset)"
+  }
+ },
+ "seconds_read_hash": 3093.602258205414,
+ "seconds_total": 3607.293314218521
+}

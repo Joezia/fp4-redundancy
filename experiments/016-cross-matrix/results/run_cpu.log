@@ -1,0 +1,2 @@
+experiments/016-cross-matrix/run_cpu.sh: line 7: 4108131 Killed                  $PY $D/scan.py hash deepseek --workers 48 > $D/results/b1_deepseek.log 2>&1
+CPU_QUEUE_DONE
