@@ -47,3 +47,6 @@ experiments/015-ans-r1r2/results/ans_r1_deepseek_items.jsonl
 experiments/015-ans-r1r2/results/ans_kimi_big_items.jsonl
 experiments/015-ans-r1r2/results/ans_r1_kimi_big_items.jsonl
 experiments/018-eval-calibration/results/*.npz
+
+# 010 bit regrouping: global count tables (230 MB / 165 MB) stay local; the summaries are committed
+experiments/010-transforms/results/bitregroup/global_*.npz
